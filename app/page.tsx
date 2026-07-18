@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Calculator, Crosshair, Swords } from "lucide-react";
 import { PointsCalculator } from "@/components/calculator/PointsCalculator";
 import { RequiredRating } from "@/components/calculator/RequiredRating";
@@ -274,6 +275,38 @@ export default function Home() {
               mediocre 5v5 rating — enter both above and the calculator will
               highlight whichever team actually pays more.
             </p>
+          </section>
+
+          <section aria-labelledby="more-tools">
+            <SectionHeading id="more-tools">
+              More TBC Classic tools
+            </SectionHeading>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <Link
+                href="/classes"
+                className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-accent/50"
+              >
+                <span className="text-sm font-semibold text-foreground">
+                  BiS lists &amp; talent builds
+                </span>
+                <span className="mt-1 block text-xs leading-relaxed text-muted">
+                  Arena PvP and phase-by-phase PvE best in slot for every
+                  class and spec, with gems, enchants and stat priorities.
+                </span>
+              </Link>
+              <Link
+                href="/talent-calculator"
+                className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-accent/50"
+              >
+                <span className="text-sm font-semibold text-foreground">
+                  TBC talent calculator
+                </span>
+                <span className="mt-1 block text-xs leading-relaxed text-muted">
+                  Plan your 61 points with real tier and prerequisite rules,
+                  then share the build with a link.
+                </span>
+              </Link>
+            </div>
           </section>
 
           <section aria-labelledby="faq">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LegalPage } from "@/components/LegalPage";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -116,7 +117,7 @@ export default function PrivacyPolicyPage() {
       <h2>Contact</h2>
       <p>
         Questions about this policy? Reach out via the{" "}
-        <a href="/contact">contact page</a>.
+        <Link href="/contact">contact page</Link>.
       </p>
     </LegalPage>
   );

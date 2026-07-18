@@ -1,0 +1,151 @@
+{
+  "class": "shaman",
+  "spec": "restoration",
+  "content": "pvp",
+  "season": 2,
+  "ratingRange": [1700, 2200],
+  "sampleSize": 214,
+  "updatedAt": "2026-07-01",
+  "blurb": "Restoration Shaman is the premier 5v5 healer of TBC arena and a staple of 2v2 drain comps, built around Earth Shield uptime, Nature's Swiftness clutch heals, and totem control (Grounding and Tremor win games on their own). Your gear goal is simple: enough resilience to survive a melee cleave sitting on you, then as much bonus healing as you can stack without going oom by the five-minute mark. The Merciless Gladiator's Ringmail 5-piece with Veteran's honor offset pieces is the standard kit at every rating bracket this season — the list below reflects what gladiator-range resto shamans actually equip, not a theorycrafted wish list.",
+  "statPriorityRationale": "Resilience comes first because a dead shaman heals nobody — 300+ resil forces enemy teams off you and makes Wind Shear/kick fishing their only win condition. Bonus healing is your throughput stat and scales every Healing Wave and Chain Heal. Stamina is deceptively valuable in 2v2 where you will be the kill target. MP5 matters more in 5v5 dampener games than in short 2v2 skirmishes; the Salvation main-hand and Third Wind totem cover most of it.",
+  "statPriority": ["Resilience", "Bonus Healing", "Stamina", "Intellect", "MP5"],
+  "slots": [
+    {
+      "slot": "Head",
+      "bis": { "itemId": 32031, "usagePct": 91 },
+      "alternatives": [{ "itemId": 31400, "usagePct": 7 }]
+    },
+    {
+      "slot": "Neck",
+      "bis": { "itemId": 33068, "usagePct": 74 },
+      "alternatives": [{ "itemId": 33922, "usagePct": 18 }]
+    },
+    {
+      "slot": "Shoulders",
+      "bis": { "itemId": 32033, "usagePct": 89 },
+      "alternatives": [{ "itemId": 31407, "usagePct": 9 }]
+    },
+    {
+      "slot": "Back",
+      "bis": { "itemId": 28765, "usagePct": 46 },
+      "alternatives": [
+        { "itemId": 28377, "usagePct": 31, "pveFlexNote": "Cheap PvP stopgap from honor." }
+      ]
+    },
+    {
+      "slot": "Chest",
+      "bis": { "itemId": 32029, "usagePct": 93 },
+      "alternatives": [{ "itemId": 31396, "usagePct": 6 }]
+    },
+    {
+      "slot": "Wrist",
+      "bis": { "itemId": 32997, "usagePct": 71 },
+      "alternatives": [{ "itemId": 33906, "usagePct": 22 }]
+    },
+    {
+      "slot": "Hands",
+      "bis": { "itemId": 32030, "usagePct": 88 },
+      "alternatives": [{ "itemId": 31397, "usagePct": 10 }]
+    },
+    {
+      "slot": "Waist",
+      "bis": { "itemId": 32998, "usagePct": 76 },
+      "alternatives": [{ "itemId": 33907, "usagePct": 19 }]
+    },
+    {
+      "slot": "Legs",
+      "bis": { "itemId": 32032, "usagePct": 90 },
+      "alternatives": [{ "itemId": 31406, "usagePct": 8 }]
+    },
+    {
+      "slot": "Feet",
+      "bis": { "itemId": 32999, "usagePct": 78 },
+      "alternatives": [{ "itemId": 33908, "usagePct": 17 }]
+    },
+    {
+      "slot": "Ring1",
+      "bis": { "itemId": 33064, "usagePct": 69 },
+      "alternatives": [{ "itemId": 33918, "usagePct": 24 }]
+    },
+    {
+      "slot": "Ring2",
+      "bis": { "itemId": 33918, "usagePct": 52 },
+      "alternatives": [{ "itemId": 33064, "usagePct": 30 }]
+    },
+    {
+      "slot": "Trinket1",
+      "bis": { "itemId": 37865, "usagePct": 97 },
+      "alternatives": [
+        { "itemId": 37864, "pveFlexNote": "Alliance version of the same trinket." }
+      ]
+    },
+    {
+      "slot": "Trinket2",
+      "bis": { "itemId": 34580, "usagePct": 44 },
+      "alternatives": [
+        { "itemId": 29376, "usagePct": 33, "pveFlexNote": "Essence of the Martyr — honor alternative with on-use healing." },
+        { "itemId": 30841, "usagePct": 14, "pveFlexNote": "Lower City Prayerbook — budget option while farming honor." }
+      ]
+    },
+    {
+      "slot": "MainHand",
+      "bis": { "itemId": 32964, "usagePct": 86 },
+      "alternatives": [{ "itemId": 32451, "usagePct": 11 }]
+    },
+    {
+      "slot": "OffHand",
+      "bis": { "itemId": 33309, "usagePct": 84 },
+      "alternatives": [{ "itemId": 28358, "usagePct": 13 }]
+    },
+    {
+      "slot": "Ranged",
+      "bis": { "itemId": 33078, "usagePct": 81 },
+      "alternatives": [
+        { "itemId": 28357, "usagePct": 12 },
+        { "itemId": 27544, "pveFlexNote": "Totem of Spontaneous Regrowth — PvE totem if you never bought the S1 relic." }
+      ]
+    }
+  ],
+  "gems": [
+    { "itemId": 24029, "note": "Teardrop Living Ruby in every red socket — flat +healing is your best per-socket value." },
+    { "itemId": 24060, "note": "Luminous Noble Topaz to activate strong yellow socket bonuses (intellect + healing)." },
+    { "itemId": 24057, "note": "Royal Nightseye where a blue socket bonus is worth it — healing plus MP5." },
+    { "itemId": 25901, "note": "Insightful Earthstorm Diamond meta — mana restore procs constantly off totem refreshes." }
+  ],
+  "enchants": [
+    { "slot": "Head", "text": "Glyph of Renewal", "note": "Revered with Honor Hold / Thrallmar — healing plus MP5, the only serious head option." },
+    { "slot": "Shoulders", "text": "Greater Inscription of Faith", "note": "Aldor exalted (Scryer: Greater Inscription of the Oracle). The honor-vendor inscription is the budget fallback." },
+    { "slot": "Chest", "text": "Exceptional Stats", "note": "+6 all stats beats flat mana for a resilience set." },
+    { "slot": "Wrist", "text": "Superior Healing", "note": "+30 healing, cheap and uncontested." },
+    { "slot": "Hands", "text": "Major Healing", "note": "+35 healing; Blasting is for elemental, not you." },
+    { "slot": "Legs", "text": "Golden Spellthread", "note": "Healing plus stamina — the stamina matters in arena." },
+    { "slot": "Feet", "text": "Boar's Speed", "note": "Movement speed wins totem-stomping footraces; take it over Vitality." },
+    { "slot": "MainHand", "text": "Major Healing (+81)", "note": "The single biggest throughput enchant available." }
+  ],
+  "faq": [
+    {
+      "question": "How much resilience should a Resto Shaman have in TBC arena?",
+      "answer": "Aim for roughly 300 resilience in the full Merciless set with Veteran's offset pieces. Below ~250 you die in a stun to warrior/rogue cleaves; well above 350 you start trading away too much healing and mana for diminishing survivability."
+    },
+    {
+      "question": "Should I use the Season 1 Gladiator's Ringmail pieces if I can't afford Merciless yet?",
+      "answer": "Yes. S1 pieces cost arena points only (no rating requirement) and carry the same 2-piece and 4-piece set bonuses. Buy Merciless upgrades in the order helm → chest → legs → gloves → shoulders as points allow."
+    },
+    {
+      "question": "Is the Medallion of the Horde/Alliance mandatory?",
+      "answer": "Effectively yes — 97% of surveyed resto shamans run it. Grounding Totem covers some polymorphs, but trinketing a blind, fear, or sheep at the right moment decides close games."
+    },
+    {
+      "question": "Which weapon should I buy first: Salvation or the shield?",
+      "answer": "The Merciless Gladiator's Salvation main-hand first — it is the largest single +healing and MP5 upgrade in the list. The Redoubt shield is armor and stamina; the S1 Shield Wall covers that slot fine until you have spare points."
+    },
+    {
+      "question": "Do resto shamans gem resilience or healing in TBC?",
+      "answer": "Mostly healing (Teardrop Living Ruby). The armor pieces already carry your resilience budget; sockets are where you buy back throughput. Only gem resilience if you sit below ~250 and feel every opener."
+    },
+    {
+      "question": "What totem (relic slot) should a PvP Resto Shaman use?",
+      "answer": "Merciless Gladiator's Totem of the Third Wind — the resilience on a relic is unique to the PvP totems. The S1 Third Wind is nearly as good and rating-free."
+    }
+  ]
+}

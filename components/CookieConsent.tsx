@@ -6,6 +6,7 @@
 // revisited from the footer ("Cookie settings").
 
 import { createContext, useCallback, useContext, useSyncExternalStore } from "react";
+import Link from "next/link";
 
 export type ConsentStatus = "unset" | "granted" | "denied";
 
@@ -83,12 +84,12 @@ function ConsentBanner() {
       <p className="text-sm leading-relaxed text-muted-strong">
         We use cookies for analytics and ads to keep this tool free. No
         tracking loads unless you accept.{" "}
-        <a
+        <Link
           href="/privacy-policy"
           className="text-accent underline-offset-2 hover:underline"
         >
           Privacy policy
-        </a>
+        </Link>
       </p>
       <div className="mt-3 flex gap-2">
         <button

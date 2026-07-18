@@ -19,6 +19,24 @@ primitives, styled after the Vercel/Supabase dashboard aesthetic.
   Insights (GDPR / Quebec Law 25 compliant — nothing loads before consent).
 - Compliance pages: privacy policy, terms, about, contact.
 
+**Gear + talents hub** (programmatic SEO)
+
+- **Talent calculator** (`/talent-calculator/[class]`) — all 9 classes, 61
+  points, real tier/prereq rules, shareable `?b=` build links (also
+  Wowhead-compatible via "Open on Wowhead").
+- **BiS pages** (`/[class]/[spec]/pvp`, `/[class]/[spec]/pve/phase-1..5`) —
+  keyed off Wowhead item ids with live tooltips, usage %, gems/enchants/
+  stat-priority + per-spec FAQ. Specs without curated data render noindex
+  "coming soon" and stay out of the sitemap (see [lib/bis.ts](lib/bis.ts)).
+- **Talent build pages** (`/[class]/[spec]/talents`) — curated builds from
+  [data/builds.ts](data/builds.ts), validated against the talent rules at
+  build time.
+- **Talent data pipeline** — `node scripts/build-talents.mjs` regenerates
+  [data/talents/](data/talents) from wowsims/tbc (structure) + the Wowhead
+  tooltip API (names/icons/descriptions). Never hand-edit those JSONs.
+- Note: level 70 grants **61** talent points (not 71); the calculator and
+  validators use 61, matching Wowhead.
+
 ## Development
 
 ```bash

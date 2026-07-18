@@ -32,9 +32,30 @@ export function Footer() {
             Cookie settings
           </button>
         </nav>
-        <p className="text-xs text-muted">
-          Not affiliated with Blizzard Entertainment.
-        </p>
+        <div className="space-y-1 text-xs text-muted sm:text-right">
+          <p>
+            Item &amp; spell data from{" "}
+            <a
+              href="https://www.wowhead.com/tbc"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline-offset-2 hover:text-foreground hover:underline"
+            >
+              Wowhead
+            </a>
+            . Talent data from{" "}
+            <a
+              href="https://github.com/wowsims/tbc"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline-offset-2 hover:text-foreground hover:underline"
+            >
+              wowsims
+            </a>{" "}
+            / Wowhead.
+          </p>
+          <p>Not affiliated with Blizzard Entertainment.</p>
+        </div>
       </div>
     </footer>
   );

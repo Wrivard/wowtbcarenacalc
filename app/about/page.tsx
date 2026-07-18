@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LegalPage } from "@/components/LegalPage";
 import { SITE_NAME } from "@/lib/site";
 
@@ -34,13 +35,13 @@ export default function AboutPage() {
         A solo developer and long-time WoW player. The site is supported by
         unobtrusive ads; there is no paywall, no account, and no data
         collection beyond the optional analytics described in the{" "}
-        <a href="/privacy-policy">privacy policy</a>.
+        <Link href="/privacy-policy">privacy policy</Link>.
       </p>
 
       <h2>Feedback</h2>
       <p>
         Spotted a discrepancy with in-game values, or want a feature? Use the{" "}
-        <a href="/contact">contact page</a> — formula-accuracy reports are
+        <Link href="/contact">contact page</Link> — formula-accuracy reports are
         especially welcome.
       </p>
     </LegalPage>

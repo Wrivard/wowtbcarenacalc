@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ConsentProvider } from "@/components/CookieConsent";
 import { ConsentGatedScripts } from "@/components/ConsentGatedScripts";
 import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { WowheadTooltips } from "@/components/WowheadTooltips";
 import { ADSENSE_CLIENT, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -69,10 +71,12 @@ export default function RootLayout({
       </head>
       <body className="flex min-h-full flex-col">
         <ConsentProvider>
+          <Header />
           <div className="flex-1">{children}</div>
           <Footer />
           <ConsentGatedScripts />
         </ConsentProvider>
+        <WowheadTooltips />
       </body>
     </html>
   );
