@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ConsentProvider } from "@/components/CookieConsent";
 import { ConsentGatedScripts } from "@/components/ConsentGatedScripts";
 import { Footer } from "@/components/Footer";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+import { ADSENSE_CLIENT, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -57,6 +57,16 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        {/* AdSense loader — must be in the raw HTML (not consent-gated)
+            for Google site verification. Ad units themselves still only
+            render with cookie consent + slot ids. */}
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="flex min-h-full flex-col">
         <ConsentProvider>
           <div className="flex-1">{children}</div>

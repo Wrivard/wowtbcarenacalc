@@ -1,3 +1,9 @@
+// AdSense publisher id. Hardcoded default so Google's site verification
+// crawler always finds the loader script in the raw HTML; the env var
+// can still override it per-environment.
+export const ADSENSE_CLIENT =
+  process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-5102258910849982";
+
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://wowtbcarenacalc.vercel.app";
 

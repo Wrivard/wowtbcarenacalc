@@ -8,16 +8,16 @@
 //   - Clear navigation (header links + footer) ✓
 //
 // Behavior:
-//   - No NEXT_PUBLIC_ADSENSE_CLIENT or no slot id → renders nothing (local dev no-op).
+//   - No slot id → renders nothing (local dev no-op; the publisher id
+//     has a hardcoded default for site verification, see lib/site.ts).
 //   - Consent not granted → renders nothing (consent gates the loader script too).
 //   - Enabled → reserves vertical space via min-height so the ad filling
 //     in never causes layout shift (protects CLS).
 
 import { useEffect, useRef } from "react";
 import { useConsent } from "@/components/CookieConsent";
+import { ADSENSE_CLIENT } from "@/lib/site";
 import { cn } from "@/lib/utils";
-
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 
 declare global {
   interface Window {

@@ -1,17 +1,16 @@
 "use client";
 
-// Mounts GA4 + the AdSense loader only when (a) the matching env var is
-// set and (b) cookie consent is granted. With no env vars this renders
-// nothing — clean local dev, zero console errors.
+// Mounts analytics only when consent is granted (and, for GA4, when the
+// env var is set). The AdSense loader script lives unconditionally in
+// the root layout — Google site verification requires it in the raw
+// HTML — but ad units themselves stay consent-gated (see AdUnit.tsx).
 
-import Script from "next/script";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useConsent } from "@/components/CookieConsent";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 
 export function ConsentGatedScripts() {
   const { status } = useConsent();
@@ -22,14 +21,6 @@ export function ConsentGatedScripts() {
       <Analytics />
       <SpeedInsights />
       {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
-      {ADSENSE_CLIENT && (
-        <Script
-          id="adsense-loader"
-          strategy="afterInteractive"
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-          crossOrigin="anonymous"
-        />
-      )}
     </>
   );
 }
