@@ -1,0 +1,422 @@
+{
+ "class": "shaman",
+ "spec": "enhancement",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2136,
+  2817
+ ],
+ "sampleSize": 10,
+ "updatedAt": "2026-07-12",
+ "blurb": "Enhancement Shaman is arena's lottery melee: one double-Windfury proc can end a game on the spot. Between procs you bring the full totem toolkit — Grounding, Tremor, Earthbind — and shocks for interrupts. Ladder enhancement shamans gear defensively because everyone kites them, and the windfury math works fine off PvP weapons.",
+ "statPriorityRationale": "Enhancement's windfury rolls are the biggest RNG burst in the game — the gear's job is to keep you alive long enough to fish for them, so survivability leads and attack power sharpens the payoff.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Agility",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32006,
+    "name": "Merciless Gladiator's Linked Helm",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 25998,
+     "name": "Gladiator's Linked Helm",
+     "usagePct": 30
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 32008,
+    "name": "Merciless Gladiator's Linked Spaulders",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 25999,
+     "name": "Gladiator's Linked Spaulders",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "usagePct": 20,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 32004,
+    "name": "Merciless Gladiator's Linked Armor",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 25997,
+     "name": "Gladiator's Linked Armor",
+     "usagePct": 30
+    },
+    {
+     "itemId": 30185,
+     "name": "Cataclysm Chestplate",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32816,
+    "name": "Veteran's Linked Bracers",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 28989,
+     "name": "Marshal's Linked Bracers",
+     "usagePct": 10
+    },
+    {
+     "itemId": 32809,
+     "name": "Veteran's Chain Bracers",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32005,
+    "name": "Merciless Gladiator's Linked Gauntlets",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 35382,
+     "name": "Seer's Linked Gauntlets",
+     "usagePct": 50,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32803,
+    "name": "Veteran's Linked Girdle",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 28990,
+     "name": "Marshal's Linked Girdle",
+     "usagePct": 10
+    },
+    {
+     "itemId": 32797,
+     "name": "Veteran's Chain Girdle",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 32007,
+    "name": "Merciless Gladiator's Linked Leggings",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 26001,
+     "name": "Gladiator's Linked Leggings",
+     "usagePct": 30
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32791,
+    "name": "Veteran's Linked Sabatons",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 28975,
+     "name": "Marshal's Chain Sabatons",
+     "usagePct": 10
+    },
+    {
+     "itemId": 32785,
+     "name": "Veteran's Chain Sabatons",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 30,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33055,
+     "name": "Band of Vile Aggression",
+     "usagePct": 20,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 30345,
+     "name": "Medallion of the Horde",
+     "usagePct": 60
+    },
+    {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance",
+     "usagePct": 40
+    },
+    {
+     "itemId": 24128,
+     "name": "Figurine - Nightseye Panther",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29996,
+    "name": "Rod of the Sun King",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 28439,
+     "name": "Dragonstrike",
+     "usagePct": 20,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31965,
+     "name": "Merciless Gladiator's Cleaver",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28313,
+     "name": "Gladiator's Right Ripper",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32026,
+    "name": "Merciless Gladiator's Pummeler",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 31965,
+     "name": "Merciless Gladiator's Cleaver",
+     "usagePct": 20,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28305,
+     "name": "Gladiator's Pummeler",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28308,
+     "name": "Gladiator's Cleaver",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27815,
+    "name": "Totem of the Astral Winds",
+    "usagePct": 100
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24027,
+   "name": "+8 Strength",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 28363,
+   "name": "+10 Attack Power, +5 Critical Strike Rating",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "83% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "71% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "11% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "Mongoose",
+   "note": "67% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Enhancement Shamans?",
+   "answer": "This snapshot covers 10 Enhancement Shamans between 2136 and 2817 rating (average 2319) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Enhancement Shaman PvP gear right now?",
+   "answer": "The highest-consensus picks are Totem of the Astral Winds (100%), Veteran's Pendant of Triumph (90%), Veteran's Band of Triumph (90%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Enhancement Shaman BiS list is PvP gear vs raid gear?",
+   "answer": "80% of the most-used slots are arena/honor items — for Enhancement Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Enhancement Shamans use in arena?",
+   "answer": "Rod of the Sun King is the main-hand of choice (30% of surveyed players)."
+  },
+  {
+   "question": "What gems do Enhancement Shamans socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Strength, +8 Resilience Rating, +10 Attack Power, +5 Critical Strike Rating. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

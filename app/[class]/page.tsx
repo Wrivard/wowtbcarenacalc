@@ -6,6 +6,8 @@ import { getPvpBis } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
+import { PageHero } from "@/components/PageHero";
+import { classBackground } from "@/lib/backgrounds";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -45,7 +47,7 @@ export default async function ClassHub({
   ];
 
   return (
-    <main className="mx-auto max-w-[720px] px-4">
+    <>
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
@@ -58,7 +60,7 @@ export default async function ClassHub({
           ),
         ]}
       />
-      <header className="pt-10 pb-8 sm:pt-14">
+      <PageHero image={classBackground(cls.slug)}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
           {cls.name} — TBC Classic BiS &amp; Talents
@@ -74,8 +76,9 @@ export default async function ClassHub({
         >
           Open the {cls.name} talent calculator
         </Link>
-      </header>
+      </PageHero>
 
+      <main className="mx-auto max-w-[720px] px-4 pt-10">
       <div className="space-y-4">
         {cls.specs.map((spec) => {
           const pvpLive = Boolean(getPvpBis(cls.slug, spec.slug));
@@ -129,6 +132,7 @@ export default async function ClassHub({
           );
         })}
       </div>
-    </main>
+      </main>
+    </>
   );
 }

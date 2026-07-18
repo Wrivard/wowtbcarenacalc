@@ -1,38 +1,23 @@
 "use client";
 
-// Most-used gear grid: one row per slot — Wowhead item link (auto icon +
-// tooltip via the global script) + usage % + expandable alternatives.
+// Most-used gear grid: one row per slot — item icon + quality-colored
+// name (server-resolved from data/items.json, Wowhead tooltip on hover)
+// + usage % + expandable alternatives.
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import type { BisSlot } from "@/lib/bis";
-import { wowheadItemUrl } from "@/lib/bis";
-import { refreshWowheadLinks } from "@/components/WowheadTooltips";
+import { ItemLink } from "@/components/ItemLink";
 import { trackEvent } from "@/lib/gtag";
 import { cn } from "@/lib/utils";
 
-function ItemLink({ itemId }: { itemId: number }) {
-  // The Wowhead script rewrites this link into icon + colored name.
-  // The parent row reserves min-height so the rewrite never shifts layout.
-  return (
-    <a
-      href={wowheadItemUrl(itemId)}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-sm text-muted-strong underline-offset-2 hover:underline"
-    >
-      Item #{itemId}
-    </a>
-  );
-}
+const SLOT_LABEL: Record<string, string> = {
+  MainHand: "Main Hand",
+  OffHand: "Off Hand",
+};
 
 export function GearGrid({ slots, specKey }: { slots: BisSlot[]; specKey: string }) {
   const [open, setOpen] = useState<Set<string>>(new Set());
-
-  // Re-scan links whenever an alternatives row expands.
-  useEffect(() => {
-    refreshWowheadLinks();
-  }, [open]);
 
   const toggle = (slot: string, hasAlts: boolean) => {
     if (!hasAlts) return;
@@ -54,42 +39,57 @@ export function GearGrid({ slots, specKey }: { slots: BisSlot[]; specKey: string
         const expanded = open.has(row.slot);
         return (
           <div key={row.slot} className="border-b border-border bg-surface last:border-b-0">
-            <button
+            <div
+              role={hasAlts ? "button" : undefined}
+              tabIndex={hasAlts ? 0 : undefined}
               onClick={() => toggle(row.slot, hasAlts)}
-              disabled={!hasAlts}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  toggle(row.slot, hasAlts);
+                }
+              }}
               aria-expanded={hasAlts ? expanded : undefined}
               className={cn(
-                "flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors",
-                hasAlts && "hover:bg-surface-hover",
+                "flex w-full items-center gap-3 px-3 py-2 text-left transition-colors sm:px-4",
+                hasAlts && "cursor-pointer hover:bg-surface-hover",
               )}
             >
-              <span className="w-20 shrink-0 font-mono text-[11px] tracking-wider text-muted uppercase">
-                {row.slot}
+              <span className="w-16 shrink-0 font-mono text-[10px] tracking-wider text-muted uppercase sm:w-20 sm:text-[11px]">
+                {SLOT_LABEL[row.slot] ?? row.slot}
               </span>
-              <span className="min-h-6 flex-1">
-                <ItemLink itemId={row.bis.itemId} />
+              <span className="min-h-7 flex-1">
+                <ItemLink itemId={row.bis.itemId} fallbackName={row.bis.name} />
               </span>
               {row.bis.usagePct !== undefined && (
-                <span className="font-mono text-xs tabular-nums text-accent">
+                <span
+                  className="font-mono text-xs tabular-nums text-accent"
+                  title="Share of surveyed players using this item"
+                >
                   {row.bis.usagePct}%
                 </span>
               )}
-              {hasAlts && (
+              {hasAlts ? (
                 <ChevronDown
                   className={cn(
-                    "size-3.5 text-muted transition-transform duration-200",
+                    "size-3.5 shrink-0 text-muted transition-transform duration-200",
                     expanded && "rotate-180",
                   )}
                   aria-hidden
                 />
+              ) : (
+                <span className="size-3.5 shrink-0" aria-hidden />
               )}
-            </button>
+            </div>
             {expanded && (
-              <ul className="space-y-1.5 border-t border-border/60 bg-background px-4 py-2.5 pl-[6.75rem]">
+              <ul className="space-y-2 border-t border-border/60 bg-background px-3 py-2.5 sm:pl-[6.25rem]">
                 {row.alternatives.map((alt) => (
-                  <li key={alt.itemId} className="flex items-baseline gap-3">
-                    <span className="min-h-6 flex-1">
-                      <ItemLink itemId={alt.itemId} />
+                  <li
+                    key={alt.itemId}
+                    className="flex flex-wrap items-center gap-x-3 gap-y-0.5"
+                  >
+                    <span className="min-h-7">
+                      <ItemLink itemId={alt.itemId} fallbackName={alt.name} />
                     </span>
                     {alt.usagePct !== undefined && (
                       <span className="font-mono text-xs tabular-nums text-muted">
@@ -97,9 +97,7 @@ export function GearGrid({ slots, specKey }: { slots: BisSlot[]; specKey: string
                       </span>
                     )}
                     {alt.pveFlexNote && (
-                      <span className="max-w-[50%] text-xs text-muted">
-                        {alt.pveFlexNote}
-                      </span>
+                      <span className="text-xs text-muted">{alt.pveFlexNote}</span>
                     )}
                   </li>
                 ))}

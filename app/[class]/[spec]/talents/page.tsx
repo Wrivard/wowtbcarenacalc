@@ -16,6 +16,8 @@ import { TalentTreeGrid } from "@/components/talents/TalentTreeGrid";
 import { ComingSoon } from "@/components/ComingSoon";
 import { SpecCrossLinks } from "@/components/SpecCrossLinks";
 import { AdUnit } from "@/components/AdUnit";
+import { PageHero } from "@/components/PageHero";
+import { classBackground } from "@/lib/backgrounds";
 
 const SLOT_INCONTENT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT;
 
@@ -109,14 +111,14 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
   );
 
   return (
-    <main className="mx-auto max-w-[1200px] px-4">
+    <>
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
           ...(build ? [faqJsonLd(build.faq)] : []),
         ]}
       />
-      <header className="pt-10 pb-6 sm:pt-14">
+      <PageHero image={classBackground(cls.slug)}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
           {spec.name} {cls.name} Talents — TBC Classic Build
@@ -151,8 +153,9 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
             </div>
           </>
         )}
-      </header>
+      </PageHero>
 
+      <main className="mx-auto max-w-[1200px] px-4 pt-8">
       {build && state ? (
         <>
           <div className="flex snap-x gap-4 overflow-x-auto pb-4 lg:grid lg:grid-cols-3 lg:overflow-visible">
@@ -205,6 +208,7 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
       <div className="max-w-[720px]">
         <SpecCrossLinks cls={cls} spec={spec} current="talents" />
       </div>
-    </main>
+      </main>
+    </>
   );
 }

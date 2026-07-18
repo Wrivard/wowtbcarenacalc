@@ -1,0 +1,515 @@
+{
+ "class": "rogue",
+ "spec": "combat",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2124,
+  3077
+ ],
+ "sampleSize": 54,
+ "updatedAt": "2026-07-12",
+ "blurb": "Combat Rogue trades Subtlety's tricks for relentless sustained pressure — Adrenaline Rush and Blade Flurry turn any extended swap into a losing race for the enemy healer. It plays like a second warrior: park on a target, force cooldowns, and grind teams down in 2s dampening games.",
+ "statPriorityRationale": "Combat gives up Shadowstep mobility for consistent white damage, so it gears tankier than Subtlety — you are committing to extended melee uptime, and resilience plus stamina is what makes that commitment survivable.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Agility",
+  "Hit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30146,
+    "name": "Deathmantle Helm",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32478,
+     "name": "Deathblow X11 Goggles",
+     "usagePct": 28,
+     "pveFlexNote": "Seen mostly above 2645 rating."
+    },
+    {
+     "itemId": 29044,
+     "name": "Netherblade Facemask",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 30017,
+     "name": "Telonicus's Pendant of Mayhem",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278827,
+     "name": "Amulet of Bitter Hatred",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30149,
+    "name": "Deathmantle Shoulderpads",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 27797,
+     "name": "Wastewalker Shoulderpads",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32001,
+     "name": "Merciless Gladiator's Leather Spaulders",
+     "usagePct": 9,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 25832,
+     "name": "Gladiator's Leather Spaulders",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 19,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29045,
+    "name": "Netherblade Chestpiece",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 30101,
+     "name": "Bloodsea Brigand's Vest",
+     "usagePct": 28,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30144,
+     "name": "Deathmantle Chestguard",
+     "usagePct": 19,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32002,
+     "name": "Merciless Gladiator's Leather Tunic",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2645 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29966,
+    "name": "Vambraces of Ending",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 28171,
+     "name": "Spymistress's Wristguards",
+     "usagePct": 19,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32814,
+     "name": "Veteran's Leather Bracers",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29246,
+     "name": "Nightfall Wristguards",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30145,
+    "name": "Deathmantle Handguards",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 27531,
+     "name": "Wastewalker Gloves",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31998,
+     "name": "Merciless Gladiator's Leather Gloves",
+     "usagePct": 9,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29048,
+     "name": "Netherblade Gloves",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 29247,
+     "name": "Girdle of the Deathdealer",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30148,
+    "name": "Deathmantle Legguards",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29046,
+     "name": "Netherblade Breeches",
+     "usagePct": 11,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32000,
+     "name": "Merciless Gladiator's Leather Legguards",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 31288,
+     "name": "The Master's Treads",
+     "usagePct": 22,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30060,
+     "name": "Boots of Effortless Striking",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25686,
+     "name": "Fel Leather Boots",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 28649,
+    "name": "Garona's Signet Ring",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 59,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 20,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 19,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 48,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24128,
+     "name": "Figurine - Nightseye Panther",
+     "usagePct": 26,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30082,
+    "name": "Talon of Azshara",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 32052,
+     "name": "Merciless Gladiator's Slicer",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29996,
+     "name": "Rod of the Sun King",
+     "usagePct": 9,
+     "pveFlexNote": "Seen mostly above 2645 rating."
+    },
+    {
+     "itemId": 28295,
+     "name": "Gladiator's Slicer",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32027,
+    "name": "Merciless Gladiator's Quickblade",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28189,
+     "name": "Latro's Shifting Sword",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28307,
+     "name": "Gladiator's Quickblade",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32054,
+     "name": "Merciless Gladiator's War Edge",
+     "usagePct": 13,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28504,
+     "name": "Steelhawk Crossbow",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24051,
+   "name": "+8 Hit Rating",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24028,
+   "name": "+8 Agility",
+   "note": "Socketed across 5 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "92% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "39% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "47% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 Attack Power",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Agility",
+   "note": "54% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "94% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +6 Agility",
+   "note": "39% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "8% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "Mongoose",
+   "note": "56% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Combat Rogues?",
+   "answer": "This snapshot covers 54 Combat Rogues between 2124 and 3077 rating (average 2580) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Combat Rogue PvP gear right now?",
+   "answer": "The highest-consensus picks are Belt of Deep Shadow (81%), Deathmantle Shoulderpads (70%), Garona's Signet Ring (67%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Combat Rogue BiS list is PvP gear vs raid gear?",
+   "answer": "Only 7% of the most-used slots are PvP items — high-rated Combat Rogues flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Combat Rogues use in arena?",
+   "answer": "Talon of Azshara is the main-hand of choice (59% of surveyed players)."
+  },
+  {
+   "question": "What gems do Combat Rogues socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Hit Rating, +4 Hit Rating and +4 Agility, +4 Agility and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

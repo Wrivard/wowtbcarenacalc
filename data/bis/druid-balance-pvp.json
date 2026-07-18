@@ -1,0 +1,505 @@
+{
+ "class": "druid",
+ "spec": "balance",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2348,
+  2990
+ ],
+ "sampleSize": 8,
+ "updatedAt": "2026-07-12",
+ "blurb": "Balance Druid is arena's hybrid wildcard: Cyclone (the game's only undispellable CC), Moonkin armor, instant roots and real off-heals. The boomkins on the ladder win with control and utility, using Starfire burst opportunistically — and their gear list reads like a caster tank's.",
+ "statPriorityRationale": "Balance burst comes from Starfire crits enabled by Nature's Grace, but the spec's real arena value is the hybrid toolkit — the gear stacks survivability so you can keep weaving Cyclones and off-heals between damage windows.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30219,
+    "name": "Nordrassil Headguard",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 31988,
+     "name": "Merciless Gladiator's Kodohide Helm",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30233,
+     "name": "Nordrassil Headpiece",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32479,
+     "name": "Wonderheal XT40 Shades",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28609,
+    "name": "Emberspur Talisman",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33068,
+     "name": "Veteran's Pendant of Salvation",
+     "usagePct": 25
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30221,
+    "name": "Nordrassil Life-Mantle",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 32059,
+     "name": "Merciless Gladiator's Wyrmhide Spaulders",
+     "usagePct": 38
+    },
+    {
+     "itemId": 30111,
+     "name": "Runetotem's Mantle",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30235,
+     "name": "Nordrassil Wrath-Mantle",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29989,
+    "name": "Sunshower Light Cloak",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 28765,
+     "name": "Stainless Cloak of the Pure Hearted",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30216,
+    "name": "Nordrassil Chestguard",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32060,
+     "name": "Merciless Gladiator's Wyrmhide Tunic",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30231,
+     "name": "Nordrassil Chestpiece",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31991,
+     "name": "Merciless Gladiator's Kodohide Tunic",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32812,
+    "name": "Veteran's Kodohide Bracers",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30062,
+     "name": "Grove-Bands of Remulos",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28521,
+    "name": "Mitts of the Treemender",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 31987,
+     "name": "Merciless Gladiator's Kodohide Gloves",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29090,
+     "name": "Handguards of Malorne",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30029,
+     "name": "Bark-Gloves of Ancient Wisdom",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32800,
+    "name": "Veteran's Kodohide Belt",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 21873,
+     "name": "Primal Mooncloth Belt",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28655,
+     "name": "Cord of Nature's Sustenance",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30220,
+    "name": "Nordrassil Life-Kilt",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 28591,
+     "name": "Earthsoul Leggings",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31989,
+     "name": "Merciless Gladiator's Kodohide Legguards",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30092,
+    "name": "Orca-Hide Boots",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 32788,
+     "name": "Veteran's Kodohide Boots",
+     "usagePct": 38
+    },
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28752,
+     "name": "Forestlord Striders",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 30110,
+    "name": "Coral Band of the Revived",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33064,
+     "name": "Veteran's Band of Salvation",
+     "usagePct": 38
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 28235,
+     "name": "Medallion of the Alliance",
+     "usagePct": 38
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30841,
+     "name": "Lower City Prayerbook",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32964,
+    "name": "Merciless Gladiator's Salvation",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 29988,
+     "name": "The Nexus Key",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32961,
+    "name": "Merciless Gladiator's Reprieve",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 29274,
+     "name": "Tears of Heaven",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28728,
+     "name": "Aran's Soothing Sapphire",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29170,
+     "name": "Windcaller's Orb",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27886,
+    "name": "Idol of the Emerald Queen",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 32387,
+     "name": "Idol of the Raven Goddess",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 7 slots in this snapshot."
+  },
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 25897,
+   "name": "+26 Healing +9 Spell Damage and 2% Reduced Threat",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Spirit",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "+5 Spirit",
+   "note": "33% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Balance Druids?",
+   "answer": "This snapshot covers 8 Balance Druids between 2348 and 2990 rating (average 2599) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Balance Druid PvP gear right now?",
+   "answer": "The highest-consensus picks are Idol of the Emerald Queen (88%), Merciless Gladiator's Salvation (75%), Nordrassil Headguard (50%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Balance Druid BiS list is PvP gear vs raid gear?",
+   "answer": "Only 27% of the most-used slots are PvP items — high-rated Balance Druids flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Balance Druids use in arena?",
+   "answer": "Merciless Gladiator's Salvation is the main-hand of choice (75% of surveyed players)."
+  },
+  {
+   "question": "What gems do Balance Druids socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +18 Healing and +6 Spell Damage, +9 Healing +3 Spell Damage and +4 Spirit, +26 Healing +9 Spell Damage and 2% Reduced Threat. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

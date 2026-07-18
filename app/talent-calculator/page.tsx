@@ -8,6 +8,8 @@ import {
   itemListJsonLd,
   webApplicationJsonLd,
 } from "@/components/seo/JsonLd";
+import { PageHero } from "@/components/PageHero";
+import { BACKGROUNDS } from "@/lib/backgrounds";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -23,7 +25,7 @@ export default function TalentCalculatorHub() {
     { name: "Talent Calculator", href: "/talent-calculator" },
   ];
   return (
-    <main className="mx-auto max-w-[720px] px-4">
+    <>
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
@@ -41,7 +43,7 @@ export default function TalentCalculatorHub() {
           ),
         ]}
       />
-      <header className="pt-10 pb-8 sm:pt-14">
+      <PageHero image={BACKGROUNDS.calculator}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
           TBC Talent Calculator
@@ -52,8 +54,9 @@ export default function TalentCalculatorHub() {
           and share it as a link. Talent data sourced from wowsims and
           Wowhead. Pick a class:
         </p>
-      </header>
+      </PageHero>
 
+      <main className="mx-auto max-w-[720px] px-4 pt-10">
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         {CLASSES.map((cls) => (
           <Link
@@ -68,6 +71,7 @@ export default function TalentCalculatorHub() {
           </Link>
         ))}
       </div>
-    </main>
+      </main>
+    </>
   );
 }

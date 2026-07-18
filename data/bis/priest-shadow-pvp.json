@@ -1,0 +1,479 @@
+{
+ "class": "priest",
+ "spec": "shadow",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2113,
+  2994
+ ],
+ "sampleSize": 26,
+ "updatedAt": "2026-07-12",
+ "blurb": "Shadow Priest is TBC arena's drain machine: Vampiric Touch mana pressure, Vampiric Embrace healing, Silence and Psychic Scream on rotation. You win by making the game longer while your dots make it shorter for them — and you gear like a tank because everyone knows killing the shadow priest first is the counterplay.",
+ "statPriorityRationale": "Shadow's pressure is dot-based and constant, so spell damage beats crit — but every rogue and warrior queues into you as the free kill, which is why the ladder's shadow priests run more stamina and resilience than any other caster.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Shadow Damage",
+  "Spell Penetration",
+  "Spell Hit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32035,
+    "name": "Merciless Gladiator's Satin Hood",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 27708,
+     "name": "Gladiator's Satin Hood",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30161,
+     "name": "Hood of the Avatar",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33065,
+    "name": "Veteran's Pendant of Dominance",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "usagePct": 27,
+     "pveFlexNote": "Seen mostly above 2402 rating."
+    },
+    {
+     "itemId": 30666,
+     "name": "Ritssyn's Lost Pendant",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 32037,
+    "name": "Merciless Gladiator's Satin Mantle",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 21869,
+     "name": "Frozen Shadoweave Shoulders",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27710,
+     "name": "Gladiator's Satin Mantle",
+     "usagePct": 12
+    },
+    {
+     "itemId": 31412,
+     "name": "Gladiator's Mooncloth Mantle",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 28570,
+     "name": "Shadow-Cloak of Dalaran",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 12,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 32038,
+    "name": "Merciless Gladiator's Satin Robe",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 21871,
+     "name": "Frozen Shadoweave Robe",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27711,
+     "name": "Gladiator's Satin Robe",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30159,
+     "name": "Shroud of the Avatar",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32811,
+    "name": "Veteran's Dreadweave Cuffs",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28405,
+     "name": "General's Dreadweave Cuffs",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32034,
+    "name": "Merciless Gladiator's Satin Gloves",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 27707,
+     "name": "Gladiator's Satin Gloves",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30160,
+     "name": "Handguards of the Avatar",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32799,
+    "name": "Veteran's Dreadweave Belt",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 32036,
+    "name": "Merciless Gladiator's Satin Leggings",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 29972,
+     "name": "Trousers of the Astromancer",
+     "usagePct": 19,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27709,
+     "name": "Gladiator's Satin Leggings",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32787,
+    "name": "Veteran's Dreadweave Stalkers",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers",
+     "usagePct": 15
+    },
+    {
+     "itemId": 21870,
+     "name": "Frozen Shadoweave Boots",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30050,
+     "name": "Boots of the Shifting Nightmare",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33056,
+    "name": "Veteran's Band of Dominance",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 29922,
+     "name": "Band of Al'ar",
+     "usagePct": 42,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28327,
+     "name": "Arcane Netherband",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 30346,
+     "name": "Medallion of the Horde",
+     "usagePct": 54
+    },
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance",
+     "usagePct": 31
+    },
+    {
+     "itemId": 28727,
+     "name": "Pendant of the Violet Eye",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32963,
+    "name": "Merciless Gladiator's Gavel",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32053,
+     "name": "Merciless Gladiator's Spellblade",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32450,
+     "name": "Gladiator's Gavel",
+     "usagePct": 12
+    },
+    {
+     "itemId": 32451,
+     "name": "Gladiator's Salvation",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 31978,
+    "name": "Merciless Gladiator's Endgame",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28781,
+     "name": "Karaborian Talisman",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32962,
+    "name": "Merciless Gladiator's Touch of Defeat",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28320,
+     "name": "Gladiator's Touch of Defeat",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30080,
+     "name": "Luminescent Rod of the Naaru",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "64% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "68% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "93% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "72% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "54% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "47% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "41% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Soulfrost",
+   "note": "54% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Shadow Priests?",
+   "answer": "This snapshot covers 26 Shadow Priests between 2113 and 2994 rating (average 2448) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Shadow Priest PvP gear right now?",
+   "answer": "The highest-consensus picks are Icon of the Silver Crescent (85%), Sergeant's Heavy Cape (73%), Veteran's Dreadweave Cuffs (69%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Shadow Priest BiS list is PvP gear vs raid gear?",
+   "answer": "93% of the most-used slots are arena/honor items — for Shadow Priests the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Shadow Priests use in arena?",
+   "answer": "Merciless Gladiator's Gavel is the main-hand of choice (50% of surveyed players)."
+  },
+  {
+   "question": "What gems do Shadow Priests socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +10 Spell Penetration, +4 Resilience Rating and +6 Stamina, +18 Stamina & 5% Stun Resist. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

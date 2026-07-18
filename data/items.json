@@ -1,0 +1,3317 @@
+{
+ "19379": {
+  "name": "Neltharion's Tear",
+  "icon": "inv_stone_15",
+  "quality": 4
+ },
+ "21670": {
+  "name": "Badge of the Swarmguard",
+  "icon": "inv_misc_ahnqirajtrinket_04",
+  "quality": 4
+ },
+ "21869": {
+  "name": "Frozen Shadoweave Shoulders",
+  "icon": "inv_shoulder_25",
+  "quality": 4
+ },
+ "21870": {
+  "name": "Frozen Shadoweave Boots",
+  "icon": "inv_boots_cloth_03",
+  "quality": 4
+ },
+ "21871": {
+  "name": "Frozen Shadoweave Robe",
+  "icon": "inv_chest_cloth_08",
+  "quality": 4
+ },
+ "21873": {
+  "name": "Primal Mooncloth Belt",
+  "icon": "inv_belt_31",
+  "quality": 4
+ },
+ "22442": {
+  "name": "Cryptstalker Girdle",
+  "icon": "inv_belt_22",
+  "quality": 4
+ },
+ "22443": {
+  "name": "Cryptstalker Wristguards",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "23096": {
+  "name": "Runed Blood Garnet",
+  "icon": "inv_misc_gem_bloodgem_02",
+  "quality": 2
+ },
+ "23097": {
+  "name": "Delicate Blood Garnet",
+  "icon": "inv_misc_gem_bloodgem_02",
+  "quality": 2
+ },
+ "23763": {
+  "name": "Hyper-Vision Goggles",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 3
+ },
+ "24027": {
+  "name": "Bold Living Ruby",
+  "icon": "inv_jewelcrafting_livingruby_03",
+  "quality": 3
+ },
+ "24028": {
+  "name": "Delicate Living Ruby",
+  "icon": "inv_jewelcrafting_livingruby_03",
+  "quality": 3
+ },
+ "24029": {
+  "name": "Teardrop Living Ruby",
+  "icon": "inv_jewelcrafting_livingruby_03",
+  "quality": 3
+ },
+ "24033": {
+  "name": "Solid Star of Elune",
+  "icon": "inv_jewelcrafting_starofelune_03",
+  "quality": 3
+ },
+ "24039": {
+  "name": "Stormy Star of Elune",
+  "icon": "inv_jewelcrafting_starofelune_03",
+  "quality": 3
+ },
+ "24047": {
+  "name": "Brilliant Dawnstone",
+  "icon": "inv_jewelcrafting_dawnstone_03",
+  "quality": 3
+ },
+ "24048": {
+  "name": "Smooth Dawnstone",
+  "icon": "inv_jewelcrafting_dawnstone_03",
+  "quality": 3
+ },
+ "24051": {
+  "name": "Rigid Dawnstone",
+  "icon": "inv_jewelcrafting_dawnstone_03",
+  "quality": 3
+ },
+ "24053": {
+  "name": "Mystic Dawnstone",
+  "icon": "inv_jewelcrafting_dawnstone_03",
+  "quality": 3
+ },
+ "24054": {
+  "name": "Sovereign Nightseye",
+  "icon": "inv_jewelcrafting_nightseye_03",
+  "quality": 3
+ },
+ "24055": {
+  "name": "Shifting Nightseye",
+  "icon": "inv_jewelcrafting_nightseye_03",
+  "quality": 3
+ },
+ "24056": {
+  "name": "Glowing Nightseye",
+  "icon": "inv_jewelcrafting_nightseye_03",
+  "quality": 3
+ },
+ "24057": {
+  "name": "Royal Nightseye",
+  "icon": "inv_jewelcrafting_nightseye_03",
+  "quality": 3
+ },
+ "24058": {
+  "name": "Inscribed Noble Topaz",
+  "icon": "inv_jewelcrafting_nobletopaz_03",
+  "quality": 3
+ },
+ "24059": {
+  "name": "Potent Noble Topaz",
+  "icon": "inv_jewelcrafting_nobletopaz_03",
+  "quality": 3
+ },
+ "24060": {
+  "name": "Luminous Noble Topaz",
+  "icon": "inv_jewelcrafting_nobletopaz_03",
+  "quality": 3
+ },
+ "24061": {
+  "name": "Glinting Noble Topaz",
+  "icon": "inv_jewelcrafting_nobletopaz_03",
+  "quality": 3
+ },
+ "24066": {
+  "name": "Radiant Talasite",
+  "icon": "inv_jewelcrafting_talasite_03",
+  "quality": 3
+ },
+ "24116": {
+  "name": "Eye of the Night",
+  "icon": "inv_jewelry_necklace_28",
+  "quality": 3
+ },
+ "24126": {
+  "name": "Figurine - Living Ruby Serpent",
+  "icon": "inv_jewelcrafting_rubyserpent",
+  "quality": 3
+ },
+ "24128": {
+  "name": "Figurine - Nightseye Panther",
+  "icon": "inv_jewelcrafting_blackpearlpanther",
+  "quality": 3
+ },
+ "24249": {
+  "name": "Unyielding Bracers",
+  "icon": "inv_bracer_11",
+  "quality": 3
+ },
+ "24250": {
+  "name": "Bracers of Havok",
+  "icon": "inv_bracer_10",
+  "quality": 3
+ },
+ "24255": {
+  "name": "Unyielding Girdle",
+  "icon": "inv_belt_03",
+  "quality": 4
+ },
+ "24256": {
+  "name": "Girdle of Ruination",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "24259": {
+  "name": "Vengeance Wrap",
+  "icon": "inv_misc_cape_18",
+  "quality": 4
+ },
+ "24262": {
+  "name": "Spellstrike Pants",
+  "icon": "inv_pants_cloth_14",
+  "quality": 4
+ },
+ "24544": {
+  "name": "Gladiator's Plate Chestpiece",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
+ "24545": {
+  "name": "Gladiator's Plate Helm",
+  "icon": "inv_helmet_07",
+  "quality": 4
+ },
+ "24546": {
+  "name": "Gladiator's Plate Shoulders",
+  "icon": "inv_shoulder_22",
+  "quality": 4
+ },
+ "24547": {
+  "name": "Gladiator's Plate Legguards",
+  "icon": "inv_pants_plate_17",
+  "quality": 4
+ },
+ "24549": {
+  "name": "Gladiator's Plate Gauntlets",
+  "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "24552": {
+  "name": "Gladiator's Dreadweave Robe",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "24553": {
+  "name": "Gladiator's Dreadweave Hood",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "24554": {
+  "name": "Gladiator's Dreadweave Mantle",
+  "icon": "inv_shoulder_02",
+  "quality": 4
+ },
+ "24555": {
+  "name": "Gladiator's Dreadweave Leggings",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "24556": {
+  "name": "Gladiator's Dreadweave Gloves",
+  "icon": "inv_gauntlets_15",
+  "quality": 4
+ },
+ "24557": {
+  "name": "Gladiator's War Staff",
+  "icon": "inv_staff_53",
+  "quality": 4
+ },
+ "25644": {
+  "name": "Blessed Book of Nagrand",
+  "icon": "inv_relics_libramofhope",
+  "quality": 3
+ },
+ "25645": {
+  "name": "Totem of the Plains",
+  "icon": "inv_relics_totemoflife",
+  "quality": 3
+ },
+ "25686": {
+  "name": "Fel Leather Boots",
+  "icon": "inv_boots_cloth_05",
+  "quality": 3
+ },
+ "25697": {
+  "name": "Felstalker Bracers",
+  "icon": "inv_bracer_14",
+  "quality": 3
+ },
+ "25830": {
+  "name": "Gladiator's Leather Helm",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "25831": {
+  "name": "Gladiator's Leather Tunic",
+  "icon": "inv_chest_leather_03",
+  "quality": 4
+ },
+ "25832": {
+  "name": "Gladiator's Leather Spaulders",
+  "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "25833": {
+  "name": "Gladiator's Leather Legguards",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "25834": {
+  "name": "Gladiator's Leather Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "25854": {
+  "name": "Gladiator's Silk Amice",
+  "icon": "inv_shoulder_19",
+  "quality": 4
+ },
+ "25855": {
+  "name": "Gladiator's Silk Cowl",
+  "icon": "inv_helmet_08",
+  "quality": 4
+ },
+ "25856": {
+  "name": "Gladiator's Silk Raiment",
+  "icon": "inv_chest_leather_01",
+  "quality": 4
+ },
+ "25857": {
+  "name": "Gladiator's Silk Handguards",
+  "icon": "inv_gauntlets_19",
+  "quality": 4
+ },
+ "25858": {
+  "name": "Gladiator's Silk Trousers",
+  "icon": "inv_pants_07",
+  "quality": 4
+ },
+ "25894": {
+  "name": "Swift Skyfire Diamond",
+  "icon": "inv_misc_gem_diamond_07",
+  "quality": 3
+ },
+ "25895": {
+  "name": "Enigmatic Skyfire Diamond",
+  "icon": "inv_misc_gem_diamond_07",
+  "quality": 3
+ },
+ "25896": {
+  "name": "Powerful Earthstorm Diamond",
+  "icon": "inv_misc_gem_diamond_06",
+  "quality": 3
+ },
+ "25897": {
+  "name": "Bracing Earthstorm Diamond",
+  "icon": "inv_misc_gem_diamond_06",
+  "quality": 3
+ },
+ "25901": {
+  "name": "Insightful Earthstorm Diamond",
+  "icon": "inv_misc_gem_diamond_06",
+  "quality": 3
+ },
+ "25997": {
+  "name": "Gladiator's Linked Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
+ },
+ "25998": {
+  "name": "Gladiator's Linked Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "25999": {
+  "name": "Gladiator's Linked Spaulders",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "26001": {
+  "name": "Gladiator's Linked Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "27462": {
+  "name": "Crimson Bracers of Gloom",
+  "icon": "inv_bracer_13",
+  "quality": 3
+ },
+ "27470": {
+  "name": "Gladiator's Mail Gauntlets",
+  "icon": "inv_gauntlets_11",
+  "quality": 4
+ },
+ "27471": {
+  "name": "Gladiator's Mail Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "27472": {
+  "name": "Gladiator's Mail Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "27473": {
+  "name": "Gladiator's Mail Spaulders",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "27474": {
+  "name": "Beast Lord Handguards",
+  "icon": "inv_gauntlets_10",
+  "quality": 3
+ },
+ "27484": {
+  "name": "Libram of Avengement",
+  "icon": "inv_misc_stonetablet_05",
+  "quality": 3
+ },
+ "27531": {
+  "name": "Wastewalker Gloves",
+  "icon": "inv_gauntlets_25",
+  "quality": 3
+ },
+ "27683": {
+  "name": "Quagmirran's Eye",
+  "icon": "inv_misc_gem_pearl_01",
+  "quality": 3
+ },
+ "27707": {
+  "name": "Gladiator's Satin Gloves",
+  "icon": "inv_gauntlets_15",
+  "quality": 4
+ },
+ "27708": {
+  "name": "Gladiator's Satin Hood",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "27709": {
+  "name": "Gladiator's Satin Leggings",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "27710": {
+  "name": "Gladiator's Satin Mantle",
+  "icon": "inv_shoulder_02",
+  "quality": 4
+ },
+ "27711": {
+  "name": "Gladiator's Satin Robe",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "27761": {
+  "name": "Ring of the Shadow Deeps",
+  "icon": "inv_jewelry_ring_ahnqiraj_01",
+  "quality": 3
+ },
+ "27797": {
+  "name": "Wastewalker Shoulderpads",
+  "icon": "inv_shoulder_15",
+  "quality": 3
+ },
+ "27801": {
+  "name": "Beast Lord Mantle",
+  "icon": "inv_shoulder_23",
+  "quality": 3
+ },
+ "27815": {
+  "name": "Totem of the Astral Winds",
+  "icon": "spell_unused",
+  "quality": 3
+ },
+ "27883": {
+  "name": "Gladiator's Scaled Shoulders",
+  "icon": "inv_shoulder_22",
+  "quality": 4
+ },
+ "27886": {
+  "name": "Idol of the Emerald Queen",
+  "icon": "spell_nature_natureresistancetotem",
+  "quality": 3
+ },
+ "27917": {
+  "name": "Libram of the Eternal Rest",
+  "icon": "inv_relics_libramoftruth",
+  "quality": 3
+ },
+ "27981": {
+  "name": "Sethekk Oracle Cloak",
+  "icon": "inv_misc_cape_11",
+  "quality": 3
+ },
+ "28034": {
+  "name": "Hourglass of the Unraveller",
+  "icon": "inv_gizmo_khoriumpowercore",
+  "quality": 3
+ },
+ "28118": {
+  "name": "Runed Ornate Ruby",
+  "icon": "inv_misc_gem_bloodstone_01",
+  "quality": 4
+ },
+ "28121": {
+  "name": "Icon of Unyielding Courage",
+  "icon": "inv_brd_banner",
+  "quality": 3
+ },
+ "28126": {
+  "name": "Gladiator's Dragonhide Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "28127": {
+  "name": "Gladiator's Dragonhide Helm",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "28128": {
+  "name": "Gladiator's Dragonhide Legguards",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "28129": {
+  "name": "Gladiator's Dragonhide Spaulders",
+  "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "28130": {
+  "name": "Gladiator's Dragonhide Tunic",
+  "icon": "inv_chest_leather_03",
+  "quality": 4
+ },
+ "28136": {
+  "name": "Gladiator's Wyrmhide Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "28139": {
+  "name": "Gladiator's Wyrmhide Spaulders",
+  "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "28171": {
+  "name": "Spymistress's Wristguards",
+  "icon": "inv_bracer_08",
+  "quality": 3
+ },
+ "28179": {
+  "name": "Shattrath Jumpers",
+  "icon": "inv_boots_fabric_01",
+  "quality": 3
+ },
+ "28189": {
+  "name": "Latro's Shifting Sword",
+  "icon": "inv_sword_76",
+  "quality": 3
+ },
+ "28190": {
+  "name": "Scarab of the Infinite Cycle",
+  "icon": "inv_misc_ahnqirajtrinket_06",
+  "quality": 3
+ },
+ "28228": {
+  "name": "Beast Lord Cuirass",
+  "icon": "inv_chest_chain_03",
+  "quality": 3
+ },
+ "28234": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "28235": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "28236": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "28237": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "28238": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "28239": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "28240": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "28241": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "28242": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "28243": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "28244": {
+  "name": "Pendant of Triumph",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "28245": {
+  "name": "Pendant of Dominance",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "28247": {
+  "name": "Band of Dominance",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 3
+ },
+ "28248": {
+  "name": "Totem of the Void",
+  "icon": "spell_arcane_blast",
+  "quality": 3
+ },
+ "28275": {
+  "name": "Beast Lord Helm",
+  "icon": "inv_helmet_19",
+  "quality": 3
+ },
+ "28294": {
+  "name": "Gladiator's Heavy Crossbow",
+  "icon": "inv_weapon_crossbow_10",
+  "quality": 4
+ },
+ "28295": {
+  "name": "Gladiator's Slicer",
+  "icon": "inv_sword_71",
+  "quality": 4
+ },
+ "28296": {
+  "name": "Libram of the Lightbringer",
+  "icon": "inv_misc_book_12",
+  "quality": 3
+ },
+ "28297": {
+  "name": "Gladiator's Spellblade",
+  "icon": "inv_weapon_shortblade_26",
+  "quality": 4
+ },
+ "28305": {
+  "name": "Gladiator's Pummeler",
+  "icon": "inv_mace_36",
+  "quality": 4
+ },
+ "28307": {
+  "name": "Gladiator's Quickblade",
+  "icon": "inv_sword_71",
+  "quality": 4
+ },
+ "28308": {
+  "name": "Gladiator's Cleaver",
+  "icon": "inv_axe_54",
+  "quality": 4
+ },
+ "28309": {
+  "name": "Gladiator's Hacker",
+  "icon": "inv_axe_54",
+  "quality": 4
+ },
+ "28310": {
+  "name": "Gladiator's Shiv",
+  "icon": "inv_weapon_shortblade_45",
+  "quality": 4
+ },
+ "28313": {
+  "name": "Gladiator's Right Ripper",
+  "icon": "inv_weapon_hand_13",
+  "quality": 4
+ },
+ "28315": {
+  "name": "Stormreaver Warblades",
+  "icon": "inv_weapon_hand_08",
+  "quality": 3
+ },
+ "28319": {
+  "name": "Gladiator's War Edge",
+  "icon": "inv_axe_03",
+  "quality": 4
+ },
+ "28320": {
+  "name": "Gladiator's Touch of Defeat",
+  "icon": "inv_wand_09",
+  "quality": 4
+ },
+ "28327": {
+  "name": "Arcane Netherband",
+  "icon": "inv_jewelry_ring_62",
+  "quality": 3
+ },
+ "28331": {
+  "name": "Gladiator's Chain Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "28332": {
+  "name": "Gladiator's Chain Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "28333": {
+  "name": "Gladiator's Chain Spaulders",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "28334": {
+  "name": "Gladiator's Chain Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
+ },
+ "28335": {
+  "name": "Gladiator's Chain Gauntlets",
+  "icon": "inv_gauntlets_11",
+  "quality": 4
+ },
+ "28345": {
+  "name": "Warp Splinter's Thorn",
+  "icon": "inv_weapon_shortblade_57",
+  "quality": 3
+ },
+ "28357": {
+  "name": "Gladiator's Totem of the Third Wind",
+  "icon": "spell_nature_slowingtotem",
+  "quality": 4
+ },
+ "28362": {
+  "name": "Bold Ornate Ruby",
+  "icon": "inv_misc_gem_ruby_02",
+  "quality": 4
+ },
+ "28363": {
+  "name": "Inscribed Ornate Topaz",
+  "icon": "inv_misc_gem_opal_01",
+  "quality": 4
+ },
+ "28370": {
+  "name": "Bangle of Endless Blessings",
+  "icon": "inv_jewelry_necklace_27",
+  "quality": 3
+ },
+ "28377": {
+  "name": "Sergeant's Heavy Cloak",
+  "icon": "inv_misc_cape_07",
+  "quality": 4
+ },
+ "28378": {
+  "name": "Sergeant's Heavy Cape",
+  "icon": "inv_misc_cape_07",
+  "quality": 4
+ },
+ "28386": {
+  "name": "Nether Core's Control Rod",
+  "icon": "inv_wand_17",
+  "quality": 3
+ },
+ "28402": {
+  "name": "General's Dreadweave Stalkers",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "28405": {
+  "name": "General's Dreadweave Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "28410": {
+  "name": "General's Silk Footguards",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "28411": {
+  "name": "General's Silk Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "28430": {
+  "name": "Lionheart Executioner",
+  "icon": "inv_sword_2h_blacksmithing_03",
+  "quality": 4
+ },
+ "28438": {
+  "name": "Dragonmaw",
+  "icon": "inv_mace_38",
+  "quality": 4
+ },
+ "28439": {
+  "name": "Dragonstrike",
+  "icon": "inv_mace_39",
+  "quality": 4
+ },
+ "28441": {
+  "name": "Deep Thunder",
+  "icon": "inv_mace_2h_blacksmithing_02",
+  "quality": 4
+ },
+ "28442": {
+  "name": "Stormherald",
+  "icon": "inv_mace_2h_blacksmithing_03",
+  "quality": 4
+ },
+ "28449": {
+  "name": "General's Chain Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "28450": {
+  "name": "General's Chain Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "28451": {
+  "name": "General's Chain Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "28454": {
+  "name": "Stalker's War Bands",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "28476": {
+  "name": "Gladiator's Maul",
+  "icon": "inv_mace_52",
+  "quality": 4
+ },
+ "28502": {
+  "name": "Vambraces of Courage",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "28503": {
+  "name": "Whirlwind Bracers",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "28504": {
+  "name": "Steelhawk Crossbow",
+  "icon": "inv_weapon_crossbow_18",
+  "quality": 4
+ },
+ "28507": {
+  "name": "Handwraps of Flowing Thought",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "28508": {
+  "name": "Gloves of Saintly Blessings",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "28509": {
+  "name": "Worgen Claw Necklace",
+  "icon": "inv_jewelry_necklace_22",
+  "quality": 4
+ },
+ "28511": {
+  "name": "Bands of Indwelling",
+  "icon": "inv_bracer_13",
+  "quality": 4
+ },
+ "28512": {
+  "name": "Bracers of Justice",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "28517": {
+  "name": "Boots of Foretelling",
+  "icon": "inv_boots_cloth_05",
+  "quality": 4
+ },
+ "28518": {
+  "name": "Iron Gauntlets of the Maiden",
+  "icon": "inv_gauntlets_31",
+  "quality": 4
+ },
+ "28520": {
+  "name": "Gloves of Centering",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "28521": {
+  "name": "Mitts of the Treemender",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "28523": {
+  "name": "Totem of Healing Rains",
+  "icon": "spell_nature_giftofthewaterspirit",
+  "quality": 4
+ },
+ "28525": {
+  "name": "Signet of Unshakable Faith",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "28529": {
+  "name": "Royal Cloak of Arathi Kings",
+  "icon": "inv_misc_cape_10",
+  "quality": 4
+ },
+ "28530": {
+  "name": "Brooch of Unquenchable Fury",
+  "icon": "inv_jewelry_necklace_ahnqiraj_04",
+  "quality": 4
+ },
+ "28545": {
+  "name": "Edgewalker Longboots",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "28553": {
+  "name": "Band of the Exorcist",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "28555": {
+  "name": "Seal of the Exorcist",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "28566": {
+  "name": "Crimson Girdle of the Indomitable",
+  "icon": "inv_belt_27",
+  "quality": 4
+ },
+ "28570": {
+  "name": "Shadow-Cloak of Dalaran",
+  "icon": "inv_misc_cape_20",
+  "quality": 4
+ },
+ "28578": {
+  "name": "Masquerade Gown",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "28582": {
+  "name": "Red Riding Hood's Cloak",
+  "icon": "inv_misc_cape_18",
+  "quality": 4
+ },
+ "28588": {
+  "name": "Blue Diamond Witchwand",
+  "icon": "inv_wand_16",
+  "quality": 4
+ },
+ "28590": {
+  "name": "Ribbon of Sacrifice",
+  "icon": "inv_misc_bandage_16",
+  "quality": 4
+ },
+ "28591": {
+  "name": "Earthsoul Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "28594": {
+  "name": "Trial-Fire Trousers",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "28597": {
+  "name": "Panzar'Thar Breastplate",
+  "icon": "inv_chest_plate02",
+  "quality": 4
+ },
+ "28602": {
+  "name": "Robe of the Elder Scribes",
+  "icon": "inv_chest_cloth_12",
+  "quality": 4
+ },
+ "28603": {
+  "name": "Talisman of Nightbane",
+  "icon": "inv_offhand_outlandraid_01",
+  "quality": 4
+ },
+ "28608": {
+  "name": "Ironstriders of Urgency",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "28609": {
+  "name": "Emberspur Talisman",
+  "icon": "inv_jewelry_necklace_17",
+  "quality": 4
+ },
+ "28621": {
+  "name": "Wrynn Dynasty Greaves",
+  "icon": "inv_pants_plate_05",
+  "quality": 4
+ },
+ "28638": {
+  "name": "General's Mail Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "28640": {
+  "name": "General's Mail Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "28645": {
+  "name": "General's Scaled Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "28649": {
+  "name": "Garona's Signet Ring",
+  "icon": "inv_jewelry_ring_47",
+  "quality": 4
+ },
+ "28652": {
+  "name": "Cincture of Will",
+  "icon": "inv_belt_08",
+  "quality": 4
+ },
+ "28654": {
+  "name": "Malefic Girdle",
+  "icon": "inv_belt_03",
+  "quality": 4
+ },
+ "28655": {
+  "name": "Cord of Nature's Sustenance",
+  "icon": "inv_belt_22",
+  "quality": 4
+ },
+ "28658": {
+  "name": "Terestian's Stranglestaff",
+  "icon": "inv_staff_55",
+  "quality": 4
+ },
+ "28663": {
+  "name": "Boots of the Incorrupt",
+  "icon": "inv_boots_fabric_01",
+  "quality": 4
+ },
+ "28672": {
+  "name": "Drape of the Dark Reavers",
+  "icon": "inv_misc_cape_10",
+  "quality": 4
+ },
+ "28673": {
+  "name": "Tirisfal Wand of Ascendancy",
+  "icon": "inv_wand_21",
+  "quality": 4
+ },
+ "28674": {
+  "name": "Saberclaw Talisman",
+  "icon": "inv_jewelry_necklace_34",
+  "quality": 4
+ },
+ "28675": {
+  "name": "Shermanar Great-Ring",
+  "icon": "inv_jewelry_ring_19",
+  "quality": 4
+ },
+ "28727": {
+  "name": "Pendant of the Violet Eye",
+  "icon": "inv_trinket_naxxramas02",
+  "quality": 4
+ },
+ "28728": {
+  "name": "Aran's Soothing Sapphire",
+  "icon": "inv_misc_gem_sapphire_02",
+  "quality": 4
+ },
+ "28730": {
+  "name": "Mithril Band of the Unscarred",
+  "icon": "inv_jewelry_ring_24",
+  "quality": 4
+ },
+ "28731": {
+  "name": "Shining Chain of the Afterworld",
+  "icon": "inv_jewelry_necklace_32",
+  "quality": 4
+ },
+ "28734": {
+  "name": "Jewel of Infinite Possibilities",
+  "icon": "inv_misc_gem_ebondraenite_02",
+  "quality": 4
+ },
+ "28740": {
+  "name": "Rip-Flayer Leggings",
+  "icon": "inv_pants_plate_02",
+  "quality": 4
+ },
+ "28741": {
+  "name": "Skulker's Greaves",
+  "icon": "inv_pants_leather_13",
+  "quality": 4
+ },
+ "28742": {
+  "name": "Pantaloons of Repentance",
+  "icon": "inv_pants_cloth_13",
+  "quality": 4
+ },
+ "28744": {
+  "name": "Uni-Mind Headdress",
+  "icon": "inv_helmet_53",
+  "quality": 4
+ },
+ "28750": {
+  "name": "Girdle of Treachery",
+  "icon": "inv_belt_26",
+  "quality": 4
+ },
+ "28751": {
+  "name": "Heart-Flame Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "28752": {
+  "name": "Forestlord Striders",
+  "icon": "inv_boots_chain_05",
+  "quality": 4
+ },
+ "28753": {
+  "name": "Ring of Recurrence",
+  "icon": "inv_jewelry_ring_15",
+  "quality": 4
+ },
+ "28754": {
+  "name": "Triptych Shield of the Ancients",
+  "icon": "inv_shield_31",
+  "quality": 4
+ },
+ "28757": {
+  "name": "Ring of a Thousand Marks",
+  "icon": "inv_jewelry_ring_ahnqiraj_05",
+  "quality": 4
+ },
+ "28762": {
+  "name": "Adornment of Stolen Souls",
+  "icon": "inv_jewelry_necklace_29naxxramas",
+  "quality": 4
+ },
+ "28763": {
+  "name": "Jade Ring of the Everliving",
+  "icon": "inv_jewelry_ring_08",
+  "quality": 4
+ },
+ "28765": {
+  "name": "Stainless Cloak of the Pure Hearted",
+  "icon": "inv_misc_cape_06",
+  "quality": 4
+ },
+ "28766": {
+  "name": "Ruby Drape of the Mysticant",
+  "icon": "inv_misc_cape_18",
+  "quality": 4
+ },
+ "28770": {
+  "name": "Nathrezim Mindblade",
+  "icon": "inv_weapon_shortblade_41",
+  "quality": 4
+ },
+ "28771": {
+  "name": "Light's Justice",
+  "icon": "inv_mace_46",
+  "quality": 4
+ },
+ "28772": {
+  "name": "Sunfury Bow of the Phoenix",
+  "icon": "inv_weapon_bow_18",
+  "quality": 4
+ },
+ "28777": {
+  "name": "Cloak of the Pit Stalker",
+  "icon": "inv_misc_cape_14",
+  "quality": 4
+ },
+ "28779": {
+  "name": "Girdle of the Endless Pit",
+  "icon": "inv_belt_22",
+  "quality": 4
+ },
+ "28780": {
+  "name": "Soul-Eater's Handwraps",
+  "icon": "inv_gauntlets_15",
+  "quality": 4
+ },
+ "28781": {
+  "name": "Karaborian Talisman",
+  "icon": "inv_offhand_draenei_a_01",
+  "quality": 4
+ },
+ "28783": {
+  "name": "Eredar Wand of Obliteration",
+  "icon": "inv_wand_20",
+  "quality": 4
+ },
+ "28785": {
+  "name": "The Lightning Capacitor",
+  "icon": "inv_trinket_naxxramas06",
+  "quality": 4
+ },
+ "28790": {
+  "name": "Naaru Lightwarden's Band",
+  "icon": "inv_jewelry_ring_70",
+  "quality": 4
+ },
+ "28791": {
+  "name": "Ring of the Recalcitrant",
+  "icon": "inv_jewelry_ring_71",
+  "quality": 4
+ },
+ "28793": {
+  "name": "Band of Crimson Fury",
+  "icon": "inv_jewelry_ring_65",
+  "quality": 4
+ },
+ "28795": {
+  "name": "Bladespire Warbands",
+  "icon": "inv_bracer_15",
+  "quality": 4
+ },
+ "28797": {
+  "name": "Brute Cloak of the Ogre-Magi",
+  "icon": "inv_misc_cape_16",
+  "quality": 4
+ },
+ "28799": {
+  "name": "Belt of Divine Inspiration",
+  "icon": "inv_belt_03",
+  "quality": 4
+ },
+ "28822": {
+  "name": "Teeth of Gruul",
+  "icon": "inv_misc_bone_09",
+  "quality": 4
+ },
+ "28823": {
+  "name": "Eye of Gruul",
+  "icon": "spell_shadow_unholyfrenzy",
+  "quality": 4
+ },
+ "28824": {
+  "name": "Gauntlets of Martial Perfection",
+  "icon": "inv_gauntlets_31",
+  "quality": 4
+ },
+ "28825": {
+  "name": "Aldori Legacy Defender",
+  "icon": "inv_shield_30",
+  "quality": 4
+ },
+ "28830": {
+  "name": "Dragonspine Trophy",
+  "icon": "inv_misc_bone_03",
+  "quality": 4
+ },
+ "28963": {
+  "name": "Voidheart Crown",
+  "icon": "inv_crown_01",
+  "quality": 4
+ },
+ "28964": {
+  "name": "Voidheart Robe",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "28966": {
+  "name": "Voidheart Leggings",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "28967": {
+  "name": "Voidheart Mantle",
+  "icon": "inv_shoulder_25",
+  "quality": 4
+ },
+ "28968": {
+  "name": "Voidheart Gloves",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "28973": {
+  "name": "Marshal's Chain Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "28974": {
+  "name": "Marshal's Chain Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "28975": {
+  "name": "Marshal's Chain Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "28976": {
+  "name": "Marshal's Dragonhide Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "28977": {
+  "name": "Marshal's Dragonhide Boots",
+  "icon": "inv_boots_08",
+  "quality": 4
+ },
+ "28978": {
+  "name": "Marshal's Dragonhide Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "28982": {
+  "name": "Marshal's Dreadweave Stalkers",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "28986": {
+  "name": "Marshal's Leather Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "28988": {
+  "name": "Marshal's Leather Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "28989": {
+  "name": "Marshal's Linked Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "28990": {
+  "name": "Marshal's Linked Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "28995": {
+  "name": "Marshal's Plate Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
+ "28996": {
+  "name": "Marshal's Plate Bracers",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "28997": {
+  "name": "Marshal's Plate Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "29001": {
+  "name": "Marshal's Silk Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "29002": {
+  "name": "Marshal's Silk Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "29003": {
+  "name": "Marshal's Silk Footguards",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "29012": {
+  "name": "Warbringer Chestguard",
+  "icon": "inv_chest_plate02",
+  "quality": 4
+ },
+ "29021": {
+  "name": "Warbringer Battle-Helm",
+  "icon": "inv_helmet_58",
+  "quality": 4
+ },
+ "29023": {
+  "name": "Warbringer Shoulderplates",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "29028": {
+  "name": "Cyclone Headdress",
+  "icon": "inv_helmet_15",
+  "quality": 4
+ },
+ "29044": {
+  "name": "Netherblade Facemask",
+  "icon": "inv_helmet_58",
+  "quality": 4
+ },
+ "29045": {
+  "name": "Netherblade Chestpiece",
+  "icon": "inv_chest_plate02",
+  "quality": 4
+ },
+ "29046": {
+  "name": "Netherblade Breeches",
+  "icon": "inv_pants_plate_05",
+  "quality": 4
+ },
+ "29048": {
+  "name": "Netherblade Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "29049": {
+  "name": "Light-Collar of the Incarnate",
+  "icon": "inv_crown_01",
+  "quality": 4
+ },
+ "29050": {
+  "name": "Robes of the Incarnate",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "29054": {
+  "name": "Light-Mantle of the Incarnate",
+  "icon": "inv_shoulder_25",
+  "quality": 4
+ },
+ "29055": {
+  "name": "Handwraps of the Incarnate",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "29076": {
+  "name": "Collar of the Aldor",
+  "icon": "inv_crown_01",
+  "quality": 4
+ },
+ "29079": {
+  "name": "Pauldrons of the Aldor",
+  "icon": "inv_shoulder_25",
+  "quality": 4
+ },
+ "29082": {
+  "name": "Demon Stalker Harness",
+  "icon": "inv_chest_chain_15",
+  "quality": 4
+ },
+ "29083": {
+  "name": "Demon Stalker Greaves",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "29090": {
+  "name": "Handguards of Malorne",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "29170": {
+  "name": "Windcaller's Orb",
+  "icon": "inv_misc_orb_01",
+  "quality": 4
+ },
+ "29204": {
+  "name": "Felsteel Whisper Knives",
+  "icon": "inv_weapon_shortblade_26",
+  "quality": 3
+ },
+ "29246": {
+  "name": "Nightfall Wristguards",
+  "icon": "inv_bracer_15",
+  "quality": 4
+ },
+ "29247": {
+  "name": "Girdle of the Deathdealer",
+  "icon": "inv_belt_26",
+  "quality": 4
+ },
+ "29271": {
+  "name": "Talisman of Kalecgos",
+  "icon": "inv_offhand_outlandraid_02",
+  "quality": 4
+ },
+ "29272": {
+  "name": "Orb of the Soul-Eater",
+  "icon": "inv_misc_orb_04",
+  "quality": 4
+ },
+ "29274": {
+  "name": "Tears of Heaven",
+  "icon": "inv_potion_75",
+  "quality": 4
+ },
+ "29283": {
+  "name": "Violet Signet of the Master Assassin",
+  "icon": "inv_jewelry_ring_62",
+  "quality": 4
+ },
+ "29286": {
+  "name": "Violet Signet",
+  "icon": "inv_jewelry_ring_62",
+  "quality": 4
+ },
+ "29287": {
+  "name": "Violet Signet of the Archmage",
+  "icon": "inv_jewelry_ring_62",
+  "quality": 4
+ },
+ "29290": {
+  "name": "Violet Signet of the Grand Restorer",
+  "icon": "inv_jewelry_ring_62",
+  "quality": 4
+ },
+ "29298": {
+  "name": "Band of Eternity",
+  "icon": "inv_jewelry_ring_54",
+  "quality": 4
+ },
+ "29302": {
+  "name": "Band of Eternity",
+  "icon": "inv_jewelry_ring_54",
+  "quality": 4
+ },
+ "29307": {
+  "name": "Band of Eternity",
+  "icon": "inv_jewelry_ring_54",
+  "quality": 4
+ },
+ "29347": {
+  "name": "Talisman of the Breaker",
+  "icon": "ability_hunter_mastermarksman",
+  "quality": 4
+ },
+ "29370": {
+  "name": "Icon of the Silver Crescent",
+  "icon": "inv_weapon_shortblade_23",
+  "quality": 4
+ },
+ "29374": {
+  "name": "Necklace of Eternal Hope",
+  "icon": "inv_jewelry_necklace_31",
+  "quality": 4
+ },
+ "29375": {
+  "name": "Bishop's Cloak",
+  "icon": "inv_misc_cape_02",
+  "quality": 4
+ },
+ "29376": {
+  "name": "Essence of the Martyr",
+  "icon": "inv_valentineperfumebottle",
+  "quality": 4
+ },
+ "29381": {
+  "name": "Choker of Vile Intent",
+  "icon": "inv_jewelry_necklace_04",
+  "quality": 4
+ },
+ "29382": {
+  "name": "Blood Knight War Cloak",
+  "icon": "inv_misc_cape_18",
+  "quality": 4
+ },
+ "29383": {
+  "name": "Bloodlust Brooch",
+  "icon": "inv_misc_monsterscales_15",
+  "quality": 4
+ },
+ "29390": {
+  "name": "Everbloom Idol",
+  "icon": "inv_relics_idolofhealth",
+  "quality": 4
+ },
+ "29458": {
+  "name": "Aegis of the Vindicator",
+  "icon": "inv_shield_33",
+  "quality": 4
+ },
+ "29527": {
+  "name": "Primalstrike Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "29918": {
+  "name": "Mindstorm Wristbands",
+  "icon": "inv_bracer_13",
+  "quality": 4
+ },
+ "29922": {
+  "name": "Band of Al'ar",
+  "icon": "inv_jewelry_ring_61",
+  "quality": 4
+ },
+ "29923": {
+  "name": "Talisman of the Sun King",
+  "icon": "inv_offhand_blood_02",
+  "quality": 4
+ },
+ "29924": {
+  "name": "Netherbane",
+  "icon": "inv_axe_62",
+  "quality": 4
+ },
+ "29925": {
+  "name": "Phoenix-Wing Cloak",
+  "icon": "inv_misc_cape_08",
+  "quality": 4
+ },
+ "29947": {
+  "name": "Gloves of the Searing Grip",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "29948": {
+  "name": "Claw of the Phoenix",
+  "icon": "inv_weapon_hand_12",
+  "quality": 4
+ },
+ "29949": {
+  "name": "Arcanite Steam-Pistol",
+  "icon": "inv_weapon_rifle_18",
+  "quality": 4
+ },
+ "29950": {
+  "name": "Greaves of the Bloodwarder",
+  "icon": "inv_pants_plate_05",
+  "quality": 4
+ },
+ "29951": {
+  "name": "Star-Strider Boots",
+  "icon": "inv_boots_chain_04",
+  "quality": 4
+ },
+ "29966": {
+  "name": "Vambraces of Ending",
+  "icon": "inv_bracer_15",
+  "quality": 4
+ },
+ "29972": {
+  "name": "Trousers of the Astromancer",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "29976": {
+  "name": "Worldstorm Gauntlets",
+  "icon": "inv_gauntlets_26",
+  "quality": 4
+ },
+ "29977": {
+  "name": "Star-Soul Breeches",
+  "icon": "inv_pants_cloth_07",
+  "quality": 4
+ },
+ "29981": {
+  "name": "Ethereum Life-Staff",
+  "icon": "inv_staff_52",
+  "quality": 4
+ },
+ "29984": {
+  "name": "Girdle of Zaetar",
+  "icon": "inv_belt_08",
+  "quality": 4
+ },
+ "29985": {
+  "name": "Void Reaver Greaves",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "29987": {
+  "name": "Gauntlets of the Sun King",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "29988": {
+  "name": "The Nexus Key",
+  "icon": "inv_staff_43",
+  "quality": 4
+ },
+ "29989": {
+  "name": "Sunshower Light Cloak",
+  "icon": "inv_misc_cape_06",
+  "quality": 4
+ },
+ "29991": {
+  "name": "Sunhawk Leggings",
+  "icon": "inv_pants_plate_07",
+  "quality": 4
+ },
+ "29992": {
+  "name": "Royal Cloak of the Sunstriders",
+  "icon": "inv_misc_cape_10",
+  "quality": 4
+ },
+ "29993": {
+  "name": "Twinblade of the Phoenix",
+  "icon": "inv_sword_2h_blood_c_01",
+  "quality": 4
+ },
+ "29994": {
+  "name": "Thalassian Wildercloak",
+  "icon": "inv_misc_cape_15",
+  "quality": 4
+ },
+ "29995": {
+  "name": "Leggings of Murderous Intent",
+  "icon": "inv_pants_leather_03",
+  "quality": 4
+ },
+ "29996": {
+  "name": "Rod of the Sun King",
+  "icon": "inv_mace_48",
+  "quality": 4
+ },
+ "29997": {
+  "name": "Band of the Ranger-General",
+  "icon": "inv_jewelry_ring_55",
+  "quality": 4
+ },
+ "30008": {
+  "name": "Pendant of the Lost Ages",
+  "icon": "inv_jewelry_necklace_12",
+  "quality": 4
+ },
+ "30015": {
+  "name": "The Sun King's Talisman",
+  "icon": "inv_jewelry_necklace_14",
+  "quality": 4
+ },
+ "30017": {
+  "name": "Telonicus's Pendant of Mayhem",
+  "icon": "inv_jewelry_necklace_30naxxramas",
+  "quality": 4
+ },
+ "30018": {
+  "name": "Lord Sanguinar's Claim",
+  "icon": "inv_jewelry_necklace_29naxxramas",
+  "quality": 4
+ },
+ "30022": {
+  "name": "Pendant of the Perilous",
+  "icon": "inv_jewelry_necklace_ahnqiraj_01",
+  "quality": 4
+ },
+ "30025": {
+  "name": "Serpentshrine Shuriken",
+  "icon": "inv_throwingknife_06",
+  "quality": 4
+ },
+ "30027": {
+  "name": "Boots of Courage Unending",
+  "icon": "inv_boots_chain_08",
+  "quality": 4
+ },
+ "30029": {
+  "name": "Bark-Gloves of Ancient Wisdom",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "30030": {
+  "name": "Girdle of Fallen Stars",
+  "icon": "inv_belt_22",
+  "quality": 4
+ },
+ "30032": {
+  "name": "Red Belt of Battle",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "30035": {
+  "name": "Boots of the Long Road",
+  "icon": "inv_boots_cloth_14",
+  "quality": 4
+ },
+ "30036": {
+  "name": "Belt of the Long Road",
+  "icon": "inv_belt_05",
+  "quality": 4
+ },
+ "30038": {
+  "name": "Belt of Blasting",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "30040": {
+  "name": "Belt of Deep Shadow",
+  "icon": "inv_belt_29",
+  "quality": 4
+ },
+ "30041": {
+  "name": "Boots of Natural Grace",
+  "icon": "inv_boots_cloth_04",
+  "quality": 4
+ },
+ "30042": {
+  "name": "Belt of Natural Power",
+  "icon": "inv_belt_25",
+  "quality": 4
+ },
+ "30044": {
+  "name": "Monsoon Belt",
+  "icon": "inv_belt_15",
+  "quality": 4
+ },
+ "30047": {
+  "name": "Blackfathom Warbands",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "30049": {
+  "name": "Fathomstone",
+  "icon": "inv_misc_gem_azuredraenite_02",
+  "quality": 4
+ },
+ "30050": {
+  "name": "Boots of the Shifting Nightmare",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "30052": {
+  "name": "Ring of Lethality",
+  "icon": "inv_jewelry_ring_51naxxramas",
+  "quality": 4
+ },
+ "30053": {
+  "name": "Pauldrons of the Wardancer",
+  "icon": "inv_shoulder_20",
+  "quality": 4
+ },
+ "30055": {
+  "name": "Shoulderpads of the Stranger",
+  "icon": "inv_shoulder_23",
+  "quality": 4
+ },
+ "30056": {
+  "name": "Robe of Hateful Echoes",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "30057": {
+  "name": "Bracers of Eradication",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "30058": {
+  "name": "Mallet of the Tides",
+  "icon": "inv_weapon_shortblade_42",
+  "quality": 4
+ },
+ "30059": {
+  "name": "Choker of Animalistic Fury",
+  "icon": "inv_jewelry_necklace_ahnqiraj_03",
+  "quality": 4
+ },
+ "30060": {
+  "name": "Boots of Effortless Striking",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "30061": {
+  "name": "Ancestral Ring of Conquest",
+  "icon": "inv_jewelry_ring_41",
+  "quality": 4
+ },
+ "30062": {
+  "name": "Grove-Bands of Remulos",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "30064": {
+  "name": "Cord of Screaming Terrors",
+  "icon": "inv_belt_03",
+  "quality": 4
+ },
+ "30066": {
+  "name": "Tempest-Strider Boots",
+  "icon": "inv_boots_chain_05",
+  "quality": 4
+ },
+ "30067": {
+  "name": "Velvet Boots of the Guardian",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "30080": {
+  "name": "Luminescent Rod of the Naaru",
+  "icon": "inv_wand_15",
+  "quality": 4
+ },
+ "30081": {
+  "name": "Warboots of Obliteration",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "30082": {
+  "name": "Talon of Azshara",
+  "icon": "inv_sword_50",
+  "quality": 4
+ },
+ "30083": {
+  "name": "Ring of Sundered Souls",
+  "icon": "inv_jewelry_ring_31",
+  "quality": 4
+ },
+ "30090": {
+  "name": "World Breaker",
+  "icon": "inv_mace_52",
+  "quality": 4
+ },
+ "30092": {
+  "name": "Orca-Hide Boots",
+  "icon": "inv_boots_cloth_16",
+  "quality": 4
+ },
+ "30095": {
+  "name": "Fang of the Leviathan",
+  "icon": "inv_sword_73",
+  "quality": 4
+ },
+ "30096": {
+  "name": "Girdle of the Invulnerable",
+  "icon": "inv_belt_27",
+  "quality": 4
+ },
+ "30098": {
+  "name": "Razor-Scale Battlecloak",
+  "icon": "inv_misc_cape_20",
+  "quality": 4
+ },
+ "30100": {
+  "name": "Soul-Strider Boots",
+  "icon": "inv_boots_fabric_01",
+  "quality": 4
+ },
+ "30101": {
+  "name": "Bloodsea Brigand's Vest",
+  "icon": "inv_chest_plate08",
+  "quality": 4
+ },
+ "30104": {
+  "name": "Cobra-Lash Boots",
+  "icon": "inv_boots_chain_12",
+  "quality": 4
+ },
+ "30105": {
+  "name": "Serpent Spine Longbow",
+  "icon": "inv_weapon_bow_08",
+  "quality": 4
+ },
+ "30106": {
+  "name": "Belt of One-Hundred Deaths",
+  "icon": "inv_belt_26",
+  "quality": 4
+ },
+ "30107": {
+  "name": "Vestments of the Sea-Witch",
+  "icon": "inv_chest_cloth_17",
+  "quality": 4
+ },
+ "30108": {
+  "name": "Lightfathom Scepter",
+  "icon": "inv_weapon_shortblade_43",
+  "quality": 4
+ },
+ "30110": {
+  "name": "Coral Band of the Revived",
+  "icon": "inv_jewelry_ring_35",
+  "quality": 4
+ },
+ "30111": {
+  "name": "Runetotem's Mantle",
+  "icon": "inv_shoulder_07",
+  "quality": 4
+ },
+ "30112": {
+  "name": "Glorious Gauntlets of Crestfall",
+  "icon": "inv_gauntlets_20",
+  "quality": 4
+ },
+ "30115": {
+  "name": "Destroyer Greathelm",
+  "icon": "inv_helmet_58",
+  "quality": 4
+ },
+ "30116": {
+  "name": "Destroyer Legguards",
+  "icon": "inv_pants_plate_05",
+  "quality": 4
+ },
+ "30118": {
+  "name": "Destroyer Breastplate",
+  "icon": "inv_chest_plate02",
+  "quality": 4
+ },
+ "30119": {
+  "name": "Destroyer Gauntlets",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "30120": {
+  "name": "Destroyer Battle-Helm",
+  "icon": "inv_helmet_58",
+  "quality": 4
+ },
+ "30121": {
+  "name": "Destroyer Greaves",
+  "icon": "inv_pants_plate_05",
+  "quality": 4
+ },
+ "30122": {
+  "name": "Destroyer Shoulderblades",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "30129": {
+  "name": "Crystalforge Breastplate",
+  "icon": "inv_chest_chain_15",
+  "quality": 4
+ },
+ "30131": {
+  "name": "Crystalforge War-Helm",
+  "icon": "inv_helmet_15",
+  "quality": 4
+ },
+ "30132": {
+  "name": "Crystalforge Greaves",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "30134": {
+  "name": "Crystalforge Chestpiece",
+  "icon": "inv_chest_chain_15",
+  "quality": 4
+ },
+ "30135": {
+  "name": "Crystalforge Gloves",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "30136": {
+  "name": "Crystalforge Greathelm",
+  "icon": "inv_helmet_15",
+  "quality": 4
+ },
+ "30137": {
+  "name": "Crystalforge Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "30138": {
+  "name": "Crystalforge Pauldrons",
+  "icon": "inv_shoulder_14",
+  "quality": 4
+ },
+ "30139": {
+  "name": "Rift Stalker Hauberk",
+  "icon": "inv_chest_chain_15",
+  "quality": 4
+ },
+ "30140": {
+  "name": "Rift Stalker Gauntlets",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "30141": {
+  "name": "Rift Stalker Helm",
+  "icon": "inv_helmet_15",
+  "quality": 4
+ },
+ "30142": {
+  "name": "Rift Stalker Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "30143": {
+  "name": "Rift Stalker Mantle",
+  "icon": "inv_shoulder_14",
+  "quality": 4
+ },
+ "30144": {
+  "name": "Deathmantle Chestguard",
+  "icon": "inv_chest_plate02",
+  "quality": 4
+ },
+ "30145": {
+  "name": "Deathmantle Handguards",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "30146": {
+  "name": "Deathmantle Helm",
+  "icon": "inv_helmet_58",
+  "quality": 4
+ },
+ "30148": {
+  "name": "Deathmantle Legguards",
+  "icon": "inv_pants_plate_05",
+  "quality": 4
+ },
+ "30149": {
+  "name": "Deathmantle Shoulderpads",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "30150": {
+  "name": "Vestments of the Avatar",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "30151": {
+  "name": "Gloves of the Avatar",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "30152": {
+  "name": "Cowl of the Avatar",
+  "icon": "inv_crown_01",
+  "quality": 4
+ },
+ "30153": {
+  "name": "Breeches of the Avatar",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "30154": {
+  "name": "Mantle of the Avatar",
+  "icon": "inv_shoulder_25",
+  "quality": 4
+ },
+ "30159": {
+  "name": "Shroud of the Avatar",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "30160": {
+  "name": "Handguards of the Avatar",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "30161": {
+  "name": "Hood of the Avatar",
+  "icon": "inv_crown_01",
+  "quality": 4
+ },
+ "30164": {
+  "name": "Cataclysm Chestguard",
+  "icon": "inv_chest_plate08",
+  "quality": 4
+ },
+ "30166": {
+  "name": "Cataclysm Headguard",
+  "icon": "inv_helmet_54",
+  "quality": 4
+ },
+ "30168": {
+  "name": "Cataclysm Shoulderguards",
+  "icon": "inv_shoulder_14",
+  "quality": 4
+ },
+ "30171": {
+  "name": "Cataclysm Headpiece",
+  "icon": "inv_helmet_15",
+  "quality": 4
+ },
+ "30172": {
+  "name": "Cataclysm Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "30185": {
+  "name": "Cataclysm Chestplate",
+  "icon": "inv_chest_plate08",
+  "quality": 4
+ },
+ "30186": {
+  "name": "Gladiator's Felweave Amice",
+  "icon": "inv_shoulder_19",
+  "quality": 4
+ },
+ "30187": {
+  "name": "Gladiator's Felweave Cowl",
+  "icon": "inv_helmet_08",
+  "quality": 4
+ },
+ "30188": {
+  "name": "Gladiator's Felweave Handguards",
+  "icon": "inv_gauntlets_19",
+  "quality": 4
+ },
+ "30196": {
+  "name": "Robes of Tirisfal",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "30200": {
+  "name": "Gladiator's Felweave Raiment",
+  "icon": "inv_chest_leather_01",
+  "quality": 4
+ },
+ "30205": {
+  "name": "Gloves of Tirisfal",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "30206": {
+  "name": "Cowl of Tirisfal",
+  "icon": "inv_crown_01",
+  "quality": 4
+ },
+ "30207": {
+  "name": "Leggings of Tirisfal",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "30210": {
+  "name": "Mantle of Tirisfal",
+  "icon": "inv_shoulder_25",
+  "quality": 4
+ },
+ "30212": {
+  "name": "Hood of the Corruptor",
+  "icon": "inv_crown_01",
+  "quality": 4
+ },
+ "30213": {
+  "name": "Leggings of the Corruptor",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "30216": {
+  "name": "Nordrassil Chestguard",
+  "icon": "inv_chest_chain_15",
+  "quality": 4
+ },
+ "30219": {
+  "name": "Nordrassil Headguard",
+  "icon": "inv_helmet_15",
+  "quality": 4
+ },
+ "30220": {
+  "name": "Nordrassil Life-Kilt",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "30221": {
+  "name": "Nordrassil Life-Mantle",
+  "icon": "inv_shoulder_14",
+  "quality": 4
+ },
+ "30229": {
+  "name": "Nordrassil Feral-Kilt",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "30230": {
+  "name": "Nordrassil Feral-Mantle",
+  "icon": "inv_shoulder_14",
+  "quality": 4
+ },
+ "30231": {
+  "name": "Nordrassil Chestpiece",
+  "icon": "inv_chest_chain_15",
+  "quality": 4
+ },
+ "30233": {
+  "name": "Nordrassil Headpiece",
+  "icon": "inv_helmet_15",
+  "quality": 4
+ },
+ "30235": {
+  "name": "Nordrassil Wrath-Mantle",
+  "icon": "inv_shoulder_14",
+  "quality": 4
+ },
+ "30257": {
+  "name": "Shattrath Leggings",
+  "icon": "inv_pants_leather_05",
+  "quality": 3
+ },
+ "30343": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "30344": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "30345": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "30346": {
+  "name": "Medallion of the Horde",
+  "icon": "inv_jewelry_trinketpvp_02",
+  "quality": 3
+ },
+ "30348": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "30349": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "30350": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "30351": {
+  "name": "Medallion of the Alliance",
+  "icon": "inv_jewelry_trinketpvp_01",
+  "quality": 3
+ },
+ "30449": {
+  "name": "Void Star Talisman",
+  "icon": "inv_misc_gem_ebondraenite_01",
+  "quality": 4
+ },
+ "30450": {
+  "name": "Warp-Spring Coil",
+  "icon": "inv_gizmo_hardenedadamantitetube",
+  "quality": 4
+ },
+ "30486": {
+  "name": "Merciless Gladiator's Plate Chestpiece",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
+ "30487": {
+  "name": "Merciless Gladiator's Plate Gauntlets",
+  "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "30488": {
+  "name": "Merciless Gladiator's Plate Helm",
+  "icon": "inv_helmet_22",
+  "quality": 4
+ },
+ "30489": {
+  "name": "Merciless Gladiator's Plate Legguards",
+  "icon": "inv_pants_plate_17",
+  "quality": 4
+ },
+ "30490": {
+  "name": "Merciless Gladiator's Plate Shoulders",
+  "icon": "inv_shoulder_22",
+  "quality": 4
+ },
+ "30538": {
+  "name": "Midnight Legguards",
+  "icon": "inv_pants_leather_09",
+  "quality": 4
+ },
+ "30620": {
+  "name": "Spyglass of the Hidden Fleet",
+  "icon": "inv_misc_spyglass_02",
+  "quality": 4
+ },
+ "30665": {
+  "name": "Earring of Soulful Meditation",
+  "icon": "inv_jewelry_ring_07",
+  "quality": 4
+ },
+ "30666": {
+  "name": "Ritssyn's Lost Pendant",
+  "icon": "inv_jewelry_necklace_30naxxramas",
+  "quality": 4
+ },
+ "30720": {
+  "name": "Serpent-Coil Braid",
+  "icon": "spell_nature_poisoncleansingtotem",
+  "quality": 4
+ },
+ "30834": {
+  "name": "Shapeshifter's Signet",
+  "icon": "inv_jewelry_ring_41",
+  "quality": 4
+ },
+ "30841": {
+  "name": "Lower City Prayerbook",
+  "icon": "inv_misc_book_11",
+  "quality": 3
+ },
+ "31288": {
+  "name": "The Master's Treads",
+  "icon": "inv_boots_cloth_05",
+  "quality": 3
+ },
+ "31376": {
+  "name": "Gladiator's Kodohide Helm",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "31377": {
+  "name": "Gladiator's Kodohide Legguards",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "31379": {
+  "name": "Gladiator's Kodohide Tunic",
+  "icon": "inv_chest_leather_03",
+  "quality": 4
+ },
+ "31396": {
+  "name": "Gladiator's Ringmail Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
+ },
+ "31400": {
+  "name": "Gladiator's Ringmail Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "31406": {
+  "name": "Gladiator's Ringmail Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "31409": {
+  "name": "Gladiator's Mooncloth Gloves",
+  "icon": "inv_gauntlets_15",
+  "quality": 4
+ },
+ "31410": {
+  "name": "Gladiator's Mooncloth Hood",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "31411": {
+  "name": "Gladiator's Mooncloth Leggings",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "31412": {
+  "name": "Gladiator's Mooncloth Mantle",
+  "icon": "inv_shoulder_02",
+  "quality": 4
+ },
+ "31413": {
+  "name": "Gladiator's Mooncloth Robe",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "31594": {
+  "name": "General's Kodohide Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "31595": {
+  "name": "General's Kodohide Boots",
+  "icon": "inv_boots_08",
+  "quality": 4
+ },
+ "31597": {
+  "name": "Marshal's Kodohide Boots",
+  "icon": "inv_boots_08",
+  "quality": 4
+ },
+ "31598": {
+  "name": "General's Kodohide Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "31861": {
+  "name": "Great Dawnstone",
+  "icon": "inv_jewelcrafting_dawnstone_03",
+  "quality": 3
+ },
+ "31867": {
+  "name": "Veiled Noble Topaz",
+  "icon": "inv_jewelcrafting_nobletopaz_03",
+  "quality": 3
+ },
+ "31960": {
+  "name": "Merciless Gladiator's Chain Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
+ },
+ "31961": {
+  "name": "Merciless Gladiator's Chain Gauntlets",
+  "icon": "inv_gauntlets_11",
+  "quality": 4
+ },
+ "31962": {
+  "name": "Merciless Gladiator's Chain Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "31963": {
+  "name": "Merciless Gladiator's Chain Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "31964": {
+  "name": "Merciless Gladiator's Chain Spaulders",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "31965": {
+  "name": "Merciless Gladiator's Cleaver",
+  "icon": "inv_axe_54",
+  "quality": 4
+ },
+ "31966": {
+  "name": "Merciless Gladiator's Decapitator",
+  "icon": "inv_axe_68",
+  "quality": 4
+ },
+ "31967": {
+  "name": "Merciless Gladiator's Dragonhide Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "31968": {
+  "name": "Merciless Gladiator's Dragonhide Helm",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "31969": {
+  "name": "Merciless Gladiator's Dragonhide Legguards",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "31971": {
+  "name": "Merciless Gladiator's Dragonhide Spaulders",
+  "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "31972": {
+  "name": "Merciless Gladiator's Dragonhide Tunic",
+  "icon": "inv_chest_leather_03",
+  "quality": 4
+ },
+ "31973": {
+  "name": "Merciless Gladiator's Dreadweave Gloves",
+  "icon": "inv_gauntlets_15",
+  "quality": 4
+ },
+ "31974": {
+  "name": "Merciless Gladiator's Dreadweave Hood",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "31975": {
+  "name": "Merciless Gladiator's Dreadweave Leggings",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "31976": {
+  "name": "Merciless Gladiator's Dreadweave Mantle",
+  "icon": "inv_shoulder_02",
+  "quality": 4
+ },
+ "31977": {
+  "name": "Merciless Gladiator's Dreadweave Robe",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "31978": {
+  "name": "Merciless Gladiator's Endgame",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "31980": {
+  "name": "Merciless Gladiator's Felweave Cowl",
+  "icon": "inv_helmet_08",
+  "quality": 4
+ },
+ "31981": {
+  "name": "Merciless Gladiator's Felweave Handguards",
+  "icon": "inv_gauntlets_19",
+  "quality": 4
+ },
+ "31982": {
+  "name": "Merciless Gladiator's Felweave Raiment",
+  "icon": "inv_chest_leather_01",
+  "quality": 4
+ },
+ "31985": {
+  "name": "Merciless Gladiator's Hacker",
+  "icon": "inv_axe_54",
+  "quality": 4
+ },
+ "31986": {
+  "name": "Merciless Gladiator's Crossbow of the Phoenix",
+  "icon": "inv_weapon_crossbow_10",
+  "quality": 4
+ },
+ "31987": {
+  "name": "Merciless Gladiator's Kodohide Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "31988": {
+  "name": "Merciless Gladiator's Kodohide Helm",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "31989": {
+  "name": "Merciless Gladiator's Kodohide Legguards",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "31990": {
+  "name": "Merciless Gladiator's Kodohide Spaulders",
+  "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "31991": {
+  "name": "Merciless Gladiator's Kodohide Tunic",
+  "icon": "inv_chest_leather_03",
+  "quality": 4
+ },
+ "31992": {
+  "name": "Merciless Gladiator's Lamellar Chestpiece",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
+ "31993": {
+  "name": "Merciless Gladiator's Lamellar Gauntlets",
+  "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "31996": {
+  "name": "Merciless Gladiator's Lamellar Shoulders",
+  "icon": "inv_shoulder_22",
+  "quality": 4
+ },
+ "31997": {
+  "name": "Merciless Gladiator's Lamellar Helm",
+  "icon": "inv_helmet_22",
+  "quality": 4
+ },
+ "31998": {
+  "name": "Merciless Gladiator's Leather Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "32000": {
+  "name": "Merciless Gladiator's Leather Legguards",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "32001": {
+  "name": "Merciless Gladiator's Leather Spaulders",
+  "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "32002": {
+  "name": "Merciless Gladiator's Leather Tunic",
+  "icon": "inv_chest_leather_03",
+  "quality": 4
+ },
+ "32003": {
+  "name": "Merciless Gladiator's Left Ripper",
+  "icon": "inv_weapon_hand_13",
+  "quality": 4
+ },
+ "32004": {
+  "name": "Merciless Gladiator's Linked Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
+ },
+ "32005": {
+  "name": "Merciless Gladiator's Linked Gauntlets",
+  "icon": "inv_gauntlets_11",
+  "quality": 4
+ },
+ "32006": {
+  "name": "Merciless Gladiator's Linked Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "32007": {
+  "name": "Merciless Gladiator's Linked Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "32008": {
+  "name": "Merciless Gladiator's Linked Spaulders",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "32009": {
+  "name": "Merciless Gladiator's Mail Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
+ },
+ "32010": {
+  "name": "Merciless Gladiator's Mail Gauntlets",
+  "icon": "inv_gauntlets_11",
+  "quality": 4
+ },
+ "32011": {
+  "name": "Merciless Gladiator's Mail Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "32012": {
+  "name": "Merciless Gladiator's Mail Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "32013": {
+  "name": "Merciless Gladiator's Mail Spaulders",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "32014": {
+  "name": "Merciless Gladiator's Maul",
+  "icon": "inv_mace_52",
+  "quality": 4
+ },
+ "32015": {
+  "name": "Merciless Gladiator's Mooncloth Gloves",
+  "icon": "inv_gauntlets_15",
+  "quality": 4
+ },
+ "32016": {
+  "name": "Merciless Gladiator's Mooncloth Hood",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "32017": {
+  "name": "Merciless Gladiator's Mooncloth Leggings",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "32018": {
+  "name": "Merciless Gladiator's Mooncloth Mantle",
+  "icon": "inv_shoulder_02",
+  "quality": 4
+ },
+ "32019": {
+  "name": "Merciless Gladiator's Mooncloth Robe",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "32020": {
+  "name": "Merciless Gladiator's Ornamented Chestguard",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
+ "32021": {
+  "name": "Merciless Gladiator's Ornamented Gloves",
+  "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "32022": {
+  "name": "Merciless Gladiator's Ornamented Headcover",
+  "icon": "inv_helmet_22",
+  "quality": 4
+ },
+ "32024": {
+  "name": "Merciless Gladiator's Ornamented Spaulders",
+  "icon": "inv_shoulder_22",
+  "quality": 4
+ },
+ "32026": {
+  "name": "Merciless Gladiator's Pummeler",
+  "icon": "inv_mace_36",
+  "quality": 4
+ },
+ "32027": {
+  "name": "Merciless Gladiator's Quickblade",
+  "icon": "inv_sword_71",
+  "quality": 4
+ },
+ "32028": {
+  "name": "Merciless Gladiator's Right Ripper",
+  "icon": "inv_weapon_hand_13",
+  "quality": 4
+ },
+ "32029": {
+  "name": "Merciless Gladiator's Ringmail Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
+ },
+ "32031": {
+  "name": "Merciless Gladiator's Ringmail Helm",
+  "icon": "inv_helmet_09",
+  "quality": 4
+ },
+ "32032": {
+  "name": "Merciless Gladiator's Ringmail Leggings",
+  "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "32033": {
+  "name": "Merciless Gladiator's Ringmail Spaulders",
+  "icon": "inv_shoulder_29",
+  "quality": 4
+ },
+ "32034": {
+  "name": "Merciless Gladiator's Satin Gloves",
+  "icon": "inv_gauntlets_15",
+  "quality": 4
+ },
+ "32035": {
+  "name": "Merciless Gladiator's Satin Hood",
+  "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "32036": {
+  "name": "Merciless Gladiator's Satin Leggings",
+  "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "32037": {
+  "name": "Merciless Gladiator's Satin Mantle",
+  "icon": "inv_shoulder_02",
+  "quality": 4
+ },
+ "32038": {
+  "name": "Merciless Gladiator's Satin Robe",
+  "icon": "inv_chest_cloth_43",
+  "quality": 4
+ },
+ "32039": {
+  "name": "Merciless Gladiator's Scaled Chestpiece",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
+ "32040": {
+  "name": "Merciless Gladiator's Scaled Gauntlets",
+  "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "32041": {
+  "name": "Merciless Gladiator's Scaled Helm",
+  "icon": "inv_helmet_22",
+  "quality": 4
+ },
+ "32042": {
+  "name": "Merciless Gladiator's Scaled Legguards",
+  "icon": "inv_pants_plate_17",
+  "quality": 4
+ },
+ "32043": {
+  "name": "Merciless Gladiator's Scaled Shoulders",
+  "icon": "inv_shoulder_22",
+  "quality": 4
+ },
+ "32046": {
+  "name": "Merciless Gladiator's Shiv",
+  "icon": "inv_weapon_shortblade_45",
+  "quality": 4
+ },
+ "32047": {
+  "name": "Merciless Gladiator's Silk Amice",
+  "icon": "inv_shoulder_19",
+  "quality": 4
+ },
+ "32048": {
+  "name": "Merciless Gladiator's Silk Cowl",
+  "icon": "inv_helmet_08",
+  "quality": 4
+ },
+ "32049": {
+  "name": "Merciless Gladiator's Silk Handguards",
+  "icon": "inv_gauntlets_19",
+  "quality": 4
+ },
+ "32050": {
+  "name": "Merciless Gladiator's Silk Raiment",
+  "icon": "inv_chest_leather_01",
+  "quality": 4
+ },
+ "32051": {
+  "name": "Merciless Gladiator's Silk Trousers",
+  "icon": "inv_pants_07",
+  "quality": 4
+ },
+ "32052": {
+  "name": "Merciless Gladiator's Slicer",
+  "icon": "inv_sword_71",
+  "quality": 4
+ },
+ "32053": {
+  "name": "Merciless Gladiator's Spellblade",
+  "icon": "inv_weapon_shortblade_26",
+  "quality": 4
+ },
+ "32054": {
+  "name": "Merciless Gladiator's War Edge",
+  "icon": "inv_axe_03",
+  "quality": 4
+ },
+ "32055": {
+  "name": "Merciless Gladiator's War Staff",
+  "icon": "inv_staff_53",
+  "quality": 4
+ },
+ "32056": {
+  "name": "Merciless Gladiator's Wyrmhide Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
+ "32059": {
+  "name": "Merciless Gladiator's Wyrmhide Spaulders",
+  "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "32060": {
+  "name": "Merciless Gladiator's Wyrmhide Tunic",
+  "icon": "inv_chest_leather_03",
+  "quality": 4
+ },
+ "32387": {
+  "name": "Idol of the Raven Goddess",
+  "icon": "inv-mount_raven_54",
+  "quality": 3
+ },
+ "32409": {
+  "name": "Relentless Earthstorm Diamond",
+  "icon": "inv_misc_gem_diamond_06",
+  "quality": 3
+ },
+ "32450": {
+  "name": "Gladiator's Gavel",
+  "icon": "inv_mace_47",
+  "quality": 4
+ },
+ "32451": {
+  "name": "Gladiator's Salvation",
+  "icon": "inv_mace_47",
+  "quality": 4
+ },
+ "32452": {
+  "name": "Gladiator's Reprieve",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "32461": {
+  "name": "Furious Gizmatic Goggles",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 4
+ },
+ "32473": {
+  "name": "Tankatronic Goggles",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 4
+ },
+ "32474": {
+  "name": "Surestrike Goggles v2.0",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 4
+ },
+ "32478": {
+  "name": "Deathblow X11 Goggles",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 4
+ },
+ "32479": {
+  "name": "Wonderheal XT40 Shades",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 4
+ },
+ "32494": {
+  "name": "Destruction Holo-gogs",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 4
+ },
+ "32516": {
+  "name": "Wraps of Purification",
+  "icon": "inv_bracer_13",
+  "quality": 4
+ },
+ "32658": {
+  "name": "Badge of Tenacity",
+  "icon": "inv_misc_armorkit_12",
+  "quality": 3
+ },
+ "32785": {
+  "name": "Veteran's Chain Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "32786": {
+  "name": "Veteran's Dragonhide Boots",
+  "icon": "inv_boots_08",
+  "quality": 4
+ },
+ "32787": {
+  "name": "Veteran's Dreadweave Stalkers",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "32788": {
+  "name": "Veteran's Kodohide Boots",
+  "icon": "inv_boots_08",
+  "quality": 4
+ },
+ "32789": {
+  "name": "Veteran's Lamellar Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "32790": {
+  "name": "Veteran's Leather Boots",
+  "icon": "inv_boots_08",
+  "quality": 4
+ },
+ "32791": {
+  "name": "Veteran's Linked Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "32792": {
+  "name": "Veteran's Mail Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "32793": {
+  "name": "Veteran's Plate Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "32794": {
+  "name": "Veteran's Scaled Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "32795": {
+  "name": "Veteran's Silk Footguards",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "32797": {
+  "name": "Veteran's Chain Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "32798": {
+  "name": "Veteran's Dragonhide Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "32799": {
+  "name": "Veteran's Dreadweave Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "32800": {
+  "name": "Veteran's Kodohide Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "32802": {
+  "name": "Veteran's Leather Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "32803": {
+  "name": "Veteran's Linked Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "32804": {
+  "name": "Veteran's Mail Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "32805": {
+  "name": "Veteran's Plate Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
+ "32806": {
+  "name": "Veteran's Scaled Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
+ "32807": {
+  "name": "Veteran's Silk Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "32809": {
+  "name": "Veteran's Chain Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "32810": {
+  "name": "Veteran's Dragonhide Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "32811": {
+  "name": "Veteran's Dreadweave Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "32812": {
+  "name": "Veteran's Kodohide Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "32813": {
+  "name": "Veteran's Lamellar Bracers",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "32814": {
+  "name": "Veteran's Leather Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "32816": {
+  "name": "Veteran's Linked Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "32817": {
+  "name": "Veteran's Mail Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "32818": {
+  "name": "Veteran's Plate Bracers",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "32819": {
+  "name": "Veteran's Scaled Bracers",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "32820": {
+  "name": "Veteran's Silk Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "32836": {
+  "name": "Purified Shadow Pearl",
+  "icon": "inv_misc_gem_pearl_07",
+  "quality": 3
+ },
+ "32961": {
+  "name": "Merciless Gladiator's Reprieve",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "32962": {
+  "name": "Merciless Gladiator's Touch of Defeat",
+  "icon": "inv_wand_09",
+  "quality": 4
+ },
+ "32963": {
+  "name": "Merciless Gladiator's Gavel",
+  "icon": "inv_mace_47",
+  "quality": 4
+ },
+ "32964": {
+  "name": "Merciless Gladiator's Salvation",
+  "icon": "inv_mace_47",
+  "quality": 4
+ },
+ "32976": {
+  "name": "Marshal's Mooncloth Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "32977": {
+  "name": "Marshal's Mooncloth Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "32979": {
+  "name": "Veteran's Mooncloth Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "32980": {
+  "name": "Veteran's Mooncloth Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "32981": {
+  "name": "Veteran's Mooncloth Slippers",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "32988": {
+  "name": "Veteran's Ornamented Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
+ "32989": {
+  "name": "Veteran's Ornamented Bracers",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "32990": {
+  "name": "Veteran's Ornamented Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "32997": {
+  "name": "Veteran's Ringmail Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "32998": {
+  "name": "Veteran's Ringmail Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "32999": {
+  "name": "Veteran's Ringmail Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "33054": {
+  "name": "The Seal of Danzalar",
+  "icon": "inv_jewelry_ring_39",
+  "quality": 4
+ },
+ "33055": {
+  "name": "Band of Vile Aggression",
+  "icon": "inv_jewelry_ring_71",
+  "quality": 4
+ },
+ "33056": {
+  "name": "Veteran's Band of Dominance",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "33057": {
+  "name": "Veteran's Band of Triumph",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "33064": {
+  "name": "Veteran's Band of Salvation",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "33065": {
+  "name": "Veteran's Pendant of Dominance",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "33066": {
+  "name": "Veteran's Pendant of Triumph",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "33067": {
+  "name": "Veteran's Pendant of Conquest",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "33068": {
+  "name": "Veteran's Pendant of Salvation",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "33077": {
+  "name": "Merciless Gladiator's Libram of Justice",
+  "icon": "inv_misc_book_07",
+  "quality": 4
+ },
+ "33078": {
+  "name": "Merciless Gladiator's Totem of the Third Wind",
+  "icon": "spell_frost_summonwaterelemental",
+  "quality": 4
+ },
+ "33309": {
+  "name": "Merciless Gladiator's Redoubt",
+  "icon": "inv_shield_31",
+  "quality": 4
+ },
+ "33313": {
+  "name": "Merciless Gladiator's Barrier",
+  "icon": "inv_shield_31",
+  "quality": 4
+ },
+ "33782": {
+  "name": "Steady Talasite",
+  "icon": "inv_jewelcrafting_talasite_03",
+  "quality": 3
+ },
+ "34220": {
+  "name": "Chaotic Skyfire Diamond",
+  "icon": "inv_misc_gem_diamond_07",
+  "quality": 3
+ },
+ "34622": {
+  "name": "Spinesever",
+  "icon": "inv_weapon_shortblade_24",
+  "quality": 4
+ },
+ "34837": {
+  "name": "The 2 Ring",
+  "icon": "inv_jewelry_ring_34",
+  "quality": 4
+ },
+ "35382": {
+  "name": "Seer's Linked Gauntlets",
+  "icon": "inv_gauntlets_11",
+  "quality": 3
+ },
+ "278774": {
+  "name": "Cloak of the Frigid Winds",
+  "icon": "inv_misc_cape_16",
+  "quality": 4
+ },
+ "278819": {
+  "name": "The Frost Lord's War Cloak",
+  "icon": "inv_misc_cape_16",
+  "quality": 4
+ },
+ "278827": {
+  "name": "Amulet of Bitter Hatred",
+  "icon": "inv_jewelry_necklace_18",
+  "quality": 4
+ },
+ "279240": {
+  "name": "Shroud of Winter's Chill",
+  "icon": "inv_misc_cape_16",
+  "quality": 4
+ }
+}

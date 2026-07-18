@@ -1,0 +1,482 @@
+{
+ "class": "paladin",
+ "spec": "holy",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2451,
+  2933
+ ],
+ "sampleSize": 8,
+ "updatedAt": "2026-07-12",
+ "blurb": "Holy Paladin brings the biggest single-target heals and Blessing of Protection to arena, at the cost of zero mobility — you will be trained by melee every game, and your gear has to assume it. Top-rated holy paladins run the full Gladiator set with resilience gems long before eking out extra +healing, because a paladin who survives the swap simply doesn't run out of mana.",
+ "statPriorityRationale": "Holy Paladins are the game's most mana-efficient healers but the easiest to train — resilience and stamina keep you standing through rogue/warrior tunnel vision, and Illumination makes intellect worth more than raw MP5.",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Intellect",
+  "Stamina",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32022,
+    "name": "Merciless Gladiator's Ornamented Headcover",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30136,
+     "name": "Crystalforge Greathelm",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31997,
+     "name": "Merciless Gladiator's Lamellar Helm",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28609,
+    "name": "Emberspur Talisman",
+    "usagePct": 13
+   },
+   "alternatives": [
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29374,
+     "name": "Necklace of Eternal Hope",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 32024,
+    "name": "Merciless Gladiator's Ornamented Spaulders",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30138,
+     "name": "Crystalforge Pauldrons",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31996,
+     "name": "Merciless Gladiator's Lamellar Shoulders",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28570,
+     "name": "Shadow-Cloak of Dalaran",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29375,
+     "name": "Bishop's Cloak",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 32020,
+    "name": "Merciless Gladiator's Ornamented Chestguard",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30134,
+     "name": "Crystalforge Chestpiece",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31992,
+     "name": "Merciless Gladiator's Lamellar Chestpiece",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32989,
+    "name": "Veteran's Ornamented Bracers",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 28512,
+     "name": "Bracers of Justice",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32813,
+     "name": "Veteran's Lamellar Bracers",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32021,
+    "name": "Merciless Gladiator's Ornamented Gloves",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30112,
+     "name": "Glorious Gauntlets of Crestfall",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30135,
+     "name": "Crystalforge Gloves",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31993,
+     "name": "Merciless Gladiator's Lamellar Gauntlets",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 30044,
+     "name": "Monsoon Belt",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32988,
+     "name": "Veteran's Ornamented Belt",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30137,
+    "name": "Crystalforge Leggings",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 29991,
+     "name": "Sunhawk Leggings",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30027,
+    "name": "Boots of Courage Unending",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32990,
+     "name": "Veteran's Ornamented Greaves",
+     "usagePct": 38
+    },
+    {
+     "itemId": 32789,
+     "name": "Veteran's Lamellar Greaves",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 28236,
+     "name": "Medallion of the Alliance",
+     "usagePct": 38
+    },
+    {
+     "itemId": 28242,
+     "name": "Medallion of the Horde",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28727,
+     "name": "Pendant of the Violet Eye",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32964,
+    "name": "Merciless Gladiator's Salvation",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 32451,
+     "name": "Gladiator's Salvation",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32963,
+     "name": "Merciless Gladiator's Gavel",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33309,
+    "name": "Merciless Gladiator's Redoubt",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29458,
+     "name": "Aegis of the Vindicator",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29274,
+     "name": "Tears of Heaven",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33313,
+     "name": "Merciless Gladiator's Barrier",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33077,
+    "name": "Merciless Gladiator's Libram of Justice",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 25644,
+     "name": "Blessed Book of Nagrand",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27917,
+     "name": "Libram of the Eternal Rest",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28296,
+     "name": "Libram of the Lightbringer",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24057,
+   "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 25901,
+   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+15 Shadow Resistance",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "83% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+12 Intellect",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Holy Paladins?",
+   "answer": "This snapshot covers 8 Holy Paladins between 2451 and 2933 rating (average 2656) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Holy Paladin PvP gear right now?",
+   "answer": "The highest-consensus picks are Veteran's Ornamented Bracers (75%), Girdle of Fallen Stars (75%), Naaru Lightwarden's Band (75%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Holy Paladin BiS list is PvP gear vs raid gear?",
+   "answer": "Only 53% of the most-used slots are PvP items — high-rated Holy Paladins flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Holy Paladins use in arena?",
+   "answer": "Merciless Gladiator's Salvation is the main-hand of choice (75% of surveyed players)."
+  },
+  {
+   "question": "What gems do Holy Paladins socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +4 Intellect, +18 Healing and +6 Spell Damage, +9 Healing +3 Spell Damage and +2 Mana every 5 seconds. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

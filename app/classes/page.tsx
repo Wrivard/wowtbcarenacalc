@@ -5,6 +5,8 @@ import { getPvpBis } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
+import { PageHero } from "@/components/PageHero";
+import { BACKGROUNDS } from "@/lib/backgrounds";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -20,7 +22,7 @@ export default function ClassesHub() {
     { name: "Classes", href: "/classes" },
   ];
   return (
-    <main className="mx-auto max-w-[720px] px-4">
+    <>
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
@@ -33,7 +35,7 @@ export default function ClassesHub() {
           ),
         ]}
       />
-      <header className="pt-10 pb-8 sm:pt-14">
+      <PageHero image={BACKGROUNDS.classes}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
           TBC Classic BiS &amp; Talent Builds
@@ -43,8 +45,9 @@ export default function ClassesHub() {
           phase-by-phase PvE), recommended talent builds, and an interactive
           talent calculator.
         </p>
-      </header>
+      </PageHero>
 
+      <main className="mx-auto max-w-[720px] px-4 pt-10">
       <div className="grid gap-3 sm:grid-cols-2">
         {CLASSES.map((cls) => (
           <div
@@ -89,6 +92,7 @@ export default function ClassesHub() {
           </div>
         ))}
       </div>
-    </main>
+      </main>
+    </>
   );
 }

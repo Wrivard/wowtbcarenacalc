@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Calculator, Crosshair, Swords } from "lucide-react";
+import { PageHero } from "@/components/PageHero";
+import { BACKGROUNDS } from "@/lib/backgrounds";
 import { PointsCalculator } from "@/components/calculator/PointsCalculator";
 import { RequiredRating } from "@/components/calculator/RequiredRating";
 import { GearPlanner } from "@/components/calculator/GearPlanner";
@@ -42,23 +44,22 @@ export default function Home() {
         <AdUnit slot={SLOT_RAIL} minHeight={600} />
       </aside>
 
-      <main className="mx-auto max-w-[720px] px-4">
-        {/* Hero */}
-        <header className="pt-14 pb-10 sm:pt-20">
-          <div className="flex items-center gap-2 font-mono text-[11px] tracking-widest text-accent uppercase">
-            <Swords className="size-3.5" aria-hidden />
-            TBC Classic · Anniversary
-          </div>
-          <h1 className="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-            WoW TBC Arena Points Calculator
-          </h1>
-          <p className="mt-3 max-w-[52ch] text-sm leading-relaxed text-muted-strong sm:text-base">
-            Enter your 2v2, 3v3, or 5v5 team rating to see exactly how many
-            arena points you&apos;ll earn at the weekly reset — and what rating
-            you need to hit your gear targets.
-          </p>
-        </header>
+      <PageHero image={BACKGROUNDS.home} size="large">
+        <div className="flex items-center gap-2 font-mono text-[11px] tracking-widest text-accent uppercase">
+          <Swords className="size-3.5" aria-hidden />
+          TBC Classic · Anniversary
+        </div>
+        <h1 className="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          WoW TBC Arena Points Calculator
+        </h1>
+        <p className="mt-3 max-w-[52ch] text-sm leading-relaxed text-muted-strong sm:text-base">
+          Enter your 2v2, 3v3, or 5v5 team rating to see exactly how many
+          arena points you&apos;ll earn at the weekly reset — and what rating
+          you need to hit your gear targets.
+        </p>
+      </PageHero>
 
+      <main className="mx-auto max-w-[720px] px-4 pt-10">
         {/* Calculator + gear planner share ratings state */}
         <RatingsProvider>
           <section aria-label="Arena points calculator">

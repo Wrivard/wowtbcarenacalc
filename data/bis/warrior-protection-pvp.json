@@ -1,0 +1,413 @@
+{
+ "class": "warrior",
+ "spec": "protection",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2329,
+  2502
+ ],
+ "sampleSize": 3,
+ "updatedAt": "2026-07-12",
+ "blurb": "Protection Warrior is TBC arena's most annoying babysitter — Devastate pressure is minimal, but Concussion Blow, Shield Bash, Spell Reflection and Intervene turn you into a walking peel machine for drain comps. The few protection warriors on the ladder gear almost pure survivability and win through attrition.",
+ "statPriorityRationale": "Protection's value is unkillable disruption, so the list leans almost entirely defensive — the damage was never the point; the endless stuns, silences and intervene peels are.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Shield Block Value",
+  "Attack Power"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 24545,
+    "name": "Gladiator's Plate Helm",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 30115,
+     "name": "Destroyer Greathelm",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32473,
+     "name": "Tankatronic Goggles",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 24546,
+    "name": "Gladiator's Plate Shoulders",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29023,
+     "name": "Warbringer Shoulderplates",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30490,
+     "name": "Merciless Gladiator's Plate Shoulders",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 29925,
+     "name": "Phoenix-Wing Cloak",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 24544,
+    "name": "Gladiator's Plate Chestpiece",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28597,
+     "name": "Panzar'Thar Breastplate",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29012,
+     "name": "Warbringer Chestguard",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28502,
+    "name": "Vambraces of Courage",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28996,
+     "name": "Marshal's Plate Bracers",
+     "usagePct": 33
+    },
+    {
+     "itemId": 32818,
+     "name": "Veteran's Plate Bracers",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28518,
+    "name": "Iron Gauntlets of the Maiden",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28566,
+    "name": "Crimson Girdle of the Indomitable",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 30096,
+     "name": "Girdle of the Invulnerable",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30116,
+    "name": "Destroyer Legguards",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28621,
+     "name": "Wrynn Dynasty Greaves",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32793,
+    "name": "Veteran's Plate Greaves",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28997,
+     "name": "Marshal's Plate Greaves",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 27761,
+     "name": "Ring of the Shadow Deeps",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30083,
+     "name": "Ring of Sundered Souls",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 100
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28121,
+     "name": "Icon of Unyielding Courage",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30620,
+     "name": "Spyglass of the Hidden Fleet",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30058,
+    "name": "Mallet of the Tides",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28438,
+     "name": "Dragonmaw",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28825,
+    "name": "Aldori Legacy Defender",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 31965,
+     "name": "Merciless Gladiator's Cleaver",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28319,
+    "name": "Gladiator's War Edge",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29204,
+     "name": "Felsteel Whisper Knives",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24033,
+   "name": "+12 Stamina",
+   "note": "Socketed across 8 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24048,
+   "name": "+8 Critical Strike Rating",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24058,
+   "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+15 Nature Resistance",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+150 Health",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 Stamina and +12 Agility",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+18 Stamina",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Protection Warriors?",
+   "answer": "This snapshot covers 3 Protection Warriors between 2329 and 2502 rating (average 2412) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Protection Warrior PvP gear right now?",
+   "answer": "The highest-consensus picks are Bloodlust Brooch (100%), Veteran's Pendant of Triumph (67%), Sergeant's Heavy Cloak (67%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Protection Warrior BiS list is PvP gear vs raid gear?",
+   "answer": "Only 47% of the most-used slots are PvP items — high-rated Protection Warriors flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Protection Warriors use in arena?",
+   "answer": "Mallet of the Tides is the main-hand of choice (67% of surveyed players)."
+  },
+  {
+   "question": "What gems do Protection Warriors socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +12 Stamina, +18 Stamina & 5% Stun Resist, +8 Critical Strike Rating. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

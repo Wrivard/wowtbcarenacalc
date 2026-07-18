@@ -1,0 +1,512 @@
+{
+ "class": "hunter",
+ "spec": "beast-mastery",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2206,
+  2678
+ ],
+ "sampleSize": 13,
+ "updatedAt": "2026-07-12",
+ "blurb": "Beast Mastery brings The Beast Within — 18 seconds of CC immunity on a class the enemy wants to chain-CC — and the best sustained pet pressure in the bracket. Arena BM hunters gear more defensively than their battleground cousins: dead-zone abuse only works if you live long enough to kite into it.",
+ "statPriorityRationale": "Beast Mastery's damage rides on the pet and auto-shot scaling, so attack power converts directly into pressure — but hunters are the classic first target of melee cleaves, so resilience still leads.",
+ "statPriority": [
+  "Resilience",
+  "Attack Power",
+  "Stamina",
+  "Agility",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31962,
+    "name": "Merciless Gladiator's Chain Helm",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 30141,
+     "name": "Rift Stalker Helm",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28331,
+     "name": "Gladiator's Chain Helm",
+     "usagePct": 8
+    },
+    {
+     "itemId": 32474,
+     "name": "Surestrike Goggles v2.0",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28674,
+     "name": "Saberclaw Talisman",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31964,
+    "name": "Merciless Gladiator's Chain Spaulders",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28333,
+     "name": "Gladiator's Chain Spaulders",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30143,
+     "name": "Rift Stalker Mantle",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 31960,
+     "name": "Merciless Gladiator's Chain Armor",
+     "usagePct": 31,
+     "pveFlexNote": "Seen mostly above 2642 rating."
+    },
+    {
+     "itemId": 28334,
+     "name": "Gladiator's Chain Armor",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29082,
+     "name": "Demon Stalker Harness",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32809,
+    "name": "Veteran's Chain Bracers",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 28451,
+     "name": "General's Chain Bracers",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28454,
+     "name": "Stalker's War Bands",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29527,
+     "name": "Primalstrike Bracers",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31961,
+    "name": "Merciless Gladiator's Chain Gauntlets",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 30140,
+     "name": "Rift Stalker Gauntlets",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28335,
+     "name": "Gladiator's Chain Gauntlets",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32797,
+    "name": "Veteran's Chain Girdle",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 31,
+     "pveFlexNote": "Seen mostly above 2642 rating."
+    },
+    {
+     "itemId": 28450,
+     "name": "General's Chain Girdle",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 31963,
+     "name": "Merciless Gladiator's Chain Leggings",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29083,
+     "name": "Demon Stalker Greaves",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29985,
+     "name": "Void Reaver Greaves",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32785,
+    "name": "Veteran's Chain Sabatons",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 30104,
+     "name": "Cobra-Lash Boots",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28449,
+     "name": "General's Chain Sabatons",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 54,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 100
+   },
+   "alternatives": [
+    {
+     "itemId": 28237,
+     "name": "Medallion of the Alliance",
+     "usagePct": 46
+    },
+    {
+     "itemId": 28243,
+     "name": "Medallion of the Horde",
+     "usagePct": 31
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29993,
+    "name": "Twinblade of the Phoenix",
+    "usagePct": 15
+   },
+   "alternatives": [
+    {
+     "itemId": 31966,
+     "name": "Merciless Gladiator's Decapitator",
+     "usagePct": 15
+    },
+    {
+     "itemId": 32028,
+     "name": "Merciless Gladiator's Right Ripper",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 32052,
+     "name": "Merciless Gladiator's Slicer",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32003,
+    "name": "Merciless Gladiator's Left Ripper",
+    "usagePct": 15
+   },
+   "alternatives": [
+    {
+     "itemId": 32027,
+     "name": "Merciless Gladiator's Quickblade",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28315,
+     "name": "Stormreaver Warblades",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28345,
+     "name": "Warp Splinter's Thorn",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 31986,
+    "name": "Merciless Gladiator's Crossbow of the Phoenix",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24028,
+   "name": "+8 Agility",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 23097,
+   "name": "+6 Agility",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "88% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 Attack Power",
+   "note": "44% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Agility",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+35 Agility",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+30 Intellect",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ranged",
+   "text": "Scope (+28 Critical Strike Rating)",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Beast Mastery Hunters?",
+   "answer": "This snapshot covers 13 Beast Mastery Hunters between 2206 and 2678 rating (average 2487) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Beast Mastery Hunter PvP gear right now?",
+   "answer": "The highest-consensus picks are Bloodlust Brooch (100%), Veteran's Chain Bracers (69%), Merciless Gladiator's Chain Gauntlets (69%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Beast Mastery Hunter BiS list is PvP gear vs raid gear?",
+   "answer": "Only 53% of the most-used slots are PvP items — high-rated Beast Mastery Hunters flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Beast Mastery Hunters use in arena?",
+   "answer": "Twinblade of the Phoenix is the main-hand of choice (15% of surveyed players)."
+  },
+  {
+   "question": "What gems do Beast Mastery Hunters socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +6 Agility, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

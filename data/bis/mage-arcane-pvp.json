@@ -1,0 +1,517 @@
+{
+ "class": "mage",
+ "spec": "arcane",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2111,
+  3001
+ ],
+ "sampleSize": 33,
+ "updatedAt": "2026-07-12",
+ "blurb": "Arcane Mage is the control-burst hybrid: POM-Pyro-style instant pressure with better mana economy and Improved Counterspell lockdowns. In arena it lives and dies by positioning — the ladder's arcane mages run heavy stamina builds because their burst windows only matter if they survive to reach them.",
+ "statPriorityRationale": "Arcane's Presence of Mind + Arcane Blast burst needs no crit fishing, so the gear goes to surviving the counter-pressure — mage armor and 300 resilience is what lets you keep casting through a rogue on your back.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30206,
+    "name": "Cowl of Tirisfal",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 29076,
+     "name": "Collar of the Aldor",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32048,
+     "name": "Merciless Gladiator's Silk Cowl",
+     "usagePct": 18
+    },
+    {
+     "itemId": 32494,
+     "name": "Destruction Holo-gogs",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33067,
+     "name": "Veteran's Pendant of Conquest",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30210,
+    "name": "Mantle of Tirisfal",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 32047,
+     "name": "Merciless Gladiator's Silk Amice",
+     "usagePct": 27
+    },
+    {
+     "itemId": 29079,
+     "name": "Pauldrons of the Aldor",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25854,
+     "name": "Gladiator's Silk Amice",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278774,
+     "name": "Cloak of the Frigid Winds",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30196,
+    "name": "Robes of Tirisfal",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 32050,
+     "name": "Merciless Gladiator's Silk Raiment",
+     "usagePct": 21
+    },
+    {
+     "itemId": 25856,
+     "name": "Gladiator's Silk Raiment",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28602,
+     "name": "Robe of the Elder Scribes",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32820,
+    "name": "Veteran's Silk Cuffs",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 29002,
+     "name": "Marshal's Silk Cuffs",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28411,
+     "name": "General's Silk Cuffs",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30205,
+    "name": "Gloves of Tirisfal",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 32049,
+     "name": "Merciless Gladiator's Silk Handguards",
+     "usagePct": 21
+    },
+    {
+     "itemId": 29987,
+     "name": "Gauntlets of the Sun King",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25857,
+     "name": "Gladiator's Silk Handguards",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32807,
+    "name": "Veteran's Silk Belt",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 30064,
+     "name": "Cord of Screaming Terrors",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30038,
+     "name": "Belt of Blasting",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30207,
+    "name": "Leggings of Tirisfal",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "usagePct": 27,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32051,
+     "name": "Merciless Gladiator's Silk Trousers",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32795,
+    "name": "Veteran's Silk Footguards",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30067,
+     "name": "Velvet Boots of the Guardian",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29003,
+     "name": "Marshal's Silk Footguards",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 73,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29286,
+     "name": "Violet Signet",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 39,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28239,
+     "name": "Medallion of the Horde",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32053,
+    "name": "Merciless Gladiator's Spellblade",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29988,
+     "name": "The Nexus Key",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2368 rating."
+    },
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2368 rating."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28603,
+    "name": "Talisman of Nightbane",
+    "usagePct": 21
+   },
+   "alternatives": [
+    {
+     "itemId": 29271,
+     "name": "Talisman of Kalecgos",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28781,
+     "name": "Karaborian Talisman",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31978,
+     "name": "Merciless Gladiator's Endgame",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 32962,
+     "name": "Merciless Gladiator's Touch of Defeat",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28320,
+     "name": "Gladiator's Touch of Defeat",
+     "usagePct": 9
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24047,
+   "name": "+8 Intellect",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 34220,
+   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "38% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "58% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "54% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+40 Spell Damage and Healing",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Arcane Mages?",
+   "answer": "This snapshot covers 33 Arcane Mages between 2111 and 3001 rating (average 2432) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Arcane Mage PvP gear right now?",
+   "answer": "The highest-consensus picks are Icon of the Silver Crescent (85%), Veteran's Silk Cuffs (76%), Violet Signet of the Archmage (73%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Arcane Mage BiS list is PvP gear vs raid gear?",
+   "answer": "Only 27% of the most-used slots are PvP items — high-rated Arcane Mages flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Arcane Mages use in arena?",
+   "answer": "Merciless Gladiator's Spellblade is the main-hand of choice (30% of surveyed players)."
+  },
+  {
+   "question": "What gems do Arcane Mages socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Intellect, +5 Spell Damage and +6 Stamina, +12 Spell Critical & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

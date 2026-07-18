@@ -1,0 +1,383 @@
+{
+ "class": "hunter",
+ "spec": "marksmanship",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2392,
+  2742
+ ],
+ "sampleSize": 8,
+ "updatedAt": "2026-07-12",
+ "blurb": "Marksmanship is the control hunter: Silencing Shot interrupts, Aimed Shot cuts healing, and scatter-trap chains set up kills for your partner. It demands more positioning discipline than BM and rewards it with the most spammable utility kit a physical DPS has in TBC arena.",
+ "statPriorityRationale": "Marksmanship trades pet safety for Aimed Shot's healing debuff and Silencing Shot — burst-window stats (AP, agility, crit) rank higher than for BM, but resilience still anchors the list.",
+ "statPriority": [
+  "Resilience",
+  "Attack Power",
+  "Agility",
+  "Stamina",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31962,
+    "name": "Merciless Gladiator's Chain Helm",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 30141,
+     "name": "Rift Stalker Helm",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "usagePct": 38
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31964,
+    "name": "Merciless Gladiator's Chain Spaulders",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 13
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 31960,
+     "name": "Merciless Gladiator's Chain Armor",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32809,
+    "name": "Veteran's Chain Bracers",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31961,
+    "name": "Merciless Gladiator's Chain Gauntlets",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32797,
+    "name": "Veteran's Chain Girdle",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31963,
+    "name": "Merciless Gladiator's Chain Leggings",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 30142,
+     "name": "Rift Stalker Leggings",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32785,
+    "name": "Veteran's Chain Sabatons",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 100
+   },
+   "alternatives": [
+    {
+     "itemId": 28237,
+     "name": "Medallion of the Alliance",
+     "usagePct": 75
+    },
+    {
+     "itemId": 28243,
+     "name": "Medallion of the Horde",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 31965,
+    "name": "Merciless Gladiator's Cleaver",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 31966,
+     "name": "Merciless Gladiator's Decapitator",
+     "usagePct": 25
+    },
+    {
+     "itemId": 32052,
+     "name": "Merciless Gladiator's Slicer",
+     "usagePct": 25
+    },
+    {
+     "itemId": 32028,
+     "name": "Merciless Gladiator's Right Ripper",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32027,
+    "name": "Merciless Gladiator's Quickblade",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28295,
+     "name": "Gladiator's Slicer",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29948,
+     "name": "Claw of the Phoenix",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31985,
+     "name": "Merciless Gladiator's Hacker",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30105,
+    "name": "Serpent Spine Longbow",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 31986,
+     "name": "Merciless Gladiator's Crossbow of the Phoenix",
+     "usagePct": 25
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 25895,
+   "name": "+12 Critical Strike Rating & 5% Snare and Root Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 28362,
+   "name": "+20 Attack Power",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 Attack Power",
+   "note": "38% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Agility",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "40% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+30 Intellect",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+30 Intellect",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ranged",
+   "text": "Scope (+28 Critical Strike Rating)",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Marksmanship Hunters?",
+   "answer": "This snapshot covers 8 Marksmanship Hunters between 2392 and 2742 rating (average 2592) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Marksmanship Hunter PvP gear right now?",
+   "answer": "The highest-consensus picks are Merciless Gladiator's Chain Spaulders (100%), Veteran's Chain Bracers (100%), Merciless Gladiator's Chain Gauntlets (100%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Marksmanship Hunter BiS list is PvP gear vs raid gear?",
+   "answer": "67% of the most-used slots are arena/honor items — for Marksmanship Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Marksmanship Hunters use in arena?",
+   "answer": "Merciless Gladiator's Cleaver is the main-hand of choice (38% of surveyed players)."
+  },
+  {
+   "question": "What gems do Marksmanship Hunters socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Hit Rating and +4 Agility, +8 Resilience Rating, +12 Critical Strike Rating & 5% Snare and Root Resist. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

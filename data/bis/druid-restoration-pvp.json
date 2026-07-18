@@ -1,0 +1,451 @@
+{
+ "class": "druid",
+ "spec": "restoration",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2111,
+  3111
+ ],
+ "sampleSize": 172,
+ "updatedAt": "2026-07-12",
+ "blurb": "Restoration Druid is the rating king of TBC 2v2 — Lifebloom stacks tick while you pillar-kite melee forever, and Cyclone turns every dead moment into offense. The playstyle is unique: pre-HoT, run, Cyclone, repeat. Gear-wise the ladder is unambiguous: PvP set, resilience everywhere, and the game becomes literally unlosable against certain comps.",
+ "statPriorityRationale": "Resto Druid healing is HoT-based and keeps working while you run, which makes you the hardest healer to shut down — the gear leans resilience and stamina because Cyclone and mobility, not throughput, are what win your games.",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "Spirit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31988,
+    "name": "Merciless Gladiator's Kodohide Helm",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 30219,
+     "name": "Nordrassil Headguard",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31376,
+     "name": "Gladiator's Kodohide Helm",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33068,
+    "name": "Veteran's Pendant of Salvation",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "usagePct": 5,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 32059,
+    "name": "Merciless Gladiator's Wyrmhide Spaulders",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 28139,
+     "name": "Gladiator's Wyrmhide Spaulders",
+     "usagePct": 10
+    },
+    {
+     "itemId": 31990,
+     "name": "Merciless Gladiator's Kodohide Spaulders",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 37,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28582,
+     "name": "Red Riding Hood's Cloak",
+     "usagePct": 5,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31991,
+    "name": "Merciless Gladiator's Kodohide Tunic",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 32060,
+     "name": "Merciless Gladiator's Wyrmhide Tunic",
+     "usagePct": 24
+    },
+    {
+     "itemId": 31379,
+     "name": "Gladiator's Kodohide Tunic",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32812,
+    "name": "Veteran's Kodohide Bracers",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 30062,
+     "name": "Grove-Bands of Remulos",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2511 rating."
+    },
+    {
+     "itemId": 31598,
+     "name": "General's Kodohide Bracers",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32056,
+    "name": "Merciless Gladiator's Wyrmhide Gloves",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 31987,
+     "name": "Merciless Gladiator's Kodohide Gloves",
+     "usagePct": 35
+    },
+    {
+     "itemId": 28136,
+     "name": "Gladiator's Wyrmhide Gloves",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32800,
+    "name": "Veteran's Kodohide Belt",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 29984,
+     "name": "Girdle of Zaetar",
+     "usagePct": 19,
+     "pveFlexNote": "Seen mostly above 2511 rating."
+    },
+    {
+     "itemId": 31594,
+     "name": "General's Kodohide Belt",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31989,
+    "name": "Merciless Gladiator's Kodohide Legguards",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 30220,
+     "name": "Nordrassil Life-Kilt",
+     "usagePct": 36,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28591,
+     "name": "Earthsoul Leggings",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31377,
+     "name": "Gladiator's Kodohide Legguards",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32788,
+    "name": "Veteran's Kodohide Boots",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 30092,
+     "name": "Orca-Hide Boots",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31595,
+     "name": "General's Kodohide Boots",
+     "usagePct": 9
+    },
+    {
+     "itemId": 31597,
+     "name": "Marshal's Kodohide Boots",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33064,
+    "name": "Veteran's Band of Salvation",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 43,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 37,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 28370,
+    "name": "Bangle of Endless Blessings",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 28241,
+     "name": "Medallion of the Horde",
+     "usagePct": 51
+    },
+    {
+     "itemId": 28235,
+     "name": "Medallion of the Alliance",
+     "usagePct": 42
+    },
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32964,
+    "name": "Merciless Gladiator's Salvation",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29981,
+     "name": "Ethereum Life-Staff",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32451,
+     "name": "Gladiator's Salvation",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32961,
+    "name": "Merciless Gladiator's Reprieve",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 29923,
+     "name": "Talisman of the Sun King",
+     "usagePct": 12,
+     "pveFlexNote": "Seen mostly above 2511 rating."
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27886,
+    "name": "Idol of the Emerald Queen",
+    "usagePct": 98
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 31861,
+   "name": "+8 Spell Hit Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "55% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "82% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "65% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "98% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "33% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "97% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "58% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "95% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "56% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Restoration Druids?",
+   "answer": "This snapshot covers 172 Restoration Druids between 2111 and 3111 rating (average 2564) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Restoration Druid PvP gear right now?",
+   "answer": "The highest-consensus picks are Idol of the Emerald Queen (98%), Bangle of Endless Blessings (84%), Veteran's Pendant of Salvation (83%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Restoration Druid BiS list is PvP gear vs raid gear?",
+   "answer": "80% of the most-used slots are arena/honor items — for Restoration Druids the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Restoration Druids use in arena?",
+   "answer": "Merciless Gladiator's Salvation is the main-hand of choice (65% of surveyed players)."
+  },
+  {
+   "question": "What gems do Restoration Druids socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Spell Hit Rating, +9 Healing +3 Spell Damage and +4 Spirit, +18 Stamina & 5% Stun Resist. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

@@ -12,6 +12,9 @@ import {
 import { BisPageBody } from "@/components/bis/BisPageBody";
 import { ComingSoon } from "@/components/ComingSoon";
 import { SpecCrossLinks } from "@/components/SpecCrossLinks";
+import { PageHero } from "@/components/PageHero";
+import { classBackground } from "@/lib/backgrounds";
+import { getItem } from "@/lib/items";
 
 export const dynamicParams = false;
 
@@ -72,7 +75,7 @@ export default async function PveBisPage({ params }: { params: Params }) {
   ];
 
   return (
-    <main className="mx-auto max-w-[720px] px-4">
+    <>
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
@@ -82,7 +85,7 @@ export default async function PveBisPage({ params }: { params: Params }) {
                 itemListJsonLd(
                   `${spec.name} ${cls.name} Phase ${phase} best in slot (TBC Classic)`,
                   list.slots.map((s) => ({
-                    name: `${s.slot}: item ${s.bis.itemId}`,
+                    name: `${s.slot}: ${getItem(s.bis.itemId)?.name ?? s.bis.name ?? `item ${s.bis.itemId}`}`,
                     url: wowheadItemUrl(s.bis.itemId),
                   })),
                 ),
@@ -90,7 +93,7 @@ export default async function PveBisPage({ params }: { params: Params }) {
             : []),
         ]}
       />
-      <header className="pt-10 pb-2 sm:pt-14">
+      <PageHero image={classBackground(cls.slug)}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
           {spec.name} {cls.name} BiS — Phase {phase}
@@ -103,19 +106,21 @@ export default async function PveBisPage({ params }: { params: Params }) {
             {list.blurb}
           </p>
         )}
-      </header>
+      </PageHero>
 
-      {list ? (
-        <BisPageBody list={list} cls={cls} spec={spec} />
-      ) : (
-        <ComingSoon
-          title={`${spec.name} ${cls.name} Phase ${phase} BiS`}
-          fallbackHref={`/${cls.slug}/${spec.slug}/talents`}
-          fallbackLabel={`${spec.name} ${cls.name} talent build`}
-        />
-      )}
+      <main className="mx-auto max-w-[720px] px-4">
+        {list ? (
+          <BisPageBody list={list} cls={cls} spec={spec} />
+        ) : (
+          <ComingSoon
+            title={`${spec.name} ${cls.name} Phase ${phase} BiS`}
+            fallbackHref={`/${cls.slug}/${spec.slug}/talents`}
+            fallbackLabel={`${spec.name} ${cls.name} talent build`}
+          />
+        )}
 
-      <SpecCrossLinks cls={cls} spec={spec} current="pve" />
-    </main>
+        <SpecCrossLinks cls={cls} spec={spec} current="pve" />
+      </main>
+    </>
   );
 }

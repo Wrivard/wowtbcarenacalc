@@ -33,8 +33,10 @@ export function refreshWowheadLinks() {
 export function WowheadTooltips() {
   return (
     <>
+      {/* We render icons + colored names ourselves (ItemLink) — the
+          script only adds hover tooltips, so link rewriting is off. */}
       <Script id="wowhead-tooltip-config" strategy="lazyOnload">
-        {`window.whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: true };`}
+        {`window.whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };`}
       </Script>
       <Script
         id="wowhead-tooltip-script"

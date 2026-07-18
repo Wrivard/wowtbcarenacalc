@@ -1,0 +1,445 @@
+{
+ "class": "druid",
+ "spec": "feral-cat",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2196,
+  2834
+ ],
+ "sampleSize": 11,
+ "updatedAt": "2026-07-12",
+ "blurb": "Feral Druid is TBC arena's shapeshifting problem: cat burst with Pounce openers, instant bear form to soak swaps, travel form to kite, and Cyclone whenever you shift out. No other melee can choose to become a tank mid-game — the ladder ferals lean on that flexibility and gear agility to serve both forms.",
+ "statPriorityRationale": "Feral gears agility because it double-dips — dodge and crit in cat, armor and threat in bear — and the freedom to flip into bear form is the spec's whole survival plan, making raw stamina slightly less critical than for other melee.",
+ "statPriority": [
+  "Resilience",
+  "Agility",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31968,
+    "name": "Merciless Gladiator's Dragonhide Helm",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 28127,
+     "name": "Gladiator's Dragonhide Helm",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 27,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278827,
+     "name": "Amulet of Bitter Hatred",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31971,
+    "name": "Merciless Gladiator's Dragonhide Spaulders",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 30230,
+     "name": "Nordrassil Feral-Mantle",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28129,
+     "name": "Gladiator's Dragonhide Spaulders",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 36,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "usagePct": 9,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31972,
+    "name": "Merciless Gladiator's Dragonhide Tunic",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 28130,
+     "name": "Gladiator's Dragonhide Tunic",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32810,
+    "name": "Veteran's Dragonhide Bracers",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 28978,
+     "name": "Marshal's Dragonhide Bracers",
+     "usagePct": 9
+    },
+    {
+     "itemId": 32814,
+     "name": "Veteran's Leather Bracers",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31967,
+    "name": "Merciless Gladiator's Dragonhide Gloves",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 28126,
+     "name": "Gladiator's Dragonhide Gloves",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 32798,
+     "name": "Veteran's Dragonhide Belt",
+     "usagePct": 36
+    },
+    {
+     "itemId": 28976,
+     "name": "Marshal's Dragonhide Belt",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30042,
+     "name": "Belt of Natural Power",
+     "usagePct": 9,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30229,
+    "name": "Nordrassil Feral-Kilt",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 28128,
+     "name": "Gladiator's Dragonhide Legguards",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31969,
+     "name": "Merciless Gladiator's Dragonhide Legguards",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30041,
+    "name": "Boots of Natural Grace",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 32786,
+     "name": "Veteran's Dragonhide Boots",
+     "usagePct": 45
+    },
+    {
+     "itemId": 28977,
+     "name": "Marshal's Dragonhide Boots",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 34837,
+    "name": "The 2 Ring",
+    "usagePct": 164
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 9,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 28235,
+    "name": "Medallion of the Alliance",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 28241,
+     "name": "Medallion of the Horde",
+     "usagePct": 45
+    },
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 45,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "usagePct": 36,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32014,
+    "name": "Merciless Gladiator's Maul",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 28476,
+     "name": "Gladiator's Maul",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28658,
+     "name": "Terestian's Stranglestaff",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32451,
+     "name": "Gladiator's Salvation",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29170,
+    "name": "Windcaller's Orb",
+    "usagePct": 9
+   },
+   "alternatives": [
+    {
+     "itemId": 32961,
+     "name": "Merciless Gladiator's Reprieve",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29390,
+    "name": "Everbloom Idol",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 27886,
+     "name": "Idol of the Emerald Queen",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 31861,
+   "name": "+8 Spell Hit Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+4 All Stats",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Spell Hit Rating",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 Stamina and +12 Agility",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +6 Agility",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+35 Agility",
+   "note": "57% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Feral Druids?",
+   "answer": "This snapshot covers 11 Feral Druids between 2196 and 2834 rating (average 2604) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Feral Druid PvP gear right now?",
+   "answer": "The highest-consensus picks are The 2 Ring (164%), Merciless Gladiator's Dragonhide Helm (82%), Merciless Gladiator's Dragonhide Tunic (82%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Feral Druid BiS list is PvP gear vs raid gear?",
+   "answer": "Only 47% of the most-used slots are PvP items — high-rated Feral Druids flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Feral Druids use in arena?",
+   "answer": "Merciless Gladiator's Maul is the main-hand of choice (64% of surveyed players)."
+  },
+  {
+   "question": "What gems do Feral Druids socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Spell Hit Rating, +10 Spell Penetration, +4 Agility and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

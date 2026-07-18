@@ -1,0 +1,392 @@
+{
+ "class": "shaman",
+ "spec": "elemental",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2245,
+  2351
+ ],
+ "sampleSize": 6,
+ "updatedAt": "2026-07-12",
+ "blurb": "Elemental Shaman is the burst caster with a toolkit: Wind Shear-era earth shocks, Grounding Totem to eat polymorphs, and instant Chain Lightning procs that delete resilience-light targets. It gears like every caster in TBC — PvP set plus resilience — but leans harder on spell penetration to punch through totem and aura resistance.",
+ "statPriorityRationale": "Elemental burst is front-loaded into Chain Lightning + Lava Burst-less windstorms of Nature damage, so spell damage and crit define your kill windows; spell penetration matters more than usual because Nature resistance totems and paladin auras eat your school.",
+ "statPriority": [
+  "Resilience",
+  "Spell Damage",
+  "Stamina",
+  "Crit Rating",
+  "Spell Penetration"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32011,
+    "name": "Merciless Gladiator's Mail Helm",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 27471,
+     "name": "Gladiator's Mail Helm",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30171,
+     "name": "Cataclysm Headpiece",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30008,
+    "name": "Pendant of the Lost Ages",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29347,
+     "name": "Talisman of the Breaker",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 32013,
+    "name": "Merciless Gladiator's Mail Spaulders",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 32033,
+     "name": "Merciless Gladiator's Ringmail Spaulders",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278774,
+     "name": "Cloak of the Frigid Winds",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 32009,
+    "name": "Merciless Gladiator's Mail Armor",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 32029,
+     "name": "Merciless Gladiator's Ringmail Armor",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32817,
+    "name": "Veteran's Mail Bracers",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 28638,
+     "name": "General's Mail Bracers",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32010,
+    "name": "Merciless Gladiator's Mail Gauntlets",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 27470,
+     "name": "Gladiator's Mail Gauntlets",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32804,
+    "name": "Veteran's Mail Girdle",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 32012,
+    "name": "Merciless Gladiator's Mail Leggings",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 27472,
+     "name": "Gladiator's Mail Leggings",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30172,
+     "name": "Cataclysm Leggings",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32792,
+    "name": "Veteran's Mail Sabatons",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 28640,
+     "name": "General's Mail Sabatons",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33056,
+    "name": "Veteran's Band of Dominance",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 50,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 30345,
+     "name": "Medallion of the Horde",
+     "usagePct": 67
+    },
+    {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance",
+     "usagePct": 33
+    },
+    {
+     "itemId": 24126,
+     "name": "Figurine - Living Ruby Serpent",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32963,
+    "name": "Merciless Gladiator's Gavel",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32053,
+     "name": "Merciless Gladiator's Spellblade",
+     "usagePct": 33
+    },
+    {
+     "itemId": 32450,
+     "name": "Gladiator's Gavel",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33313,
+    "name": "Merciless Gladiator's Barrier",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28248,
+    "name": "Totem of the Void",
+    "usagePct": 100
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24066,
+   "name": "+4 Spell Critical Rating and +5 Spell Penetration",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 34220,
+   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+40 Spell Damage and Healing",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+12 Resilience Rating",
+   "note": "67% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Elemental Shamans?",
+   "answer": "This snapshot covers 6 Elemental Shamans between 2245 and 2351 rating (average 2290) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Elemental Shaman PvP gear right now?",
+   "answer": "The highest-consensus picks are Veteran's Mail Girdle (100%), Merciless Gladiator's Barrier (100%), Totem of the Void (100%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Elemental Shaman BiS list is PvP gear vs raid gear?",
+   "answer": "80% of the most-used slots are arena/honor items — for Elemental Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Elemental Shamans use in arena?",
+   "answer": "Merciless Gladiator's Gavel is the main-hand of choice (50% of surveyed players)."
+  },
+  {
+   "question": "What gems do Elemental Shamans socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +12 Spell Damage, +4 Spell Critical Rating and +5 Spell Penetration, +12 Spell Critical & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

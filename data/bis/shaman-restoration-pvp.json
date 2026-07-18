@@ -1,151 +1,486 @@
 {
-  "class": "shaman",
-  "spec": "restoration",
-  "content": "pvp",
-  "season": 2,
-  "ratingRange": [1700, 2200],
-  "sampleSize": 214,
-  "updatedAt": "2026-07-01",
-  "blurb": "Restoration Shaman is the premier 5v5 healer of TBC arena and a staple of 2v2 drain comps, built around Earth Shield uptime, Nature's Swiftness clutch heals, and totem control (Grounding and Tremor win games on their own). Your gear goal is simple: enough resilience to survive a melee cleave sitting on you, then as much bonus healing as you can stack without going oom by the five-minute mark. The Merciless Gladiator's Ringmail 5-piece with Veteran's honor offset pieces is the standard kit at every rating bracket this season — the list below reflects what gladiator-range resto shamans actually equip, not a theorycrafted wish list.",
-  "statPriorityRationale": "Resilience comes first because a dead shaman heals nobody — 300+ resil forces enemy teams off you and makes Wind Shear/kick fishing their only win condition. Bonus healing is your throughput stat and scales every Healing Wave and Chain Heal. Stamina is deceptively valuable in 2v2 where you will be the kill target. MP5 matters more in 5v5 dampener games than in short 2v2 skirmishes; the Salvation main-hand and Third Wind totem cover most of it.",
-  "statPriority": ["Resilience", "Bonus Healing", "Stamina", "Intellect", "MP5"],
-  "slots": [
+ "class": "shaman",
+ "spec": "restoration",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2109,
+  2995
+ ],
+ "sampleSize": 67,
+ "updatedAt": "2026-07-12",
+ "blurb": "Restoration Shaman is the premier 5v5 healer of TBC arena and a staple of drain comps, built around Earth Shield uptime, Nature's Swiftness clutch heals, and totem control — Grounding and Tremor win games on their own. The list below reflects what gladiator-range resto shamans actually equip: the PvP set with honor offset pieces, resilience-first, mana problems solved by gear rather than playstyle.",
+ "statPriorityRationale": "Resilience comes first because a dead shaman heals nobody — 300+ resil forces enemy teams off you and makes interrupt fishing their only win condition. Bonus healing is your throughput stat and scales every Healing Wave and Chain Heal; stamina is deceptively valuable when you are the kill target.",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32031,
+    "name": "Merciless Gladiator's Ringmail Helm",
+    "usagePct": 60
+   },
+   "alternatives": [
     {
-      "slot": "Head",
-      "bis": { "itemId": 32031, "usagePct": 91 },
-      "alternatives": [{ "itemId": 31400, "usagePct": 7 }]
+     "itemId": 30166,
+     "name": "Cataclysm Headguard",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
     },
     {
-      "slot": "Neck",
-      "bis": { "itemId": 33068, "usagePct": 74 },
-      "alternatives": [{ "itemId": 33922, "usagePct": 18 }]
+     "itemId": 31400,
+     "name": "Gladiator's Ringmail Helm",
+     "usagePct": 12
     },
     {
-      "slot": "Shoulders",
-      "bis": { "itemId": 32033, "usagePct": 89 },
-      "alternatives": [{ "itemId": 31407, "usagePct": 9 }]
-    },
-    {
-      "slot": "Back",
-      "bis": { "itemId": 28765, "usagePct": 46 },
-      "alternatives": [
-        { "itemId": 28377, "usagePct": 31, "pveFlexNote": "Cheap PvP stopgap from honor." }
-      ]
-    },
-    {
-      "slot": "Chest",
-      "bis": { "itemId": 32029, "usagePct": 93 },
-      "alternatives": [{ "itemId": 31396, "usagePct": 6 }]
-    },
-    {
-      "slot": "Wrist",
-      "bis": { "itemId": 32997, "usagePct": 71 },
-      "alternatives": [{ "itemId": 33906, "usagePct": 22 }]
-    },
-    {
-      "slot": "Hands",
-      "bis": { "itemId": 32030, "usagePct": 88 },
-      "alternatives": [{ "itemId": 31397, "usagePct": 10 }]
-    },
-    {
-      "slot": "Waist",
-      "bis": { "itemId": 32998, "usagePct": 76 },
-      "alternatives": [{ "itemId": 33907, "usagePct": 19 }]
-    },
-    {
-      "slot": "Legs",
-      "bis": { "itemId": 32032, "usagePct": 90 },
-      "alternatives": [{ "itemId": 31406, "usagePct": 8 }]
-    },
-    {
-      "slot": "Feet",
-      "bis": { "itemId": 32999, "usagePct": 78 },
-      "alternatives": [{ "itemId": 33908, "usagePct": 17 }]
-    },
-    {
-      "slot": "Ring1",
-      "bis": { "itemId": 33064, "usagePct": 69 },
-      "alternatives": [{ "itemId": 33918, "usagePct": 24 }]
-    },
-    {
-      "slot": "Ring2",
-      "bis": { "itemId": 33918, "usagePct": 52 },
-      "alternatives": [{ "itemId": 33064, "usagePct": 30 }]
-    },
-    {
-      "slot": "Trinket1",
-      "bis": { "itemId": 37865, "usagePct": 97 },
-      "alternatives": [
-        { "itemId": 37864, "pveFlexNote": "Alliance version of the same trinket." }
-      ]
-    },
-    {
-      "slot": "Trinket2",
-      "bis": { "itemId": 34580, "usagePct": 44 },
-      "alternatives": [
-        { "itemId": 29376, "usagePct": 33, "pveFlexNote": "Essence of the Martyr — honor alternative with on-use healing." },
-        { "itemId": 30841, "usagePct": 14, "pveFlexNote": "Lower City Prayerbook — budget option while farming honor." }
-      ]
-    },
-    {
-      "slot": "MainHand",
-      "bis": { "itemId": 32964, "usagePct": 86 },
-      "alternatives": [{ "itemId": 32451, "usagePct": 11 }]
-    },
-    {
-      "slot": "OffHand",
-      "bis": { "itemId": 33309, "usagePct": 84 },
-      "alternatives": [{ "itemId": 28358, "usagePct": 13 }]
-    },
-    {
-      "slot": "Ranged",
-      "bis": { "itemId": 33078, "usagePct": 81 },
-      "alternatives": [
-        { "itemId": 28357, "usagePct": 12 },
-        { "itemId": 27544, "pveFlexNote": "Totem of Spontaneous Regrowth — PvE totem if you never bought the S1 relic." }
-      ]
+     "itemId": 29028,
+     "name": "Cyclone Headdress",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
     }
-  ],
-  "gems": [
-    { "itemId": 24029, "note": "Teardrop Living Ruby in every red socket — flat +healing is your best per-socket value." },
-    { "itemId": 24060, "note": "Luminous Noble Topaz to activate strong yellow socket bonuses (intellect + healing)." },
-    { "itemId": 24057, "note": "Royal Nightseye where a blue socket bonus is worth it — healing plus MP5." },
-    { "itemId": 25901, "note": "Insightful Earthstorm Diamond meta — mana restore procs constantly off totem refreshes." }
-  ],
-  "enchants": [
-    { "slot": "Head", "text": "Glyph of Renewal", "note": "Revered with Honor Hold / Thrallmar — healing plus MP5, the only serious head option." },
-    { "slot": "Shoulders", "text": "Greater Inscription of Faith", "note": "Aldor exalted (Scryer: Greater Inscription of the Oracle). The honor-vendor inscription is the budget fallback." },
-    { "slot": "Chest", "text": "Exceptional Stats", "note": "+6 all stats beats flat mana for a resilience set." },
-    { "slot": "Wrist", "text": "Superior Healing", "note": "+30 healing, cheap and uncontested." },
-    { "slot": "Hands", "text": "Major Healing", "note": "+35 healing; Blasting is for elemental, not you." },
-    { "slot": "Legs", "text": "Golden Spellthread", "note": "Healing plus stamina — the stamina matters in arena." },
-    { "slot": "Feet", "text": "Boar's Speed", "note": "Movement speed wins totem-stomping footraces; take it over Vitality." },
-    { "slot": "MainHand", "text": "Major Healing (+81)", "note": "The single biggest throughput enchant available." }
-  ],
-  "faq": [
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33068,
+    "name": "Veteran's Pendant of Salvation",
+    "usagePct": 64
+   },
+   "alternatives": [
     {
-      "question": "How much resilience should a Resto Shaman have in TBC arena?",
-      "answer": "Aim for roughly 300 resilience in the full Merciless set with Veteran's offset pieces. Below ~250 you die in a stun to warrior/rogue cleaves; well above 350 you start trading away too much healing and mana for diminishing survivability."
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
     },
     {
-      "question": "Should I use the Season 1 Gladiator's Ringmail pieces if I can't afford Merciless yet?",
-      "answer": "Yes. S1 pieces cost arena points only (no rating requirement) and carry the same 2-piece and 4-piece set bonuses. Buy Merciless upgrades in the order helm → chest → legs → gloves → shoulders as points allow."
-    },
-    {
-      "question": "Is the Medallion of the Horde/Alliance mandatory?",
-      "answer": "Effectively yes — 97% of surveyed resto shamans run it. Grounding Totem covers some polymorphs, but trinketing a blind, fear, or sheep at the right moment decides close games."
-    },
-    {
-      "question": "Which weapon should I buy first: Salvation or the shield?",
-      "answer": "The Merciless Gladiator's Salvation main-hand first — it is the largest single +healing and MP5 upgrade in the list. The Redoubt shield is armor and stamina; the S1 Shield Wall covers that slot fine until you have spare points."
-    },
-    {
-      "question": "Do resto shamans gem resilience or healing in TBC?",
-      "answer": "Mostly healing (Teardrop Living Ruby). The armor pieces already carry your resilience budget; sockets are where you buy back throughput. Only gem resilience if you sit below ~250 and feel every opener."
-    },
-    {
-      "question": "What totem (relic slot) should a PvP Resto Shaman use?",
-      "answer": "Merciless Gladiator's Totem of the Third Wind — the resilience on a relic is unique to the PvP totems. The S1 Third Wind is nearly as good and rating-free."
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
     }
-  ]
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 32013,
+    "name": "Merciless Gladiator's Mail Spaulders",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 30168,
+     "name": "Cataclysm Shoulderguards",
+     "usagePct": 16,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27473,
+     "name": "Gladiator's Mail Spaulders",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 9,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29375,
+     "name": "Bishop's Cloak",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 32029,
+    "name": "Merciless Gladiator's Ringmail Armor",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 30164,
+     "name": "Cataclysm Chestguard",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31396,
+     "name": "Gladiator's Ringmail Armor",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32997,
+    "name": "Veteran's Ringmail Bracers",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 30047,
+     "name": "Blackfathom Warbands",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28503,
+     "name": "Whirlwind Bracers",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32516,
+     "name": "Wraps of Purification",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32010,
+    "name": "Merciless Gladiator's Mail Gauntlets",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 29976,
+     "name": "Worldstorm Gauntlets",
+     "usagePct": 16,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27470,
+     "name": "Gladiator's Mail Gauntlets",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28520,
+     "name": "Gloves of Centering",
+     "usagePct": 6,
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 32998,
+     "name": "Veteran's Ringmail Girdle",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 29991,
+    "name": "Sunhawk Leggings",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 32032,
+     "name": "Merciless Gladiator's Ringmail Leggings",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28751,
+     "name": "Heart-Flame Leggings",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31406,
+     "name": "Gladiator's Ringmail Leggings",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32999,
+    "name": "Veteran's Ringmail Sabatons",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 30066,
+     "name": "Tempest-Strider Boots",
+     "usagePct": 22,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30092,
+     "name": "Orca-Hide Boots",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33064,
+    "name": "Veteran's Band of Salvation",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 57,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "usagePct": 40,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 30345,
+    "name": "Medallion of the Horde",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 51,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 19,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32964,
+    "name": "Merciless Gladiator's Salvation",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "usagePct": 22,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32451,
+     "name": "Gladiator's Salvation",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33309,
+    "name": "Merciless Gladiator's Redoubt",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 28754,
+     "name": "Triptych Shield of the Ancients",
+     "usagePct": 9,
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    },
+    {
+     "itemId": 29458,
+     "name": "Aegis of the Vindicator",
+     "usagePct": 6,
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33078,
+    "name": "Merciless Gladiator's Totem of the Third Wind",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 25645,
+     "name": "Totem of the Plains",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28357,
+     "name": "Gladiator's Totem of the Third Wind",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28523,
+     "name": "Totem of Healing Rains",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24057,
+   "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "90% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "85% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "95% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "48% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "72% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "51% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+18 Stamina",
+   "note": "37% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Restoration Shamans?",
+   "answer": "This snapshot covers 67 Restoration Shamans between 2109 and 2995 rating (average 2478) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Restoration Shaman PvP gear right now?",
+   "answer": "The highest-consensus picks are Merciless Gladiator's Redoubt (73%), Veteran's Pendant of Salvation (64%), Merciless Gladiator's Ringmail Armor (64%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Restoration Shaman BiS list is PvP gear vs raid gear?",
+   "answer": "80% of the most-used slots are arena/honor items — for Restoration Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Restoration Shamans use in arena?",
+   "answer": "Merciless Gladiator's Salvation is the main-hand of choice (58% of surveyed players)."
+  },
+  {
+   "question": "What gems do Restoration Shamans socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +2 Mana every 5 seconds, +4 Resilience Rating and +6 Stamina, +9 Healing +3 Spell Damage and +4 Intellect. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
 }

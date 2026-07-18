@@ -29,8 +29,8 @@ export const CLASSES: ClassDef[] = [
     color: "#C79C6E",
     specs: [
       { slug: "arms", name: "Arms", role: "Melee DPS", treeIndex: 0, pvp: true, pve: true },
-      { slug: "fury", name: "Fury", role: "Melee DPS", treeIndex: 1, pvp: false, pve: true },
-      { slug: "protection", name: "Protection", role: "Tank", treeIndex: 2, pvp: false, pve: true },
+      { slug: "fury", name: "Fury", role: "Melee DPS", treeIndex: 1, pvp: true, pve: true },
+      { slug: "protection", name: "Protection", role: "Tank", treeIndex: 2, pvp: true, pve: true },
     ],
   },
   {
@@ -50,7 +50,7 @@ export const CLASSES: ClassDef[] = [
     specs: [
       { slug: "beast-mastery", name: "Beast Mastery", role: "Ranged DPS", treeIndex: 0, pvp: true, pve: true },
       { slug: "marksmanship", name: "Marksmanship", role: "Ranged DPS", treeIndex: 1, pvp: true, pve: true },
-      { slug: "survival", name: "Survival", role: "Ranged DPS", treeIndex: 2, pvp: false, pve: true },
+      { slug: "survival", name: "Survival", role: "Ranged DPS", treeIndex: 2, pvp: true, pve: true },
     ],
   },
   {
@@ -58,7 +58,7 @@ export const CLASSES: ClassDef[] = [
     name: "Rogue",
     color: "#FFF569",
     specs: [
-      { slug: "combat", name: "Combat", role: "Melee DPS", treeIndex: 1, pvp: false, pve: true },
+      { slug: "combat", name: "Combat", role: "Melee DPS", treeIndex: 1, pvp: true, pve: true },
       { slug: "assassination", name: "Assassination", role: "Melee DPS", treeIndex: 0, pvp: true, pve: true },
       { slug: "subtlety", name: "Subtlety", role: "Melee DPS", treeIndex: 2, pvp: true, pve: false },
     ],
@@ -69,7 +69,7 @@ export const CLASSES: ClassDef[] = [
     color: "#FFFFFF",
     specs: [
       { slug: "discipline", name: "Discipline", role: "Healer", treeIndex: 0, pvp: true, pve: false },
-      { slug: "holy", name: "Holy", role: "Healer", treeIndex: 1, pvp: false, pve: true },
+      { slug: "holy", name: "Holy", role: "Healer", treeIndex: 1, pvp: true, pve: true },
       { slug: "shadow", name: "Shadow", role: "Ranged DPS", treeIndex: 2, pvp: true, pve: true },
     ],
   },
@@ -79,7 +79,7 @@ export const CLASSES: ClassDef[] = [
     color: "#0070DE",
     specs: [
       { slug: "elemental", name: "Elemental", role: "Ranged DPS", treeIndex: 0, pvp: true, pve: true },
-      { slug: "enhancement", name: "Enhancement", role: "Melee DPS", treeIndex: 1, pvp: false, pve: true },
+      { slug: "enhancement", name: "Enhancement", role: "Melee DPS", treeIndex: 1, pvp: true, pve: true },
       { slug: "restoration", name: "Restoration", role: "Healer", treeIndex: 2, pvp: true, pve: true },
     ],
   },
@@ -88,7 +88,7 @@ export const CLASSES: ClassDef[] = [
     name: "Mage",
     color: "#69CCF0",
     specs: [
-      { slug: "arcane", name: "Arcane", role: "Ranged DPS", treeIndex: 0, pvp: false, pve: true },
+      { slug: "arcane", name: "Arcane", role: "Ranged DPS", treeIndex: 0, pvp: true, pve: true },
       { slug: "fire", name: "Fire", role: "Ranged DPS", treeIndex: 1, pvp: true, pve: true },
       { slug: "frost", name: "Frost", role: "Ranged DPS", treeIndex: 2, pvp: true, pve: true },
     ],
@@ -100,7 +100,7 @@ export const CLASSES: ClassDef[] = [
     specs: [
       { slug: "affliction", name: "Affliction", role: "Ranged DPS", treeIndex: 0, pvp: true, pve: true },
       { slug: "demonology", name: "Demonology", role: "Ranged DPS", treeIndex: 1, pvp: true, pve: false },
-      { slug: "destruction", name: "Destruction", role: "Ranged DPS", treeIndex: 2, pvp: false, pve: true },
+      { slug: "destruction", name: "Destruction", role: "Ranged DPS", treeIndex: 2, pvp: true, pve: true },
     ],
   },
   {

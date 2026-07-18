@@ -11,6 +11,8 @@ import {
   webApplicationJsonLd,
 } from "@/components/seo/JsonLd";
 import { TalentCalculator } from "@/components/talents/TalentCalculator";
+import { PageHero } from "@/components/PageHero";
+import { classBackground } from "@/lib/backgrounds";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -53,7 +55,7 @@ export default async function ClassCalculatorPage({
   ];
 
   return (
-    <main className="mx-auto max-w-[1200px] px-4">
+    <>
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
@@ -64,13 +66,17 @@ export default async function ClassCalculatorPage({
           ),
         ]}
       />
-      <header className="pt-10 pb-6 sm:pt-14">
+      <PageHero
+        image={classBackground(cls.slug)}
+        contentClassName="max-w-[1200px]"
+      >
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
           {cls.name} Talent Calculator — TBC Classic
         </h1>
-      </header>
+      </PageHero>
 
+      <main className="mx-auto max-w-[1200px] px-4 pt-6">
       <Suspense>
         <TalentCalculator cls={talents} className={cls.name} />
       </Suspense>
@@ -101,6 +107,7 @@ export default async function ClassCalculatorPage({
           </li>
         </ul>
       </nav>
-    </main>
+      </main>
+    </>
   );
 }

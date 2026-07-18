@@ -1,0 +1,493 @@
+{
+ "class": "warrior",
+ "spec": "fury",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2157,
+  2653
+ ],
+ "sampleSize": 13,
+ "updatedAt": "2026-07-12",
+ "blurb": "Fury in arena is a niche bruiser pick — you trade the Mortal Strike debuff for dual-wield burst and Rampage sustain. The players making it work at rating run heavy PvP armor and treat it like a stat-check: survive the opener, then out-pressure teams that expected an Arms target dummy.",
+ "statPriorityRationale": "Fury gives up Mortal Strike's healing debuff for raw output, so the gear has to keep you alive long enough for Rampage windows to matter — resilience first, then attack power to make those windows lethal.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating",
+  "Hit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30120,
+    "name": "Destroyer Battle-Helm",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 29021,
+     "name": "Warbringer Battle-Helm",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30488,
+     "name": "Merciless Gladiator's Plate Helm",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 32461,
+     "name": "Furious Gizmatic Goggles",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30022,
+    "name": "Pendant of the Perilous",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 30059,
+     "name": "Choker of Animalistic Fury",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30122,
+    "name": "Destroyer Shoulderblades",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 30053,
+     "name": "Pauldrons of the Wardancer",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29023,
+     "name": "Warbringer Shoulderplates",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30490,
+     "name": "Merciless Gladiator's Plate Shoulders",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 24259,
+    "name": "Vengeance Wrap",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30118,
+    "name": "Destroyer Breastplate",
+    "usagePct": 92
+   },
+   "alternatives": [
+    {
+     "itemId": 30486,
+     "name": "Merciless Gladiator's Plate Chestpiece",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "usagePct": 31,
+     "pveFlexNote": "Seen mostly above 2540 rating."
+    },
+    {
+     "itemId": 32818,
+     "name": "Veteran's Plate Bracers",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30119,
+    "name": "Destroyer Gauntlets",
+    "usagePct": 77
+   },
+   "alternatives": [
+    {
+     "itemId": 28824,
+     "name": "Gauntlets of Martial Perfection",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30487,
+     "name": "Merciless Gladiator's Plate Gauntlets",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30032,
+    "name": "Red Belt of Battle",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32805,
+     "name": "Veteran's Plate Belt",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30121,
+    "name": "Destroyer Greaves",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 29950,
+     "name": "Greaves of the Bloodwarder",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30538,
+     "name": "Midnight Legguards",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29995,
+     "name": "Leggings of Murderous Intent",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30081,
+    "name": "Warboots of Obliteration",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28608,
+     "name": "Ironstriders of Urgency",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32793,
+     "name": "Veteran's Plate Greaves",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 62,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "usagePct": 46,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28439,
+    "name": "Dragonstrike",
+    "usagePct": 77
+   },
+   "alternatives": [
+    {
+     "itemId": 28442,
+     "name": "Stormherald",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 31965,
+    "name": "Merciless Gladiator's Cleaver",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28308,
+     "name": "Gladiator's Cleaver",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28772,
+    "name": "Sunfury Bow of the Phoenix",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 32054,
+     "name": "Merciless Gladiator's War Edge",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24027,
+   "name": "+8 Strength",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24054,
+   "name": "+4 Strength and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24058,
+   "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 32409,
+   "name": "+12 Agility & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+15 Critical Strike Rating and +20 Attack Power",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "86% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +6 Agility",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "9% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "Mongoose",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Fury Warriors?",
+   "answer": "This snapshot covers 13 Fury Warriors between 2157 and 2653 rating (average 2463) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Fury Warrior PvP gear right now?",
+   "answer": "The highest-consensus picks are Destroyer Breastplate (92%), Ring of a Thousand Marks (85%), Destroyer Gauntlets (77%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Fury Warrior BiS list is PvP gear vs raid gear?",
+   "answer": "Only 7% of the most-used slots are PvP items — high-rated Fury Warriors flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Fury Warriors use in arena?",
+   "answer": "Dragonstrike is the main-hand of choice (77% of surveyed players)."
+  },
+  {
+   "question": "What gems do Fury Warriors socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Strength, +4 Strength and +6 Stamina, +4 Critical Strike Rating and +4 Strength. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

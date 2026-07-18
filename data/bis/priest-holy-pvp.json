@@ -1,0 +1,484 @@
+{
+ "class": "priest",
+ "spec": "holy",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2113,
+  2994
+ ],
+ "sampleSize": 39,
+ "updatedAt": "2026-07-12",
+ "blurb": "Holy Priest in arena is the throughput gamble: Circle of Healing-era output with none of Discipline's panic buttons. It appears mostly in 5v5, where raw healing per second matters more and a Power Word: Shield rotation across five targets keeps trainable weaknesses hidden.",
+ "statPriorityRationale": "Holy trades Discipline's defensive cooldowns for bigger raw heals, which means you personally are the weak point — the ladder's holy priests gear even more defensively than disc to compensate for the missing Pain Suppression.",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30152,
+    "name": "Cowl of the Avatar",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 29049,
+     "name": "Light-Collar of the Incarnate",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28822,
+    "name": "Teeth of Gruul",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2494 rating."
+    },
+    {
+     "itemId": 33068,
+     "name": "Veteran's Pendant of Salvation",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30154,
+    "name": "Mantle of the Avatar",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 29054,
+     "name": "Light-Mantle of the Incarnate",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32018,
+     "name": "Merciless Gladiator's Mooncloth Mantle",
+     "usagePct": 21
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 28,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29050,
+    "name": "Robes of the Incarnate",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 30150,
+     "name": "Vestments of the Avatar",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32019,
+     "name": "Merciless Gladiator's Mooncloth Robe",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28578,
+     "name": "Masquerade Gown",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32516,
+    "name": "Wraps of Purification",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 32980,
+     "name": "Veteran's Mooncloth Cuffs",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28511,
+     "name": "Bands of Indwelling",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30151,
+    "name": "Gloves of the Avatar",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 28508,
+     "name": "Gloves of Saintly Blessings",
+     "usagePct": 18,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32015,
+     "name": "Merciless Gladiator's Mooncloth Gloves",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29055,
+     "name": "Handwraps of the Incarnate",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28652,
+    "name": "Cincture of Will",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 30036,
+     "name": "Belt of the Long Road",
+     "usagePct": 28,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32979,
+     "name": "Veteran's Mooncloth Belt",
+     "usagePct": 21
+    },
+    {
+     "itemId": 21873,
+     "name": "Primal Mooncloth Belt",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30153,
+    "name": "Breeches of the Avatar",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 28742,
+     "name": "Pantaloons of Repentance",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32017,
+     "name": "Merciless Gladiator's Mooncloth Leggings",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29977,
+     "name": "Star-Soul Breeches",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2494 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30100,
+    "name": "Soul-Strider Boots",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 28663,
+     "name": "Boots of the Incorrupt",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30035,
+     "name": "Boots of the Long Road",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 28,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "usagePct": 44,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28823,
+     "name": "Eye of Gruul",
+     "usagePct": 36,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32964,
+    "name": "Merciless Gladiator's Salvation",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29981,
+     "name": "Ethereum Life-Staff",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28771,
+     "name": "Light's Justice",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29923,
+    "name": "Talisman of the Sun King",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29170,
+     "name": "Windcaller's Orb",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28728,
+     "name": "Aran's Soothing Sapphire",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "usagePct": 5,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30080,
+    "name": "Luminescent Rod of the Naaru",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 28588,
+     "name": "Blue Diamond Witchwand",
+     "usagePct": 28,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 25901,
+   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "62% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Spirit",
+   "note": "79% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "35% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "85% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "53% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Holy Priests?",
+   "answer": "This snapshot covers 39 Holy Priests between 2113 and 2994 rating (average 2480) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Holy Priest PvP gear right now?",
+   "answer": "The highest-consensus picks are Cowl of the Avatar (74%), Violet Signet of the Grand Restorer (69%), Luminescent Rod of the Naaru (69%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Holy Priest BiS list is PvP gear vs raid gear?",
+   "answer": "Only 7% of the most-used slots are PvP items — high-rated Holy Priests flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+  },
+  {
+   "question": "What weapon do Holy Priests use in arena?",
+   "answer": "Merciless Gladiator's Salvation is the main-hand of choice (38% of surveyed players)."
+  },
+  {
+   "question": "What gems do Holy Priests socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +4 Spirit, +12 Intellect & Chance to restore mana on spellcast, +18 Healing and +6 Spell Damage. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

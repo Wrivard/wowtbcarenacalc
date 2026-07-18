@@ -1,0 +1,338 @@
+{
+ "class": "warlock",
+ "spec": "affliction",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2108,
+  2922
+ ],
+ "sampleSize": 4,
+ "updatedAt": "2026-07-12",
+ "blurb": "Affliction (SL/SL) Warlock is the most notorious attrition spec in TBC arena — Siphon Life and Soul Link make you nearly unkillable while dots and Unstable Affliction dismantle healers' mana and patience. You don't have a burst window; you ARE the win condition, one tick at a time.",
+ "statPriorityRationale": "Affliction pressure is inevitable rather than bursty, so the entire gear plan is outlasting the enemy's attempts to delete you — TBC warlocks famously stack stamina above all, and the arena data confirms it: SL/SL survivability turns every game into a timer you win.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Spell Hit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31974,
+    "name": "Merciless Gladiator's Dreadweave Hood",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 31980,
+     "name": "Merciless Gladiator's Felweave Cowl",
+     "usagePct": 50
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33065,
+    "name": "Veteran's Pendant of Dominance",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31976,
+    "name": "Merciless Gladiator's Dreadweave Mantle",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31977,
+    "name": "Merciless Gladiator's Dreadweave Robe",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 31982,
+     "name": "Merciless Gladiator's Felweave Raiment",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32811,
+    "name": "Veteran's Dreadweave Cuffs",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31973,
+    "name": "Merciless Gladiator's Dreadweave Gloves",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 24556,
+     "name": "Gladiator's Dreadweave Gloves",
+     "usagePct": 25
+    },
+    {
+     "itemId": 31981,
+     "name": "Merciless Gladiator's Felweave Handguards",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32799,
+    "name": "Veteran's Dreadweave Belt",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31975,
+    "name": "Merciless Gladiator's Dreadweave Leggings",
+    "usagePct": 100
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32787,
+    "name": "Veteran's Dreadweave Stalkers",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33056,
+    "name": "Veteran's Band of Dominance",
+    "usagePct": 100
+   },
+   "alternatives": [
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "usagePct": 75,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33054,
+     "name": "The Seal of Danzalar",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 100
+   },
+   "alternatives": [
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde",
+     "usagePct": 75
+    },
+    {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32053,
+    "name": "Merciless Gladiator's Spellblade",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 28297,
+     "name": "Gladiator's Spellblade",
+     "usagePct": 25
+    },
+    {
+     "itemId": 32055,
+     "name": "Merciless Gladiator's War Staff",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 31978,
+    "name": "Merciless Gladiator's Endgame",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28320,
+    "name": "Gladiator's Touch of Defeat",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 32962,
+     "name": "Merciless Gladiator's Touch of Defeat",
+     "usagePct": 25
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+40 Spell Damage and Healing",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Affliction Warlocks?",
+   "answer": "This snapshot covers 4 Affliction Warlocks between 2108 and 2922 rating (average 2449) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Affliction Warlock PvP gear right now?",
+   "answer": "The highest-consensus picks are Merciless Gladiator's Dreadweave Mantle (100%), Sergeant's Heavy Cape (100%), Veteran's Dreadweave Cuffs (100%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Affliction Warlock BiS list is PvP gear vs raid gear?",
+   "answer": "93% of the most-used slots are arena/honor items — for Affliction Warlocks the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Affliction Warlocks use in arena?",
+   "answer": "Merciless Gladiator's Spellblade is the main-hand of choice (50% of surveyed players)."
+  },
+  {
+   "question": "What gems do Affliction Warlocks socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +10 Spell Penetration, +4 Resilience Rating and +6 Stamina, +18 Stamina & 5% Stun Resist. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

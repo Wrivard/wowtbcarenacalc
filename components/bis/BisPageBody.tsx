@@ -5,9 +5,9 @@
 
 import Link from "next/link";
 import type { BisList } from "@/lib/bis";
-import { wowheadItemUrl } from "@/lib/bis";
 import type { ClassDef, SpecDef } from "@/lib/classes";
 import { GearGrid } from "@/components/bis/GearGrid";
+import { ItemLink } from "@/components/ItemLink";
 import { AdUnit } from "@/components/AdUnit";
 
 const SLOT_RESULT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT;
@@ -79,14 +79,9 @@ export function BisPageBody({
         <ul className="mt-4 space-y-3">
           {list.gems.map((gem) => (
             <li key={gem.itemId} className="flex flex-col gap-0.5">
-              <a
-                href={wowheadItemUrl(gem.itemId)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="min-h-6 text-sm text-muted-strong underline-offset-2 hover:underline"
-              >
-                Item #{gem.itemId}
-              </a>
+              <span className="min-h-7">
+                <ItemLink itemId={gem.itemId} fallbackName={gem.name} />
+              </span>
               <span className="text-sm leading-relaxed text-muted">
                 {gem.note}
               </span>

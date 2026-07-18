@@ -1,0 +1,457 @@
+{
+ "class": "mage",
+ "spec": "frost",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2119,
+  3024
+ ],
+ "sampleSize": 148,
+ "updatedAt": "2026-07-12",
+ "blurb": "Frost Mage is TBC arena's puppet master: Water Elemental Freeze into Shatter, Ice Block to reset swaps, Cold Snap to do it twice. Every comp with a mage wants frost for the control, not the damage — which is exactly why the gear list is stamina and resilience first, damage second.",
+ "statPriorityRationale": "Frost is the control tree — Shatter combos provide the kill windows regardless of gear, so the list stacks survivability and spell penetration to make sure Frostbolts land through resistance while you outlast the other team's cooldowns.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32048,
+    "name": "Merciless Gladiator's Silk Cowl",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 25855,
+     "name": "Gladiator's Silk Cowl",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32494,
+     "name": "Destruction Holo-gogs",
+     "usagePct": 20,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30008,
+    "name": "Pendant of the Lost Ages",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 33067,
+     "name": "Veteran's Pendant of Conquest",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29347,
+     "name": "Talisman of the Breaker",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 32047,
+    "name": "Merciless Gladiator's Silk Amice",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 25854,
+     "name": "Gladiator's Silk Amice",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29992,
+    "name": "Royal Cloak of the Sunstriders",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 28378,
+     "name": "Sergeant's Heavy Cape",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 20,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 32050,
+    "name": "Merciless Gladiator's Silk Raiment",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 25856,
+     "name": "Gladiator's Silk Raiment",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30056,
+     "name": "Robe of Hateful Echoes",
+     "usagePct": 5,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32820,
+    "name": "Veteran's Silk Cuffs",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 29002,
+     "name": "Marshal's Silk Cuffs",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28411,
+     "name": "General's Silk Cuffs",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32049,
+    "name": "Merciless Gladiator's Silk Handguards",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 25857,
+     "name": "Gladiator's Silk Handguards",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32807,
+    "name": "Veteran's Silk Belt",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 30064,
+     "name": "Cord of Screaming Terrors",
+     "usagePct": 32,
+     "pveFlexNote": "Seen mostly above 2492 rating."
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29001,
+     "name": "Marshal's Silk Belt",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 32051,
+    "name": "Merciless Gladiator's Silk Trousers",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "usagePct": 36,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25858,
+     "name": "Gladiator's Silk Trousers",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32795,
+    "name": "Veteran's Silk Footguards",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 29003,
+     "name": "Marshal's Silk Footguards",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28410,
+     "name": "General's Silk Footguards",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33056,
+    "name": "Veteran's Band of Dominance",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 53,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 32,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 16,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 93
+   },
+   "alternatives": [
+    {
+     "itemId": 28238,
+     "name": "Medallion of the Alliance",
+     "usagePct": 61
+    },
+    {
+     "itemId": 28239,
+     "name": "Medallion of the Horde",
+     "usagePct": 35
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32053,
+    "name": "Merciless Gladiator's Spellblade",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 12,
+     "pveFlexNote": "Seen mostly above 2492 rating."
+    },
+    {
+     "itemId": 28297,
+     "name": "Gladiator's Spellblade",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 31978,
+    "name": "Merciless Gladiator's Endgame",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 14,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32962,
+    "name": "Merciless Gladiator's Touch of Defeat",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 28320,
+     "name": "Gladiator's Touch of Defeat",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 34220,
+   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "99% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "58% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "98% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "98% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "52% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+40 Spell Damage and Healing",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Frost Mages?",
+   "answer": "This snapshot covers 148 Frost Mages between 2119 and 3024 rating (average 2484) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Frost Mage PvP gear right now?",
+   "answer": "The highest-consensus picks are Icon of the Silver Crescent (93%), Merciless Gladiator's Silk Amice (82%), Veteran's Silk Cuffs (81%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Frost Mage BiS list is PvP gear vs raid gear?",
+   "answer": "80% of the most-used slots are arena/honor items — for Frost Mages the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Frost Mages use in arena?",
+   "answer": "Merciless Gladiator's Spellblade is the main-hand of choice (67% of surveyed players)."
+  },
+  {
+   "question": "What gems do Frost Mages socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Critical Rating and +5 Spell Damage, +12 Spell Damage, +12 Spell Critical & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}

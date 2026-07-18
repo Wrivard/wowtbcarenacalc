@@ -1,0 +1,410 @@
+{
+ "class": "warrior",
+ "spec": "arms",
+ "content": "pvp",
+ "season": 2,
+ "ratingRange": [
+  2116,
+  3006
+ ],
+ "sampleSize": 120,
+ "updatedAt": "2026-07-12",
+ "blurb": "Arms Warrior is the backbone of TBC's most oppressive melee cleaves — Mortal Strike's 50% healing cut is the single strongest debuff in arena, and every healer comp has to answer it. You are the kill target as often as the kill driver, which is why the highest-rated warriors stack PvP set pieces and resilience instead of raid weapons alone. Expect to play with a healer glued to you and win by making the enemy healer's life impossible.",
+ "statPriorityRationale": "Arms lives inside melee range of everything that wants it dead, so resilience and stamina come before raw damage — a dead warrior deals zero Mortal Strikes. Once you can survive a focus swap, attack power scales your MS/Slam pressure and crit feeds Flurry uptime.",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating",
+  "Hit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30488,
+    "name": "Merciless Gladiator's Plate Helm",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 24545,
+     "name": "Gladiator's Plate Helm",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30120,
+     "name": "Destroyer Battle-Helm",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30022,
+     "name": "Pendant of the Perilous",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30490,
+    "name": "Merciless Gladiator's Plate Shoulders",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 24546,
+     "name": "Gladiator's Plate Shoulders",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 13,
+     "pveFlexNote": "Seen mostly above 2487 rating."
+    },
+    {
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "usagePct": 11,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30486,
+    "name": "Merciless Gladiator's Plate Chestpiece",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 24544,
+     "name": "Gladiator's Plate Chestpiece",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30118,
+     "name": "Destroyer Breastplate",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32818,
+    "name": "Veteran's Plate Bracers",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28996,
+     "name": "Marshal's Plate Bracers",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30487,
+    "name": "Merciless Gladiator's Plate Gauntlets",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 24549,
+     "name": "Gladiator's Plate Gauntlets",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32805,
+    "name": "Veteran's Plate Belt",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28995,
+     "name": "Marshal's Plate Belt",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30489,
+    "name": "Merciless Gladiator's Plate Legguards",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 24547,
+     "name": "Gladiator's Plate Legguards",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32793,
+    "name": "Veteran's Plate Greaves",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 28997,
+     "name": "Marshal's Plate Greaves",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "usagePct": 5,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 39,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 30350,
+     "name": "Medallion of the Alliance",
+     "usagePct": 56
+    },
+    {
+     "itemId": 30344,
+     "name": "Medallion of the Horde",
+     "usagePct": 36
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28442,
+    "name": "Stormherald",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 28441,
+     "name": "Deep Thunder",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32054,
+    "name": "Merciless Gladiator's War Edge",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 28319,
+     "name": "Gladiator's War Edge",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2487 rating."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24058,
+   "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24048,
+   "name": "+8 Critical Strike Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 28362,
+   "name": "+20 Attack Power",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24027,
+   "name": "+8 Strength",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "95% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+15 Nature Resistance",
+   "note": "47% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "52% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "92% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "23% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "58% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What rating are these Arms Warriors?",
+   "answer": "This snapshot covers 120 Arms Warriors between 2116 and 3006 rating (average 2496) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+  },
+  {
+   "question": "What is the most-used Arms Warrior PvP gear right now?",
+   "answer": "The highest-consensus picks are Bloodlust Brooch (90%), Merciless Gladiator's Plate Helm (83%), Veteran's Plate Greaves (83%). Anything above ~70% usage at this rating range is effectively mandatory."
+  },
+  {
+   "question": "How much of the Arms Warrior BiS list is PvP gear vs raid gear?",
+   "answer": "86% of the most-used slots are arena/honor items — for Arms Warriors the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+  },
+  {
+   "question": "What weapon do Arms Warriors use in arena?",
+   "answer": "Stormherald is the main-hand of choice (78% of surveyed players)."
+  },
+  {
+   "question": "What gems do Arms Warriors socket for PvP?",
+   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Critical Strike Rating and +4 Strength, +8 Critical Strike Rating, +20 Attack Power. Socket bonuses are usually ignored unless they align with these."
+  }
+ ]
+}
