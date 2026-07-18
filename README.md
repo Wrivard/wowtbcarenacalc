@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TBC Arena Points Calculator
 
-## Getting Started
+Production-ready, SEO-optimized single-page calculator for **WoW: The Burning
+Crusade Classic (Anniversary)** arena points. 100% client-side — no backend,
+no database. Built with Next.js (App Router), Tailwind CSS, and Radix
+primitives, styled after the Vercel/Supabase dashboard aesthetic.
 
-First, run the development server:
+**Features**
+
+- **Points calculator** — 2v2 / 3v3 / 5v5 team rating → weekly arena points,
+  with the highest-earning bracket highlighted (points don't stack).
+- **Required rating lookup** — inverse of the formula: desired points →
+  required rating per bracket.
+- **Gear planner (beta)** — checklist of arena vendor items, total cost, and
+  estimated weeks to afford at your current earn rate.
+- SEO content + JSON-LD (`WebApplication` + `FAQPage`), sitemap, robots,
+  generated OG image.
+- Consent-gated Google Analytics 4, Google AdSense, Vercel Analytics + Speed
+  Insights (GDPR / Quebec Law 25 compliant — nothing loads before consent).
+- Compliance pages: privacy policy, terms, about, contact.
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev      # http://localhost:3000
+pnpm build    # production build + type check
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+With no env vars set, ads and analytics are clean no-ops — no console
+errors, nothing loads.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Push this repo to GitHub and import it at [vercel.com/new](https://vercel.com/new)
+   (framework auto-detected).
+2. Set the env vars from [.env.example](.env.example) in Project Settings →
+   Environment Variables:
+   - `NEXT_PUBLIC_SITE_URL` — your production domain (used for canonical
+     URLs, sitemap, and JSON-LD).
+   - `NEXT_PUBLIC_GA_ID` — GA4 measurement id (create a property at
+     [analytics.google.com](https://analytics.google.com)).
+   - `NEXT_PUBLIC_ADSENSE_CLIENT` + the three `NEXT_PUBLIC_ADSENSE_SLOT_*`
+     ids — from [adsense.google.com](https://adsense.google.com) after your
+     site is approved. The site ships with enough content, a privacy policy,
+     and clear navigation to pass review; apply once the domain is live.
+3. Enable **Vercel Analytics** and **Speed Insights** in the Vercel
+   dashboard (the components are already wired, gated on cookie consent).
+4. Redeploy after adding env vars (they're inlined at build time).
 
-## Learn More
+## Post-deploy: Google Search Console
 
-To learn more about Next.js, take a look at the following resources:
+This is where the real SEO traffic insight lives:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Add your domain at [search.google.com/search-console](https://search.google.com/search-console)
+   and verify (DNS record is easiest on Vercel-managed domains).
+2. Submit the sitemap: `https://your-domain.com/sitemap.xml`.
+3. Monitor **Performance → Search results** for impressions/queries
+   ("wow tbc arena points calculator", "tbc arena calculator", …) and fix
+   any Coverage issues it reports.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+GA4's `calculate_clicked` event (fired with ratings bucketed to the nearest
+100 plus the awarded bracket) measures engagement quality beyond pageviews.
 
-## Deploy on Vercel
+## Formula validation caveat ⚠️
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[lib/arena.ts](lib/arena.ts) is the **single source of truth** for all
+constants. The source site this formula was taken from displays the formula
+but publishes a quick-reference table that does *not* match it (~1295 pts @
+1500 in 5v5 vs ~1111 from the formula; divergence grows with rating). The
+formula is implemented as canonical; `finalMultiplier` is the prime suspect
+if you re-tune against real in-game values (≈1.75 fits their table). The
+on-page reference table is *generated from the code*, so calculator and
+table always agree. If in-game numbers diverge, tune the constants in that
+one file — everything else follows.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Gear data TODO
+
+[data/gear.ts](data/gear.ts) ships with representative S1 placeholder items.
+Before promoting the gear planner past "beta", fill it from Wowhead's TBC
+Classic S1–S4 arena vendor data (all slots, costs, rating requirements).
