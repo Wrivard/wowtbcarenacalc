@@ -1,0 +1,366 @@
+{
+ "class": "shaman",
+ "spec": "enhancement",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 198,
+ "updatedAt": "2026-05-22",
+ "blurb": "Enhancement Shaman is the heart of the TBC melee group: Windfury Totem multiplies every warrior's and rogue's output, Unleashed Rage adds AP on your crits, and your own stormstrike-windfury rolls put up real numbers. Melee groups are built around this spec — gear it like it matters. This Phase 5 snapshot aggregates 198 top DPS parses from Sunwell Plateau; the highest-consensus pick is Stonebreaker's Totem at 93% usage.",
+ "statPriorityRationale": "Enhancement raids for Windfury Totem and Unleashed Rage — your own dual-wield windfury procs want the hit cap badly, and after it attack power scales both you and (through Unleashed Rage) your whole melee group on every crit.",
+ "statPriority": [
+  "Hit Rating",
+  "Attack Power",
+  "Agility",
+  "Crit Rating",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34333,
+    "name": "Coif of Alleria",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34244,
+     "name": "Duplicitous Guise",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34356,
+     "name": "Surestrike Goggles v3.0",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 32260,
+    "name": "Choker of Endless Nightmares",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 34358,
+     "name": "Hard Khorium Choker",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34177,
+     "name": "Clutch of Demise",
+     "usagePct": 18
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 34194,
+    "name": "Mantle of the Golden Forest",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 31024,
+     "name": "Skyshatter Pauldrons",
+     "usagePct": 19
+    },
+    {
+     "itemId": 34392,
+     "name": "Demontooth Shoulderpads",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34241,
+    "name": "Cloak of Unforgivable Sin",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 30
+    },
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 24
+    },
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34369,
+    "name": "Carapace of Sun and Shadow",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 34397,
+     "name": "Bladed Chaos Tunic",
+     "usagePct": 27
+    },
+    {
+     "itemId": 30905,
+     "name": "Midnight Chestguard",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34228,
+     "name": "Vicious Hawkstrider Hauberk",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34439,
+    "name": "Skyshatter Wristguards",
+    "usagePct": 89
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34370,
+    "name": "Gloves of Immortal Dusk",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 34343,
+     "name": "Thalassian Ranger Gauntlets",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34545,
+    "name": "Skyshatter Girdle",
+    "usagePct": 91
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34188,
+    "name": "Leggings of the Immortal Night",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 34168,
+     "name": "Starstalker Legguards",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30900,
+     "name": "Bow-Stitched Leggings",
+     "usagePct": 16
+    },
+    {
+     "itemId": 31021,
+     "name": "Skyshatter Pants",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34567,
+    "name": "Skyshatter Greaves",
+    "usagePct": 90
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 19
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 16
+    },
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 34472,
+    "name": "Shard of Contempt",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 34472,
+     "name": "Shard of Contempt",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 16
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34331,
+    "name": "Hand of the Deceiver",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 33669,
+     "name": "Vengeful Gladiator's Cleaver",
+     "usagePct": 5
+    },
+    {
+     "itemId": 12798,
+     "name": "Annihilator",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 34346,
+    "name": "Mounting Vengeance",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 12798,
+     "name": "Annihilator",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33507,
+    "name": "Stonebreaker's Totem",
+    "usagePct": 93
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Enhancement Shaman Phase 5 BiS come from?",
+   "answer": "From the gear worn by 198 top-ranked Enhancement Shaman DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Enhancement Shaman items in Phase 5?",
+   "answer": "Stonebreaker's Totem (93%), Skyshatter Girdle (91%), Skyshatter Greaves (90%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

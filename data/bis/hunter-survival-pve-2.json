@@ -1,0 +1,395 @@
+{
+ "class": "hunter",
+ "spec": "survival",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 293,
+ "updatedAt": "2026-05-22",
+ "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 2 snapshot aggregates 293 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Rift Stalker Mantle at 91% usage.",
+ "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriority": [
+  "Agility",
+  "Hit Rating",
+  "Attack Power",
+  "Crit Rating",
+  "Stamina"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30141,
+    "name": "Rift Stalker Helm",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 29081,
+     "name": "Demon Stalker Greathelm",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28275,
+     "name": "Beast Lord Helm",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus' Pendant of Mayhem",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 9
+    },
+    {
+     "itemId": 32508,
+     "name": "Necklace of the Deep",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28674,
+     "name": "Saberclaw Talisman",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30143,
+    "name": "Rift Stalker Mantle",
+    "usagePct": 91
+   },
+   "alternatives": [
+    {
+     "itemId": 27801,
+     "name": "Beast Lord Mantle",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 30
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 10
+    },
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 28228,
+     "name": "Beast Lord Cuirass",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30054,
+     "name": "Ranger-General's Chestguard",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29966,
+    "name": "Vambraces of Ending",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 30026,
+     "name": "Bands of the Celestial Archer",
+     "usagePct": 34
+    },
+    {
+     "itemId": 25697,
+     "name": "Felstalker Bracers",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28454,
+     "name": "Stalker's War Bands",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30140,
+    "name": "Rift Stalker Gauntlets",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 28506,
+     "name": "Gloves of Dexterous Manipulation",
+     "usagePct": 33
+    },
+    {
+     "itemId": 27474,
+     "name": "Beast Lord Handguards",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 28750,
+     "name": "Girdle of Treachery",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29985,
+     "name": "Void Reaver Greaves",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29995,
+     "name": "Leggings of Murderous Intent",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30104,
+    "name": "Cobra-Lash Boots",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 31
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28746,
+     "name": "Fiend Slayer Boots",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29298,
+    "name": "Band of Eternity",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 45
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 40
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 25
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 36
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 27846,
+    "name": "Claw of the Watcher",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28584,
+     "name": "Big Bad Wolf's Paw",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29948,
+    "name": "Claw of the Phoenix",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 28572,
+     "name": "Blade of the Unrequited",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28315,
+     "name": "Stormreaver Warblades",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28772,
+    "name": "Sunfury Bow of the Phoenix",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "usagePct": 44
+    },
+    {
+     "itemId": 29949,
+     "name": "Arcanite Steam-Pistol",
+     "usagePct": 8
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Survival Hunter Phase 2 BiS come from?",
+   "answer": "From the gear worn by 293 top-ranked Survival Hunter DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Survival Hunter items in Phase 2?",
+   "answer": "Rift Stalker Mantle (91%), Belt of Deep Shadow (88%), Rift Stalker Hauberk (83%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

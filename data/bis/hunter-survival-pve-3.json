@@ -1,0 +1,405 @@
+{
+ "class": "hunter",
+ "spec": "survival",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 240,
+ "updatedAt": "2026-05-22",
+ "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 3 snapshot aggregates 240 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Telonicus' Pendant of Mayhem at 87% usage.",
+ "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriority": [
+  "Agility",
+  "Hit Rating",
+  "Attack Power",
+  "Crit Rating",
+  "Stamina"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30141,
+    "name": "Rift Stalker Helm",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 31003,
+     "name": "Gronnstalker's Helmet",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus' Pendant of Mayhem",
+    "usagePct": 87
+   },
+   "alternatives": [
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 3
+    },
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30143,
+    "name": "Rift Stalker Mantle",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 31006,
+     "name": "Gronnstalker's Spaulders",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 8
+    },
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 87
+   },
+   "alternatives": [
+    {
+     "itemId": 31004,
+     "name": "Gronnstalker's Chestguard",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29966,
+    "name": "Vambraces of Ending",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 30026,
+     "name": "Bands of the Celestial Archer",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30864,
+     "name": "Bracers of the Pathfinder",
+     "usagePct": 5
+    },
+    {
+     "itemId": 32324,
+     "name": "Insidious Bands",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30140,
+    "name": "Rift Stalker Gauntlets",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 31001,
+     "name": "Gronnstalker's Gloves",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28506,
+     "name": "Gloves of Dexterous Manipulation",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 30879,
+     "name": "Don Alejandro's Money Belt",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 29995,
+     "name": "Leggings of Murderous Intent",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29985,
+     "name": "Void Reaver Greaves",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30900,
+     "name": "Bow-Stitched Leggings",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30104,
+    "name": "Cobra-Lash Boots",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 24
+    },
+    {
+     "itemId": 32366,
+     "name": "Shadowmaster's Boots",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 29299,
+     "name": "Band of Eternity",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29300,
+     "name": "Band of Eternity",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 29299,
+     "name": "Band of Eternity",
+     "usagePct": 21
+    },
+    {
+     "itemId": 29300,
+     "name": "Band of Eternity",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29301,
+     "name": "Band of the Eternal Champion",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 25
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 12
+    },
+    {
+     "itemId": 23206,
+     "name": "Mark of the Champion",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 28
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29924,
+    "name": "Netherbane",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 27846,
+     "name": "Claw of the Watcher",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 15
+    },
+    {
+     "itemId": 32944,
+     "name": "Talon of the Phoenix",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29948,
+    "name": "Claw of the Phoenix",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "usagePct": 20
+    },
+    {
+     "itemId": 32945,
+     "name": "Fist of Molten Fury",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30881,
+     "name": "Blade of Infamy",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30105,
+    "name": "Serpent Spine Longbow",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 30906,
+     "name": "Bristleblitz Striker",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32336,
+     "name": "Black Bow of the Betrayer",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 11
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Survival Hunter Phase 3 BiS come from?",
+   "answer": "From the gear worn by 240 top-ranked Survival Hunter DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Survival Hunter items in Phase 3?",
+   "answer": "Telonicus' Pendant of Mayhem (87%), Rift Stalker Hauberk (87%), Rift Stalker Helm (82%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

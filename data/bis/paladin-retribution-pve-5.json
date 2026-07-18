@@ -1,0 +1,361 @@
+{
+ "class": "paladin",
+ "spec": "retribution",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 207,
+ "updatedAt": "2026-05-22",
+ "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 5 snapshot aggregates 207 top DPS parses from Sunwell Plateau; the highest-consensus pick is Lightbringer Bands at 94% usage.",
+ "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Attack Power"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34244,
+    "name": "Duplicitous Guise",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 34333,
+     "name": "Coif of Alleria",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34345,
+     "name": "Crown of Anasterian",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34354,
+     "name": "Mayhem Projection Goggles",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34177,
+    "name": "Clutch of Demise",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 34358,
+     "name": "Hard Khorium Choker",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34679,
+     "name": "Shattered Sun Pendant of Might",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 34388,
+    "name": "Pauldrons of Berserking",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 34392,
+     "name": "Demontooth Shoulderpads",
+     "usagePct": 37
+    },
+    {
+     "itemId": 34194,
+     "name": "Mantle of the Golden Forest",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34241,
+    "name": "Cloak of Unforgivable Sin",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 20
+    },
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34215,
+    "name": "Warharness of Reckless Fury",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 34397,
+     "name": "Bladed Chaos Tunic",
+     "usagePct": 16
+    },
+    {
+     "itemId": 34377,
+     "name": "Hard Khorium Battleplate",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30905,
+     "name": "Midnight Chestguard",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34431,
+    "name": "Lightbringer Bands",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34370,
+    "name": "Gloves of Immortal Dusk",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 34343,
+     "name": "Thalassian Ranger Gauntlets",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34341,
+     "name": "Borderland Paingrips",
+     "usagePct": 6
+    },
+    {
+     "itemId": 34378,
+     "name": "Hard Khorium Battlefists",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34485,
+    "name": "Lightbringer Girdle",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34180,
+    "name": "Felfury Legplates",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 34188,
+     "name": "Leggings of the Immortal Night",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30900,
+     "name": "Bow-Stitched Leggings",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34168,
+     "name": "Starstalker Legguards",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34561,
+    "name": "Lightbringer Boots",
+    "usagePct": 92
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34361,
+    "name": "Hard Khorium Band",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 20
+    },
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34361,
+    "name": "Hard Khorium Band",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 21
+    },
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 34472,
+    "name": "Shard of Contempt",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 25
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 34472,
+     "name": "Shard of Contempt",
+     "usagePct": 32
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34247,
+    "name": "Apolyon, the Soul-Render",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 32332,
+     "name": "Torch of the Damned",
+     "usagePct": 10
+    },
+    {
+     "itemId": 34183,
+     "name": "Shivering Felspine",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27484,
+    "name": "Libram of Avengement",
+    "usagePct": 94
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Retribution Paladin Phase 5 BiS come from?",
+   "answer": "From the gear worn by 207 top-ranked Retribution Paladin DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Retribution Paladin items in Phase 5?",
+   "answer": "Lightbringer Bands (94%), Lightbringer Girdle (94%), Libram of Avengement (94%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

@@ -1,0 +1,450 @@
+{
+ "class": "paladin",
+ "spec": "holy",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 235,
+ "updatedAt": "2026-05-22",
+ "blurb": "Holy Paladin is the tank-healing anchor of TBC raids: massive, mana-efficient Holy Lights aimed at one target while beacon-less single-target triage decides progression pulls. Gear is +healing and crit first — Illumination turns every crit into free mana. This Phase 5 snapshot aggregates 235 top healing parses from Sunwell Plateau; the highest-consensus pick is Lightbringer Belt at 79% usage.",
+ "statPriorityRationale": "Illumination refunds mana on crits, making crit rating a regen stat — holy paladins uniquely value it alongside intellect, and raw +healing scales the Holy Light bombs that define the role.",
+ "statPriority": [
+  "Bonus Healing",
+  "Intellect",
+  "Crit Rating",
+  "MP5",
+  "Haste"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34243,
+    "name": "Helm of Burning Righteousness",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 30988,
+     "name": "Lightbringer Greathelm",
+     "usagePct": 31
+    },
+    {
+     "itemId": 34332,
+     "name": "Cowl of Gul'dan",
+     "usagePct": 10
+    },
+    {
+     "itemId": 35185,
+     "name": "Justicebringer 3000 Specs",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 32370,
+    "name": "Nadina's Pendant of Purity",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 33281,
+     "name": "Brooch of Nature's Mercy",
+     "usagePct": 26
+    },
+    {
+     "itemId": 34360,
+     "name": "Amulet of Flowing Life",
+     "usagePct": 13
+    },
+    {
+     "itemId": 34184,
+     "name": "Brooch of the Highborne",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 34193,
+    "name": "Spaulders of the Thalassian Savior",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 30996,
+     "name": "Lightbringer Pauldrons",
+     "usagePct": 27
+    },
+    {
+     "itemId": 34390,
+     "name": "Erupting Epaulets",
+     "usagePct": 15
+    },
+    {
+     "itemId": 34208,
+     "name": "Equilibrium Epaulets",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32524,
+    "name": "Shroud of the Highborne",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 34205,
+     "name": "Shroud of Redeemed Souls",
+     "usagePct": 15
+    },
+    {
+     "itemId": 34012,
+     "name": "Shroud of the Final Stand",
+     "usagePct": 11
+    },
+    {
+     "itemId": 33592,
+     "name": "Cloak of Ancient Rituals",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30992,
+    "name": "Lightbringer Chestpiece",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 34395,
+     "name": "Noble Judicator's Chestguard",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34396,
+     "name": "Garments of Crashing Shores",
+     "usagePct": 17
+    },
+    {
+     "itemId": 34229,
+     "name": "Garments of Serene Shores",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34432,
+    "name": "Lightbringer Bracers",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 30862,
+     "name": "Blessed Adamantite Bracers",
+     "usagePct": 17
+    },
+    {
+     "itemId": 32571,
+     "name": "Dawnsteel Bracers",
+     "usagePct": 12
+    },
+    {
+     "itemId": 32584,
+     "name": "Swiftheal Wraps",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34240,
+    "name": "Gauntlets of the Soothed Soul",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 34380,
+     "name": "Sunblessed Gauntlets",
+     "usagePct": 26
+    },
+    {
+     "itemId": 34350,
+     "name": "Gauntlets of the Ancient Shadowmoon",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30112,
+     "name": "Glorious Gauntlets of Crestfall",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34487,
+    "name": "Lightbringer Belt",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 30897,
+     "name": "Girdle of Hope",
+     "usagePct": 9
+    },
+    {
+     "itemId": 32512,
+     "name": "Girdle of Lordaeron's Fallen",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30994,
+    "name": "Lightbringer Leggings",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 34167,
+     "name": "Legplates of the Holy Juggernaut",
+     "usagePct": 29
+    },
+    {
+     "itemId": 34186,
+     "name": "Chain Links of the Tumultuous Storm",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34383,
+     "name": "Kilt of Spiritual Reconstruction",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34559,
+    "name": "Lightbringer Treads",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 32243,
+     "name": "Pearl Inlaid Boots",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30027,
+     "name": "Boots of Courage Unending",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 25
+    },
+    {
+     "itemId": 32238,
+     "name": "Ring of Calming Waves",
+     "usagePct": 15
+    },
+    {
+     "itemId": 34166,
+     "name": "Band of Lucent Beams",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 26
+    },
+    {
+     "itemId": 32238,
+     "name": "Ring of Calming Waves",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29309,
+     "name": "Band of the Eternal Restorer",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28727,
+    "name": "Pendant of the Violet Eye",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 35750,
+     "name": "Redeemer's Alchemist Stone",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 35750,
+    "name": "Redeemer's Alchemist Stone",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28727,
+     "name": "Pendant of the Violet Eye",
+     "usagePct": 17
+    },
+    {
+     "itemId": 13503,
+     "name": "Alchemist Stone",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34335,
+    "name": "Hammer of Sanctification",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 32500,
+     "name": "Crystal Spire of Karabor",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34199,
+     "name": "Archon's Gavel",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30918,
+     "name": "Hammer of Atonement",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32255,
+    "name": "Felstone Bulwark",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 34206,
+     "name": "Book of Highborne Hymns",
+     "usagePct": 10
+    },
+    {
+     "itemId": 34231,
+     "name": "Aegis of Angelic Fortune",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30882,
+     "name": "Bastion of Light",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30063,
+    "name": "Libram of Absolute Truth",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 28592,
+     "name": "Libram of Souls Redeemed",
+     "usagePct": 30
+    },
+    {
+     "itemId": 33502,
+     "name": "Libram of Mending",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28296,
+     "name": "Libram of the Lightbringer",
+     "usagePct": 3
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Holy Paladin Phase 5 BiS come from?",
+   "answer": "From the gear worn by 235 top-ranked Holy Paladin healing parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Holy Paladin items in Phase 5?",
+   "answer": "Lightbringer Belt (79%), Lightbringer Treads (79%), Felstone Bulwark (68%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

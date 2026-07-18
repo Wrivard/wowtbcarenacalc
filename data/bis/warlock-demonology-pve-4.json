@@ -1,0 +1,429 @@
+{
+ "class": "warlock",
+ "spec": "demonology",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 243,
+ "updatedAt": "2026-05-22",
+ "blurb": "Demonology Warlock raids for Demonic Knowledge scaling and flexibility: felguard out for personal damage or sacrificed for the shadow bonus depending on the fight. It is the bridge build — competitive numbers plus the option to soulstone-battery utility roles no pure spec covers. This Phase 4 snapshot aggregates 243 top DPS parses from Zul'Aman; the highest-consensus pick is Bracers of Nimble Thought at 91% usage.",
+ "statPriorityRationale": "Demonic Sacrifice or felguard uptime defines the build's math; either way your spell damage carries a pet multiplier, and Demonic Knowledge converts stamina and intellect into damage — the only DPS caster that scales off stamina.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Shadow Damage",
+  "Stamina",
+  "Intellect",
+  "Spell Crit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31051,
+    "name": "Hood of the Malefic",
+    "usagePct": 77
+   },
+   "alternatives": [
+    {
+     "itemId": 30212,
+     "name": "Hood of the Corruptor",
+     "usagePct": 15
+    },
+    {
+     "itemId": 32525,
+     "name": "Cowl of the Illidari High Lord",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 33466,
+     "name": "Loop of Cursed Bones",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32349,
+     "name": "Translucent Spellthread Necklace",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33281,
+     "name": "Brooch of Nature's Mercy",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31054,
+    "name": "Mantle of the Malefic",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 30215,
+     "name": "Mantle of the Corruptor",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28967,
+     "name": "Voidheart Mantle",
+     "usagePct": 5
+    },
+    {
+     "itemId": 32587,
+     "name": "Mantle of Nimble Thought",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32590,
+    "name": "Nethervoid Cloak",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 32331,
+     "name": "Cloak of the Illidari Council",
+     "usagePct": 12
+    },
+    {
+     "itemId": 32524,
+     "name": "Shroud of the Highborne",
+     "usagePct": 12
+    },
+    {
+     "itemId": 33591,
+     "name": "Shadowcaster's Drape",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30107,
+    "name": "Vestments of the Sea-Witch",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 31052,
+     "name": "Robe of the Malefic",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30214,
+     "name": "Robe of the Corruptor",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30913,
+     "name": "Robes of Rhonin",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32586,
+    "name": "Bracers of Nimble Thought",
+    "usagePct": 91
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31050,
+    "name": "Gloves of the Malefic",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 30211,
+     "name": "Gloves of the Corruptor",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28968,
+     "name": "Voidheart Gloves",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 32256,
+     "name": "Waistwrap of Infinity",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30888,
+     "name": "Anetheron's Noose",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30064,
+     "name": "Cord of Screaming Terrors",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31053,
+    "name": "Leggings of the Malefic",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 30213,
+     "name": "Leggings of the Corruptor",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30916,
+     "name": "Leggings of Channeled Elements",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30037,
+    "name": "Boots of Blasting",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 32239,
+     "name": "Slippers of the Seacaller",
+     "usagePct": 26
+    },
+    {
+     "itemId": 33357,
+     "name": "Footpads of Madness",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30050,
+     "name": "Boots of the Shifting Nightmare",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29305,
+    "name": "Band of the Eternal Sage",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 22
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30109,
+     "name": "Ring of Endless Coils",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29305,
+    "name": "Band of the Eternal Sage",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 32
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30109,
+     "name": "Ring of Endless Coils",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 32483,
+    "name": "The Skull of Gul'dan",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 21
+    },
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 32483,
+     "name": "The Skull of Gul'dan",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32374,
+    "name": "Zhar'doom, Greatstaff of the Devourer",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30910,
+     "name": "Tempest of Chaos",
+     "usagePct": 16
+    },
+    {
+     "itemId": 33467,
+     "name": "Blade of Twisted Visions",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33334,
+    "name": "Fetish of the Primal Gods",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 30872,
+     "name": "Chronicle of Dark Secrets",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29982,
+    "name": "Wand of the Forgotten Star",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 33192,
+     "name": "Carved Witch Doctor's Stick",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "usagePct": 5
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Demonology Warlock Phase 4 BiS come from?",
+   "answer": "From the gear worn by 243 top-ranked Demonology Warlock DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Demonology Warlock items in Phase 4?",
+   "answer": "Bracers of Nimble Thought (91%), Gloves of the Malefic (79%), Hood of the Malefic (77%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

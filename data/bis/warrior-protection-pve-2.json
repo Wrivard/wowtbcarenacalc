@@ -1,0 +1,455 @@
+{
+ "class": "warrior",
+ "spec": "protection",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 251,
+ "updatedAt": "2026-05-22",
+ "blurb": "Protection Warrior is the classic main tank: Shield Slam and Devastate threat, Shield Block smoothing crushes, the full toolkit of last stands and shield walls. The list prioritizes the defense cap, then converts shield block value into both threat and survival at once. This Phase 2 snapshot aggregates 251 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Dragonstrike at 65% usage.",
+ "statPriorityRationale": "Uncrittable at 490 defense is non-negotiable; after that, shield block value doubles as threat (Shield Slam) and mitigation, which is why prot warriors gear block value where druids would stack armor.",
+ "statPriority": [
+  "Defense (490)",
+  "Shield Block Value",
+  "Stamina",
+  "Hit Rating",
+  "Expertise"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32461,
+    "name": "Furious Gizmatic Goggles",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 30115,
+     "name": "Destroyer Greathelm",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32473,
+     "name": "Tankatronic Goggles",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30488,
+     "name": "Merciless Gladiator's Plate Helm",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 30022,
+     "name": "Pendant of the Perilous",
+     "usagePct": 20
+    },
+    {
+     "itemId": 30099,
+     "name": "Frayed Tether of the Drowned",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30117,
+    "name": "Destroyer Shoulderguards",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 30122,
+     "name": "Destroyer Shoulderblades",
+     "usagePct": 16
+    },
+    {
+     "itemId": 24546,
+     "name": "Gladiator's Plate Shoulders",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30053,
+     "name": "Pauldrons of the Wardancer",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28529,
+    "name": "Royal Cloak of Arathi Kings",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30113,
+    "name": "Destroyer Chestguard",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 24544,
+     "name": "Gladiator's Plate Chestpiece",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30486,
+     "name": "Merciless Gladiator's Plate Chestpiece",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30102,
+     "name": "Krakken-Heart Breastplate",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32818,
+    "name": "Veteran's Plate Bracers",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29463,
+     "name": "Amber Bands of the Aggressor",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29947,
+    "name": "Gloves of the Searing Grip",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30114,
+     "name": "Destroyer Handguards",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28824,
+     "name": "Gauntlets of Martial Perfection",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32805,
+    "name": "Veteran's Plate Belt",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30116,
+    "name": "Destroyer Legguards",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29950,
+     "name": "Greaves of the Bloodwarder",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30489,
+     "name": "Merciless Gladiator's Plate Legguards",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30121,
+     "name": "Destroyer Greaves",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32793,
+    "name": "Veteran's Plate Greaves",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 28608,
+     "name": "Ironstriders of Urgency",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28747,
+     "name": "Battlescar Boots",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 24
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28439,
+    "name": "Dragonstrike",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 30058,
+     "name": "Mallet of the Tides",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30103,
+    "name": "Fang of Vashj",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 28825,
+     "name": "Aldori Legacy Defender",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28749,
+     "name": "King's Defender",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30025,
+    "name": "Serpentshrine Shuriken",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 32054,
+     "name": "Merciless Gladiator's War Edge",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28319,
+     "name": "Gladiator's War Edge",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Protection Warrior Phase 2 BiS come from?",
+   "answer": "From the gear worn by 251 top-ranked Protection Warrior DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Protection Warrior items in Phase 2?",
+   "answer": "Dragonstrike (65%), Serpentshrine Shuriken (64%), Veteran's Plate Greaves (59%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

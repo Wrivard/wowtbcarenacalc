@@ -1,0 +1,410 @@
+{
+ "class": "druid",
+ "spec": "balance",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 284,
+ "updatedAt": "2026-05-22",
+ "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 3 snapshot aggregates 284 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Nordrassil Wrath-Mantle at 89% usage.",
+ "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "Spirit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30233,
+    "name": "Nordrassil Headpiece",
+    "usagePct": 87
+   },
+   "alternatives": [
+    {
+     "itemId": 31040,
+     "name": "Thunderheart Headguard",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 13
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30235,
+    "name": "Nordrassil Wrath-Mantle",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 31049,
+     "name": "Thunderheart Shoulderpads",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30231,
+    "name": "Nordrassil Chestpiece",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 16
+    },
+    {
+     "itemId": 31043,
+     "name": "Thunderheart Vest",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32586,
+    "name": "Bracers of Nimble Thought",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 22
+    },
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29523,
+     "name": "Windhawk Bracers",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30232,
+    "name": "Nordrassil Gauntlets",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 31035,
+     "name": "Thunderheart Handguards",
+     "usagePct": 6
+    },
+    {
+     "itemId": 21847,
+     "name": "Spellfire Gloves",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 30914,
+     "name": "Belt of the Crescent Moon",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30234,
+    "name": "Nordrassil Wrath-Kilt",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30916,
+     "name": "Leggings of Channeled Elements",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30734,
+     "name": "Leggings of the Seventh Circle",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30037,
+    "name": "Boots of Blasting",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 30067,
+     "name": "Velvet Boots of the Guardian",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 12
+    },
+    {
+     "itemId": 32352,
+     "name": "Naturewarden's Treads",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28753,
+    "name": "Ring of Recurrence",
+    "usagePct": 22
+   },
+   "alternatives": [
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29303,
+     "name": "Band of Eternity",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29304,
+     "name": "Band of Eternity",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29303,
+    "name": "Band of Eternity",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29304,
+     "name": "Band of Eternity",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 24
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 32
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29988,
+    "name": "The Nexus Key",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34009,
+     "name": "Hammer of Judgment",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32374,
+     "name": "Zhar'doom, Greatstaff of the Devourer",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29271,
+    "name": "Talisman of Kalecgos",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30872,
+     "name": "Chronicle of Dark Secrets",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32387,
+    "name": "Idol of the Raven Goddess",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 27518,
+     "name": "Ivory Idol of the Moongoddess",
+     "usagePct": 30
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Balance Druid Phase 3 BiS come from?",
+   "answer": "From the gear worn by 284 top-ranked Balance Druid DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Balance Druid items in Phase 3?",
+   "answer": "Nordrassil Wrath-Mantle (89%), Belt of Blasting (89%), Nordrassil Headpiece (87%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

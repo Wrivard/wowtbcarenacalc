@@ -1,0 +1,404 @@
+{
+ "class": "rogue",
+ "spec": "assassination",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 242,
+ "updatedAt": "2026-05-22",
+ "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 4 snapshot aggregates 242 top DPS parses from Zul'Aman; the highest-consensus pick is Slayer's Handguards at 94% usage.",
+ "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Agility",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31027,
+    "name": "Slayer's Helm",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30146,
+     "name": "Deathmantle Helm",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 32260,
+    "name": "Choker of Endless Nightmares",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 8
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31030,
+    "name": "Slayer's Shoulderpads",
+    "usagePct": 93
+   },
+   "alternatives": [
+    {
+     "itemId": 30149,
+     "name": "Deathmantle Shoulderpads",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 31
+    },
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31028,
+    "name": "Slayer's Chestguard",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 30101,
+     "name": "Bloodsea Brigand's Vest",
+     "usagePct": 3
+    },
+    {
+     "itemId": 30144,
+     "name": "Deathmantle Chestguard",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32324,
+    "name": "Insidious Bands",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 32580,
+     "name": "Swiftstrike Bracers",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30863,
+     "name": "Deadly Cuffs",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31026,
+    "name": "Slayer's Handguards",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 37
+    },
+    {
+     "itemId": 32265,
+     "name": "Shadow-Walker's Cord",
+     "usagePct": 6
+    },
+    {
+     "itemId": 30879,
+     "name": "Don Alejandro's Money Belt",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31029,
+    "name": "Slayer's Legguards",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 30148,
+     "name": "Deathmantle Legguards",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30898,
+     "name": "Shady Dealer's Pantaloons",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 33222,
+    "name": "Nyn'jah's Tabi Boots",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 32366,
+     "name": "Shadowmaster's Boots",
+     "usagePct": 40
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30891,
+     "name": "Black Featherlight Boots",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 20
+    },
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 18
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 23
+    },
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32266,
+     "name": "Ring of Deceitful Intent",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 27
+    },
+    {
+     "itemId": 32492,
+     "name": "Ashtongue Talisman of Lethality",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 34
+    },
+    {
+     "itemId": 32492,
+     "name": "Ashtongue Talisman of Lethality",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32471,
+    "name": "Shard of Azzinoth",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 30103,
+     "name": "Fang of Vashj",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30103,
+    "name": "Fang of Vashj",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 30901,
+     "name": "Boundless Agony",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29962,
+     "name": "Heartrazor",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30865,
+     "name": "Tracker's Blade",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 32326,
+     "name": "Twisted Blades of Zarak",
+     "usagePct": 7
+    },
+    {
+     "itemId": 33474,
+     "name": "Ancient Amani Longbow",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 3
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Assassination Rogue Phase 4 BiS come from?",
+   "answer": "From the gear worn by 242 top-ranked Assassination Rogue DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Assassination Rogue items in Phase 4?",
+   "answer": "Slayer's Handguards (94%), Slayer's Shoulderpads (93%), Slayer's Chestguard (89%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

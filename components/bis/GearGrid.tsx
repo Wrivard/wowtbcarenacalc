@@ -14,6 +14,10 @@ import { cn } from "@/lib/utils";
 const SLOT_LABEL: Record<string, string> = {
   MainHand: "Main Hand",
   OffHand: "Off Hand",
+  Ring1: "Ring 1",
+  Ring2: "Ring 2",
+  Trinket1: "Trinket 1",
+  Trinket2: "Trinket 2",
 };
 
 export function GearGrid({ slots, specKey }: { slots: BisSlot[]; specKey: string }) {

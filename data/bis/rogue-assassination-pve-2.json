@@ -1,0 +1,430 @@
+{
+ "class": "rogue",
+ "spec": "assassination",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 169,
+ "updatedAt": "2026-05-22",
+ "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 2 snapshot aggregates 169 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Edgewalker Longboots at 89% usage.",
+ "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Agility",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30146,
+    "name": "Deathmantle Helm",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 32478,
+     "name": "Deathblow X11 Goggles",
+     "usagePct": 28
+    },
+    {
+     "itemId": 29044,
+     "name": "Netherblade Facemask",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 12
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30149,
+    "name": "Deathmantle Shoulderpads",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 30055,
+     "name": "Shoulderpads of the Stranger",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29047,
+     "name": "Netherblade Shoulderpads",
+     "usagePct": 7
+    },
+    {
+     "itemId": 27797,
+     "name": "Wastewalker Shoulderpads",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 11
+    },
+    {
+     "itemId": 35495,
+     "name": "The Frost Lord's War Cloak",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30101,
+    "name": "Bloodsea Brigand's Vest",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 30144,
+     "name": "Deathmantle Chestguard",
+     "usagePct": 30
+    },
+    {
+     "itemId": 29045,
+     "name": "Netherblade Chestpiece",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28601,
+     "name": "Chestguard of the Conniver",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29966,
+    "name": "Vambraces of Ending",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 29246,
+     "name": "Nightfall Wristguards",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28514,
+     "name": "Bracers of Maliciousness",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28171,
+     "name": "Spymistress' Wristguards",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30145,
+    "name": "Deathmantle Handguards",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 27531,
+     "name": "Wastewalker Gloves",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29048,
+     "name": "Netherblade Gloves",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29247,
+     "name": "Girdle of the Deathdealer",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28750,
+     "name": "Girdle of Treachery",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30148,
+    "name": "Deathmantle Legguards",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29046,
+     "name": "Netherblade Breeches",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 30039,
+     "name": "Boots of Utter Darkness",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28649,
+    "name": "Garona's Signet Ring",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 28
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 23
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 28
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 15
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30103,
+    "name": "Fang of Vashj",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 29962,
+     "name": "Heartrazor",
+     "usagePct": 36
+    },
+    {
+     "itemId": 28768,
+     "name": "Malchazeen",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29962,
+    "name": "Heartrazor",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 28768,
+     "name": "Malchazeen",
+     "usagePct": 30
+    },
+    {
+     "itemId": 30103,
+     "name": "Fang of Vashj",
+     "usagePct": 16
+    },
+    {
+     "itemId": 37597,
+     "name": "Direbrew's Shanker",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29152,
+     "name": "Marksman's Bow",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Assassination Rogue Phase 2 BiS come from?",
+   "answer": "From the gear worn by 169 top-ranked Assassination Rogue DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Assassination Rogue items in Phase 2?",
+   "answer": "Edgewalker Longboots (89%), Deathmantle Handguards (81%), Drape of the Dark Reavers (79%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

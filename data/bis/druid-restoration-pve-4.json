@@ -1,0 +1,425 @@
+{
+ "class": "druid",
+ "spec": "restoration",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 329,
+ "updatedAt": "2026-05-22",
+ "blurb": "Restoration Druid is TBC's tank-HoT machine: triple-stacked Lifeblooms rolling on two tanks, Rejuvenation blanketing the raid, Swiftmend saves in between. Tree of Life turns your gear into the group's throughput — the phase lists below stack the +healing and spirit that aura wants. This Phase 4 snapshot aggregates 329 top healing parses from Zul'Aman; the highest-consensus pick is Botanist's Gloves of Growth at 70% usage.",
+ "statPriorityRationale": "Lifebloom stacks tick off +healing with absurd coefficient efficiency, and the Tree of Life aura converts your spirit into the whole party's healing — two reasons resto druids gear differently from every other healer.",
+ "statPriority": [
+  "Bonus Healing",
+  "Spirit",
+  "Intellect",
+  "MP5",
+  "Haste"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31037,
+    "name": "Thunderheart Helmet",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 30219,
+     "name": "Nordrassil Headguard",
+     "usagePct": 26
+    },
+    {
+     "itemId": 32329,
+     "name": "Cowl of Benevolence",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30018,
+    "name": "Lord Sanguinar's Claim",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 33281,
+     "name": "Brooch of Nature's Mercy",
+     "usagePct": 33
+    },
+    {
+     "itemId": 32370,
+     "name": "Nadina's Pendant of Purity",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31047,
+    "name": "Thunderheart Spaulders",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 30221,
+     "name": "Nordrassil Life-Mantle",
+     "usagePct": 31
+    },
+    {
+     "itemId": 32585,
+     "name": "Swiftheal Mantle",
+     "usagePct": 6
+    },
+    {
+     "itemId": 32583,
+     "name": "Shoulderpads of Renewed Life",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29989,
+    "name": "Sunshower Light Cloak",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 32524,
+     "name": "Shroud of the Highborne",
+     "usagePct": 34
+    },
+    {
+     "itemId": 32337,
+     "name": "Shroud of Forgiveness",
+     "usagePct": 16
+    },
+    {
+     "itemId": 33592,
+     "name": "Cloak of Ancient Rituals",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31041,
+    "name": "Thunderheart Tunic",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 30216,
+     "name": "Nordrassil Chestguard",
+     "usagePct": 31
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32584,
+    "name": "Swiftheal Wraps",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 32582,
+     "name": "Bracers of Renewed Life",
+     "usagePct": 34
+    },
+    {
+     "itemId": 30868,
+     "name": "Rejuvenating Bracers",
+     "usagePct": 20
+    },
+    {
+     "itemId": 30871,
+     "name": "Bracers of Martyrdom",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32328,
+    "name": "Botanist's Gloves of Growth",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 31032,
+     "name": "Thunderheart Gloves",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30217,
+     "name": "Nordrassil Gloves",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32339,
+    "name": "Belt of Primal Majesty",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 30895,
+     "name": "Angelista's Sash",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29984,
+     "name": "Girdle of Zaetar",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32519,
+     "name": "Belt of Divine Guidance",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30912,
+    "name": "Leggings of Eternity",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 30220,
+     "name": "Nordrassil Life-Kilt",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32271,
+     "name": "Kilt of Immortal Nature",
+     "usagePct": 20
+    },
+    {
+     "itemId": 31045,
+     "name": "Thunderheart Legguards",
+     "usagePct": 19
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32609,
+    "name": "Boots of the Divine Light",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 30092,
+     "name": "Orca-Hide Boots",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30886,
+     "name": "Enchanted Leather Sandals",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 29309,
+     "name": "Band of the Eternal Restorer",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 18
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 29309,
+     "name": "Band of the Eternal Restorer",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 17
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 38288,
+     "name": "Direbrew Hops",
+     "usagePct": 28
+    },
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 10
+    },
+    {
+     "itemId": 19288,
+     "name": "Darkmoon Card: Blue Dragon",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 38288,
+     "name": "Direbrew Hops",
+     "usagePct": 26
+    },
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 21
+    },
+    {
+     "itemId": 19288,
+     "name": "Darkmoon Card: Blue Dragon",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32500,
+    "name": "Crystal Spire of Karabor",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "usagePct": 24
+    },
+    {
+     "itemId": 33468,
+     "name": "Dark Blessing",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30908,
+     "name": "Apostle of Argus",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30911,
+    "name": "Scepter of Purification",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 32350,
+     "name": "Touch of Inspiration",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29170,
+     "name": "Windcaller's Orb",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29274,
+     "name": "Tears of Heaven",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27886,
+    "name": "Idol of the Emerald Queen",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 30051,
+     "name": "Idol of the Crescent Goddess",
+     "usagePct": 38
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Restoration Druid Phase 4 BiS come from?",
+   "answer": "From the gear worn by 329 top-ranked Restoration Druid healing parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Restoration Druid items in Phase 4?",
+   "answer": "Botanist's Gloves of Growth (70%), Thunderheart Helmet (67%), Thunderheart Tunic (65%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

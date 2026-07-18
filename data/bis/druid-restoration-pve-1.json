@@ -1,0 +1,439 @@
+{
+ "class": "druid",
+ "spec": "restoration",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 359,
+ "updatedAt": "2026-05-22",
+ "blurb": "Restoration Druid is TBC's tank-HoT machine: triple-stacked Lifeblooms rolling on two tanks, Rejuvenation blanketing the raid, Swiftmend saves in between. Tree of Life turns your gear into the group's throughput — the phase lists below stack the +healing and spirit that aura wants. This Phase 1 snapshot aggregates 359 top healing parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Idol of the Emerald Queen at 94% usage.",
+ "statPriorityRationale": "Lifebloom stacks tick off +healing with absurd coefficient efficiency, and the Tree of Life aura converts your spirit into the whole party's healing — two reasons resto druids gear differently from every other healer.",
+ "statPriority": [
+  "Bonus Healing",
+  "Spirit",
+  "Intellect",
+  "MP5",
+  "Haste"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29086,
+    "name": "Crown of Malorne",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28803,
+     "name": "Cowl of Nature's Breath",
+     "usagePct": 13
+    },
+    {
+     "itemId": 24264,
+     "name": "Whitemend Hood",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28756,
+     "name": "Headdress of the High Potentate",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28731,
+    "name": "Shining Chain of the Afterworld",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29374,
+     "name": "Necklace of Eternal Hope",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 21874,
+    "name": "Primal Mooncloth Shoulders",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 29089,
+     "name": "Shoulderguards of Malorne",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28647,
+     "name": "Forest Wind Shoulderpads",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28612,
+     "name": "Pauldrons of the Solace-Giver",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 28582,
+     "name": "Red Riding Hood's Cloak",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29354,
+     "name": "Light-Touched Stole of Altruism",
+     "usagePct": 8
+    },
+    {
+     "itemId": 27946,
+     "name": "Avian Cloak of Feathers",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 21875,
+    "name": "Primal Mooncloth Robe",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 29087,
+     "name": "Chestguard of Malorne",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28600,
+     "name": "Stonebough Jerkin",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28578,
+     "name": "Masquerade Gown",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28511,
+    "name": "Bands of Indwelling",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29183,
+     "name": "Bindings of the Timewalker",
+     "usagePct": 28
+    },
+    {
+     "itemId": 29249,
+     "name": "Bands of the Benevolent",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29523,
+     "name": "Windhawk Bracers",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28521,
+    "name": "Mitts of the Treemender",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 29090,
+     "name": "Handguards of Malorne",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28508,
+     "name": "Gloves of Saintly Blessings",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 21873,
+    "name": "Primal Mooncloth Belt",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 28655,
+     "name": "Cord of Nature's Sustenance",
+     "usagePct": 33
+    },
+    {
+     "itemId": 29524,
+     "name": "Windhawk Belt",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28652,
+     "name": "Cincture of Will",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 28591,
+    "name": "Earthsoul Leggings",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 24261,
+     "name": "Whitemend Pants",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29088,
+     "name": "Legguards of Malorne",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28742,
+     "name": "Pantaloons of Repentance",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28752,
+    "name": "Forestlord Striders",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 28663,
+     "name": "Boots of the Incorrupt",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29251,
+     "name": "Boots of the Pious",
+     "usagePct": 6
+    },
+    {
+     "itemId": 30737,
+     "name": "Gold-Leaf Wildboots",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28661,
+     "name": "Mender's Heart-Ring",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28661,
+     "name": "Mender's Heart-Ring",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30841,
+     "name": "Lower City Prayerbook",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 30841,
+     "name": "Lower City Prayerbook",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28771,
+    "name": "Light's Justice",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 28522,
+     "name": "Shard of the Virtuous",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28604,
+     "name": "Nightstaff of the Everliving",
+     "usagePct": 5
+    },
+    {
+     "itemId": 28782,
+     "name": "Crystalheart Pulse-Staff",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29170,
+    "name": "Windcaller's Orb",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29274,
+     "name": "Tears of Heaven",
+     "usagePct": 23
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28728,
+     "name": "Aran's Soothing Sapphire",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27886,
+    "name": "Idol of the Emerald Queen",
+    "usagePct": 94
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Restoration Druid Phase 1 BiS come from?",
+   "answer": "From the gear worn by 359 top-ranked Restoration Druid healing parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Restoration Druid items in Phase 1?",
+   "answer": "Idol of the Emerald Queen (94%), Forestlord Striders (69%), Mitts of the Treemender (67%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

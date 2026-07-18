@@ -1,0 +1,410 @@
+{
+ "class": "priest",
+ "spec": "holy",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 335,
+ "updatedAt": "2026-05-22",
+ "blurb": "Holy Priest is TBC's raid-healing workhorse: Circle of Healing spam on melee stacks, Prayer of Mending bouncing on cooldown, Renew weaving between. Throughput is never the problem — mana is, and this gear list is built around spirit regen as much as raw +healing. This Phase 4 snapshot aggregates 335 top healing parses from Zul'Aman; the highest-consensus pick is Boots of the Divine Light at 88% usage.",
+ "statPriorityRationale": "Circle of Healing costs nothing to aim and everything to sustain — spirit-based regen with Holy Concentration procs is what lets holy priests chain-cast through entire raid-damage phases.",
+ "statPriority": [
+  "Bonus Healing",
+  "Spirit",
+  "Intellect",
+  "MP5",
+  "Haste"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30152,
+    "name": "Cowl of the Avatar",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 31063,
+     "name": "Cowl of Absolution",
+     "usagePct": 43
+    },
+    {
+     "itemId": 32329,
+     "name": "Cowl of Benevolence",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33281,
+    "name": "Brooch of Nature's Mercy",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "usagePct": 32
+    },
+    {
+     "itemId": 32370,
+     "name": "Nadina's Pendant of Purity",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30154,
+    "name": "Mantle of the Avatar",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 31069,
+     "name": "Mantle of Absolution",
+     "usagePct": 36
+    },
+    {
+     "itemId": 32585,
+     "name": "Swiftheal Mantle",
+     "usagePct": 24
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32524,
+    "name": "Shroud of the Highborne",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 35
+    },
+    {
+     "itemId": 32337,
+     "name": "Shroud of Forgiveness",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33592,
+     "name": "Cloak of Ancient Rituals",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31066,
+    "name": "Vestments of Absolution",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 30150,
+     "name": "Vestments of the Avatar",
+     "usagePct": 44
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32584,
+    "name": "Swiftheal Wraps",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 30871,
+     "name": "Bracers of Martyrdom",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32513,
+     "name": "Wristbands of Divine Influence",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30151,
+    "name": "Gloves of the Avatar",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 31060,
+     "name": "Gloves of Absolution",
+     "usagePct": 46
+    },
+    {
+     "itemId": 32353,
+     "name": "Gloves of Unfailing Faith",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30895,
+    "name": "Angelista's Sash",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32519,
+     "name": "Belt of Divine Guidance",
+     "usagePct": 28
+    },
+    {
+     "itemId": 30036,
+     "name": "Belt of the Long Road",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30912,
+    "name": "Leggings of Eternity",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 30153,
+     "name": "Breeches of the Avatar",
+     "usagePct": 23
+    },
+    {
+     "itemId": 33585,
+     "name": "Achromic Trousers of the Naaru",
+     "usagePct": 12
+    },
+    {
+     "itemId": 31068,
+     "name": "Breeches of Absolution",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32609,
+    "name": "Boots of the Divine Light",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 30100,
+     "name": "Soul-Strider Boots",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29309,
+     "name": "Band of the Eternal Restorer",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 16
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 29309,
+     "name": "Band of the Eternal Restorer",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "usagePct": 17
+    },
+    {
+     "itemId": 38288,
+     "name": "Direbrew Hops",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28823,
+     "name": "Eye of Gruul",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28823,
+     "name": "Eye of Gruul",
+     "usagePct": 15
+    },
+    {
+     "itemId": 38288,
+     "name": "Direbrew Hops",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32500,
+    "name": "Crystal Spire of Karabor",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30908,
+     "name": "Apostle of Argus",
+     "usagePct": 4
+    },
+    {
+     "itemId": 32344,
+     "name": "Staff of Immaculate Recovery",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30911,
+    "name": "Scepter of Purification",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 32350,
+     "name": "Touch of Inspiration",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29923,
+     "name": "Talisman of the Sun King",
+     "usagePct": 9
+    },
+    {
+     "itemId": 33325,
+     "name": "Voodoo Shaker",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32363,
+    "name": "Naaru-Blessed Life Rod",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 30080,
+     "name": "Luminescent Rod of the Naaru",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28588,
+     "name": "Blue Diamond Witchwand",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Holy Priest Phase 4 BiS come from?",
+   "answer": "From the gear worn by 335 top-ranked Holy Priest healing parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Holy Priest items in Phase 4?",
+   "answer": "Boots of the Divine Light (88%), Swiftheal Wraps (72%), Naaru-Blessed Life Rod (71%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

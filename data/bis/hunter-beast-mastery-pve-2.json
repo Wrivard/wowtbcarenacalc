@@ -1,0 +1,405 @@
+{
+ "class": "hunter",
+ "spec": "beast-mastery",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 291,
+ "updatedAt": "2026-05-22",
+ "blurb": "Beast Mastery is the top hunter raid spec of TBC — Serpent's Swiftness haste feeds a relentless auto-shot/steady-shot rotation while the pet contributes a third of your damage. The 1:1.5 macro rhythm is the skill test; the gear below is what the best parsers actually wear doing it. This Phase 2 snapshot aggregates 291 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Belt of Deep Shadow at 93% usage.",
+ "statPriorityRationale": "BM's damage splits with the pet, but your auto-shot rotation still wants the 9% hit cap first; after that agility outscales raw AP through crit and Expose Weakness synergy in a typical raid comp.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Attack Power",
+  "Crit Rating",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30141,
+    "name": "Rift Stalker Helm",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 28275,
+     "name": "Beast Lord Helm",
+     "usagePct": 9
+    },
+    {
+     "itemId": 32474,
+     "name": "Surestrike Goggles v2.0",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus' Pendant of Mayhem",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30059,
+     "name": "Choker of Animalistic Fury",
+     "usagePct": 5
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30143,
+    "name": "Rift Stalker Mantle",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 27801,
+     "name": "Beast Lord Mantle",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 24259,
+    "name": "Vengeance Wrap",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 39
+    },
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 28228,
+     "name": "Beast Lord Cuirass",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30054,
+     "name": "Ranger-General's Chestguard",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 30026,
+    "name": "Bands of the Celestial Archer",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "usagePct": 31
+    },
+    {
+     "itemId": 29246,
+     "name": "Nightfall Wristguards",
+     "usagePct": 6
+    },
+    {
+     "itemId": 30091,
+     "name": "True-Aim Stalker Bands",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30140,
+    "name": "Rift Stalker Gauntlets",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 27474,
+     "name": "Beast Lord Handguards",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 93
+   },
+   "alternatives": [
+    {
+     "itemId": 30046,
+     "name": "Belt of the Black Eagle",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 29995,
+    "name": "Leggings of Murderous Intent",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 30142,
+     "name": "Rift Stalker Leggings",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29985,
+     "name": "Void Reaver Greaves",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30104,
+    "name": "Cobra-Lash Boots",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 36
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28746,
+     "name": "Fiend Slayer Boots",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 30
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 30
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 38
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 27846,
+    "name": "Claw of the Watcher",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 32944,
+     "name": "Talon of the Phoenix",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28584,
+     "name": "Big Bad Wolf's Paw",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28315,
+    "name": "Stormreaver Warblades",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 29948,
+     "name": "Claw of the Phoenix",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28572,
+     "name": "Blade of the Unrequited",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29372,
+     "name": "Void-Talon",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30105,
+    "name": "Serpent Spine Longbow",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 34
+    },
+    {
+     "itemId": 29949,
+     "name": "Arcanite Steam-Pistol",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Beast Mastery Hunter Phase 2 BiS come from?",
+   "answer": "From the gear worn by 291 top-ranked Beast Mastery Hunter DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Beast Mastery Hunter items in Phase 2?",
+   "answer": "Belt of Deep Shadow (93%), Rift Stalker Gauntlets (89%), Rift Stalker Mantle (88%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

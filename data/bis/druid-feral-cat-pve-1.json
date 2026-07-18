@@ -1,0 +1,388 @@
+{
+ "class": "druid",
+ "spec": "feral-cat",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 334,
+ "updatedAt": "2026-05-22",
+ "blurb": "Feral Cat is the highest-skill melee rotation in TBC: powershifting out of form every few seconds for Wolfshead energy, Mangle and Rip upkeep in between, and an instant off-tank switch nobody else offers. The phase lists double as your bear offset — one gear track, two jobs. This Phase 1 snapshot aggregates 334 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Wolfshead Helm at 95% usage.",
+ "statPriorityRationale": "Cat DPS is powershifting — burning mana into Wolfshead energy procs — so agility (crit + dodge for the bear set you also carry) edges strength, and the hit cap protects a rotation with zero rage-style resource insurance.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Strength",
+  "Expertise",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 8345,
+    "name": "Wolfshead Helm",
+    "usagePct": 95
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 28745,
+     "name": "Mithril Chain of Heroism",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 16
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29100,
+    "name": "Mantle of Malorne",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 28755,
+     "name": "Bladed Shoulderpads of the Merciless",
+     "usagePct": 8
+    },
+    {
+     "itemId": 27797,
+     "name": "Wastewalker Shoulderpads",
+     "usagePct": 7
+    },
+    {
+     "itemId": 27776,
+     "name": "Shoulderpads of Assassination",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 29
+    },
+    {
+     "itemId": 35495,
+     "name": "The Frost Lord's War Cloak",
+     "usagePct": 6
+    },
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29096,
+    "name": "Breastplate of Malorne",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28601,
+     "name": "Chestguard of the Conniver",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28204,
+     "name": "Tunic of Assassination",
+     "usagePct": 3
+    },
+    {
+     "itemId": 29525,
+     "name": "Primalstrike Vest",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29246,
+    "name": "Nightfall Wristguards",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 28514,
+     "name": "Bracers of Maliciousness",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28171,
+     "name": "Spymistress' Wristguards",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29527,
+     "name": "Primalstrike Bracers",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28506,
+    "name": "Gloves of Dexterous Manipulation",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29097,
+     "name": "Gauntlets of Malorne",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28750,
+    "name": "Girdle of Treachery",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 29247,
+     "name": "Girdle of the Deathdealer",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28828,
+     "name": "Gronn-Stitched Girdle",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29264,
+     "name": "Tree-Mender's Belt",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 28741,
+    "name": "Skulker's Greaves",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 31544,
+     "name": "Clefthoof Hide Leggings",
+     "usagePct": 28
+    },
+    {
+     "itemId": 29099,
+     "name": "Greaves of Malorne",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30538,
+     "name": "Midnight Legguards",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 30674,
+     "name": "Zierhut's Lost Treads",
+     "usagePct": 24
+    },
+    {
+     "itemId": 25686,
+     "name": "Fel Leather Boots",
+     "usagePct": 4
+    },
+    {
+     "itemId": 31288,
+     "name": "The Master's Treads",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30365,
+     "name": "Overseer's Signet",
+     "usagePct": 6
+    },
+    {
+     "itemId": 27925,
+     "name": "Ravenclaw Band",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29177,
+     "name": "A'dal's Command",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 28
+    },
+    {
+     "itemId": 23206,
+     "name": "Mark of the Champion",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 36
+    },
+    {
+     "itemId": 23206,
+     "name": "Mark of the Champion",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28658,
+    "name": "Terestian's Stranglestaff",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 31334,
+     "name": "Staff of Natural Fury",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29359,
+     "name": "Feral Staff of Lashing",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29390,
+    "name": "Everbloom Idol",
+    "usagePct": 95
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Feral (Cat) Druid Phase 1 BiS come from?",
+   "answer": "From the gear worn by 334 top-ranked Feral (Cat) Druid DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Feral (Cat) Druid items in Phase 1?",
+   "answer": "Wolfshead Helm (95%), Everbloom Idol (95%), Terestian's Stranglestaff (85%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

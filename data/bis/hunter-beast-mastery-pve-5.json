@@ -1,0 +1,357 @@
+{
+ "class": "hunter",
+ "spec": "beast-mastery",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 160,
+ "updatedAt": "2026-05-22",
+ "blurb": "Beast Mastery is the top hunter raid spec of TBC — Serpent's Swiftness haste feeds a relentless auto-shot/steady-shot rotation while the pet contributes a third of your damage. The 1:1.5 macro rhythm is the skill test; the gear below is what the best parsers actually wear doing it. This Phase 5 snapshot aggregates 160 top DPS parses from Sunwell Plateau; the highest-consensus pick is Gronnstalker's Bracers at 95% usage.",
+ "statPriorityRationale": "BM's damage splits with the pet, but your auto-shot rotation still wants the 9% hit cap first; after that agility outscales raw AP through crit and Expose Weakness synergy in a typical raid comp.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Attack Power",
+  "Crit Rating",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34333,
+    "name": "Coif of Alleria",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 15
+    },
+    {
+     "itemId": 34244,
+     "name": "Duplicitous Guise",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34358,
+    "name": "Hard Khorium Choker",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 34177,
+     "name": "Clutch of Demise",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 6
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31006,
+    "name": "Gronnstalker's Spaulders",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 34194,
+     "name": "Mantle of the Golden Forest",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34241,
+    "name": "Cloak of Unforgivable Sin",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 11
+    },
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34397,
+    "name": "Bladed Chaos Tunic",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 34228,
+     "name": "Vicious Hawkstrider Hauberk",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34369,
+     "name": "Carapace of Sun and Shadow",
+     "usagePct": 8
+    },
+    {
+     "itemId": 31004,
+     "name": "Gronnstalker's Chestguard",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34443,
+    "name": "Gronnstalker's Bracers",
+    "usagePct": 95
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34343,
+    "name": "Thalassian Ranger Gauntlets",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 34370,
+     "name": "Gloves of Immortal Dusk",
+     "usagePct": 30
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34549,
+    "name": "Gronnstalker's Belt",
+    "usagePct": 95
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34188,
+    "name": "Leggings of the Immortal Night",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 34168,
+     "name": "Starstalker Legguards",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30898,
+     "name": "Shady Dealer's Pantaloons",
+     "usagePct": 3
+    },
+    {
+     "itemId": 31005,
+     "name": "Gronnstalker's Leggings",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34570,
+    "name": "Gronnstalker's Boots",
+    "usagePct": 95
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34361,
+    "name": "Hard Khorium Band",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 25
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 24
+    },
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34887,
+    "name": "Angelista's Revenge",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 27
+    },
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 23
+    },
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 33831,
+    "name": "Berserker's Call",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 21
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 34427,
+    "name": "Blackened Naaru Sliver",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 29
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 27
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34183,
+    "name": "Shivering Felspine",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 34247,
+     "name": "Apolyon, the Soul-Render",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34197,
+     "name": "Shiv of Exsanguination",
+     "usagePct": 3
+    },
+    {
+     "itemId": 34331,
+     "name": "Hand of the Deceiver",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 34329,
+    "name": "Crux of the Apocalypse",
+    "usagePct": 3
+   },
+   "alternatives": [
+    {
+     "itemId": 34346,
+     "name": "Mounting Vengeance",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34334,
+    "name": "Thori'dal, the Stars' Fury",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 34196,
+     "name": "Golden Bow of Quel'Thalas",
+     "usagePct": 12
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Beast Mastery Hunter Phase 5 BiS come from?",
+   "answer": "From the gear worn by 160 top-ranked Beast Mastery Hunter DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Beast Mastery Hunter items in Phase 5?",
+   "answer": "Gronnstalker's Bracers (95%), Gronnstalker's Belt (95%), Gronnstalker's Boots (95%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

@@ -3,10 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allSpecs, getSpec } from "@/lib/classes";
 import {
+  decodeBuild,
   encodeBuild,
   getTalents,
   totalPoints,
   type BuildState,
+  type ClassTalents,
 } from "@/lib/talents";
 import { buildValid } from "@/lib/talent-rules";
 import { getBuild } from "@/data/builds";
@@ -72,6 +74,41 @@ function resolveRanks(
   });
 }
 
+/** Data-driven FAQ for generated builds (unique numbers per spec). */
+function generatedFaq(
+  clsName: string,
+  specName: string,
+  talents: ClassTalents,
+  state: BuildState,
+  source: string | undefined,
+) {
+  const split = state.map((t) => t.reduce((a, b) => a + b, 0));
+  const mainTree = talents.trees[split.indexOf(Math.max(...split))];
+  const mainIdx = talents.trees.indexOf(mainTree);
+  const capstone = mainTree.talents
+    .filter((t, i) => t.row === 8 && state[mainIdx][i] > 0)
+    .map((t) => t.name)[0];
+  const faq = [
+    {
+      question: `What is the standard ${specName} ${clsName} talent build in TBC?`,
+      answer: `The ${split.join("/")} build shown above — ${split[mainIdx]} points in ${mainTree.treeName}${capstone ? ` down to ${capstone}` : ""}, with the remaining points in support talents. ${source ? `It follows the ${source}, the community-standard reference.` : ""}`,
+    },
+    ...(capstone
+      ? [
+          {
+            question: `Is ${capstone} worth going 41 points deep for?`,
+            answer: `Yes — ${capstone} anchors the entire ${mainTree.treeName} investment for ${specName} ${clsName}s; builds that skip it are niche variants, not the standard.`,
+          },
+        ]
+      : []),
+    {
+      question: `Can I adjust this ${specName} build for PvP or leveling?`,
+      answer: `Open it in the ${clsName} talent calculator — the build loads pre-filled, every rule (tier gates, prerequisites, 61 points) is enforced, and you can share your variant as a link.`,
+    },
+  ];
+  return faq;
+}
+
 export default async function TalentBuildPage({ params }: { params: Params }) {
   const { class: classSlug, spec: specSlug } = await params;
   const found = getSpec(classSlug, specSlug);
@@ -94,7 +131,9 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
   let state: BuildState | null = null;
   let encoded = "";
   if (build) {
-    state = resolveRanks(cls.slug, build.ranks);
+    state = build.ranks
+      ? resolveRanks(cls.slug, build.ranks)
+      : decodeBuild(talents, build.encoded!);
     if (!buildValid(state, talents.trees))
       throw new Error(
         `curated build for ${cls.slug}/${spec.slug} violates talent rules`,
@@ -110,12 +149,17 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
     ),
   );
 
+  // Generated builds carry no hand-written FAQ — derive one from the
+  // build's own numbers so every page stays unique and accurate.
+  const faq =
+    build && state ? (build.faq ?? generatedFaq(cls.name, spec.name, talents, state, build.source)) : [];
+
   return (
     <>
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
-          ...(build ? [faqJsonLd(build.faq)] : []),
+          ...(faq.length ? [faqJsonLd(faq)] : []),
         ]}
       />
       <PageHero image={classBackground(cls.slug)}>
@@ -136,6 +180,7 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
                   year: "numeric",
                 })}
               </span>
+              {build.source && <span>{build.source}</span>}
             </div>
             <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
               {build.blurb}
@@ -184,7 +229,7 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
               {spec.name} {cls.name} build FAQ
             </h2>
             <div className="mt-5 space-y-6">
-              {build.faq.map((f) => (
+              {faq.map((f) => (
                 <div key={f.question}>
                   <h3 className="text-sm font-semibold text-foreground">
                     {f.question}

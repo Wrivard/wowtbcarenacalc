@@ -1,0 +1,430 @@
+{
+ "class": "warlock",
+ "spec": "affliction",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 331,
+ "updatedAt": "2026-05-22",
+ "blurb": "Affliction Warlock in raids is dot bookkeeping perfected: Unstable Affliction, Corruption, Siphon Life and Curse of Agony rolling while Shadow Bolts fill — with Malediction amplifying the whole caster raid's damage. It out-scales destruction early and hands over the crown late. This Phase 2 snapshot aggregates 331 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Voidheart Mantle at 85% usage.",
+ "statPriorityRationale": "Five dots plus Malediction's curse amplification means every point of shadow damage ticks a dozen times — hit cap first (a resisted Unstable Affliction is catastrophic), then pure spell damage forever.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Shadow Damage",
+  "Spell Crit",
+  "Haste",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 28963,
+    "name": "Voidheart Crown",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 32494,
+     "name": "Destruction Holo-Gogs",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30212,
+     "name": "Hood of the Corruptor",
+     "usagePct": 19
+    },
+    {
+     "itemId": 24266,
+     "name": "Spellstrike Hood",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30666,
+     "name": "Ritssyn's Lost Pendant",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 28967,
+    "name": "Voidheart Mantle",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 30215,
+     "name": "Mantle of the Corruptor",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28766,
+    "name": "Ruby Drape of the Mysticant",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28570,
+     "name": "Shadow-Cloak of Dalaran",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 28964,
+    "name": "Voidheart Robe",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30214,
+     "name": "Robe of the Corruptor",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30056,
+     "name": "Robe of Hateful Echoes",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 24250,
+    "name": "Bracers of Havok",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 24
+    },
+    {
+     "itemId": 32820,
+     "name": "Veteran's Silk Cuffs",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28968,
+    "name": "Voidheart Gloves",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 30211,
+     "name": "Gloves of the Corruptor",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 24256,
+     "name": "Girdle of Ruination",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 24262,
+    "name": "Spellstrike Pants",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 30213,
+     "name": "Leggings of the Corruptor",
+     "usagePct": 40
+    },
+    {
+     "itemId": 28966,
+     "name": "Voidheart Leggings",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30037,
+    "name": "Boots of Blasting",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 21870,
+     "name": "Frozen Shadoweave Boots",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30050,
+     "name": "Boots of the Shifting Nightmare",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 29
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 23
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 31
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 24
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28802,
+     "name": "Bloodmaw Magus-Blade",
+     "usagePct": 21
+    },
+    {
+     "itemId": 32053,
+     "name": "Merciless Gladiator's Spellblade",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29272,
+    "name": "Orb of the Soul-Eater",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29273,
+     "name": "Khadgar's Knapsack",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28734,
+     "name": "Jewel of Infinite Possibilities",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28673,
+    "name": "Tirisfal Wand of Ascendancy",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29982,
+     "name": "Wand of the Forgotten Star",
+     "usagePct": 26
+    },
+    {
+     "itemId": 29350,
+     "name": "The Black Stalk",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "usagePct": 15
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Affliction Warlock Phase 2 BiS come from?",
+   "answer": "From the gear worn by 331 top-ranked Affliction Warlock DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Affliction Warlock items in Phase 2?",
+   "answer": "Voidheart Mantle (85%), Belt of Blasting (79%), Voidheart Gloves (66%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

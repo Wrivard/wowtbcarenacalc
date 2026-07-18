@@ -1,0 +1,440 @@
+{
+ "class": "warrior",
+ "spec": "arms",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 359,
+ "updatedAt": "2026-05-22",
+ "blurb": "Arms Warrior earns its raid spot with Blood Frenzy — a flat 4% physical damage buff for every melee in the group — while slam-weaving between swings for respectable personal numbers. The gear plan chases 2.2%+ weapon-speed two-handers and hit/expertise caps before raw strength. This Phase 1 snapshot aggregates 359 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Warbringer Battle-Helm at 86% usage.",
+ "statPriorityRationale": "Arms in raids is a support DPS built around keeping Blood Frenzy's 4% physical damage buff active — you cap hit and expertise first because a dodged Mortal Strike is a rage crisis, then stack strength for slam-weave throughput.",
+ "statPriority": [
+  "Hit Rating (9%)",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Armor Penetration"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29021,
+    "name": "Warbringer Battle-Helm",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 32087,
+     "name": "Mask of the Deceiver",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29349,
+     "name": "Adamantine Chain of the Unbroken",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28745,
+     "name": "Mithril Chain of Heroism",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29023,
+    "name": "Warbringer Shoulderplates",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 33173,
+     "name": "Ragesteel Shoulders",
+     "usagePct": 35
+    },
+    {
+     "itemId": 28755,
+     "name": "Bladed Shoulderpads of the Merciless",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30740,
+     "name": "Ripfiend Shoulderplates",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 24259,
+    "name": "Vengeance Wrap",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29019,
+    "name": "Warbringer Breastplate",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 23522,
+     "name": "Ragesteel Breastplate",
+     "usagePct": 15
+    },
+    {
+     "itemId": 24544,
+     "name": "Gladiator's Plate Chestpiece",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30258,
+     "name": "Chestplate of A'dal",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28514,
+     "name": "Bracers of Maliciousness",
+     "usagePct": 11
+    },
+    {
+     "itemId": 23537,
+     "name": "Black Felsteel Bracers",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28381,
+     "name": "General's Plate Bracers",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28824,
+    "name": "Gauntlets of Martial Perfection",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29020,
+     "name": "Warbringer Gauntlets",
+     "usagePct": 10
+    },
+    {
+     "itemId": 25685,
+     "name": "Fel Leather Gloves",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28779,
+    "name": "Girdle of the Endless Pit",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 27985,
+     "name": "Deathforge Girdle",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28385,
+     "name": "General's Plate Belt",
+     "usagePct": 4
+    },
+    {
+     "itemId": 19137,
+     "name": "Onslaught Girdle",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30538,
+    "name": "Midnight Legguards",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29022,
+     "name": "Warbringer Greaves",
+     "usagePct": 24
+    },
+    {
+     "itemId": 31544,
+     "name": "Clefthoof Hide Leggings",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28608,
+    "name": "Ironstriders of Urgency",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 25686,
+     "name": "Fel Leather Boots",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28176,
+     "name": "Sha'tari Wrought Greaves",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28730,
+    "name": "Mithril Band of the Unscarred",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 18
+    },
+    {
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28034,
+    "name": "Hourglass of the Unraveller",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 31
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 12
+    },
+    {
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28429,
+    "name": "Lionheart Champion",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 28438,
+     "name": "Dragonmaw",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28773,
+     "name": "Gorehowl",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28729,
+     "name": "Spiteblade",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28729,
+    "name": "Spiteblade",
+    "usagePct": 4
+   },
+   "alternatives": [
+    {
+     "itemId": 29124,
+     "name": "Vindicator's Brand",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28659,
+    "name": "Xavian Stiletto",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 30279,
+     "name": "Mama's Insurance",
+     "usagePct": 30
+    },
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28504,
+     "name": "Steelhawk Crossbow",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Arms Warrior Phase 1 BiS come from?",
+   "answer": "From the gear worn by 359 top-ranked Arms Warrior DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Arms Warrior items in Phase 1?",
+   "answer": "Warbringer Battle-Helm (86%), Girdle of the Endless Pit (65%), Bladespire Warbands (62%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

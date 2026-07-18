@@ -1,22 +1,31 @@
-// Recommended talent builds per class/spec. Ranks are keyed by talent
-// id from data/talents/<class>.json (generated from wowsims/Wowhead) —
-// the page resolves ids at render time and fails the build on a typo,
-// so a build can never silently drift from the dataset.
+// Recommended talent builds per class/spec.
 //
-// TODO: curate the remaining specs. Only specs present here get an
-// indexed talent page; the rest render "coming soon" (noindex, out of
-// the sitemap).
+// Two sources, merged by getBuild():
+//   1. Hand-curated builds below (rank maps keyed by talent id, resolved
+//      and validated at page build — a typo fails `pnpm build`).
+//   2. data/builds-generated.json — wowsims preset builds + curated
+//      standard builds, generated and validated by
+//      scripts/build-talent-builds.mjs. Their page blurbs live in
+//      data/talent-blurbs.ts; their FAQs are generated from the build's
+//      own numbers at render time.
+
+import generated from "@/data/builds-generated.json";
+import { TALENT_BLURBS } from "@/data/talent-blurbs";
 
 export interface RecommendedBuild {
   classSlug: string;
   specSlug: string;
-  /** ranks per talent id, per tree index 0..2 */
-  ranks: Record<string, number>[];
+  /** ranks per talent id, per tree index 0..2 (hand-curated builds) */
+  ranks?: Record<string, number>[];
+  /** pre-encoded digit string (generated builds) */
+  encoded?: string;
   updatedAt: string;
   summaryLabel: string; // e.g. "0/5/56"
   blurb: string;
+  /** attribution line for generated builds */
+  source?: string;
   notes: { talentId: string; treeIndex: number; note: string }[];
-  faq: { question: string; answer: string }[];
+  faq?: { question: string; answer: string }[];
 }
 
 export const BUILDS: RecommendedBuild[] = [
@@ -105,9 +114,31 @@ export function getBuild(
   classSlug: string,
   specSlug: string,
 ): RecommendedBuild | null {
-  return (
-    BUILDS.find(
-      (b) => b.classSlug === classSlug && b.specSlug === specSlug,
-    ) ?? null
+  const hand = BUILDS.find(
+    (b) => b.classSlug === classSlug && b.specSlug === specSlug,
   );
+  if (hand) return hand;
+  const gen = (
+    generated as {
+      classSlug: string;
+      specSlug: string;
+      encoded: string;
+      summaryLabel: string;
+      source: string;
+      updatedAt: string;
+    }[]
+  ).find((b) => b.classSlug === classSlug && b.specSlug === specSlug);
+  if (!gen) return null;
+  const blurb = TALENT_BLURBS[`${classSlug}/${specSlug}`];
+  if (!blurb) return null; // no editorial → treat as unfilled
+  return {
+    classSlug: gen.classSlug,
+    specSlug: gen.specSlug,
+    encoded: gen.encoded,
+    summaryLabel: gen.summaryLabel,
+    updatedAt: gen.updatedAt,
+    source: gen.source,
+    blurb,
+    notes: [],
+  };
 }

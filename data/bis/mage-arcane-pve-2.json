@@ -1,0 +1,398 @@
+{
+ "class": "mage",
+ "spec": "arcane",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 295,
+ "updatedAt": "2026-05-22",
+ "blurb": "Arcane Mage in raids is a burn-phase specialist: Arcane Blast stacking with Presence of Mind and evocation weaving, mana management as the actual rotation. It shines on short fights and burst checks — the gear list keeps the pool deep enough to make the burn worth it. This Phase 2 snapshot aggregates 295 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Leggings of Tirisfal at 97% usage.",
+ "statPriorityRationale": "Arcane Blast stacks burn mana geometrically, so intellect is a throughput stat — your damage ceiling is your mana pool, and the list leans intellect harder than fire or frost ever would.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Intellect",
+  "Spell Crit",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30206,
+    "name": "Cowl of Tirisfal",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 29076,
+     "name": "Collar of the Aldor",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32494,
+     "name": "Destruction Holo-Gogs",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 31
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 6
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30210,
+    "name": "Mantle of Tirisfal",
+    "usagePct": 96
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30196,
+    "name": "Robes of Tirisfal",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 21848,
+     "name": "Spellfire Robe",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30056,
+     "name": "Robe of Hateful Echoes",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32820,
+    "name": "Veteran's Silk Cuffs",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28411,
+     "name": "General's Silk Cuffs",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30205,
+    "name": "Gloves of Tirisfal",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 29987,
+     "name": "Gauntlets of the Sun King",
+     "usagePct": 39
+    },
+    {
+     "itemId": 21847,
+     "name": "Spellfire Gloves",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 21846,
+     "name": "Spellfire Belt",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30064,
+     "name": "Cord of Screaming Terrors",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30207,
+    "name": "Leggings of Tirisfal",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30067,
+    "name": "Velvet Boots of the Guardian",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 34
+    },
+    {
+     "itemId": 30037,
+     "name": "Boots of Blasting",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 42
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 46
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 29
+    },
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30720,
+    "name": "Serpent-Coil Braid",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 32
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29988,
+    "name": "The Nexus Key",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28802,
+     "name": "Bloodmaw Magus-Blade",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29271,
+    "name": "Talisman of Kalecgos",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 5
+    },
+    {
+     "itemId": 28781,
+     "name": "Karaborian Talisman",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29982,
+     "name": "Wand of the Forgotten Star",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29350,
+     "name": "The Black Stalk",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Arcane Mage Phase 2 BiS come from?",
+   "answer": "From the gear worn by 295 top-ranked Arcane Mage DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Arcane Mage items in Phase 2?",
+   "answer": "Leggings of Tirisfal (97%), Mantle of Tirisfal (96%), Robes of Tirisfal (84%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

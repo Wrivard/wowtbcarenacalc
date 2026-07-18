@@ -1,0 +1,394 @@
+{
+ "class": "paladin",
+ "spec": "retribution",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 268,
+ "updatedAt": "2026-05-22",
+ "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 3 snapshot aggregates 268 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Libram of Avengement at 98% usage.",
+ "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Attack Power"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32461,
+    "name": "Furious Gizmatic Goggles",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 30131,
+     "name": "Crystalforge War-Helm",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32376,
+     "name": "Forest Prowler's Helm",
+     "usagePct": 8
+    },
+    {
+     "itemId": 32373,
+     "name": "Helm of the Illidari Shatterer",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30022,
+    "name": "Pendant of the Perilous",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 6
+    },
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30055,
+    "name": "Shoulderpads of the Stranger",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 30133,
+     "name": "Crystalforge Shoulderbraces",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29075,
+     "name": "Justicar Shoulderplates",
+     "usagePct": 3
+    },
+    {
+     "itemId": 30053,
+     "name": "Pauldrons of the Wardancer",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 30098,
+    "name": "Razor-Scale Battlecloak",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 33122,
+     "name": "Cloak of Darkness",
+     "usagePct": 26
+    },
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30129,
+    "name": "Crystalforge Breastplate",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 30905,
+     "name": "Midnight Chestguard",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28485,
+     "name": "Bulwark of the Ancient Kings",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30102,
+     "name": "Krakken-Heart Breastplate",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 32574,
+     "name": "Bindings of Lightning Reflexes",
+     "usagePct": 32
+    },
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "usagePct": 25
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29947,
+    "name": "Gloves of the Searing Grip",
+    "usagePct": 87
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30919,
+     "name": "Valestalker Girdle",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30257,
+    "name": "Shattrath Leggings",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 29950,
+     "name": "Greaves of the Bloodwarder",
+     "usagePct": 18
+    },
+    {
+     "itemId": 30900,
+     "name": "Bow-Stitched Leggings",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29995,
+     "name": "Leggings of Murderous Intent",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30081,
+    "name": "Warboots of Obliteration",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30104,
+     "name": "Cobra-Lash Boots",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28608,
+     "name": "Ironstriders of Urgency",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32526,
+     "name": "Band of Devastation",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32526,
+     "name": "Band of Devastation",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 27
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 10
+    },
+    {
+     "itemId": 23206,
+     "name": "Mark of the Champion",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 31
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28288,
+     "name": "Abacus of Violent Odds",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32332,
+    "name": "Torch of the Damned",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28430,
+     "name": "Lionheart Executioner",
+     "usagePct": 28
+    },
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 27
+    },
+    {
+     "itemId": 30902,
+     "name": "Cataclysm's Edge",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27484,
+    "name": "Libram of Avengement",
+    "usagePct": 98
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Retribution Paladin Phase 3 BiS come from?",
+   "answer": "From the gear worn by 268 top-ranked Retribution Paladin DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Retribution Paladin items in Phase 3?",
+   "answer": "Libram of Avengement (98%), Shoulderpads of the Stranger (89%), Gloves of the Searing Grip (87%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

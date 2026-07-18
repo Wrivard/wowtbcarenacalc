@@ -1,0 +1,389 @@
+{
+ "class": "shaman",
+ "spec": "elemental",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 336,
+ "updatedAt": "2026-05-22",
+ "blurb": "Elemental Shaman pairs top-tier caster totems (Wrath of Air, Totem of Wrath) with a Lightning Bolt rotation simple enough to never miss a global. You are the caster group's second buff-bot after the shadow priest — and with the gear below, a genuine damage threat on top. This Phase 2 snapshot aggregates 336 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Totem of the Void at 99% usage.",
+ "statPriorityRationale": "Lightning Bolt is 85% of your casts, so the list is one-dimensional on purpose: cap hit, then stack spell damage — crit follows naturally from Tidal Mastery and feeds Elemental Focus clearcasting.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29035,
+    "name": "Cyclone Faceguard",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 30171,
+     "name": "Cataclysm Headpiece",
+     "usagePct": 25
+    },
+    {
+     "itemId": 32476,
+     "name": "Gadgetstorm Goggles",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 21
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 13
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29037,
+    "name": "Cyclone Shoulderguards",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 30173,
+     "name": "Cataclysm Shoulderpads",
+     "usagePct": 36
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 10
+    },
+    {
+     "itemId": 35497,
+     "name": "Cloak of the Frigid Winds",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30169,
+    "name": "Cataclysm Chestpiece",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 29519,
+     "name": "Netherstrike Breastplate",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30056,
+     "name": "Robe of Hateful Echoes",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29521,
+    "name": "Netherstrike Bracers",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 24
+    },
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29523,
+     "name": "Windhawk Bracers",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28780,
+    "name": "Soul-Eater's Handwraps",
+    "usagePct": 77
+   },
+   "alternatives": [
+    {
+     "itemId": 30170,
+     "name": "Cataclysm Handgrips",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29987,
+     "name": "Gauntlets of the Sun King",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 29520,
+     "name": "Netherstrike Belt",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30172,
+    "name": "Cataclysm Leggings",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "usagePct": 24
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30067,
+    "name": "Velvet Boots of the Guardian",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 29
+    },
+    {
+     "itemId": 30043,
+     "name": "Hurricane Boots",
+     "usagePct": 27
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30667,
+    "name": "Ring of Unrelenting Storms",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 34
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30109,
+     "name": "Ring of Endless Coils",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30667,
+    "name": "Ring of Unrelenting Storms",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30109,
+     "name": "Ring of Endless Coils",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 35
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 14
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28785,
+    "name": "The Lightning Capacitor",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 26
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 11
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 29988,
+     "name": "The Nexus Key",
+     "usagePct": 28
+    },
+    {
+     "itemId": 30832,
+     "name": "Gavel of Unearthed Secrets",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29268,
+    "name": "Mazthoril Honor Shield",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 29273,
+     "name": "Khadgar's Knapsack",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28248,
+    "name": "Totem of the Void",
+    "usagePct": 99
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Elemental Shaman Phase 2 BiS come from?",
+   "answer": "From the gear worn by 336 top-ranked Elemental Shaman DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Elemental Shaman items in Phase 2?",
+   "answer": "Totem of the Void (99%), Belt of Blasting (83%), Soul-Eater's Handwraps (77%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

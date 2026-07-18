@@ -1,0 +1,410 @@
+{
+ "class": "hunter",
+ "spec": "survival",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 298,
+ "updatedAt": "2026-05-22",
+ "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 4 snapshot aggregates 298 top DPS parses from Zul'Aman; the highest-consensus pick is Gronnstalker's Gloves at 97% usage.",
+ "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriority": [
+  "Agility",
+  "Hit Rating",
+  "Attack Power",
+  "Crit Rating",
+  "Stamina"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31003,
+    "name": "Gronnstalker's Helmet",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 20
+    },
+    {
+     "itemId": 33666,
+     "name": "Vengeful Gladiator's Chain Helm",
+     "usagePct": 6
+    },
+    {
+     "itemId": 30141,
+     "name": "Rift Stalker Helm",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus' Pendant of Mayhem",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 9
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31006,
+    "name": "Gronnstalker's Spaulders",
+    "usagePct": 95
+   },
+   "alternatives": [
+    {
+     "itemId": 30143,
+     "name": "Rift Stalker Mantle",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 4
+    },
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31004,
+    "name": "Gronnstalker's Chestguard",
+    "usagePct": 93
+   },
+   "alternatives": [
+    {
+     "itemId": 30139,
+     "name": "Rift Stalker Hauberk",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32324,
+    "name": "Insidious Bands",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "usagePct": 20
+    },
+    {
+     "itemId": 32574,
+     "name": "Bindings of Lightning Reflexes",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30864,
+     "name": "Bracers of the Pathfinder",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31001,
+    "name": "Gronnstalker's Gloves",
+    "usagePct": 97
+   },
+   "alternatives": [
+    {
+     "itemId": 30140,
+     "name": "Rift Stalker Gauntlets",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30879,
+    "name": "Don Alejandro's Money Belt",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 27
+    },
+    {
+     "itemId": 32346,
+     "name": "Boneweave Girdle",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30900,
+    "name": "Bow-Stitched Leggings",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 31005,
+     "name": "Gronnstalker's Leggings",
+     "usagePct": 39
+    },
+    {
+     "itemId": 30142,
+     "name": "Rift Stalker Leggings",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29995,
+     "name": "Leggings of Murderous Intent",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32366,
+    "name": "Shadowmaster's Boots",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 30104,
+     "name": "Cobra-Lash Boots",
+     "usagePct": 25
+    },
+    {
+     "itemId": 33222,
+     "name": "Nyn'jah's Tabi Boots",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 33831,
+    "name": "Berserker's Call",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 27
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 20
+    },
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 11
+    },
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32248,
+    "name": "Halberd of Desolation",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 27
+    },
+    {
+     "itemId": 33389,
+     "name": "Dagger of Bad Mojo",
+     "usagePct": 18
+    },
+    {
+     "itemId": 30881,
+     "name": "Blade of Infamy",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33389,
+    "name": "Dagger of Bad Mojo",
+    "usagePct": 22
+   },
+   "alternatives": [
+    {
+     "itemId": 30881,
+     "name": "Blade of Infamy",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29948,
+     "name": "Claw of the Phoenix",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30906,
+    "name": "Bristleblitz Striker",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32336,
+     "name": "Black Bow of the Betrayer",
+     "usagePct": 41
+    },
+    {
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "usagePct": 6
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Survival Hunter Phase 4 BiS come from?",
+   "answer": "From the gear worn by 298 top-ranked Survival Hunter DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Survival Hunter items in Phase 4?",
+   "answer": "Gronnstalker's Gloves (97%), Gronnstalker's Spaulders (95%), Gronnstalker's Chestguard (93%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

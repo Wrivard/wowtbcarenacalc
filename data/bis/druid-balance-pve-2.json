@@ -1,0 +1,395 @@
+{
+ "class": "druid",
+ "spec": "balance",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 313,
+ "updatedAt": "2026-05-22",
+ "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 2 snapshot aggregates 313 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Belt of Blasting at 91% usage.",
+ "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "Spirit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30233,
+    "name": "Nordrassil Headpiece",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 32480,
+     "name": "Magnified Moon Specs",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 16
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 13
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30235,
+    "name": "Nordrassil Wrath-Mantle",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 30024,
+     "name": "Mantle of the Elven Kings",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30079,
+     "name": "Illidari Shoulderpads",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 35
+    },
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30231,
+    "name": "Nordrassil Chestpiece",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 9
+    },
+    {
+     "itemId": 21848,
+     "name": "Spellfire Robe",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29091,
+     "name": "Chestpiece of Malorne",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29918,
+    "name": "Mindstorm Wristbands",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32655,
+     "name": "Crystalweave Bracers",
+     "usagePct": 21
+    },
+    {
+     "itemId": 29523,
+     "name": "Windhawk Bracers",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30232,
+    "name": "Nordrassil Gauntlets",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 21847,
+     "name": "Spellfire Gloves",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 91
+   },
+   "alternatives": [
+    {
+     "itemId": 21846,
+     "name": "Spellfire Belt",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30234,
+    "name": "Nordrassil Wrath-Kilt",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "usagePct": 27
+    },
+    {
+     "itemId": 30734,
+     "name": "Leggings of the Seventh Circle",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30037,
+    "name": "Boots of Blasting",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30067,
+     "name": "Velvet Boots of the Guardian",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 25
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 20
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 32
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29988,
+     "name": "The Nexus Key",
+     "usagePct": 44
+    },
+    {
+     "itemId": 30723,
+     "name": "Talon of the Tempest",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29271,
+    "name": "Talisman of Kalecgos",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27518,
+    "name": "Ivory Idol of the Moongoddess",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 32387,
+     "name": "Idol of the Raven Goddess",
+     "usagePct": 45
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Balance Druid Phase 2 BiS come from?",
+   "answer": "From the gear worn by 313 top-ranked Balance Druid DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Balance Druid items in Phase 2?",
+   "answer": "Belt of Blasting (91%), Nordrassil Headpiece (90%), Nordrassil Wrath-Mantle (90%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

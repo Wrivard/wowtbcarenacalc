@@ -1,0 +1,429 @@
+{
+ "class": "warlock",
+ "spec": "destruction",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 284,
+ "updatedAt": "2026-05-22",
+ "blurb": "Destruction Warlock is TBC's endgame caster king: Shadow Bolt machine-gunning with the Improved Shadow Bolt debuff feeding every other warlock's damage too. The spec's phase curve is the steepest in the game — mediocre in Karazhan gear, untouchable in Sunwell. This Phase 3 snapshot aggregates 284 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Belt of Blasting at 97% usage.",
+ "statPriorityRationale": "Shadow Bolt spam with Improved Shadow Bolt debuff uptime rewards crit unusually well, and by late phases destruction becomes the highest-ceiling caster in the game — the list leans damage-crit over regen because fights end before mana does.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Shadow/Fire Damage",
+  "Spell Crit",
+  "Haste",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31051,
+    "name": "Hood of the Malefic",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 30212,
+     "name": "Hood of the Corruptor",
+     "usagePct": 33
+    },
+    {
+     "itemId": 32494,
+     "name": "Destruction Holo-Gogs",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28963,
+     "name": "Voidheart Crown",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 7
+    },
+    {
+     "itemId": 32349,
+     "name": "Translucent Spellthread Necklace",
+     "usagePct": 7
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 28967,
+    "name": "Voidheart Mantle",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 31054,
+     "name": "Mantle of the Malefic",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30215,
+     "name": "Mantle of the Corruptor",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28766,
+    "name": "Ruby Drape of the Mysticant",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 32590,
+     "name": "Nethervoid Cloak",
+     "usagePct": 30
+    },
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30107,
+    "name": "Vestments of the Sea-Witch",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 28964,
+     "name": "Voidheart Robe",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30214,
+     "name": "Robe of the Corruptor",
+     "usagePct": 5
+    },
+    {
+     "itemId": 31052,
+     "name": "Robe of the Malefic",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32586,
+    "name": "Bracers of Nimble Thought",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 20
+    },
+    {
+     "itemId": 33913,
+     "name": "Vindicator's Silk Cuffs",
+     "usagePct": 5
+    },
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28968,
+    "name": "Voidheart Gloves",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 31050,
+     "name": "Gloves of the Malefic",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30211,
+     "name": "Gloves of the Corruptor",
+     "usagePct": 5
+    },
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30213,
+    "name": "Leggings of the Corruptor",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 31053,
+     "name": "Leggings of the Malefic",
+     "usagePct": 26
+    },
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30037,
+    "name": "Boots of Blasting",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 30050,
+     "name": "Boots of the Shifting Nightmare",
+     "usagePct": 7
+    },
+    {
+     "itemId": 32239,
+     "name": "Slippers of the Seacaller",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30109,
+    "name": "Ring of Endless Coils",
+    "usagePct": 20
+   },
+   "alternatives": [
+    {
+     "itemId": 29303,
+     "name": "Band of Eternity",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29305,
+     "name": "Band of the Eternal Sage",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30109,
+    "name": "Ring of Endless Coils",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29305,
+     "name": "Band of the Eternal Sage",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29303,
+     "name": "Band of Eternity",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 24
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32483,
+     "name": "The Skull of Gul'dan",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 21
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 13
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30095,
+    "name": "Fang of the Leviathan",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 32053,
+     "name": "Merciless Gladiator's Spellblade",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32374,
+     "name": "Zhar'doom, Greatstaff of the Devourer",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30049,
+    "name": "Fathomstone",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30872,
+     "name": "Chronicle of Dark Secrets",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28734,
+     "name": "Jewel of Infinite Possibilities",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29982,
+    "name": "Wand of the Forgotten Star",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29350,
+     "name": "The Black Stalk",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Destruction Warlock Phase 3 BiS come from?",
+   "answer": "From the gear worn by 284 top-ranked Destruction Warlock DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Destruction Warlock items in Phase 3?",
+   "answer": "Belt of Blasting (97%), Boots of Blasting (83%), Vestments of the Sea-Witch (79%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

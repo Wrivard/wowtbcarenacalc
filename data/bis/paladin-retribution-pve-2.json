@@ -1,0 +1,394 @@
+{
+ "class": "paladin",
+ "spec": "retribution",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 297,
+ "updatedAt": "2026-05-22",
+ "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 2 snapshot aggregates 297 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Libram of Avengement at 98% usage.",
+ "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Attack Power"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32461,
+    "name": "Furious Gizmatic Goggles",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 30131,
+     "name": "Crystalforge War-Helm",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29073,
+     "name": "Justicar Crown",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30022,
+    "name": "Pendant of the Perilous",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 28745,
+     "name": "Mithril Chain of Heroism",
+     "usagePct": 11
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30055,
+    "name": "Shoulderpads of the Stranger",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29075,
+     "name": "Justicar Shoulderplates",
+     "usagePct": 20
+    },
+    {
+     "itemId": 30053,
+     "name": "Pauldrons of the Wardancer",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30133,
+     "name": "Crystalforge Shoulderbraces",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 30098,
+    "name": "Razor-Scale Battlecloak",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30129,
+    "name": "Crystalforge Breastplate",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 29071,
+     "name": "Justicar Breastplate",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30102,
+     "name": "Krakken-Heart Breastplate",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30054,
+     "name": "Ranger-General's Chestguard",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "usagePct": 21
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29947,
+    "name": "Gloves of the Searing Grip",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 35
+    },
+    {
+     "itemId": 30341,
+     "name": "Flesh Handler's Gauntlets",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "usagePct": 31
+    },
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "usagePct": 26
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30257,
+    "name": "Shattrath Leggings",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 29950,
+     "name": "Greaves of the Bloodwarder",
+     "usagePct": 20
+    },
+    {
+     "itemId": 30132,
+     "name": "Crystalforge Greaves",
+     "usagePct": 8
+    },
+    {
+     "itemId": 31544,
+     "name": "Clefthoof Hide Leggings",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28608,
+    "name": "Ironstriders of Urgency",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "usagePct": 32
+    },
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "usagePct": 30
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 22
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 18
+    },
+    {
+     "itemId": 10725,
+     "name": "Gnomish Battle Chicken",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 31
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 18
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28430,
+    "name": "Lionheart Executioner",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28442,
+     "name": "Stormherald",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30090,
+     "name": "World Breaker",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27484,
+    "name": "Libram of Avengement",
+    "usagePct": 98
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Retribution Paladin Phase 2 BiS come from?",
+   "answer": "From the gear worn by 297 top-ranked Retribution Paladin DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Retribution Paladin items in Phase 2?",
+   "answer": "Libram of Avengement (98%), Furious Gizmatic Goggles (83%), Bladespire Warbands (76%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

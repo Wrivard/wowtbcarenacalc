@@ -1,0 +1,460 @@
+{
+ "class": "warrior",
+ "spec": "protection",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 295,
+ "updatedAt": "2026-05-22",
+ "blurb": "Protection Warrior is the classic main tank: Shield Slam and Devastate threat, Shield Block smoothing crushes, the full toolkit of last stands and shield walls. The list prioritizes the defense cap, then converts shield block value into both threat and survival at once. This Phase 1 snapshot aggregates 295 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Dragonmaw at 53% usage.",
+ "statPriorityRationale": "Uncrittable at 490 defense is non-negotiable; after that, shield block value doubles as threat (Shield Slam) and mitigation, which is why prot warriors gear block value where druids would stack armor.",
+ "statPriority": [
+  "Defense (490)",
+  "Shield Block Value",
+  "Stamina",
+  "Hit Rating",
+  "Expertise"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29011,
+    "name": "Warbringer Greathelm",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29021,
+     "name": "Warbringer Battle-Helm",
+     "usagePct": 24
+    },
+    {
+     "itemId": 24545,
+     "name": "Gladiator's Plate Helm",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28593,
+     "name": "Eternium Greathelm",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28244,
+    "name": "Pendant of Triumph",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 19
+    },
+    {
+     "itemId": 35511,
+     "name": "Hailstone Pendant",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29023,
+    "name": "Warbringer Shoulderplates",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 29016,
+     "name": "Warbringer Shoulderguards",
+     "usagePct": 27
+    },
+    {
+     "itemId": 24546,
+     "name": "Gladiator's Plate Shoulders",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33173,
+     "name": "Ragesteel Shoulders",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28529,
+    "name": "Royal Cloak of Arathi Kings",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 15
+    },
+    {
+     "itemId": 27804,
+     "name": "Devilshark Cape",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 24544,
+    "name": "Gladiator's Plate Chestpiece",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 29012,
+     "name": "Warbringer Chestguard",
+     "usagePct": 33
+    },
+    {
+     "itemId": 29019,
+     "name": "Warbringer Breastplate",
+     "usagePct": 5
+    },
+    {
+     "itemId": 28484,
+     "name": "Bulwark of Kings",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28381,
+    "name": "General's Plate Bracers",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "usagePct": 23
+    },
+    {
+     "itemId": 28996,
+     "name": "Marshal's Plate Bracers",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28502,
+     "name": "Vambraces of Courage",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30644,
+    "name": "Grips of Deftness",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 29017,
+     "name": "Warbringer Handguards",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28824,
+     "name": "Gauntlets of Martial Perfection",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29020,
+     "name": "Warbringer Gauntlets",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28385,
+    "name": "General's Plate Belt",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28995,
+     "name": "Marshal's Plate Belt",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28566,
+     "name": "Crimson Girdle of the Indomitable",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 29015,
+    "name": "Warbringer Legguards",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 28621,
+     "name": "Wrynn Dynasty Greaves",
+     "usagePct": 27
+    },
+    {
+     "itemId": 24547,
+     "name": "Gladiator's Plate Legguards",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30533,
+     "name": "Vanquisher's Legplates",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28747,
+    "name": "Battlescar Boots",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 28608,
+     "name": "Ironstriders of Urgency",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28383,
+     "name": "General's Plate Greaves",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28997,
+     "name": "Marshal's Plate Greaves",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 10
+    },
+    {
+     "itemId": 27822,
+     "name": "Crystal Band of Valor",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 28121,
+     "name": "Icon of Unyielding Courage",
+     "usagePct": 15
+    },
+    {
+     "itemId": 23206,
+     "name": "Mark of the Champion",
+     "usagePct": 7
+    },
+    {
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 28121,
+     "name": "Icon of Unyielding Courage",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28579,
+     "name": "Romulo's Poison Vial",
+     "usagePct": 10
+    },
+    {
+     "itemId": 19406,
+     "name": "Drake Fang Talisman",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28438,
+    "name": "Dragonmaw",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 28767,
+     "name": "The Decapitator",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28749,
+     "name": "King's Defender",
+     "usagePct": 12
+    },
+    {
+     "itemId": 19019,
+     "name": "Thunderfury, Blessed Blade of the Windseeker",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28749,
+    "name": "King's Defender",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 28825,
+     "name": "Aldori Legacy Defender",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28729,
+     "name": "Spiteblade",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29165,
+     "name": "Warbringer",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28659,
+    "name": "Xavian Stiletto",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28826,
+     "name": "Shuriken of Negation",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28319,
+     "name": "Gladiator's War Edge",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29152,
+     "name": "Marksman's Bow",
+     "usagePct": 11
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Protection Warrior Phase 1 BiS come from?",
+   "answer": "From the gear worn by 295 top-ranked Protection Warrior DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Protection Warrior items in Phase 1?",
+   "answer": "Dragonmaw (53%), Shapeshifter's Signet (47%), Warbringer Greathelm (44%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

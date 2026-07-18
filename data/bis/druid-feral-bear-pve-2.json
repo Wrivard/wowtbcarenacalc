@@ -1,0 +1,390 @@
+{
+ "class": "druid",
+ "spec": "feral-bear",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 286,
+ "updatedAt": "2026-05-22",
+ "blurb": "Feral Bear is TBC's stat-stick tank: the biggest health pool and armor total in the game, trading crush-blocking for sheer effective health. Uncrittable via resilience or defense, then armor and stamina forever — with the bonus that your offset pieces are cat DPS gear. This Phase 2 snapshot aggregates 286 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Nordrassil Feral-Kilt at 87% usage.",
+ "statPriorityRationale": "Bears can't block crushes, so they win by making hits small: armor cap at 35k+, a health pool warriors can't match, and agility that doubles as dodge and crit — the mitigation math is different from every other tank.",
+ "statPriority": [
+  "Armor",
+  "Stamina",
+  "Defense/Resilience (crit immunity)",
+  "Agility",
+  "Expertise"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30228,
+    "name": "Nordrassil Headdress",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 29098,
+     "name": "Stag-Helm of Malorne",
+     "usagePct": 12
+    },
+    {
+     "itemId": 8345,
+     "name": "Wolfshead Helm",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30230,
+    "name": "Nordrassil Feral-Mantle",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 29100,
+     "name": "Mantle of Malorne",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28660,
+    "name": "Gilded Thorium Cloak",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 32
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30222,
+    "name": "Nordrassil Chestplate",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 29096,
+     "name": "Breastplate of Malorne",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32810,
+    "name": "Veteran's Dragonhide Bracers",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 32814,
+     "name": "Veteran's Leather Bracers",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29947,
+    "name": "Gloves of the Searing Grip",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 28
+    },
+    {
+     "itemId": 30223,
+     "name": "Nordrassil Handgrips",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29097,
+     "name": "Gauntlets of Malorne",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 32802,
+     "name": "Veteran's Leather Belt",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30042,
+     "name": "Belt of Natural Power",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30229,
+    "name": "Nordrassil Feral-Kilt",
+    "usagePct": 87
+   },
+   "alternatives": [
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29099,
+     "name": "Greaves of Malorne",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32790,
+    "name": "Veteran's Leather Boots",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 30041,
+     "name": "Boots of Natural Grace",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 29279,
+     "name": "Violet Signet of the Great Protector",
+     "usagePct": 24
+    },
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 29279,
+     "name": "Violet Signet of the Great Protector",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 19
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 21
+   },
+   "alternatives": [
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 18
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30021,
+    "name": "Wildfury Greatstaff",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 28658,
+     "name": "Terestian's Stranglestaff",
+     "usagePct": 29
+    },
+    {
+     "itemId": 32014,
+     "name": "Merciless Gladiator's Maul",
+     "usagePct": 23
+    },
+    {
+     "itemId": 28476,
+     "name": "Gladiator's Maul",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32387,
+    "name": "Idol of the Raven Goddess",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 23198,
+     "name": "Idol of Brutality",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29390,
+     "name": "Everbloom Idol",
+     "usagePct": 10
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Feral (Bear) Druid Phase 2 BiS come from?",
+   "answer": "From the gear worn by 286 top-ranked Feral (Bear) Druid DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Feral (Bear) Druid items in Phase 2?",
+   "answer": "Nordrassil Feral-Kilt (87%), Nordrassil Feral-Mantle (81%), Nordrassil Chestplate (79%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

@@ -1,0 +1,372 @@
+{
+ "class": "rogue",
+ "spec": "combat",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 281,
+ "updatedAt": "2026-05-22",
+ "blurb": "Combat Swords is the standard raiding rogue of TBC: Sinister Strike, five-point Slice and Dice forever, Adrenaline Rush + Blade Flurry on cooldown. It is the most gear-forgiving melee spec in the game, and the phase lists below are the reason 'rogue' and 'swords' were synonyms for two years. This Phase 2 snapshot aggregates 281 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Deathmantle Handguards at 97% usage.",
+ "statPriorityRationale": "Combat's white-damage engine makes weapon-skill consistency king — hit and expertise before everything, because Sinister Strike dodges bleed rage-equivalent energy and break Slice uptime.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Agility",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30146,
+    "name": "Deathmantle Helm",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 32478,
+     "name": "Deathblow X11 Goggles",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29044,
+     "name": "Netherblade Facemask",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30149,
+    "name": "Deathmantle Shoulderpads",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 30055,
+     "name": "Shoulderpads of the Stranger",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 93
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30101,
+    "name": "Bloodsea Brigand's Vest",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 29045,
+     "name": "Netherblade Chestpiece",
+     "usagePct": 18
+    },
+    {
+     "itemId": 30144,
+     "name": "Deathmantle Chestguard",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29966,
+    "name": "Vambraces of Ending",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 29246,
+     "name": "Nightfall Wristguards",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28171,
+     "name": "Spymistress' Wristguards",
+     "usagePct": 10
+    },
+    {
+     "itemId": 32814,
+     "name": "Veteran's Leather Bracers",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30145,
+    "name": "Deathmantle Handguards",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 32
+    },
+    {
+     "itemId": 29247,
+     "name": "Girdle of the Deathdealer",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30148,
+    "name": "Deathmantle Legguards",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29046,
+     "name": "Netherblade Breeches",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots",
+    "usagePct": 96
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30052,
+    "name": "Ring of Lethality",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 24
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30052,
+    "name": "Ring of Lethality",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 34
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 15
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 30
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30082,
+    "name": "Talon of Azshara",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 28729,
+     "name": "Spiteblade",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29996,
+     "name": "Rod of the Sun King",
+     "usagePct": 4
+    },
+    {
+     "itemId": 38175,
+     "name": "The Horseman's Blade",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32027,
+    "name": "Merciless Gladiator's Quickblade",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28189,
+     "name": "Latro's Shifting Sword",
+     "usagePct": 40
+    },
+    {
+     "itemId": 28307,
+     "name": "Gladiator's Quickblade",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29151,
+     "name": "Veteran's Musket",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29152,
+     "name": "Marksman's Bow",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Combat Rogue Phase 2 BiS come from?",
+   "answer": "From the gear worn by 281 top-ranked Combat Rogue DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Combat Rogue items in Phase 2?",
+   "answer": "Deathmantle Handguards (97%), Edgewalker Longboots (96%), Drape of the Dark Reavers (93%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

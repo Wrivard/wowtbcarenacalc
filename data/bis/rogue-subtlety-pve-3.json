@@ -1,0 +1,455 @@
+{
+ "class": "rogue",
+ "spec": "subtlety",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 197,
+ "updatedAt": "2026-05-22",
+ "blurb": "Subtlety (Hemo) Rogue is the niche raid pick: Hemorrhage's bleed-amplifying debuff buffs every warrior, rogue and feral hitting your target, at a real cost to your own parse. The players running it in top logs are debuff mules by choice — and this list is how they keep the personal damage respectable anyway. This Phase 3 snapshot aggregates 197 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Deathmantle Legguards at 71% usage.",
+ "statPriorityRationale": "Hemo builds trade personal white damage for the Hemorrhage debuff feeding the raid's physical damage — agility leads after the hit cap because your finisher crits are where the personal numbers hide.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Attack Power",
+  "Expertise",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30146,
+    "name": "Deathmantle Helm",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 32478,
+     "name": "Deathblow X11 Goggles",
+     "usagePct": 27
+    },
+    {
+     "itemId": 31027,
+     "name": "Slayer's Helm",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus' Pendant of Mayhem",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 30
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 11
+    },
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30149,
+    "name": "Deathmantle Shoulderpads",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 31030,
+     "name": "Slayer's Shoulderpads",
+     "usagePct": 26
+    },
+    {
+     "itemId": 30055,
+     "name": "Shoulderpads of the Stranger",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 5
+    },
+    {
+     "itemId": 27878,
+     "name": "Auchenai Death Shroud",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30144,
+    "name": "Deathmantle Chestguard",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 30101,
+     "name": "Bloodsea Brigand's Vest",
+     "usagePct": 23
+    },
+    {
+     "itemId": 31028,
+     "name": "Slayer's Chestguard",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29045,
+     "name": "Netherblade Chestpiece",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29966,
+    "name": "Vambraces of Ending",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 33881,
+     "name": "Vindicator's Dragonhide Bracers",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33893,
+     "name": "Vindicator's Leather Bracers",
+     "usagePct": 12
+    },
+    {
+     "itemId": 32324,
+     "name": "Insidious Bands",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30145,
+    "name": "Deathmantle Handguards",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 31026,
+     "name": "Slayer's Handguards",
+     "usagePct": 28
+    },
+    {
+     "itemId": 31998,
+     "name": "Merciless Gladiator's Leather Gloves",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 42
+    },
+    {
+     "itemId": 30879,
+     "name": "Don Alejandro's Money Belt",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28750,
+     "name": "Girdle of Treachery",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30148,
+    "name": "Deathmantle Legguards",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 31029,
+     "name": "Slayer's Legguards",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29046,
+     "name": "Netherblade Breeches",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 32366,
+     "name": "Shadowmaster's Boots",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30060,
+     "name": "Boots of Effortless Striking",
+     "usagePct": 6
+    },
+    {
+     "itemId": 33892,
+     "name": "Vindicator's Leather Boots",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30052,
+    "name": "Ring of Lethality",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30052,
+    "name": "Ring of Lethality",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28579,
+     "name": "Romulo's Poison Vial",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 31
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 10
+    },
+    {
+     "itemId": 23206,
+     "name": "Mark of the Champion",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30082,
+    "name": "Talon of Azshara",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 29996,
+     "name": "Rod of the Sun King",
+     "usagePct": 30
+    },
+    {
+     "itemId": 32052,
+     "name": "Merciless Gladiator's Slicer",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28439,
+     "name": "Dragonstrike",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32027,
+    "name": "Merciless Gladiator's Quickblade",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 32369,
+     "name": "Blade of Savagery",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30103,
+     "name": "Fang of Vashj",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28307,
+     "name": "Gladiator's Quickblade",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 7
+    },
+    {
+     "itemId": 34622,
+     "name": "Spinesever",
+     "usagePct": 7
+    },
+    {
+     "itemId": 32054,
+     "name": "Merciless Gladiator's War Edge",
+     "usagePct": 6
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Subtlety Rogue Phase 3 BiS come from?",
+   "answer": "From the gear worn by 197 top-ranked Subtlety Rogue DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Subtlety Rogue items in Phase 3?",
+   "answer": "Deathmantle Legguards (71%), Edgewalker Longboots (70%), Arcanite Steam-Pistol (62%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

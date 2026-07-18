@@ -1,0 +1,331 @@
+{
+ "class": "druid",
+ "spec": "feral-cat",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 268,
+ "updatedAt": "2026-05-22",
+ "blurb": "Feral Cat is the highest-skill melee rotation in TBC: powershifting out of form every few seconds for Wolfshead energy, Mangle and Rip upkeep in between, and an instant off-tank switch nobody else offers. The phase lists double as your bear offset — one gear track, two jobs. This Phase 4 snapshot aggregates 268 top DPS parses from Zul'Aman; the highest-consensus pick is Thunderheart Leggings at 99% usage.",
+ "statPriorityRationale": "Cat DPS is powershifting — burning mana into Wolfshead energy procs — so agility (crit + dodge for the bear set you also carry) edges strength, and the hit cap protects a rotation with zero rage-style resource insurance.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Strength",
+  "Expertise",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 8345,
+    "name": "Wolfshead Helm",
+    "usagePct": 96
+   },
+   "alternatives": [
+    {
+     "itemId": 33672,
+     "name": "Vengeful Gladiator's Dragonhide Helm",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus' Pendant of Mayhem",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 8
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31048,
+    "name": "Thunderheart Pauldrons",
+    "usagePct": 98
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "usagePct": 12
+    },
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31042,
+    "name": "Thunderheart Chestguard",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33881,
+    "name": "Vindicator's Dragonhide Bracers",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 32324,
+     "name": "Insidious Bands",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31034,
+    "name": "Thunderheart Gauntlets",
+    "usagePct": 98
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30879,
+     "name": "Don Alejandro's Money Belt",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31044,
+    "name": "Thunderheart Leggings",
+    "usagePct": 99
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32366,
+    "name": "Shadowmaster's Boots",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 33222,
+     "name": "Nyn'jah's Tabi Boots",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 15
+    },
+    {
+     "itemId": 33880,
+     "name": "Vindicator's Dragonhide Boots",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30627,
+    "name": "Tsunami Talisman",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 20
+    },
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30627,
+    "name": "Tsunami Talisman",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 25
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 33716,
+    "name": "Vengeful Gladiator's Staff",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 33465,
+     "name": "Staff of Primal Fury",
+     "usagePct": 34
+    },
+    {
+     "itemId": 32014,
+     "name": "Merciless Gladiator's Maul",
+     "usagePct": 23
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29390,
+    "name": "Everbloom Idol",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 32387,
+     "name": "Idol of the Raven Goddess",
+     "usagePct": 14
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Feral (Cat) Druid Phase 4 BiS come from?",
+   "answer": "From the gear worn by 268 top-ranked Feral (Cat) Druid DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Feral (Cat) Druid items in Phase 4?",
+   "answer": "Thunderheart Leggings (99%), Thunderheart Pauldrons (98%), Thunderheart Gauntlets (98%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

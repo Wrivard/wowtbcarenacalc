@@ -1,0 +1,379 @@
+{
+ "class": "shaman",
+ "spec": "elemental",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 386,
+ "updatedAt": "2026-05-22",
+ "blurb": "Elemental Shaman pairs top-tier caster totems (Wrath of Air, Totem of Wrath) with a Lightning Bolt rotation simple enough to never miss a global. You are the caster group's second buff-bot after the shadow priest — and with the gear below, a genuine damage threat on top. This Phase 1 snapshot aggregates 386 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Totem of the Void at 96% usage.",
+ "statPriorityRationale": "Lightning Bolt is 85% of your casts, so the list is one-dimensional on purpose: cap hit, then stack spell damage — crit follows naturally from Tidal Mastery and feeds Elemental Focus clearcasting.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29035,
+    "name": "Cyclone Faceguard",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 32086,
+     "name": "Storm Master's Helmet",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28762,
+    "name": "Adornment of Stolen Souls",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28134,
+     "name": "Brooch of Heightened Potential",
+     "usagePct": 11
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29037,
+    "name": "Cyclone Shoulderguards",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 32078,
+     "name": "Pauldrons of Wild Magic",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30925,
+     "name": "Spaulders of the Torn-Heart",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 6
+    },
+    {
+     "itemId": 35497,
+     "name": "Cloak of the Frigid Winds",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29519,
+    "name": "Netherstrike Breastplate",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 29033,
+     "name": "Cyclone Chestguard",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29522,
+     "name": "Windhawk Hauberk",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29521,
+    "name": "Netherstrike Bracers",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29523,
+     "name": "Windhawk Bracers",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28780,
+    "name": "Soul-Eater's Handwraps",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 29034,
+     "name": "Cyclone Handguards",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
+     "usagePct": 6
+    },
+    {
+     "itemId": 27793,
+     "name": "Earth Mantle Handwraps",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 29520,
+    "name": "Netherstrike Belt",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 24256,
+     "name": "Girdle of Ruination",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 24262,
+    "name": "Spellstrike Pants",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 30541,
+     "name": "Stormsong Kilt",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29036,
+     "name": "Cyclone Legguards",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30734,
+     "name": "Leggings of the Seventh Circle",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28517,
+    "name": "Boots of Foretelling",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 28810,
+     "name": "Windshear Boots",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28406,
+     "name": "Sigil-Laced Boots",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30667,
+    "name": "Ring of Unrelenting Storms",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 28
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29367,
+     "name": "Ring of Cryptic Dreams",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30667,
+    "name": "Ring of Unrelenting Storms",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 27
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29286,
+     "name": "Violet Signet",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 26
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28785,
+    "name": "The Lightning Capacitor",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 32
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 30832,
+     "name": "Gavel of Unearthed Secrets",
+     "usagePct": 27
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29268,
+    "name": "Mazthoril Honor Shield",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 29273,
+     "name": "Khadgar's Knapsack",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28248,
+    "name": "Totem of the Void",
+    "usagePct": 96
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Elemental Shaman Phase 1 BiS come from?",
+   "answer": "From the gear worn by 386 top-ranked Elemental Shaman DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Elemental Shaman items in Phase 1?",
+   "answer": "Totem of the Void (96%), Netherstrike Breastplate (85%), Netherstrike Bracers (85%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

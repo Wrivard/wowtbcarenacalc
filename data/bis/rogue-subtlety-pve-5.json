@@ -1,0 +1,425 @@
+{
+ "class": "rogue",
+ "spec": "subtlety",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 146,
+ "updatedAt": "2026-05-22",
+ "blurb": "Subtlety (Hemo) Rogue is the niche raid pick: Hemorrhage's bleed-amplifying debuff buffs every warrior, rogue and feral hitting your target, at a real cost to your own parse. The players running it in top logs are debuff mules by choice — and this list is how they keep the personal damage respectable anyway. This Phase 5 snapshot aggregates 146 top DPS parses from Sunwell Plateau; the highest-consensus pick is Slayer's Bracers at 90% usage.",
+ "statPriorityRationale": "Hemo builds trade personal white damage for the Hemorrhage debuff feeding the raid's physical damage — agility leads after the hit cap because your finisher crits are where the personal numbers hide.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Attack Power",
+  "Expertise",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34244,
+    "name": "Duplicitous Guise",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 29
+    },
+    {
+     "itemId": 31027,
+     "name": "Slayer's Helm",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34353,
+     "name": "Quad Deathblow X44 Goggles",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34358,
+    "name": "Hard Khorium Choker",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 25
+    },
+    {
+     "itemId": 34177,
+     "name": "Clutch of Demise",
+     "usagePct": 18
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31030,
+    "name": "Slayer's Shoulderpads",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 34195,
+     "name": "Shoulderpads of Vehemence",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34241,
+    "name": "Cloak of Unforgivable Sin",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 32
+    },
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31028,
+    "name": "Slayer's Chestguard",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 34397,
+     "name": "Bladed Chaos Tunic",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34369,
+     "name": "Carapace of Sun and Shadow",
+     "usagePct": 18
+    },
+    {
+     "itemId": 35036,
+     "name": "Brutal Gladiator's Leather Tunic",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34448,
+    "name": "Slayer's Bracers",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 32580,
+     "name": "Swiftstrike Bracers",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34370,
+    "name": "Gloves of Immortal Dusk",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 31026,
+     "name": "Slayer's Handguards",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34558,
+    "name": "Slayer's Belt",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 3
+    },
+    {
+     "itemId": 34929,
+     "name": "Belt of the Silent Path",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31029,
+    "name": "Slayer's Legguards",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 34188,
+     "name": "Leggings of the Immortal Night",
+     "usagePct": 36
+    },
+    {
+     "itemId": 34928,
+     "name": "Trousers of the Scryers' Retainer",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30898,
+     "name": "Shady Dealer's Pantaloons",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34575,
+    "name": "Slayer's Boots",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 32366,
+     "name": "Shadowmaster's Boots",
+     "usagePct": 6
+    },
+    {
+     "itemId": 33222,
+     "name": "Nyn'jah's Tabi Boots",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 17
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 13
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34472,
+     "name": "Shard of Contempt",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34472,
+     "name": "Shard of Contempt",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32837,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 33762,
+     "name": "Vengeful Gladiator's Slicer",
+     "usagePct": 7
+    },
+    {
+     "itemId": 35101,
+     "name": "Brutal Gladiator's Slicer",
+     "usagePct": 7
+    },
+    {
+     "itemId": 34214,
+     "name": "Muramasa",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32838,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 32369,
+     "name": "Blade of Savagery",
+     "usagePct": 13
+    },
+    {
+     "itemId": 35072,
+     "name": "Brutal Gladiator's Quickblade",
+     "usagePct": 7
+    },
+    {
+     "itemId": 33734,
+     "name": "Vengeful Gladiator's Quickblade",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34349,
+    "name": "Blade of Life's Inevitability",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 34196,
+     "name": "Golden Bow of Quel'Thalas",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29949,
+     "name": "Arcanite Steam-Pistol",
+     "usagePct": 18
+    },
+    {
+     "itemId": 34892,
+     "name": "Crossbow of Relentless Strikes",
+     "usagePct": 8
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Subtlety Rogue Phase 5 BiS come from?",
+   "answer": "From the gear worn by 146 top-ranked Subtlety Rogue DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Subtlety Rogue items in Phase 5?",
+   "answer": "Slayer's Bracers (90%), Slayer's Belt (88%), Slayer's Boots (88%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

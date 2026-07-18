@@ -1,0 +1,455 @@
+{
+ "class": "rogue",
+ "spec": "assassination",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 273,
+ "updatedAt": "2026-05-22",
+ "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 1 snapshot aggregates 273 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Malchazeen at 81% usage.",
+ "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Agility",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29044,
+    "name": "Netherblade Facemask",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28732,
+     "name": "Cowl of Defiance",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28224,
+     "name": "Wastewalker Helm",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28182,
+     "name": "Helm of the Claw",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 16
+    },
+    {
+     "itemId": 35507,
+     "name": "Amulet of Bitter Hatred",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28674,
+     "name": "Saberclaw Talisman",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 27797,
+    "name": "Wastewalker Shoulderpads",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 28755,
+     "name": "Bladed Shoulderpads of the Merciless",
+     "usagePct": 27
+    },
+    {
+     "itemId": 29047,
+     "name": "Netherblade Shoulderpads",
+     "usagePct": 11
+    },
+    {
+     "itemId": 27776,
+     "name": "Shoulderpads of Assassination",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 27878,
+     "name": "Auchenai Death Shroud",
+     "usagePct": 8
+    },
+    {
+     "itemId": 27892,
+     "name": "Cloak of the Inciter",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29045,
+    "name": "Netherblade Chestpiece",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 28601,
+     "name": "Chestguard of the Conniver",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28204,
+     "name": "Tunic of Assassination",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29525,
+     "name": "Primalstrike Vest",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28171,
+    "name": "Spymistress' Wristguards",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28514,
+     "name": "Bracers of Maliciousness",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29246,
+     "name": "Nightfall Wristguards",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29527,
+     "name": "Primalstrike Bracers",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29048,
+    "name": "Netherblade Gloves",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 27531,
+     "name": "Wastewalker Gloves",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28506,
+     "name": "Gloves of Dexterous Manipulation",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 29247,
+    "name": "Girdle of the Deathdealer",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28750,
+     "name": "Girdle of Treachery",
+     "usagePct": 23
+    },
+    {
+     "itemId": 28828,
+     "name": "Gronn-Stitched Girdle",
+     "usagePct": 10
+    },
+    {
+     "itemId": 31464,
+     "name": "Naaru Belt of Precision",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 28741,
+    "name": "Skulker's Greaves",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 29046,
+     "name": "Netherblade Breeches",
+     "usagePct": 28
+    },
+    {
+     "itemId": 30538,
+     "name": "Midnight Legguards",
+     "usagePct": 11
+    },
+    {
+     "itemId": 27837,
+     "name": "Wastewalker Leggings",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 25686,
+     "name": "Fel Leather Boots",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28669,
+     "name": "Rapscallion Boots",
+     "usagePct": 8
+    },
+    {
+     "itemId": 31288,
+     "name": "The Master's Treads",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28649,
+    "name": "Garona's Signet Ring",
+    "usagePct": 22
+   },
+   "alternatives": [
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28649,
+    "name": "Garona's Signet Ring",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28288,
+     "name": "Abacus of Violent Odds",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28579,
+     "name": "Romulo's Poison Vial",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28288,
+     "name": "Abacus of Violent Odds",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28768,
+    "name": "Malchazeen",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 28524,
+     "name": "Emerald Ripper",
+     "usagePct": 5
+    },
+    {
+     "itemId": 31331,
+     "name": "The Night Blade",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28524,
+    "name": "Emerald Ripper",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 28572,
+     "name": "Blade of the Unrequited",
+     "usagePct": 11
+    },
+    {
+     "itemId": 31331,
+     "name": "The Night Blade",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29182,
+     "name": "Riftmaker",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28772,
+    "name": "Sunfury Bow of the Phoenix",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 29152,
+     "name": "Marksman's Bow",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29151,
+     "name": "Veteran's Musket",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28659,
+     "name": "Xavian Stiletto",
+     "usagePct": 12
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Assassination Rogue Phase 1 BiS come from?",
+   "answer": "From the gear worn by 273 top-ranked Assassination Rogue DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Assassination Rogue items in Phase 1?",
+   "answer": "Malchazeen (81%), Choker of Vile Intent (64%), Netherblade Facemask (62%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

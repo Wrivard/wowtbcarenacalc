@@ -1,0 +1,425 @@
+{
+ "class": "paladin",
+ "spec": "protection",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 293,
+ "updatedAt": "2026-05-22",
+ "blurb": "Protection Paladin is the AoE tank TBC dungeons were built for: Consecration and Holy Shield generate unmatched multi-target threat, and mana returns from Spiritual Attunement keep the engine running. Uncrittable first, stamina second, then spell damage — the stat line that confuses every armory inspection. This Phase 2 snapshot aggregates 293 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Crystalforge Legguards at 86% usage.",
+ "statPriorityRationale": "Prot paladin threat is spell-damage-driven (Consecration, Holy Shield), so after the defense cap you gear a caster stat no other tank wants — which is exactly why AoE packs and heroics belong to you.",
+ "statPriority": [
+  "Defense (490)",
+  "Stamina",
+  "Spell Damage",
+  "Shield Block",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30125,
+    "name": "Crystalforge Faceguard",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 29068,
+     "name": "Justicar Faceguard",
+     "usagePct": 31
+    },
+    {
+     "itemId": 32473,
+     "name": "Tankatronic Goggles",
+     "usagePct": 4
+    },
+    {
+     "itemId": 32461,
+     "name": "Furious Gizmatic Goggles",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30007,
+    "name": "The Darkener's Grasp",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28516,
+     "name": "Barbed Choker of Discipline",
+     "usagePct": 16
+    },
+    {
+     "itemId": 33065,
+     "name": "Veteran's Pendant of Dominance",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29070,
+    "name": "Justicar Shoulderguards",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 30127,
+     "name": "Crystalforge Shoulderguards",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29925,
+    "name": "Phoenix-Wing Cloak",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 27804,
+     "name": "Devilshark Cape",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28378,
+     "name": "Sergeant's Heavy Cape",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29066,
+    "name": "Justicar Chestguard",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 30123,
+     "name": "Crystalforge Chestguard",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28597,
+     "name": "Panzar'Thar Breastplate",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32515,
+    "name": "Wristguards of Determination",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 29252,
+     "name": "Bracers of Dignity",
+     "usagePct": 34
+    },
+    {
+     "itemId": 32813,
+     "name": "Veteran's Lamellar Bracers",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28502,
+     "name": "Vambraces of Courage",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30124,
+    "name": "Crystalforge Handguards",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 29067,
+     "name": "Justicar Handguards",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29998,
+     "name": "Royal Gauntlets of Silvermoon",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30034,
+    "name": "Belt of the Guardian",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 29253,
+     "name": "Girdle of Valorous Deeds",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30096,
+     "name": "Girdle of the Invulnerable",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28566,
+     "name": "Crimson Girdle of the Indomitable",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30126,
+    "name": "Crystalforge Legguards",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 29069,
+     "name": "Justicar Legguards",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32267,
+    "name": "Boots of the Resilient",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 30033,
+     "name": "Boots of the Protector",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29254,
+     "name": "Boots of the Righteous Path",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28747,
+     "name": "Battlescar Boots",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30028,
+    "name": "Seventh Ring of the Tirisfalen",
+    "usagePct": 19
+   },
+   "alternatives": [
+    {
+     "itemId": 29172,
+     "name": "Ashyen's Gift",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33054,
+     "name": "The Seal of Danzalar",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30083,
+     "name": "Ring of Sundered Souls",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30028,
+    "name": "Seventh Ring of the Tirisfalen",
+    "usagePct": 19
+   },
+   "alternatives": [
+    {
+     "itemId": 33054,
+     "name": "The Seal of Danzalar",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29172,
+     "name": "Ashyen's Gift",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28789,
+     "name": "Eye of Magtheridon",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30447,
+     "name": "Tome of Fiery Redemption",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28789,
+    "name": "Eye of Magtheridon",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30447,
+     "name": "Tome of Fiery Redemption",
+     "usagePct": 18
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28802,
+    "name": "Bloodmaw Magus-Blade",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 38
+    },
+    {
+     "itemId": 32450,
+     "name": "Gladiator's Gavel",
+     "usagePct": 5
+    },
+    {
+     "itemId": 32963,
+     "name": "Merciless Gladiator's Gavel",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28825,
+    "name": "Aldori Legacy Defender",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 33313,
+     "name": "Merciless Gladiator's Barrier",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28606,
+     "name": "Shield of Impenetrable Darkness",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28611,
+     "name": "Dragonheart Flameshield",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29388,
+    "name": "Libram of Repentance",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 27917,
+     "name": "Libram of the Eternal Rest",
+     "usagePct": 46
+    },
+    {
+     "itemId": 27484,
+     "name": "Libram of Avengement",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Protection Paladin Phase 2 BiS come from?",
+   "answer": "From the gear worn by 293 top-ranked Protection Paladin DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Protection Paladin items in Phase 2?",
+   "answer": "Crystalforge Legguards (86%), Crystalforge Handguards (85%), Justicar Chestguard (83%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

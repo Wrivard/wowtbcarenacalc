@@ -1,0 +1,440 @@
+{
+ "class": "hunter",
+ "spec": "marksmanship",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 215,
+ "updatedAt": "2026-05-22",
+ "blurb": "Marksmanship Hunter brings Trueshot Aura — flat attack power for your whole group — at a modest personal DPS cost versus BM. Raids run one for the buff; the list below is tuned for steady-shot uptime and mana longevity across full raid nights. This Phase 2 snapshot aggregates 215 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Rift Stalker Gauntlets at 88% usage.",
+ "statPriorityRationale": "Marksmanship trades pet damage for Trueshot Aura's raid AP — you gear like BM (hit cap, then agility) but your value is partly the buff, so consistency beats burst in stat choices.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Attack Power",
+  "Crit Rating",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30141,
+    "name": "Rift Stalker Helm",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 32474,
+     "name": "Surestrike Goggles v2.0",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28275,
+     "name": "Beast Lord Helm",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29081,
+     "name": "Demon Stalker Greathelm",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus' Pendant of Mayhem",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30059,
+     "name": "Choker of Animalistic Fury",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30143,
+    "name": "Rift Stalker Mantle",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 27801,
+     "name": "Beast Lord Mantle",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30085,
+     "name": "Mantle of the Tireless Tracker",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 30054,
+     "name": "Ranger-General's Chestguard",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28228,
+     "name": "Beast Lord Cuirass",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29082,
+     "name": "Demon Stalker Harness",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 30026,
+    "name": "Bands of the Celestial Archer",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30091,
+     "name": "True-Aim Stalker Bands",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28454,
+     "name": "Stalker's War Bands",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30140,
+    "name": "Rift Stalker Gauntlets",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 27474,
+     "name": "Beast Lord Handguards",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 30046,
+     "name": "Belt of the Black Eagle",
+     "usagePct": 33
+    },
+    {
+     "itemId": 28828,
+     "name": "Gronn-Stitched Girdle",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28656,
+     "name": "Girdle of the Prowler",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 29995,
+     "name": "Leggings of Murderous Intent",
+     "usagePct": 30
+    },
+    {
+     "itemId": 29985,
+     "name": "Void Reaver Greaves",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30104,
+    "name": "Cobra-Lash Boots",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 30
+    },
+    {
+     "itemId": 28746,
+     "name": "Fiend Slayer Boots",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29298,
+    "name": "Band of Eternity",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 28
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 29
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 27846,
+    "name": "Claw of the Watcher",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 32944,
+     "name": "Talon of the Phoenix",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28584,
+     "name": "Big Bad Wolf's Paw",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29948,
+    "name": "Claw of the Phoenix",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 28315,
+     "name": "Stormreaver Warblades",
+     "usagePct": 18
+    },
+    {
+     "itemId": 27747,
+     "name": "Boggspine Knuckles",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28572,
+     "name": "Blade of the Unrequited",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30105,
+    "name": "Serpent Spine Longbow",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 42
+    },
+    {
+     "itemId": 29949,
+     "name": "Arcanite Steam-Pistol",
+     "usagePct": 9
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Marksmanship Hunter Phase 2 BiS come from?",
+   "answer": "From the gear worn by 215 top-ranked Marksmanship Hunter DPS parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Marksmanship Hunter items in Phase 2?",
+   "answer": "Rift Stalker Gauntlets (88%), Rift Stalker Mantle (85%), Rift Stalker Hauberk (76%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}

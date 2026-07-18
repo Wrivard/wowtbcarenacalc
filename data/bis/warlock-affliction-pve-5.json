@@ -1,0 +1,392 @@
+{
+ "class": "warlock",
+ "spec": "affliction",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 229,
+ "updatedAt": "2026-05-22",
+ "blurb": "Affliction Warlock in raids is dot bookkeeping perfected: Unstable Affliction, Corruption, Siphon Life and Curse of Agony rolling while Shadow Bolts fill — with Malediction amplifying the whole caster raid's damage. It out-scales destruction early and hands over the crown late. This Phase 5 snapshot aggregates 229 top DPS parses from Sunwell Plateau; the highest-consensus pick is Bracers of the Malefic at 94% usage.",
+ "statPriorityRationale": "Five dots plus Malediction's curse amplification means every point of shadow damage ticks a dozen times — hit cap first (a resisted Unstable Affliction is catastrophic), then pure spell damage forever.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Shadow Damage",
+  "Spell Crit",
+  "Haste",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34340,
+    "name": "Dark Conjuror's Collar",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 31051,
+     "name": "Hood of the Malefic",
+     "usagePct": 36
+    },
+    {
+     "itemId": 32525,
+     "name": "Cowl of the Illidari High Lord",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34847,
+     "name": "Annihilator Holo-Gogs",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34204,
+    "name": "Amulet of Unfettered Magics",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 34359,
+     "name": "Pendant of Sunfire",
+     "usagePct": 13
+    },
+    {
+     "itemId": 37928,
+     "name": "Guardian's Pendant of Subjugation",
+     "usagePct": 10
+    },
+    {
+     "itemId": 32349,
+     "name": "Translucent Spellthread Necklace",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31054,
+    "name": "Mantle of the Malefic",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 34210,
+     "name": "Amice of the Convoker",
+     "usagePct": 39
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34242,
+    "name": "Tattered Cape of Antonidas",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 32331,
+     "name": "Cloak of the Illidari Council",
+     "usagePct": 15
+    },
+    {
+     "itemId": 32590,
+     "name": "Nethervoid Cloak",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32524,
+     "name": "Shroud of the Highborne",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34364,
+    "name": "Sunfire Robe",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 34232,
+     "name": "Fel Conqueror Raiments",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34399,
+     "name": "Robes of Ghostly Hatred",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34436,
+    "name": "Bracers of the Malefic",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34344,
+    "name": "Handguards of Defiled Worlds",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 34366,
+     "name": "Sunfire Handwraps",
+     "usagePct": 32
+    },
+    {
+     "itemId": 31050,
+     "name": "Gloves of the Malefic",
+     "usagePct": 7
+    },
+    {
+     "itemId": 34406,
+     "name": "Gloves of Tyri's Power",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34541,
+    "name": "Belt of the Malefic",
+    "usagePct": 92
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34181,
+    "name": "Leggings of Calamity",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 31053,
+     "name": "Leggings of the Malefic",
+     "usagePct": 27
+    },
+    {
+     "itemId": 34386,
+     "name": "Pantaloons of Growing Strife",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30916,
+     "name": "Leggings of Channeled Elements",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34564,
+    "name": "Boots of the Malefic",
+    "usagePct": 92
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 25
+    },
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 32483,
+    "name": "The Skull of Gul'dan",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 26
+    },
+    {
+     "itemId": 34429,
+     "name": "Shifting Naaru Sliver",
+     "usagePct": 23
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 32483,
+    "name": "The Skull of Gul'dan",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 26
+    },
+    {
+     "itemId": 34429,
+     "name": "Shifting Naaru Sliver",
+     "usagePct": 14
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34336,
+    "name": "Sunflare",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 32374,
+     "name": "Zhar'doom, Greatstaff of the Devourer",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30910,
+     "name": "Tempest of Chaos",
+     "usagePct": 10
+    },
+    {
+     "itemId": 34182,
+     "name": "Grand Magister's Staff of Torrents",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 34179,
+    "name": "Heart of the Pit",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 30872,
+     "name": "Chronicle of Dark Secrets",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33334,
+     "name": "Fetish of the Primal Gods",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34347,
+    "name": "Wand of the Demonsoul",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 29982,
+     "name": "Wand of the Forgotten Star",
+     "usagePct": 12
+    },
+    {
+     "itemId": 33192,
+     "name": "Carved Witch Doctor's Stick",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Affliction Warlock Phase 5 BiS come from?",
+   "answer": "From the gear worn by 229 top-ranked Affliction Warlock DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Affliction Warlock items in Phase 5?",
+   "answer": "Bracers of the Malefic (94%), Belt of the Malefic (92%), Boots of the Malefic (92%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

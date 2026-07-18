@@ -13,30 +13,22 @@ const NAV = [
 export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-14 max-w-[1200px] items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2.5">
+      <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-4">
+        <Link href="/" aria-label="WoW TBC Arena Calculator — home" className="flex items-center">
           <Image
-            src="/images/mark.png"
-            alt=""
-            width={28}
-            height={28}
-            className="rounded-md"
+            src="/images/logo.png"
+            alt="WoW TBC Arena Calculator"
+            width={65}
+            height={52}
             priority
           />
-          <span className="text-sm font-semibold tracking-tight">
-            <span className="text-foreground">WoW</span>{" "}
-            <span className="text-accent">TBC</span>
-            <span className="ml-2 hidden font-mono text-[10px] font-normal tracking-widest text-muted uppercase sm:inline">
-              Arena Tools
-            </span>
-          </span>
         </Link>
-        <nav aria-label="Main" className="flex items-center gap-4 sm:gap-7">
+        <nav aria-label="Main" className="flex items-center gap-5 sm:gap-8">
           {NAV.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="text-xs font-medium text-muted-strong transition-colors hover:text-foreground sm:text-sm"
+              className="text-[13px] font-medium text-muted-strong transition-colors hover:text-foreground sm:text-sm"
             >
               {item.label}
             </Link>

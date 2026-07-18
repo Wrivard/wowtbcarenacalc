@@ -1,0 +1,420 @@
+{
+ "class": "druid",
+ "spec": "restoration",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 209,
+ "updatedAt": "2026-05-22",
+ "blurb": "Restoration Druid is TBC's tank-HoT machine: triple-stacked Lifeblooms rolling on two tanks, Rejuvenation blanketing the raid, Swiftmend saves in between. Tree of Life turns your gear into the group's throughput — the phase lists below stack the +healing and spirit that aura wants. This Phase 5 snapshot aggregates 209 top healing parses from Sunwell Plateau; the highest-consensus pick is Thunderheart Belt at 87% usage.",
+ "statPriorityRationale": "Lifebloom stacks tick off +healing with absurd coefficient efficiency, and the Tree of Life aura converts your spirit into the whole party's healing — two reasons resto druids gear differently from every other healer.",
+ "statPriority": [
+  "Bonus Healing",
+  "Spirit",
+  "Intellect",
+  "MP5",
+  "Haste"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34339,
+    "name": "Cowl of Light's Purity",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 34245,
+     "name": "Cover of Ursol the Wise",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30219,
+     "name": "Nordrassil Headguard",
+     "usagePct": 18
+    },
+    {
+     "itemId": 31037,
+     "name": "Thunderheart Helmet",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33281,
+    "name": "Brooch of Nature's Mercy",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 34184,
+     "name": "Brooch of the Highborne",
+     "usagePct": 4
+    },
+    {
+     "itemId": 34360,
+     "name": "Amulet of Flowing Life",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 34209,
+    "name": "Spaulders of Reclamation",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 30221,
+     "name": "Nordrassil Life-Mantle",
+     "usagePct": 16
+    },
+    {
+     "itemId": 31047,
+     "name": "Thunderheart Spaulders",
+     "usagePct": 7
+    },
+    {
+     "itemId": 34202,
+     "name": "Shawl of Wonderment",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32524,
+    "name": "Shroud of the Highborne",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32337,
+     "name": "Shroud of Forgiveness",
+     "usagePct": 11
+    },
+    {
+     "itemId": 33592,
+     "name": "Cloak of Ancient Rituals",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30216,
+    "name": "Nordrassil Chestguard",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 34212,
+     "name": "Sunglow Vest",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34233,
+     "name": "Robes of Faltered Light",
+     "usagePct": 22
+    },
+    {
+     "itemId": 31041,
+     "name": "Thunderheart Tunic",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34445,
+    "name": "Thunderheart Bracers",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 30868,
+     "name": "Rejuvenating Bracers",
+     "usagePct": 3
+    },
+    {
+     "itemId": 32582,
+     "name": "Bracers of Renewed Life",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34372,
+    "name": "Leather Gauntlets of the Sun",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 32328,
+     "name": "Botanist's Gloves of Growth",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34342,
+     "name": "Handguards of the Dawn",
+     "usagePct": 6
+    },
+    {
+     "itemId": 34351,
+     "name": "Tranquil Majesty Wraps",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34554,
+    "name": "Thunderheart Belt",
+    "usagePct": 87
+   },
+   "alternatives": [
+    {
+     "itemId": 32339,
+     "name": "Belt of Primal Majesty",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34384,
+    "name": "Breeches of Natural Splendor",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 30220,
+     "name": "Nordrassil Life-Kilt",
+     "usagePct": 24
+    },
+    {
+     "itemId": 31045,
+     "name": "Thunderheart Legguards",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30912,
+     "name": "Leggings of Eternity",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34571,
+    "name": "Thunderheart Boots",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 32609,
+     "name": "Boots of the Divine Light",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 25
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 8
+    },
+    {
+     "itemId": 35733,
+     "name": "Ring of Harmonic Beauty",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 18
+    },
+    {
+     "itemId": 35733,
+     "name": "Ring of Harmonic Beauty",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29309,
+     "name": "Band of the Eternal Restorer",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 35750,
+    "name": "Redeemer's Alchemist Stone",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 14
+    },
+    {
+     "itemId": 19288,
+     "name": "Darkmoon Card: Blue Dragon",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 35750,
+    "name": "Redeemer's Alchemist Stone",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 24
+    },
+    {
+     "itemId": 19288,
+     "name": "Darkmoon Card: Blue Dragon",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34337,
+    "name": "Golden Staff of the Sin'dorei",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 34335,
+     "name": "Hammer of Sanctification",
+     "usagePct": 18
+    },
+    {
+     "itemId": 32500,
+     "name": "Crystal Spire of Karabor",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33468,
+     "name": "Dark Blessing",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30911,
+    "name": "Scepter of Purification",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 34206,
+     "name": "Book of Highborne Hymns",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33325,
+     "name": "Voodoo Shaker",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30051,
+    "name": "Idol of the Crescent Goddess",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 27886,
+     "name": "Idol of the Emerald Queen",
+     "usagePct": 28
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Restoration Druid Phase 5 BiS come from?",
+   "answer": "From the gear worn by 209 top-ranked Restoration Druid healing parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Restoration Druid items in Phase 5?",
+   "answer": "Thunderheart Belt (87%), Thunderheart Bracers (86%), Thunderheart Boots (86%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

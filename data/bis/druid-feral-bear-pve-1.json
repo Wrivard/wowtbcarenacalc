@@ -1,0 +1,400 @@
+{
+ "class": "druid",
+ "spec": "feral-bear",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 342,
+ "updatedAt": "2026-05-22",
+ "blurb": "Feral Bear is TBC's stat-stick tank: the biggest health pool and armor total in the game, trading crush-blocking for sheer effective health. Uncrittable via resilience or defense, then armor and stamina forever — with the bonus that your offset pieces are cat DPS gear. This Phase 1 snapshot aggregates 342 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Mantle of Malorne at 79% usage.",
+ "statPriorityRationale": "Bears can't block crushes, so they win by making hits small: armor cap at 35k+, a health pool warriors can't match, and agility that doubles as dodge and crit — the mitigation math is different from every other tank.",
+ "statPriority": [
+  "Armor",
+  "Stamina",
+  "Defense/Resilience (crit immunity)",
+  "Agility",
+  "Expertise"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29098,
+    "name": "Stag-Helm of Malorne",
+    "usagePct": 73
+   },
+   "alternatives": [
+    {
+     "itemId": 8345,
+     "name": "Wolfshead Helm",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28796,
+     "name": "Malefic Mask of the Shadows",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28509,
+    "name": "Worgen Claw Necklace",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28674,
+     "name": "Saberclaw Talisman",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28745,
+     "name": "Mithril Chain of Heroism",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29100,
+    "name": "Mantle of Malorne",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 28755,
+     "name": "Bladed Shoulderpads of the Merciless",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28660,
+    "name": "Gilded Thorium Cloak",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 27
+    },
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "usagePct": 12
+    },
+    {
+     "itemId": 24258,
+     "name": "Resolute Cape",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29096,
+    "name": "Breastplate of Malorne",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 28601,
+     "name": "Chestguard of the Conniver",
+     "usagePct": 6
+    },
+    {
+     "itemId": 25689,
+     "name": "Heavy Clefthoof Vest",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28445,
+    "name": "General's Dragonhide Bracers",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 28424,
+     "name": "General's Leather Bracers",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28978,
+     "name": "Marshal's Dragonhide Bracers",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28988,
+     "name": "Marshal's Leather Bracers",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30644,
+    "name": "Grips of Deftness",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 29097,
+     "name": "Gauntlets of Malorne",
+     "usagePct": 34
+    },
+    {
+     "itemId": 28506,
+     "name": "Gloves of Dexterous Manipulation",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28423,
+    "name": "General's Leather Belt",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 28750,
+     "name": "Girdle of Treachery",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28986,
+     "name": "Marshal's Leather Belt",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29264,
+     "name": "Tree-Mender's Belt",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 29099,
+    "name": "Greaves of Malorne",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 31544,
+     "name": "Clefthoof Hide Leggings",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30538,
+     "name": "Midnight Legguards",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30674,
+    "name": "Zierhut's Lost Treads",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28422,
+     "name": "General's Leather Boots",
+     "usagePct": 11
+    },
+    {
+     "itemId": 25691,
+     "name": "Heavy Clefthoof Boots",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 29279,
+     "name": "Violet Signet of the Great Protector",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 29279,
+     "name": "Violet Signet of the Great Protector",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29181,
+     "name": "Timelapse Shard",
+     "usagePct": 6
+    },
+    {
+     "itemId": 19406,
+     "name": "Drake Fang Talisman",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 24
+    },
+    {
+     "itemId": 29181,
+     "name": "Timelapse Shard",
+     "usagePct": 8
+    },
+    {
+     "itemId": 19406,
+     "name": "Drake Fang Talisman",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28658,
+    "name": "Terestian's Stranglestaff",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 29171,
+     "name": "Earthwarden",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28476,
+     "name": "Gladiator's Maul",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 23198,
+    "name": "Idol of Brutality",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 29390,
+     "name": "Everbloom Idol",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28064,
+     "name": "Idol of the Wild",
+     "usagePct": 5
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Feral (Bear) Druid Phase 1 BiS come from?",
+   "answer": "From the gear worn by 342 top-ranked Feral (Bear) Druid DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Feral (Bear) Druid items in Phase 1?",
+   "answer": "Mantle of Malorne (79%), Breastplate of Malorne (79%), Idol of Brutality (78%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

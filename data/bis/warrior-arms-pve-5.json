@@ -1,0 +1,372 @@
+{
+ "class": "warrior",
+ "spec": "arms",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 216,
+ "updatedAt": "2026-05-22",
+ "blurb": "Arms Warrior earns its raid spot with Blood Frenzy — a flat 4% physical damage buff for every melee in the group — while slam-weaving between swings for respectable personal numbers. The gear plan chases 2.2%+ weapon-speed two-handers and hit/expertise caps before raw strength. This Phase 5 snapshot aggregates 216 top DPS parses from Sunwell Plateau; the highest-consensus pick is Onslaught Bracers at 93% usage.",
+ "statPriorityRationale": "Arms in raids is a support DPS built around keeping Blood Frenzy's 4% physical damage buff active — you cap hit and expertise first because a dodged Mortal Strike is a rage crisis, then stack strength for slam-weave throughput.",
+ "statPriority": [
+  "Hit Rating (9%)",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Armor Penetration"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34333,
+    "name": "Coif of Alleria",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 34345,
+     "name": "Crown of Anasterian",
+     "usagePct": 39
+    },
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 3
+    },
+    {
+     "itemId": 34244,
+     "name": "Duplicitous Guise",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34358,
+    "name": "Hard Khorium Choker",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 12
+    },
+    {
+     "itemId": 34177,
+     "name": "Clutch of Demise",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 34392,
+    "name": "Demontooth Shoulderpads",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 34388,
+     "name": "Pauldrons of Berserking",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30979,
+     "name": "Onslaught Shoulderblades",
+     "usagePct": 16
+    },
+    {
+     "itemId": 34194,
+     "name": "Mantle of the Golden Forest",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34241,
+    "name": "Cloak of Unforgivable Sin",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 31
+    },
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 21
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34377,
+    "name": "Hard Khorium Battleplate",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 34397,
+     "name": "Bladed Chaos Tunic",
+     "usagePct": 36
+    },
+    {
+     "itemId": 30975,
+     "name": "Onslaught Breastplate",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34215,
+     "name": "Warharness of Reckless Fury",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34441,
+    "name": "Onslaught Bracers",
+    "usagePct": 93
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34370,
+    "name": "Gloves of Immortal Dusk",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 34343,
+     "name": "Thalassian Ranger Gauntlets",
+     "usagePct": 25
+    },
+    {
+     "itemId": 34341,
+     "name": "Borderland Paingrips",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34546,
+    "name": "Onslaught Belt",
+    "usagePct": 92
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34188,
+    "name": "Leggings of the Immortal Night",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 34180,
+     "name": "Felfury Legplates",
+     "usagePct": 29
+    },
+    {
+     "itemId": 32341,
+     "name": "Leggings of Divine Retribution",
+     "usagePct": 24
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34569,
+    "name": "Onslaught Treads",
+    "usagePct": 93
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34189,
+    "name": "Band of Ruinous Delight",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 21
+    },
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 19
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34189,
+    "name": "Band of Ruinous Delight",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 34472,
+    "name": "Shard of Contempt",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 16
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 31
+    },
+    {
+     "itemId": 34472,
+     "name": "Shard of Contempt",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32837,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 34214,
+     "name": "Muramasa",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32838,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 34164,
+     "name": "Dragonscale-Encrusted Longblade",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34196,
+    "name": "Golden Bow of Quel'Thalas",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 34349,
+     "name": "Blade of Life's Inevitability",
+     "usagePct": 18
+    },
+    {
+     "itemId": 33474,
+     "name": "Ancient Amani Longbow",
+     "usagePct": 16
+    },
+    {
+     "itemId": 34334,
+     "name": "Thori'dal, the Stars' Fury",
+     "usagePct": 11
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Arms Warrior Phase 5 BiS come from?",
+   "answer": "From the gear worn by 216 top-ranked Arms Warrior DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Arms Warrior items in Phase 5?",
+   "answer": "Onslaught Bracers (93%), Onslaught Treads (93%), Onslaught Belt (92%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

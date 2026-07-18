@@ -60,7 +60,7 @@ export const CLASSES: ClassDef[] = [
     specs: [
       { slug: "combat", name: "Combat", role: "Melee DPS", treeIndex: 1, pvp: true, pve: true },
       { slug: "assassination", name: "Assassination", role: "Melee DPS", treeIndex: 0, pvp: true, pve: true },
-      { slug: "subtlety", name: "Subtlety", role: "Melee DPS", treeIndex: 2, pvp: true, pve: false },
+      { slug: "subtlety", name: "Subtlety", role: "Melee DPS", treeIndex: 2, pvp: true, pve: true },
     ],
   },
   {
@@ -68,7 +68,7 @@ export const CLASSES: ClassDef[] = [
     name: "Priest",
     color: "#FFFFFF",
     specs: [
-      { slug: "discipline", name: "Discipline", role: "Healer", treeIndex: 0, pvp: true, pve: false },
+      { slug: "discipline", name: "Discipline", role: "Healer", treeIndex: 0, pvp: true, pve: true },
       { slug: "holy", name: "Holy", role: "Healer", treeIndex: 1, pvp: true, pve: true },
       { slug: "shadow", name: "Shadow", role: "Ranged DPS", treeIndex: 2, pvp: true, pve: true },
     ],
@@ -99,7 +99,7 @@ export const CLASSES: ClassDef[] = [
     color: "#9482C9",
     specs: [
       { slug: "affliction", name: "Affliction", role: "Ranged DPS", treeIndex: 0, pvp: true, pve: true },
-      { slug: "demonology", name: "Demonology", role: "Ranged DPS", treeIndex: 1, pvp: true, pve: false },
+      { slug: "demonology", name: "Demonology", role: "Ranged DPS", treeIndex: 1, pvp: true, pve: true },
       { slug: "destruction", name: "Destruction", role: "Ranged DPS", treeIndex: 2, pvp: true, pve: true },
     ],
   },

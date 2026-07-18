@@ -1,0 +1,430 @@
+{
+ "class": "druid",
+ "spec": "balance",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 372,
+ "updatedAt": "2026-05-22",
+ "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 1 snapshot aggregates 372 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 86% usage.",
+ "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "Spirit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 24266,
+    "name": "Spellstrike Hood",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29093,
+     "name": "Antlers of Malorne",
+     "usagePct": 41
+    },
+    {
+     "itemId": 28744,
+     "name": "Uni-Mind Headdress",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28530,
+    "name": "Brooch of Unquenchable Fury",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28134,
+     "name": "Brooch of Heightened Potential",
+     "usagePct": 18
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29095,
+    "name": "Pauldrons of Malorne",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 27796,
+     "name": "Mana-Etched Spaulders",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30925,
+     "name": "Spaulders of the Torn-Heart",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28726,
+     "name": "Mantle of the Mind Flayer",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28766,
+    "name": "Ruby Drape of the Mysticant",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 27981,
+     "name": "Sethekk Oracle Cloak",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 21848,
+    "name": "Spellfire Robe",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 29091,
+     "name": "Chestpiece of Malorne",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29522,
+     "name": "Windhawk Hauberk",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28602,
+     "name": "Robe of the Elder Scribes",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 24250,
+    "name": "Bracers of Havok",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 29523,
+     "name": "Windhawk Bracers",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28453,
+     "name": "Bracers of the White Stag",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 21847,
+    "name": "Spellfire Gloves",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29092,
+     "name": "Gloves of Malorne",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 21846,
+    "name": "Spellfire Belt",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 29524,
+     "name": "Windhawk Belt",
+     "usagePct": 8
+    },
+    {
+     "itemId": 24256,
+     "name": "Girdle of Ruination",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 24262,
+    "name": "Spellstrike Pants",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28517,
+    "name": "Boots of Foretelling",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 28585,
+     "name": "Ruby Slippers",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28406,
+     "name": "Sigil-Laced Boots",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28179,
+     "name": "Shattrath Jumpers",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29172,
+     "name": "Ashyen's Gift",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28793,
+    "name": "Band of Crimson Fury",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29172,
+     "name": "Ashyen's Gift",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 29
+    },
+    {
+     "itemId": 29132,
+     "name": "Scryer's Bloodgem",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29179,
+     "name": "Xi'ri's Gift",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 39
+    },
+    {
+     "itemId": 29132,
+     "name": "Scryer's Bloodgem",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 30832,
+     "name": "Gavel of Unearthed Secrets",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28633,
+     "name": "Staff of Infinite Mysteries",
+     "usagePct": 6
+    },
+    {
+     "itemId": 23554,
+     "name": "Eternium Runed Blade",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29271,
+    "name": "Talisman of Kalecgos",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 28734,
+     "name": "Jewel of Infinite Possibilities",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29273,
+     "name": "Khadgar's Knapsack",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27518,
+    "name": "Ivory Idol of the Moongoddess",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 31025,
+     "name": "Idol of the Avenger",
+     "usagePct": 11
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Balance Druid Phase 1 BiS come from?",
+   "answer": "From the gear worn by 372 top-ranked Balance Druid DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Balance Druid items in Phase 1?",
+   "answer": "Spellstrike Pants (86%), Ivory Idol of the Moongoddess (85%), Spellfire Gloves (70%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

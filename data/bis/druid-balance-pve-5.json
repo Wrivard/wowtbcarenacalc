@@ -1,0 +1,402 @@
+{
+ "class": "druid",
+ "spec": "balance",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 200,
+ "updatedAt": "2026-05-22",
+ "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 5 snapshot aggregates 200 top DPS parses from Sunwell Plateau; the highest-consensus pick is Thunderheart Bands at 94% usage.",
+ "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "Spirit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34340,
+    "name": "Dark Conjuror's Collar",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 31040,
+     "name": "Thunderheart Headguard",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34403,
+     "name": "Cover of Ursoc the Mighty",
+     "usagePct": 11
+    },
+    {
+     "itemId": 32525,
+     "name": "Cowl of the Illidari High Lord",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34204,
+    "name": "Amulet of Unfettered Magics",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 34359,
+     "name": "Pendant of Sunfire",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33281,
+     "name": "Brooch of Nature's Mercy",
+     "usagePct": 11
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31049,
+    "name": "Thunderheart Shoulderpads",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 34210,
+     "name": "Amice of the Convoker",
+     "usagePct": 30
+    },
+    {
+     "itemId": 34391,
+     "name": "Spaulders of Devastation",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30235,
+     "name": "Nordrassil Wrath-Mantle",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34242,
+    "name": "Tattered Cape of Antonidas",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 32331,
+     "name": "Cloak of the Illidari Council",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32524,
+     "name": "Shroud of the Highborne",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33591,
+     "name": "Shadowcaster's Drape",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34364,
+    "name": "Sunfire Robe",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 34232,
+     "name": "Fel Conqueror Raiments",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34399,
+     "name": "Robes of Ghostly Hatred",
+     "usagePct": 15
+    },
+    {
+     "itemId": 31043,
+     "name": "Thunderheart Vest",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34446,
+    "name": "Thunderheart Bands",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34344,
+    "name": "Handguards of Defiled Worlds",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 31035,
+     "name": "Thunderheart Handguards",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34366,
+     "name": "Sunfire Handwraps",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34407,
+     "name": "Tranquil Moonlight Wraps",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34555,
+    "name": "Thunderheart Cord",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34181,
+    "name": "Leggings of Calamity",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 34169,
+     "name": "Breeches of Natural Aggression",
+     "usagePct": 30
+    },
+    {
+     "itemId": 30916,
+     "name": "Leggings of Channeled Elements",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30234,
+     "name": "Nordrassil Wrath-Kilt",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34572,
+    "name": "Thunderheart Footwraps",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 19
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 19
+    },
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 17
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 32483,
+    "name": "The Skull of Gul'dan",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 28
+    },
+    {
+     "itemId": 34429,
+     "name": "Shifting Naaru Sliver",
+     "usagePct": 21
+    },
+    {
+     "itemId": 32486,
+     "name": "Ashtongue Talisman of Equilibrium",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 32483,
+    "name": "The Skull of Gul'dan",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 22
+    },
+    {
+     "itemId": 34429,
+     "name": "Shifting Naaru Sliver",
+     "usagePct": 17
+    },
+    {
+     "itemId": 32486,
+     "name": "Ashtongue Talisman of Equilibrium",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34336,
+    "name": "Sunflare",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 32374,
+     "name": "Zhar'doom, Greatstaff of the Devourer",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34182,
+     "name": "Grand Magister's Staff of Torrents",
+     "usagePct": 15
+    },
+    {
+     "itemId": 34176,
+     "name": "Reign of Misery",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 34179,
+    "name": "Heart of the Pit",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 30872,
+     "name": "Chronicle of Dark Secrets",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33334,
+     "name": "Fetish of the Primal Gods",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27518,
+    "name": "Ivory Idol of the Moongoddess",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 32387,
+     "name": "Idol of the Raven Goddess",
+     "usagePct": 37
+    },
+    {
+     "itemId": 33510,
+     "name": "Idol of the Unseen Moon",
+     "usagePct": 13
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Balance Druid Phase 5 BiS come from?",
+   "answer": "From the gear worn by 200 top-ranked Balance Druid DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Balance Druid items in Phase 5?",
+   "answer": "Thunderheart Bands (94%), Thunderheart Cord (94%), Thunderheart Footwraps (94%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

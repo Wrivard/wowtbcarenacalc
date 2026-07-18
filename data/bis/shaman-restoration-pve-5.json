@@ -1,0 +1,404 @@
+{
+ "class": "shaman",
+ "spec": "restoration",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 237,
+ "updatedAt": "2026-05-22",
+ "blurb": "Restoration Shaman is TBC's raid-healing multiplier: Chain Heal hits three targets per cast and Earth Shield frees a tank healer's globals, while Mana Tide bails out the whole group's healers. The phase lists below are Chain-Heal-first — bounce healing scales harder with +healing than any single-target spell. This Phase 5 snapshot aggregates 237 top healing parses from Sunwell Plateau; the highest-consensus pick is Skyshatter Boots at 89% usage.",
+ "statPriorityRationale": "Chain Heal is the entire job — +healing scales every bounce, and MP5 is the sustain stat because resto shamans cast more heals per fight than anyone else in the raid.",
+ "statPriority": [
+  "Bonus Healing",
+  "MP5",
+  "Intellect",
+  "Spirit",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34402,
+    "name": "Shroud of Chieftain Ner'zhul",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 31012,
+     "name": "Skyshatter Helmet",
+     "usagePct": 36
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33281,
+    "name": "Brooch of Nature's Mercy",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 34184,
+     "name": "Brooch of the Highborne",
+     "usagePct": 11
+    },
+    {
+     "itemId": 37929,
+     "name": "Guardian's Pendant of Reprieve",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34360,
+     "name": "Amulet of Flowing Life",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31022,
+    "name": "Skyshatter Shoulderpads",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 34208,
+     "name": "Equilibrium Epaulets",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34202,
+     "name": "Shawl of Wonderment",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32524,
+    "name": "Shroud of the Highborne",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 33592,
+     "name": "Cloak of Ancient Rituals",
+     "usagePct": 21
+    },
+    {
+     "itemId": 34205,
+     "name": "Shroud of Redeemed Souls",
+     "usagePct": 4
+    },
+    {
+     "itemId": 35324,
+     "name": "Cloak of Swift Reprieve",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34375,
+    "name": "Sun-Drenched Scale Chestguard",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 34212,
+     "name": "Sunglow Vest",
+     "usagePct": 19
+    },
+    {
+     "itemId": 31016,
+     "name": "Skyshatter Chestguard",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34365,
+     "name": "Robe of Eternal Light",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34438,
+    "name": "Skyshatter Bracers",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 32577,
+     "name": "Living Earth Bindings",
+     "usagePct": 8
+    },
+    {
+     "itemId": 32584,
+     "name": "Swiftheal Wraps",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32328,
+    "name": "Botanist's Gloves of Growth",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 34409,
+     "name": "Gauntlets of the Ancient Frostwolf",
+     "usagePct": 31
+    },
+    {
+     "itemId": 34376,
+     "name": "Sun-Drenched Scale Gloves",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34372,
+     "name": "Leather Gauntlets of the Sun",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34543,
+    "name": "Skyshatter Belt",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 30895,
+     "name": "Angelista's Sash",
+     "usagePct": 4
+    },
+    {
+     "itemId": 32258,
+     "name": "Naturalist's Preserving Cinch",
+     "usagePct": 3
+    },
+    {
+     "itemId": 32339,
+     "name": "Belt of Primal Majesty",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34383,
+    "name": "Kilt of Spiritual Reconstruction",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 31019,
+     "name": "Skyshatter Leggings",
+     "usagePct": 27
+    },
+    {
+     "itemId": 33585,
+     "name": "Achromic Trousers of the Naaru",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34565,
+    "name": "Skyshatter Boots",
+    "usagePct": 89
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 16
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 6
+    },
+    {
+     "itemId": 34166,
+     "name": "Band of Lucent Beams",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 20
+   },
+   "alternatives": [
+    {
+     "itemId": 35750,
+     "name": "Redeemer's Alchemist Stone",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 14
+    },
+    {
+     "itemId": 35326,
+     "name": "Battlemaster's Alacrity",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 35750,
+    "name": "Redeemer's Alchemist Stone",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 11
+    },
+    {
+     "itemId": 32483,
+     "name": "The Skull of Gul'dan",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34335,
+    "name": "Hammer of Sanctification",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 32500,
+     "name": "Crystal Spire of Karabor",
+     "usagePct": 28
+    },
+    {
+     "itemId": 33468,
+     "name": "Dark Blessing",
+     "usagePct": 7
+    },
+    {
+     "itemId": 34199,
+     "name": "Archon's Gavel",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 34206,
+    "name": "Book of Highborne Hymns",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 30882,
+     "name": "Bastion of Light",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33332,
+     "name": "Enamelled Disc of Mojo",
+     "usagePct": 7
+    },
+    {
+     "itemId": 34231,
+     "name": "Aegis of Angelic Fortune",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28523,
+    "name": "Totem of Healing Rains",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 33505,
+     "name": "Totem of Living Water",
+     "usagePct": 6
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Restoration Shaman Phase 5 BiS come from?",
+   "answer": "From the gear worn by 237 top-ranked Restoration Shaman healing parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Restoration Shaman items in Phase 5?",
+   "answer": "Skyshatter Boots (89%), Totem of Healing Rains (88%), Skyshatter Belt (84%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

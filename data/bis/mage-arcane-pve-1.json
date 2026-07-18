@@ -1,0 +1,435 @@
+{
+ "class": "mage",
+ "spec": "arcane",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 375,
+ "updatedAt": "2026-05-22",
+ "blurb": "Arcane Mage in raids is a burn-phase specialist: Arcane Blast stacking with Presence of Mind and evocation weaving, mana management as the actual rotation. It shines on short fights and burst checks — the gear list keeps the pool deep enough to make the burn worth it. This Phase 1 snapshot aggregates 375 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellfire Robe at 81% usage.",
+ "statPriorityRationale": "Arcane Blast stacks burn mana geometrically, so intellect is a throughput stat — your damage ceiling is your mana pool, and the list leans intellect harder than fire or frost ever would.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Intellect",
+  "Spell Crit",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29076,
+    "name": "Collar of the Aldor",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 24266,
+     "name": "Spellstrike Hood",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28762,
+    "name": "Adornment of Stolen Souls",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28134,
+     "name": "Brooch of Heightened Potential",
+     "usagePct": 11
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29079,
+    "name": "Pauldrons of the Aldor",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 27796,
+     "name": "Mana-Etched Spaulders",
+     "usagePct": 10
+    },
+    {
+     "itemId": 22983,
+     "name": "Rime Covered Mantle",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28726,
+     "name": "Mantle of the Mind Flayer",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 30
+    },
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 10
+    },
+    {
+     "itemId": 23050,
+     "name": "Cloak of the Necropolis",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 21848,
+    "name": "Spellfire Robe",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 28602,
+     "name": "Robe of the Elder Scribes",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29077,
+     "name": "Vestments of the Aldor",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28411,
+    "name": "General's Silk Cuffs",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 29002,
+     "name": "Marshal's Silk Cuffs",
+     "usagePct": 23
+    },
+    {
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 18
+    },
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 21847,
+    "name": "Spellfire Gloves",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 29080,
+     "name": "Gloves of the Aldor",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 21846,
+    "name": "Spellfire Belt",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 24256,
+     "name": "Girdle of Ruination",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 28594,
+    "name": "Trial-Fire Trousers",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "usagePct": 31
+    },
+    {
+     "itemId": 29078,
+     "name": "Legwraps of the Aldor",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30734,
+     "name": "Leggings of the Seventh Circle",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28517,
+    "name": "Boots of Foretelling",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 28585,
+     "name": "Ruby Slippers",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28406,
+     "name": "Sigil-Laced Boots",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28670,
+     "name": "Boots of the Infernal Coven",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29286,
+     "name": "Violet Signet",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29286,
+     "name": "Violet Signet",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 19339,
+     "name": "Mind Quickening Gem",
+     "usagePct": 11
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 16
+    },
+    {
+     "itemId": 19339,
+     "name": "Mind Quickening Gem",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 28802,
+     "name": "Bloodmaw Magus-Blade",
+     "usagePct": 26
+    },
+    {
+     "itemId": 29155,
+     "name": "Stormcaller",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29153,
+     "name": "Blade of the Archmage",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29271,
+    "name": "Talisman of Kalecgos",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28734,
+     "name": "Jewel of Infinite Possibilities",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29269,
+     "name": "Sapphiron's Wing Bone",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29350,
+     "name": "The Black Stalk",
+     "usagePct": 10
+    },
+    {
+     "itemId": 22821,
+     "name": "Doomfinger",
+     "usagePct": 5
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Arcane Mage Phase 1 BiS come from?",
+   "answer": "From the gear worn by 375 top-ranked Arcane Mage DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Arcane Mage items in Phase 1?",
+   "answer": "Spellfire Robe (81%), Spellfire Gloves (81%), Spellfire Belt (81%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

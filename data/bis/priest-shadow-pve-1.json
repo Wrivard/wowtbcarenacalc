@@ -1,0 +1,376 @@
+{
+ "class": "priest",
+ "spec": "shadow",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 341,
+ "updatedAt": "2026-05-22",
+ "blurb": "Shadow Priest is the mana engine of every TBC caster group: Vampiric Touch converts your damage into the warlocks' mana bars, Misery buffs their hit. Your own rotation is dot upkeep plus Mind Flay filler, and the phase lists below balance personal scaling against the buff-bot mandate. This Phase 1 snapshot aggregates 341 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Frozen Shadoweave Shoulders at 95% usage.",
+ "statPriorityRationale": "Shadow's raid value is Vampiric Touch mana for the caster group — you hit-cap first because a resisted VT is a raid-wide regen loss, then stack shadow damage that scales every dot tick and Mind Flay channel.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Shadow Damage",
+  "Spell Crit",
+  "Haste",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 24266,
+    "name": "Spellstrike Hood",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 28804,
+     "name": "Collar of Cho'gall",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30666,
+    "name": "Ritssyn's Lost Pendant",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 18814,
+     "name": "Choker of the Fire Lord",
+     "usagePct": 5
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 4
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 21869,
+    "name": "Frozen Shadoweave Shoulders",
+    "usagePct": 95
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28570,
+    "name": "Shadow-Cloak of Dalaran",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 25043,
+     "name": "Amber Cape",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 10
+    },
+    {
+     "itemId": 24252,
+     "name": "Cloak of the Black Void",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 21871,
+    "name": "Frozen Shadoweave Robe",
+    "usagePct": 95
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 24250,
+    "name": "Bracers of Havok",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 24684,
+     "name": "Archmage Bracelets",
+     "usagePct": 11
+    },
+    {
+     "itemId": 24692,
+     "name": "Elementalist Bracelets",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28507,
+    "name": "Handwraps of Flowing Thought",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 30
+    },
+    {
+     "itemId": 29317,
+     "name": "Tempest's Touch",
+     "usagePct": 5
+    },
+    {
+     "itemId": 24688,
+     "name": "Elementalist Gloves",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28799,
+    "name": "Belt of Divine Inspiration",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 24256,
+     "name": "Girdle of Ruination",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "usagePct": 4
+    },
+    {
+     "itemId": 27843,
+     "name": "Glyph-Lined Sash",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 24262,
+    "name": "Spellstrike Pants",
+    "usagePct": 91
+   },
+   "alternatives": [
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 21870,
+    "name": "Frozen Shadoweave Boots",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 21709,
+    "name": "Ring of the Fallen God",
+    "usagePct": 22
+   },
+   "alternatives": [
+    {
+     "itemId": 29352,
+     "name": "Cobalt Band of Tyrigosa",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29352,
+    "name": "Cobalt Band of Tyrigosa",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 21709,
+     "name": "Ring of the Fallen God",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 14
+    },
+    {
+     "itemId": 23031,
+     "name": "Band of the Inevitable",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 28789,
+     "name": "Eye of Magtheridon",
+     "usagePct": 17
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 13
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28789,
+     "name": "Eye of Magtheridon",
+     "usagePct": 21
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 18
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 30832,
+     "name": "Gavel of Unearthed Secrets",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30723,
+     "name": "Talon of the Tempest",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28633,
+     "name": "Staff of Infinite Mysteries",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29272,
+    "name": "Orb of the Soul-Eater",
+    "usagePct": 91
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 25295,
+    "name": "Flawless Wand",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 29350,
+     "name": "The Black Stalk",
+     "usagePct": 16
+    },
+    {
+     "itemId": 25294,
+     "name": "Dragonscale Wand",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 11
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Shadow Priest Phase 1 BiS come from?",
+   "answer": "From the gear worn by 341 top-ranked Shadow Priest DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Shadow Priest items in Phase 1?",
+   "answer": "Frozen Shadoweave Shoulders (95%), Frozen Shadoweave Robe (95%), Frozen Shadoweave Boots (94%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

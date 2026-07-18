@@ -1,0 +1,439 @@
+{
+ "class": "shaman",
+ "spec": "enhancement",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 355,
+ "updatedAt": "2026-05-22",
+ "blurb": "Enhancement Shaman is the heart of the TBC melee group: Windfury Totem multiplies every warrior's and rogue's output, Unleashed Rage adds AP on your crits, and your own stormstrike-windfury rolls put up real numbers. Melee groups are built around this spec — gear it like it matters. This Phase 1 snapshot aggregates 355 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Totem of the Astral Winds at 94% usage.",
+ "statPriorityRationale": "Enhancement raids for Windfury Totem and Unleashed Rage — your own dual-wield windfury procs want the hit cap badly, and after it attack power scales both you and (through Unleashed Rage) your whole melee group on every crit.",
+ "statPriority": [
+  "Hit Rating",
+  "Attack Power",
+  "Agility",
+  "Crit Rating",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29040,
+    "name": "Cyclone Helm",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 32087,
+     "name": "Mask of the Deceiver",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28224,
+     "name": "Wastewalker Helm",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28182,
+     "name": "Helm of the Claw",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 8
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28745,
+     "name": "Mithril Chain of Heroism",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 28755,
+    "name": "Bladed Shoulderpads of the Merciless",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 29043,
+     "name": "Cyclone Shoulderplates",
+     "usagePct": 41
+    },
+    {
+     "itemId": 27797,
+     "name": "Wastewalker Shoulderpads",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 24259,
+    "name": "Vengeance Wrap",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29515,
+    "name": "Ebon Netherscale Breastplate",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 29525,
+     "name": "Primalstrike Vest",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28601,
+     "name": "Chestguard of the Conniver",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29038,
+     "name": "Cyclone Breastplate",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29517,
+    "name": "Ebon Netherscale Bracers",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 28514,
+     "name": "Bracers of Maliciousness",
+     "usagePct": 26
+    },
+    {
+     "itemId": 29527,
+     "name": "Primalstrike Bracers",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28454,
+     "name": "Stalker's War Bands",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28776,
+    "name": "Liar's Tongue Gloves",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29039,
+     "name": "Cyclone Gauntlets",
+     "usagePct": 8
+    },
+    {
+     "itemId": 25685,
+     "name": "Fel Leather Gloves",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 29516,
+    "name": "Ebon Netherscale Belt",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28828,
+     "name": "Gronn-Stitched Girdle",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29526,
+     "name": "Primalstrike Belt",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28750,
+     "name": "Girdle of Treachery",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 28741,
+    "name": "Skulker's Greaves",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 31544,
+     "name": "Clefthoof Hide Leggings",
+     "usagePct": 19
+    },
+    {
+     "itemId": 30538,
+     "name": "Midnight Legguards",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30257,
+     "name": "Shattrath Leggings",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28746,
+     "name": "Fiend Slayer Boots",
+     "usagePct": 21
+    },
+    {
+     "itemId": 25686,
+     "name": "Fel Leather Boots",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28610,
+     "name": "Ferocious Swift-Kickers",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29283,
+    "name": "Violet Signet of the Master Assassin",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28288,
+     "name": "Abacus of Violent Odds",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28288,
+     "name": "Abacus of Violent Odds",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28767,
+    "name": "The Decapitator",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 28438,
+     "name": "Dragonmaw",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28432,
+     "name": "Black Planar Edge",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28657,
+     "name": "Fool's Bane",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 27872,
+    "name": "The Harvester of Souls",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 28920,
+     "name": "High Warlord's Cleaver",
+     "usagePct": 15
+    },
+    {
+     "itemId": 31139,
+     "name": "Fist of Reckoning",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28308,
+     "name": "Gladiator's Cleaver",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27815,
+    "name": "Totem of the Astral Winds",
+    "usagePct": 94
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Enhancement Shaman Phase 1 BiS come from?",
+   "answer": "From the gear worn by 355 top-ranked Enhancement Shaman DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Enhancement Shaman items in Phase 1?",
+   "answer": "Totem of the Astral Winds (94%), Choker of Vile Intent (71%), Vengeance Wrap (59%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

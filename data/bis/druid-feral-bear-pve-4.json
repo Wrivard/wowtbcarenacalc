@@ -1,0 +1,384 @@
+{
+ "class": "druid",
+ "spec": "feral-bear",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 347,
+ "updatedAt": "2026-05-22",
+ "blurb": "Feral Bear is TBC's stat-stick tank: the biggest health pool and armor total in the game, trading crush-blocking for sheer effective health. Uncrittable via resilience or defense, then armor and stamina forever — with the bonus that your offset pieces are cat DPS gear. This Phase 4 snapshot aggregates 347 top DPS parses from Zul'Aman; the highest-consensus pick is Vindicator's Dragonhide Bracers at 96% usage.",
+ "statPriorityRationale": "Bears can't block crushes, so they win by making hits small: armor cap at 35k+, a health pool warriors can't match, and agility that doubles as dodge and crit — the mitigation math is different from every other tank.",
+ "statPriority": [
+  "Armor",
+  "Stamina",
+  "Defense/Resilience (crit immunity)",
+  "Agility",
+  "Expertise"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 33672,
+    "name": "Vengeful Gladiator's Dragonhide Helm",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 31039,
+     "name": "Thunderheart Cover",
+     "usagePct": 35
+    },
+    {
+     "itemId": 8345,
+     "name": "Wolfshead Helm",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33296,
+    "name": "Brooch of Deftness",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 33923,
+     "name": "Vindicator's Pendant of Triumph",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 14
+    },
+    {
+     "itemId": 24092,
+     "name": "Pendant of Frozen Flame",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31048,
+    "name": "Thunderheart Pauldrons",
+    "usagePct": 90
+   },
+   "alternatives": [
+    {
+     "itemId": 31971,
+     "name": "Merciless Gladiator's Dragonhide Spaulders",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30230,
+     "name": "Nordrassil Feral-Mantle",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 33484,
+    "name": "Dory's Embrace",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 21
+    },
+    {
+     "itemId": 31341,
+     "name": "Wyrmcultist's Cloak",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31042,
+    "name": "Thunderheart Chestguard",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 30776,
+     "name": "Inferno Hardened Chestguard",
+     "usagePct": 26
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33881,
+    "name": "Vindicator's Dragonhide Bracers",
+    "usagePct": 96
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31034,
+    "name": "Thunderheart Gauntlets",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 30780,
+     "name": "Inferno Hardened Gloves",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 7
+    },
+    {
+     "itemId": 33879,
+     "name": "Vindicator's Dragonhide Belt",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29500,
+     "name": "Blastguard Belt",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31044,
+    "name": "Thunderheart Leggings",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 30778,
+     "name": "Inferno Hardened Leggings",
+     "usagePct": 27
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 33880,
+    "name": "Vindicator's Dragonhide Boots",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 30779,
+     "name": "Inferno Hardened Boots",
+     "usagePct": 27
+    },
+    {
+     "itemId": 32593,
+     "name": "Treads of the Den Mother",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32366,
+     "name": "Shadowmaster's Boots",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 25
+    },
+    {
+     "itemId": 31746,
+     "name": "Phoenix-Fire Band",
+     "usagePct": 17
+    },
+    {
+     "itemId": 32266,
+     "name": "Ring of Deceitful Intent",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 27
+    },
+    {
+     "itemId": 32266,
+     "name": "Ring of Deceitful Intent",
+     "usagePct": 16
+    },
+    {
+     "itemId": 31746,
+     "name": "Phoenix-Fire Band",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30627,
+    "name": "Tsunami Talisman",
+    "usagePct": 22
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 19
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 17
+    },
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30627,
+    "name": "Tsunami Talisman",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 33716,
+    "name": "Vengeful Gladiator's Staff",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 30883,
+     "name": "Pillar of Ferocity",
+     "usagePct": 31
+    },
+    {
+     "itemId": 32014,
+     "name": "Merciless Gladiator's Maul",
+     "usagePct": 28
+    },
+    {
+     "itemId": 33465,
+     "name": "Staff of Primal Fury",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32387,
+    "name": "Idol of the Raven Goddess",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 29390,
+     "name": "Everbloom Idol",
+     "usagePct": 21
+    },
+    {
+     "itemId": 32257,
+     "name": "Idol of the White Stag",
+     "usagePct": 11
+    },
+    {
+     "itemId": 23198,
+     "name": "Idol of Brutality",
+     "usagePct": 10
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Feral (Bear) Druid Phase 4 BiS come from?",
+   "answer": "From the gear worn by 347 top-ranked Feral (Bear) Druid DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Feral (Bear) Druid items in Phase 4?",
+   "answer": "Vindicator's Dragonhide Bracers (96%), Thunderheart Pauldrons (90%), Belt of One-Hundred Deaths (76%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

@@ -12,8 +12,8 @@ import type { Phase } from "@/lib/classes";
 
 export type BisSlotName =
   | "Head" | "Neck" | "Shoulders" | "Back" | "Chest" | "Wrist" | "Hands"
-  | "Waist" | "Legs" | "Feet" | "Ring" | "Trinket" | "MainHand" | "OffHand"
-  | "Ranged";
+  | "Waist" | "Legs" | "Feet" | "Ring" | "Ring1" | "Ring2" | "Trinket"
+  | "Trinket1" | "Trinket2" | "MainHand" | "OffHand" | "Ranged";
 
 export interface BisItemRef {
   itemId: number;

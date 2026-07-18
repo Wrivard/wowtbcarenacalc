@@ -1,0 +1,425 @@
+{
+ "class": "paladin",
+ "spec": "retribution",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 333,
+ "updatedAt": "2026-05-22",
+ "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 1 snapshot aggregates 333 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Libram of Avengement at 86% usage.",
+ "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Attack Power"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29073,
+    "name": "Justicar Crown",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 32087,
+     "name": "Mask of the Deceiver",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28182,
+     "name": "Helm of the Claw",
+     "usagePct": 3
+    },
+    {
+     "itemId": 28775,
+     "name": "Thundering Greathelm",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28745,
+    "name": "Mithril Chain of Heroism",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 35
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29119,
+     "name": "Haramad's Bargain",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29075,
+    "name": "Justicar Shoulderplates",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 33173,
+     "name": "Ragesteel Shoulders",
+     "usagePct": 37
+    },
+    {
+     "itemId": 28755,
+     "name": "Bladed Shoulderpads of the Merciless",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30740,
+     "name": "Ripfiend Shoulderplates",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 24259,
+    "name": "Vengeance Wrap",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29071,
+    "name": "Justicar Breastplate",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 23522,
+     "name": "Ragesteel Breastplate",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28403,
+     "name": "Doomplate Chestguard",
+     "usagePct": 5
+    },
+    {
+     "itemId": 28601,
+     "name": "Chestguard of the Conniver",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 23537,
+     "name": "Black Felsteel Bracers",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28514,
+     "name": "Bracers of Maliciousness",
+     "usagePct": 6
+    },
+    {
+     "itemId": 27918,
+     "name": "Bands of Syth",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30644,
+    "name": "Grips of Deftness",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 30341,
+     "name": "Flesh Handler's Gauntlets",
+     "usagePct": 23
+    },
+    {
+     "itemId": 28824,
+     "name": "Gauntlets of Martial Perfection",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29072,
+     "name": "Justicar Gauntlets",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28779,
+    "name": "Girdle of the Endless Pit",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 27985,
+     "name": "Deathforge Girdle",
+     "usagePct": 14
+    },
+    {
+     "itemId": 28656,
+     "name": "Girdle of the Prowler",
+     "usagePct": 5
+    },
+    {
+     "itemId": 28778,
+     "name": "Terror Pit Girdle",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30257,
+    "name": "Shattrath Leggings",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 31544,
+     "name": "Clefthoof Hide Leggings",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29074,
+     "name": "Justicar Greaves",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28608,
+    "name": "Ironstriders of Urgency",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 28176,
+     "name": "Sha'tari Wrought Greaves",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28746,
+     "name": "Fiend Slayer Boots",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29177,
+     "name": "A'dal's Command",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28288,
+     "name": "Abacus of Violent Odds",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 32
+    },
+    {
+     "itemId": 28288,
+     "name": "Abacus of Violent Odds",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28429,
+    "name": "Lionheart Champion",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 28441,
+     "name": "Deep Thunder",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28773,
+     "name": "Gorehowl",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28800,
+     "name": "Hammer of the Naaru",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27484,
+    "name": "Libram of Avengement",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 23203,
+     "name": "Libram of Fervor",
+     "usagePct": 5
+    },
+    {
+     "itemId": 27917,
+     "name": "Libram of the Eternal Rest",
+     "usagePct": 3
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Retribution Paladin Phase 1 BiS come from?",
+   "answer": "From the gear worn by 333 top-ranked Retribution Paladin DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Retribution Paladin items in Phase 1?",
+   "answer": "Libram of Avengement (86%), Lionheart Champion (81%), Justicar Crown (79%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

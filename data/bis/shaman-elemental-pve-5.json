@@ -1,0 +1,377 @@
+{
+ "class": "shaman",
+ "spec": "elemental",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 199,
+ "updatedAt": "2026-05-22",
+ "blurb": "Elemental Shaman pairs top-tier caster totems (Wrath of Air, Totem of Wrath) with a Lightning Bolt rotation simple enough to never miss a global. You are the caster group's second buff-bot after the shadow priest — and with the gear below, a genuine damage threat on top. This Phase 5 snapshot aggregates 199 top DPS parses from Sunwell Plateau; the highest-consensus pick is Skyshatter Bands at 89% usage.",
+ "statPriorityRationale": "Lightning Bolt is 85% of your casts, so the list is one-dimensional on purpose: cap hit, then stack spell damage — crit follows naturally from Tidal Mastery and feeds Elemental Focus clearcasting.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34332,
+    "name": "Cowl of Gul'dan",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 31014,
+     "name": "Skyshatter Headguard",
+     "usagePct": 18
+    },
+    {
+     "itemId": 34340,
+     "name": "Dark Conjuror's Collar",
+     "usagePct": 4
+    },
+    {
+     "itemId": 32525,
+     "name": "Cowl of the Illidari High Lord",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34359,
+    "name": "Pendant of Sunfire",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34204,
+     "name": "Amulet of Unfettered Magics",
+     "usagePct": 14
+    },
+    {
+     "itemId": 37928,
+     "name": "Guardian's Pendant of Subjugation",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31023,
+    "name": "Skyshatter Mantle",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 34390,
+     "name": "Erupting Epaulets",
+     "usagePct": 42
+    },
+    {
+     "itemId": 34210,
+     "name": "Amice of the Convoker",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34242,
+    "name": "Tattered Cape of Antonidas",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 32331,
+     "name": "Cloak of the Illidari Council",
+     "usagePct": 35
+    },
+    {
+     "itemId": 32524,
+     "name": "Shroud of the Highborne",
+     "usagePct": 8
+    },
+    {
+     "itemId": 33591,
+     "name": "Shadowcaster's Drape",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34396,
+    "name": "Garments of Crashing Shores",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 31017,
+     "name": "Skyshatter Breastplate",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34232,
+     "name": "Fel Conqueror Raiments",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34437,
+    "name": "Skyshatter Bands",
+    "usagePct": 89
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34350,
+    "name": "Gauntlets of the Ancient Shadowmoon",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 31008,
+     "name": "Skyshatter Gauntlets",
+     "usagePct": 24
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34542,
+    "name": "Skyshatter Cord",
+    "usagePct": 89
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34186,
+    "name": "Chain Links of the Tumultuous Storm",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 31020,
+     "name": "Skyshatter Legguards",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30916,
+     "name": "Leggings of Channeled Elements",
+     "usagePct": 5
+    },
+    {
+     "itemId": 34169,
+     "name": "Breeches of Natural Aggression",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34566,
+    "name": "Skyshatter Treads",
+    "usagePct": 89
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 29
+    },
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29305,
+     "name": "Band of the Eternal Sage",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29305,
+     "name": "Band of the Eternal Sage",
+     "usagePct": 17
+    },
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 33829,
+    "name": "Hex Shrunken Head",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 32483,
+     "name": "The Skull of Gul'dan",
+     "usagePct": 19
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 18
+    },
+    {
+     "itemId": 34429,
+     "name": "Shifting Naaru Sliver",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28785,
+    "name": "The Lightning Capacitor",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 32483,
+     "name": "The Skull of Gul'dan",
+     "usagePct": 24
+    },
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 17
+    },
+    {
+     "itemId": 34429,
+     "name": "Shifting Naaru Sliver",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34336,
+    "name": "Sunflare",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 34176,
+     "name": "Reign of Misery",
+     "usagePct": 27
+    },
+    {
+     "itemId": 32374,
+     "name": "Zhar'doom, Greatstaff of the Devourer",
+     "usagePct": 18
+    },
+    {
+     "itemId": 32237,
+     "name": "The Maelstrom's Fury",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30909,
+    "name": "Antonidas' Aegis of Rapt Concentration",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 34179,
+     "name": "Heart of the Pit",
+     "usagePct": 26
+    },
+    {
+     "itemId": 33334,
+     "name": "Fetish of the Primal Gods",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32330,
+    "name": "Totem of Ancestral Guidance",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 33506,
+     "name": "Skycall Totem",
+     "usagePct": 11
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Elemental Shaman Phase 5 BiS come from?",
+   "answer": "From the gear worn by 199 top-ranked Elemental Shaman DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Elemental Shaman items in Phase 5?",
+   "answer": "Skyshatter Bands (89%), Skyshatter Cord (89%), Skyshatter Treads (89%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "class": "rogue",
+ "spec": "combat",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 187,
+ "updatedAt": "2026-05-22",
+ "blurb": "Combat Swords is the standard raiding rogue of TBC: Sinister Strike, five-point Slice and Dice forever, Adrenaline Rush + Blade Flurry on cooldown. It is the most gear-forgiving melee spec in the game, and the phase lists below are the reason 'rogue' and 'swords' were synonyms for two years. This Phase 5 snapshot aggregates 187 top DPS parses from Sunwell Plateau; the highest-consensus pick is Slayer's Bracers at 97% usage.",
+ "statPriorityRationale": "Combat's white-damage engine makes weapon-skill consistency king — hit and expertise before everything, because Sinister Strike dodges bleed rage-equivalent energy and break Slice uptime.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Agility",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34244,
+    "name": "Duplicitous Guise",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34358,
+    "name": "Hard Khorium Choker",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 34177,
+     "name": "Clutch of Demise",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 9
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31030,
+    "name": "Slayer's Shoulderpads",
+    "usagePct": 91
+   },
+   "alternatives": [
+    {
+     "itemId": 34195,
+     "name": "Shoulderpads of Vehemence",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34241,
+    "name": "Cloak of Unforgivable Sin",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 26
+    },
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34397,
+    "name": "Bladed Chaos Tunic",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 31028,
+     "name": "Slayer's Chestguard",
+     "usagePct": 19
+    },
+    {
+     "itemId": 34369,
+     "name": "Carapace of Sun and Shadow",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34448,
+    "name": "Slayer's Bracers",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34370,
+    "name": "Gloves of Immortal Dusk",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34558,
+    "name": "Slayer's Belt",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34188,
+    "name": "Leggings of the Immortal Night",
+    "usagePct": 82
+   },
+   "alternatives": [
+    {
+     "itemId": 31029,
+     "name": "Slayer's Legguards",
+     "usagePct": 7
+    },
+    {
+     "itemId": 34928,
+     "name": "Trousers of the Scryers' Retainer",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34575,
+    "name": "Slayer's Boots",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 26
+    },
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 28
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 17
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 34427,
+    "name": "Blackened Naaru Sliver",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 38
+    },
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 30
+    },
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32837,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 96
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32838,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 94
+   },
+   "alternatives": [
+    {
+     "itemId": 32369,
+     "name": "Blade of Savagery",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34196,
+    "name": "Golden Bow of Quel'Thalas",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 34334,
+     "name": "Thori'dal, the Stars' Fury",
+     "usagePct": 12
+    },
+    {
+     "itemId": 34349,
+     "name": "Blade of Life's Inevitability",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34892,
+     "name": "Crossbow of Relentless Strikes",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Combat Rogue Phase 5 BiS come from?",
+   "answer": "From the gear worn by 187 top-ranked Combat Rogue DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Combat Rogue items in Phase 5?",
+   "answer": "Slayer's Bracers (97%), Gloves of Immortal Dusk (97%), Slayer's Belt (97%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

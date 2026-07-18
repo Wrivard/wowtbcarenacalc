@@ -1,0 +1,445 @@
+{
+ "class": "warrior",
+ "spec": "arms",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 316,
+ "updatedAt": "2026-05-22",
+ "blurb": "Arms Warrior earns its raid spot with Blood Frenzy — a flat 4% physical damage buff for every melee in the group — while slam-weaving between swings for respectable personal numbers. The gear plan chases 2.2%+ weapon-speed two-handers and hit/expertise caps before raw strength. This Phase 4 snapshot aggregates 316 top DPS parses from Zul'Aman; the highest-consensus pick is Onslaught Shoulderblades at 86% usage.",
+ "statPriorityRationale": "Arms in raids is a support DPS built around keeping Blood Frenzy's 4% physical damage buff active — you cap hit and expertise first because a dodged Mortal Strike is a rage crisis, then stack strength for slam-weave throughput.",
+ "statPriority": [
+  "Hit Rating (9%)",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Armor Penetration"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30972,
+    "name": "Onslaught Battle-Helm",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32373,
+     "name": "Helm of the Illidari Shatterer",
+     "usagePct": 22
+    },
+    {
+     "itemId": 30120,
+     "name": "Destroyer Battle-Helm",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 32591,
+    "name": "Choker of Serrated Blades",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 12
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30022,
+     "name": "Pendant of the Perilous",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30979,
+    "name": "Onslaught Shoulderblades",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 30122,
+     "name": "Destroyer Shoulderblades",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30055,
+     "name": "Shoulderpads of the Stranger",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30866,
+     "name": "Blood-Stained Pauldrons",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 33484,
+    "name": "Dory's Embrace",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 25
+    },
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30975,
+    "name": "Onslaught Breastplate",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 33728,
+     "name": "Vengeful Gladiator's Plate Chestpiece",
+     "usagePct": 6
+    },
+    {
+     "itemId": 30118,
+     "name": "Destroyer Breastplate",
+     "usagePct": 5
+    },
+    {
+     "itemId": 28485,
+     "name": "Bulwark of the Ancient Kings",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 30863,
+    "name": "Deadly Cuffs",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30861,
+     "name": "Furious Shackles",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 32278,
+    "name": "Grips of Silent Justice",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 30969,
+     "name": "Onslaught Gauntlets",
+     "usagePct": 41
+    },
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "usagePct": 29
+    },
+    {
+     "itemId": 33211,
+     "name": "Bladeangel's Money Belt",
+     "usagePct": 4
+    },
+    {
+     "itemId": 33331,
+     "name": "Chain of Unleashed Rage",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 32341,
+    "name": "Leggings of Divine Retribution",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 30977,
+     "name": "Onslaught Greaves",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30903,
+     "name": "Legguards of Endless Rage",
+     "usagePct": 6
+    },
+    {
+     "itemId": 33731,
+     "name": "Vengeful Gladiator's Plate Legguards",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32345,
+    "name": "Dreadboots of the Legion",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "usagePct": 17
+    },
+    {
+     "itemId": 33303,
+     "name": "Skullshatter Warboots",
+     "usagePct": 3
+    },
+    {
+     "itemId": 33812,
+     "name": "Vindicator's Plate Greaves",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32335,
+    "name": "Unstoppable Aggressor's Ring",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 26
+    },
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32335,
+    "name": "Unstoppable Aggressor's Ring",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 21
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 20
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30902,
+    "name": "Cataclysm's Edge",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 32837,
+     "name": "Warglaive of Azzinoth",
+     "usagePct": 33
+    },
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "usagePct": 5
+    },
+    {
+     "itemId": 33762,
+     "name": "Vengeful Gladiator's Slicer",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32838,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 32369,
+     "name": "Blade of Savagery",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33474,
+    "name": "Ancient Amani Longbow",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32326,
+     "name": "Twisted Blades of Zarak",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
+     "usagePct": 8
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Arms Warrior Phase 4 BiS come from?",
+   "answer": "From the gear worn by 316 top-ranked Arms Warrior DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Arms Warrior items in Phase 4?",
+   "answer": "Onslaught Shoulderblades (86%), Onslaught Breastplate (83%), Leggings of Divine Retribution (72%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

@@ -1,0 +1,392 @@
+{
+ "class": "hunter",
+ "spec": "marksmanship",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 164,
+ "updatedAt": "2026-05-22",
+ "blurb": "Marksmanship Hunter brings Trueshot Aura — flat attack power for your whole group — at a modest personal DPS cost versus BM. Raids run one for the buff; the list below is tuned for steady-shot uptime and mana longevity across full raid nights. This Phase 5 snapshot aggregates 164 top DPS parses from Sunwell Plateau; the highest-consensus pick is Gronnstalker's Bracers at 99% usage.",
+ "statPriorityRationale": "Marksmanship trades pet damage for Trueshot Aura's raid AP — you gear like BM (hit cap, then agility) but your value is partly the buff, so consistency beats burst in stat choices.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Attack Power",
+  "Crit Rating",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34333,
+    "name": "Coif of Alleria",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 32
+    },
+    {
+     "itemId": 34992,
+     "name": "Brutal Gladiator's Chain Helm",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34358,
+    "name": "Hard Khorium Choker",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 34177,
+     "name": "Clutch of Demise",
+     "usagePct": 26
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31006,
+    "name": "Gronnstalker's Spaulders",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 34194,
+     "name": "Mantle of the Golden Forest",
+     "usagePct": 19
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34241,
+    "name": "Cloak of Unforgivable Sin",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 22
+    },
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34397,
+    "name": "Bladed Chaos Tunic",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 31004,
+     "name": "Gronnstalker's Chestguard",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34228,
+     "name": "Vicious Hawkstrider Hauberk",
+     "usagePct": 24
+    },
+    {
+     "itemId": 34369,
+     "name": "Carapace of Sun and Shadow",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34443,
+    "name": "Gronnstalker's Bracers",
+    "usagePct": 99
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34343,
+    "name": "Thalassian Ranger Gauntlets",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 34370,
+     "name": "Gloves of Immortal Dusk",
+     "usagePct": 38
+    },
+    {
+     "itemId": 31001,
+     "name": "Gronnstalker's Gloves",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34549,
+    "name": "Gronnstalker's Belt",
+    "usagePct": 99
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34188,
+    "name": "Leggings of the Immortal Night",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 34168,
+     "name": "Starstalker Legguards",
+     "usagePct": 33
+    },
+    {
+     "itemId": 31005,
+     "name": "Gronnstalker's Leggings",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30900,
+     "name": "Bow-Stitched Leggings",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34570,
+    "name": "Gronnstalker's Boots",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34887,
+    "name": "Angelista's Revenge",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 18
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34361,
+    "name": "Hard Khorium Band",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 18
+    },
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 33831,
+    "name": "Berserker's Call",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 24
+    },
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 17
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 27
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 25
+    },
+    {
+     "itemId": 32505,
+     "name": "Madness of the Betrayer",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34183,
+    "name": "Shivering Felspine",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 34197,
+     "name": "Shiv of Exsanguination",
+     "usagePct": 16
+    },
+    {
+     "itemId": 34331,
+     "name": "Hand of the Deceiver",
+     "usagePct": 10
+    },
+    {
+     "itemId": 34247,
+     "name": "Apolyon, the Soul-Render",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 34197,
+    "name": "Shiv of Exsanguination",
+    "usagePct": 16
+   },
+   "alternatives": [
+    {
+     "itemId": 34203,
+     "name": "Grip of Mannoroth",
+     "usagePct": 7
+    },
+    {
+     "itemId": 33389,
+     "name": "Dagger of Bad Mojo",
+     "usagePct": 6
+    },
+    {
+     "itemId": 34329,
+     "name": "Crux of the Apocalypse",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34334,
+    "name": "Thori'dal, the Stars' Fury",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 34196,
+     "name": "Golden Bow of Quel'Thalas",
+     "usagePct": 24
+    },
+    {
+     "itemId": 30906,
+     "name": "Bristleblitz Striker",
+     "usagePct": 6
+    },
+    {
+     "itemId": 32336,
+     "name": "Black Bow of the Betrayer",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Marksmanship Hunter Phase 5 BiS come from?",
+   "answer": "From the gear worn by 164 top-ranked Marksmanship Hunter DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Marksmanship Hunter items in Phase 5?",
+   "answer": "Gronnstalker's Bracers (99%), Gronnstalker's Belt (99%), Gronnstalker's Boots (97%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

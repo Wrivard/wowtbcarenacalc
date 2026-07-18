@@ -1,0 +1,367 @@
+{
+ "class": "mage",
+ "spec": "fire",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 189,
+ "updatedAt": "2026-05-22",
+ "blurb": "Fire Mage is the scaling monster of TBC casters: Fireball spam with Ignite munching crits into rolling burn damage, Combustion aligning with trinkets for windows that top meters. Weak in blues, terrifying in Sunwell gear — the phase progression below tells that story. This Phase 5 snapshot aggregates 189 top DPS parses from Sunwell Plateau; the highest-consensus pick is Bracers of the Tempest at 93% usage.",
+ "statPriorityRationale": "Fire scales crit double through Ignite rollovers and Combustion — after the hit cap, crit rating is nearly equal in value to raw spell damage, a weighting unique to this spec.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Haste",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34340,
+    "name": "Dark Conjuror's Collar",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 32525,
+     "name": "Cowl of the Illidari High Lord",
+     "usagePct": 15
+    },
+    {
+     "itemId": 31056,
+     "name": "Cowl of the Tempest",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 34204,
+    "name": "Amulet of Unfettered Magics",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 34359,
+     "name": "Pendant of Sunfire",
+     "usagePct": 19
+    },
+    {
+     "itemId": 32589,
+     "name": "Hellfire-Encased Pendant",
+     "usagePct": 15
+    },
+    {
+     "itemId": 37928,
+     "name": "Guardian's Pendant of Subjugation",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31059,
+    "name": "Mantle of the Tempest",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 34210,
+     "name": "Amice of the Convoker",
+     "usagePct": 43
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 34242,
+    "name": "Tattered Cape of Antonidas",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 32331,
+     "name": "Cloak of the Illidari Council",
+     "usagePct": 18
+    },
+    {
+     "itemId": 33591,
+     "name": "Shadowcaster's Drape",
+     "usagePct": 5
+    },
+    {
+     "itemId": 32524,
+     "name": "Shroud of the Highborne",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 34364,
+    "name": "Sunfire Robe",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 34232,
+     "name": "Fel Conqueror Raiments",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34399,
+     "name": "Robes of Ghostly Hatred",
+     "usagePct": 10
+    },
+    {
+     "itemId": 31057,
+     "name": "Robes of the Tempest",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34447,
+    "name": "Bracers of the Tempest",
+    "usagePct": 93
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34344,
+    "name": "Handguards of Defiled Worlds",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 31055,
+     "name": "Gloves of the Tempest",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34366,
+     "name": "Sunfire Handwraps",
+     "usagePct": 20
+    },
+    {
+     "itemId": 34406,
+     "name": "Gloves of Tyri's Power",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34557,
+    "name": "Belt of the Tempest",
+    "usagePct": 93
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34181,
+    "name": "Leggings of Calamity",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 31058,
+     "name": "Leggings of the Tempest",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30916,
+     "name": "Leggings of Channeled Elements",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34574,
+    "name": "Boots of the Tempest",
+    "usagePct": 92
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 24
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 15
+    },
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 34230,
+     "name": "Ring of Omnipotence",
+     "usagePct": 19
+    },
+    {
+     "itemId": 32527,
+     "name": "Ring of Ancient Knowledge",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33497,
+     "name": "Mana Attuned Band",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 34429,
+    "name": "Shifting Naaru Sliver",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 32483,
+     "name": "The Skull of Gul'dan",
+     "usagePct": 35
+    },
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 32483,
+    "name": "The Skull of Gul'dan",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 34429,
+     "name": "Shifting Naaru Sliver",
+     "usagePct": 21
+    },
+    {
+     "itemId": 33829,
+     "name": "Hex Shrunken Head",
+     "usagePct": 18
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34336,
+    "name": "Sunflare",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 34182,
+     "name": "Grand Magister's Staff of Torrents",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32374,
+     "name": "Zhar'doom, Greatstaff of the Devourer",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30910,
+     "name": "Tempest of Chaos",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30872,
+    "name": "Chronicle of Dark Secrets",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 34179,
+     "name": "Heart of the Pit",
+     "usagePct": 17
+    },
+    {
+     "itemId": 33334,
+     "name": "Fetish of the Primal Gods",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34347,
+    "name": "Wand of the Demonsoul",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 29982,
+     "name": "Wand of the Forgotten Star",
+     "usagePct": 3
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Fire Mage Phase 5 BiS come from?",
+   "answer": "From the gear worn by 189 top-ranked Fire Mage DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Fire Mage items in Phase 5?",
+   "answer": "Bracers of the Tempest (93%), Belt of the Tempest (93%), Boots of the Tempest (92%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

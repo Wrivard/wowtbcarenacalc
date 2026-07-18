@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
-import { CLASSES } from "@/lib/classes";
+import { CLASSES, allSpecs } from "@/lib/classes";
 import { filledBisRoutes } from "@/lib/bis";
-import { BUILDS } from "@/data/builds";
+import { getBuild } from "@/data/builds";
 
 // Enumerates every indexable route from lib/classes.ts + the data
 // registries. BiS/talent pages whose dataset isn't curated yet render
@@ -52,10 +52,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Curated talent build pages.
-  for (const build of BUILDS) {
+  // Talent build pages (curated + generated) — one per spec with a build.
+  for (const { cls, spec } of allSpecs()) {
+    const build = getBuild(cls.slug, spec.slug);
+    if (!build) continue;
     entries.push({
-      url: `${SITE_URL}/${build.classSlug}/${build.specSlug}/talents`,
+      url: `${SITE_URL}/${cls.slug}/${spec.slug}/talents`,
       lastModified: new Date(build.updatedAt),
       changeFrequency: "monthly",
       priority: 0.7,

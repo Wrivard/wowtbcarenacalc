@@ -1,0 +1,326 @@
+{
+ "class": "rogue",
+ "spec": "combat",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 297,
+ "updatedAt": "2026-05-22",
+ "blurb": "Combat Swords is the standard raiding rogue of TBC: Sinister Strike, five-point Slice and Dice forever, Adrenaline Rush + Blade Flurry on cooldown. It is the most gear-forgiving melee spec in the game, and the phase lists below are the reason 'rogue' and 'swords' were synonyms for two years. This Phase 4 snapshot aggregates 297 top DPS parses from Zul'Aman; the highest-consensus pick is Slayer's Handguards at 99% usage.",
+ "statPriorityRationale": "Combat's white-damage engine makes weapon-skill consistency king — hit and expertise before everything, because Sinister Strike dodges bleed rage-equivalent energy and break Slice uptime.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Agility",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31027,
+    "name": "Slayer's Helm",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 30
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 32260,
+    "name": "Choker of Endless Nightmares",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 16
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 8
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31030,
+    "name": "Slayer's Shoulderpads",
+    "usagePct": 98
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32323,
+    "name": "Shadowmoon Destroyer's Drape",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 26
+    },
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 13
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31028,
+    "name": "Slayer's Chestguard",
+    "usagePct": 98
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32324,
+    "name": "Insidious Bands",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 32580,
+     "name": "Swiftstrike Bracers",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30863,
+     "name": "Deadly Cuffs",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31026,
+    "name": "Slayer's Handguards",
+    "usagePct": 99
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 22
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31029,
+    "name": "Slayer's Legguards",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32366,
+    "name": "Shadowmaster's Boots",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 33222,
+     "name": "Nyn'jah's Tabi Boots",
+     "usagePct": 46
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 29301,
+     "name": "Band of the Eternal Champion",
+     "usagePct": 24
+    },
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 28
+    },
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 64
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 33
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32837,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 80
+   },
+   "alternatives": [
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "usagePct": 10
+    },
+    {
+     "itemId": 33762,
+     "name": "Vengeful Gladiator's Slicer",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32838,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 32369,
+     "name": "Blade of Savagery",
+     "usagePct": 20
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 91
+   },
+   "alternatives": [
+    {
+     "itemId": 32326,
+     "name": "Twisted Blades of Zarak",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Combat Rogue Phase 4 BiS come from?",
+   "answer": "From the gear worn by 297 top-ranked Combat Rogue DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Combat Rogue items in Phase 4?",
+   "answer": "Slayer's Handguards (99%), Slayer's Shoulderpads (98%), Slayer's Chestguard (98%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

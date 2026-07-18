@@ -1,0 +1,415 @@
+{
+ "class": "druid",
+ "spec": "feral-bear",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 233,
+ "updatedAt": "2026-05-22",
+ "blurb": "Feral Bear is TBC's stat-stick tank: the biggest health pool and armor total in the game, trading crush-blocking for sheer effective health. Uncrittable via resilience or defense, then armor and stamina forever — with the bonus that your offset pieces are cat DPS gear. This Phase 3 snapshot aggregates 233 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Vindicator's Dragonhide Bracers at 91% usage.",
+ "statPriorityRationale": "Bears can't block crushes, so they win by making hits small: armor cap at 35k+, a health pool warriors can't match, and agility that doubles as dodge and crit — the mitigation math is different from every other tank.",
+ "statPriority": [
+  "Armor",
+  "Stamina",
+  "Defense/Resilience (crit immunity)",
+  "Agility",
+  "Expertise"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31039,
+    "name": "Thunderheart Cover",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 30228,
+     "name": "Nordrassil Headdress",
+     "usagePct": 29
+    },
+    {
+     "itemId": 8345,
+     "name": "Wolfshead Helm",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33672,
+     "name": "Vengeful Gladiator's Dragonhide Helm",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33923,
+    "name": "Vindicator's Pendant of Triumph",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 12
+    },
+    {
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "usagePct": 9
+    },
+    {
+     "itemId": 31074,
+     "name": "Amulet of the Torn-Heart",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31048,
+    "name": "Thunderheart Pauldrons",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 30230,
+     "name": "Nordrassil Feral-Mantle",
+     "usagePct": 43
+    },
+    {
+     "itemId": 29100,
+     "name": "Mantle of Malorne",
+     "usagePct": 4
+    },
+    {
+     "itemId": 31971,
+     "name": "Merciless Gladiator's Dragonhide Spaulders",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28660,
+    "name": "Gilded Thorium Cloak",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 19
+    },
+    {
+     "itemId": 31341,
+     "name": "Wyrmcultist's Cloak",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30222,
+    "name": "Nordrassil Chestplate",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 31042,
+     "name": "Thunderheart Chestguard",
+     "usagePct": 39
+    },
+    {
+     "itemId": 30776,
+     "name": "Inferno Hardened Chestguard",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33881,
+    "name": "Vindicator's Dragonhide Bracers",
+    "usagePct": 91
+   },
+   "alternatives": [
+    {
+     "itemId": 32810,
+     "name": "Veteran's Dragonhide Bracers",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31034,
+    "name": "Thunderheart Gauntlets",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "usagePct": 20
+    },
+    {
+     "itemId": 30780,
+     "name": "Inferno Hardened Gloves",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30223,
+     "name": "Nordrassil Handgrips",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 30042,
+     "name": "Belt of Natural Power",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 7
+    },
+    {
+     "itemId": 33879,
+     "name": "Vindicator's Dragonhide Belt",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31044,
+    "name": "Thunderheart Leggings",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 30229,
+     "name": "Nordrassil Feral-Kilt",
+     "usagePct": 38
+    },
+    {
+     "itemId": 30778,
+     "name": "Inferno Hardened Leggings",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 33880,
+    "name": "Vindicator's Dragonhide Boots",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 30779,
+     "name": "Inferno Hardened Boots",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32790,
+     "name": "Veteran's Leather Boots",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30041,
+     "name": "Boots of Natural Grace",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 29279,
+     "name": "Violet Signet of the Great Protector",
+     "usagePct": 20
+    },
+    {
+     "itemId": 31746,
+     "name": "Phoenix-Fire Band",
+     "usagePct": 10
+    },
+    {
+     "itemId": 32266,
+     "name": "Ring of Deceitful Intent",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 29279,
+     "name": "Violet Signet of the Great Protector",
+     "usagePct": 20
+    },
+    {
+     "itemId": 32266,
+     "name": "Ring of Deceitful Intent",
+     "usagePct": 8
+    },
+    {
+     "itemId": 31746,
+     "name": "Phoenix-Fire Band",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30627,
+     "name": "Tsunami Talisman",
+     "usagePct": 18
+    },
+    {
+     "itemId": 23206,
+     "name": "Mark of the Champion",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30627,
+    "name": "Tsunami Talisman",
+    "usagePct": 23
+   },
+   "alternatives": [
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28579,
+     "name": "Romulo's Poison Vial",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32014,
+    "name": "Merciless Gladiator's Maul",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 30021,
+     "name": "Wildfury Greatstaff",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30883,
+     "name": "Pillar of Ferocity",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28658,
+     "name": "Terestian's Stranglestaff",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 32387,
+    "name": "Idol of the Raven Goddess",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 23198,
+     "name": "Idol of Brutality",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29390,
+     "name": "Everbloom Idol",
+     "usagePct": 9
+    },
+    {
+     "itemId": 32257,
+     "name": "Idol of the White Stag",
+     "usagePct": 5
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Feral (Bear) Druid Phase 3 BiS come from?",
+   "answer": "From the gear worn by 233 top-ranked Feral (Bear) Druid DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Feral (Bear) Druid items in Phase 3?",
+   "answer": "Vindicator's Dragonhide Bracers (91%), Idol of the Raven Goddess (74%), Belt of One-Hundred Deaths (72%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

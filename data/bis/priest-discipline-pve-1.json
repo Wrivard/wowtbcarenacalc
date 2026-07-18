@@ -1,0 +1,440 @@
+{
+ "class": "priest",
+ "spec": "discipline",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 330,
+ "updatedAt": "2026-05-22",
+ "blurb": "Discipline Priest in PvE is the utility healer: Power Infusion on the top caster every two minutes, Pain Suppression for tank saves, shields that make spike damage disappear. Parses undersell it — the list below keeps your mana deep enough to spend on other people's cooldowns. This Phase 1 snapshot aggregates 330 top healing parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Primal Mooncloth Belt at 67% usage.",
+ "statPriorityRationale": "Raid disc is a mana battery and single-target shield bot — Power Infusion on a warlock is worth more than your own casts some fights, so intellect and MP5 rank unusually high next to +healing.",
+ "statPriority": [
+  "Bonus Healing",
+  "Intellect",
+  "MP5",
+  "Spirit",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29049,
+    "name": "Light-Collar of the Incarnate",
+    "usagePct": 55
+   },
+   "alternatives": [
+    {
+     "itemId": 24264,
+     "name": "Whitemend Hood",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28756,
+     "name": "Headdress of the High Potentate",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32090,
+     "name": "Cowl of Naaru Blessings",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28731,
+    "name": "Shining Chain of the Afterworld",
+    "usagePct": 32
+   },
+   "alternatives": [
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29374,
+     "name": "Necklace of Eternal Hope",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 21874,
+    "name": "Primal Mooncloth Shoulders",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 28612,
+     "name": "Pauldrons of the Solace-Giver",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29054,
+     "name": "Light-Mantle of the Incarnate",
+     "usagePct": 8
+    },
+    {
+     "itemId": 22515,
+     "name": "Shoulderpads of Faith",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 29354,
+     "name": "Light-Touched Stole of Altruism",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28582,
+     "name": "Red Riding Hood's Cloak",
+     "usagePct": 6
+    },
+    {
+     "itemId": 22960,
+     "name": "Cloak of Suturing",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 21875,
+    "name": "Primal Mooncloth Robe",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 29050,
+     "name": "Robes of the Incarnate",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28578,
+     "name": "Masquerade Gown",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28230,
+     "name": "Hallowed Garments",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28511,
+    "name": "Bands of Indwelling",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 29183,
+     "name": "Bindings of the Timewalker",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29249,
+     "name": "Bands of the Benevolent",
+     "usagePct": 13
+    },
+    {
+     "itemId": 22519,
+     "name": "Bindings of Faith",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28508,
+    "name": "Gloves of Saintly Blessings",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 29055,
+     "name": "Handwraps of the Incarnate",
+     "usagePct": 41
+    },
+    {
+     "itemId": 22517,
+     "name": "Gloves of Faith",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 21873,
+    "name": "Primal Mooncloth Belt",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 28652,
+     "name": "Cincture of Will",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29250,
+     "name": "Cord of Sanctification",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 28742,
+    "name": "Pantaloons of Repentance",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 30543,
+     "name": "Pontifex Kilt",
+     "usagePct": 18
+    },
+    {
+     "itemId": 24261,
+     "name": "Whitemend Pants",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30727,
+     "name": "Gilded Trousers of Benediction",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28663,
+    "name": "Boots of the Incorrupt",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 29251,
+     "name": "Boots of the Pious",
+     "usagePct": 11
+    },
+    {
+     "itemId": 22516,
+     "name": "Sandals of Faith",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 13
+    },
+    {
+     "itemId": 23061,
+     "name": "Ring of Faith",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28661,
+     "name": "Mender's Heart-Ring",
+     "usagePct": 10
+    },
+    {
+     "itemId": 23061,
+     "name": "Ring of Faith",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "usagePct": 12
+    },
+    {
+     "itemId": 19395,
+     "name": "Rejuvenating Gem",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28771,
+    "name": "Light's Justice",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 28522,
+     "name": "Shard of the Virtuous",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28782,
+     "name": "Crystalheart Pulse-Staff",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28604,
+     "name": "Nightstaff of the Everliving",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29170,
+    "name": "Windcaller's Orb",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 29274,
+     "name": "Tears of Heaven",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28728,
+     "name": "Aran's Soothing Sapphire",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28588,
+    "name": "Blue Diamond Witchwand",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 27885,
+     "name": "Soul-Wand of the Aldor",
+     "usagePct": 29
+    },
+    {
+     "itemId": 23009,
+     "name": "Wand of the Whispering Dead",
+     "usagePct": 4
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Discipline Priest Phase 1 BiS come from?",
+   "answer": "From the gear worn by 330 top-ranked Discipline Priest healing parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Discipline Priest items in Phase 1?",
+   "answer": "Primal Mooncloth Belt (67%), Boots of the Incorrupt (67%), Primal Mooncloth Shoulders (66%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

@@ -1,0 +1,393 @@
+{
+ "class": "rogue",
+ "spec": "subtlety",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 255,
+ "updatedAt": "2026-05-22",
+ "blurb": "Subtlety (Hemo) Rogue is the niche raid pick: Hemorrhage's bleed-amplifying debuff buffs every warrior, rogue and feral hitting your target, at a real cost to your own parse. The players running it in top logs are debuff mules by choice — and this list is how they keep the personal damage respectable anyway. This Phase 4 snapshot aggregates 255 top DPS parses from Zul'Aman; the highest-consensus pick is Slayer's Shoulderpads at 95% usage.",
+ "statPriorityRationale": "Hemo builds trade personal white damage for the Hemorrhage debuff feeding the raid's physical damage — agility leads after the hit cap because your finisher crits are where the personal numbers hide.",
+ "statPriority": [
+  "Hit Rating",
+  "Agility",
+  "Attack Power",
+  "Expertise",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31027,
+    "name": "Slayer's Helm",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 26
+    },
+    {
+     "itemId": 30146,
+     "name": "Deathmantle Helm",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 32260,
+    "name": "Choker of Endless Nightmares",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus' Pendant of Mayhem",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31030,
+    "name": "Slayer's Shoulderpads",
+    "usagePct": 95
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32323,
+    "name": "Shadowmoon Destroyer's Drape",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 31
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 12
+    },
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31028,
+    "name": "Slayer's Chestguard",
+    "usagePct": 94
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32324,
+    "name": "Insidious Bands",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 32580,
+     "name": "Swiftstrike Bracers",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30863,
+     "name": "Deadly Cuffs",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31026,
+    "name": "Slayer's Handguards",
+    "usagePct": 94
+   },
+   "alternatives": [
+    {
+     "itemId": 30145,
+     "name": "Deathmantle Handguards",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 30
+    },
+    {
+     "itemId": 32265,
+     "name": "Shadow-Walker's Cord",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30879,
+     "name": "Don Alejandro's Money Belt",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31029,
+    "name": "Slayer's Legguards",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 30148,
+     "name": "Deathmantle Legguards",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30898,
+     "name": "Shady Dealer's Pantaloons",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32366,
+    "name": "Shadowmaster's Boots",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 33222,
+     "name": "Nyn'jah's Tabi Boots",
+     "usagePct": 31
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 20
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32266,
+     "name": "Ring of Deceitful Intent",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29301,
+    "name": "Band of the Eternal Champion",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 32497,
+     "name": "Stormrage Signet Ring",
+     "usagePct": 22
+    },
+    {
+     "itemId": 33496,
+     "name": "Signet of Primal Wrath",
+     "usagePct": 16
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 33
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 5
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 37
+    },
+    {
+     "itemId": 32492,
+     "name": "Ashtongue Talisman of Lethality",
+     "usagePct": 5
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32837,
+    "name": "Warglaive of Azzinoth",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "usagePct": 24
+    },
+    {
+     "itemId": 33762,
+     "name": "Vengeful Gladiator's Slicer",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29996,
+     "name": "Rod of the Sun King",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32369,
+    "name": "Blade of Savagery",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 32838,
+     "name": "Warglaive of Azzinoth",
+     "usagePct": 35
+    },
+    {
+     "itemId": 33734,
+     "name": "Vengeful Gladiator's Quickblade",
+     "usagePct": 9
+    },
+    {
+     "itemId": 32027,
+     "name": "Merciless Gladiator's Quickblade",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 84
+   },
+   "alternatives": [
+    {
+     "itemId": 32326,
+     "name": "Twisted Blades of Zarak",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Subtlety Rogue Phase 4 BiS come from?",
+   "answer": "From the gear worn by 255 top-ranked Subtlety Rogue DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Subtlety Rogue items in Phase 4?",
+   "answer": "Slayer's Shoulderpads (95%), Slayer's Chestguard (94%), Slayer's Handguards (94%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

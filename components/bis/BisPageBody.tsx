@@ -72,6 +72,7 @@ export function BisPageBody({
       </section>
 
       {/* Gems */}
+      {list.gems.length > 0 && (
       <section className="mt-12" aria-labelledby={`${specKey}-gems`}>
         <H2>
           <span id={`${specKey}-gems`}>Gems</span>
@@ -89,8 +90,10 @@ export function BisPageBody({
           ))}
         </ul>
       </section>
+      )}
 
       {/* Enchants */}
+      {list.enchants.length > 0 && (
       <section className="mt-12" aria-labelledby={`${specKey}-enchants`}>
         <H2>
           <span id={`${specKey}-enchants`}>Enchants</span>
@@ -112,6 +115,7 @@ export function BisPageBody({
           ))}
         </div>
       </section>
+      )}
 
       <AdUnit slot={SLOT_INCONTENT} className="mt-12" />
 

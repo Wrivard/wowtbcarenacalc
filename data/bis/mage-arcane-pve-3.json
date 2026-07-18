@@ -1,0 +1,394 @@
+{
+ "class": "mage",
+ "spec": "arcane",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 268,
+ "updatedAt": "2026-05-22",
+ "blurb": "Arcane Mage in raids is a burn-phase specialist: Arcane Blast stacking with Presence of Mind and evocation weaving, mana management as the actual rotation. It shines on short fights and burst checks — the gear list keeps the pool deep enough to make the burn worth it. This Phase 3 snapshot aggregates 268 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Robes of Tirisfal at 97% usage.",
+ "statPriorityRationale": "Arcane Blast stacks burn mana geometrically, so intellect is a throughput stat — your damage ceiling is your mana pool, and the list leans intellect harder than fire or frost ever would.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Intellect",
+  "Spell Crit",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30206,
+    "name": "Cowl of Tirisfal",
+    "usagePct": 93
+   },
+   "alternatives": [
+    {
+     "itemId": 32494,
+     "name": "Destruction Holo-Gogs",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 88
+   },
+   "alternatives": [
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 4
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 4
+    },
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30210,
+    "name": "Mantle of Tirisfal",
+    "usagePct": 96
+   },
+   "alternatives": [
+    {
+     "itemId": 32587,
+     "name": "Mantle of Nimble Thought",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 37
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 8
+    },
+    {
+     "itemId": 32331,
+     "name": "Cloak of the Illidari Council",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30196,
+    "name": "Robes of Tirisfal",
+    "usagePct": 97
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33913,
+    "name": "Vindicator's Silk Cuffs",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 30870,
+     "name": "Cuffs of Devastation",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 17
+    },
+    {
+     "itemId": 32586,
+     "name": "Bracers of Nimble Thought",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29987,
+    "name": "Gauntlets of the Sun King",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 30205,
+     "name": "Gloves of Tirisfal",
+     "usagePct": 42
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 30888,
+     "name": "Anetheron's Noose",
+     "usagePct": 15
+    },
+    {
+     "itemId": 21846,
+     "name": "Spellfire Belt",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30064,
+     "name": "Cord of Screaming Terrors",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30207,
+    "name": "Leggings of Tirisfal",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 31058,
+     "name": "Leggings of the Tempest",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30067,
+    "name": "Velvet Boots of the Guardian",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 15
+    },
+    {
+     "itemId": 32239,
+     "name": "Slippers of the Seacaller",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30037,
+     "name": "Boots of Blasting",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 29305,
+     "name": "Band of the Eternal Sage",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29303,
+     "name": "Band of Eternity",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 29303,
+     "name": "Band of Eternity",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29304,
+     "name": "Band of Eternity",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29305,
+     "name": "Band of the Eternal Sage",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "usagePct": 29
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 22
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30720,
+    "name": "Serpent-Coil Braid",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 22
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 12
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29988,
+    "name": "The Nexus Key",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 32374,
+     "name": "Zhar'doom, Greatstaff of the Devourer",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29271,
+    "name": "Talisman of Kalecgos",
+    "usagePct": 7
+   },
+   "alternatives": [
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 29982,
+     "name": "Wand of the Forgotten Star",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 6
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Arcane Mage Phase 3 BiS come from?",
+   "answer": "From the gear worn by 268 top-ranked Arcane Mage DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Arcane Mage items in Phase 3?",
+   "answer": "Robes of Tirisfal (97%), Mantle of Tirisfal (96%), Cowl of Tirisfal (93%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

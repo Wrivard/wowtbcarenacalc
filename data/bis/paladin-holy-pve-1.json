@@ -1,0 +1,450 @@
+{
+ "class": "paladin",
+ "spec": "holy",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 350,
+ "updatedAt": "2026-05-22",
+ "blurb": "Holy Paladin is the tank-healing anchor of TBC raids: massive, mana-efficient Holy Lights aimed at one target while beacon-less single-target triage decides progression pulls. Gear is +healing and crit first — Illumination turns every crit into free mana. This Phase 1 snapshot aggregates 350 top healing parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Justicar Diadem at 71% usage.",
+ "statPriorityRationale": "Illumination refunds mana on crits, making crit rating a regen stat — holy paladins uniquely value it alongside intellect, and raw +healing scales the Holy Light bombs that define the role.",
+ "statPriority": [
+  "Bonus Healing",
+  "Intellect",
+  "Crit Rating",
+  "MP5",
+  "Haste"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29061,
+    "name": "Justicar Diadem",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 32084,
+     "name": "Helmet of the Steadfast Champion",
+     "usagePct": 8
+    },
+    {
+     "itemId": 27790,
+     "name": "Mask of Penance",
+     "usagePct": 3
+    },
+    {
+     "itemId": 30728,
+     "name": "Fathom-Helm of the Deeps",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29374,
+    "name": "Necklace of Eternal Hope",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "usagePct": 9
+    },
+    {
+     "itemId": 35509,
+     "name": "Amulet of Glacial Tranquility",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 28666,
+    "name": "Pauldrons of the Justice-Seeker",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 29064,
+     "name": "Justicar Pauldrons",
+     "usagePct": 30
+    },
+    {
+     "itemId": 21874,
+     "name": "Primal Mooncloth Shoulders",
+     "usagePct": 7
+    },
+    {
+     "itemId": 28631,
+     "name": "Dragon-Quake Shoulderguards",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 28582,
+     "name": "Red Riding Hood's Cloak",
+     "usagePct": 11
+    },
+    {
+     "itemId": 31329,
+     "name": "Lifegiving Cloak",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29354,
+     "name": "Light-Touched Stole of Altruism",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29062,
+    "name": "Justicar Chestpiece",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 28662,
+     "name": "Breastplate of the Lightbinder",
+     "usagePct": 29
+    },
+    {
+     "itemId": 21875,
+     "name": "Primal Mooncloth Robe",
+     "usagePct": 8
+    },
+    {
+     "itemId": 28735,
+     "name": "Earthblood Chestguard",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28512,
+    "name": "Bracers of Justice",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 23539,
+     "name": "Blessed Bracers",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28503,
+     "name": "Whirlwind Bracers",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29183,
+     "name": "Bindings of the Timewalker",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28505,
+    "name": "Gauntlets of Renewed Hope",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 29065,
+     "name": "Justicar Gloves",
+     "usagePct": 31
+    },
+    {
+     "itemId": 28520,
+     "name": "Gloves of Centering",
+     "usagePct": 7
+    },
+    {
+     "itemId": 31614,
+     "name": "Gladiator's Ornamented Gloves",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28733,
+    "name": "Girdle of Truth",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 21873,
+     "name": "Primal Mooncloth Belt",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28567,
+     "name": "Belt of Gale Force",
+     "usagePct": 5
+    },
+    {
+     "itemId": 27548,
+     "name": "Girdle of Many Blessings",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 28748,
+    "name": "Legplates of the Innocent",
+    "usagePct": 63
+   },
+   "alternatives": [
+    {
+     "itemId": 28751,
+     "name": "Heart-Flame Leggings",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28591,
+     "name": "Earthsoul Leggings",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29063,
+     "name": "Justicar Leggings",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28569,
+    "name": "Boots of Valiance",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 28752,
+     "name": "Forestlord Striders",
+     "usagePct": 29
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 21
+    },
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29373,
+     "name": "Band of Halos",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 24
+   },
+   "alternatives": [
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29373,
+     "name": "Band of Halos",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 28727,
+     "name": "Pendant of the Violet Eye",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 13
+    },
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 28727,
+     "name": "Pendant of the Violet Eye",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28771,
+    "name": "Light's Justice",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 28522,
+     "name": "Shard of the Virtuous",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29175,
+     "name": "Gavel of Pure Light",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29353,
+     "name": "Shockwave Truncheon",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29458,
+    "name": "Aegis of the Vindicator",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 28754,
+     "name": "Triptych Shield of the Ancients",
+     "usagePct": 25
+    },
+    {
+     "itemId": 29267,
+     "name": "Light-Bearer's Faith Shield",
+     "usagePct": 17
+    },
+    {
+     "itemId": 22819,
+     "name": "Shield of Condemnation",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28592,
+    "name": "Libram of Souls Redeemed",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 25644,
+     "name": "Blessed Book of Nagrand",
+     "usagePct": 27
+    },
+    {
+     "itemId": 28296,
+     "name": "Libram of the Lightbringer",
+     "usagePct": 24
+    },
+    {
+     "itemId": 23006,
+     "name": "Libram of Light",
+     "usagePct": 11
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Holy Paladin Phase 1 BiS come from?",
+   "answer": "From the gear worn by 350 top-ranked Holy Paladin healing parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Holy Paladin items in Phase 1?",
+   "answer": "Justicar Diadem (71%), Legplates of the Innocent (63%), Girdle of Truth (62%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

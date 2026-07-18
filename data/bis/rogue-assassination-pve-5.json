@@ -1,0 +1,382 @@
+{
+ "class": "rogue",
+ "spec": "assassination",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 150,
+ "updatedAt": "2026-05-22",
+ "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 5 snapshot aggregates 150 top DPS parses from Sunwell Plateau; the highest-consensus pick is Slayer's Boots at 90% usage.",
+ "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Agility",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34244,
+    "name": "Duplicitous Guise",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 32235,
+     "name": "Cursed Vision of Sargeras",
+     "usagePct": 22
+    },
+    {
+     "itemId": 31027,
+     "name": "Slayer's Helm",
+     "usagePct": 12
+    },
+    {
+     "itemId": 34353,
+     "name": "Quad Deathblow X44 Goggles",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 32260,
+    "name": "Choker of Endless Nightmares",
+    "usagePct": 31
+   },
+   "alternatives": [
+    {
+     "itemId": 34177,
+     "name": "Clutch of Demise",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34358,
+     "name": "Hard Khorium Choker",
+     "usagePct": 23
+    },
+    {
+     "itemId": 32591,
+     "name": "Choker of Serrated Blades",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31030,
+    "name": "Slayer's Shoulderpads",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 34195,
+     "name": "Shoulderpads of Vehemence",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32323,
+    "name": "Shadowmoon Destroyer's Drape",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 34241,
+     "name": "Cloak of Unforgivable Sin",
+     "usagePct": 26
+    },
+    {
+     "itemId": 33590,
+     "name": "Cloak of Fiends",
+     "usagePct": 14
+    },
+    {
+     "itemId": 33484,
+     "name": "Dory's Embrace",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31028,
+    "name": "Slayer's Chestguard",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 34397,
+     "name": "Bladed Chaos Tunic",
+     "usagePct": 23
+    },
+    {
+     "itemId": 34369,
+     "name": "Carapace of Sun and Shadow",
+     "usagePct": 21
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34448,
+    "name": "Slayer's Bracers",
+    "usagePct": 89
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34370,
+    "name": "Gloves of Immortal Dusk",
+    "usagePct": 87
+   },
+   "alternatives": [
+    {
+     "itemId": 31026,
+     "name": "Slayer's Handguards",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34558,
+    "name": "Slayer's Belt",
+    "usagePct": 89
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31029,
+    "name": "Slayer's Legguards",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 34188,
+     "name": "Leggings of the Immortal Night",
+     "usagePct": 35
+    },
+    {
+     "itemId": 34928,
+     "name": "Trousers of the Scryers' Retainer",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34575,
+    "name": "Slayer's Boots",
+    "usagePct": 90
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 25
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 13
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 25
+   },
+   "alternatives": [
+    {
+     "itemId": 34361,
+     "name": "Hard Khorium Band",
+     "usagePct": 25
+    },
+    {
+     "itemId": 34887,
+     "name": "Angelista's Revenge",
+     "usagePct": 16
+    },
+    {
+     "itemId": 34189,
+     "name": "Band of Ruinous Delight",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 28
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 21
+    },
+    {
+     "itemId": 32492,
+     "name": "Ashtongue Talisman of Lethality",
+     "usagePct": 13
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 34472,
+     "name": "Shard of Contempt",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34427,
+     "name": "Blackened Naaru Sliver",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34329,
+    "name": "Crux of the Apocalypse",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 32471,
+     "name": "Shard of Azzinoth",
+     "usagePct": 14
+    },
+    {
+     "itemId": 32837,
+     "name": "Warglaive of Azzinoth",
+     "usagePct": 9
+    },
+    {
+     "itemId": 34197,
+     "name": "Shiv of Exsanguination",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 34329,
+    "name": "Crux of the Apocalypse",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 34197,
+     "name": "Shiv of Exsanguination",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32471,
+     "name": "Shard of Azzinoth",
+     "usagePct": 13
+    },
+    {
+     "itemId": 32838,
+     "name": "Warglaive of Azzinoth",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34349,
+    "name": "Blade of Life's Inevitability",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 34196,
+     "name": "Golden Bow of Quel'Thalas",
+     "usagePct": 27
+    },
+    {
+     "itemId": 29949,
+     "name": "Arcanite Steam-Pistol",
+     "usagePct": 11
+    },
+    {
+     "itemId": 34334,
+     "name": "Thori'dal, the Stars' Fury",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Assassination Rogue Phase 5 BiS come from?",
+   "answer": "From the gear worn by 150 top-ranked Assassination Rogue DPS parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Assassination Rogue items in Phase 5?",
+   "answer": "Slayer's Boots (90%), Slayer's Bracers (89%), Slayer's Belt (89%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

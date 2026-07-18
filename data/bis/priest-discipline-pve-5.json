@@ -1,0 +1,425 @@
+{
+ "class": "priest",
+ "spec": "discipline",
+ "content": "pve",
+ "phase": 5,
+ "sampleSize": 204,
+ "updatedAt": "2026-05-22",
+ "blurb": "Discipline Priest in PvE is the utility healer: Power Infusion on the top caster every two minutes, Pain Suppression for tank saves, shields that make spike damage disappear. Parses undersell it — the list below keeps your mana deep enough to spend on other people's cooldowns. This Phase 5 snapshot aggregates 204 top healing parses from Sunwell Plateau; the highest-consensus pick is Wand of Cleansing Light at 85% usage.",
+ "statPriorityRationale": "Raid disc is a mana battery and single-target shield bot — Power Infusion on a warlock is worth more than your own casts some fights, so intellect and MP5 rank unusually high next to +healing.",
+ "statPriority": [
+  "Bonus Healing",
+  "Intellect",
+  "MP5",
+  "Spirit",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30152,
+    "name": "Cowl of the Avatar",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 34339,
+     "name": "Cowl of Light's Purity",
+     "usagePct": 38
+    },
+    {
+     "itemId": 31063,
+     "name": "Cowl of Absolution",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33281,
+    "name": "Brooch of Nature's Mercy",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 34184,
+     "name": "Brooch of the Highborne",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "usagePct": 3
+    },
+    {
+     "itemId": 32370,
+     "name": "Nadina's Pendant of Purity",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30154,
+    "name": "Mantle of the Avatar",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 34202,
+     "name": "Shawl of Wonderment",
+     "usagePct": 30
+    },
+    {
+     "itemId": 31069,
+     "name": "Mantle of Absolution",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 32524,
+    "name": "Shroud of the Highborne",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 32337,
+     "name": "Shroud of Forgiveness",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 17
+    },
+    {
+     "itemId": 33592,
+     "name": "Cloak of Ancient Rituals",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30150,
+    "name": "Vestments of the Avatar",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 34233,
+     "name": "Robes of Faltered Light",
+     "usagePct": 19
+    },
+    {
+     "itemId": 34365,
+     "name": "Robe of Eternal Light",
+     "usagePct": 18
+    },
+    {
+     "itemId": 31066,
+     "name": "Vestments of Absolution",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 34435,
+    "name": "Cuffs of Absolution",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 32584,
+     "name": "Swiftheal Wraps",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30871,
+     "name": "Bracers of Martyrdom",
+     "usagePct": 8
+    },
+    {
+     "itemId": 22519,
+     "name": "Bindings of Faith",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30151,
+    "name": "Gloves of the Avatar",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 34342,
+     "name": "Handguards of the Dawn",
+     "usagePct": 27
+    },
+    {
+     "itemId": 34367,
+     "name": "Hands of Eternal Light",
+     "usagePct": 9
+    },
+    {
+     "itemId": 31060,
+     "name": "Gloves of Absolution",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 34527,
+    "name": "Belt of Absolution",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 32519,
+     "name": "Belt of Divine Guidance",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30895,
+     "name": "Angelista's Sash",
+     "usagePct": 10
+    },
+    {
+     "itemId": 30036,
+     "name": "Belt of the Long Road",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30153,
+    "name": "Breeches of the Avatar",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 34170,
+     "name": "Pantaloons of Calming Strife",
+     "usagePct": 18
+    },
+    {
+     "itemId": 30912,
+     "name": "Leggings of Eternity",
+     "usagePct": 11
+    },
+    {
+     "itemId": 31068,
+     "name": "Breeches of Absolution",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 34562,
+    "name": "Boots of Absolution",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 32609,
+     "name": "Boots of the Divine Light",
+     "usagePct": 22
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 35733,
+     "name": "Ring of Harmonic Beauty",
+     "usagePct": 16
+    },
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 12
+    },
+    {
+     "itemId": 33498,
+     "name": "Signet of the Quiet Forest",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 32528,
+    "name": "Blessed Band of Karabor",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 34363,
+     "name": "Ring of Flowing Life",
+     "usagePct": 23
+    },
+    {
+     "itemId": 35733,
+     "name": "Ring of Harmonic Beauty",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29309,
+     "name": "Band of the Eternal Restorer",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 18
+   },
+   "alternatives": [
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 15
+    },
+    {
+     "itemId": 35750,
+     "name": "Redeemer's Alchemist Stone",
+     "usagePct": 15
+    },
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 35750,
+    "name": "Redeemer's Alchemist Stone",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 32496,
+     "name": "Memento of Tyrande",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34337,
+    "name": "Golden Staff of the Sin'dorei",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 34335,
+     "name": "Hammer of Sanctification",
+     "usagePct": 16
+    },
+    {
+     "itemId": 32500,
+     "name": "Crystal Spire of Karabor",
+     "usagePct": 15
+    },
+    {
+     "itemId": 34199,
+     "name": "Archon's Gavel",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 30911,
+    "name": "Scepter of Purification",
+    "usagePct": 17
+   },
+   "alternatives": [
+    {
+     "itemId": 34206,
+     "name": "Book of Highborne Hymns",
+     "usagePct": 13
+    },
+    {
+     "itemId": 33325,
+     "name": "Voodoo Shaker",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 34348,
+    "name": "Wand of Cleansing Light",
+    "usagePct": 85
+   },
+   "alternatives": [
+    {
+     "itemId": 32363,
+     "name": "Naaru-Blessed Life Rod",
+     "usagePct": 8
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Discipline Priest Phase 5 BiS come from?",
+   "answer": "From the gear worn by 204 top-ranked Discipline Priest healing parses on Warcraft Logs during Phase 5 (Sunwell Plateau), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Discipline Priest items in Phase 5?",
+   "answer": "Wand of Cleansing Light (85%), Brooch of Nature's Mercy (72%), Boots of Absolution (69%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 5?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Sunwell Plateau."
+  }
+ ]
+}

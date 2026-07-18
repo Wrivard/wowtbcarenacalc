@@ -1,0 +1,373 @@
+{
+ "class": "paladin",
+ "spec": "retribution",
+ "content": "pve",
+ "phase": 4,
+ "sampleSize": 313,
+ "updatedAt": "2026-05-22",
+ "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 4 snapshot aggregates 313 top DPS parses from Zul'Aman; the highest-consensus pick is Libram of Avengement at 98% usage.",
+ "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriority": [
+  "Hit Rating",
+  "Expertise",
+  "Strength",
+  "Crit Rating",
+  "Attack Power"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32235,
+    "name": "Cursed Vision of Sargeras",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 32373,
+     "name": "Helm of the Illidari Shatterer",
+     "usagePct": 24
+    },
+    {
+     "itemId": 32376,
+     "name": "Forest Prowler's Helm",
+     "usagePct": 24
+    },
+    {
+     "itemId": 32461,
+     "name": "Furious Gizmatic Goggles",
+     "usagePct": 15
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30022,
+    "name": "Pendant of the Perilous",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 32260,
+     "name": "Choker of Endless Nightmares",
+     "usagePct": 12
+    },
+    {
+     "itemId": 33296,
+     "name": "Brooch of Deftness",
+     "usagePct": 9
+    },
+    {
+     "itemId": 24114,
+     "name": "Braided Eternium Chain",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30055,
+    "name": "Shoulderpads of the Stranger",
+    "usagePct": 92
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 33590,
+    "name": "Cloak of Fiends",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "usagePct": 28
+    },
+    {
+     "itemId": 33122,
+     "name": "Cloak of Darkness",
+     "usagePct": 25
+    },
+    {
+     "itemId": 32323,
+     "name": "Shadowmoon Destroyer's Drape",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30905,
+    "name": "Midnight Chestguard",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30990,
+     "name": "Lightbringer Breastplate",
+     "usagePct": 35
+    },
+    {
+     "itemId": 30129,
+     "name": "Crystalforge Breastplate",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28485,
+     "name": "Bulwark of the Ancient Kings",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32574,
+    "name": "Bindings of Lightning Reflexes",
+    "usagePct": 92
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29947,
+    "name": "Gloves of the Searing Grip",
+    "usagePct": 92
+   },
+   "alternatives": [
+    {
+     "itemId": 30644,
+     "name": "Grips of Deftness",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30106,
+    "name": "Belt of One-Hundred Deaths",
+    "usagePct": 81
+   },
+   "alternatives": [
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "usagePct": 8
+    },
+    {
+     "itemId": 30919,
+     "name": "Valestalker Girdle",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30900,
+    "name": "Bow-Stitched Leggings",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 30993,
+     "name": "Lightbringer Greaves",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30903,
+     "name": "Legguards of Endless Rage",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30257,
+     "name": "Shattrath Leggings",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32366,
+    "name": "Shadowmaster's Boots",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 32345,
+     "name": "Dreadboots of the Legion",
+     "usagePct": 23
+    },
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29951,
+     "name": "Star-Strider Boots",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 32526,
+    "name": "Band of Devastation",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 42
+    },
+    {
+     "itemId": 32335,
+     "name": "Unstoppable Aggressor's Ring",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29301,
+     "name": "Band of the Eternal Champion",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 32526,
+     "name": "Band of Devastation",
+     "usagePct": 35
+    },
+    {
+     "itemId": 32335,
+     "name": "Unstoppable Aggressor's Ring",
+     "usagePct": 4
+    },
+    {
+     "itemId": 29301,
+     "name": "Band of the Eternal Champion",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 29
+    },
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 26
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 54
+   },
+   "alternatives": [
+    {
+     "itemId": 33831,
+     "name": "Berserker's Call",
+     "usagePct": 19
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 16
+    },
+    {
+     "itemId": 38287,
+     "name": "Empty Mug of Direbrew",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32332,
+    "name": "Torch of the Damned",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 4
+    },
+    {
+     "itemId": 30902,
+     "name": "Cataclysm's Edge",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27484,
+    "name": "Libram of Avengement",
+    "usagePct": 98
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Retribution Paladin Phase 4 BiS come from?",
+   "answer": "From the gear worn by 313 top-ranked Retribution Paladin DPS parses on Warcraft Logs during Phase 4 (Zul'Aman), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Retribution Paladin items in Phase 4?",
+   "answer": "Libram of Avengement (98%), Shoulderpads of the Stranger (92%), Bindings of Lightning Reflexes (92%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 4?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Zul'Aman."
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "class": "mage",
+ "spec": "frost",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 346,
+ "updatedAt": "2026-05-22",
+ "blurb": "Frost Mage is the safe pair of hands in a raid: one button, zero threat problems thanks to Ice Block resets, and Winter's Chill stacking crit chance for every other mage in the group. It gives up fire's ceiling for a floor no other caster matches. This Phase 1 snapshot aggregates 346 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 77% usage.",
+ "statPriorityRationale": "Deep frost raids on consistency: Empowered Frostbolt and Ice Shards make crit efficient, but the rotation never changes — cap hit, stack damage, and the meters take care of themselves.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "Haste"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 24266,
+    "name": "Spellstrike Hood",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29076,
+     "name": "Collar of the Aldor",
+     "usagePct": 39
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28762,
+    "name": "Adornment of Stolen Souls",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 28134,
+     "name": "Brooch of Heightened Potential",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "usagePct": 21
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 21869,
+    "name": "Frozen Shadoweave Shoulders",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 29079,
+     "name": "Pauldrons of the Aldor",
+     "usagePct": 21
+    },
+    {
+     "itemId": 27796,
+     "name": "Mana-Etched Spaulders",
+     "usagePct": 5
+    },
+    {
+     "itemId": 30925,
+     "name": "Spaulders of the Torn-Heart",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28766,
+    "name": "Ruby Drape of the Mysticant",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 16
+    },
+    {
+     "itemId": 23050,
+     "name": "Cloak of the Necropolis",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 21871,
+    "name": "Frozen Shadoweave Robe",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 28602,
+     "name": "Robe of the Elder Scribes",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29077,
+     "name": "Vestments of the Aldor",
+     "usagePct": 6
+    },
+    {
+     "itemId": 22496,
+     "name": "Frostfire Robe",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 24250,
+    "name": "Bracers of Havok",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28411,
+     "name": "General's Silk Cuffs",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29002,
+     "name": "Marshal's Silk Cuffs",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29080,
+    "name": "Gloves of the Aldor",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
+     "usagePct": 15
+    },
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 12
+    },
+    {
+     "itemId": 30668,
+     "name": "Grasp of the Dead",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 24256,
+    "name": "Girdle of Ruination",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "usagePct": 18
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 8
+    },
+    {
+     "itemId": 27843,
+     "name": "Glyph-Lined Sash",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 24262,
+    "name": "Spellstrike Pants",
+    "usagePct": 77
+   },
+   "alternatives": [
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29078,
+     "name": "Legwraps of the Aldor",
+     "usagePct": 6
+    },
+    {
+     "itemId": 30531,
+     "name": "Breeches of the Occultist",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 21870,
+    "name": "Frozen Shadoweave Boots",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 20
+    },
+    {
+     "itemId": 28585,
+     "name": "Ruby Slippers",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28406,
+     "name": "Sigil-Laced Boots",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 29
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 10
+    },
+    {
+     "itemId": 21709,
+     "name": "Ring of the Fallen God",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 16
+    },
+    {
+     "itemId": 21709,
+     "name": "Ring of the Fallen God",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 28
+    },
+    {
+     "itemId": 19339,
+     "name": "Mind Quickening Gem",
+     "usagePct": 8
+    },
+    {
+     "itemId": 23046,
+     "name": "The Restrained Essence of Sapphiron",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 38
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 35
+    },
+    {
+     "itemId": 19379,
+     "name": "Neltharion's Tear",
+     "usagePct": 7
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28802,
+     "name": "Bloodmaw Magus-Blade",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29155,
+     "name": "Stormcaller",
+     "usagePct": 11
+    },
+    {
+     "itemId": 29153,
+     "name": "Blade of the Archmage",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29269,
+    "name": "Sapphiron's Wing Bone",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28734,
+     "name": "Jewel of Infinite Possibilities",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29350,
+    "name": "The Black Stalk",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 28
+    },
+    {
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "usagePct": 23
+    },
+    {
+     "itemId": 28386,
+     "name": "Nether Core's Control Rod",
+     "usagePct": 6
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Frost Mage Phase 1 BiS come from?",
+   "answer": "From the gear worn by 346 top-ranked Frost Mage DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Frost Mage items in Phase 1?",
+   "answer": "Spellstrike Pants (77%), Sapphiron's Wing Bone (75%), Frozen Shadoweave Shoulders (60%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

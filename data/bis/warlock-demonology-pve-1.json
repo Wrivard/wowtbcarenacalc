@@ -1,0 +1,425 @@
+{
+ "class": "warlock",
+ "spec": "demonology",
+ "content": "pve",
+ "phase": 1,
+ "sampleSize": 359,
+ "updatedAt": "2026-05-22",
+ "blurb": "Demonology Warlock raids for Demonic Knowledge scaling and flexibility: felguard out for personal damage or sacrificed for the shadow bonus depending on the fight. It is the bridge build — competitive numbers plus the option to soulstone-battery utility roles no pure spec covers. This Phase 1 snapshot aggregates 359 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 83% usage.",
+ "statPriorityRationale": "Demonic Sacrifice or felguard uptime defines the build's math; either way your spell damage carries a pet multiplier, and Demonic Knowledge converts stamina and intellect into damage — the only DPS caster that scales off stamina.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Shadow Damage",
+  "Stamina",
+  "Intellect",
+  "Spell Crit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 28963,
+    "name": "Voidheart Crown",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 24266,
+     "name": "Spellstrike Hood",
+     "usagePct": 17
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30666,
+    "name": "Ritssyn's Lost Pendant",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 22
+    },
+    {
+     "itemId": 28134,
+     "name": "Brooch of Heightened Potential",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 28967,
+    "name": "Voidheart Mantle",
+    "usagePct": 71
+   },
+   "alternatives": [
+    {
+     "itemId": 21869,
+     "name": "Frozen Shadoweave Shoulders",
+     "usagePct": 18
+    },
+    {
+     "itemId": 22507,
+     "name": "Plagueheart Shoulderpads",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28766,
+    "name": "Ruby Drape of the Mysticant",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 27981,
+     "name": "Sethekk Oracle Cloak",
+     "usagePct": 10
+    },
+    {
+     "itemId": 23050,
+     "name": "Cloak of the Necropolis",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 28964,
+    "name": "Voidheart Robe",
+    "usagePct": 74
+   },
+   "alternatives": [
+    {
+     "itemId": 21871,
+     "name": "Frozen Shadoweave Robe",
+     "usagePct": 14
+    },
+    {
+     "itemId": 31297,
+     "name": "Robe of the Crimson Order",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 24250,
+    "name": "Bracers of Havok",
+    "usagePct": 66
+   },
+   "alternatives": [
+    {
+     "itemId": 28411,
+     "name": "General's Silk Cuffs",
+     "usagePct": 11
+    },
+    {
+     "itemId": 27462,
+     "name": "Crimson Bracers of Gloom",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28968,
+    "name": "Voidheart Gloves",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 6
+    },
+    {
+     "itemId": 30725,
+     "name": "Anger-Spark Gloves",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 24256,
+    "name": "Girdle of Ruination",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "usagePct": 9
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29241,
+     "name": "Belt of Depravity",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 24262,
+    "name": "Spellstrike Pants",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 28966,
+     "name": "Voidheart Leggings",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 21870,
+    "name": "Frozen Shadoweave Boots",
+    "usagePct": 72
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28585,
+     "name": "Ruby Slippers",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28793,
+    "name": "Band of Crimson Fury",
+    "usagePct": 26
+   },
+   "alternatives": [
+    {
+     "itemId": 29172,
+     "name": "Ashyen's Gift",
+     "usagePct": 25
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 16
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28793,
+    "name": "Band of Crimson Fury",
+    "usagePct": 30
+   },
+   "alternatives": [
+    {
+     "itemId": 29172,
+     "name": "Ashyen's Gift",
+     "usagePct": 23
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 12
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 57
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 26
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29132,
+     "name": "Scryer's Bloodgem",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 33
+    },
+    {
+     "itemId": 23207,
+     "name": "Mark of the Champion",
+     "usagePct": 5
+    },
+    {
+     "itemId": 19379,
+     "name": "Neltharion's Tear",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28770,
+    "name": "Nathrezim Mindblade",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 28802,
+     "name": "Bloodmaw Magus-Blade",
+     "usagePct": 26
+    },
+    {
+     "itemId": 29155,
+     "name": "Stormcaller",
+     "usagePct": 8
+    },
+    {
+     "itemId": 29153,
+     "name": "Blade of the Archmage",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29273,
+    "name": "Khadgar's Knapsack",
+    "usagePct": 35
+   },
+   "alternatives": [
+    {
+     "itemId": 28734,
+     "name": "Jewel of Infinite Possibilities",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "usagePct": 21
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28673,
+    "name": "Tirisfal Wand of Ascendancy",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 29350,
+     "name": "The Black Stalk",
+     "usagePct": 24
+    },
+    {
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "usagePct": 11
+    },
+    {
+     "itemId": 28386,
+     "name": "Nether Core's Control Rod",
+     "usagePct": 7
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Demonology Warlock Phase 1 BiS come from?",
+   "answer": "From the gear worn by 359 top-ranked Demonology Warlock DPS parses on Warcraft Logs during Phase 1 (Karazhan, Gruul's Lair and Magtheridon), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Demonology Warlock items in Phase 1?",
+   "answer": "Spellstrike Pants (83%), Voidheart Crown (79%), Girdle of Ruination (76%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 1?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Karazhan, Gruul's Lair and Magtheridon."
+  }
+ ]
+}

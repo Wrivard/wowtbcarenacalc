@@ -1,0 +1,420 @@
+{
+ "class": "shaman",
+ "spec": "elemental",
+ "content": "pve",
+ "phase": 3,
+ "sampleSize": 271,
+ "updatedAt": "2026-05-22",
+ "blurb": "Elemental Shaman pairs top-tier caster totems (Wrath of Air, Totem of Wrath) with a Lightning Bolt rotation simple enough to never miss a global. You are the caster group's second buff-bot after the shadow priest — and with the gear below, a genuine damage threat on top. This Phase 3 snapshot aggregates 271 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Belt of Blasting at 89% usage.",
+ "statPriorityRationale": "Lightning Bolt is 85% of your casts, so the list is one-dimensional on purpose: cap hit, then stack spell damage — crit follows naturally from Tidal Mastery and feeds Elemental Focus clearcasting.",
+ "statPriority": [
+  "Spell Hit (16%)",
+  "Spell Damage",
+  "Spell Crit",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31014,
+    "name": "Skyshatter Headguard",
+    "usagePct": 46
+   },
+   "alternatives": [
+    {
+     "itemId": 29035,
+     "name": "Cyclone Faceguard",
+     "usagePct": 35
+    },
+    {
+     "itemId": 30171,
+     "name": "Cataclysm Headpiece",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 75
+   },
+   "alternatives": [
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "usagePct": 12
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "usagePct": 10
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 29037,
+    "name": "Cyclone Shoulderguards",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 31023,
+     "name": "Skyshatter Mantle",
+     "usagePct": 30
+    },
+    {
+     "itemId": 30173,
+     "name": "Cataclysm Shoulderpads",
+     "usagePct": 27
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 32331,
+     "name": "Cloak of the Illidari Council",
+     "usagePct": 7
+    },
+    {
+     "itemId": 29369,
+     "name": "Shawl of Shifting Probabilities",
+     "usagePct": 6
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30169,
+    "name": "Cataclysm Chestpiece",
+    "usagePct": 51
+   },
+   "alternatives": [
+    {
+     "itemId": 31017,
+     "name": "Skyshatter Breastplate",
+     "usagePct": 27
+    },
+    {
+     "itemId": 32592,
+     "name": "Chestguard of Relentless Storms",
+     "usagePct": 13
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32586,
+    "name": "Bracers of Nimble Thought",
+    "usagePct": 36
+   },
+   "alternatives": [
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 28
+    },
+    {
+     "itemId": 29521,
+     "name": "Netherstrike Bracers",
+     "usagePct": 17
+    },
+    {
+     "itemId": 33897,
+     "name": "Vindicator's Mail Bracers",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31008,
+    "name": "Skyshatter Gauntlets",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "usagePct": 39
+    },
+    {
+     "itemId": 30170,
+     "name": "Cataclysm Handgrips",
+     "usagePct": 9
+    },
+    {
+     "itemId": 29987,
+     "name": "Gauntlets of the Sun King",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30038,
+    "name": "Belt of Blasting",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 32276,
+     "name": "Flashfire Girdle",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30172,
+    "name": "Cataclysm Leggings",
+    "usagePct": 65
+   },
+   "alternatives": [
+    {
+     "itemId": 31020,
+     "name": "Skyshatter Legguards",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30916,
+     "name": "Leggings of Channeled Elements",
+     "usagePct": 13
+    },
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30067,
+    "name": "Velvet Boots of the Guardian",
+    "usagePct": 50
+   },
+   "alternatives": [
+    {
+     "itemId": 30043,
+     "name": "Hurricane Boots",
+     "usagePct": 17
+    },
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "usagePct": 11
+    },
+    {
+     "itemId": 32242,
+     "name": "Boots of Oceanic Fury",
+     "usagePct": 8
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 30667,
+    "name": "Ring of Unrelenting Storms",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 29303,
+     "name": "Band of Eternity",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29304,
+     "name": "Band of Eternity",
+     "usagePct": 11
+    },
+    {
+     "itemId": 30109,
+     "name": "Ring of Endless Coils",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30667,
+    "name": "Ring of Unrelenting Storms",
+    "usagePct": 42
+   },
+   "alternatives": [
+    {
+     "itemId": 29303,
+     "name": "Band of Eternity",
+     "usagePct": 14
+    },
+    {
+     "itemId": 30109,
+     "name": "Ring of Endless Coils",
+     "usagePct": 14
+    },
+    {
+     "itemId": 29304,
+     "name": "Band of Eternity",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28785,
+    "name": "The Lightning Capacitor",
+    "usagePct": 34
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 30
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 17
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 13
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28785,
+    "name": "The Lightning Capacitor",
+    "usagePct": 60
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 21
+    },
+    {
+     "itemId": 30626,
+     "name": "Sextant of Unstable Currents",
+     "usagePct": 10
+    },
+    {
+     "itemId": 38290,
+     "name": "Dark Iron Smoking Pipe",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29988,
+    "name": "The Nexus Key",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 30
+    },
+    {
+     "itemId": 32237,
+     "name": "The Maelstrom's Fury",
+     "usagePct": 14
+    },
+    {
+     "itemId": 34009,
+     "name": "Hammer of Judgment",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29268,
+    "name": "Mazthoril Honor Shield",
+    "usagePct": 27
+   },
+   "alternatives": [
+    {
+     "itemId": 30909,
+     "name": "Antonidas' Aegis of Rapt Concentration",
+     "usagePct": 17
+    },
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28248,
+    "name": "Totem of the Void",
+    "usagePct": 76
+   },
+   "alternatives": [
+    {
+     "itemId": 32330,
+     "name": "Totem of Ancestral Guidance",
+     "usagePct": 23
+    }
+   ]
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Elemental Shaman Phase 3 BiS come from?",
+   "answer": "From the gear worn by 271 top-ranked Elemental Shaman DPS parses on Warcraft Logs during Phase 3 (Black Temple and Mount Hyjal), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Elemental Shaman items in Phase 3?",
+   "answer": "Belt of Blasting (89%), Brute Cloak of the Ogre-Magi (76%), Totem of the Void (76%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 3?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Black Temple and Mount Hyjal."
+  }
+ ]
+}

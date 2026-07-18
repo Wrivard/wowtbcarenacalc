@@ -1,0 +1,439 @@
+{
+ "class": "shaman",
+ "spec": "restoration",
+ "content": "pve",
+ "phase": 2,
+ "sampleSize": 308,
+ "updatedAt": "2026-05-22",
+ "blurb": "Restoration Shaman is TBC's raid-healing multiplier: Chain Heal hits three targets per cast and Earth Shield frees a tank healer's globals, while Mana Tide bails out the whole group's healers. The phase lists below are Chain-Heal-first — bounce healing scales harder with +healing than any single-target spell. This Phase 2 snapshot aggregates 308 top healing parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Totem of Healing Rains at 95% usage.",
+ "statPriorityRationale": "Chain Heal is the entire job — +healing scales every bounce, and MP5 is the sustain stat because resto shamans cast more heals per fight than anyone else in the raid.",
+ "statPriority": [
+  "Bonus Healing",
+  "MP5",
+  "Intellect",
+  "Spirit",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 29028,
+    "name": "Cyclone Headdress",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 30166,
+     "name": "Cataclysm Headguard",
+     "usagePct": 39
+    },
+    {
+     "itemId": 32475,
+     "name": "Living Replicator Specs",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29035,
+     "name": "Cyclone Faceguard",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28609,
+    "name": "Emberspur Talisman",
+    "usagePct": 45
+   },
+   "alternatives": [
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "usagePct": 26
+    },
+    {
+     "itemId": 29374,
+     "name": "Necklace of Eternal Hope",
+     "usagePct": 6
+    },
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30168,
+    "name": "Cataclysm Shoulderguards",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 30097,
+     "name": "Coral-Barbed Shoulderpads",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29031,
+     "name": "Cyclone Shoulderpads",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29037,
+     "name": "Cyclone Shoulderguards",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 68
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 12
+    },
+    {
+     "itemId": 28582,
+     "name": "Red Riding Hood's Cloak",
+     "usagePct": 6
+    },
+    {
+     "itemId": 31329,
+     "name": "Lifegiving Cloak",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30164,
+    "name": "Cataclysm Chestguard",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29029,
+     "name": "Cyclone Hauberk",
+     "usagePct": 17
+    },
+    {
+     "itemId": 29522,
+     "name": "Windhawk Hauberk",
+     "usagePct": 8
+    },
+    {
+     "itemId": 21875,
+     "name": "Primal Mooncloth Robe",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 30047,
+    "name": "Blackfathom Warbands",
+    "usagePct": 48
+   },
+   "alternatives": [
+    {
+     "itemId": 28503,
+     "name": "Whirlwind Bracers",
+     "usagePct": 26
+    },
+    {
+     "itemId": 29523,
+     "name": "Windhawk Bracers",
+     "usagePct": 12
+    },
+    {
+     "itemId": 32516,
+     "name": "Wraps of Purification",
+     "usagePct": 6
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 29976,
+    "name": "Worldstorm Gauntlets",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 28520,
+     "name": "Gloves of Centering",
+     "usagePct": 25
+    },
+    {
+     "itemId": 30165,
+     "name": "Cataclysm Gloves",
+     "usagePct": 12
+    },
+    {
+     "itemId": 29032,
+     "name": "Cyclone Gloves",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 28567,
+     "name": "Belt of Gale Force",
+     "usagePct": 7
+    },
+    {
+     "itemId": 21873,
+     "name": "Primal Mooncloth Belt",
+     "usagePct": 5
+    },
+    {
+     "itemId": 29524,
+     "name": "Windhawk Belt",
+     "usagePct": 5
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 29991,
+    "name": "Sunhawk Leggings",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 28751,
+     "name": "Heart-Flame Leggings",
+     "usagePct": 35
+    },
+    {
+     "itemId": 30167,
+     "name": "Cataclysm Legguards",
+     "usagePct": 10
+    },
+    {
+     "itemId": 29030,
+     "name": "Cyclone Kilt",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30092,
+    "name": "Orca-Hide Boots",
+    "usagePct": 37
+   },
+   "alternatives": [
+    {
+     "itemId": 28752,
+     "name": "Forestlord Striders",
+     "usagePct": 35
+    },
+    {
+     "itemId": 30066,
+     "name": "Tempest-Strider Boots",
+     "usagePct": 9
+    },
+    {
+     "itemId": 30737,
+     "name": "Gold-Leaf Wildboots",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 41
+   },
+   "alternatives": [
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "usagePct": 29
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 18
+    },
+    {
+     "itemId": 29920,
+     "name": "Phoenix-Ring of Rebirth",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 39
+   },
+   "alternatives": [
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "usagePct": 26
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 22
+    },
+    {
+     "itemId": 29920,
+     "name": "Phoenix-Ring of Rebirth",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 44
+   },
+   "alternatives": [
+    {
+     "itemId": 38288,
+     "name": "Direbrew Hops",
+     "usagePct": 34
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 11
+    },
+    {
+     "itemId": 13503,
+     "name": "Alchemist Stone",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 38288,
+     "name": "Direbrew Hops",
+     "usagePct": 31
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 16
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28771,
+    "name": "Light's Justice",
+    "usagePct": 47
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "usagePct": 35
+    },
+    {
+     "itemId": 28522,
+     "name": "Shard of the Virtuous",
+     "usagePct": 10
+    },
+    {
+     "itemId": 32964,
+     "name": "Merciless Gladiator's Salvation",
+     "usagePct": 3
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29458,
+    "name": "Aegis of the Vindicator",
+    "usagePct": 70
+   },
+   "alternatives": [
+    {
+     "itemId": 28754,
+     "name": "Triptych Shield of the Ancients",
+     "usagePct": 15
+    },
+    {
+     "itemId": 29267,
+     "name": "Light-Bearer's Faith Shield",
+     "usagePct": 5
+    },
+    {
+     "itemId": 22819,
+     "name": "Shield of Condemnation",
+     "usagePct": 4
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28523,
+    "name": "Totem of Healing Rains",
+    "usagePct": 95
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [],
+ "enchants": [],
+ "faq": [
+  {
+   "question": "Where does Restoration Shaman Phase 2 BiS come from?",
+   "answer": "From the gear worn by 308 top-ranked Restoration Shaman healing parses on Warcraft Logs during Phase 2 (Serpentshrine Cavern and Tempest Keep), aggregated per slot — what high parsers actually equip, not a spreadsheet ideal."
+  },
+  {
+   "question": "What are the highest-consensus Restoration Shaman items in Phase 2?",
+   "answer": "Totem of Healing Rains (95%), Girdle of Fallen Stars (79%), Aegis of the Vindicator (70%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+  },
+  {
+   "question": "Should I follow this list exactly for Phase 2?",
+   "answer": "Use it as a loot-priority guide, not a checklist — expand each slot's alternatives, because second-choice items are often within a few percent and drop from entirely different bosses in Serpentshrine Cavern and Tempest Keep."
+  }
+ ]
+}
