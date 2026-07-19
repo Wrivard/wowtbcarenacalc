@@ -10,11 +10,16 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - ✅ **0d** Season tabs — season page renders "Coming when the season opens" placeholder (via `ComingSoon` `heading`/`description` props) instead of 404 when a season lacks data.
 
 ## 1. Navbar + logo
-- 🚧 Larger logo, BiS / Guides / Arena / Leaderboard / Tools▾ dropdown, mobile hamburger, active highlight.
+- ✅ Larger logo (40px), BiS / Guides / Arena / Leaderboard / Tools▾ dropdown, mobile hamburger, active accent underline, sticky+blur. Noindex hub placeholders for /arena, /guides, /leaderboard so nav never 404s.
+
+## 4. BiS page expansions — ✅ (data-driven, archetype-based; covers all specs)
+- ✅ **4a** Stat caps table (`data/caps.ts` by class+role+content → `components/bis/StatCaps.tsx`) below stat priority.
+- ✅ **4b** Item "How to get" on slot expand (`data/itemSources.ts` seeded + `GearGrid` MapPin line; graceful when absent). Seed list, grows over time.
+- ✅ **4c** Talent summary + tree bar (`components/bis/TalentSummary.tsx` from existing `getBuild`), links to talents page + calculator.
+- ✅ **4d** "What to buy first" checklist (`data/gearPriority.ts` → `components/bis/GearPriorityList.tsx`).
 
 ## 2. Arena comps (/arena, /arena/comps, /arena/comps/[bracket]/[slug]) — ⬜
 ## 3. Live leaderboard (/leaderboard + cron) — ⬜
-## 4. BiS page expansions (caps, item sources, talent summary, gear priority) — ⬜
 ## 5. Guide pages (/guides + class/prof/race/addons + macros) — ⬜
 ## 6. Raids + boss strats (/raids) — ⬜
 ## 7. Interlinking system (lib/interlinks.ts) — ⬜

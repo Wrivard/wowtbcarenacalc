@@ -5,12 +5,24 @@
 // + usage % + expandable alternatives.
 
 import { useState } from "react";
-import { ChevronDown, TriangleAlert } from "lucide-react";
+import { ChevronDown, TriangleAlert, MapPin } from "lucide-react";
 import type { BisSlot } from "@/lib/bis";
 import { ItemLink } from "@/components/ItemLink";
 import { isPveOnly, PVE_ONLY_WARN_PCT } from "@/lib/item-flags";
+import { getItemSource, formatItemSource } from "@/data/itemSources";
 import { trackEvent } from "@/lib/gtag";
 import { cn } from "@/lib/utils";
+
+function ItemSourceLine({ itemId }: { itemId: number }) {
+  const sources = getItemSource(itemId);
+  if (!sources) return null;
+  return (
+    <span className="flex items-start gap-1.5 text-xs text-muted">
+      <MapPin className="mt-0.5 size-3 shrink-0 text-muted" aria-hidden />
+      <span>{sources.map(formatItemSource).join(" · ")}</span>
+    </span>
+  );
+}
 
 const SLOT_LABEL: Record<string, string> = {
   MainHand: "Main Hand",
@@ -49,6 +61,8 @@ export function GearGrid({
     <div className="overflow-hidden rounded-xl border border-border">
       {slots.map((row) => {
         const hasAlts = row.alternatives.length > 0;
+        const hasSource = getItemSource(row.bis.itemId) !== null;
+        const expandable = hasAlts || hasSource;
         const expanded = open.has(row.slot);
         const raidWarning =
           content === "pvp" &&
@@ -57,19 +71,19 @@ export function GearGrid({
         return (
           <div key={row.slot} className="border-b border-border bg-surface last:border-b-0">
             <div
-              role={hasAlts ? "button" : undefined}
-              tabIndex={hasAlts ? 0 : undefined}
-              onClick={() => toggle(row.slot, hasAlts)}
+              role={expandable ? "button" : undefined}
+              tabIndex={expandable ? 0 : undefined}
+              onClick={() => toggle(row.slot, expandable)}
               onKeyDown={(e) => {
                 if (e.key === "Enter" || e.key === " ") {
                   e.preventDefault();
-                  toggle(row.slot, hasAlts);
+                  toggle(row.slot, expandable);
                 }
               }}
-              aria-expanded={hasAlts ? expanded : undefined}
+              aria-expanded={expandable ? expanded : undefined}
               className={cn(
                 "flex w-full items-center gap-3 px-3 py-2 text-left transition-colors sm:px-4",
-                hasAlts && "cursor-pointer hover:bg-surface-hover",
+                expandable && "cursor-pointer hover:bg-surface-hover",
               )}
             >
               <span className="w-16 shrink-0 font-mono text-[10px] tracking-wider text-muted uppercase sm:w-20 sm:text-[11px]">
@@ -86,7 +100,7 @@ export function GearGrid({
                   {row.bis.usagePct}%
                 </span>
               )}
-              {hasAlts ? (
+              {expandable ? (
                 <ChevronDown
                   className={cn(
                     "size-3.5 shrink-0 text-muted transition-transform duration-200",
@@ -111,6 +125,14 @@ export function GearGrid({
             )}
             {expanded && (
               <ul className="space-y-2 border-t border-border/60 bg-background px-3 py-2.5 sm:pl-[6.25rem]">
+                {hasSource && (
+                  <li className="flex flex-col gap-0.5 pb-1">
+                    <span className="font-mono text-[10px] tracking-wider text-muted uppercase">
+                      How to get
+                    </span>
+                    <ItemSourceLine itemId={row.bis.itemId} />
+                  </li>
+                )}
                 {row.alternatives.map((alt) => (
                   <li
                     key={alt.itemId}
@@ -124,6 +146,9 @@ export function GearGrid({
                         {alt.usagePct}%
                       </span>
                     )}
+                    <span className="w-full sm:pl-0">
+                      <ItemSourceLine itemId={alt.itemId} />
+                    </span>
                     {alt.pveFlexNote && (
                       <span className="text-xs text-muted">{alt.pveFlexNote}</span>
                     )}

@@ -7,6 +7,9 @@ import Link from "next/link";
 import type { BisList } from "@/lib/bis";
 import type { ClassDef, SpecDef } from "@/lib/classes";
 import { GearGrid } from "@/components/bis/GearGrid";
+import { StatCaps } from "@/components/bis/StatCaps";
+import { GearPriorityList } from "@/components/bis/GearPriorityList";
+import { TalentSummary } from "@/components/bis/TalentSummary";
 import { ItemLink } from "@/components/ItemLink";
 import { AdUnit } from "@/components/AdUnit";
 
@@ -88,7 +91,23 @@ export function BisPageBody({
             {list.statPriorityRationale}
           </p>
         )}
+        <StatCaps
+          classSlug={cls.slug}
+          role={spec.role}
+          content={list.content}
+          specName={`${spec.name} ${cls.name}`}
+          className="mt-6"
+        />
       </section>
+
+      {/* What to buy first */}
+      <GearPriorityList
+        classSlug={cls.slug}
+        role={spec.role}
+        content={list.content}
+        specName={`${spec.name} ${cls.name}`}
+        className="mt-12"
+      />
 
       {/* Gems */}
       {list.gems.length > 0 && (
@@ -158,6 +177,14 @@ export function BisPageBody({
           ))}
         </div>
       </section>
+
+      {/* Recommended talent build (summary + links, not the full tree) */}
+      <TalentSummary
+        classSlug={cls.slug}
+        specSlug={spec.slug}
+        specName={`${spec.name} ${cls.name}`}
+        className="mt-12"
+      />
 
       {/* Arena points tie-in */}
       {list.content === "pvp" && (
