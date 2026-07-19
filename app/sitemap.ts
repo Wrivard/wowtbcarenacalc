@@ -3,6 +3,7 @@ import { SITE_URL } from "@/lib/site";
 import { CLASSES, allSpecs } from "@/lib/classes";
 import { filledBisRoutes } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
+import { COMPS, compSlug } from "@/data/comps";
 
 // Enumerates every indexable route from lib/classes.ts + the data
 // registries. BiS/talent pages whose dataset isn't curated yet render
@@ -17,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/arena-points-calculator`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/classes`, lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/talent-calculator`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/arena`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/arena/comps`, lastModified, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/contact`, lastModified, changeFrequency: "monthly", priority: 0.3 },
     { url: `${SITE_URL}/privacy-policy`, lastModified, changeFrequency: "monthly", priority: 0.2 },
@@ -54,6 +57,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(route.updatedAt),
       changeFrequency: "weekly",
       priority: route.seasonPage ? 0.6 : 0.7,
+    });
+  }
+
+  // Arena comp guide pages — one per comp.
+  for (const comp of COMPS) {
+    entries.push({
+      url: `${SITE_URL}/arena/comps/${comp.bracket}/${compSlug(comp)}`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.7,
     });
   }
 

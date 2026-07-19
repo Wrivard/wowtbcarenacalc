@@ -18,7 +18,13 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - ✅ **4c** Talent summary + tree bar (`components/bis/TalentSummary.tsx` from existing `getBuild`), links to talents page + calculator.
 - ✅ **4d** "What to buy first" checklist (`data/gearPriority.ts` → `components/bis/GearPriorityList.tsx`).
 
-## 2. Arena comps (/arena, /arena/comps, /arena/comps/[bracket]/[slug]) — ⬜
+## 2. Arena comps — ✅
+- ✅ `data/comps.ts` — 22 real TBC S2 comps (10× 2s, 8× 3s, 3× 5s archetypes) with full guides (overview, win condition, cooldown timeline, positioning, counters, tips, gear reqs).
+- ✅ `/arena/comps` filterable browser (bracket/tier/playstyle/class/difficulty/sort, URL-param driven, server-rendered → shareable+indexable).
+- ✅ `/arena/comps/[bracket]/[slug]` static guide pages: hero (tier/style/difficulty/icons), strengths/weaknesses, timeline, vs-meta, gear, tips, per-member BiS+talent cross-links, arena-points CTA, AdUnits, FAQ+breadcrumb JSON-LD.
+- ✅ `/arena` hub upgraded to real page (top comps per bracket + links). Comp routes in sitemap.
+- Components: `components/arena/CompBits.tsx` (TierBadge, DifficultyPips, PlaystyleTag, CompIcons, CompCard).
+
 ## 3. Live leaderboard (/leaderboard + cron) — ⬜
 ## 5. Guide pages (/guides + class/prof/race/addons + macros) — ⬜
 ## 6. Raids + boss strats (/raids) — ⬜

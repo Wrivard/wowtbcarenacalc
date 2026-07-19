@@ -1,21 +1,27 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
-import { ComingSoon } from "@/components/ComingSoon";
+import { CompCard } from "@/components/arena/CompBits";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
+import { compsByBracket, type Bracket } from "@/data/comps";
 import { BACKGROUNDS } from "@/lib/backgrounds";
 
-// Arena hub. Real comp browser + leaderboard tie-in land in section 2/3;
-// noindex until then so we don't publish a thin page.
 export const metadata: Metadata = {
   ...buildMetadata({
-    title: "TBC Classic Arena — Comps, Tier List & Leaderboard",
+    title: "TBC Classic Arena — Comps Tier List & Leaderboard",
     description:
-      "TBC Classic arena hub: the best 2v2, 3v3 and 5v5 comps, a meta tier list, and the live Gladiator-cutoff leaderboard.",
+      "TBC Classic arena hub: the best 2v2, 3v3 and 5v5 comps by tier, plus the live Gladiator-cutoff leaderboard and the arena points calculator.",
     path: "/arena",
-    noindex: true,
   }),
 };
+
+const BRACKETS: { key: Bracket; label: string }[] = [
+  { key: "2s", label: "2v2" },
+  { key: "3s", label: "3v3" },
+  { key: "5s", label: "5v5" },
+];
 
 export default function ArenaHub() {
   const crumbs = [
@@ -24,24 +30,57 @@ export default function ArenaHub() {
   ];
   return (
     <>
+      <JsonLd data={[breadcrumbJsonLd(crumbs)]} />
       <PageHero image={BACKGROUNDS.arena}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
           TBC Classic Arena
         </h1>
-        <p className="mt-3 max-w-[54ch] text-sm leading-relaxed text-muted-strong sm:text-base">
-          The best arena comps for every bracket, a live meta tier list, and
-          the current Gladiator cutoff by rating.
+        <p className="mt-3 max-w-[56ch] text-sm leading-relaxed text-muted-strong sm:text-base">
+          The best arena comps for every bracket, a meta tier list, and the
+          live Gladiator cutoff by rating. Currently Season 2 (Merciless
+          Gladiator).
         </p>
+        <div className="mt-5 flex flex-wrap gap-2">
+          <Link
+            href="/arena/comps"
+            className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
+          >
+            Browse all comps
+          </Link>
+          <Link
+            href="/leaderboard"
+            className="rounded-lg border border-border bg-surface px-4 py-2 text-sm font-medium text-muted-strong transition-colors hover:text-foreground"
+          >
+            Leaderboard
+          </Link>
+        </div>
       </PageHero>
-      <main className="mx-auto max-w-[720px] px-4">
-        <ComingSoon
-          title="Arena comps & tier list"
-          heading="Arena comps — coming soon"
-          description="The comp browser (2v2 / 3v3 / 5v5, filterable by class and tier) and per-comp strategy guides are being written. In the meantime:"
-          fallbackHref="/classes"
-          fallbackLabel="Browse PvP BiS by class"
-        />
+
+      <main className="mx-auto max-w-[880px] px-4 pt-10">
+        {BRACKETS.map(({ key, label }) => {
+          const top = compsByBracket(key).slice(0, 3);
+          return (
+            <section key={key} className="mb-10" aria-label={`Best ${label} comps`}>
+              <div className="flex items-baseline justify-between">
+                <h2 className="text-lg font-semibold tracking-tight">
+                  Best {label} comps
+                </h2>
+                <Link
+                  href={`/arena/comps?bracket=${key}`}
+                  className="text-xs text-accent underline-offset-2 hover:underline"
+                >
+                  All {label} comps →
+                </Link>
+              </div>
+              <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {top.map((c) => (
+                  <CompCard key={c.id} comp={c} />
+                ))}
+              </div>
+            </section>
+          );
+        })}
       </main>
     </>
   );
