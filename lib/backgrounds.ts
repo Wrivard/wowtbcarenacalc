@@ -19,6 +19,10 @@ export const BACKGROUNDS = {
   classes: "/images/bg-2.webp",
   calculator: "/images/bg-3.webp",
   legal: "/images/bg-8.webp",
+  arena: "/images/bg-5.webp",
+  guides: "/images/bg-7.webp",
+  leaderboard: "/images/bg-3.webp",
+  raids: "/images/bg-6.webp",
 } as const;
 
 export function classBackground(classSlug: string): string {
