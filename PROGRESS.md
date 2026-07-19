@@ -26,7 +26,11 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - Components: `components/arena/CompBits.tsx` (TierBadge, DifficultyPips, PlaystyleTag, CompIcons, CompCard).
 
 ## 3. Live leaderboard (/leaderboard + cron) — ⬜
-## 5. Guide pages (/guides + class/prof/race/addons + macros) — ⬜
+## 5. Guide pages — 🚧 (partial)
+- ✅ **5d** Best race per class (`data/bestRace.ts` → `/guides/best-race/[class]`, 9 pages, PvP/PvE × Horde/Alliance with real racials + alternatives). Linked from guides hub, in sitemap.
+- ✅ Guides hub (`/guides`) upgraded to real indexable page linking best-race.
+- ⬜ **5a** Per-spec PvP/PvE MDX guides (the big content build — 28 specs × 2).
+- ⬜ **5b** Macros (`data/macros.ts`). ⬜ **5c** Professions. ⬜ **5e** Addons.
 ## 6. Raids + boss strats (/raids) — ⬜
 ## 7. Interlinking system (lib/interlinks.ts) — ⬜
 ## 8. SEO site-wide (keywords, schema, sitemap expansion) — ⬜
