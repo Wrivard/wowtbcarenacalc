@@ -2,6 +2,9 @@ import Link from "next/link";
 import { Calculator, Crosshair, Swords } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { BACKGROUNDS } from "@/lib/backgrounds";
+import { CLASSES } from "@/lib/classes";
+import { classIconName, specIconName } from "@/lib/icons";
+import { GameIcon } from "@/components/GameIcon";
 import { PointsCalculator } from "@/components/calculator/PointsCalculator";
 import { RequiredRating } from "@/components/calculator/RequiredRating";
 import { GearPlanner } from "@/components/calculator/GearPlanner";
@@ -278,35 +281,100 @@ export default function Home() {
             </p>
           </section>
 
-          <section aria-labelledby="more-tools">
-            <SectionHeading id="more-tools">
-              More TBC Classic tools
+          <section aria-labelledby="explore">
+            <SectionHeading id="explore">
+              Explore the TBC Classic hub
             </SectionHeading>
-            <div className="mt-4 grid gap-3 sm:grid-cols-2">
-              <Link
-                href="/classes"
-                className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-accent/50"
-              >
-                <span className="text-sm font-semibold text-foreground">
-                  BiS lists &amp; talent builds
-                </span>
-                <span className="mt-1 block text-xs leading-relaxed text-muted">
-                  Arena PvP and phase-by-phase PvE best in slot for every
-                  class and spec, with gems, enchants and stat priorities.
-                </span>
-              </Link>
-              <Link
-                href="/talent-calculator"
-                className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-accent/50"
-              >
-                <span className="text-sm font-semibold text-foreground">
-                  TBC talent calculator
-                </span>
-                <span className="mt-1 block text-xs leading-relaxed text-muted">
-                  Plan your 61 points with real tier and prerequisite rules,
-                  then share the build with a link.
-                </span>
-              </Link>
+            <p className="mt-2 text-sm leading-relaxed text-muted-strong">
+              Everything on this site, one hop away — live-snapshot BiS
+              lists, recommended talent builds and an interactive calculator
+              for all 9 classes and 29 specs.
+            </p>
+
+            {/* Feature cards */}
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {[
+                {
+                  href: "/classes",
+                  image: BACKGROUNDS.classes,
+                  title: "BiS Lists",
+                  desc: "Arena PvP snapshots and Phase 1–5 PvE gear for every spec — usage %, gems, enchants, stat priorities.",
+                },
+                {
+                  href: "/talent-calculator",
+                  image: BACKGROUNDS.calculator,
+                  title: "Talent Calculator",
+                  desc: "Plan your 61 points with real tier and prereq rules, load recommended builds, share with a link.",
+                },
+              ].map((card) => (
+                <Link
+                  key={card.href}
+                  href={card.href}
+                  className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
+                >
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
+                    style={{ backgroundImage: `url(${card.image})` }}
+                  />
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30"
+                  />
+                  <span className="relative block p-5 pt-20">
+                    <span className="text-base font-semibold text-foreground">
+                      {card.title} →
+                    </span>
+                    <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
+                      {card.desc}
+                    </span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+
+            {/* Class grid */}
+            <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {CLASSES.map((cls) => (
+                <div
+                  key={cls.slug}
+                  className="rounded-xl border border-border bg-surface p-3.5 transition-colors hover:border-border-strong"
+                >
+                  <Link
+                    href={`/${cls.slug}`}
+                    className="flex items-center gap-2 text-sm font-semibold text-foreground hover:text-accent"
+                  >
+                    <GameIcon
+                      icon={classIconName(cls.slug)}
+                      alt={`${cls.name} class icon`}
+                      size="medium"
+                      className="rounded-lg"
+                    />
+                    {cls.name}
+                  </Link>
+                  <div className="mt-2.5 flex flex-wrap gap-1.5">
+                    {cls.specs.map((spec) => (
+                      <Link
+                        key={spec.slug}
+                        href={
+                          spec.pvp
+                            ? `/${cls.slug}/${spec.slug}/pvp`
+                            : `/${cls.slug}/${spec.slug}/pve/phase-1`
+                        }
+                        title={`${spec.name} ${cls.name} BiS`}
+                        className="rounded border border-transparent transition-all hover:border-accent"
+                      >
+                        <GameIcon
+                          icon={specIconName(cls.slug, spec)}
+                          alt={`${spec.name} ${cls.name} BiS`}
+                          size="small"
+                          className="rounded"
+                        />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </section>
 

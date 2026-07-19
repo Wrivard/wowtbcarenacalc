@@ -10,6 +10,8 @@ import {
 } from "@/components/seo/JsonLd";
 import { PageHero } from "@/components/PageHero";
 import { BACKGROUNDS } from "@/lib/backgrounds";
+import { classIconName, specIconName } from "@/lib/icons";
+import { GameIcon } from "@/components/GameIcon";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -57,18 +59,43 @@ export default function TalentCalculatorHub() {
       </PageHero>
 
       <main className="mx-auto max-w-[720px] px-4 pt-10">
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+      <div className="grid gap-3 sm:grid-cols-2">
         {CLASSES.map((cls) => (
-          <Link
+          <div
             key={cls.slug}
-            href={`/talent-calculator/${cls.slug}`}
-            className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-accent/50 hover:bg-surface-hover"
+            className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-border-strong"
           >
-            <span className="text-sm font-semibold">{cls.name}</span>
-            <span className="mt-1 block text-xs text-muted">
-              {cls.specs.map((s) => s.name).join(" · ")}
-            </span>
-          </Link>
+            <Link
+              href={`/talent-calculator/${cls.slug}`}
+              className="flex items-center gap-2.5 text-base font-semibold tracking-tight text-foreground hover:text-accent"
+            >
+              <GameIcon
+                icon={classIconName(cls.slug)}
+                alt={`${cls.name} class icon`}
+                size="medium"
+                className="rounded-lg"
+              />
+              {cls.name} Calculator
+            </Link>
+            <ul className="mt-3 space-y-2">
+              {cls.specs.map((spec) => (
+                <li key={spec.slug} className="flex items-center gap-2.5">
+                  <GameIcon
+                    icon={specIconName(cls.slug, spec)}
+                    alt=""
+                    size="small"
+                    className="rounded"
+                  />
+                  <Link
+                    href={`/${cls.slug}/${spec.slug}/talents`}
+                    className="text-sm text-muted-strong transition-colors hover:text-foreground"
+                  >
+                    {spec.name} talent build
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
       </div>
       </main>

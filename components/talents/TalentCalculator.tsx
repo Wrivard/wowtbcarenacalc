@@ -104,7 +104,7 @@ export function TalentCalculator({
   return (
     <div>
       {/* Counters + actions */}
-      <div className="sticky top-12 z-30 -mx-4 mb-6 border-b border-border bg-background/90 px-4 py-3 backdrop-blur">
+      <div className="sticky top-0 z-30 -mx-4 mb-6 border-b border-border bg-background/90 px-4 py-3 backdrop-blur">
         <div className="mx-auto flex max-w-[1200px] flex-wrap items-center justify-between gap-3">
           <div className="flex items-baseline gap-4 font-mono text-sm tabular-nums">
             <span>

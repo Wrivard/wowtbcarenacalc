@@ -1,39 +1,62 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// Site-wide nav. Clear navigation is both an AdSense approval
-// requirement and the internal-linking backbone for SEO.
+// Site-wide nav: large centered logo with link groups flanking it.
+// Clear navigation is both an AdSense approval requirement and the
+// internal-linking backbone for SEO.
 
-const NAV = [
+const LEFT_NAV = [
   { href: "/", label: "Arena Points" },
   { href: "/classes", label: "BiS Lists" },
-  { href: "/talent-calculator", label: "Talents" },
 ];
+
+const RIGHT_NAV = [
+  { href: "/talent-calculator", label: "Talents" },
+  { href: "/about", label: "About" },
+];
+
+function NavLinks({
+  items,
+  align,
+}: {
+  items: { href: string; label: string }[];
+  align: "end" | "start";
+}) {
+  return (
+    <nav
+      aria-label={align === "end" ? "Primary" : "Secondary"}
+      className={`flex items-center gap-4 sm:gap-8 ${
+        align === "end" ? "justify-end" : "justify-start"
+      }`}
+    >
+      {items.map((item) => (
+        <Link
+          key={item.href}
+          href={item.href}
+          className="text-xs font-medium tracking-wide text-muted-strong transition-colors hover:text-foreground sm:text-sm"
+        >
+          {item.label}
+        </Link>
+      ))}
+    </nav>
+  );
+}
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-4">
-        <Link href="/" aria-label="WoW TBC Arena Calculator — home" className="flex items-center">
+    <header className="border-b border-border bg-background">
+      <div className="mx-auto grid h-20 max-w-[1100px] grid-cols-[1fr_auto_1fr] items-center gap-4 px-4 sm:gap-10">
+        <NavLinks items={LEFT_NAV} align="end" />
+        <Link href="/" aria-label="WoW TBC Arena Calculator — home" className="px-1">
           <Image
             src="/images/logo.png"
             alt="WoW TBC Arena Calculator"
-            width={65}
-            height={52}
+            width={82}
+            height={66}
             priority
           />
         </Link>
-        <nav aria-label="Main" className="flex items-center gap-5 sm:gap-8">
-          {NAV.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-[13px] font-medium text-muted-strong transition-colors hover:text-foreground sm:text-sm"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+        <NavLinks items={RIGHT_NAV} align="start" />
       </div>
     </header>
   );
