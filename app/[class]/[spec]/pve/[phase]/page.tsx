@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PHASES, PHASE_LABELS, allSpecs, getSpec, type Phase } from "@/lib/classes";
 import { getPveBis, wowheadItemUrl } from "@/lib/bis";
+import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   JsonLd,
@@ -48,12 +49,13 @@ export async function generateMetadata({
   if (!found?.spec.pve || phase === null) return {};
   const { cls, spec } = found;
   const list = getPveBis(cls.slug, spec.slug, phase);
-  return {
+  return buildMetadata({
     title: `${spec.name} ${cls.name} BiS Phase ${phase} — TBC Classic Best in Slot`,
     description: `${spec.name} ${cls.name} Phase ${phase} best in slot (${PHASE_LABELS[phase]}) for TBC Classic — gear list, gems, enchants and stat priority.`,
-    alternates: { canonical: `/${cls.slug}/${spec.slug}/pve/phase-${phase}` },
-    ...(list ? {} : { robots: { index: false, follow: true } }),
-  };
+    path: `/${cls.slug}/${spec.slug}/pve/phase-${phase}`,
+    ogImage: `/${cls.slug}/opengraph-image`,
+    noindex: !list,
+  });
 }
 
 export default async function PveBisPage({ params }: { params: Params }) {

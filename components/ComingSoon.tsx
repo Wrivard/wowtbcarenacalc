@@ -8,20 +8,26 @@ export function ComingSoon({
   title,
   fallbackHref,
   fallbackLabel,
+  heading,
+  description,
 }: {
   title: string;
   fallbackHref: string;
   fallbackLabel: string;
+  /** Overrides the "{title} — coming soon" heading. */
+  heading?: string;
+  /** Overrides the default body copy. */
+  description?: string;
 }) {
   return (
     <div className="mt-10 rounded-xl border border-border bg-surface p-8 text-center">
       <Hourglass className="mx-auto size-5 text-muted" aria-hidden />
       <h2 className="mt-3 text-lg font-semibold tracking-tight">
-        {title} — coming soon
+        {heading ?? `${title} — coming soon`}
       </h2>
       <p className="mx-auto mt-2 max-w-[42ch] text-sm leading-relaxed text-muted-strong">
-        This list is being curated from live arena and raid data. In the
-        meantime:
+        {description ??
+          "This list is being curated from live arena and raid data. In the meantime:"}
       </p>
       <Link
         href={fallbackHref}

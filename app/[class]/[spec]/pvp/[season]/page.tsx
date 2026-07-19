@@ -9,6 +9,7 @@ import {
   wowheadItemUrl,
   type PvpSeason,
 } from "@/lib/bis";
+import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   JsonLd,
@@ -17,6 +18,7 @@ import {
   itemListJsonLd,
 } from "@/components/seo/JsonLd";
 import { BisPageBody } from "@/components/bis/BisPageBody";
+import { ComingSoon } from "@/components/ComingSoon";
 import { SpecCrossLinks } from "@/components/SpecCrossLinks";
 import { SeasonSwitcher } from "@/components/bis/SeasonSwitcher";
 import { PageHero } from "@/components/PageHero";
@@ -59,12 +61,13 @@ export async function generateMetadata({
   if (!found?.spec.pvp || season === null) return {};
   const { cls, spec } = found;
   const list = getPvpSeasonBis(cls.slug, spec.slug, season);
-  return {
+  return buildMetadata({
     title: `${spec.name} ${cls.name} PvP BiS Season ${season} — TBC ${SEASON_NAMES[season]} Arena Gear`,
     description: `${spec.name} ${cls.name} Season ${season} (${SEASON_NAMES[season]}) arena PvP best in slot for TBC Classic — full gear set, gems, enchants and stat priority.`,
-    alternates: { canonical: `/${cls.slug}/${spec.slug}/pvp/season-${season}` },
-    ...(list ? {} : { robots: { index: false, follow: true } }),
-  };
+    path: `/${cls.slug}/${spec.slug}/pvp/season-${season}`,
+    ogImage: `/${cls.slug}/opengraph-image`,
+    noindex: !list,
+  });
 }
 
 export default async function PvpSeasonBisPage({ params }: { params: Params }) {
@@ -74,7 +77,6 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
   if (!found?.spec.pvp || season === null) notFound();
   const { cls, spec } = found;
   const list = getPvpSeasonBis(cls.slug, spec.slug, season);
-  if (!list) notFound();
 
   const crumbs = [
     { name: "Home", href: "/" },
@@ -92,14 +94,18 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
-          faqJsonLd(list.faq),
-          itemListJsonLd(
-            `${spec.name} ${cls.name} Season ${season} PvP best in slot (TBC Classic)`,
-            list.slots.map((s) => ({
-              name: `${s.slot}: ${getItem(s.bis.itemId)?.name ?? s.bis.name ?? `item ${s.bis.itemId}`}`,
-              url: wowheadItemUrl(s.bis.itemId),
-            })),
-          ),
+          ...(list
+            ? [
+                faqJsonLd(list.faq),
+                itemListJsonLd(
+                  `${spec.name} ${cls.name} Season ${season} PvP best in slot (TBC Classic)`,
+                  list.slots.map((s) => ({
+                    name: `${s.slot}: ${getItem(s.bis.itemId)?.name ?? s.bis.name ?? `item ${s.bis.itemId}`}`,
+                    url: wowheadItemUrl(s.bis.itemId),
+                  })),
+                ),
+              ]
+            : []),
         ]}
       />
       <PageHero image={classBackground(cls.slug)}>
@@ -113,9 +119,11 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
           </span>
           <span>{SEASON_NAMES[season]}</span>
         </div>
-        <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
-          {list.blurb}
-        </p>
+        {list && (
+          <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
+            {list.blurb}
+          </p>
+        )}
         <SeasonSwitcher
           classSlug={cls.slug}
           specSlug={spec.slug}
@@ -124,7 +132,17 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
       </PageHero>
 
       <main className="mx-auto max-w-[720px] px-4">
-        <BisPageBody list={list} cls={cls} spec={spec} />
+        {list ? (
+          <BisPageBody list={list} cls={cls} spec={spec} />
+        ) : (
+          <ComingSoon
+            title={`${spec.name} ${cls.name} Season ${season} BiS`}
+            heading={`Season ${season} — coming when the season opens`}
+            description={`TBC Anniversary is currently in Season 2. The ${SEASON_NAMES[season]} (Season ${season}) arena set and BiS list will be published the moment Season ${season} goes live. Until then:`}
+            fallbackHref={`/${cls.slug}/${spec.slug}/pvp`}
+            fallbackLabel={`See the live ${spec.name} ${cls.name} arena BiS`}
+          />
+        )}
         <SpecCrossLinks cls={cls} spec={spec} current="pvp" />
       </main>
     </>

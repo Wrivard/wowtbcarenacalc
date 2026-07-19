@@ -160,7 +160,23 @@ async function main() {
     for (const [rawSlot, items] of Object.entries(spec.slots)) {
       if (!items.length) continue;
       const slot = SLOT_NAME[rawSlot] ?? rawSlot;
-      const [bis, ...alts] = items;
+      // Raid-piece guard (bug 0c): the upstream snapshot is meant to be
+      // sampled from arena-ACTIVE players (1800+ rating AND recent arena
+      // games). When raid-loggers leak into the sample, a no-resilience
+      // tier piece (isPvP === false) can top a slot. On a PvP page that is
+      // always wrong — a resilience piece beats a raid piece for the top
+      // slot regardless of raw popularity. So if the most-popular pick is
+      // a PvE item and any resilience alternative exists, promote the
+      // highest-usage PvP alternative to BiS and demote the raid piece.
+      const ranked = [...items];
+      if (ranked[0] && ranked[0].isPvP === false) {
+        const bestPvpIdx = ranked.findIndex((it) => it.isPvP === true);
+        if (bestPvpIdx > 0) {
+          const [pvpPick] = ranked.splice(bestPvpIdx, 1);
+          ranked.unshift(pvpPick);
+        }
+      }
+      const [bis, ...alts] = ranked;
       slots[slot] = {
         slot,
         bisIsPvP: bis.isPvP,

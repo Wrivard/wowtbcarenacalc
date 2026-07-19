@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { allSpecs, getSpec } from "@/lib/classes";
 import { getPvpBis, wowheadItemUrl } from "@/lib/bis";
+import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   JsonLd,
@@ -39,12 +40,13 @@ export async function generateMetadata({
   const { cls, spec } = found;
   const list = getPvpBis(cls.slug, spec.slug);
   const season = list?.season ?? 2;
-  return {
+  return buildMetadata({
     title: `${spec.name} ${cls.name} PvP BiS — TBC Classic Arena Gear (Season ${season})`,
     description: `${spec.name} ${cls.name} PvP best in slot for TBC Classic arena — most-used gear with usage %, plus gems, enchants and stat priority.`,
-    alternates: { canonical: `/${cls.slug}/${spec.slug}/pvp` },
-    ...(list ? {} : { robots: { index: false, follow: true } }),
-  };
+    path: `/${cls.slug}/${spec.slug}/pvp`,
+    ogImage: `/${cls.slug}/opengraph-image`,
+    noindex: !list,
+  });
 }
 
 export default async function PvpBisPage({ params }: { params: Params }) {

@@ -44,7 +44,7 @@ export function BisPageBody({
     <>
       {/* Gear grid */}
       <section className="mt-8" aria-label="Best in slot gear list">
-        <GearGrid slots={list.slots} specKey={specKey} />
+        <GearGrid slots={list.slots} specKey={specKey} content={list.content} />
         <p className="mt-3 text-xs leading-relaxed text-muted">
           {hasUsage ? (
             <>

@@ -22,22 +22,22 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 30146,
-    "name": "Deathmantle Helm",
-    "usagePct": 50
+    "itemId": 31999,
+    "name": "Merciless Gladiator's Leather Helm",
+    "usagePct": 78
    },
    "alternatives": [
     {
-     "itemId": 32478,
-     "name": "Deathblow X11 Goggles",
-     "usagePct": 28,
-     "pveFlexNote": "Seen mostly above 2645 rating."
+     "itemId": 30146,
+     "name": "Deathmantle Helm",
+     "usagePct": 12,
+     "pveFlexNote": "Raid piece — no resilience. Only seen on players still finishing their arena set."
     },
     {
-     "itemId": 29044,
-     "name": "Netherblade Facemask",
-     "usagePct": 15,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32478,
+     "name": "Deathblow X11 Goggles",
+     "usagePct": 6,
+     "pveFlexNote": "Engineering raid helm — PvE flex only."
     }
    ]
   },
@@ -72,27 +72,22 @@
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 30149,
-    "name": "Deathmantle Shoulderpads",
-    "usagePct": 70
+    "itemId": 32001,
+    "name": "Merciless Gladiator's Leather Spaulders",
+    "usagePct": 74
    },
    "alternatives": [
     {
-     "itemId": 27797,
-     "name": "Wastewalker Shoulderpads",
-     "usagePct": 9,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32001,
-     "name": "Merciless Gladiator's Leather Spaulders",
-     "usagePct": 9,
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
      "itemId": 25832,
      "name": "Gladiator's Leather Spaulders",
-     "usagePct": 6
+     "usagePct": 12,
+     "pveFlexNote": "Season 1 arena shoulders — fine until you buy the S2 pair."
+    },
+    {
+     "itemId": 30149,
+     "name": "Deathmantle Shoulderpads",
+     "usagePct": 8,
+     "pveFlexNote": "Raid piece — no resilience. PvE flex only."
     }
    ]
   },
@@ -121,28 +116,22 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 29045,
-    "name": "Netherblade Chestpiece",
-    "usagePct": 28
+    "itemId": 32002,
+    "name": "Merciless Gladiator's Leather Tunic",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30101,
      "name": "Bloodsea Brigand's Vest",
-     "usagePct": 28,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 13,
+     "pveFlexNote": "Raid chest — no resilience. PvE flex only."
     },
     {
      "itemId": 30144,
      "name": "Deathmantle Chestguard",
-     "usagePct": 19,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32002,
-     "name": "Merciless Gladiator's Leather Tunic",
-     "usagePct": 15,
-     "pveFlexNote": "Seen mostly above 2645 rating."
+     "usagePct": 9,
+     "pveFlexNote": "Raid piece — no resilience. PvE flex only."
     }
    ]
   },
@@ -176,28 +165,22 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 30145,
-    "name": "Deathmantle Handguards",
-    "usagePct": 65
+    "itemId": 31998,
+    "name": "Merciless Gladiator's Leather Gloves",
+    "usagePct": 72
    },
    "alternatives": [
     {
-     "itemId": 27531,
-     "name": "Wastewalker Gloves",
-     "usagePct": 9,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 25834,
+     "name": "Gladiator's Leather Gloves",
+     "usagePct": 11,
+     "pveFlexNote": "Season 1 arena gloves — bridge until the S2 pair."
     },
     {
-     "itemId": 31998,
-     "name": "Merciless Gladiator's Leather Gloves",
-     "usagePct": 9,
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
-     "itemId": 29048,
-     "name": "Netherblade Gloves",
-     "usagePct": 7,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30145,
+     "name": "Deathmantle Handguards",
+     "usagePct": 8,
+     "pveFlexNote": "Raid piece — no resilience. PvE flex only."
     }
    ]
   },
@@ -226,28 +209,22 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30148,
-    "name": "Deathmantle Legguards",
-    "usagePct": 59
+    "itemId": 32000,
+    "name": "Merciless Gladiator's Leather Legguards",
+    "usagePct": 69
    },
    "alternatives": [
     {
      "itemId": 28741,
      "name": "Skulker's Greaves",
-     "usagePct": 17,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 16,
+     "pveFlexNote": "Raid legs — no resilience. Strong stats but a PvE flex."
     },
     {
-     "itemId": 29046,
-     "name": "Netherblade Breeches",
-     "usagePct": 11,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32000,
-     "name": "Merciless Gladiator's Leather Legguards",
-     "usagePct": 7,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 30148,
+     "name": "Deathmantle Legguards",
+     "usagePct": 8,
+     "pveFlexNote": "Raid piece — no resilience. PvE flex only."
     }
    ]
   },
@@ -497,11 +474,11 @@
   },
   {
    "question": "What is the most-used Combat Rogue PvP gear right now?",
-   "answer": "The highest-consensus picks are Belt of Deep Shadow (81%), Deathmantle Shoulderpads (70%), Garona's Signet Ring (67%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Belt of Deep Shadow (81%), Merciless Gladiator's Leather Helm (78%), Merciless Gladiator's Leather Spaulders (74%). The Season 2 arena set dominates head, shoulders, chest, hands and legs — anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
-   "question": "How much of the Combat Rogue BiS list is PvP gear vs raid gear?",
-   "answer": "Only 7% of the most-used slots are PvP items — high-rated Combat Rogues flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+   "question": "Should Combat Rogues wear Deathmantle (raid tier) in arena?",
+   "answer": "No. Deathmantle and other T4/T5 pieces have zero resilience, so they get you globalled in dampening games. The Merciless Gladiator's Leather set is the arena baseline; only flex a raid piece into a slot where you have not yet bought the arena item. This BiS list is built from arena-active players (1800+ rating with recent games), not raid-loggers who happen to hold a rating."
   },
   {
    "question": "What weapon do Combat Rogues use in arena?",

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { CLASSES, PHASES, getClass } from "@/lib/classes";
 import { getPvpBis } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
+import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { PageHero } from "@/components/PageHero";
@@ -24,11 +25,11 @@ export async function generateMetadata({
   const { class: classSlug } = await params;
   const cls = getClass(classSlug);
   if (!cls) return {};
-  return {
+  return buildMetadata({
     title: `${cls.name} TBC Classic — BiS Lists, Talents & Talent Calculator`,
     description: `Every ${cls.name} spec in TBC Classic: arena PvP BiS, phase-by-phase PvE best in slot, recommended talent builds, and a ${cls.name} talent calculator.`,
-    alternates: { canonical: `/${cls.slug}` },
-  };
+    path: `/${cls.slug}`,
+  });
 }
 
 export default async function ClassHub({

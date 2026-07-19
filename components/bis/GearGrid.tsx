@@ -5,9 +5,10 @@
 // + usage % + expandable alternatives.
 
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, TriangleAlert } from "lucide-react";
 import type { BisSlot } from "@/lib/bis";
 import { ItemLink } from "@/components/ItemLink";
+import { isPveOnly, PVE_ONLY_WARN_PCT } from "@/lib/item-flags";
 import { trackEvent } from "@/lib/gtag";
 import { cn } from "@/lib/utils";
 
@@ -20,7 +21,15 @@ const SLOT_LABEL: Record<string, string> = {
   Trinket2: "Trinket 2",
 };
 
-export function GearGrid({ slots, specKey }: { slots: BisSlot[]; specKey: string }) {
+export function GearGrid({
+  slots,
+  specKey,
+  content,
+}: {
+  slots: BisSlot[];
+  specKey: string;
+  content: "pvp" | "pve";
+}) {
   const [open, setOpen] = useState<Set<string>>(new Set());
 
   const toggle = (slot: string, hasAlts: boolean) => {
@@ -41,6 +50,10 @@ export function GearGrid({ slots, specKey }: { slots: BisSlot[]; specKey: string
       {slots.map((row) => {
         const hasAlts = row.alternatives.length > 0;
         const expanded = open.has(row.slot);
+        const raidWarning =
+          content === "pvp" &&
+          isPveOnly(row.bis.itemId) &&
+          (row.bis.usagePct ?? 0) > PVE_ONLY_WARN_PCT;
         return (
           <div key={row.slot} className="border-b border-border bg-surface last:border-b-0">
             <div
@@ -85,6 +98,17 @@ export function GearGrid({ slots, specKey }: { slots: BisSlot[]; specKey: string
                 <span className="size-3.5 shrink-0" aria-hidden />
               )}
             </div>
+            {raidWarning && (
+              <div className="flex items-start gap-2 border-t border-amber-500/20 bg-amber-500/[0.06] px-3 py-2 text-[11px] leading-relaxed text-amber-500/90 sm:px-4">
+                <TriangleAlert className="mt-0.5 size-3.5 shrink-0" aria-hidden />
+                <span>
+                  This is a raid piece — it has no resilience.{" "}
+                  {hasAlts
+                    ? "Expand this row for a pure-arena alternative."
+                    : "Prefer the season arena set piece for this slot."}
+                </span>
+              </div>
+            )}
             {expanded && (
               <ul className="space-y-2 border-t border-border/60 bg-background px-3 py-2.5 sm:pl-[6.25rem]">
                 {row.alternatives.map((alt) => (
