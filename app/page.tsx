@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Calculator, Crosshair, Swords } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { BACKGROUNDS } from "@/lib/backgrounds";
-import { CLASSES } from "@/lib/classes";
+import { CLASSES, allSpecs } from "@/lib/classes";
 import { classIconName, specIconName } from "@/lib/icons";
 import { GameIcon } from "@/components/GameIcon";
 import { PointsCalculator } from "@/components/calculator/PointsCalculator";
@@ -12,6 +12,8 @@ import { RatingsProvider } from "@/components/calculator/ratings-context";
 import { AdUnit } from "@/components/AdUnit";
 import { FAQ_ITEMS, StructuredData } from "@/components/seo/StructuredData";
 import { BRACKET_MULTIPLIERS, maxPoints, referenceTable } from "@/lib/arena";
+import { filledBisRoutes } from "@/lib/bis";
+import { getBuild } from "@/data/builds";
 
 const SLOT_RESULT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT;
 const SLOT_INCONTENT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT;
@@ -36,6 +38,11 @@ function SectionHeading({
 
 export default function Home() {
   const table = referenceTable();
+  const specCount = allSpecs().length;
+  const bisCount = filledBisRoutes().length;
+  const buildCount = allSpecs().filter(({ cls, spec }) =>
+    getBuild(cls.slug, spec.slug),
+  ).length;
 
   return (
     <>
@@ -52,20 +59,78 @@ export default function Home() {
           <Swords className="size-3.5" aria-hidden />
           TBC Classic · Anniversary
         </div>
-        <h1 className="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+        <h1 className="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-5xl">
           WoW TBC Arena Points Calculator
         </h1>
-        <p className="mt-3 max-w-[52ch] text-sm leading-relaxed text-muted-strong sm:text-base">
-          Enter your 2v2, 3v3, or 5v5 team rating to see exactly how many
-          arena points you&apos;ll earn at the weekly reset — and what rating
-          you need to hit your gear targets.
+        <p className="mt-4 max-w-[52ch] text-sm leading-relaxed text-muted-strong sm:text-base">
+          Exact weekly arena points from your 2v2, 3v3 or 5v5 rating — plus
+          live-snapshot BiS lists and talent builds for every class and spec
+          in The Burning Crusade Classic.
         </p>
+
+        {/* CTAs */}
+        <div className="mt-6 flex flex-wrap gap-2.5">
+          <a
+            href="#calculator"
+            className="rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
+          >
+            Calculate your points
+          </a>
+          <Link
+            href="/classes"
+            className="rounded-lg border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground backdrop-blur transition-colors hover:bg-surface-hover"
+          >
+            Browse BiS lists
+          </Link>
+          <Link
+            href="/talent-calculator"
+            className="rounded-lg border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground backdrop-blur transition-colors hover:bg-surface-hover"
+          >
+            Plan talents
+          </Link>
+        </div>
+
+        {/* Class icon strip */}
+        <div className="mt-7 flex flex-wrap items-center gap-2">
+          {CLASSES.map((cls) => (
+            <Link
+              key={cls.slug}
+              href={`/${cls.slug}`}
+              title={`${cls.name} BiS & talents`}
+              className="rounded-lg border border-border/60 bg-background/50 p-1 backdrop-blur transition-all hover:border-accent hover:bg-surface"
+            >
+              <GameIcon
+                icon={classIconName(cls.slug)}
+                alt={`${cls.name} BiS & talents`}
+                size="medium"
+                className="rounded-md border-0"
+                lazy={false}
+              />
+            </Link>
+          ))}
+        </div>
+
+        {/* Live stats */}
+        <div className="mt-7 flex flex-wrap gap-x-6 gap-y-2 font-mono text-[11px] tracking-wider text-muted uppercase">
+          <span>
+            <span className="text-accent">{specCount}</span> specs
+          </span>
+          <span>
+            <span className="text-accent">{bisCount}</span> live BiS lists
+          </span>
+          <span>
+            <span className="text-accent">{buildCount}</span> talent builds
+          </span>
+          <span>
+            <span className="text-accent">9</span> calculators
+          </span>
+        </div>
       </PageHero>
 
       <main className="mx-auto max-w-[720px] px-4 pt-10">
         {/* Calculator + gear planner share ratings state */}
         <RatingsProvider>
-          <section aria-label="Arena points calculator">
+          <section id="calculator" aria-label="Arena points calculator" className="scroll-mt-6">
             <PointsCalculator />
           </section>
 
@@ -101,6 +166,104 @@ export default function Home() {
             <GearPlanner />
           </section>
         </RatingsProvider>
+
+        {/* ——— Explore hub ——— */}
+          <section className="mt-20" aria-labelledby="explore">
+            <SectionHeading id="explore">
+              Explore the TBC Classic hub
+            </SectionHeading>
+            <p className="mt-2 text-sm leading-relaxed text-muted-strong">
+              Everything on this site, one hop away — live-snapshot BiS
+              lists, recommended talent builds and an interactive calculator
+              for every class and spec.
+            </p>
+
+            {/* Feature cards */}
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {[
+                {
+                  href: "/classes",
+                  image: BACKGROUNDS.classes,
+                  title: "BiS Lists",
+                  desc: "Arena PvP snapshots and Phase 1–5 PvE gear for every spec — usage %, gems, enchants, stat priorities.",
+                },
+                {
+                  href: "/talent-calculator",
+                  image: BACKGROUNDS.calculator,
+                  title: "Talent Calculator",
+                  desc: "Plan your 61 points with real tier and prereq rules, load recommended builds, share with a link.",
+                },
+              ].map((card) => (
+                <Link
+                  key={card.href}
+                  href={card.href}
+                  className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
+                >
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
+                    style={{ backgroundImage: `url(${card.image})` }}
+                  />
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30"
+                  />
+                  <span className="relative block p-5 pt-20">
+                    <span className="text-base font-semibold text-foreground">
+                      {card.title} →
+                    </span>
+                    <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
+                      {card.desc}
+                    </span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+
+            {/* Class grid */}
+            <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {CLASSES.map((cls) => (
+                <div
+                  key={cls.slug}
+                  className="rounded-xl border border-border bg-surface p-3.5 transition-colors hover:border-border-strong"
+                >
+                  <Link
+                    href={`/${cls.slug}`}
+                    className="flex items-center gap-2 text-sm font-semibold text-foreground hover:text-accent"
+                  >
+                    <GameIcon
+                      icon={classIconName(cls.slug)}
+                      alt={`${cls.name} class icon`}
+                      size="medium"
+                      className="rounded-lg"
+                    />
+                    {cls.name}
+                  </Link>
+                  <div className="mt-2.5 flex flex-wrap gap-1.5">
+                    {cls.specs.map((spec) => (
+                      <Link
+                        key={spec.slug}
+                        href={
+                          spec.pvp
+                            ? `/${cls.slug}/${spec.slug}/pvp`
+                            : `/${cls.slug}/${spec.slug}/pve/phase-1`
+                        }
+                        title={`${spec.name} ${cls.name} BiS`}
+                        className="rounded border border-transparent transition-all hover:border-accent"
+                      >
+                        <GameIcon
+                          icon={specIconName(cls.slug, spec)}
+                          alt={`${spec.name} ${cls.name} BiS`}
+                          size="small"
+                          className="rounded"
+                        />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
 
         {/* ——— SEO content ——— */}
 
@@ -281,102 +444,6 @@ export default function Home() {
             </p>
           </section>
 
-          <section aria-labelledby="explore">
-            <SectionHeading id="explore">
-              Explore the TBC Classic hub
-            </SectionHeading>
-            <p className="mt-2 text-sm leading-relaxed text-muted-strong">
-              Everything on this site, one hop away — live-snapshot BiS
-              lists, recommended talent builds and an interactive calculator
-              for all 9 classes and 29 specs.
-            </p>
-
-            {/* Feature cards */}
-            <div className="mt-5 grid gap-3 sm:grid-cols-2">
-              {[
-                {
-                  href: "/classes",
-                  image: BACKGROUNDS.classes,
-                  title: "BiS Lists",
-                  desc: "Arena PvP snapshots and Phase 1–5 PvE gear for every spec — usage %, gems, enchants, stat priorities.",
-                },
-                {
-                  href: "/talent-calculator",
-                  image: BACKGROUNDS.calculator,
-                  title: "Talent Calculator",
-                  desc: "Plan your 61 points with real tier and prereq rules, load recommended builds, share with a link.",
-                },
-              ].map((card) => (
-                <Link
-                  key={card.href}
-                  href={card.href}
-                  className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
-                >
-                  <span
-                    aria-hidden
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
-                    style={{ backgroundImage: `url(${card.image})` }}
-                  />
-                  <span
-                    aria-hidden
-                    className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30"
-                  />
-                  <span className="relative block p-5 pt-20">
-                    <span className="text-base font-semibold text-foreground">
-                      {card.title} →
-                    </span>
-                    <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
-                      {card.desc}
-                    </span>
-                  </span>
-                </Link>
-              ))}
-            </div>
-
-            {/* Class grid */}
-            <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
-              {CLASSES.map((cls) => (
-                <div
-                  key={cls.slug}
-                  className="rounded-xl border border-border bg-surface p-3.5 transition-colors hover:border-border-strong"
-                >
-                  <Link
-                    href={`/${cls.slug}`}
-                    className="flex items-center gap-2 text-sm font-semibold text-foreground hover:text-accent"
-                  >
-                    <GameIcon
-                      icon={classIconName(cls.slug)}
-                      alt={`${cls.name} class icon`}
-                      size="medium"
-                      className="rounded-lg"
-                    />
-                    {cls.name}
-                  </Link>
-                  <div className="mt-2.5 flex flex-wrap gap-1.5">
-                    {cls.specs.map((spec) => (
-                      <Link
-                        key={spec.slug}
-                        href={
-                          spec.pvp
-                            ? `/${cls.slug}/${spec.slug}/pvp`
-                            : `/${cls.slug}/${spec.slug}/pve/phase-1`
-                        }
-                        title={`${spec.name} ${cls.name} BiS`}
-                        className="rounded border border-transparent transition-all hover:border-accent"
-                      >
-                        <GameIcon
-                          icon={specIconName(cls.slug, spec)}
-                          alt={`${spec.name} ${cls.name} BiS`}
-                          size="small"
-                          className="rounded"
-                        />
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
 
           <section aria-labelledby="faq">
             <SectionHeading id="faq">Frequently asked questions</SectionHeading>
