@@ -12,6 +12,8 @@ import {
 import { BisPageBody } from "@/components/bis/BisPageBody";
 import { ComingSoon } from "@/components/ComingSoon";
 import { SpecCrossLinks } from "@/components/SpecCrossLinks";
+import { SeasonSwitcher } from "@/components/bis/SeasonSwitcher";
+import { LIVE_SEASON } from "@/lib/bis";
 import { PageHero } from "@/components/PageHero";
 import { classBackground } from "@/lib/backgrounds";
 import { getItem } from "@/lib/items";
@@ -108,6 +110,11 @@ export default async function PvpBisPage({ params }: { params: Params }) {
             <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
               {list.blurb}
             </p>
+            <SeasonSwitcher
+              classSlug={cls.slug}
+              specSlug={spec.slug}
+              current={LIVE_SEASON}
+            />
           </>
         )}
       </PageHero>

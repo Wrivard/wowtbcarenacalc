@@ -1,0 +1,341 @@
+{
+ "class": "hunter",
+ "spec": "marksmanship",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Marksmanship Hunter: the Brutal Gladiator's set (Brutal Gladiator's Chain Helm, Brutal Gladiator's Chain Spaulders, Brutal Gladiator's Chain Gauntlets…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Marksmanship Hunters equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Attack Power",
+  "Agility",
+  "Stamina",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34992,
+    "name": "Brutal Gladiator's Chain Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 30141,
+     "name": "Rift Stalker Helm",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem"
+   },
+   "alternatives": [
+    {
+     "itemId": 35135,
+     "name": "Guardian's Pendant of Triumph"
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 34994,
+    "name": "Brutal Gladiator's Chain Spaulders"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak"
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk"
+   },
+   "alternatives": [
+    {
+     "itemId": 34990,
+     "name": "Brutal Gladiator's Chain Armor"
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35166,
+    "name": "Guardian's Chain Bracers"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34991,
+    "name": "Brutal Gladiator's Chain Gauntlets"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 35151,
+    "name": "Guardian's Chain Girdle"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 34993,
+    "name": "Brutal Gladiator's Chain Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 30142,
+     "name": "Rift Stalker Leggings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 35136,
+    "name": "Guardian's Chain Sabatons"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 35131,
+    "name": "Guardian's Band of Triumph"
+   },
+   "alternatives": [
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 28237,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28243,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 34996,
+    "name": "Brutal Gladiator's Cleaver"
+   },
+   "alternatives": [
+    {
+     "itemId": 34997,
+     "name": "Brutal Gladiator's Decapitator"
+    },
+    {
+     "itemId": 35101,
+     "name": "Brutal Gladiator's Slicer"
+    },
+    {
+     "itemId": 35076,
+     "name": "Brutal Gladiator's Right Ripper"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 35072,
+    "name": "Brutal Gladiator's Quickblade"
+   },
+   "alternatives": [
+    {
+     "itemId": 35101,
+     "name": "Brutal Gladiator's Slicer"
+    },
+    {
+     "itemId": 29948,
+     "name": "Claw of the Phoenix",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35017,
+     "name": "Brutal Gladiator's Hacker"
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30105,
+    "name": "Serpent Spine Longbow"
+   },
+   "alternatives": [
+    {
+     "itemId": 31986,
+     "name": "Merciless Gladiator's Crossbow of the Phoenix",
+     "pveFlexNote": "No Season 4 equivalent — current-season item shown."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 25895,
+   "name": "+12 Critical Strike Rating & 5% Snare and Root Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 28362,
+   "name": "+20 Attack Power",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 Attack Power",
+   "note": "38% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Agility",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "40% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+30 Intellect",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+30 Intellect",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ranged",
+   "text": "Scope (+28 Critical Strike Rating)",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Marksmanship Hunter?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Chain Helm, Brutal Gladiator's Chain Spaulders, Brutal Gladiator's Chain Gauntlets, Brutal Gladiator's Chain Leggings, Brutal Gladiator's Cleaver, Brutal Gladiator's Quickblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Chain Bracers, Guardian's Chain Girdle, Guardian's Chain Sabatons, Guardian's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "class": "warlock",
+ "spec": "affliction",
+ "content": "pvp",
+ "season": 3,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 3 arena gear for Affliction Warlock: the Vengeful Gladiator's set (Vengeful Gladiator's Dreadweave Hood, Vengeful Gladiator's Dreadweave Mantle, Vengeful Gladiator's Dreadweave Robe…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Affliction Warlocks equip into their Season 3 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Spell Hit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 33677,
+    "name": "Vengeful Gladiator's Dreadweave Hood"
+   },
+   "alternatives": [
+    {
+     "itemId": 33683,
+     "name": "Vengeful Gladiator's Felweave Cowl"
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33921,
+    "name": "Vindicator's Pendant of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 33679,
+    "name": "Vengeful Gladiator's Dreadweave Mantle"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 33680,
+    "name": "Vengeful Gladiator's Dreadweave Robe"
+   },
+   "alternatives": [
+    {
+     "itemId": 33685,
+     "name": "Vengeful Gladiator's Felweave Raiment"
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33883,
+    "name": "Vindicator's Dreadweave Cuffs"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 33676,
+    "name": "Vengeful Gladiator's Dreadweave Gloves"
+   },
+   "alternatives": [
+    {
+     "itemId": 33684,
+     "name": "Vengeful Gladiator's Felweave Handguards"
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 33882,
+    "name": "Vindicator's Dreadweave Belt"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 33678,
+    "name": "Vengeful Gladiator's Dreadweave Leggings"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 33884,
+    "name": "Vindicator's Dreadweave Stalkers"
+   },
+   "alternatives": [
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33853,
+    "name": "Vindicator's Band of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33054,
+     "name": "The Seal of Danzalar",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 33763,
+    "name": "Vengeful Gladiator's Spellblade"
+   },
+   "alternatives": [
+    {
+     "itemId": 33766,
+     "name": "Vengeful Gladiator's War Staff"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33681,
+    "name": "Vengeful Gladiator's Endgame"
+   },
+   "alternatives": [
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33764,
+    "name": "Vengeful Gladiator's Touch of Defeat"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+40 Spell Damage and Healing",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 3 arena set for Affliction Warlock?",
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Dreadweave Hood, Vengeful Gladiator's Dreadweave Mantle, Vengeful Gladiator's Dreadweave Robe, Vengeful Gladiator's Dreadweave Gloves, Vengeful Gladiator's Dreadweave Leggings, Vengeful Gladiator's Spellblade, Vengeful Gladiator's Endgame, Vengeful Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 3?",
+   "answer": "Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free."
+  },
+  {
+   "question": "How many arena points does full Season 3 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 3 set?",
+   "answer": "Vindicator's Pendant of Dominance, Vindicator's Dreadweave Cuffs, Vindicator's Dreadweave Belt, Vindicator's Dreadweave Stalkers, Vindicator's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

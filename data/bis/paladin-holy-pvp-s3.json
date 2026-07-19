@@ -1,0 +1,418 @@
+{
+ "class": "paladin",
+ "spec": "holy",
+ "content": "pvp",
+ "season": 3,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 3 arena gear for Holy Paladin: the Vengeful Gladiator's set (Vengeful Gladiator's Ornamented Headcover, Vengeful Gladiator's Ornamented Spaulders, Vengeful Gladiator's Ornamented Chestguard…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Holy Paladins equip into their Season 3 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Intellect",
+  "Stamina",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 33724,
+    "name": "Vengeful Gladiator's Ornamented Headcover"
+   },
+   "alternatives": [
+    {
+     "itemId": 30136,
+     "name": "Crystalforge Greathelm",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33697,
+     "name": "Vengeful Gladiator's Lamellar Helm"
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28609,
+    "name": "Emberspur Talisman"
+   },
+   "alternatives": [
+    {
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29374,
+     "name": "Necklace of Eternal Hope",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 33726,
+    "name": "Vengeful Gladiator's Ornamented Spaulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 30138,
+     "name": "Crystalforge Pauldrons",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33699,
+     "name": "Vengeful Gladiator's Lamellar Shoulders"
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted"
+   },
+   "alternatives": [
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28570,
+     "name": "Shadow-Cloak of Dalaran",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29375,
+     "name": "Bishop's Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 33722,
+    "name": "Vengeful Gladiator's Ornamented Chestguard"
+   },
+   "alternatives": [
+    {
+     "itemId": 30134,
+     "name": "Crystalforge Chestpiece",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33695,
+     "name": "Vengeful Gladiator's Lamellar Chestpiece"
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33904,
+    "name": "Vindicator's Ornamented Bracers"
+   },
+   "alternatives": [
+    {
+     "itemId": 28512,
+     "name": "Bracers of Justice",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33889,
+     "name": "Vindicator's Lamellar Bracers"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 33723,
+    "name": "Vengeful Gladiator's Ornamented Gloves"
+   },
+   "alternatives": [
+    {
+     "itemId": 30112,
+     "name": "Glorious Gauntlets of Crestfall",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30135,
+     "name": "Crystalforge Gloves",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33696,
+     "name": "Vengeful Gladiator's Lamellar Gauntlets"
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars"
+   },
+   "alternatives": [
+    {
+     "itemId": 30044,
+     "name": "Monsoon Belt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33903,
+     "name": "Vindicator's Ornamented Belt"
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30137,
+    "name": "Crystalforge Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 29991,
+     "name": "Sunhawk Leggings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30027,
+    "name": "Boots of Courage Unending"
+   },
+   "alternatives": [
+    {
+     "itemId": 33905,
+     "name": "Vindicator's Ornamented Greaves"
+    },
+    {
+     "itemId": 33890,
+     "name": "Vindicator's Lamellar Greaves"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band"
+   },
+   "alternatives": [
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 28236,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28242,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28727,
+     "name": "Pendant of the Violet Eye",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 33743,
+    "name": "Vengeful Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 33687,
+     "name": "Vengeful Gladiator's Gavel"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33735,
+    "name": "Vengeful Gladiator's Redoubt"
+   },
+   "alternatives": [
+    {
+     "itemId": 29458,
+     "name": "Aegis of the Vindicator"
+    },
+    {
+     "itemId": 29274,
+     "name": "Tears of Heaven",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33661,
+     "name": "Vengeful Gladiator's Barrier"
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33842,
+    "name": "Vengeful Gladiator's Libram of Justice"
+   },
+   "alternatives": [
+    {
+     "itemId": 25644,
+     "name": "Blessed Book of Nagrand",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27917,
+     "name": "Libram of the Eternal Rest",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28296,
+     "name": "Libram of the Lightbringer",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24057,
+   "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 25901,
+   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+15 Shadow Resistance",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "83% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+12 Intellect",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 3 arena set for Holy Paladin?",
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Ornamented Headcover, Vengeful Gladiator's Ornamented Spaulders, Vengeful Gladiator's Ornamented Chestguard, Vengeful Gladiator's Ornamented Gloves, Vengeful Gladiator's Salvation, Vengeful Gladiator's Redoubt, Vengeful Gladiator's Libram of Justice. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 3?",
+   "answer": "Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free."
+  },
+  {
+   "question": "How many arena points does full Season 3 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 3 set?",
+   "answer": "Vindicator's Ornamented Bracers — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

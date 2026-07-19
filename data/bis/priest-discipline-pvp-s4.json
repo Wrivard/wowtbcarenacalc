@@ -1,0 +1,367 @@
+{
+ "class": "priest",
+ "spec": "discipline",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Discipline Priest: the Brutal Gladiator's set (Brutal Gladiator's Mooncloth Mantle, Brutal Gladiator's Mooncloth Robe, Brutal Gladiator's Mooncloth Gloves…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Discipline Priests equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30152,
+    "name": "Cowl of the Avatar"
+   },
+   "alternatives": [
+    {
+     "itemId": 29049,
+     "name": "Light-Collar of the Incarnate",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35054,
+     "name": "Brutal Gladiator's Mooncloth Hood"
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 35134,
+    "name": "Guardian's Pendant of Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 35056,
+    "name": "Brutal Gladiator's Mooncloth Mantle"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted"
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29375,
+     "name": "Bishop's Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 35057,
+    "name": "Brutal Gladiator's Mooncloth Robe"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35174,
+    "name": "Guardian's Mooncloth Cuffs"
+   },
+   "alternatives": [
+    {
+     "itemId": 32977,
+     "name": "Marshal's Mooncloth Cuffs"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 35053,
+    "name": "Brutal Gladiator's Mooncloth Gloves"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 35159,
+    "name": "Guardian's Mooncloth Belt"
+   },
+   "alternatives": [
+    {
+     "itemId": 32976,
+     "name": "Marshal's Mooncloth Belt"
+    },
+    {
+     "itemId": 30036,
+     "name": "Belt of the Long Road",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 35055,
+    "name": "Brutal Gladiator's Mooncloth Leggings"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30035,
+    "name": "Boots of the Long Road"
+   },
+   "alternatives": [
+    {
+     "itemId": 35144,
+     "name": "Guardian's Mooncloth Slippers"
+    },
+    {
+     "itemId": 28663,
+     "name": "Boots of the Incorrupt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30100,
+     "name": "Soul-Strider Boots",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 35130,
+    "name": "Guardian's Band of Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 30349,
+    "name": "Medallion of the Alliance"
+   },
+   "alternatives": [
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30346,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 35082,
+    "name": "Brutal Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28771,
+     "name": "Light's Justice",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 35074,
+    "name": "Brutal Gladiator's Reprieve"
+   },
+   "alternatives": [
+    {
+     "itemId": 29923,
+     "name": "Talisman of the Sun King",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 35107,
+    "name": "Brutal Gladiator's Touch of Defeat"
+   },
+   "alternatives": [
+    {
+     "itemId": 30080,
+     "name": "Luminescent Rod of the Naaru",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28588,
+     "name": "Blue Diamond Witchwand",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 31861,
+   "name": "+8 Spell Hit Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "70% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "97% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "6 Mana per 5 Sec.",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Spell Hit Rating",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "58% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "61% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Discipline Priest?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Mooncloth Mantle, Brutal Gladiator's Mooncloth Robe, Brutal Gladiator's Mooncloth Gloves, Brutal Gladiator's Mooncloth Leggings, Brutal Gladiator's Salvation, Brutal Gladiator's Reprieve, Brutal Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Pendant of Salvation, Guardian's Mooncloth Cuffs, Guardian's Mooncloth Belt, Guardian's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

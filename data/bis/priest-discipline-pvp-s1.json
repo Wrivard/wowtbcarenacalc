@@ -1,0 +1,368 @@
+{
+ "class": "priest",
+ "spec": "discipline",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Discipline Priest: the Gladiator's set (Gladiator's Mooncloth Mantle, Gladiator's Mooncloth Robe, Gladiator's Mooncloth Gloves…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Discipline Priests equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30152,
+    "name": "Cowl of the Avatar"
+   },
+   "alternatives": [
+    {
+     "itemId": 29049,
+     "name": "Light-Collar of the Incarnate",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31410,
+     "name": "Gladiator's Mooncloth Hood"
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33068,
+    "name": "Veteran's Pendant of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 31412,
+    "name": "Gladiator's Mooncloth Mantle"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted"
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29375,
+     "name": "Bishop's Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31413,
+    "name": "Gladiator's Mooncloth Robe"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32980,
+    "name": "Veteran's Mooncloth Cuffs",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 32977,
+     "name": "Marshal's Mooncloth Cuffs"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 31409,
+    "name": "Gladiator's Mooncloth Gloves"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32979,
+    "name": "Veteran's Mooncloth Belt",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 32976,
+     "name": "Marshal's Mooncloth Belt"
+    },
+    {
+     "itemId": 30036,
+     "name": "Belt of the Long Road",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31411,
+    "name": "Gladiator's Mooncloth Leggings"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30035,
+    "name": "Boots of the Long Road"
+   },
+   "alternatives": [
+    {
+     "itemId": 32981,
+     "name": "Veteran's Mooncloth Slippers",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 28663,
+     "name": "Boots of the Incorrupt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30100,
+     "name": "Soul-Strider Boots",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33064,
+    "name": "Veteran's Band of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 30349,
+    "name": "Medallion of the Alliance"
+   },
+   "alternatives": [
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30346,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32451,
+    "name": "Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28771,
+     "name": "Light's Justice",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32452,
+    "name": "Gladiator's Reprieve"
+   },
+   "alternatives": [
+    {
+     "itemId": 29923,
+     "name": "Talisman of the Sun King",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28320,
+    "name": "Gladiator's Touch of Defeat"
+   },
+   "alternatives": [
+    {
+     "itemId": 30080,
+     "name": "Luminescent Rod of the Naaru",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28588,
+     "name": "Blue Diamond Witchwand",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 31861,
+   "name": "+8 Spell Hit Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "70% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "97% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "6 Mana per 5 Sec.",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Spell Hit Rating",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "58% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "61% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Discipline Priest?",
+   "answer": "The Gladiator's pieces: Gladiator's Mooncloth Mantle, Gladiator's Mooncloth Robe, Gladiator's Mooncloth Gloves, Gladiator's Mooncloth Leggings, Gladiator's Salvation, Gladiator's Reprieve, Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

@@ -1,0 +1,420 @@
+{
+ "class": "priest",
+ "spec": "holy",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Holy Priest: the Brutal Gladiator's set (Brutal Gladiator's Salvation…). Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Holy Priests equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30152,
+    "name": "Cowl of the Avatar"
+   },
+   "alternatives": [
+    {
+     "itemId": 29049,
+     "name": "Light-Collar of the Incarnate",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28822,
+    "name": "Teeth of Gruul"
+   },
+   "alternatives": [
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "pveFlexNote": "Seen mostly above 2494 rating."
+    },
+    {
+     "itemId": 35134,
+     "name": "Guardian's Pendant of Salvation"
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30154,
+    "name": "Mantle of the Avatar"
+   },
+   "alternatives": [
+    {
+     "itemId": 29054,
+     "name": "Light-Mantle of the Incarnate",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35056,
+     "name": "Brutal Gladiator's Mooncloth Mantle"
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted"
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29050,
+    "name": "Robes of the Incarnate"
+   },
+   "alternatives": [
+    {
+     "itemId": 30150,
+     "name": "Vestments of the Avatar",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35057,
+     "name": "Brutal Gladiator's Mooncloth Robe"
+    },
+    {
+     "itemId": 28578,
+     "name": "Masquerade Gown",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32516,
+    "name": "Wraps of Purification"
+   },
+   "alternatives": [
+    {
+     "itemId": 35174,
+     "name": "Guardian's Mooncloth Cuffs"
+    },
+    {
+     "itemId": 28511,
+     "name": "Bands of Indwelling",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30151,
+    "name": "Gloves of the Avatar"
+   },
+   "alternatives": [
+    {
+     "itemId": 28508,
+     "name": "Gloves of Saintly Blessings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35053,
+     "name": "Brutal Gladiator's Mooncloth Gloves"
+    },
+    {
+     "itemId": 29055,
+     "name": "Handwraps of the Incarnate",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28652,
+    "name": "Cincture of Will"
+   },
+   "alternatives": [
+    {
+     "itemId": 30036,
+     "name": "Belt of the Long Road",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35159,
+     "name": "Guardian's Mooncloth Belt"
+    },
+    {
+     "itemId": 21873,
+     "name": "Primal Mooncloth Belt",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30153,
+    "name": "Breeches of the Avatar"
+   },
+   "alternatives": [
+    {
+     "itemId": 28742,
+     "name": "Pantaloons of Repentance",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35055,
+     "name": "Brutal Gladiator's Mooncloth Leggings"
+    },
+    {
+     "itemId": 29977,
+     "name": "Star-Soul Breeches",
+     "pveFlexNote": "Seen mostly above 2494 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30100,
+    "name": "Soul-Strider Boots"
+   },
+   "alternatives": [
+    {
+     "itemId": 28663,
+     "name": "Boots of the Incorrupt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30035,
+     "name": "Boots of the Long Road",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer"
+   },
+   "alternatives": [
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28823,
+     "name": "Eye of Gruul",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28590,
+     "name": "Ribbon of Sacrifice",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 35082,
+    "name": "Brutal Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29981,
+     "name": "Ethereum Life-Staff",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28771,
+     "name": "Light's Justice",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29923,
+    "name": "Talisman of the Sun King"
+   },
+   "alternatives": [
+    {
+     "itemId": 29170,
+     "name": "Windcaller's Orb",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28728,
+     "name": "Aran's Soothing Sapphire",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30080,
+    "name": "Luminescent Rod of the Naaru"
+   },
+   "alternatives": [
+    {
+     "itemId": 28588,
+     "name": "Blue Diamond Witchwand",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 25901,
+   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "62% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Spirit",
+   "note": "79% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "35% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "85% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "53% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Holy Priest?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Salvation. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

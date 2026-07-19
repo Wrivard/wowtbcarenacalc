@@ -1,0 +1,398 @@
+{
+ "class": "shaman",
+ "spec": "restoration",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Restoration Shaman: the Brutal Gladiator's set (Brutal Gladiator's Ringmail Helm, Brutal Gladiator's Mail Spaulders, Brutal Gladiator's Ringmail Armor…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Restoration Shamans equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 35079,
+    "name": "Brutal Gladiator's Ringmail Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 30166,
+     "name": "Cataclysm Headguard",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29028,
+     "name": "Cyclone Headdress",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 35134,
+    "name": "Guardian's Pendant of Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 35052,
+    "name": "Brutal Gladiator's Mail Spaulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 30168,
+     "name": "Cataclysm Shoulderguards",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted"
+   },
+   "alternatives": [
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29375,
+     "name": "Bishop's Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 35077,
+    "name": "Brutal Gladiator's Ringmail Armor"
+   },
+   "alternatives": [
+    {
+     "itemId": 30164,
+     "name": "Cataclysm Chestguard",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35177,
+    "name": "Guardian's Ringmail Bracers"
+   },
+   "alternatives": [
+    {
+     "itemId": 30047,
+     "name": "Blackfathom Warbands",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28503,
+     "name": "Whirlwind Bracers",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32516,
+     "name": "Wraps of Purification",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 35049,
+    "name": "Brutal Gladiator's Mail Gauntlets"
+   },
+   "alternatives": [
+    {
+     "itemId": 29976,
+     "name": "Worldstorm Gauntlets",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28520,
+     "name": "Gloves of Centering",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars"
+   },
+   "alternatives": [
+    {
+     "itemId": 35162,
+     "name": "Guardian's Ringmail Girdle"
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 29991,
+    "name": "Sunhawk Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 35080,
+     "name": "Brutal Gladiator's Ringmail Leggings"
+    },
+    {
+     "itemId": 28751,
+     "name": "Heart-Flame Leggings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 35147,
+    "name": "Guardian's Ringmail Sabatons"
+   },
+   "alternatives": [
+    {
+     "itemId": 30066,
+     "name": "Tempest-Strider Boots",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30092,
+     "name": "Orca-Hide Boots",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 35130,
+    "name": "Guardian's Band of Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 30345,
+    "name": "Medallion of the Horde"
+   },
+   "alternatives": [
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 35082,
+    "name": "Brutal Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 35073,
+    "name": "Brutal Gladiator's Redoubt"
+   },
+   "alternatives": [
+    {
+     "itemId": 28754,
+     "name": "Triptych Shield of the Ancients",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    },
+    {
+     "itemId": 29458,
+     "name": "Aegis of the Vindicator",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 35106,
+    "name": "Brutal Gladiator's Totem of the Third Wind"
+   },
+   "alternatives": [
+    {
+     "itemId": 25645,
+     "name": "Totem of the Plains",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28523,
+     "name": "Totem of Healing Rains",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24057,
+   "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "90% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "85% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "95% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "48% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "72% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "51% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+18 Stamina",
+   "note": "37% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Restoration Shaman?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Ringmail Helm, Brutal Gladiator's Mail Spaulders, Brutal Gladiator's Ringmail Armor, Brutal Gladiator's Mail Gauntlets, Brutal Gladiator's Salvation, Brutal Gladiator's Redoubt, Brutal Gladiator's Totem of the Third Wind. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Pendant of Salvation, Guardian's Ringmail Bracers, Guardian's Ringmail Sabatons, Guardian's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "class": "shaman",
+ "spec": "elemental",
+ "content": "pvp",
+ "season": 3,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 3 arena gear for Elemental Shaman: the Vengeful Gladiator's set (Vengeful Gladiator's Mail Helm, Vengeful Gladiator's Mail Spaulders, Vengeful Gladiator's Mail Armor…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Elemental Shamans equip into their Season 3 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Spell Damage",
+  "Stamina",
+  "Crit Rating",
+  "Spell Penetration"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 33713,
+    "name": "Vengeful Gladiator's Mail Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 30171,
+     "name": "Cataclysm Headpiece",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30008,
+    "name": "Pendant of the Lost Ages"
+   },
+   "alternatives": [
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29347,
+     "name": "Talisman of the Breaker",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 33715,
+    "name": "Vengeful Gladiator's Mail Spaulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 33742,
+     "name": "Vengeful Gladiator's Ringmail Spaulders"
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape"
+   },
+   "alternatives": [
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278774,
+     "name": "Cloak of the Frigid Winds",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 33711,
+    "name": "Vengeful Gladiator's Mail Armor"
+   },
+   "alternatives": [
+    {
+     "itemId": 33738,
+     "name": "Vengeful Gladiator's Ringmail Armor"
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33897,
+    "name": "Vindicator's Mail Bracers"
+   },
+   "alternatives": [
+    {
+     "itemId": 28638,
+     "name": "General's Mail Bracers"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 33712,
+    "name": "Vengeful Gladiator's Mail Gauntlets"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 33898,
+    "name": "Vindicator's Mail Girdle"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 33714,
+    "name": "Vengeful Gladiator's Mail Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 30172,
+     "name": "Cataclysm Leggings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 33899,
+    "name": "Vindicator's Mail Sabatons"
+   },
+   "alternatives": [
+    {
+     "itemId": 28640,
+     "name": "General's Mail Sabatons"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33853,
+    "name": "Vindicator's Band of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30345,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 24126,
+     "name": "Figurine - Living Ruby Serpent",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 33687,
+    "name": "Vengeful Gladiator's Gavel"
+   },
+   "alternatives": [
+    {
+     "itemId": 33763,
+     "name": "Vengeful Gladiator's Spellblade"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33661,
+    "name": "Vengeful Gladiator's Barrier"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28248,
+    "name": "Totem of the Void"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24066,
+   "name": "+4 Spell Critical Rating and +5 Spell Penetration",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 34220,
+   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+40 Spell Damage and Healing",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+12 Resilience Rating",
+   "note": "67% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 3 arena set for Elemental Shaman?",
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Mail Helm, Vengeful Gladiator's Mail Spaulders, Vengeful Gladiator's Mail Armor, Vengeful Gladiator's Mail Gauntlets, Vengeful Gladiator's Mail Leggings, Vengeful Gladiator's Gavel, Vengeful Gladiator's Barrier. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 3?",
+   "answer": "Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free."
+  },
+  {
+   "question": "How many arena points does full Season 3 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 3 set?",
+   "answer": "Vindicator's Mail Bracers, Vindicator's Mail Girdle, Vindicator's Mail Sabatons, Vindicator's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

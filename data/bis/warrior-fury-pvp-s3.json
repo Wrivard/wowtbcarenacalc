@@ -1,0 +1,425 @@
+{
+ "class": "warrior",
+ "spec": "fury",
+ "content": "pvp",
+ "season": 3,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 3 arena gear for Fury Warrior: the Vengeful Gladiator's set (Vengeful Gladiator's Cleaver…). Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Fury Warriors equip into their Season 3 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating",
+  "Hit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30120,
+    "name": "Destroyer Battle-Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 29021,
+     "name": "Warbringer Battle-Helm",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33730,
+     "name": "Vengeful Gladiator's Plate Helm",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 32461,
+     "name": "Furious Gizmatic Goggles",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30022,
+    "name": "Pendant of the Perilous"
+   },
+   "alternatives": [
+    {
+     "itemId": 30059,
+     "name": "Choker of Animalistic Fury",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33923,
+     "name": "Vindicator's Pendant of Triumph"
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30122,
+    "name": "Destroyer Shoulderblades"
+   },
+   "alternatives": [
+    {
+     "itemId": 30053,
+     "name": "Pauldrons of the Wardancer",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29023,
+     "name": "Warbringer Shoulderplates",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 33732,
+     "name": "Vengeful Gladiator's Plate Shoulders",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 24259,
+    "name": "Vengeance Wrap"
+   },
+   "alternatives": [
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30118,
+    "name": "Destroyer Breastplate"
+   },
+   "alternatives": [
+    {
+     "itemId": 33728,
+     "name": "Vengeful Gladiator's Plate Chestpiece",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands"
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "pveFlexNote": "Seen mostly above 2540 rating."
+    },
+    {
+     "itemId": 33813,
+     "name": "Vindicator's Plate Bracers",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30119,
+    "name": "Destroyer Gauntlets"
+   },
+   "alternatives": [
+    {
+     "itemId": 28824,
+     "name": "Gauntlets of Martial Perfection",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 33729,
+     "name": "Vengeful Gladiator's Plate Gauntlets",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30032,
+    "name": "Red Belt of Battle"
+   },
+   "alternatives": [
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33811,
+     "name": "Vindicator's Plate Belt",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30121,
+    "name": "Destroyer Greaves"
+   },
+   "alternatives": [
+    {
+     "itemId": 29950,
+     "name": "Greaves of the Bloodwarder",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30538,
+     "name": "Midnight Legguards",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29995,
+     "name": "Leggings of Murderous Intent",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30081,
+    "name": "Warboots of Obliteration"
+   },
+   "alternatives": [
+    {
+     "itemId": 28608,
+     "name": "Ironstriders of Urgency",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33812,
+     "name": "Vindicator's Plate Greaves",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks"
+   },
+   "alternatives": [
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 28830,
+    "name": "Dragonspine Trophy"
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28439,
+    "name": "Dragonstrike"
+   },
+   "alternatives": [
+    {
+     "itemId": 28442,
+     "name": "Stormherald",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33669,
+    "name": "Vengeful Gladiator's Cleaver"
+   },
+   "alternatives": [
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28772,
+    "name": "Sunfury Bow of the Phoenix"
+   },
+   "alternatives": [
+    {
+     "itemId": 33765,
+     "name": "Vengeful Gladiator's War Edge"
+    },
+    {
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24027,
+   "name": "+8 Strength",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24054,
+   "name": "+4 Strength and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24058,
+   "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 32409,
+   "name": "+12 Agility & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+15 Critical Strike Rating and +20 Attack Power",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "86% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +6 Agility",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "9% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "Mongoose",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 3 arena set for Fury Warrior?",
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Cleaver. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 3?",
+   "answer": "Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free."
+  },
+  {
+   "question": "How many arena points does full Season 3 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

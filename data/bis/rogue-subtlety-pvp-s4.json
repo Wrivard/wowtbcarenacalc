@@ -1,0 +1,374 @@
+{
+ "class": "rogue",
+ "spec": "subtlety",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Subtlety Rogue: the Brutal Gladiator's set (Brutal Gladiator's Leather Spaulders, Brutal Gladiator's Leather Tunic, Brutal Gladiator's Leather Gloves…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Subtlety Rogues equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Agility",
+  "Stamina",
+  "Attack Power",
+  "Hit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 32478,
+    "name": "Deathblow X11 Goggles"
+   },
+   "alternatives": [
+    {
+     "itemId": 23763,
+     "name": "Hyper-Vision Goggles",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35033,
+     "name": "Brutal Gladiator's Leather Helm"
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem"
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278827,
+     "name": "Amulet of Bitter Hatred",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 35035,
+    "name": "Brutal Gladiator's Leather Spaulders"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 35036,
+    "name": "Brutal Gladiator's Leather Tunic"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35171,
+    "name": "Guardian's Leather Bracers"
+   },
+   "alternatives": [
+    {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "pveFlexNote": "Seen mostly above 2525 rating."
+    },
+    {
+     "itemId": 28988,
+     "name": "Marshal's Leather Bracers"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 35032,
+    "name": "Brutal Gladiator's Leather Gloves"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow"
+   },
+   "alternatives": [
+    {
+     "itemId": 35156,
+     "name": "Guardian's Leather Belt"
+    },
+    {
+     "itemId": 28986,
+     "name": "Marshal's Leather Belt"
+    },
+    {
+     "itemId": 28750,
+     "name": "Girdle of Treachery",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 35034,
+    "name": "Brutal Gladiator's Leather Legguards"
+   },
+   "alternatives": [
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30148,
+     "name": "Deathmantle Legguards",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 31288,
+    "name": "The Master's Treads"
+   },
+   "alternatives": [
+    {
+     "itemId": 35141,
+     "name": "Guardian's Leather Boots"
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 29298,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 24128,
+    "name": "Figurine - Nightseye Panther"
+   },
+   "alternatives": [
+    {
+     "itemId": 28234,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28240,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29996,
+    "name": "Rod of the Sun King"
+   },
+   "alternatives": [
+    {
+     "itemId": 30082,
+     "name": "Talon of Azshara",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35101,
+     "name": "Brutal Gladiator's Slicer"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 35072,
+    "name": "Brutal Gladiator's Quickblade"
+   },
+   "alternatives": [
+    {
+     "itemId": 35095,
+     "name": "Brutal Gladiator's Shiv"
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 35108,
+    "name": "Brutal Gladiator's War Edge"
+   },
+   "alternatives": [
+    {
+     "itemId": 34622,
+     "name": "Spinesever",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24028,
+   "name": "+8 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 28362,
+   "name": "+20 Attack Power",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 25894,
+   "name": "+24 Attack Power and Minor Run Speed Increase",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "95% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "Increased Stealth",
+   "note": "90% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "83% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 Attack Power",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Agility",
+   "note": "53% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "98% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +6 Agility",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "2% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "Mongoose",
+   "note": "55% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Subtlety Rogue?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Leather Spaulders, Brutal Gladiator's Leather Tunic, Brutal Gladiator's Leather Gloves, Brutal Gladiator's Leather Legguards, Brutal Gladiator's Quickblade, Brutal Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Leather Bracers — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

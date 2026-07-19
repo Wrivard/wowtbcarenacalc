@@ -1,0 +1,431 @@
+{
+ "class": "warlock",
+ "spec": "destruction",
+ "content": "pvp",
+ "season": 3,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 3 arena gear for Destruction Warlock: the Vengeful Gladiator's set (Vengeful Gladiator's Dreadweave Leggings, Vengeful Gladiator's Spellblade, Vengeful Gladiator's Touch of Defeat…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Destruction Warlocks equip into their Season 3 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Spell Damage",
+  "Stamina",
+  "Crit Rating",
+  "Spell Penetration"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 28963,
+    "name": "Voidheart Crown"
+   },
+   "alternatives": [
+    {
+     "itemId": 30212,
+     "name": "Hood of the Corruptor",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33683,
+     "name": "Vengeful Gladiator's Felweave Cowl"
+    },
+    {
+     "itemId": 28744,
+     "name": "Uni-Mind Headdress",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28762,
+    "name": "Adornment of Stolen Souls"
+   },
+   "alternatives": [
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33921,
+     "name": "Vindicator's Pendant of Dominance"
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 28967,
+    "name": "Voidheart Mantle"
+   },
+   "alternatives": [
+    {
+     "itemId": 33679,
+     "name": "Vengeful Gladiator's Dreadweave Mantle"
+    },
+    {
+     "itemId": 33682,
+     "name": "Vengeful Gladiator's Felweave Amice"
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28766,
+    "name": "Ruby Drape of the Mysticant"
+   },
+   "alternatives": [
+    {
+     "itemId": 28378,
+     "name": "Sergeant's Heavy Cape"
+    },
+    {
+     "itemId": 27981,
+     "name": "Sethekk Oracle Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 28964,
+    "name": "Voidheart Robe"
+   },
+   "alternatives": [
+    {
+     "itemId": 33680,
+     "name": "Vengeful Gladiator's Dreadweave Robe"
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 33685,
+     "name": "Vengeful Gladiator's Felweave Raiment"
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33883,
+    "name": "Vindicator's Dreadweave Cuffs"
+   },
+   "alternatives": [
+    {
+     "itemId": 33913,
+     "name": "Vindicator's Silk Cuffs"
+    },
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 27462,
+     "name": "Crimson Bracers of Gloom",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28968,
+    "name": "Voidheart Gloves"
+   },
+   "alternatives": [
+    {
+     "itemId": 33676,
+     "name": "Vengeful Gladiator's Dreadweave Gloves"
+    },
+    {
+     "itemId": 33684,
+     "name": "Vengeful Gladiator's Felweave Handguards"
+    },
+    {
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28654,
+    "name": "Malefic Girdle"
+   },
+   "alternatives": [
+    {
+     "itemId": 30038,
+     "name": "Belt of Blasting",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33882,
+     "name": "Vindicator's Dreadweave Belt"
+    },
+    {
+     "itemId": 24256,
+     "name": "Girdle of Ruination",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 33678,
+    "name": "Vengeful Gladiator's Dreadweave Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 28966,
+     "name": "Voidheart Leggings",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30213,
+     "name": "Leggings of the Corruptor",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30050,
+    "name": "Boots of the Shifting Nightmare"
+   },
+   "alternatives": [
+    {
+     "itemId": 33884,
+     "name": "Vindicator's Dreadweave Stalkers"
+    },
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28179,
+     "name": "Shattrath Jumpers",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33853,
+    "name": "Vindicator's Band of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "pveFlexNote": "Seen mostly above 2528 rating."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "pveFlexNote": "Seen mostly above 2528 rating."
+    },
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 19379,
+     "name": "Neltharion's Tear",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 33763,
+    "name": "Vengeful Gladiator's Spellblade"
+   },
+   "alternatives": [
+    {
+     "itemId": 33766,
+     "name": "Vengeful Gladiator's War Staff"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29272,
+    "name": "Orb of the Soul-Eater"
+   },
+   "alternatives": [
+    {
+     "itemId": 33681,
+     "name": "Vengeful Gladiator's Endgame"
+    },
+    {
+     "itemId": 28734,
+     "name": "Jewel of Infinite Possibilities",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33764,
+    "name": "Vengeful Gladiator's Touch of Defeat"
+   },
+   "alternatives": [
+    {
+     "itemId": 28386,
+     "name": "Nether Core's Control Rod",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 31867,
+   "name": "+4 Spell Hit Rating and +5 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 34220,
+   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 23096,
+   "name": "+7 Spell Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed Increase",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "83% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Soulfrost",
+   "note": "92% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 3 arena set for Destruction Warlock?",
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Dreadweave Leggings, Vengeful Gladiator's Spellblade, Vengeful Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 3?",
+   "answer": "Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free."
+  },
+  {
+   "question": "How many arena points does full Season 3 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 3 set?",
+   "answer": "Vindicator's Dreadweave Cuffs, Vindicator's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

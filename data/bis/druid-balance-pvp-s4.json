@@ -1,0 +1,441 @@
+{
+ "class": "druid",
+ "spec": "balance",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Balance Druid: the Brutal Gladiator's set (Brutal Gladiator's Salvation, Brutal Gladiator's Reprieve…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Balance Druids equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30219,
+    "name": "Nordrassil Headguard"
+   },
+   "alternatives": [
+    {
+     "itemId": 35023,
+     "name": "Brutal Gladiator's Kodohide Helm"
+    },
+    {
+     "itemId": 30233,
+     "name": "Nordrassil Headpiece",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32479,
+     "name": "Wonderheal XT40 Shades",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 28609,
+    "name": "Emberspur Talisman"
+   },
+   "alternatives": [
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35134,
+     "name": "Guardian's Pendant of Salvation"
+    },
+    {
+     "itemId": 24116,
+     "name": "Eye of the Night",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30221,
+    "name": "Nordrassil Life-Mantle"
+   },
+   "alternatives": [
+    {
+     "itemId": 35114,
+     "name": "Brutal Gladiator's Wyrmhide Spaulders"
+    },
+    {
+     "itemId": 30111,
+     "name": "Runetotem's Mantle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30235,
+     "name": "Nordrassil Wrath-Mantle",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29989,
+    "name": "Sunshower Light Cloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 28765,
+     "name": "Stainless Cloak of the Pure Hearted",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30216,
+    "name": "Nordrassil Chestguard"
+   },
+   "alternatives": [
+    {
+     "itemId": 35115,
+     "name": "Brutal Gladiator's Wyrmhide Tunic"
+    },
+    {
+     "itemId": 30231,
+     "name": "Nordrassil Chestpiece",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35026,
+     "name": "Brutal Gladiator's Kodohide Tunic"
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35169,
+    "name": "Guardian's Kodohide Bracers"
+   },
+   "alternatives": [
+    {
+     "itemId": 30062,
+     "name": "Grove-Bands of Remulos",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28521,
+    "name": "Mitts of the Treemender"
+   },
+   "alternatives": [
+    {
+     "itemId": 35022,
+     "name": "Brutal Gladiator's Kodohide Gloves"
+    },
+    {
+     "itemId": 29090,
+     "name": "Handguards of Malorne",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30029,
+     "name": "Bark-Gloves of Ancient Wisdom",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 35154,
+    "name": "Guardian's Kodohide Belt"
+   },
+   "alternatives": [
+    {
+     "itemId": 21873,
+     "name": "Primal Mooncloth Belt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28655,
+     "name": "Cord of Nature's Sustenance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30220,
+    "name": "Nordrassil Life-Kilt"
+   },
+   "alternatives": [
+    {
+     "itemId": 28591,
+     "name": "Earthsoul Leggings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24262,
+     "name": "Spellstrike Pants",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35024,
+     "name": "Brutal Gladiator's Kodohide Legguards"
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30092,
+    "name": "Orca-Hide Boots"
+   },
+   "alternatives": [
+    {
+     "itemId": 35139,
+     "name": "Guardian's Kodohide Boots"
+    },
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28752,
+     "name": "Forestlord Striders",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 30110,
+    "name": "Coral Band of the Revived"
+   },
+   "alternatives": [
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35130,
+     "name": "Guardian's Band of Salvation"
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 28235,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30841,
+     "name": "Lower City Prayerbook",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 35082,
+    "name": "Brutal Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 29988,
+     "name": "The Nexus Key",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 35074,
+    "name": "Brutal Gladiator's Reprieve"
+   },
+   "alternatives": [
+    {
+     "itemId": 29274,
+     "name": "Tears of Heaven",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28728,
+     "name": "Aran's Soothing Sapphire",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29170,
+     "name": "Windcaller's Orb",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27886,
+    "name": "Idol of the Emerald Queen"
+   },
+   "alternatives": [
+    {
+     "itemId": 32387,
+     "name": "Idol of the Raven Goddess",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 7 slots in this snapshot."
+  },
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 25897,
+   "name": "+26 Healing +9 Spell Damage and 2% Reduced Threat",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Spirit",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "+5 Spirit",
+   "note": "33% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "50% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Balance Druid?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Salvation, Brutal Gladiator's Reprieve. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Kodohide Bracers, Guardian's Kodohide Belt — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

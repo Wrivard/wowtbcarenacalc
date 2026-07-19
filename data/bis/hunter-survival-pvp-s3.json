@@ -1,0 +1,438 @@
+{
+ "class": "hunter",
+ "spec": "survival",
+ "content": "pvp",
+ "season": 3,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 3 arena gear for Survival Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Survival Hunters equip into their Season 3 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Agility",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 33666,
+    "name": "Vengeful Gladiator's Chain Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 30141,
+     "name": "Rift Stalker Helm",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28275,
+     "name": "Beast Lord Helm",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem"
+   },
+   "alternatives": [
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28674,
+     "name": "Saberclaw Talisman",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 33668,
+    "name": "Vengeful Gladiator's Chain Spaulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 30143,
+     "name": "Rift Stalker Mantle",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 27801,
+     "name": "Beast Lord Mantle",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk"
+   },
+   "alternatives": [
+    {
+     "itemId": 33664,
+     "name": "Vengeful Gladiator's Chain Armor"
+    },
+    {
+     "itemId": 28228,
+     "name": "Beast Lord Cuirass",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 33876,
+    "name": "Vindicator's Chain Bracers"
+   },
+   "alternatives": [
+    {
+     "itemId": 28973,
+     "name": "Marshal's Chain Bracers"
+    },
+    {
+     "itemId": 22443,
+     "name": "Cryptstalker Wristguards",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25697,
+     "name": "Felstalker Bracers",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 33665,
+    "name": "Vengeful Gladiator's Chain Gauntlets"
+   },
+   "alternatives": [
+    {
+     "itemId": 30140,
+     "name": "Rift Stalker Gauntlets",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 27474,
+     "name": "Beast Lord Handguards",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 33877,
+    "name": "Vindicator's Chain Girdle"
+   },
+   "alternatives": [
+    {
+     "itemId": 28974,
+     "name": "Marshal's Chain Girdle"
+    },
+    {
+     "itemId": 22442,
+     "name": "Cryptstalker Girdle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28450,
+     "name": "General's Chain Girdle",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 33667,
+     "name": "Vengeful Gladiator's Chain Leggings"
+    },
+    {
+     "itemId": 28740,
+     "name": "Rip-Flayer Leggings",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 33878,
+    "name": "Vindicator's Chain Sabatons"
+   },
+   "alternatives": [
+    {
+     "itemId": 28975,
+     "name": "Marshal's Chain Sabatons"
+    },
+    {
+     "itemId": 30104,
+     "name": "Cobra-Lash Boots",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28449,
+     "name": "General's Chain Sabatons",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 29298,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "pveFlexNote": "Seen mostly above 2685 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 28237,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 33669,
+    "name": "Vengeful Gladiator's Cleaver"
+   },
+   "alternatives": [
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33670,
+     "name": "Vengeful Gladiator's Decapitator"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29948,
+    "name": "Claw of the Phoenix"
+   },
+   "alternatives": [
+    {
+     "itemId": 33689,
+     "name": "Vengeful Gladiator's Hacker",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 33734,
+     "name": "Vengeful Gladiator's Quickblade"
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 30105,
+    "name": "Serpent Spine Longbow"
+   },
+   "alternatives": [
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31986,
+     "name": "Merciless Gladiator's Crossbow of the Phoenix",
+     "pveFlexNote": "No Season 3 equivalent — current-season item shown."
+    },
+    {
+     "itemId": 33006,
+     "name": "Vengeful Gladiator's Heavy Crossbow",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24028,
+   "name": "+8 Agility",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 25895,
+   "name": "+12 Critical Strike Rating & 5% Snare and Root Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "79% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 Attack Power",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Agility",
+   "note": "73% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "92% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "62% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+30 Intellect",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+30 Intellect",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ranged",
+   "text": "Scope (+28 Critical Strike Rating)",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 3 arena set for Survival Hunter?",
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets, Vengeful Gladiator's Cleaver. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 3?",
+   "answer": "Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free."
+  },
+  {
+   "question": "How many arena points does full Season 3 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 3 set?",
+   "answer": "Vindicator's Chain Bracers, Vindicator's Chain Girdle, Vindicator's Chain Sabatons — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

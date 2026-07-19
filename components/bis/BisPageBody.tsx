@@ -30,9 +30,15 @@ export function BisPageBody({
   cls: ClassDef;
   spec: SpecDef;
 }) {
-  const specKey = `${cls.slug}-${spec.slug}-${list.content}`;
+  const specKey = `${cls.slug}-${spec.slug}-${list.content}${list.season ? `-s${list.season}` : ""}`;
   const contentLabel =
-    list.content === "pvp" ? "arena PvP" : `Phase ${list.phase} PvE`;
+    list.content === "pvp"
+      ? list.seasonPage
+        ? `Season ${list.season} arena`
+        : "arena PvP"
+      : `Phase ${list.phase} PvE`;
+  // Derived season pages carry no live usage percentages.
+  const hasUsage = list.slots.some((s) => s.bis.usagePct !== undefined);
 
   return (
     <>
@@ -40,10 +46,21 @@ export function BisPageBody({
       <section className="mt-8" aria-label="Best in slot gear list">
         <GearGrid slots={list.slots} specKey={specKey} />
         <p className="mt-3 text-xs leading-relaxed text-muted">
-          Usage percentages: share of surveyed {spec.name} {cls.name}s
-          equipping each item{list.sampleSize ? ` (n=${list.sampleSize})` : ""}.
-          Click a row to expand alternatives. Hover any item for its full
-          tooltip.
+          {hasUsage ? (
+            <>
+              Usage percentages: share of surveyed {spec.name} {cls.name}s
+              equipping each item
+              {list.sampleSize ? ` (n=${list.sampleSize})` : ""}. Click a row
+              to expand alternatives.
+            </>
+          ) : (
+            <>
+              Season {list.season} gear set, mapped from the current arena
+              ladder&apos;s most-used {spec.name} {cls.name} setup. Click a row
+              to expand alternatives.
+            </>
+          )}{" "}
+          Hover any item for its full tooltip.
         </p>
       </section>
 
@@ -66,9 +83,11 @@ export function BisPageBody({
             </li>
           ))}
         </ol>
-        <p className="mt-4 text-sm leading-relaxed text-muted-strong">
-          {list.statPriorityRationale}
-        </p>
+        {list.statPriorityRationale && (
+          <p className="mt-4 text-sm leading-relaxed text-muted-strong">
+            {list.statPriorityRationale}
+          </p>
+        )}
       </section>
 
       {/* Gems */}

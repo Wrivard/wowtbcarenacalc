@@ -1,0 +1,400 @@
+{
+ "class": "shaman",
+ "spec": "restoration",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Restoration Shaman: the Gladiator's set (Gladiator's Ringmail Helm, Gladiator's Mail Spaulders, Gladiator's Ringmail Armor…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Restoration Shamans equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "MP5"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31400,
+    "name": "Gladiator's Ringmail Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 30166,
+     "name": "Cataclysm Headguard",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29028,
+     "name": "Cyclone Headdress",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33068,
+    "name": "Veteran's Pendant of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 27473,
+    "name": "Gladiator's Mail Spaulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 30168,
+     "name": "Cataclysm Shoulderguards",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted"
+   },
+   "alternatives": [
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29375,
+     "name": "Bishop's Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31396,
+    "name": "Gladiator's Ringmail Armor"
+   },
+   "alternatives": [
+    {
+     "itemId": 30164,
+     "name": "Cataclysm Chestguard",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32997,
+    "name": "Veteran's Ringmail Bracers",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30047,
+     "name": "Blackfathom Warbands",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28503,
+     "name": "Whirlwind Bracers",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32516,
+     "name": "Wraps of Purification",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 27470,
+    "name": "Gladiator's Mail Gauntlets"
+   },
+   "alternatives": [
+    {
+     "itemId": 29976,
+     "name": "Worldstorm Gauntlets",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28520,
+     "name": "Gloves of Centering",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars"
+   },
+   "alternatives": [
+    {
+     "itemId": 32998,
+     "name": "Veteran's Ringmail Girdle",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 29991,
+    "name": "Sunhawk Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 31406,
+     "name": "Gladiator's Ringmail Leggings"
+    },
+    {
+     "itemId": 28751,
+     "name": "Heart-Flame Leggings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32999,
+    "name": "Veteran's Ringmail Sabatons",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30066,
+     "name": "Tempest-Strider Boots",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30092,
+     "name": "Orca-Hide Boots",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33064,
+    "name": "Veteran's Band of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 30345,
+    "name": "Medallion of the Horde"
+   },
+   "alternatives": [
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32451,
+    "name": "Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 33309,
+    "name": "Merciless Gladiator's Redoubt",
+    "pveFlexNote": "No Season 1 equivalent — current-season item shown."
+   },
+   "alternatives": [
+    {
+     "itemId": 28754,
+     "name": "Triptych Shield of the Ancients",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    },
+    {
+     "itemId": 29458,
+     "name": "Aegis of the Vindicator",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28357,
+    "name": "Gladiator's Totem of the Third Wind"
+   },
+   "alternatives": [
+    {
+     "itemId": 25645,
+     "name": "Totem of the Plains",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28523,
+     "name": "Totem of Healing Rains",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24057,
+   "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "90% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "85% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "95% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "48% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "46% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "72% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "51% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+18 Stamina",
+   "note": "37% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Restoration Shaman?",
+   "answer": "The Gladiator's pieces: Gladiator's Ringmail Helm, Gladiator's Mail Spaulders, Gladiator's Ringmail Armor, Gladiator's Mail Gauntlets, Gladiator's Salvation, Gladiator's Totem of the Third Wind. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

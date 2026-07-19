@@ -1,0 +1,311 @@
+{
+ "class": "warlock",
+ "spec": "demonology",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Demonology Warlock: the Gladiator's set (Gladiator's Felweave Cowl, Gladiator's Dreadweave Mantle, Gladiator's Dreadweave Robe…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Demonology Warlocks equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30187,
+    "name": "Gladiator's Felweave Cowl"
+   },
+   "alternatives": [
+    {
+     "itemId": 24553,
+     "name": "Gladiator's Dreadweave Hood"
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33065,
+    "name": "Veteran's Pendant of Dominance",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 24554,
+    "name": "Gladiator's Dreadweave Mantle"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape"
+   },
+   "alternatives": [
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 24552,
+    "name": "Gladiator's Dreadweave Robe"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32811,
+    "name": "Veteran's Dreadweave Cuffs",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 24249,
+     "name": "Unyielding Bracers",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 24556,
+    "name": "Gladiator's Dreadweave Gloves"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32799,
+    "name": "Veteran's Dreadweave Belt",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 24255,
+     "name": "Unyielding Girdle",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 24555,
+    "name": "Gladiator's Dreadweave Leggings"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32787,
+    "name": "Veteran's Dreadweave Stalkers",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28982,
+     "name": "Marshal's Dreadweave Stalkers"
+    },
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33056,
+    "name": "Veteran's Band of Dominance",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 33054,
+     "name": "The Seal of Danzalar",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28247,
+     "name": "Band of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30449,
+     "name": "Void Star Talisman",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28297,
+    "name": "Gladiator's Spellblade"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28346,
+    "name": "Gladiator's Endgame"
+   },
+   "alternatives": [
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28320,
+    "name": "Gladiator's Touch of Defeat"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "99% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "51% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "98% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "37% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Soulfrost",
+   "note": "89% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Demonology Warlock?",
+   "answer": "The Gladiator's pieces: Gladiator's Felweave Cowl, Gladiator's Dreadweave Mantle, Gladiator's Dreadweave Robe, Gladiator's Dreadweave Gloves, Gladiator's Dreadweave Leggings, Gladiator's Spellblade, Gladiator's Endgame, Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

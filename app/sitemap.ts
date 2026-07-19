@@ -39,17 +39,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Curated BiS pages.
+  // Curated BiS pages — live PvP snapshot, per-season PvP pages, PvE phases.
   for (const route of filledBisRoutes()) {
-    const path =
-      route.content === "pvp"
-        ? `/${route.classSlug}/${route.specSlug}/pvp`
-        : `/${route.classSlug}/${route.specSlug}/pve/phase-${route.phase}`;
+    let path: string;
+    if (route.content === "pve") {
+      path = `/${route.classSlug}/${route.specSlug}/pve/phase-${route.phase}`;
+    } else if (route.seasonPage) {
+      path = `/${route.classSlug}/${route.specSlug}/pvp/season-${route.season}`;
+    } else {
+      path = `/${route.classSlug}/${route.specSlug}/pvp`;
+    }
     entries.push({
       url: `${SITE_URL}${path}`,
       lastModified: new Date(route.updatedAt),
       changeFrequency: "weekly",
-      priority: 0.7,
+      priority: route.seasonPage ? 0.6 : 0.7,
     });
   }
 

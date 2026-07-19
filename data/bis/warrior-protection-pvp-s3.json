@@ -1,0 +1,361 @@
+{
+ "class": "warrior",
+ "spec": "protection",
+ "content": "pvp",
+ "season": 3,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 3 arena gear for Protection Warrior: the Vengeful Gladiator's set (Vengeful Gladiator's Plate Helm, Vengeful Gladiator's Plate Shoulders, Vengeful Gladiator's Plate Chestpiece…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Protection Warriors equip into their Season 3 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Shield Block Value",
+  "Attack Power"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 33730,
+    "name": "Vengeful Gladiator's Plate Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 30115,
+     "name": "Destroyer Greathelm",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32473,
+     "name": "Tankatronic Goggles",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33923,
+    "name": "Vindicator's Pendant of Triumph"
+   },
+   "alternatives": [
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 33732,
+    "name": "Vengeful Gladiator's Plate Shoulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 29023,
+     "name": "Warbringer Shoulderplates",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 29925,
+     "name": "Phoenix-Wing Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 33728,
+    "name": "Vengeful Gladiator's Plate Chestpiece"
+   },
+   "alternatives": [
+    {
+     "itemId": 28597,
+     "name": "Panzar'Thar Breastplate",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29012,
+     "name": "Warbringer Chestguard",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28502,
+    "name": "Vambraces of Courage"
+   },
+   "alternatives": [
+    {
+     "itemId": 28996,
+     "name": "Marshal's Plate Bracers"
+    },
+    {
+     "itemId": 33813,
+     "name": "Vindicator's Plate Bracers"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28518,
+    "name": "Iron Gauntlets of the Maiden"
+   },
+   "alternatives": [
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 28566,
+    "name": "Crimson Girdle of the Indomitable"
+   },
+   "alternatives": [
+    {
+     "itemId": 30096,
+     "name": "Girdle of the Invulnerable",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30116,
+    "name": "Destroyer Legguards"
+   },
+   "alternatives": [
+    {
+     "itemId": 28621,
+     "name": "Wrynn Dynasty Greaves",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 33812,
+    "name": "Vindicator's Plate Greaves"
+   },
+   "alternatives": [
+    {
+     "itemId": 28997,
+     "name": "Marshal's Plate Greaves"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet"
+   },
+   "alternatives": [
+    {
+     "itemId": 27761,
+     "name": "Ring of the Shadow Deeps",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30083,
+     "name": "Ring of Sundered Souls",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28121,
+     "name": "Icon of Unyielding Courage",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30620,
+     "name": "Spyglass of the Hidden Fleet",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30058,
+    "name": "Mallet of the Tides"
+   },
+   "alternatives": [
+    {
+     "itemId": 28438,
+     "name": "Dragonmaw",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28825,
+    "name": "Aldori Legacy Defender"
+   },
+   "alternatives": [
+    {
+     "itemId": 33669,
+     "name": "Vengeful Gladiator's Cleaver"
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 33765,
+    "name": "Vengeful Gladiator's War Edge"
+   },
+   "alternatives": [
+    {
+     "itemId": 29204,
+     "name": "Felsteel Whisper Knives",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24033,
+   "name": "+12 Stamina",
+   "note": "Socketed across 8 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24048,
+   "name": "+8 Critical Strike Rating",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24058,
+   "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+15 Nature Resistance",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+150 Health",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 Stamina and +12 Agility",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "+18 Stamina",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 3 arena set for Protection Warrior?",
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Plate Helm, Vengeful Gladiator's Plate Shoulders, Vengeful Gladiator's Plate Chestpiece, Vengeful Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 3?",
+   "answer": "Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free."
+  },
+  {
+   "question": "How many arena points does full Season 3 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 3 set?",
+   "answer": "Vindicator's Pendant of Triumph, Vindicator's Plate Greaves — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

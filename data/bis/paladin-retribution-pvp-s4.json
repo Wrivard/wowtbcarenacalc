@@ -1,0 +1,380 @@
+{
+ "class": "paladin",
+ "spec": "retribution",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Retribution Paladin: the Brutal Gladiator's set (Brutal Gladiator's Scaled Helm, Brutal Gladiator's Scaled Shoulders, Brutal Gladiator's Scaled Chestpiece…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Retribution Paladins equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating",
+  "Spell Damage"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 35090,
+    "name": "Brutal Gladiator's Scaled Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 32461,
+     "name": "Furious Gizmatic Goggles",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30131,
+     "name": "Crystalforge War-Helm",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 35135,
+    "name": "Guardian's Pendant of Triumph"
+   },
+   "alternatives": [
+    {
+     "itemId": 30022,
+     "name": "Pendant of the Perilous",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus's Pendant of Mayhem",
+     "pveFlexNote": "Seen mostly above 2647 rating."
+    },
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 35092,
+    "name": "Brutal Gladiator's Scaled Shoulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 30055,
+     "name": "Shoulderpads of the Stranger",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 30098,
+    "name": "Razor-Scale Battlecloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak"
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 35088,
+    "name": "Brutal Gladiator's Scaled Chestpiece"
+   },
+   "alternatives": [
+    {
+     "itemId": 30129,
+     "name": "Crystalforge Breastplate",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands"
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35178,
+     "name": "Guardian's Scaled Bracers"
+    },
+    {
+     "itemId": 35176,
+     "name": "Guardian's Plate Bracers",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 35089,
+    "name": "Brutal Gladiator's Scaled Gauntlets"
+   },
+   "alternatives": [
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 35163,
+    "name": "Guardian's Scaled Belt"
+   },
+   "alternatives": [
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 35091,
+    "name": "Brutal Gladiator's Scaled Legguards"
+   },
+   "alternatives": [
+    {
+     "itemId": 29950,
+     "name": "Greaves of the Bloodwarder",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30132,
+     "name": "Crystalforge Greaves",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30257,
+     "name": "Shattrath Leggings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 35148,
+    "name": "Guardian's Scaled Greaves"
+   },
+   "alternatives": [
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28645,
+     "name": "General's Scaled Greaves"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 30061,
+    "name": "Ancestral Ring of Conquest"
+   },
+   "alternatives": [
+    {
+     "itemId": 35131,
+     "name": "Guardian's Band of Triumph"
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "pveFlexNote": "Seen mostly above 2647 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 28242,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28236,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28442,
+    "name": "Stormherald"
+   },
+   "alternatives": [
+    {
+     "itemId": 30090,
+     "name": "World Breaker",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28430,
+     "name": "Lionheart Executioner",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28441,
+     "name": "Deep Thunder",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27484,
+    "name": "Libram of Avengement"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24027,
+   "name": "+8 Strength",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24054,
+   "name": "+4 Strength and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 25901,
+   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 28362,
+   "name": "+20 Attack Power",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+17 Strength and +16 Intellect",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "78% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "71% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "82% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "92% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "13% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "62% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Retribution Paladin?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Scaled Helm, Brutal Gladiator's Scaled Shoulders, Brutal Gladiator's Scaled Chestpiece, Brutal Gladiator's Scaled Gauntlets, Brutal Gladiator's Scaled Legguards. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Pendant of Triumph, Guardian's Scaled Belt, Guardian's Scaled Greaves — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

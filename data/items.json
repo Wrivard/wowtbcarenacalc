@@ -709,6 +709,11 @@
   "icon": "inv_shoulder_29",
   "quality": 4
  },
+ "26000": {
+  "name": "Gladiator's Linked Gauntlets",
+  "icon": "inv_gauntlets_11",
+  "quality": 4
+ },
  "26001": {
   "name": "Gladiator's Linked Leggings",
   "icon": "inv_pants_mail_15",
@@ -718,6 +723,11 @@
   "name": "Crimson Bracers of Gloom",
   "icon": "inv_bracer_13",
   "quality": 3
+ },
+ "27469": {
+  "name": "Gladiator's Mail Armor",
+  "icon": "inv_chest_chain_11",
+  "quality": 4
  },
  "27470": {
   "name": "Gladiator's Mail Gauntlets",
@@ -783,6 +793,26 @@
   "name": "Quagmirran's Eye",
   "icon": "inv_misc_gem_pearl_01",
   "quality": 3
+ },
+ "27702": {
+  "name": "Gladiator's Lamellar Chestpiece",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
+ "27703": {
+  "name": "Gladiator's Lamellar Gauntlets",
+  "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "27704": {
+  "name": "Gladiator's Lamellar Helm",
+  "icon": "inv_helmet_22",
+  "quality": 4
+ },
+ "27706": {
+  "name": "Gladiator's Lamellar Shoulders",
+  "icon": "inv_shoulder_22",
+  "quality": 4
  },
  "27707": {
   "name": "Gladiator's Satin Gloves",
@@ -904,6 +934,26 @@
   "icon": "inv_misc_cape_21",
   "quality": 3
  },
+ "27879": {
+  "name": "Gladiator's Scaled Chestpiece",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
+ "27880": {
+  "name": "Gladiator's Scaled Gauntlets",
+  "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "27881": {
+  "name": "Gladiator's Scaled Helm",
+  "icon": "inv_helmet_22",
+  "quality": 4
+ },
+ "27882": {
+  "name": "Gladiator's Scaled Legguards",
+  "icon": "inv_pants_plate_17",
+  "quality": 4
+ },
  "27883": {
   "name": "Gladiator's Scaled Shoulders",
   "icon": "inv_shoulder_22",
@@ -1017,6 +1067,11 @@
  "28139": {
   "name": "Gladiator's Wyrmhide Spaulders",
   "icon": "inv_shoulder_12",
+  "quality": 4
+ },
+ "28140": {
+  "name": "Gladiator's Wyrmhide Tunic",
+  "icon": "inv_chest_leather_03",
   "quality": 4
  },
  "28171": {
@@ -1179,6 +1234,11 @@
   "icon": "inv_weapon_shortblade_26",
   "quality": 4
  },
+ "28298": {
+  "name": "Gladiator's Decapitator",
+  "icon": "inv_axe_68",
+  "quality": 4
+ },
  "28305": {
   "name": "Gladiator's Pummeler",
   "icon": "inv_mace_36",
@@ -1206,6 +1266,11 @@
  },
  "28313": {
   "name": "Gladiator's Right Ripper",
+  "icon": "inv_weapon_hand_13",
+  "quality": 4
+ },
+ "28314": {
+  "name": "Gladiator's Left Ripper",
   "icon": "inv_weapon_hand_13",
   "quality": 4
  },
@@ -1263,6 +1328,16 @@
   "name": "Warp Splinter's Thorn",
   "icon": "inv_weapon_shortblade_57",
   "quality": 3
+ },
+ "28346": {
+  "name": "Gladiator's Endgame",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "28356": {
+  "name": "Gladiator's Libram of Justice",
+  "icon": "inv_relics_libramofhope",
+  "quality": 4
  },
  "28357": {
   "name": "Gladiator's Totem of the Third Wind",
@@ -5124,6 +5199,11 @@
   "icon": "inv_misc_cape_20",
   "quality": 2
  },
+ "31375": {
+  "name": "Gladiator's Kodohide Gloves",
+  "icon": "inv_gauntlets_28",
+  "quality": 4
+ },
  "31376": {
   "name": "Gladiator's Kodohide Helm",
   "icon": "inv_helmet_30",
@@ -5132,6 +5212,11 @@
  "31377": {
   "name": "Gladiator's Kodohide Legguards",
   "icon": "inv_pants_cloth_05",
+  "quality": 4
+ },
+ "31378": {
+  "name": "Gladiator's Kodohide Spaulders",
+  "icon": "inv_shoulder_12",
   "quality": 4
  },
  "31379": {
@@ -5152,6 +5237,11 @@
  "31406": {
   "name": "Gladiator's Ringmail Leggings",
   "icon": "inv_pants_mail_15",
+  "quality": 4
+ },
+ "31407": {
+  "name": "Gladiator's Ringmail Spaulders",
+  "icon": "inv_shoulder_29",
   "quality": 4
  },
  "31409": {
@@ -5209,9 +5299,24 @@
   "icon": "inv_bracer_07",
   "quality": 4
  },
+ "31613": {
+  "name": "Gladiator's Ornamented Chestguard",
+  "icon": "inv_chest_plate05",
+  "quality": 4
+ },
  "31614": {
   "name": "Gladiator's Ornamented Gloves",
   "icon": "inv_gauntlets_29",
+  "quality": 4
+ },
+ "31616": {
+  "name": "Gladiator's Ornamented Headcover",
+  "icon": "inv_helmet_22",
+  "quality": 4
+ },
+ "31619": {
+  "name": "Gladiator's Ornamented Spaulders",
+  "icon": "inv_shoulder_22",
   "quality": 4
  },
  "31691": {
@@ -6624,6 +6729,11 @@
   "icon": "inv_boots_plate_06",
   "quality": 4
  },
+ "33006": {
+  "name": "Vengeful Gladiator's Heavy Crossbow",
+  "icon": "inv_weapon_crossbow_19",
+  "quality": 4
+ },
  "33054": {
   "name": "The Seal of Danzalar",
   "icon": "inv_jewelry_ring_39",
@@ -6909,9 +7019,34 @@
   "icon": "inv_misc_cape_18",
   "quality": 4
  },
+ "33661": {
+  "name": "Vengeful Gladiator's Barrier",
+  "icon": "inv_shield_31",
+  "quality": 4
+ },
+ "33664": {
+  "name": "Vengeful Gladiator's Chain Armor",
+  "icon": "inv_chest_mail_03",
+  "quality": 4
+ },
+ "33665": {
+  "name": "Vengeful Gladiator's Chain Gauntlets",
+  "icon": "inv_gauntlets_59",
+  "quality": 4
+ },
  "33666": {
   "name": "Vengeful Gladiator's Chain Helm",
   "icon": "inv_helmet_95",
+  "quality": 4
+ },
+ "33667": {
+  "name": "Vengeful Gladiator's Chain Leggings",
+  "icon": "inv_pants_mail_24",
+  "quality": 4
+ },
+ "33668": {
+  "name": "Vengeful Gladiator's Chain Spaulders",
+  "icon": "inv_shoulder_59",
   "quality": 4
  },
  "33669": {
@@ -6919,9 +7054,24 @@
   "icon": "inv_axe_84",
   "quality": 4
  },
+ "33670": {
+  "name": "Vengeful Gladiator's Decapitator",
+  "icon": "inv_axe_60",
+  "quality": 4
+ },
+ "33671": {
+  "name": "Vengeful Gladiator's Dragonhide Gloves",
+  "icon": "inv_gauntlets_58",
+  "quality": 4
+ },
  "33672": {
   "name": "Vengeful Gladiator's Dragonhide Helm",
   "icon": "inv_helmet_94",
+  "quality": 4
+ },
+ "33673": {
+  "name": "Vengeful Gladiator's Dragonhide Legguards",
+  "icon": "inv_pants_leather_26",
   "quality": 4
  },
  "33674": {
@@ -6929,9 +7079,194 @@
   "icon": "inv_shoulder_58",
   "quality": 4
  },
+ "33675": {
+  "name": "Vengeful Gladiator's Dragonhide Tunic",
+  "icon": "inv_chest_leather_15",
+  "quality": 4
+ },
+ "33676": {
+  "name": "Vengeful Gladiator's Dreadweave Gloves",
+  "icon": "inv_gauntlets_66",
+  "quality": 4
+ },
+ "33677": {
+  "name": "Vengeful Gladiator's Dreadweave Hood",
+  "icon": "inv_helmet_103",
+  "quality": 4
+ },
+ "33678": {
+  "name": "Vengeful Gladiator's Dreadweave Leggings",
+  "icon": "inv_pants_cloth_29",
+  "quality": 4
+ },
+ "33679": {
+  "name": "Vengeful Gladiator's Dreadweave Mantle",
+  "icon": "inv_shoulder_68",
+  "quality": 4
+ },
+ "33680": {
+  "name": "Vengeful Gladiator's Dreadweave Robe",
+  "icon": "inv_chest_cloth_68",
+  "quality": 4
+ },
+ "33681": {
+  "name": "Vengeful Gladiator's Endgame",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "33682": {
+  "name": "Vengeful Gladiator's Felweave Amice",
+  "icon": "inv_shoulder_68",
+  "quality": 4
+ },
+ "33683": {
+  "name": "Vengeful Gladiator's Felweave Cowl",
+  "icon": "inv_helmet_103",
+  "quality": 4
+ },
+ "33684": {
+  "name": "Vengeful Gladiator's Felweave Handguards",
+  "icon": "inv_gauntlets_66",
+  "quality": 4
+ },
+ "33685": {
+  "name": "Vengeful Gladiator's Felweave Raiment",
+  "icon": "inv_chest_cloth_68",
+  "quality": 4
+ },
  "33687": {
   "name": "Vengeful Gladiator's Gavel",
   "icon": "inv_mace_56",
+  "quality": 4
+ },
+ "33689": {
+  "name": "Vengeful Gladiator's Hacker",
+  "icon": "inv_axe_84",
+  "quality": 4
+ },
+ "33690": {
+  "name": "Vengeful Gladiator's Kodohide Gloves",
+  "icon": "inv_gauntlets_58",
+  "quality": 4
+ },
+ "33691": {
+  "name": "Vengeful Gladiator's Kodohide Helm",
+  "icon": "inv_helmet_94",
+  "quality": 4
+ },
+ "33692": {
+  "name": "Vengeful Gladiator's Kodohide Legguards",
+  "icon": "inv_pants_leather_26",
+  "quality": 4
+ },
+ "33693": {
+  "name": "Vengeful Gladiator's Kodohide Spaulders",
+  "icon": "inv_shoulder_58",
+  "quality": 4
+ },
+ "33694": {
+  "name": "Vengeful Gladiator's Kodohide Tunic",
+  "icon": "inv_chest_leather_15",
+  "quality": 4
+ },
+ "33695": {
+  "name": "Vengeful Gladiator's Lamellar Chestpiece",
+  "icon": "inv_chest_plate_22",
+  "quality": 4
+ },
+ "33696": {
+  "name": "Vengeful Gladiator's Lamellar Gauntlets",
+  "icon": "inv_gauntlets_60",
+  "quality": 4
+ },
+ "33697": {
+  "name": "Vengeful Gladiator's Lamellar Helm",
+  "icon": "inv_helmet_96",
+  "quality": 4
+ },
+ "33699": {
+  "name": "Vengeful Gladiator's Lamellar Shoulders",
+  "icon": "inv_shoulder_60",
+  "quality": 4
+ },
+ "33700": {
+  "name": "Vengeful Gladiator's Leather Gloves",
+  "icon": "inv_gauntlets_65",
+  "quality": 4
+ },
+ "33701": {
+  "name": "Vengeful Gladiator's Leather Helm",
+  "icon": "inv_helmet_102",
+  "quality": 4
+ },
+ "33702": {
+  "name": "Vengeful Gladiator's Leather Legguards",
+  "icon": "inv_pants_leather_27",
+  "quality": 4
+ },
+ "33703": {
+  "name": "Vengeful Gladiator's Leather Spaulders",
+  "icon": "inv_shoulder_67",
+  "quality": 4
+ },
+ "33704": {
+  "name": "Vengeful Gladiator's Leather Tunic",
+  "icon": "inv_chest_leather_16",
+  "quality": 4
+ },
+ "33705": {
+  "name": "Vengeful Gladiator's Left Ripper",
+  "icon": "inv_weapon_hand_13",
+  "quality": 4
+ },
+ "33706": {
+  "name": "Vengeful Gladiator's Linked Armor",
+  "icon": "inv_chest_mail_04",
+  "quality": 4
+ },
+ "33707": {
+  "name": "Vengeful Gladiator's Linked Gauntlets",
+  "icon": "inv_gauntlets_61",
+  "quality": 4
+ },
+ "33708": {
+  "name": "Vengeful Gladiator's Linked Helm",
+  "icon": "inv_helmet_97",
+  "quality": 4
+ },
+ "33709": {
+  "name": "Vengeful Gladiator's Linked Leggings",
+  "icon": "inv_pants_mail_25",
+  "quality": 4
+ },
+ "33710": {
+  "name": "Vengeful Gladiator's Linked Spaulders",
+  "icon": "inv_shoulder_61",
+  "quality": 4
+ },
+ "33711": {
+  "name": "Vengeful Gladiator's Mail Armor",
+  "icon": "inv_chest_mail_04",
+  "quality": 4
+ },
+ "33712": {
+  "name": "Vengeful Gladiator's Mail Gauntlets",
+  "icon": "inv_gauntlets_61",
+  "quality": 4
+ },
+ "33713": {
+  "name": "Vengeful Gladiator's Mail Helm",
+  "icon": "inv_helmet_97",
+  "quality": 4
+ },
+ "33714": {
+  "name": "Vengeful Gladiator's Mail Leggings",
+  "icon": "inv_pants_mail_25",
+  "quality": 4
+ },
+ "33715": {
+  "name": "Vengeful Gladiator's Mail Spaulders",
+  "icon": "inv_shoulder_61",
   "quality": 4
  },
  "33716": {
@@ -6939,9 +7274,59 @@
   "icon": "inv_staff_60",
   "quality": 4
  },
+ "33717": {
+  "name": "Vengeful Gladiator's Mooncloth Gloves",
+  "icon": "inv_gauntlets_63",
+  "quality": 4
+ },
+ "33718": {
+  "name": "Vengeful Gladiator's Mooncloth Hood",
+  "icon": "inv_helmet_99",
+  "quality": 4
+ },
+ "33719": {
+  "name": "Vengeful Gladiator's Mooncloth Leggings",
+  "icon": "inv_pants_cloth_27",
+  "quality": 4
+ },
+ "33720": {
+  "name": "Vengeful Gladiator's Mooncloth Mantle",
+  "icon": "inv_shoulder_63",
+  "quality": 4
+ },
+ "33721": {
+  "name": "Vengeful Gladiator's Mooncloth Robe",
+  "icon": "inv_chest_cloth_66",
+  "quality": 4
+ },
+ "33722": {
+  "name": "Vengeful Gladiator's Ornamented Chestguard",
+  "icon": "inv_chest_plate_22",
+  "quality": 4
+ },
+ "33723": {
+  "name": "Vengeful Gladiator's Ornamented Gloves",
+  "icon": "inv_gauntlets_60",
+  "quality": 4
+ },
+ "33724": {
+  "name": "Vengeful Gladiator's Ornamented Headcover",
+  "icon": "inv_helmet_96",
+  "quality": 4
+ },
+ "33726": {
+  "name": "Vengeful Gladiator's Ornamented Spaulders",
+  "icon": "inv_shoulder_60",
+  "quality": 4
+ },
  "33728": {
   "name": "Vengeful Gladiator's Plate Chestpiece",
   "icon": "inv_chest_plate_23",
+  "quality": 4
+ },
+ "33729": {
+  "name": "Vengeful Gladiator's Plate Gauntlets",
+  "icon": "inv_gauntlets_62",
   "quality": 4
  },
  "33730": {
@@ -6959,9 +7344,134 @@
   "icon": "inv_shoulder_62",
   "quality": 4
  },
+ "33733": {
+  "name": "Vengeful Gladiator's Pummeler",
+  "icon": "inv_mace_41",
+  "quality": 4
+ },
  "33734": {
   "name": "Vengeful Gladiator's Quickblade",
   "icon": "inv_sword_89",
+  "quality": 4
+ },
+ "33735": {
+  "name": "Vengeful Gladiator's Redoubt",
+  "icon": "inv_shield_31",
+  "quality": 4
+ },
+ "33736": {
+  "name": "Vengeful Gladiator's Reprieve",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "33737": {
+  "name": "Vengeful Gladiator's Right Ripper",
+  "icon": "inv_weapon_hand_13",
+  "quality": 4
+ },
+ "33738": {
+  "name": "Vengeful Gladiator's Ringmail Armor",
+  "icon": "inv_chest_mail_04",
+  "quality": 4
+ },
+ "33740": {
+  "name": "Vengeful Gladiator's Ringmail Helm",
+  "icon": "inv_helmet_97",
+  "quality": 4
+ },
+ "33741": {
+  "name": "Vengeful Gladiator's Ringmail Leggings",
+  "icon": "inv_pants_mail_25",
+  "quality": 4
+ },
+ "33742": {
+  "name": "Vengeful Gladiator's Ringmail Spaulders",
+  "icon": "inv_shoulder_61",
+  "quality": 4
+ },
+ "33743": {
+  "name": "Vengeful Gladiator's Salvation",
+  "icon": "inv_mace_56",
+  "quality": 4
+ },
+ "33744": {
+  "name": "Vengeful Gladiator's Satin Gloves",
+  "icon": "inv_gauntlets_63",
+  "quality": 4
+ },
+ "33745": {
+  "name": "Vengeful Gladiator's Satin Hood",
+  "icon": "inv_helmet_99",
+  "quality": 4
+ },
+ "33746": {
+  "name": "Vengeful Gladiator's Satin Leggings",
+  "icon": "inv_pants_cloth_27",
+  "quality": 4
+ },
+ "33747": {
+  "name": "Vengeful Gladiator's Satin Mantle",
+  "icon": "inv_shoulder_63",
+  "quality": 4
+ },
+ "33748": {
+  "name": "Vengeful Gladiator's Satin Robe",
+  "icon": "inv_chest_cloth_66",
+  "quality": 4
+ },
+ "33749": {
+  "name": "Vengeful Gladiator's Scaled Chestpiece",
+  "icon": "inv_chest_plate_22",
+  "quality": 4
+ },
+ "33750": {
+  "name": "Vengeful Gladiator's Scaled Gauntlets",
+  "icon": "inv_gauntlets_60",
+  "quality": 4
+ },
+ "33751": {
+  "name": "Vengeful Gladiator's Scaled Helm",
+  "icon": "inv_helmet_96",
+  "quality": 4
+ },
+ "33752": {
+  "name": "Vengeful Gladiator's Scaled Legguards",
+  "icon": "inv_pants_plate_26",
+  "quality": 4
+ },
+ "33753": {
+  "name": "Vengeful Gladiator's Scaled Shoulders",
+  "icon": "inv_shoulder_60",
+  "quality": 4
+ },
+ "33756": {
+  "name": "Vengeful Gladiator's Shiv",
+  "icon": "inv_weapon_shortblade_62",
+  "quality": 4
+ },
+ "33757": {
+  "name": "Vengeful Gladiator's Silk Amice",
+  "icon": "inv_shoulder_64",
+  "quality": 4
+ },
+ "33758": {
+  "name": "Vengeful Gladiator's Silk Cowl",
+  "icon": "inv_helmet_101",
+  "quality": 4
+ },
+ "33759": {
+  "name": "Vengeful Gladiator's Silk Handguards",
+  "icon": "inv_gauntlets_64",
+  "quality": 4
+ },
+ "33760": {
+  "name": "Vengeful Gladiator's Silk Raiment",
+  "icon": "inv_chest_cloth_67",
+  "quality": 4
+ },
+ "33761": {
+  "name": "Vengeful Gladiator's Silk Trousers",
+  "icon": "inv_pants_cloth_28",
   "quality": 4
  },
  "33762": {
@@ -6969,9 +7479,39 @@
   "icon": "inv_sword_89",
   "quality": 4
  },
+ "33763": {
+  "name": "Vengeful Gladiator's Spellblade",
+  "icon": "inv_weapon_shortblade_51",
+  "quality": 4
+ },
+ "33764": {
+  "name": "Vengeful Gladiator's Touch of Defeat",
+  "icon": "inv_wand_09",
+  "quality": 4
+ },
  "33765": {
   "name": "Vengeful Gladiator's War Edge",
   "icon": "inv_axe_03",
+  "quality": 4
+ },
+ "33766": {
+  "name": "Vengeful Gladiator's War Staff",
+  "icon": "inv_staff_54",
+  "quality": 4
+ },
+ "33767": {
+  "name": "Vengeful Gladiator's Wyrmhide Gloves",
+  "icon": "inv_gauntlets_58",
+  "quality": 4
+ },
+ "33770": {
+  "name": "Vengeful Gladiator's Wyrmhide Spaulders",
+  "icon": "inv_shoulder_58",
+  "quality": 4
+ },
+ "33771": {
+  "name": "Vengeful Gladiator's Wyrmhide Tunic",
+  "icon": "inv_chest_leather_15",
   "quality": 4
  },
  "33782": {
@@ -7004,6 +7544,36 @@
   "icon": "racial_troll_berserk",
   "quality": 4
  },
+ "33842": {
+  "name": "Vengeful Gladiator's Libram of Justice",
+  "icon": "inv_misc_book_07",
+  "quality": 4
+ },
+ "33843": {
+  "name": "Vengeful Gladiator's Totem of the Third Wind",
+  "icon": "spell_frost_summonwaterelemental",
+  "quality": 4
+ },
+ "33853": {
+  "name": "Vindicator's Band of Dominance",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "33876": {
+  "name": "Vindicator's Chain Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "33877": {
+  "name": "Vindicator's Chain Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "33878": {
+  "name": "Vindicator's Chain Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
  "33879": {
   "name": "Vindicator's Dragonhide Belt",
   "icon": "inv_belt_17",
@@ -7019,9 +7589,49 @@
   "icon": "inv_bracer_07",
   "quality": 4
  },
+ "33882": {
+  "name": "Vindicator's Dreadweave Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "33883": {
+  "name": "Vindicator's Dreadweave Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "33884": {
+  "name": "Vindicator's Dreadweave Stalkers",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "33885": {
+  "name": "Vindicator's Kodohide Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "33886": {
+  "name": "Vindicator's Kodohide Boots",
+  "icon": "inv_boots_08",
+  "quality": 4
+ },
+ "33887": {
+  "name": "Vindicator's Kodohide Bracers",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
  "33889": {
   "name": "Vindicator's Lamellar Bracers",
   "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "33890": {
+  "name": "Vindicator's Lamellar Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "33891": {
+  "name": "Vindicator's Leather Belt",
+  "icon": "inv_belt_17",
   "quality": 4
  },
  "33892": {
@@ -7034,9 +7644,99 @@
   "icon": "inv_bracer_07",
   "quality": 4
  },
+ "33894": {
+  "name": "Vindicator's Linked Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "33895": {
+  "name": "Vindicator's Linked Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "33896": {
+  "name": "Vindicator's Linked Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
  "33897": {
   "name": "Vindicator's Mail Bracers",
   "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "33898": {
+  "name": "Vindicator's Mail Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "33899": {
+  "name": "Vindicator's Mail Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "33900": {
+  "name": "Vindicator's Mooncloth Belt",
+  "icon": "inv_belt_17",
+  "quality": 4
+ },
+ "33901": {
+  "name": "Vindicator's Mooncloth Cuffs",
+  "icon": "inv_bracer_07",
+  "quality": 4
+ },
+ "33902": {
+  "name": "Vindicator's Mooncloth Slippers",
+  "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "33903": {
+  "name": "Vindicator's Ornamented Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
+ "33904": {
+  "name": "Vindicator's Ornamented Bracers",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "33905": {
+  "name": "Vindicator's Ornamented Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "33906": {
+  "name": "Vindicator's Ringmail Bracers",
+  "icon": "inv_bracer_16",
+  "quality": 4
+ },
+ "33907": {
+  "name": "Vindicator's Ringmail Girdle",
+  "icon": "inv_belt_20",
+  "quality": 4
+ },
+ "33908": {
+  "name": "Vindicator's Ringmail Sabatons",
+  "icon": "inv_boots_plate_06",
+  "quality": 4
+ },
+ "33909": {
+  "name": "Vindicator's Scaled Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
+ "33910": {
+  "name": "Vindicator's Scaled Bracers",
+  "icon": "inv_bracer_19",
+  "quality": 4
+ },
+ "33911": {
+  "name": "Vindicator's Scaled Greaves",
+  "icon": "inv_boots_plate_04",
+  "quality": 4
+ },
+ "33912": {
+  "name": "Vindicator's Silk Belt",
+  "icon": "inv_belt_17",
   "quality": 4
  },
  "33913": {
@@ -7047,6 +7747,11 @@
  "33914": {
   "name": "Vindicator's Silk Footguards",
   "icon": "inv_boots_05",
+  "quality": 4
+ },
+ "33918": {
+  "name": "Vindicator's Band of Salvation",
+  "icon": "inv_jewelry_ring_60",
   "quality": 4
  },
  "33919": {
@@ -8074,14 +8779,54 @@
   "icon": "inv_shield_54",
   "quality": 4
  },
+ "34990": {
+  "name": "Brutal Gladiator's Chain Armor",
+  "icon": "inv_chest_chain_07",
+  "quality": 4
+ },
+ "34991": {
+  "name": "Brutal Gladiator's Chain Gauntlets",
+  "icon": "inv_gauntlets_65",
+  "quality": 4
+ },
  "34992": {
   "name": "Brutal Gladiator's Chain Helm",
   "icon": "inv_helmet128",
   "quality": 4
  },
+ "34993": {
+  "name": "Brutal Gladiator's Chain Leggings",
+  "icon": "inv_pants_mail_20",
+  "quality": 4
+ },
+ "34994": {
+  "name": "Brutal Gladiator's Chain Spaulders",
+  "icon": "inv_shoulder_90",
+  "quality": 4
+ },
+ "34996": {
+  "name": "Brutal Gladiator's Cleaver",
+  "icon": "inv_axe_1h_blacksmithing_02",
+  "quality": 4
+ },
+ "34997": {
+  "name": "Brutal Gladiator's Decapitator",
+  "icon": "inv_axe_73",
+  "quality": 4
+ },
+ "34998": {
+  "name": "Brutal Gladiator's Dragonhide Gloves",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
  "34999": {
   "name": "Brutal Gladiator's Dragonhide Helm",
   "icon": "inv_helmet_126",
+  "quality": 4
+ },
+ "35000": {
+  "name": "Brutal Gladiator's Dragonhide Legguards",
+  "icon": "inv_pants_leather_07",
   "quality": 4
  },
  "35001": {
@@ -8094,9 +8839,134 @@
   "icon": "inv_chest_cloth_05",
   "quality": 4
  },
+ "35003": {
+  "name": "Brutal Gladiator's Dreadweave Gloves",
+  "icon": "inv_gauntlets_49",
+  "quality": 4
+ },
+ "35004": {
+  "name": "Brutal Gladiator's Dreadweave Hood",
+  "icon": "inv_helmet_132",
+  "quality": 4
+ },
+ "35005": {
+  "name": "Brutal Gladiator's Dreadweave Leggings",
+  "icon": "inv_pants_cloth_22",
+  "quality": 4
+ },
+ "35006": {
+  "name": "Brutal Gladiator's Dreadweave Mantle",
+  "icon": "inv_shoulder_96",
+  "quality": 4
+ },
+ "35007": {
+  "name": "Brutal Gladiator's Dreadweave Robe",
+  "icon": "inv_chest_cloth_61",
+  "quality": 4
+ },
+ "35008": {
+  "name": "Brutal Gladiator's Endgame",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "35009": {
+  "name": "Brutal Gladiator's Felweave Amice",
+  "icon": "inv_shoulder_96",
+  "quality": 4
+ },
+ "35010": {
+  "name": "Brutal Gladiator's Felweave Cowl",
+  "icon": "inv_helmet_132",
+  "quality": 4
+ },
+ "35011": {
+  "name": "Brutal Gladiator's Felweave Handguards",
+  "icon": "inv_gauntlets_49",
+  "quality": 4
+ },
+ "35012": {
+  "name": "Brutal Gladiator's Felweave Raiment",
+  "icon": "inv_chest_cloth_61",
+  "quality": 4
+ },
  "35014": {
   "name": "Brutal Gladiator's Gavel",
   "icon": "inv_mace_73",
+  "quality": 4
+ },
+ "35017": {
+  "name": "Brutal Gladiator's Hacker",
+  "icon": "inv_axe_1h_blacksmithing_02",
+  "quality": 4
+ },
+ "35018": {
+  "name": "Brutal Gladiator's Heavy Crossbow",
+  "icon": "inv_weapon_crossbow_26",
+  "quality": 4
+ },
+ "35022": {
+  "name": "Brutal Gladiator's Kodohide Gloves",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "35023": {
+  "name": "Brutal Gladiator's Kodohide Helm",
+  "icon": "inv_helmet_126",
+  "quality": 4
+ },
+ "35024": {
+  "name": "Brutal Gladiator's Kodohide Legguards",
+  "icon": "inv_pants_leather_07",
+  "quality": 4
+ },
+ "35025": {
+  "name": "Brutal Gladiator's Kodohide Spaulders",
+  "icon": "inv_shoulder_88",
+  "quality": 4
+ },
+ "35026": {
+  "name": "Brutal Gladiator's Kodohide Tunic",
+  "icon": "inv_chest_cloth_05",
+  "quality": 4
+ },
+ "35027": {
+  "name": "Brutal Gladiator's Lamellar Chestpiece",
+  "icon": "inv_chest_plate_22",
+  "quality": 4
+ },
+ "35028": {
+  "name": "Brutal Gladiator's Lamellar Gauntlets",
+  "icon": "inv_gauntlets_52",
+  "quality": 4
+ },
+ "35029": {
+  "name": "Brutal Gladiator's Lamellar Helm",
+  "icon": "inv_helmet_127",
+  "quality": 4
+ },
+ "35031": {
+  "name": "Brutal Gladiator's Lamellar Shoulders",
+  "icon": "inv_shoulder_89",
+  "quality": 4
+ },
+ "35032": {
+  "name": "Brutal Gladiator's Leather Gloves",
+  "icon": "inv_gauntlets_17",
+  "quality": 4
+ },
+ "35033": {
+  "name": "Brutal Gladiator's Leather Helm",
+  "icon": "inv_helmet_126",
+  "quality": 4
+ },
+ "35034": {
+  "name": "Brutal Gladiator's Leather Legguards",
+  "icon": "inv_pants_leather_12",
+  "quality": 4
+ },
+ "35035": {
+  "name": "Brutal Gladiator's Leather Spaulders",
+  "icon": "inv_shoulder_88",
   "quality": 4
  },
  "35036": {
@@ -8104,9 +8974,119 @@
   "icon": "inv_chest_leather_03",
   "quality": 4
  },
+ "35038": {
+  "name": "Brutal Gladiator's Left Ripper",
+  "icon": "inv_weapon_hand_15",
+  "quality": 4
+ },
+ "35040": {
+  "name": "Brutal Gladiator's Libram of Justice",
+  "icon": "inv_misc_book_07",
+  "quality": 4
+ },
+ "35042": {
+  "name": "Brutal Gladiator's Linked Armor",
+  "icon": "inv_chest_chain_16",
+  "quality": 4
+ },
+ "35043": {
+  "name": "Brutal Gladiator's Linked Gauntlets",
+  "icon": "inv_gauntlets_65",
+  "quality": 4
+ },
+ "35044": {
+  "name": "Brutal Gladiator's Linked Helm",
+  "icon": "inv_helmet128",
+  "quality": 4
+ },
+ "35045": {
+  "name": "Brutal Gladiator's Linked Leggings",
+  "icon": "inv_pants_mail_20",
+  "quality": 4
+ },
+ "35046": {
+  "name": "Brutal Gladiator's Linked Spaulders",
+  "icon": "inv_shoulder_90",
+  "quality": 4
+ },
+ "35048": {
+  "name": "Brutal Gladiator's Mail Armor",
+  "icon": "inv_chest_chain_16",
+  "quality": 4
+ },
+ "35049": {
+  "name": "Brutal Gladiator's Mail Gauntlets",
+  "icon": "inv_gauntlets_65",
+  "quality": 4
+ },
+ "35050": {
+  "name": "Brutal Gladiator's Mail Helm",
+  "icon": "inv_helmet128",
+  "quality": 4
+ },
+ "35051": {
+  "name": "Brutal Gladiator's Mail Leggings",
+  "icon": "inv_pants_mail_20",
+  "quality": 4
+ },
+ "35052": {
+  "name": "Brutal Gladiator's Mail Spaulders",
+  "icon": "inv_shoulder_90",
+  "quality": 4
+ },
+ "35053": {
+  "name": "Brutal Gladiator's Mooncloth Gloves",
+  "icon": "inv_gauntlets_64",
+  "quality": 4
+ },
+ "35054": {
+  "name": "Brutal Gladiator's Mooncloth Hood",
+  "icon": "inv_helmet_132",
+  "quality": 4
+ },
+ "35055": {
+  "name": "Brutal Gladiator's Mooncloth Leggings",
+  "icon": "inv_pants_cloth_28",
+  "quality": 4
+ },
+ "35056": {
+  "name": "Brutal Gladiator's Mooncloth Mantle",
+  "icon": "inv_shoulder_96",
+  "quality": 4
+ },
+ "35057": {
+  "name": "Brutal Gladiator's Mooncloth Robe",
+  "icon": "inv_chest_cloth_60",
+  "quality": 4
+ },
+ "35059": {
+  "name": "Brutal Gladiator's Ornamented Chestguard",
+  "icon": "inv_chest_plate_22",
+  "quality": 4
+ },
+ "35060": {
+  "name": "Brutal Gladiator's Ornamented Gloves",
+  "icon": "inv_gauntlets_52",
+  "quality": 4
+ },
+ "35061": {
+  "name": "Brutal Gladiator's Ornamented Headcover",
+  "icon": "inv_helmet_127",
+  "quality": 4
+ },
+ "35063": {
+  "name": "Brutal Gladiator's Ornamented Spaulders",
+  "icon": "inv_shoulder_89",
+  "quality": 4
+ },
  "35066": {
   "name": "Brutal Gladiator's Plate Chestpiece",
   "icon": "inv_chest_plate_23",
+  "quality": 4
+ },
+ "35067": {
+  "name": "Brutal Gladiator's Plate Gauntlets",
+  "icon": "inv_gauntlets_62",
   "quality": 4
  },
  "35068": {
@@ -8119,9 +9099,139 @@
   "icon": "inv_pants_plate_27",
   "quality": 4
  },
+ "35070": {
+  "name": "Brutal Gladiator's Plate Shoulders",
+  "icon": "inv_shoulder_89",
+  "quality": 4
+ },
+ "35071": {
+  "name": "Brutal Gladiator's Pummeler",
+  "icon": "inv_mace_74",
+  "quality": 4
+ },
  "35072": {
   "name": "Brutal Gladiator's Quickblade",
   "icon": "inv_sword_114",
+  "quality": 4
+ },
+ "35073": {
+  "name": "Brutal Gladiator's Redoubt",
+  "icon": "inv_shield_52",
+  "quality": 4
+ },
+ "35074": {
+  "name": "Brutal Gladiator's Reprieve",
+  "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "35076": {
+  "name": "Brutal Gladiator's Right Ripper",
+  "icon": "inv_weapon_hand_15",
+  "quality": 4
+ },
+ "35077": {
+  "name": "Brutal Gladiator's Ringmail Armor",
+  "icon": "inv_chest_chain_16",
+  "quality": 4
+ },
+ "35079": {
+  "name": "Brutal Gladiator's Ringmail Helm",
+  "icon": "inv_helmet128",
+  "quality": 4
+ },
+ "35080": {
+  "name": "Brutal Gladiator's Ringmail Leggings",
+  "icon": "inv_pants_mail_20",
+  "quality": 4
+ },
+ "35081": {
+  "name": "Brutal Gladiator's Ringmail Spaulders",
+  "icon": "inv_shoulder_90",
+  "quality": 4
+ },
+ "35082": {
+  "name": "Brutal Gladiator's Salvation",
+  "icon": "inv_mace_71",
+  "quality": 4
+ },
+ "35083": {
+  "name": "Brutal Gladiator's Satin Gloves",
+  "icon": "inv_gauntlets_64",
+  "quality": 4
+ },
+ "35084": {
+  "name": "Brutal Gladiator's Satin Hood",
+  "icon": "inv_helmet_132",
+  "quality": 4
+ },
+ "35085": {
+  "name": "Brutal Gladiator's Satin Leggings",
+  "icon": "inv_pants_cloth_28",
+  "quality": 4
+ },
+ "35086": {
+  "name": "Brutal Gladiator's Satin Mantle",
+  "icon": "inv_shoulder_96",
+  "quality": 4
+ },
+ "35087": {
+  "name": "Brutal Gladiator's Satin Robe",
+  "icon": "inv_chest_cloth_60",
+  "quality": 4
+ },
+ "35088": {
+  "name": "Brutal Gladiator's Scaled Chestpiece",
+  "icon": "inv_chest_plate_22",
+  "quality": 4
+ },
+ "35089": {
+  "name": "Brutal Gladiator's Scaled Gauntlets",
+  "icon": "inv_gauntlets_52",
+  "quality": 4
+ },
+ "35090": {
+  "name": "Brutal Gladiator's Scaled Helm",
+  "icon": "inv_helmet_127",
+  "quality": 4
+ },
+ "35091": {
+  "name": "Brutal Gladiator's Scaled Legguards",
+  "icon": "inv_pants_plate_29",
+  "quality": 4
+ },
+ "35092": {
+  "name": "Brutal Gladiator's Scaled Shoulders",
+  "icon": "inv_shoulder_89",
+  "quality": 4
+ },
+ "35095": {
+  "name": "Brutal Gladiator's Shiv",
+  "icon": "inv_weapon_shortblade_75",
+  "quality": 4
+ },
+ "35096": {
+  "name": "Brutal Gladiator's Silk Amice",
+  "icon": "inv_shoulder_96",
+  "quality": 4
+ },
+ "35097": {
+  "name": "Brutal Gladiator's Silk Cowl",
+  "icon": "inv_helmet_132",
+  "quality": 4
+ },
+ "35098": {
+  "name": "Brutal Gladiator's Silk Handguards",
+  "icon": "inv_gauntlets_47",
+  "quality": 4
+ },
+ "35099": {
+  "name": "Brutal Gladiator's Silk Raiment",
+  "icon": "inv_chest_cloth_62",
+  "quality": 4
+ },
+ "35100": {
+  "name": "Brutal Gladiator's Silk Trousers",
+  "icon": "inv_pants_cloth_27",
   "quality": 4
  },
  "35101": {
@@ -8129,13 +9239,73 @@
   "icon": "inv_sword_114",
   "quality": 4
  },
+ "35102": {
+  "name": "Brutal Gladiator's Spellblade",
+  "icon": "inv_weapon_shortblade_73",
+  "quality": 4
+ },
+ "35106": {
+  "name": "Brutal Gladiator's Totem of the Third Wind",
+  "icon": "spell_frost_summonwaterelemental",
+  "quality": 4
+ },
+ "35107": {
+  "name": "Brutal Gladiator's Touch of Defeat",
+  "icon": "inv_wand_09",
+  "quality": 4
+ },
  "35108": {
   "name": "Brutal Gladiator's War Edge",
   "icon": "inv_axe_03",
   "quality": 4
  },
+ "35109": {
+  "name": "Brutal Gladiator's War Staff",
+  "icon": "inv_staff_74",
+  "quality": 4
+ },
+ "35111": {
+  "name": "Brutal Gladiator's Wyrmhide Gloves",
+  "icon": "inv_gauntlets_25",
+  "quality": 4
+ },
+ "35114": {
+  "name": "Brutal Gladiator's Wyrmhide Spaulders",
+  "icon": "inv_shoulder_88",
+  "quality": 4
+ },
+ "35115": {
+  "name": "Brutal Gladiator's Wyrmhide Tunic",
+  "icon": "inv_chest_cloth_05",
+  "quality": 4
+ },
+ "35129": {
+  "name": "Guardian's Band of Dominance",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "35130": {
+  "name": "Guardian's Band of Salvation",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "35131": {
+  "name": "Guardian's Band of Triumph",
+  "icon": "inv_jewelry_ring_60",
+  "quality": 4
+ },
+ "35132": {
+  "name": "Guardian's Pendant of Conquest",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
  "35133": {
   "name": "Guardian's Pendant of Dominance",
+  "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "35134": {
+  "name": "Guardian's Pendant of Salvation",
   "icon": "inv_jewelry_necklace_36",
   "quality": 4
  },
@@ -8144,14 +9314,209 @@
   "icon": "inv_jewelry_necklace_36",
   "quality": 4
  },
+ "35136": {
+  "name": "Guardian's Chain Sabatons",
+  "icon": "inv_boots_plate_09",
+  "quality": 4
+ },
+ "35137": {
+  "name": "Guardian's Dragonhide Boots",
+  "icon": "inv_boots_cloth_05",
+  "quality": 4
+ },
+ "35138": {
+  "name": "Guardian's Dreadweave Stalkers",
+  "icon": "inv_boots_cloth_12",
+  "quality": 4
+ },
+ "35139": {
+  "name": "Guardian's Kodohide Boots",
+  "icon": "inv_boots_cloth_05",
+  "quality": 4
+ },
+ "35140": {
+  "name": "Guardian's Lamellar Greaves",
+  "icon": "inv_boots_plate_08",
+  "quality": 4
+ },
+ "35141": {
+  "name": "Guardian's Leather Boots",
+  "icon": "inv_boots_cloth_05",
+  "quality": 4
+ },
+ "35142": {
+  "name": "Guardian's Linked Sabatons",
+  "icon": "inv_boots_plate_09",
+  "quality": 4
+ },
+ "35143": {
+  "name": "Guardian's Mail Sabatons",
+  "icon": "inv_boots_plate_09",
+  "quality": 4
+ },
+ "35144": {
+  "name": "Guardian's Mooncloth Slippers",
+  "icon": "inv_boots_cloth_12",
+  "quality": 4
+ },
+ "35145": {
+  "name": "Guardian's Ornamented Greaves",
+  "icon": "inv_boots_plate_08",
+  "quality": 4
+ },
+ "35146": {
+  "name": "Guardian's Plate Greaves",
+  "icon": "inv_boots_plate_01",
+  "quality": 4
+ },
+ "35147": {
+  "name": "Guardian's Ringmail Sabatons",
+  "icon": "inv_boots_plate_09",
+  "quality": 4
+ },
+ "35148": {
+  "name": "Guardian's Scaled Greaves",
+  "icon": "inv_boots_plate_08",
+  "quality": 4
+ },
+ "35149": {
+  "name": "Guardian's Silk Footguards",
+  "icon": "inv_boots_cloth_12",
+  "quality": 4
+ },
+ "35151": {
+  "name": "Guardian's Chain Girdle",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "35152": {
+  "name": "Guardian's Dragonhide Belt",
+  "icon": "inv_belt_12",
+  "quality": 4
+ },
+ "35153": {
+  "name": "Guardian's Dreadweave Belt",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "35154": {
+  "name": "Guardian's Kodohide Belt",
+  "icon": "inv_belt_12",
+  "quality": 4
+ },
+ "35156": {
+  "name": "Guardian's Leather Belt",
+  "icon": "inv_belt_12",
+  "quality": 4
+ },
+ "35157": {
+  "name": "Guardian's Linked Girdle",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "35158": {
+  "name": "Guardian's Mail Girdle",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "35159": {
+  "name": "Guardian's Mooncloth Belt",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "35160": {
+  "name": "Guardian's Ornamented Belt",
+  "icon": "inv_belt_12",
+  "quality": 4
+ },
  "35161": {
   "name": "Guardian's Plate Belt",
   "icon": "inv_belt_14",
   "quality": 4
  },
+ "35162": {
+  "name": "Guardian's Ringmail Girdle",
+  "icon": "inv_belt_13",
+  "quality": 4
+ },
+ "35163": {
+  "name": "Guardian's Scaled Belt",
+  "icon": "inv_belt_12",
+  "quality": 4
+ },
+ "35164": {
+  "name": "Guardian's Silk Belt",
+  "icon": "inv_belt_12",
+  "quality": 4
+ },
+ "35166": {
+  "name": "Guardian's Chain Bracers",
+  "icon": "inv_bracer_18",
+  "quality": 4
+ },
+ "35167": {
+  "name": "Guardian's Dragonhide Bracers",
+  "icon": "inv_bracer_09",
+  "quality": 4
+ },
+ "35168": {
+  "name": "Guardian's Dreadweave Cuffs",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "35169": {
+  "name": "Guardian's Kodohide Bracers",
+  "icon": "inv_bracer_09",
+  "quality": 4
+ },
+ "35170": {
+  "name": "Guardian's Lamellar Bracers",
+  "icon": "inv_bracer_17",
+  "quality": 4
+ },
+ "35171": {
+  "name": "Guardian's Leather Bracers",
+  "icon": "inv_bracer_09",
+  "quality": 4
+ },
+ "35172": {
+  "name": "Guardian's Linked Bracers",
+  "icon": "inv_bracer_18",
+  "quality": 4
+ },
+ "35173": {
+  "name": "Guardian's Mail Bracers",
+  "icon": "inv_bracer_18",
+  "quality": 4
+ },
+ "35174": {
+  "name": "Guardian's Mooncloth Cuffs",
+  "icon": "inv_bracer_02",
+  "quality": 4
+ },
+ "35175": {
+  "name": "Guardian's Ornamented Bracers",
+  "icon": "inv_bracer_17",
+  "quality": 4
+ },
  "35176": {
   "name": "Guardian's Plate Bracers",
   "icon": "inv_bracer_17",
+  "quality": 4
+ },
+ "35177": {
+  "name": "Guardian's Ringmail Bracers",
+  "icon": "inv_bracer_18",
+  "quality": 4
+ },
+ "35178": {
+  "name": "Guardian's Scaled Bracers",
+  "icon": "inv_bracer_17",
+  "quality": 4
+ },
+ "35179": {
+  "name": "Guardian's Silk Cuffs",
+  "icon": "inv_bracer_14",
   "quality": 4
  },
  "35185": {

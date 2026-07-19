@@ -1,0 +1,391 @@
+{
+ "class": "priest",
+ "spec": "shadow",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Shadow Priest: the Brutal Gladiator's set (Brutal Gladiator's Satin Hood, Brutal Gladiator's Satin Mantle, Brutal Gladiator's Satin Robe…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Shadow Priests equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Shadow Damage",
+  "Spell Penetration",
+  "Spell Hit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 35084,
+    "name": "Brutal Gladiator's Satin Hood"
+   },
+   "alternatives": [
+    {
+     "itemId": 30161,
+     "name": "Hood of the Avatar",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 35133,
+    "name": "Guardian's Pendant of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "Seen mostly above 2402 rating."
+    },
+    {
+     "itemId": 30666,
+     "name": "Ritssyn's Lost Pendant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 35086,
+    "name": "Brutal Gladiator's Satin Mantle"
+   },
+   "alternatives": [
+    {
+     "itemId": 21869,
+     "name": "Frozen Shadoweave Shoulders",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35056,
+     "name": "Brutal Gladiator's Mooncloth Mantle",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape"
+   },
+   "alternatives": [
+    {
+     "itemId": 28570,
+     "name": "Shadow-Cloak of Dalaran",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 35087,
+    "name": "Brutal Gladiator's Satin Robe"
+   },
+   "alternatives": [
+    {
+     "itemId": 21871,
+     "name": "Frozen Shadoweave Robe",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30159,
+     "name": "Shroud of the Avatar",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35168,
+    "name": "Guardian's Dreadweave Cuffs"
+   },
+   "alternatives": [
+    {
+     "itemId": 24250,
+     "name": "Bracers of Havok",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28405,
+     "name": "General's Dreadweave Cuffs"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 35083,
+    "name": "Brutal Gladiator's Satin Gloves"
+   },
+   "alternatives": [
+    {
+     "itemId": 28780,
+     "name": "Soul-Eater's Handwraps",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30160,
+     "name": "Handguards of the Avatar",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 35153,
+    "name": "Guardian's Dreadweave Belt"
+   },
+   "alternatives": [
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 35085,
+    "name": "Brutal Gladiator's Satin Leggings"
+   },
+   "alternatives": [
+    {
+     "itemId": 29972,
+     "name": "Trousers of the Astromancer",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 35138,
+    "name": "Guardian's Dreadweave Stalkers"
+   },
+   "alternatives": [
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers"
+    },
+    {
+     "itemId": 21870,
+     "name": "Frozen Shadoweave Boots",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30050,
+     "name": "Boots of the Shifting Nightmare",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 35129,
+    "name": "Guardian's Band of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 29922,
+     "name": "Band of Al'ar",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28327,
+     "name": "Arcane Netherband",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30346,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28727,
+     "name": "Pendant of the Violet Eye",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 35014,
+    "name": "Brutal Gladiator's Gavel"
+   },
+   "alternatives": [
+    {
+     "itemId": 35102,
+     "name": "Brutal Gladiator's Spellblade"
+    },
+    {
+     "itemId": 35082,
+     "name": "Brutal Gladiator's Salvation",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 35008,
+    "name": "Brutal Gladiator's Endgame"
+   },
+   "alternatives": [
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28781,
+     "name": "Karaborian Talisman",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 35107,
+    "name": "Brutal Gladiator's Touch of Defeat"
+   },
+   "alternatives": [
+    {
+     "itemId": 30080,
+     "name": "Luminescent Rod of the Naaru",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "64% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "68% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "93% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "72% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "54% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "47% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "41% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Soulfrost",
+   "note": "54% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Shadow Priest?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Satin Hood, Brutal Gladiator's Satin Mantle, Brutal Gladiator's Satin Robe, Brutal Gladiator's Satin Gloves, Brutal Gladiator's Satin Leggings, Brutal Gladiator's Gavel, Brutal Gladiator's Endgame, Brutal Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Pendant of Dominance, Guardian's Dreadweave Cuffs, Guardian's Dreadweave Belt, Guardian's Dreadweave Stalkers, Guardian's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

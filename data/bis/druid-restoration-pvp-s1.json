@@ -1,0 +1,372 @@
+{
+ "class": "druid",
+ "spec": "restoration",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Restoration Druid: the Gladiator's set (Gladiator's Kodohide Helm, Gladiator's Wyrmhide Spaulders, Gladiator's Kodohide Tunic…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Restoration Druids equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Bonus Healing",
+  "Stamina",
+  "Intellect",
+  "Spirit"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 31376,
+    "name": "Gladiator's Kodohide Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 30219,
+     "name": "Nordrassil Headguard",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33068,
+    "name": "Veteran's Pendant of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 28139,
+    "name": "Gladiator's Wyrmhide Spaulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 31378,
+     "name": "Gladiator's Kodohide Spaulders"
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted"
+   },
+   "alternatives": [
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28582,
+     "name": "Red Riding Hood's Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 31379,
+    "name": "Gladiator's Kodohide Tunic"
+   },
+   "alternatives": [
+    {
+     "itemId": 28140,
+     "name": "Gladiator's Wyrmhide Tunic"
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32812,
+    "name": "Veteran's Kodohide Bracers",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30062,
+     "name": "Grove-Bands of Remulos",
+     "pveFlexNote": "Seen mostly above 2511 rating."
+    },
+    {
+     "itemId": 31598,
+     "name": "General's Kodohide Bracers"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 28136,
+    "name": "Gladiator's Wyrmhide Gloves"
+   },
+   "alternatives": [
+    {
+     "itemId": 31375,
+     "name": "Gladiator's Kodohide Gloves"
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32800,
+    "name": "Veteran's Kodohide Belt",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 29984,
+     "name": "Girdle of Zaetar",
+     "pveFlexNote": "Seen mostly above 2511 rating."
+    },
+    {
+     "itemId": 31594,
+     "name": "General's Kodohide Belt"
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 31377,
+    "name": "Gladiator's Kodohide Legguards"
+   },
+   "alternatives": [
+    {
+     "itemId": 30220,
+     "name": "Nordrassil Life-Kilt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28591,
+     "name": "Earthsoul Leggings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32788,
+    "name": "Veteran's Kodohide Boots",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30092,
+     "name": "Orca-Hide Boots",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31595,
+     "name": "General's Kodohide Boots"
+    },
+    {
+     "itemId": 31597,
+     "name": "Marshal's Kodohide Boots"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33064,
+    "name": "Veteran's Band of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 28370,
+    "name": "Bangle of Endless Blessings"
+   },
+   "alternatives": [
+    {
+     "itemId": 28241,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28235,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32451,
+    "name": "Gladiator's Salvation"
+   },
+   "alternatives": [
+    {
+     "itemId": 30108,
+     "name": "Lightfathom Scepter",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29981,
+     "name": "Ethereum Life-Staff",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 32452,
+    "name": "Gladiator's Reprieve"
+   },
+   "alternatives": [
+    {
+     "itemId": 29923,
+     "name": "Talisman of the Sun King",
+     "pveFlexNote": "Seen mostly above 2511 rating."
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27886,
+    "name": "Idol of the Emerald Queen"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 31861,
+   "name": "+8 Spell Hit Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
+   "note": "55% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
+   "note": "82% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "65% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "98% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "60% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "33% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 Healing +22 Spell Damage and +20 Stamina",
+   "note": "97% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "58% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "95% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+81 Healing Spells and +27 Damage Spells",
+   "note": "56% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Restoration Druid?",
+   "answer": "The Gladiator's pieces: Gladiator's Kodohide Helm, Gladiator's Wyrmhide Spaulders, Gladiator's Kodohide Tunic, Gladiator's Wyrmhide Gloves, Gladiator's Kodohide Legguards, Gladiator's Salvation, Gladiator's Reprieve. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

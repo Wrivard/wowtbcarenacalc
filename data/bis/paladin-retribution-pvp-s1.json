@@ -1,0 +1,381 @@
+{
+ "class": "paladin",
+ "spec": "retribution",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Retribution Paladin: the Gladiator's set (Gladiator's Scaled Helm, Gladiator's Scaled Shoulders, Gladiator's Scaled Chestpiece…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Retribution Paladins equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating",
+  "Spell Damage"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 27881,
+    "name": "Gladiator's Scaled Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 32461,
+     "name": "Furious Gizmatic Goggles",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30131,
+     "name": "Crystalforge War-Helm",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30022,
+     "name": "Pendant of the Perilous",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30017,
+     "name": "Telonicus's Pendant of Mayhem",
+     "pveFlexNote": "Seen mostly above 2647 rating."
+    },
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 27883,
+    "name": "Gladiator's Scaled Shoulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 30055,
+     "name": "Shoulderpads of the Stranger",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 30098,
+    "name": "Razor-Scale Battlecloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak"
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 27879,
+    "name": "Gladiator's Scaled Chestpiece"
+   },
+   "alternatives": [
+    {
+     "itemId": 30129,
+     "name": "Crystalforge Breastplate",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 28795,
+    "name": "Bladespire Warbands"
+   },
+   "alternatives": [
+    {
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32819,
+     "name": "Veteran's Scaled Bracers",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 32818,
+     "name": "Veteran's Plate Bracers",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 27880,
+    "name": "Gladiator's Scaled Gauntlets"
+   },
+   "alternatives": [
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32806,
+    "name": "Veteran's Scaled Belt",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 27882,
+    "name": "Gladiator's Scaled Legguards"
+   },
+   "alternatives": [
+    {
+     "itemId": 29950,
+     "name": "Greaves of the Bloodwarder",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30132,
+     "name": "Crystalforge Greaves",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30257,
+     "name": "Shattrath Leggings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32794,
+    "name": "Veteran's Scaled Greaves",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28645,
+     "name": "General's Scaled Greaves"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 30061,
+    "name": "Ancestral Ring of Conquest"
+   },
+   "alternatives": [
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "pveFlexNote": "Seen mostly above 2647 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 28242,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28236,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28442,
+    "name": "Stormherald"
+   },
+   "alternatives": [
+    {
+     "itemId": 30090,
+     "name": "World Breaker",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28430,
+     "name": "Lionheart Executioner",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28441,
+     "name": "Deep Thunder",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27484,
+    "name": "Libram of Avengement"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24027,
+   "name": "+8 Strength",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24054,
+   "name": "+4 Strength and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 25901,
+   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 28362,
+   "name": "+20 Attack Power",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+17 Strength and +16 Intellect",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "78% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "71% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "82% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "92% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "13% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "62% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Retribution Paladin?",
+   "answer": "The Gladiator's pieces: Gladiator's Scaled Helm, Gladiator's Scaled Shoulders, Gladiator's Scaled Chestpiece, Gladiator's Scaled Gauntlets, Gladiator's Scaled Legguards. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

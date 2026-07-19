@@ -1,0 +1,369 @@
+{
+ "class": "druid",
+ "spec": "feral-cat",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Feral Druid: the Brutal Gladiator's set (Brutal Gladiator's Dragonhide Helm, Brutal Gladiator's Dragonhide Spaulders, Brutal Gladiator's Dragonhide Tunic…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Feral Druids equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Agility",
+  "Stamina",
+  "Attack Power",
+  "Crit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 34999,
+    "name": "Brutal Gladiator's Dragonhide Helm"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem"
+   },
+   "alternatives": [
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278827,
+     "name": "Amulet of Bitter Hatred",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 35001,
+    "name": "Brutal Gladiator's Dragonhide Spaulders"
+   },
+   "alternatives": [
+    {
+     "itemId": 30230,
+     "name": "Nordrassil Feral-Mantle",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers"
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 35002,
+    "name": "Brutal Gladiator's Dragonhide Tunic"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35167,
+    "name": "Guardian's Dragonhide Bracers"
+   },
+   "alternatives": [
+    {
+     "itemId": 28978,
+     "name": "Marshal's Dragonhide Bracers"
+    },
+    {
+     "itemId": 35171,
+     "name": "Guardian's Leather Bracers"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 34998,
+    "name": "Brutal Gladiator's Dragonhide Gloves"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow"
+   },
+   "alternatives": [
+    {
+     "itemId": 35152,
+     "name": "Guardian's Dragonhide Belt"
+    },
+    {
+     "itemId": 28976,
+     "name": "Marshal's Dragonhide Belt"
+    },
+    {
+     "itemId": 30042,
+     "name": "Belt of Natural Power",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30229,
+    "name": "Nordrassil Feral-Kilt"
+   },
+   "alternatives": [
+    {
+     "itemId": 35000,
+     "name": "Brutal Gladiator's Dragonhide Legguards"
+    },
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 30041,
+    "name": "Boots of Natural Grace"
+   },
+   "alternatives": [
+    {
+     "itemId": 35137,
+     "name": "Guardian's Dragonhide Boots"
+    },
+    {
+     "itemId": 28977,
+     "name": "Marshal's Dragonhide Boots"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 34837,
+    "name": "The 2 Ring"
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 28235,
+    "name": "Medallion of the Alliance"
+   },
+   "alternatives": [
+    {
+     "itemId": 28241,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 32014,
+    "name": "Merciless Gladiator's Maul",
+    "pveFlexNote": "No Season 4 equivalent — current-season item shown."
+   },
+   "alternatives": [
+    {
+     "itemId": 28476,
+     "name": "Gladiator's Maul",
+     "pveFlexNote": "No Season 4 equivalent — current-season item shown."
+    },
+    {
+     "itemId": 28658,
+     "name": "Terestian's Stranglestaff",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35082,
+     "name": "Brutal Gladiator's Salvation"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 29170,
+    "name": "Windcaller's Orb"
+   },
+   "alternatives": [
+    {
+     "itemId": 35074,
+     "name": "Brutal Gladiator's Reprieve"
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29390,
+    "name": "Everbloom Idol"
+   },
+   "alternatives": [
+    {
+     "itemId": 27886,
+     "name": "Idol of the Emerald Queen",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 31861,
+   "name": "+8 Spell Hit Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+4 All Stats",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Spell Hit Rating",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 Stamina and +12 Agility",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +6 Agility",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 Healing and +7 Spell Damage",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+35 Agility",
+   "note": "57% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Feral Druid?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Dragonhide Helm, Brutal Gladiator's Dragonhide Spaulders, Brutal Gladiator's Dragonhide Tunic, Brutal Gladiator's Dragonhide Gloves. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Dragonhide Bracers — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

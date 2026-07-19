@@ -1,0 +1,434 @@
+{
+ "class": "mage",
+ "spec": "arcane",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Arcane Mage: the Gladiator's set (Gladiator's Spellblade…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30206,
+    "name": "Cowl of Tirisfal"
+   },
+   "alternatives": [
+    {
+     "itemId": 29076,
+     "name": "Collar of the Aldor",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25855,
+     "name": "Gladiator's Silk Cowl"
+    },
+    {
+     "itemId": 32494,
+     "name": "Destruction Holo-gogs",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 30015,
+    "name": "The Sun King's Talisman"
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33067,
+     "name": "Veteran's Pendant of Conquest",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30210,
+    "name": "Mantle of Tirisfal"
+   },
+   "alternatives": [
+    {
+     "itemId": 25854,
+     "name": "Gladiator's Silk Amice"
+    },
+    {
+     "itemId": 29079,
+     "name": "Pauldrons of the Aldor",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28797,
+    "name": "Brute Cloak of the Ogre-Magi"
+   },
+   "alternatives": [
+    {
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278774,
+     "name": "Cloak of the Frigid Winds",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 30196,
+    "name": "Robes of Tirisfal"
+   },
+   "alternatives": [
+    {
+     "itemId": 25856,
+     "name": "Gladiator's Silk Raiment"
+    },
+    {
+     "itemId": 28602,
+     "name": "Robe of the Elder Scribes",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32820,
+    "name": "Veteran's Silk Cuffs",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 29002,
+     "name": "Marshal's Silk Cuffs"
+    },
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28411,
+     "name": "General's Silk Cuffs"
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30205,
+    "name": "Gloves of Tirisfal"
+   },
+   "alternatives": [
+    {
+     "itemId": 25857,
+     "name": "Gladiator's Silk Handguards"
+    },
+    {
+     "itemId": 29987,
+     "name": "Gauntlets of the Sun King",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32807,
+    "name": "Veteran's Silk Belt",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30064,
+     "name": "Cord of Screaming Terrors",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30038,
+     "name": "Belt of Blasting",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28799,
+     "name": "Belt of Divine Inspiration",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30207,
+    "name": "Leggings of Tirisfal"
+   },
+   "alternatives": [
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25858,
+     "name": "Gladiator's Silk Trousers"
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32795,
+    "name": "Veteran's Silk Footguards",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30067,
+     "name": "Velvet Boots of the Guardian",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29003,
+     "name": "Marshal's Silk Footguards"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage"
+   },
+   "alternatives": [
+    {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29286,
+     "name": "Violet Signet",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28239,
+     "name": "Medallion of the Horde"
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 28297,
+    "name": "Gladiator's Spellblade"
+   },
+   "alternatives": [
+    {
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29988,
+     "name": "The Nexus Key",
+     "pveFlexNote": "Seen mostly above 2368 rating."
+    },
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "pveFlexNote": "Seen mostly above 2368 rating."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28603,
+    "name": "Talisman of Nightbane"
+   },
+   "alternatives": [
+    {
+     "itemId": 29271,
+     "name": "Talisman of Kalecgos",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28781,
+     "name": "Karaborian Talisman",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28346,
+     "name": "Gladiator's Endgame"
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration"
+   },
+   "alternatives": [
+    {
+     "itemId": 28320,
+     "name": "Gladiator's Touch of Defeat"
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24047,
+   "name": "+8 Intellect",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 34220,
+   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "38% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "43% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "58% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "54% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "+40 Spell Damage and Healing",
+   "note": "100% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Arcane Mage?",
+   "answer": "The Gladiator's pieces: Gladiator's Spellblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

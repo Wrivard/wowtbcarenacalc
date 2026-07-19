@@ -1,0 +1,346 @@
+{
+ "class": "shaman",
+ "spec": "enhancement",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Enhancement Shaman: the Gladiator's set (Gladiator's Linked Helm, Gladiator's Linked Spaulders, Gladiator's Linked Armor…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Enhancement Shamans equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Agility",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 25998,
+    "name": "Gladiator's Linked Helm"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 25999,
+    "name": "Gladiator's Linked Spaulders"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak"
+   },
+   "alternatives": [
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 25997,
+    "name": "Gladiator's Linked Armor"
+   },
+   "alternatives": [
+    {
+     "itemId": 30185,
+     "name": "Cataclysm Chestplate",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 32816,
+    "name": "Veteran's Linked Bracers",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28989,
+     "name": "Marshal's Linked Bracers"
+    },
+    {
+     "itemId": 32809,
+     "name": "Veteran's Chain Bracers",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 26000,
+    "name": "Gladiator's Linked Gauntlets"
+   },
+   "alternatives": [
+    {
+     "itemId": 35382,
+     "name": "Seer's Linked Gauntlets",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 32803,
+    "name": "Veteran's Linked Girdle",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28990,
+     "name": "Marshal's Linked Girdle"
+    },
+    {
+     "itemId": 32797,
+     "name": "Veteran's Chain Girdle",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 26001,
+    "name": "Gladiator's Linked Leggings"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 32791,
+    "name": "Veteran's Linked Sabatons",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28975,
+     "name": "Marshal's Chain Sabatons"
+    },
+    {
+     "itemId": 32785,
+     "name": "Veteran's Chain Sabatons",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33055,
+     "name": "Band of Vile Aggression",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 30345,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 24128,
+     "name": "Figurine - Nightseye Panther",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 29996,
+    "name": "Rod of the Sun King"
+   },
+   "alternatives": [
+    {
+     "itemId": 28439,
+     "name": "Dragonstrike",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28308,
+     "name": "Gladiator's Cleaver"
+    },
+    {
+     "itemId": 28313,
+     "name": "Gladiator's Right Ripper"
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28305,
+    "name": "Gladiator's Pummeler"
+   },
+   "alternatives": [
+    {
+     "itemId": 28308,
+     "name": "Gladiator's Cleaver",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 27815,
+    "name": "Totem of the Astral Winds"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24027,
+   "name": "+8 Strength",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 28363,
+   "name": "+10 Attack Power, +5 Critical Strike Rating",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "57% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "83% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "75% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "80% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "71% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Surefooted",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "11% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "67% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "Mongoose",
+   "note": "67% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Enhancement Shaman?",
+   "answer": "The Gladiator's pieces: Gladiator's Linked Helm, Gladiator's Linked Spaulders, Gladiator's Linked Armor, Gladiator's Linked Gauntlets, Gladiator's Linked Leggings, Gladiator's Pummeler. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}

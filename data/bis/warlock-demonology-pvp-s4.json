@@ -1,0 +1,310 @@
+{
+ "class": "warlock",
+ "spec": "demonology",
+ "content": "pvp",
+ "season": 4,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 4 arena gear for Demonology Warlock: the Brutal Gladiator's set (Brutal Gladiator's Felweave Cowl, Brutal Gladiator's Dreadweave Mantle, Brutal Gladiator's Dreadweave Robe…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Demonology Warlocks equip into their Season 4 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Spell Damage",
+  "Spell Penetration",
+  "Intellect"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 35010,
+    "name": "Brutal Gladiator's Felweave Cowl"
+   },
+   "alternatives": [
+    {
+     "itemId": 35004,
+     "name": "Brutal Gladiator's Dreadweave Hood"
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 35133,
+    "name": "Guardian's Pendant of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 35006,
+    "name": "Brutal Gladiator's Dreadweave Mantle"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape"
+   },
+   "alternatives": [
+    {
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 35007,
+    "name": "Brutal Gladiator's Dreadweave Robe"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 35168,
+    "name": "Guardian's Dreadweave Cuffs"
+   },
+   "alternatives": [
+    {
+     "itemId": 24249,
+     "name": "Unyielding Bracers",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 35003,
+    "name": "Brutal Gladiator's Dreadweave Gloves"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 35153,
+    "name": "Guardian's Dreadweave Belt"
+   },
+   "alternatives": [
+    {
+     "itemId": 24255,
+     "name": "Unyielding Girdle",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 35005,
+    "name": "Brutal Gladiator's Dreadweave Leggings"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 35138,
+    "name": "Guardian's Dreadweave Stalkers"
+   },
+   "alternatives": [
+    {
+     "itemId": 28982,
+     "name": "Marshal's Dreadweave Stalkers"
+    },
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers"
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 35129,
+    "name": "Guardian's Band of Dominance"
+   },
+   "alternatives": [
+    {
+     "itemId": 33054,
+     "name": "The Seal of Danzalar",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28247,
+     "name": "Band of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30449,
+     "name": "Void Star Talisman",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 35102,
+    "name": "Brutal Gladiator's Spellblade"
+   },
+   "alternatives": []
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 35008,
+    "name": "Brutal Gladiator's Endgame"
+   },
+   "alternatives": [
+    {
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 35107,
+    "name": "Brutal Gladiator's Touch of Defeat"
+   },
+   "alternatives": []
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
+   "note": "Socketed across 1 slot in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+22 Spell Power and +14 Spell Hit Rating",
+   "note": "100% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
+   "note": "63% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "59% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Resilience Rating",
+   "note": "99% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 Spell Damage",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 Spell Damage",
+   "note": "51% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 Spell Damage and +20 Stamina",
+   "note": "98% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +9 Stamina",
+   "note": "37% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 Spell Damage",
+   "note": "50% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Soulfrost",
+   "note": "89% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 4 arena set for Demonology Warlock?",
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Felweave Cowl, Brutal Gladiator's Dreadweave Mantle, Brutal Gladiator's Dreadweave Robe, Brutal Gladiator's Dreadweave Gloves, Brutal Gladiator's Dreadweave Leggings, Brutal Gladiator's Spellblade, Brutal Gladiator's Endgame, Brutal Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 4?",
+   "answer": "Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating."
+  },
+  {
+   "question": "How many arena points does full Season 4 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Pendant of Dominance, Guardian's Dreadweave Cuffs, Guardian's Dreadweave Belt, Guardian's Dreadweave Stalkers, Guardian's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
+  }
+ ]
+}

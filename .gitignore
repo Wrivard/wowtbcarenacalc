@@ -44,3 +44,6 @@ next-env.d.ts
 .claude/
 !.env.example
 .talent-cache/
+
+# large upstream item database (used only by scripts/build-pvp-seasons.mjs)
+assets/wowsims-item-tooltips.csv

@@ -1,0 +1,436 @@
+{
+ "class": "rogue",
+ "spec": "combat",
+ "content": "pvp",
+ "season": 1,
+ "seasonPage": true,
+ "updatedAt": "2026-07-12",
+ "blurb": "Season 1 arena gear for Combat Rogue: the Gladiator's set (Gladiator's Quickblade…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Combat Rogues equip into their Season 1 equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.",
+ "statPriorityRationale": "",
+ "statPriority": [
+  "Resilience",
+  "Stamina",
+  "Attack Power",
+  "Agility",
+  "Hit Rating"
+ ],
+ "slots": [
+  {
+   "slot": "Head",
+   "bis": {
+    "itemId": 30146,
+    "name": "Deathmantle Helm"
+   },
+   "alternatives": [
+    {
+     "itemId": 32478,
+     "name": "Deathblow X11 Goggles",
+     "pveFlexNote": "Seen mostly above 2645 rating."
+    },
+    {
+     "itemId": 29044,
+     "name": "Netherblade Facemask",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Neck",
+   "bis": {
+    "itemId": 29381,
+    "name": "Choker of Vile Intent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30017,
+     "name": "Telonicus's Pendant of Mayhem",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278827,
+     "name": "Amulet of Bitter Hatred",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28509,
+     "name": "Worgen Claw Necklace",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Shoulders",
+   "bis": {
+    "itemId": 30149,
+    "name": "Deathmantle Shoulderpads"
+   },
+   "alternatives": [
+    {
+     "itemId": 27797,
+     "name": "Wastewalker Shoulderpads",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25832,
+     "name": "Gladiator's Leather Spaulders",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Back",
+   "bis": {
+    "itemId": 28672,
+    "name": "Drape of the Dark Reavers"
+   },
+   "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 278819,
+     "name": "The Frost Lord's War Cloak",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Chest",
+   "bis": {
+    "itemId": 29045,
+    "name": "Netherblade Chestpiece"
+   },
+   "alternatives": [
+    {
+     "itemId": 30101,
+     "name": "Bloodsea Brigand's Vest",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30144,
+     "name": "Deathmantle Chestguard",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25831,
+     "name": "Gladiator's Leather Tunic",
+     "pveFlexNote": "Seen mostly above 2645 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Wrist",
+   "bis": {
+    "itemId": 29966,
+    "name": "Vambraces of Ending"
+   },
+   "alternatives": [
+    {
+     "itemId": 28171,
+     "name": "Spymistress's Wristguards",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32814,
+     "name": "Veteran's Leather Bracers",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 29246,
+     "name": "Nightfall Wristguards",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Hands",
+   "bis": {
+    "itemId": 30145,
+    "name": "Deathmantle Handguards"
+   },
+   "alternatives": [
+    {
+     "itemId": 27531,
+     "name": "Wastewalker Gloves",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25834,
+     "name": "Gladiator's Leather Gloves",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29048,
+     "name": "Netherblade Gloves",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Waist",
+   "bis": {
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow"
+   },
+   "alternatives": [
+    {
+     "itemId": 29247,
+     "name": "Girdle of the Deathdealer",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Legs",
+   "bis": {
+    "itemId": 30148,
+    "name": "Deathmantle Legguards"
+   },
+   "alternatives": [
+    {
+     "itemId": 28741,
+     "name": "Skulker's Greaves",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29046,
+     "name": "Netherblade Breeches",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25833,
+     "name": "Gladiator's Leather Legguards",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Feet",
+   "bis": {
+    "itemId": 28545,
+    "name": "Edgewalker Longboots"
+   },
+   "alternatives": [
+    {
+     "itemId": 31288,
+     "name": "The Master's Treads",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30060,
+     "name": "Boots of Effortless Striking",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25686,
+     "name": "Fel Leather Boots",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring",
+   "bis": {
+    "itemId": 28649,
+    "name": "Garona's Signet Ring"
+   },
+   "alternatives": [
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29283,
+     "name": "Violet Signet of the Master Assassin",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24128,
+     "name": "Figurine - Nightseye Panther",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "MainHand",
+   "bis": {
+    "itemId": 30082,
+    "name": "Talon of Azshara"
+   },
+   "alternatives": [
+    {
+     "itemId": 28295,
+     "name": "Gladiator's Slicer"
+    },
+    {
+     "itemId": 29996,
+     "name": "Rod of the Sun King",
+     "pveFlexNote": "Seen mostly above 2645 rating."
+    }
+   ]
+  },
+  {
+   "slot": "OffHand",
+   "bis": {
+    "itemId": 28307,
+    "name": "Gladiator's Quickblade"
+   },
+   "alternatives": [
+    {
+     "itemId": 28189,
+     "name": "Latro's Shifting Sword",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ranged",
+   "bis": {
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol"
+   },
+   "alternatives": [
+    {
+     "itemId": 28319,
+     "name": "Gladiator's War Edge",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28504,
+     "name": "Steelhawk Crossbow",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  }
+ ],
+ "gems": [
+  {
+   "itemId": 24051,
+   "name": "+8 Hit Rating",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24028,
+   "name": "+8 Agility",
+   "note": "Socketed across 5 slots in this snapshot."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 Attack Power and +16 Hit Rating",
+   "note": "96% of surveyed players on this slot."
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 Attack Power and +10 Critical Strike Rating",
+   "note": "92% of surveyed players on this slot."
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "39% of surveyed players on this slot."
+  },
+  {
+   "slot": "Chest",
+   "text": "+6 All Stats",
+   "note": "47% of surveyed players on this slot."
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 Attack Power",
+   "note": "45% of surveyed players on this slot."
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Agility",
+   "note": "54% of surveyed players on this slot."
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "note": "94% of surveyed players on this slot."
+  },
+  {
+   "slot": "Feet",
+   "text": "Minor Speed and +6 Agility",
+   "note": "39% of surveyed players on this slot."
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 Weapon Damage",
+   "note": "8% of surveyed players on this slot."
+  },
+  {
+   "slot": "MainHand",
+   "text": "Mongoose",
+   "note": "56% of surveyed players on this slot."
+  },
+  {
+   "slot": "OffHand",
+   "text": "Mongoose",
+   "note": "56% of surveyed players on this slot."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the Season 1 arena set for Combat Rogue?",
+   "answer": "The Gladiator's pieces: Gladiator's Quickblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+  },
+  {
+   "question": "What are the rating requirements in Season 1?",
+   "answer": "Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion."
+  },
+  {
+   "question": "How many arena points does full Season 1 gear cost?",
+   "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  }
+ ]
+}
