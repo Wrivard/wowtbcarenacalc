@@ -1,23 +1,28 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { Calculator, Crosshair, Swords } from "lucide-react";
+import { Swords } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { BACKGROUNDS } from "@/lib/backgrounds";
 import { CLASSES, allSpecs } from "@/lib/classes";
 import { classIconName, specIconName } from "@/lib/icons";
 import { GameIcon } from "@/components/GameIcon";
-import { PointsCalculator } from "@/components/calculator/PointsCalculator";
-import { RequiredRating } from "@/components/calculator/RequiredRating";
-import { GearPlanner } from "@/components/calculator/GearPlanner";
-import { RatingsProvider } from "@/components/calculator/ratings-context";
 import { AdUnit } from "@/components/AdUnit";
-import { FAQ_ITEMS, StructuredData } from "@/components/seo/StructuredData";
-import { BRACKET_MULTIPLIERS, maxPoints, referenceTable } from "@/lib/arena";
+import { JsonLd, webApplicationJsonLd } from "@/components/seo/JsonLd";
 import { filledBisRoutes } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
+import { SITE_URL } from "@/lib/site";
 
-const SLOT_RESULT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT;
 const SLOT_INCONTENT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT;
-const SLOT_RAIL = process.env.NEXT_PUBLIC_ADSENSE_SLOT_RAIL;
+
+export const metadata: Metadata = {
+  title: {
+    absolute:
+      "WoW TBC Classic Hub — BiS Lists, Talent Calculator & Arena Points",
+  },
+  description:
+    "TBC Classic tools in one place: live-snapshot PvP & PvE BiS lists for every spec, talent builds, an interactive talent calculator, and an arena points calculator.",
+  alternates: { canonical: "/" },
+};
 
 function SectionHeading({
   id,
@@ -37,22 +42,35 @@ function SectionHeading({
 }
 
 export default function Home() {
-  const table = referenceTable();
   const specCount = allSpecs().length;
-  const bisCount = filledBisRoutes().length;
+  const routes = filledBisRoutes();
+  const pvpCount = routes.filter((r) => r.content === "pvp").length;
+  const pveCount = routes.filter((r) => r.content === "pve").length;
   const buildCount = allSpecs().filter(({ cls, spec }) =>
     getBuild(cls.slug, spec.slug),
   ).length;
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "WoW TBC Classic Hub",
+    url: SITE_URL,
+    description:
+      "BiS lists, talent builds, talent calculator and arena points calculator for WoW: The Burning Crusade Classic.",
+  };
+
   return (
     <>
-      <StructuredData />
-
-      {/* Optional desktop side rail — fixed, only on very wide screens,
-          never overlaps the 720px content column. */}
-      <aside className="fixed top-24 right-8 hidden w-[300px] min-[1440px]:block">
-        <AdUnit slot={SLOT_RAIL} minHeight={600} />
-      </aside>
+      <JsonLd
+        data={[
+          websiteJsonLd,
+          webApplicationJsonLd(
+            "WoW TBC Classic Hub",
+            SITE_URL,
+            "TBC Classic BiS lists, talent builds and calculators.",
+          ),
+        ]}
+      />
 
       <PageHero image={BACKGROUNDS.home} size="large">
         <div className="flex items-center gap-2 font-mono text-[11px] tracking-widest text-accent uppercase">
@@ -60,25 +78,19 @@ export default function Home() {
           TBC Classic · Anniversary
         </div>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-5xl">
-          WoW TBC Arena Points Calculator
+          TBC Classic BiS Lists, Talents &amp; Arena Tools
         </h1>
-        <p className="mt-4 max-w-[52ch] text-sm leading-relaxed text-muted-strong sm:text-base">
-          Exact weekly arena points from your 2v2, 3v3 or 5v5 rating — plus
-          live-snapshot BiS lists and talent builds for every class and spec
-          in The Burning Crusade Classic.
+        <p className="mt-4 max-w-[54ch] text-sm leading-relaxed text-muted-strong sm:text-base">
+          What the best players actually wear and spec — live arena
+          snapshots, phase-by-phase raid BiS, recommended talent builds, and
+          the calculators to plan it all.
         </p>
 
         {/* CTAs */}
         <div className="mt-6 flex flex-wrap gap-2.5">
-          <a
-            href="#calculator"
-            className="rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
-          >
-            Calculate your points
-          </a>
           <Link
             href="/classes"
-            className="rounded-lg border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground backdrop-blur transition-colors hover:bg-surface-hover"
+            className="rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
           >
             Browse BiS lists
           </Link>
@@ -87,6 +99,12 @@ export default function Home() {
             className="rounded-lg border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground backdrop-blur transition-colors hover:bg-surface-hover"
           >
             Plan talents
+          </Link>
+          <Link
+            href="/arena-points-calculator"
+            className="rounded-lg border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground backdrop-blur transition-colors hover:bg-surface-hover"
+          >
+            Arena points calculator
           </Link>
         </div>
 
@@ -116,351 +134,194 @@ export default function Home() {
             <span className="text-accent">{specCount}</span> specs
           </span>
           <span>
-            <span className="text-accent">{bisCount}</span> live BiS lists
+            <span className="text-accent">{pvpCount}</span> PvP BiS lists
+          </span>
+          <span>
+            <span className="text-accent">{pveCount}</span> PvE BiS lists
           </span>
           <span>
             <span className="text-accent">{buildCount}</span> talent builds
           </span>
-          <span>
-            <span className="text-accent">9</span> calculators
-          </span>
         </div>
       </PageHero>
 
-      <main className="mx-auto max-w-[720px] px-4 pt-10">
-        {/* Calculator + gear planner share ratings state */}
-        <RatingsProvider>
-          <section id="calculator" aria-label="Arena points calculator" className="scroll-mt-6">
-            <PointsCalculator />
-          </section>
-
-          <AdUnit slot={SLOT_RESULT} className="mt-10" />
-
-          <section className="mt-14" aria-labelledby="required-rating">
-            <div className="flex items-center gap-2.5">
-              <Crosshair className="size-4 text-accent" aria-hidden />
-              <SectionHeading id="required-rating">
-                Required rating lookup
-              </SectionHeading>
-            </div>
-            <p className="mt-2 mb-5 text-sm leading-relaxed text-muted-strong">
-              Working toward a specific purchase? Enter your weekly points
-              target and see the team rating you need in each bracket.
-            </p>
-            <RequiredRating />
-          </section>
-
-          <section className="mt-14" aria-labelledby="gear-planner">
-            <div className="flex items-center gap-2.5">
-              <Calculator className="size-4 text-accent" aria-hidden />
-              <SectionHeading id="gear-planner">Gear planner</SectionHeading>
-              <span className="rounded-full border border-border px-2 py-0.5 font-mono text-[10px] tracking-wider text-muted uppercase">
-                Beta
+      <main className="mx-auto max-w-[720px] px-4 pt-12">
+        {/* PvP vs PvE — the two clearly separated categories */}
+        <section aria-labelledby="categories">
+          <SectionHeading id="categories">
+            PvP and PvE — two separate gear worlds
+          </SectionHeading>
+          <p className="mt-2 text-sm leading-relaxed text-muted-strong">
+            TBC gearing splits cleanly in two, and so does this site. Arena
+            gear stacks resilience and comes from points and honor; raid gear
+            maxes throughput and drops from bosses. Every spec has both lists
+            — pick your side:
+          </p>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
+            <Link
+              href="/classes"
+              className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
+            >
+              <span
+                aria-hidden
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
+                style={{ backgroundImage: `url(${BACKGROUNDS.classes})` }}
+              />
+              <span
+                aria-hidden
+                className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30"
+              />
+              <span className="relative block p-5 pt-20">
+                <span className="font-mono text-[10px] tracking-widest text-accent uppercase">
+                  PvP · Arena
+                </span>
+                <span className="mt-1 block text-base font-semibold text-foreground">
+                  Arena PvP BiS Lists →
+                </span>
+                <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
+                  Live snapshots of what gladiator-range players equip —
+                  usage %, gems, enchants, stat priorities per spec.
+                </span>
               </span>
-            </div>
-            <p className="mt-2 mb-5 text-sm leading-relaxed text-muted-strong">
-              Check the pieces you&apos;re saving for. We&apos;ll total the
-              arena point cost and, using your rating above, estimate how many
-              weekly resets it takes to afford.
-            </p>
-            <GearPlanner />
-          </section>
-        </RatingsProvider>
+            </Link>
+            <Link
+              href="/classes"
+              className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
+            >
+              <span
+                aria-hidden
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
+                style={{ backgroundImage: `url(${BACKGROUNDS.legal})` }}
+              />
+              <span
+                aria-hidden
+                className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30"
+              />
+              <span className="relative block p-5 pt-20">
+                <span className="font-mono text-[10px] tracking-widest text-accent uppercase">
+                  PvE · Raids
+                </span>
+                <span className="mt-1 block text-base font-semibold text-foreground">
+                  Raid BiS by Phase →
+                </span>
+                <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
+                  Phase 1–5 gear from top Warcraft Logs parses — Karazhan
+                  through Sunwell, every spec, every slot.
+                </span>
+              </span>
+            </Link>
+          </div>
+        </section>
 
-        {/* ——— Explore hub ——— */}
-          <section className="mt-20" aria-labelledby="explore">
-            <SectionHeading id="explore">
-              Explore the TBC Classic hub
-            </SectionHeading>
-            <p className="mt-2 text-sm leading-relaxed text-muted-strong">
-              Everything on this site, one hop away — live-snapshot BiS
-              lists, recommended talent builds and an interactive calculator
-              for every class and spec.
-            </p>
-
-            {/* Feature cards */}
-            <div className="mt-5 grid gap-3 sm:grid-cols-2">
-              {[
-                {
-                  href: "/classes",
-                  image: BACKGROUNDS.classes,
-                  title: "BiS Lists",
-                  desc: "Arena PvP snapshots and Phase 1–5 PvE gear for every spec — usage %, gems, enchants, stat priorities.",
-                },
-                {
-                  href: "/talent-calculator",
-                  image: BACKGROUNDS.calculator,
-                  title: "Talent Calculator",
-                  desc: "Plan your 61 points with real tier and prereq rules, load recommended builds, share with a link.",
-                },
-              ].map((card) => (
+        {/* Class grid */}
+        <section className="mt-14" aria-labelledby="by-class">
+          <SectionHeading id="by-class">Browse by class</SectionHeading>
+          <p className="mt-2 text-sm leading-relaxed text-muted-strong">
+            Every class hub links its specs&apos; PvP and PvE BiS lists,
+            recommended talent builds, and the interactive calculator.
+          </p>
+          <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {CLASSES.map((cls) => (
+              <div
+                key={cls.slug}
+                className="rounded-xl border border-border bg-surface p-3.5 transition-colors hover:border-border-strong"
+              >
                 <Link
-                  key={card.href}
-                  href={card.href}
-                  className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
+                  href={`/${cls.slug}`}
+                  className="flex items-center gap-2 text-sm font-semibold text-foreground hover:text-accent"
                 >
-                  <span
-                    aria-hidden
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
-                    style={{ backgroundImage: `url(${card.image})` }}
+                  <GameIcon
+                    icon={classIconName(cls.slug)}
+                    alt={`${cls.name} class icon`}
+                    size="medium"
+                    className="rounded-lg"
                   />
-                  <span
-                    aria-hidden
-                    className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30"
-                  />
-                  <span className="relative block p-5 pt-20">
-                    <span className="text-base font-semibold text-foreground">
-                      {card.title} →
-                    </span>
-                    <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
-                      {card.desc}
-                    </span>
-                  </span>
+                  {cls.name}
                 </Link>
-              ))}
-            </div>
-
-            {/* Class grid */}
-            <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
-              {CLASSES.map((cls) => (
-                <div
-                  key={cls.slug}
-                  className="rounded-xl border border-border bg-surface p-3.5 transition-colors hover:border-border-strong"
-                >
-                  <Link
-                    href={`/${cls.slug}`}
-                    className="flex items-center gap-2 text-sm font-semibold text-foreground hover:text-accent"
-                  >
-                    <GameIcon
-                      icon={classIconName(cls.slug)}
-                      alt={`${cls.name} class icon`}
-                      size="medium"
-                      className="rounded-lg"
-                    />
-                    {cls.name}
-                  </Link>
-                  <div className="mt-2.5 flex flex-wrap gap-1.5">
-                    {cls.specs.map((spec) => (
-                      <Link
-                        key={spec.slug}
-                        href={
-                          spec.pvp
-                            ? `/${cls.slug}/${spec.slug}/pvp`
-                            : `/${cls.slug}/${spec.slug}/pve/phase-1`
-                        }
-                        title={`${spec.name} ${cls.name} BiS`}
-                        className="rounded border border-transparent transition-all hover:border-accent"
-                      >
-                        <GameIcon
-                          icon={specIconName(cls.slug, spec)}
-                          alt={`${spec.name} ${cls.name} BiS`}
-                          size="small"
-                          className="rounded"
-                        />
-                      </Link>
-                    ))}
-                  </div>
+                <div className="mt-2.5 flex flex-wrap gap-1.5">
+                  {cls.specs.map((spec) => (
+                    <Link
+                      key={spec.slug}
+                      href={
+                        spec.pvp
+                          ? `/${cls.slug}/${spec.slug}/pvp`
+                          : `/${cls.slug}/${spec.slug}/pve/phase-1`
+                      }
+                      title={`${spec.name} ${cls.name} BiS`}
+                      className="rounded border border-transparent transition-all hover:border-accent"
+                    >
+                      <GameIcon
+                        icon={specIconName(cls.slug, spec)}
+                        alt={`${spec.name} ${cls.name} BiS`}
+                        size="small"
+                        className="rounded"
+                      />
+                    </Link>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </section>
-
-        {/* ——— SEO content ——— */}
-
-        <article className="mt-20 space-y-14">
-          <section aria-labelledby="how-to">
-            <SectionHeading id="how-to">How to use the calculator</SectionHeading>
-            <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm leading-relaxed text-muted-strong">
-              <li>
-                Enter your <strong>team rating</strong> for any bracket you
-                play — 2v2, 3v3, or 5v5. You don&apos;t need all three.
-              </li>
-              <li>
-                Read the per-bracket results. The highlighted card is your
-                highest-earning bracket.
-              </li>
-              <li>
-                The large number is what you&apos;ll actually receive at the
-                weekly reset — points never stack across brackets.
-              </li>
-              <li>
-                Use the{" "}
-                <a
-                  href="#required-rating"
-                  className="text-accent underline-offset-2 hover:underline"
-                >
-                  required rating lookup
-                </a>{" "}
-                to work backwards from a points target, and the{" "}
-                <a
-                  href="#gear-planner"
-                  className="text-accent underline-offset-2 hover:underline"
-                >
-                  gear planner
-                </a>{" "}
-                to estimate weeks until your next purchase.
-              </li>
-            </ol>
-          </section>
-
-          <section aria-labelledby="formula">
-            <SectionHeading id="formula">
-              The arena points formula, explained
-            </SectionHeading>
-            <p className="mt-4 text-sm leading-relaxed text-muted-strong">
-              TBC Classic awards weekly arena points from your team rating{" "}
-              <code className="rounded bg-surface px-1.5 py-0.5 font-mono text-[13px]">
-                r
-              </code>{" "}
-              using a logistic curve — flat at low ratings, steep through the
-              1600–2200 range, then flattening again as it approaches the cap:
-            </p>
-            <pre className="mt-4 overflow-x-auto rounded-xl border border-border bg-surface p-4 font-mono text-[13px] leading-relaxed text-muted-strong">
-              {`points = (1176.94 / (1 + 2,500,000 · e^(-0.009r)) + 475) × 1.5`}
-            </pre>
-            <p className="mt-4 text-sm leading-relaxed text-muted-strong">
-              That base value is then scaled by a bracket multiplier:
-            </p>
-            <ul className="mt-3 space-y-1.5 font-mono text-sm text-muted-strong">
-              {(
-                Object.entries(BRACKET_MULTIPLIERS) as ["2v2" | "3v3" | "5v5", number][]
-              ).map(([bracket, mult]) => (
-                <li key={bracket} className="flex items-center gap-3">
-                  <span className="w-10 text-foreground">{bracket}</span>
-                  <span className="text-accent">×{mult.toFixed(2)}</span>
-                  <span className="text-xs text-muted">
-                    cap ≈ {maxPoints(bracket).toLocaleString("en-US")} pts
-                  </span>
-                </li>
-              ))}
-            </ul>
-            <p className="mt-4 text-sm leading-relaxed text-muted-strong">
-              Blizzard never published the server-side constants, so this is
-              the community-documented formula. If in-game values diverge, the
-              constants live in one file and can be re-tuned in seconds.
-            </p>
-          </section>
-
-          <section aria-labelledby="eligibility">
-            <SectionHeading id="eligibility">
-              Requirements &amp; eligibility
-            </SectionHeading>
-            <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-muted-strong">
-              <li>
-                <strong>10-game minimum.</strong> You must play at least 10
-                rated games in a bracket during the week for that bracket to
-                award points.
-              </li>
-              <li>
-                <strong>Weekly reset.</strong> Points land at the reset —
-                Tuesday on US realms, Wednesday on EU realms.
-              </li>
-              <li>
-                <strong>Team rating, not personal rating.</strong> The award is
-                computed from your team&apos;s rating at reset time.
-              </li>
-              <li>
-                <strong>No stacking.</strong> If you meet the minimum in
-                several brackets, you receive points from the single
-                highest-earning one — not the sum.
-              </li>
-            </ul>
-          </section>
-        </article>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <AdUnit slot={SLOT_INCONTENT} className="mt-14" />
 
-        <article className="mt-14 space-y-14 pb-4">
-          <section aria-labelledby="reference-table">
-            <SectionHeading id="reference-table">
-              Arena points by rating
-            </SectionHeading>
-            <p className="mt-2 mb-5 text-sm leading-relaxed text-muted-strong">
-              Weekly points at common rating milestones. This table is
-              generated from the exact same formula as the calculator above, so
-              the two always agree.
-            </p>
-            <div className="overflow-x-auto rounded-xl border border-border">
-              <table className="w-full min-w-[420px] text-sm">
-                <thead>
-                  <tr className="border-b border-border bg-surface">
-                    <th className="px-4 py-3 text-left text-[11px] font-medium tracking-widest text-muted uppercase">
-                      Rating
-                    </th>
-                    {(["2v2", "3v3", "5v5"] as const).map((b) => (
-                      <th
-                        key={b}
-                        className="px-4 py-3 text-right text-[11px] font-medium tracking-widest text-muted uppercase"
-                      >
-                        {b}{" "}
-                        <span className="text-muted/60">
-                          ×{BRACKET_MULTIPLIERS[b].toFixed(2)}
-                        </span>
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody className="font-mono tabular-nums">
-                  {table.map((row) => (
-                    <tr
-                      key={row.rating}
-                      className="border-b border-border bg-surface last:border-b-0"
-                    >
-                      <td className="px-4 py-2.5 text-muted-strong">
-                        {row.rating.toLocaleString("en-US")}
-                      </td>
-                      <td className="px-4 py-2.5 text-right">
-                        {row["2v2"].toLocaleString("en-US")}
-                      </td>
-                      <td className="px-4 py-2.5 text-right">
-                        {row["3v3"].toLocaleString("en-US")}
-                      </td>
-                      <td className="px-4 py-2.5 text-right text-accent">
-                        {row["5v5"].toLocaleString("en-US")}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
+        {/* Tools */}
+        <section className="mt-14" aria-labelledby="tools">
+          <SectionHeading id="tools">Plan before you queue</SectionHeading>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
+            <Link
+              href="/talent-calculator"
+              className="rounded-xl border border-border bg-surface p-5 transition-colors hover:border-accent/50"
+            >
+              <span className="text-sm font-semibold text-foreground">
+                TBC Talent Calculator →
+              </span>
+              <span className="mt-1.5 block text-xs leading-relaxed text-muted">
+                All 9 classes with real rules — 61 points at level 70, tier
+                gates every 5 points, prerequisites enforced. Load a
+                recommended build or share your own as a link.
+              </span>
+            </Link>
+            <Link
+              href="/arena-points-calculator"
+              className="rounded-xl border border-border bg-surface p-5 transition-colors hover:border-accent/50"
+            >
+              <span className="text-sm font-semibold text-foreground">
+                Arena Points Calculator →
+              </span>
+              <span className="mt-1.5 block text-xs leading-relaxed text-muted">
+                Exact weekly points from your 2v2/3v3/5v5 rating, the rating
+                you need for any points target, and weeks-to-afford for your
+                next Gladiator piece.
+              </span>
+            </Link>
+          </div>
+        </section>
 
-          <section aria-labelledby="best-bracket">
-            <SectionHeading id="best-bracket">
-              Which bracket gives the most points?
-            </SectionHeading>
-            <p className="mt-4 text-sm leading-relaxed text-muted-strong">
-              At equal rating, <strong>5v5 always pays the most</strong> — it
-              carries the full ×1.00 multiplier, while 3v3 is scaled to ×0.88
-              and 2v2 to ×0.76. A 1700-rated 5v5 team out-earns a 1700-rated
-              2v2 team by roughly a third.
-            </p>
-            <p className="mt-3 text-sm leading-relaxed text-muted-strong">
-              In practice, most players find it easier to push rating in 2v2 or
-              3v3 than to keep a 5v5 team queueing. Because the curve is steep
-              through the mid ratings, a strong 2v2 rating can still out-earn a
-              mediocre 5v5 rating — enter both above and the calculator will
-              highlight whichever team actually pays more.
-            </p>
-          </section>
-
-
-          <section aria-labelledby="faq">
-            <SectionHeading id="faq">Frequently asked questions</SectionHeading>
-            <div className="mt-5 space-y-6">
-              {FAQ_ITEMS.map((item) => (
-                <div key={item.question}>
-                  <h3 className="text-sm font-semibold text-foreground">
-                    {item.question}
-                  </h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
-                    {item.answer}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-        </article>
+        {/* About the data */}
+        <section className="mt-14 pb-4" aria-labelledby="data">
+          <SectionHeading id="data">Where the data comes from</SectionHeading>
+          <p className="mt-3 text-sm leading-relaxed text-muted-strong">
+            Nothing here is hand-me-down spreadsheet theory. The arena BiS
+            lists aggregate what top-rated ladder players actually equip,
+            refreshed from public leaderboard data with per-slot usage
+            percentages. The raid lists do the same with top Warcraft Logs
+            parses for each phase. Talent trees come from the wowsims
+            dataset validated against Wowhead, and every recommended build is
+            checked against the real allocation rules before it ships.
+          </p>
+          <p className="mt-3 text-sm leading-relaxed text-muted-strong">
+            Spotted something off?{" "}
+            <Link
+              href="/contact"
+              className="text-accent underline-offset-2 hover:underline"
+            >
+              Tell us
+            </Link>{" "}
+            — data corrections land fast.
+          </p>
+        </section>
       </main>
     </>
   );

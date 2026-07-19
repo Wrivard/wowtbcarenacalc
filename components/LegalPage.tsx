@@ -23,7 +23,7 @@ export function LegalPage({
           className="inline-flex items-center gap-1.5 text-xs text-muted transition-colors hover:text-foreground"
         >
           <ArrowLeft className="size-3.5" aria-hidden />
-          Back to calculator
+          Back to home
         </Link>
         <h1 className="mt-5 text-2xl font-semibold tracking-tight sm:text-3xl">
           {title}

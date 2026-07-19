@@ -67,30 +67,39 @@ export default function ClassesHub() {
                 {cls.name}
               </Link>
               <ul className="mt-3 space-y-2">
-                {cls.specs.map((spec) => {
-                  const bisHref = spec.pvp
-                    ? `/${cls.slug}/${spec.slug}/pvp`
-                    : `/${cls.slug}/${spec.slug}/pve/phase-1`;
-                  return (
-                    <li key={spec.slug} className="flex items-center gap-2.5">
-                      <GameIcon
-                        icon={specIconName(cls.slug, spec)}
-                        alt=""
-                        size="small"
-                        className="rounded"
-                      />
-                      <Link
-                        href={bisHref}
-                        className="text-sm text-muted-strong transition-colors hover:text-foreground"
-                      >
-                        {spec.name} BiS
-                      </Link>
-                      <span className="ml-auto text-[10px] text-muted">
-                        {spec.role}
-                      </span>
-                    </li>
-                  );
-                })}
+                {cls.specs.map((spec) => (
+                  <li key={spec.slug} className="flex items-center gap-2.5">
+                    <GameIcon
+                      icon={specIconName(cls.slug, spec)}
+                      alt=""
+                      size="small"
+                      className="rounded"
+                    />
+                    <span className="text-sm text-muted-strong">
+                      {spec.name}
+                    </span>
+                    <span className="ml-auto flex items-center gap-1.5">
+                      {spec.pvp && (
+                        <Link
+                          href={`/${cls.slug}/${spec.slug}/pvp`}
+                          title={`${spec.name} ${cls.name} arena PvP BiS`}
+                          className="rounded border border-accent/40 px-1.5 py-0.5 font-mono text-[10px] tracking-wider text-accent uppercase transition-colors hover:bg-accent hover:text-black"
+                        >
+                          PvP
+                        </Link>
+                      )}
+                      {spec.pve && (
+                        <Link
+                          href={`/${cls.slug}/${spec.slug}/pve/phase-1`}
+                          title={`${spec.name} ${cls.name} raid PvE BiS`}
+                          className="rounded border border-border-strong px-1.5 py-0.5 font-mono text-[10px] tracking-wider text-muted-strong uppercase transition-colors hover:bg-surface-hover hover:text-foreground"
+                        >
+                          PvE
+                        </Link>
+                      )}
+                    </span>
+                  </li>
+                ))}
               </ul>
             </div>
           ))}

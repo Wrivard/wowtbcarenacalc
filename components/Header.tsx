@@ -6,13 +6,13 @@ import Link from "next/link";
 // internal-linking backbone for SEO.
 
 const LEFT_NAV = [
-  { href: "/", label: "Arena Points" },
+  { href: "/", label: "Home" },
   { href: "/classes", label: "BiS Lists" },
 ];
 
 const RIGHT_NAV = [
   { href: "/talent-calculator", label: "Talents" },
-  { href: "/about", label: "About" },
+  { href: "/arena-points-calculator", label: "Arena Points" },
 ];
 
 function NavLinks({

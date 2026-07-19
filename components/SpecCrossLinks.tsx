@@ -41,7 +41,10 @@ export function SpecCrossLinks({
       label: `${sibling.name} ${cls.name}`,
     });
   }
-  links.push({ href: "/", label: "Arena points calculator" });
+  links.push({
+    href: "/arena-points-calculator",
+    label: "Arena points calculator",
+  });
 
   return (
     <nav aria-label="Related guides" className="mt-12 border-t border-border pt-8">

@@ -15,6 +15,8 @@ import { TALENT_BLURBS } from "@/data/talent-blurbs";
 export interface RecommendedBuild {
   classSlug: string;
   specSlug: string;
+  /** which game mode the build targets — PvP (arena) or PvE (raids) */
+  category: "pvp" | "pve";
   /** ranks per talent id, per tree index 0..2 (hand-curated builds) */
   ranks?: Record<string, number>[];
   /** pre-encoded digit string (generated builds) */
@@ -32,6 +34,7 @@ export const BUILDS: RecommendedBuild[] = [
   {
     classSlug: "shaman",
     specSlug: "restoration",
+    category: "pvp",
     updatedAt: "2026-07-01",
     summaryLabel: "0/5/56",
     ranks: [
@@ -134,6 +137,7 @@ export function getBuild(
   return {
     classSlug: gen.classSlug,
     specSlug: gen.specSlug,
+    category: "pve", // wowsims presets and curated standards are raid builds
     encoded: gen.encoded,
     summaryLabel: gen.summaryLabel,
     updatedAt: gen.updatedAt,

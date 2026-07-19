@@ -44,9 +44,10 @@ export async function generateMetadata({
   if (!found) return {};
   const { cls, spec } = found;
   const build = getBuild(cls.slug, spec.slug);
+  const category = build?.category === "pvp" ? "PvP Arena" : "Raid";
   return {
-    title: `${spec.name} ${cls.name} Talents — Best TBC Talent Build & Guide`,
-    description: `Recommended ${spec.name} ${cls.name} talent build for TBC Classic${build ? ` (${build.summaryLabel})` : ""} — full tree, point-by-point reasoning, and a shareable build link.`,
+    title: `${spec.name} ${cls.name} Talents — TBC ${category} Build (${build?.summaryLabel ?? "Guide"})`,
+    description: `Recommended ${spec.name} ${cls.name} ${category.toLowerCase()} talent build for TBC Classic${build ? ` (${build.summaryLabel})` : ""} — full tree, reasoning, and a shareable build link.`,
     alternates: { canonical: `/${cls.slug}/${spec.slug}/talents` },
     ...(build ? {} : { robots: { index: false, follow: true } }),
   };
@@ -165,11 +166,15 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
       <PageHero image={classBackground(cls.slug)}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-          {spec.name} {cls.name} Talents — TBC Classic Build
+          {spec.name} {cls.name} Talents — TBC{" "}
+          {build?.category === "pvp" ? "Arena" : "Raid"} Build
         </h1>
         {build && (
           <>
             <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[11px] tracking-wider text-muted uppercase">
+              <span className="rounded-full border border-accent/40 px-2 py-0.5 text-[10px] text-accent">
+                {build.category === "pvp" ? "PvP · Arena" : "PvE · Raid"}
+              </span>
               <span className="text-accent">{build.summaryLabel}</span>
               <span>{totalPoints(state!)} points</span>
               <span>

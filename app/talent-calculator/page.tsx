@@ -12,6 +12,7 @@ import { PageHero } from "@/components/PageHero";
 import { BACKGROUNDS } from "@/lib/backgrounds";
 import { classIconName, specIconName } from "@/lib/icons";
 import { GameIcon } from "@/components/GameIcon";
+import { getBuild } from "@/data/builds";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -78,22 +79,33 @@ export default function TalentCalculatorHub() {
               {cls.name} Calculator
             </Link>
             <ul className="mt-3 space-y-2">
-              {cls.specs.map((spec) => (
-                <li key={spec.slug} className="flex items-center gap-2.5">
-                  <GameIcon
-                    icon={specIconName(cls.slug, spec)}
-                    alt=""
-                    size="small"
-                    className="rounded"
-                  />
-                  <Link
-                    href={`/${cls.slug}/${spec.slug}/talents`}
-                    className="text-sm text-muted-strong transition-colors hover:text-foreground"
-                  >
-                    {spec.name} talent build
-                  </Link>
-                </li>
-              ))}
+              {cls.specs.map((spec) => {
+                const build = getBuild(cls.slug, spec.slug);
+                return (
+                  <li key={spec.slug} className="flex items-center gap-2.5">
+                    <GameIcon
+                      icon={specIconName(cls.slug, spec)}
+                      alt=""
+                      size="small"
+                      className="rounded"
+                    />
+                    <Link
+                      href={`/${cls.slug}/${spec.slug}/talents`}
+                      className="text-sm text-muted-strong transition-colors hover:text-foreground"
+                    >
+                      {spec.name}{" "}
+                      {build?.category === "pvp" ? "arena" : "raid"} build
+                    </Link>
+                    <span
+                      className={`ml-auto font-mono text-[9px] tracking-wider uppercase ${
+                        build?.category === "pvp" ? "text-accent" : "text-muted"
+                      }`}
+                    >
+                      {build?.category === "pvp" ? "PvP" : "PvE"}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ))}

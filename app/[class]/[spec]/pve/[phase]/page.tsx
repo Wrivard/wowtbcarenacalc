@@ -98,9 +98,12 @@ export default async function PveBisPage({ params }: { params: Params }) {
         <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
           {spec.name} {cls.name} BiS — Phase {phase}
         </h1>
-        <p className="mt-2 font-mono text-[11px] tracking-wider text-muted uppercase">
-          {PHASE_LABELS[phase]}
-        </p>
+        <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[11px] tracking-wider text-muted uppercase">
+          <span className="rounded-full border border-border-strong px-2 py-0.5 text-[10px] text-muted-strong">
+            PvE · Raid
+          </span>
+          <span>{PHASE_LABELS[phase]}</span>
+        </div>
         {list && (
           <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
             {list.blurb}

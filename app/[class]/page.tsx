@@ -63,7 +63,8 @@ export default async function ClassHub({
       <PageHero image={classBackground(cls.slug)}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
-          {cls.name} — TBC Classic BiS &amp; Talents
+          {cls.name}
+          {" — TBC Classic BiS & Talents"}
         </h1>
         <p className="mt-3 max-w-[54ch] text-sm leading-relaxed text-muted-strong sm:text-base">
           Gear and talent resources for every {cls.name} spec: arena PvP best
@@ -82,7 +83,7 @@ export default async function ClassHub({
       <div className="space-y-4">
         {cls.specs.map((spec) => {
           const pvpLive = Boolean(getPvpBis(cls.slug, spec.slug));
-          const buildLive = Boolean(getBuild(cls.slug, spec.slug));
+          const build = getBuild(cls.slug, spec.slug);
           return (
             <section
               key={spec.slug}
@@ -97,37 +98,57 @@ export default async function ClassHub({
                   {spec.role}
                 </span>
               </div>
-              <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm">
-                <li>
-                  <Link
-                    href={`/${cls.slug}/${spec.slug}/talents`}
-                    className="text-muted-strong transition-colors hover:text-foreground"
-                  >
-                    Talent build{buildLive ? "" : " (soon)"}
-                  </Link>
-                </li>
-                {spec.pvp && (
-                  <li>
+
+              {/* PvP — arena */}
+              {(spec.pvp || build?.category === "pvp") && (
+                <div className="mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-1.5 text-sm">
+                  <span className="w-20 shrink-0 font-mono text-[10px] tracking-widest text-accent uppercase">
+                    PvP · Arena
+                  </span>
+                  {spec.pvp && pvpLive && (
                     <Link
                       href={`/${cls.slug}/${spec.slug}/pvp`}
                       className="text-muted-strong transition-colors hover:text-foreground"
                     >
-                      PvP BiS{pvpLive ? "" : " (soon)"}
+                      Arena BiS
                     </Link>
-                  </li>
-                )}
-                {spec.pve &&
-                  PHASES.map((p) => (
-                    <li key={p}>
-                      <Link
-                        href={`/${cls.slug}/${spec.slug}/pve/phase-${p}`}
-                        className="text-muted transition-colors hover:text-foreground"
-                      >
-                        P{p} BiS
-                      </Link>
-                    </li>
+                  )}
+                  {build?.category === "pvp" && (
+                    <Link
+                      href={`/${cls.slug}/${spec.slug}/talents`}
+                      className="text-muted-strong transition-colors hover:text-foreground"
+                    >
+                      Arena talent build
+                    </Link>
+                  )}
+                </div>
+              )}
+
+              {/* PvE — raids */}
+              {spec.pve && (
+                <div className="mt-2 flex flex-wrap items-baseline gap-x-4 gap-y-1.5 text-sm">
+                  <span className="w-20 shrink-0 font-mono text-[10px] tracking-widest text-muted-strong uppercase">
+                    PvE · Raid
+                  </span>
+                  {build?.category === "pve" && (
+                    <Link
+                      href={`/${cls.slug}/${spec.slug}/talents`}
+                      className="text-muted-strong transition-colors hover:text-foreground"
+                    >
+                      Raid talent build
+                    </Link>
+                  )}
+                  {PHASES.map((p) => (
+                    <Link
+                      key={p}
+                      href={`/${cls.slug}/${spec.slug}/pve/phase-${p}`}
+                      className="text-muted transition-colors hover:text-foreground"
+                    >
+                      P{p} BiS
+                    </Link>
                   ))}
-              </ul>
+                </div>
+              )}
             </section>
           );
         })}

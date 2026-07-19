@@ -149,7 +149,7 @@ export function BisPageBody({
           <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
             A full Gladiator set runs roughly 12,000 arena points. Use the{" "}
             <Link
-              href="/"
+              href="/arena-points-calculator"
               className="text-accent underline-offset-2 hover:underline"
             >
               arena points calculator

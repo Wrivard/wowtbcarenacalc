@@ -6,7 +6,7 @@ import { CLASSES } from "@/lib/classes";
 import { useConsent } from "@/components/CookieConsent";
 
 const TOOLS = [
-  { href: "/", label: "Arena Points Calculator" },
+  { href: "/arena-points-calculator", label: "Arena Points Calculator" },
   { href: "/classes", label: "BiS Lists" },
   { href: "/talent-calculator", label: "Talent Calculator" },
 ];

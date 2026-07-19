@@ -59,7 +59,7 @@ export const CLASSES: ClassDef[] = [
     color: "#FFF569",
     specs: [
       { slug: "combat", name: "Combat", role: "Melee DPS", treeIndex: 1, pvp: true, pve: true },
-      { slug: "assassination", name: "Assassination", role: "Melee DPS", treeIndex: 0, pvp: true, pve: true },
+      { slug: "assassination", name: "Assassination", role: "Melee DPS", treeIndex: 0, pvp: false, pve: true },
       { slug: "subtlety", name: "Subtlety", role: "Melee DPS", treeIndex: 2, pvp: true, pve: true },
     ],
   },
@@ -89,7 +89,7 @@ export const CLASSES: ClassDef[] = [
     color: "#69CCF0",
     specs: [
       { slug: "arcane", name: "Arcane", role: "Ranged DPS", treeIndex: 0, pvp: true, pve: true },
-      { slug: "fire", name: "Fire", role: "Ranged DPS", treeIndex: 1, pvp: true, pve: true },
+      { slug: "fire", name: "Fire", role: "Ranged DPS", treeIndex: 1, pvp: false, pve: true },
       { slug: "frost", name: "Frost", role: "Ranged DPS", treeIndex: 2, pvp: true, pve: true },
     ],
   },

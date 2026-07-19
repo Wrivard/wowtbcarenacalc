@@ -86,6 +86,9 @@ export default async function PvpBisPage({ params }: { params: Params }) {
         {list && (
           <>
             <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[11px] tracking-wider text-muted uppercase">
+              <span className="rounded-full border border-accent/40 px-2 py-0.5 text-[10px] text-accent">
+                PvP · Arena
+              </span>
               <span>Season {list.season}</span>
               {list.ratingRange && (
                 <span>
