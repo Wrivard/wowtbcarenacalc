@@ -65,6 +65,25 @@ export function itemListJsonLd(
   };
 }
 
+export function howToJsonLd(
+  name: string,
+  description: string,
+  steps: { name: string; text: string }[],
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name,
+    description,
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+}
+
 export function webApplicationJsonLd(name: string, url: string, description: string) {
   return {
     "@context": "https://schema.org",

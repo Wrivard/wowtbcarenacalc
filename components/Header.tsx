@@ -17,6 +17,7 @@ const PRIMARY: NavItem[] = [
   { href: "/classes", label: "BiS" },
   { href: "/guides", label: "Guides" },
   { href: "/arena", label: "Arena" },
+  { href: "/raids", label: "Raids" },
   { href: "/leaderboard", label: "Leaderboard" },
 ];
 

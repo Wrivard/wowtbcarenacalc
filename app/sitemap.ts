@@ -6,6 +6,7 @@ import { getBuild } from "@/data/builds";
 import { COMPS, compSlug } from "@/data/comps";
 import { getBestRace } from "@/data/bestRace";
 import { PROFESSIONS } from "@/data/professions";
+import { RAIDS, BOSSES, populatedPhases } from "@/data/raids";
 
 // Enumerates every indexable route from lib/classes.ts + the data
 // registries. BiS/talent pages whose dataset isn't curated yet render
@@ -25,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/guides`, lastModified, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/guides/professions`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/guides/addons`, lastModified, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/raids`, lastModified, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/contact`, lastModified, changeFrequency: "monthly", priority: 0.3 },
     { url: `${SITE_URL}/privacy-policy`, lastModified, changeFrequency: "monthly", priority: 0.2 },
@@ -100,6 +102,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "monthly",
       priority: 0.5,
+    });
+  }
+
+  // Raid phase / raid / boss pages.
+  for (const phase of populatedPhases()) {
+    entries.push({
+      url: `${SITE_URL}/raids/phase-${phase}`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    });
+  }
+  for (const raid of RAIDS) {
+    entries.push({
+      url: `${SITE_URL}/raids/phase-${raid.phase}/${raid.id}`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    });
+  }
+  for (const boss of BOSSES) {
+    entries.push({
+      url: `${SITE_URL}/raids/phase-${boss.phase}/${boss.raidId}/${boss.id}`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.6,
     });
   }
 
