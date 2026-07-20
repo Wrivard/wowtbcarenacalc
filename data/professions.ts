@@ -225,10 +225,17 @@ export const PROFESSIONS: Profession[] = [
 // Tiered landmark route per profession (skill range → what to make/gather
 // → main materials). An outline of the classic path, not exact craft
 // counts — pair with a live guide for precise recipe numbers.
+export interface StepMaterial {
+  itemId: number; // real Wowhead id (icon + tooltip via ItemLink)
+  qty: number; // approximate total for the tier
+}
+
 export interface LevelingStep {
   range: string; // skill range, e.g. "1–75"
   craft: string; // what to make or gather
-  materials: string; // main materials / where
+  materials: string; // text summary / where (fallback + gathering)
+  /** Optional icon-backed material shopping list for the tier. */
+  mats?: StepMaterial[];
   note?: string;
 }
 
@@ -243,58 +250,58 @@ export const PROFESSION_LEVELING: Record<string, LevelingStep[]> = {
     { range: "350–375", craft: "Super Mana/Healing Potion, transmutes", materials: "Ancient Lichen, Netherbloom, Nightmare Vine", note: "Learn Master Alchemist from the Outland trainer at 350." },
   ],
   blacksmithing: [
-    { range: "1–65", craft: "Rough Sharpening Stone, Copper gear", materials: "Copper Bars" },
-    { range: "65–125", craft: "Bronze bars → Bronze gear, Rough Grinding Stones", materials: "Copper + Tin Bars → Bronze" },
-    { range: "125–200", craft: "Iron & Steel gear", materials: "Iron Bars, Steel Bars (Iron + Coal)" },
-    { range: "200–260", craft: "Mithril gear (spurs, coif)", materials: "Mithril Bars" },
-    { range: "260–300", craft: "Thorium gear (Imperial Plate)", materials: "Thorium Bars" },
-    { range: "300–350", craft: "Fel Iron gear", materials: "Fel Iron Bars" },
-    { range: "350–375", craft: "Adamantite / Khorium gear", materials: "Adamantite Bars, Felsteel", note: "Take Weaponsmith/Armorsmith and a sub-specialty for BiS crafts." },
+    { range: "1–65", craft: "Rough Sharpening Stone, Copper gear", materials: "Copper Bars", mats: [{ itemId: 2840, qty: 80 }] },
+    { range: "65–125", craft: "Bronze bars → Bronze gear, Rough Grinding Stones", materials: "Copper + Tin Bars → Bronze", mats: [{ itemId: 2840, qty: 60 }, { itemId: 3576, qty: 60 }] },
+    { range: "125–200", craft: "Iron & Steel gear", materials: "Iron Bars, Steel Bars (Iron + Coal)", mats: [{ itemId: 3575, qty: 120 }, { itemId: 3859, qty: 40 }] },
+    { range: "200–260", craft: "Mithril gear (spurs, coif)", materials: "Mithril Bars", mats: [{ itemId: 3860, qty: 120 }] },
+    { range: "260–300", craft: "Thorium gear (Imperial Plate)", materials: "Thorium Bars", mats: [{ itemId: 12359, qty: 150 }] },
+    { range: "300–350", craft: "Fel Iron gear", materials: "Fel Iron Bars", mats: [{ itemId: 23445, qty: 120 }] },
+    { range: "350–375", craft: "Adamantite / Khorium gear", materials: "Adamantite Bars, Felsteel", mats: [{ itemId: 23446, qty: 100 }], note: "Take Weaponsmith/Armorsmith and a sub-specialty for BiS crafts." },
   ],
   engineering: [
-    { range: "1–50", craft: "Rough Blasting Powder, Handful of Copper Bolts", materials: "Copper Bars" },
-    { range: "50–125", craft: "Bronze Tubes, Target Dummies, explosives", materials: "Bronze Bars, Wool Cloth" },
-    { range: "125–200", craft: "Mithril tubes & gadgets, Gyrochronatoms", materials: "Mithril Bars" },
-    { range: "200–260", craft: "Thorium widgets, Hi-Explosive Bombs", materials: "Thorium Bars" },
-    { range: "260–300", craft: "Thorium Grenades, Delicate Copper Wire", materials: "Thorium Bars, Copper" },
-    { range: "300–350", craft: "Fel Iron casings & bombs, White Smoke Flare", materials: "Fel Iron Bars" },
-    { range: "350–375", craft: "Adamantite/Khorium devices, Felsteel Stabilizers", materials: "Adamantite Bars, Primals", note: "Pick Goblin or Gnomish at 200 for the on-use toys." },
+    { range: "1–50", craft: "Rough Blasting Powder, Handful of Copper Bolts", materials: "Copper Bars", mats: [{ itemId: 2840, qty: 100 }] },
+    { range: "50–125", craft: "Bronze Tubes, Target Dummies, explosives", materials: "Bronze Bars, Wool Cloth", mats: [{ itemId: 2841, qty: 80 }, { itemId: 2592, qty: 30 }] },
+    { range: "125–200", craft: "Mithril tubes & gadgets, Gyrochronatoms", materials: "Mithril Bars", mats: [{ itemId: 3860, qty: 120 }] },
+    { range: "200–260", craft: "Thorium widgets, Hi-Explosive Bombs", materials: "Thorium Bars", mats: [{ itemId: 12359, qty: 100 }] },
+    { range: "260–300", craft: "Thorium Grenades, Delicate Copper Wire", materials: "Thorium Bars, Copper", mats: [{ itemId: 12359, qty: 80 }, { itemId: 2840, qty: 20 }] },
+    { range: "300–350", craft: "Fel Iron casings & bombs, White Smoke Flare", materials: "Fel Iron Bars", mats: [{ itemId: 23445, qty: 120 }] },
+    { range: "350–375", craft: "Adamantite/Khorium devices, Felsteel Stabilizers", materials: "Adamantite Bars, Primals", mats: [{ itemId: 23446, qty: 80 }, { itemId: 21884, qty: 10 }], note: "Pick Goblin or Gnomish at 200 for the on-use toys." },
   ],
   enchanting: [
-    { range: "1–60", craft: "Enchant Bracer – Minor Health, Runed Copper Rod", materials: "Strange Dust (disenchant greens)" },
-    { range: "60–140", craft: "Lesser enchants, Runed Silver Rod", materials: "Soul Dust, Lesser Magic/Astral Essence" },
-    { range: "140–200", craft: "Vision Dust enchants", materials: "Vision Dust (disenchant ~30-40 greens)" },
-    { range: "200–265", craft: "Illusion Dust enchants, cloak/weapon", materials: "Illusion Dust (~45-55 greens)" },
-    { range: "265–300", craft: "Large Brilliant Shard enchants", materials: "Dream/Illusion Dust (~55-60 items)" },
-    { range: "300–350", craft: "Arcane Dust enchants (Outland greens)", materials: "Arcane Dust (disenchant 60-67 greens)" },
-    { range: "350–375", craft: "Prismatic Shard enchants, ring enchants", materials: "Arcane Dust, Prismatic Shards", note: "Disenchanting your own crafted items is the cheapest fuel." },
+    { range: "1–60", craft: "Enchant Bracer – Minor Health, Runed Copper Rod", materials: "Strange Dust (disenchant greens)", mats: [{ itemId: 10940, qty: 60 }] },
+    { range: "60–140", craft: "Lesser enchants, Runed Silver Rod", materials: "Soul Dust, Lesser Magic/Astral Essence", mats: [{ itemId: 11083, qty: 40 }] },
+    { range: "140–200", craft: "Vision Dust enchants", materials: "Vision Dust (disenchant ~30-40 greens)", mats: [{ itemId: 11137, qty: 40 }] },
+    { range: "200–265", craft: "Illusion Dust enchants, cloak/weapon", materials: "Illusion Dust (~45-55 greens)", mats: [{ itemId: 16204, qty: 50 }] },
+    { range: "265–300", craft: "Large Brilliant Shard enchants", materials: "Dream/Illusion Dust (~55-60 items)", mats: [{ itemId: 16204, qty: 40 }] },
+    { range: "300–350", craft: "Arcane Dust enchants (Outland greens)", materials: "Arcane Dust (disenchant 60-67 greens)", mats: [{ itemId: 22445, qty: 60 }] },
+    { range: "350–375", craft: "Prismatic Shard enchants, ring enchants", materials: "Arcane Dust, Prismatic Shards", mats: [{ itemId: 22445, qty: 40 }, { itemId: 22449, qty: 8 }], note: "Disenchanting your own crafted items is the cheapest fuel." },
   ],
   jewelcrafting: [
-    { range: "1–50", craft: "Delicate Copper Wire, Tigerseye/Malachite bands", materials: "Copper Bars, prospected Copper gems" },
-    { range: "50–110", craft: "Bronze settings, simple rings/necks", materials: "Bronze Bars, prospected Bronze/Copper gems" },
-    { range: "110–170", craft: "Rings & necklaces, prospect Iron", materials: "Iron/Mithril Bars + prospected gems" },
-    { range: "170–230", craft: "Prospect Mithril, gem crafts", materials: "Mithril Ore" },
-    { range: "230–300", craft: "Prospect Thorium, Citrine/Aquamarine rings", materials: "Thorium Ore" },
-    { range: "300–350", craft: "Prospect Fel Iron, cut common gems", materials: "Fel Iron Ore" },
-    { range: "350–375", craft: "Prospect Adamantite, cut rare gems", materials: "Adamantite Ore", note: "Prospecting stacks of ore is the fastest (and cheapest) route." },
+    { range: "1–50", craft: "Delicate Copper Wire, Tigerseye/Malachite bands", materials: "Copper Bars, prospected Copper gems", mats: [{ itemId: 2840, qty: 60 }, { itemId: 818, qty: 12 }, { itemId: 774, qty: 12 }] },
+    { range: "50–110", craft: "Bronze settings, simple rings/necks", materials: "Bronze Bars, prospected Bronze/Copper gems", mats: [{ itemId: 2841, qty: 50 }, { itemId: 1210, qty: 15 }, { itemId: 1206, qty: 15 }] },
+    { range: "110–170", craft: "Rings & necklaces, prospect Iron", materials: "Iron/Mithril Bars + prospected gems", mats: [{ itemId: 2772, qty: 60 }, { itemId: 1529, qty: 15 }] },
+    { range: "170–230", craft: "Prospect Mithril, gem crafts", materials: "Mithril Ore", mats: [{ itemId: 3858, qty: 120 }, { itemId: 3864, qty: 15 }] },
+    { range: "230–300", craft: "Prospect Thorium, Citrine/Aquamarine rings", materials: "Thorium Ore", mats: [{ itemId: 10620, qty: 200 }, { itemId: 7909, qty: 20 }] },
+    { range: "300–350", craft: "Prospect Fel Iron, cut common gems", materials: "Fel Iron Ore", mats: [{ itemId: 23424, qty: 160 }, { itemId: 23112, qty: 20 }] },
+    { range: "350–375", craft: "Prospect Adamantite, cut rare gems", materials: "Adamantite Ore", mats: [{ itemId: 23425, qty: 120 }], note: "Prospecting stacks of ore is the fastest (and cheapest) route." },
   ],
   leatherworking: [
-    { range: "1–70", craft: "Light Armor Kit, Handstitched pieces", materials: "Light Leather" },
-    { range: "70–130", craft: "Embossed / Fine leather gear", materials: "Light + Medium Leather" },
-    { range: "130–200", craft: "Heavy & Thick leather gear", materials: "Heavy Leather" },
-    { range: "200–260", craft: "Rugged leather gear, Nightscape", materials: "Rugged Leather" },
-    { range: "260–300", craft: "Wicked Leather / Rugged Armor Kit", materials: "Rugged Leather, Cured Rugged Hide" },
-    { range: "300–350", craft: "Knothide Armor Kit, Knothide gear", materials: "Knothide Leather" },
-    { range: "350–375", craft: "Heavy Knothide, Drums of Battle", materials: "Knothide Leather, Primals", note: "Pair with Skinning; take a sub-specialty (Dragon/Elemental/Tribal) at 350." },
+    { range: "1–70", craft: "Light Armor Kit, Handstitched pieces", materials: "Light Leather", mats: [{ itemId: 2318, qty: 120 }] },
+    { range: "70–130", craft: "Embossed / Fine leather gear", materials: "Light + Medium Leather", mats: [{ itemId: 2318, qty: 60 }, { itemId: 2319, qty: 60 }] },
+    { range: "130–200", craft: "Heavy & Thick leather gear", materials: "Heavy Leather", mats: [{ itemId: 4234, qty: 120 }, { itemId: 4304, qty: 40 }] },
+    { range: "200–260", craft: "Rugged leather gear, Nightscape", materials: "Rugged Leather", mats: [{ itemId: 8170, qty: 120 }] },
+    { range: "260–300", craft: "Wicked Leather / Rugged Armor Kit", materials: "Rugged Leather, Cured Rugged Hide", mats: [{ itemId: 8170, qty: 150 }, { itemId: 8171, qty: 20 }] },
+    { range: "300–350", craft: "Knothide Armor Kit, Knothide gear", materials: "Knothide Leather", mats: [{ itemId: 21887, qty: 160 }] },
+    { range: "350–375", craft: "Heavy Knothide, Drums of Battle", materials: "Knothide Leather, Primals", mats: [{ itemId: 21887, qty: 120 }, { itemId: 21884, qty: 8 }], note: "Pair with Skinning; take a sub-specialty (Dragon/Elemental/Tribal) at 350." },
   ],
   tailoring: [
-    { range: "1–70", craft: "Bolt of Linen Cloth → Linen gear & bags", materials: "Linen Cloth" },
-    { range: "70–125", craft: "Wool bolts → Wool gear", materials: "Wool Cloth" },
-    { range: "125–200", craft: "Silk bolts → Silk gear", materials: "Silk Cloth" },
-    { range: "200–260", craft: "Mageweave bolts → Mageweave gear", materials: "Mageweave Cloth" },
-    { range: "260–300", craft: "Runecloth bolts → Runecloth gear & bags", materials: "Runecloth" },
-    { range: "300–350", craft: "Bolt of Netherweave, Netherweave Bags", materials: "Netherweave Cloth" },
-    { range: "350–375", craft: "Imbued Netherweave, specialization set pieces", materials: "Netherweave Cloth, Primals", note: "Pick Spellfire / Shadoweave / Mooncloth at 350 for the crafted caster set." },
+    { range: "1–70", craft: "Bolt of Linen Cloth → Linen gear & bags", materials: "Linen Cloth", mats: [{ itemId: 2589, qty: 120 }] },
+    { range: "70–125", craft: "Wool bolts → Wool gear", materials: "Wool Cloth", mats: [{ itemId: 2592, qty: 120 }] },
+    { range: "125–200", craft: "Silk bolts → Silk gear", materials: "Silk Cloth", mats: [{ itemId: 4306, qty: 150 }] },
+    { range: "200–260", craft: "Mageweave bolts → Mageweave gear", materials: "Mageweave Cloth", mats: [{ itemId: 4338, qty: 150 }] },
+    { range: "260–300", craft: "Runecloth bolts → Runecloth gear & bags", materials: "Runecloth", mats: [{ itemId: 14047, qty: 200 }] },
+    { range: "300–350", craft: "Bolt of Netherweave, Netherweave Bags", materials: "Netherweave Cloth", mats: [{ itemId: 21877, qty: 180 }] },
+    { range: "350–375", craft: "Imbued Netherweave, specialization set pieces", materials: "Netherweave Cloth, Primals", mats: [{ itemId: 21877, qty: 120 }, { itemId: 21885, qty: 8 }], note: "Pick Spellfire / Shadoweave / Mooncloth at 350 for the crafted caster set." },
   ],
   herbalism: [
     { range: "1–70", craft: "Gather Silverleaf, Peacebloom, Earthroot", materials: "Starting zones (Elwynn, Durotar, Teldrassil)" },
@@ -319,12 +326,12 @@ export const PROFESSION_LEVELING: Record<string, LevelingStep[]> = {
     { range: "300–375", craft: "Skin for Knothide Leather", materials: "Outland beasts (Nagrand is ideal)", note: "Pairs with Leatherworking; take Master of Anatomy for crit." },
   ],
   "first-aid": [
-    { range: "1–80", craft: "Linen Bandage → Heavy Linen Bandage", materials: "Linen Cloth" },
-    { range: "80–150", craft: "Wool → Heavy Wool Bandage", materials: "Wool Cloth" },
-    { range: "150–210", craft: "Silk → Heavy Silk Bandage", materials: "Silk Cloth" },
-    { range: "210–260", craft: "Mageweave Bandage", materials: "Mageweave Cloth" },
-    { range: "260–300", craft: "Runecloth → Heavy Runecloth Bandage", materials: "Runecloth" },
-    { range: "300–375", craft: "Netherweave → Heavy Netherweave Bandage", materials: "Netherweave Cloth", note: "Buy the Master First Aid book (Netherweave) from the Outland trainer." },
+    { range: "1–80", craft: "Linen Bandage → Heavy Linen Bandage", materials: "Linen Cloth", mats: [{ itemId: 2589, qty: 60 }] },
+    { range: "80–150", craft: "Wool → Heavy Wool Bandage", materials: "Wool Cloth", mats: [{ itemId: 2592, qty: 50 }] },
+    { range: "150–210", craft: "Silk → Heavy Silk Bandage", materials: "Silk Cloth", mats: [{ itemId: 4306, qty: 50 }] },
+    { range: "210–260", craft: "Mageweave Bandage", materials: "Mageweave Cloth", mats: [{ itemId: 4338, qty: 40 }] },
+    { range: "260–300", craft: "Runecloth → Heavy Runecloth Bandage", materials: "Runecloth", mats: [{ itemId: 14047, qty: 60 }] },
+    { range: "300–375", craft: "Netherweave → Heavy Netherweave Bandage", materials: "Netherweave Cloth", mats: [{ itemId: 21877, qty: 80 }], note: "Buy the Master First Aid book (Netherweave) from the Outland trainer." },
   ],
   cooking: [
     { range: "1–80", craft: "Spice Bread, Herb Baked Egg, cooked meats", materials: "Starting-zone meat & eggs" },

@@ -1,12 +1,212 @@
 {
+ "774": {
+  "name": "Malachite",
+  "icon": "inv_misc_gem_emerald_03",
+  "quality": 2
+ },
+ "818": {
+  "name": "Tigerseye",
+  "icon": "inv_misc_gem_opal_03",
+  "quality": 2
+ },
+ "1206": {
+  "name": "Moss Agate",
+  "icon": "inv_misc_gem_emerald_02",
+  "quality": 2
+ },
+ "1210": {
+  "name": "Shadowgem",
+  "icon": "inv_misc_gem_amethyst_01",
+  "quality": 2
+ },
+ "1529": {
+  "name": "Jade",
+  "icon": "inv_misc_gem_stone_01",
+  "quality": 2
+ },
+ "1705": {
+  "name": "Lesser Moonstone",
+  "icon": "inv_misc_gem_crystal_01",
+  "quality": 2
+ },
+ "2318": {
+  "name": "Light Leather",
+  "icon": "inv_misc_leatherscrap_03",
+  "quality": 1
+ },
+ "2319": {
+  "name": "Medium Leather",
+  "icon": "inv_misc_leatherscrap_05",
+  "quality": 1
+ },
+ "2589": {
+  "name": "Linen Cloth",
+  "icon": "inv_fabric_linen_01",
+  "quality": 1
+ },
+ "2592": {
+  "name": "Wool Cloth",
+  "icon": "inv_fabric_wool_01",
+  "quality": 1
+ },
+ "2770": {
+  "name": "Copper Ore",
+  "icon": "inv_ore_copper_01",
+  "quality": 1
+ },
+ "2771": {
+  "name": "Tin Ore",
+  "icon": "inv_ore_tin_01",
+  "quality": 1
+ },
+ "2772": {
+  "name": "Iron Ore",
+  "icon": "inv_ore_iron_01",
+  "quality": 1
+ },
+ "2775": {
+  "name": "Silver Ore",
+  "icon": "inv_stone_16",
+  "quality": 2
+ },
+ "2840": {
+  "name": "Copper Bar",
+  "icon": "inv_ingot_02",
+  "quality": 1
+ },
+ "2841": {
+  "name": "Bronze Bar",
+  "icon": "inv_ingot_bronze",
+  "quality": 1
+ },
+ "2842": {
+  "name": "Silver Bar",
+  "icon": "inv_ingot_01",
+  "quality": 2
+ },
+ "3575": {
+  "name": "Iron Bar",
+  "icon": "inv_ingot_iron",
+  "quality": 1
+ },
+ "3576": {
+  "name": "Tin Bar",
+  "icon": "inv_ingot_05",
+  "quality": 1
+ },
+ "3858": {
+  "name": "Mithril Ore",
+  "icon": "inv_ore_mithril_02",
+  "quality": 1
+ },
+ "3859": {
+  "name": "Steel Bar",
+  "icon": "inv_ingot_steel",
+  "quality": 1
+ },
+ "3860": {
+  "name": "Mithril Bar",
+  "icon": "inv_ingot_06",
+  "quality": 1
+ },
+ "3864": {
+  "name": "Citrine",
+  "icon": "inv_misc_gem_opal_02",
+  "quality": 2
+ },
+ "4234": {
+  "name": "Heavy Leather",
+  "icon": "inv_misc_leatherscrap_07",
+  "quality": 1
+ },
+ "4304": {
+  "name": "Thick Leather",
+  "icon": "inv_misc_leatherscrap_08",
+  "quality": 1
+ },
+ "4306": {
+  "name": "Silk Cloth",
+  "icon": "inv_fabric_silk_01",
+  "quality": 1
+ },
+ "4338": {
+  "name": "Mageweave Cloth",
+  "icon": "inv_fabric_mageweave_01",
+  "quality": 1
+ },
+ "6037": {
+  "name": "Truesilver Bar",
+  "icon": "inv_ingot_08",
+  "quality": 2
+ },
+ "7909": {
+  "name": "Aquamarine",
+  "icon": "inv_misc_gem_crystal_02",
+  "quality": 2
+ },
+ "7971": {
+  "name": "Black Pearl",
+  "icon": "inv_misc_gem_pearl_01",
+  "quality": 2
+ },
+ "8170": {
+  "name": "Rugged Leather",
+  "icon": "inv_misc_leatherscrap_02",
+  "quality": 1
+ },
+ "8171": {
+  "name": "Rugged Hide",
+  "icon": "inv_misc_pelt_bear_ruin_02",
+  "quality": 1
+ },
  "8345": {
   "name": "Wolfshead Helm",
   "icon": "inv_helmet_04",
   "quality": 3
  },
+ "10620": {
+  "name": "Thorium Ore",
+  "icon": "inv_ore_thorium_02",
+  "quality": 1
+ },
  "10725": {
   "name": "Gnomish Battle Chicken",
   "icon": "spell_magic_polymorphchicken",
+  "quality": 1
+ },
+ "10940": {
+  "name": "Strange Dust",
+  "icon": "inv_enchant_duststrange",
+  "quality": 1
+ },
+ "11083": {
+  "name": "Soul Dust",
+  "icon": "inv_enchant_dustsoul",
+  "quality": 1
+ },
+ "11137": {
+  "name": "Vision Dust",
+  "icon": "inv_enchant_dustvision",
+  "quality": 1
+ },
+ "11175": {
+  "name": "Greater Nether Essence",
+  "icon": "inv_enchant_essencenetherlarge",
+  "quality": 2
+ },
+ "12359": {
+  "name": "Thorium Bar",
+  "icon": "inv_ingot_07",
+  "quality": 1
+ },
+ "12363": {
+  "name": "Arcane Crystal",
+  "icon": "inv_misc_gem_topaz_01",
+  "quality": 2
+ },
+ "12655": {
+  "name": "Enchanted Thorium Bar",
+  "icon": "inv_ingot_eternium",
   "quality": 1
  },
  "12798": {
@@ -14,10 +214,30 @@
   "icon": "inv_axe_12",
   "quality": 3
  },
+ "12800": {
+  "name": "Azerothian Diamond",
+  "icon": "inv_misc_gem_diamond_01",
+  "quality": 2
+ },
  "13503": {
   "name": "Alchemist's Stone",
   "icon": "spell_holy_pureofheart",
   "quality": 4
+ },
+ "14047": {
+  "name": "Runecloth",
+  "icon": "inv_fabric_purplefire_01",
+  "quality": 1
+ },
+ "15417": {
+  "name": "Devilsaur Leather",
+  "icon": "inv_misc_pelt_03",
+  "quality": 1
+ },
+ "16204": {
+  "name": "Illusion Dust",
+  "icon": "inv_enchant_dustillusion",
+  "quality": 1
  },
  "18814": {
   "name": "Choker of the Fire Lord",
@@ -119,6 +339,26 @@
   "icon": "inv_chest_cloth_04",
   "quality": 4
  },
+ "21877": {
+  "name": "Netherweave Cloth",
+  "icon": "inv_fabric_netherweave",
+  "quality": 1
+ },
+ "21884": {
+  "name": "Primal Fire",
+  "icon": "inv_elemental_primal_fire",
+  "quality": 2
+ },
+ "21885": {
+  "name": "Primal Water",
+  "icon": "inv_elemental_primal_water",
+  "quality": 2
+ },
+ "21887": {
+  "name": "Knothide Leather",
+  "icon": "inv_misc_leatherscrap_10",
+  "quality": 1
+ },
  "22128": {
   "name": "Master Firestone",
   "icon": "inv_misc_gem_bloodstone_02",
@@ -148,6 +388,51 @@
   "name": "Cryptstalker Wristguards",
   "icon": "inv_bracer_02",
   "quality": 4
+ },
+ "22445": {
+  "name": "Arcane Dust",
+  "icon": "inv_enchant_dustarcane",
+  "quality": 1
+ },
+ "22446": {
+  "name": "Greater Planar Essence",
+  "icon": "inv_enchant_essencearcanelarge",
+  "quality": 2
+ },
+ "22447": {
+  "name": "Lesser Planar Essence",
+  "icon": "inv_enchant_essencearcanesmall",
+  "quality": 2
+ },
+ "22449": {
+  "name": "Large Prismatic Shard",
+  "icon": "inv_enchant_shardprismaticlarge",
+  "quality": 3
+ },
+ "22450": {
+  "name": "Void Crystal",
+  "icon": "inv_enchant_voidcrystal",
+  "quality": 4
+ },
+ "22451": {
+  "name": "Primal Air",
+  "icon": "inv_elemental_primal_air",
+  "quality": 2
+ },
+ "22452": {
+  "name": "Primal Earth",
+  "icon": "inv_elemental_primal_earth",
+  "quality": 2
+ },
+ "22456": {
+  "name": "Primal Shadow",
+  "icon": "inv_elemental_primal_shadow",
+  "quality": 2
+ },
+ "22457": {
+  "name": "Primal Mana",
+  "icon": "inv_elemental_primal_mana",
+  "quality": 2
  },
  "22496": {
   "name": "Frostfire Robe",
@@ -259,6 +544,11 @@
   "icon": "inv_misc_gem_bloodgem_02",
   "quality": 2
  },
+ "23112": {
+  "name": "Golden Draenite",
+  "icon": "inv_misc_gem_goldendraenite_03",
+  "quality": 2
+ },
  "23198": {
   "name": "Idol of Brutality",
   "icon": "inv_relics_idolofferocity",
@@ -283,6 +573,26 @@
   "name": "Claw of the Frost Wyrm",
   "icon": "inv_weapon_hand_03",
   "quality": 4
+ },
+ "23424": {
+  "name": "Fel Iron Ore",
+  "icon": "inv_ore_feliron",
+  "quality": 1
+ },
+ "23425": {
+  "name": "Adamantite Ore",
+  "icon": "inv_ore_adamantium",
+  "quality": 1
+ },
+ "23445": {
+  "name": "Fel Iron Bar",
+  "icon": "inv_ingot_feliron",
+  "quality": 1
+ },
+ "23446": {
+  "name": "Adamantite Bar",
+  "icon": "inv_ingot_10",
+  "quality": 1
  },
  "23522": {
   "name": "Ragesteel Breastplate",

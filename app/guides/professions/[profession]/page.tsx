@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { AdUnit } from "@/components/AdUnit";
+import { ItemLink } from "@/components/ItemLink";
 import { BACKGROUNDS } from "@/lib/backgrounds";
 import { cn } from "@/lib/utils";
 
@@ -157,7 +158,20 @@ export default async function ProfessionPage({ params }: { params: Params }) {
                           <span className="mt-1 block text-xs leading-relaxed text-muted">{step.note}</span>
                         )}
                       </td>
-                      <td className="px-4 py-3 text-xs leading-relaxed text-muted-strong">{step.materials}</td>
+                      <td className="px-4 py-3 text-xs leading-relaxed text-muted-strong">
+                        {step.mats && step.mats.length > 0 ? (
+                          <ul className="space-y-1.5">
+                            {step.mats.map((m) => (
+                              <li key={m.itemId} className="flex items-center gap-1.5">
+                                <span className="font-mono tabular-nums text-muted">{m.qty}×</span>
+                                <ItemLink itemId={m.itemId} iconSize={20} />
+                              </li>
+                            ))}
+                          </ul>
+                        ) : (
+                          step.materials
+                        )}
+                      </td>
                     </tr>
                   ))}
                 </tbody>
