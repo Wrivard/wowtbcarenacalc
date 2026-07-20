@@ -49,6 +49,22 @@ export default async function ProfessionPage({ params }: { params: Params }) {
   if (!p) notFound();
   const leveling = getProfessionLeveling(p.slug);
 
+  // Aggregate every tier's material list into one 1–375 shopping list,
+  // preserving first-seen order (ores before gems before cloth, etc.).
+  const matTotals: { itemId: number; qty: number }[] = [];
+  const matIndex = new Map<number, number>();
+  for (const step of leveling) {
+    for (const m of step.mats ?? []) {
+      const at = matIndex.get(m.itemId);
+      if (at === undefined) {
+        matIndex.set(m.itemId, matTotals.length);
+        matTotals.push({ itemId: m.itemId, qty: m.qty });
+      } else {
+        matTotals[at].qty += m.qty;
+      }
+    }
+  }
+
   const crumbs = [
     { name: "Home", href: "/" },
     { name: "Guides", href: "/guides" },
@@ -134,6 +150,27 @@ export default async function ProfessionPage({ params }: { params: Params }) {
           <p className="mt-3 text-sm leading-relaxed text-muted-strong">
             {p.levelingSummary}
           </p>
+
+          {matTotals.length > 0 && (
+            <div className="mt-4 rounded-xl border border-border bg-surface p-4 sm:p-5">
+              <h3 className="text-sm font-semibold text-foreground">
+                Total materials (approx.)
+              </h3>
+              <p className="mt-1 text-xs text-muted-strong">
+                The full shopping list to go 1–375 — farm or buy these before
+                you start. Totals are a landmark; skill-up luck shifts them.
+              </p>
+              <ul className="mt-3 grid grid-cols-1 gap-x-5 gap-y-1.5 sm:grid-cols-2">
+                {matTotals.map((m) => (
+                  <li key={m.itemId} className="flex items-center gap-1.5">
+                    <span className="font-mono tabular-nums text-muted">{m.qty}×</span>
+                    <ItemLink itemId={m.itemId} iconSize={20} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {leveling.length > 0 && (
             <div className="mt-4 overflow-x-auto rounded-xl border border-border">
               <table className="w-full min-w-[560px] text-left text-sm">
