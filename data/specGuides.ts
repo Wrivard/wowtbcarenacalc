@@ -834,6 +834,45 @@ export const SPEC_GUIDES: SpecGuide[] = [
     ],
   },
 
+  // ─────────────────────────── Paladin / Protection / PvE
+  {
+    class: "paladin",
+    spec: "protection",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Protection Paladin is the king of AoE tanking in TBC. Consecration, Holy Shield and a Righteous Fury-boosted holy threat aura let you hold threat on many mobs at once — no Warrior or Druid comes close on trash and add-heavy pulls. You also passively return mana to your healers through Blessing of Sanctuary and Spiritual Attunement, and bring the full Blessing/Aura kit.\n\nYou play a Consecration + Holy Shield + Judgement threat rotation, keeping Righteous Fury up and managing mana (which is your resource) rather than Rage.",
+    strengths: [
+      "Best AoE threat in the game — multi-target tanking on trash and adds",
+      "Returns mana to healers (Spiritual Attunement) and brings Blessings/Auras",
+      "Very smooth, mana-fueled threat rotation",
+    ],
+    weaknesses: [
+      "Single-target threat below a Warrior's on some fights",
+      "No taunt-adjacent tricks Warriors have; mana-dependent under pressure",
+    ],
+    rotationTitle: "Threat rotation",
+    rotation: [
+      "Keep Righteous Fury up; pull with Avenger's Shield onto the pack.",
+      "Consecration down and Holy Shield up on cooldown for AoE threat + block.",
+      "Judgement (Righteousness) and Seal of Righteousness/Vengeance for threat.",
+      "Reach the crit-immunity/defense cap and block values for uncrushability.",
+      "Manage mana (your threat resource); use Divine Plea/pots on long fights.",
+    ],
+    playstyle:
+      "Prot Paladin tanking is about AoE threat and uptime: Consecration and Holy Shield rolling, Righteous Fury always on, and Judgement/Seal cycling. Reach crit immunity and enough defense/block to be uncrushable first, then stack stamina and threat stats. Watch mana — it's your Rage — and lean on Spiritual Attunement to sustain it while taking hits.",
+    commonMistakes: [
+      "Tanking before hitting crit immunity / uncrushable (lethal spike risk).",
+      "Letting Consecration or Holy Shield lapse and losing AoE threat.",
+      "Running out of mana and dropping threat on long fights.",
+    ],
+    bestProfessions: ["jewelcrafting", "blacksmithing"],
+    faq: [
+      { question: "Are Protection Paladins good tanks?", answer: "They're the best AoE/multi-target tanks in TBC and return mana to healers. Warriors still edge them on some single-target fights, but for trash and add-heavy bosses, Prot Paladin is unmatched." },
+      { question: "What's the first gearing goal?", answer: "Crit immunity plus enough defense/block to be uncrushable, then stamina and threat. See the stat caps below." },
+    ],
+  },
+
   // ─────────────────────────── Hunter / Beast Mastery / PvP
   {
     class: "hunter",
@@ -1716,6 +1755,276 @@ export const SPEC_GUIDES: SpecGuide[] = [
     faq: [
       { question: "Destruction or Affliction for raids?", answer: "Both are top-tier. Destruction offers higher single-target Shadow Bolt DPS and the ISB debuff; Affliction offers multi-DoT sustain and Malediction. Comp and fight decide." },
       { question: "What's Improved Shadow Bolt?", answer: "A debuff your Shadow Bolt crits apply that increases shadow damage the target takes — a buff for every shadow caster hitting that boss." },
+    ],
+  },
+
+  // ─────────────────────────── Druid / Balance / PvP
+  {
+    class: "druid",
+    spec: "balance",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Balance (Moonkin) is a hybrid caster-and-utility spec in arena. You bring a Cyclone that can't be trinketed cheaply, an off-heal (shift to caster form and Healing Touch/Regrowth), Innervate, and Barkskin plus Moonkin form armor for survivability. Your damage is Wrath/Starfire pressure with a big Starfire crit, but your real value is Cyclone control and being a DPS that can also peel and heal.\n\nYou play a control-caster game: Cyclone the healer or a kill target out of the fight, root melee with Entangling Roots, and swing between DPS and clutch off-heals.",
+    strengths: [
+      "Cyclone is a premier, hard-to-counter CC on any target",
+      "Hybrid utility — off-heals, Innervate, Roots, Barkskin",
+      "Instant Moonfire/Faerie Fire pressure while kiting",
+    ],
+    weaknesses: [
+      "Moderate burst; can be trained by melee if roots are on DR",
+      "Mana-hungry when doubling as an off-healer",
+    ],
+    rotationTitle: "Control & pressure",
+    rotation: [
+      "Cyclone the enemy healer (or a kill target) to remove them from the play.",
+      "Entangling Roots + Wrath to kite melee; instant Moonfire for pressure on the move.",
+      "Starfire on the kill target when you have a cast window; Faerie Fire to stop stealth/heal armor.",
+      "Barkskin when trained; shift to break roots/slows and drop poisons.",
+      "Off-heal with Regrowth/Rejuvenation when your partner is low; Innervate to refill.",
+    ],
+    playstyle:
+      "Moonkin is a control DPS. Cyclone is your win condition — chain it on the enemy healer while your partner bursts a now-unhealed target. Kite melee with Roots and instants, use Barkskin + shifting to survive, and swap to healer mode when needed. Manage mana carefully since you both DPS and off-heal.",
+    commonMistakes: [
+      "Wasting Cyclone on a random target instead of the healer during a kill.",
+      "Standing still to cast while a melee trains you (kite with instants + roots).",
+      "Going oom by over-healing when you should be pressuring or Innervating.",
+    ],
+    faq: [
+      { question: "Is Balance Druid good in arena?", answer: "It's a solid hybrid control spec — Cyclone, off-heals and Roots make it valuable, though its burst is lower than a pure caster. Strong in coordinated 3s." },
+      { question: "Why is Cyclone so strong?", answer: "It fully removes a target from the fight (no damage in or out) and is on a separate DR, letting you chain-CC a healer while your team kills their partner." },
+    ],
+  },
+
+  // ─────────────────────────── Druid / Balance / PvE
+  {
+    class: "druid",
+    spec: "balance",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Balance Druid is a caster-DPS whose signature raid contribution is Improved Faerie Fire (a spell-hit debuff on the boss) and Moonkin Aura (spell crit for the caster group). Your personal DPS comes from Wrath and Starfire, and while Moonkin doesn't top the meters, the Faerie Fire hit debuff and crit aura earn it a caster-group slot.\n\nYou play a Starfire/Wrath rotation with Moonfire and Faerie Fire maintained, choosing your nuke by movement and mana.",
+    strengths: [
+      "Improved Faerie Fire = raid spell-hit debuff; Moonkin Aura = group crit",
+      "Battle-rez and Innervate utility",
+      "Reliable ranged DPS with instant Moonfire on the move",
+    ],
+    weaknesses: [
+      "Below top pure-caster personal DPS",
+      "Mana-hungry; leans on Innervate and crit for regen",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Keep Improved Faerie Fire and Moonfire up on the boss; Moonkin Aura active.",
+      "Starfire as your main nuke; Wrath when you need faster casts/movement.",
+      "Reach the spell hit cap (accounting for talents/Draenei).",
+      "Innervate yourself or a healer as assigned; align trinkets with Bloodlust.",
+      "Insect Swarm if specced, for extra DoT uptime.",
+    ],
+    playstyle:
+      "Keep Faerie Fire (the raid hit debuff) and Moonfire rolling, then nuke with Starfire. Use instant Moonfire to keep damage up while moving, manage mana with Innervate and crit procs, and provide Moonkin Aura for the caster group. Hit-cap first, then stack spell power and crit.",
+    commonMistakes: [
+      "Letting Improved Faerie Fire drop — it's a raid-wide hit debuff you provide.",
+      "Standing still through movement instead of using instant Moonfire.",
+      "Ignoring the hit cap.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Why bring a Balance Druid?", answer: "Improved Faerie Fire (raid spell-hit debuff) and Moonkin Aura (group crit), plus battle-rez and Innervate. It's a utility caster more than a top parser." },
+      { question: "Starfire or Wrath?", answer: "Starfire is the higher-damage nuke for stationary casting; Wrath is faster and better on movement. Use instant Moonfire to fill gaps." },
+    ],
+  },
+
+  // ─────────────────────────── Druid / Feral (Bear) / PvE
+  {
+    class: "druid",
+    spec: "feral-bear",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Feral (Bear) is a main-tank-capable spec in TBC with the highest health pool and armor of any tank, plus strong threat through Mangle and Swipe. Bears excel at raw survivability and AoE threat, and Feral Charge + Bash bring utility, though they lack a Warrior's Shield Block/spell mitigation and a Paladin's seamless AoE holy threat. Well-geared bears tank most of TBC comfortably.\n\nYou play a Mangle-on-cooldown threat rotation with Lacerate stacks and Demoralizing Roar/Faerie Fire maintained, managing Rage and cooldowns like Survival Instincts and Barkskin.",
+    strengths: [
+      "Highest armor and health pool of any tank",
+      "Strong single-target (Mangle) and AoE (Swipe) threat",
+      "Feral Charge, Bash and battle-rez utility",
+    ],
+    weaknesses: [
+      "No block and weak vs magic damage; crushable without high avoidance",
+      "Can't taunt-swap as flexibly as a Warrior on some mechanics",
+    ],
+    rotationTitle: "Threat rotation",
+    rotation: [
+      "Mangle on cooldown as your top threat/priority ability.",
+      "Maintain Lacerate stacks; Swipe for AoE threat on multiple targets.",
+      "Keep Demoralizing Roar and Faerie Fire (armor/attack debuffs) up.",
+      "Reach the crit-immunity cap (defense/resilience-equivalent via Survival of the Fittest).",
+      "Barkskin / Survival Instincts on big hits; Enrage for Rage when needed.",
+    ],
+    playstyle:
+      "Bear tanking is about uncrittability and threat: reach the crit-immunity cap first (so you can't be crit-crushed), then stack stamina, agility and armor. Mangle on cooldown, keep Lacerate and your debuffs up, and Swipe for AoE. Use Barkskin and Survival Instincts proactively on known damage spikes. Coordinate battle-rezzes with the raid.",
+    commonMistakes: [
+      "Tanking before reaching crit immunity (getting crit for lethal spikes).",
+      "Missing Mangle on cooldown and losing threat.",
+      "Letting Demoralizing Roar/Faerie Fire debuffs drop.",
+    ],
+    bestProfessions: ["leatherworking", "jewelcrafting"],
+    faq: [
+      { question: "Are Bears good tanks in TBC?", answer: "Yes — highest health/armor and strong threat make them excellent main and off-tanks. Their weakness is magic damage and no block, but for most fights they're top-tier." },
+      { question: "What's the first gearing goal for a Bear?", answer: "Crit immunity (uncrittable) so a boss can't crit-crush you, then stack stamina, agility and armor. See the stat caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Druid / Feral (Cat) / PvP
+  {
+    class: "druid",
+    spec: "feral-cat",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Feral (Cat) PvP is a hybrid melee-and-utility spec. You bring bleed pressure (Rip, Rake), stealth openers (Pounce stun), and the Druid utility kit — Cyclone, Roots, off-heals, Innervate and shapeshifting to break slows/roots. Feral Druids are slippery: shift out of every root, Travel Form to reposition, and swap between cat damage and caster-form healing.\n\nYou play a shift-heavy game: open from stealth with Pounce, apply bleeds, and constantly shift to stay mobile and unrooted while mixing in Cyclone and off-heals.",
+    strengths: [
+      "Shapeshifting breaks roots/slows — extremely mobile and slippery",
+      "Bleed pressure plus Pounce stun opener from stealth",
+      "Full Druid utility — Cyclone, Roots, off-heals, Innervate",
+    ],
+    weaknesses: [
+      "Lower burst than a Rogue; relies on bleeds + sustained pressure",
+      "Mana/form juggling is demanding; squishy in caster form",
+    ],
+    rotationTitle: "Opener & pressure",
+    rotation: [
+      "Open from stealth with Pounce (stun) → build combo points with Shred/Mangle.",
+      "Apply Rip and keep Rake up for bleed pressure; Mangle amplifies bleeds.",
+      "Shift out of roots/slows constantly; Travel Form to reposition/chase.",
+      "Cyclone the healer or Roots the melee off you/your partner as needed.",
+      "Shift to caster form for a clutch Regrowth/Healing Touch; Barkskin + trinket to survive.",
+    ],
+    playstyle:
+      "Feral cat is about relentless pressure and slipperiness. Never sit rooted — shift immediately — and keep bleeds ticking while you mix in Cyclone and Roots for control. You're a hybrid, so read the game: full pressure when you're winning, off-heal and peel when your partner needs it. Manage Rage/Energy and mana across form swaps.",
+    commonMistakes: [
+      "Sitting in a root/slow instead of shifting out.",
+      "Letting bleeds fall off (your main sustained damage).",
+      "Over-committing to damage when a Cyclone/off-heal would win the round.",
+    ],
+    faq: [
+      { question: "Is Feral Druid good in arena?", answer: "It's a strong hybrid — mobility, bleeds and Cyclone/off-heal utility make it slippery and useful, though its burst is lower than a Rogue's. Rewards a skilled, shift-heavy player." },
+      { question: "Why is shifting so important?", answer: "Shapeshifting removes roots and movement-slows, so a Feral can escape kites and stick to targets better than almost any other melee." },
+    ],
+  },
+
+  // ─────────────────────────── Druid / Feral (Cat) / PvE
+  {
+    class: "druid",
+    spec: "feral-cat",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Feral (Cat) is a melee-DPS whose signature raid buff is Improved Leader of the Pack (group crit + heal-on-crit) and Mangle (a bleed-damage debuff that boosts the whole melee/bleed group). Your personal DPS is a Shred-and-bleed rotation that rewards positioning behind the boss and tight energy management. Cats bring meaningful melee-group utility alongside solid damage.\n\nYou play an energy-and-combo-point game: keep Mangle and Rip/Savage Roar up, Shred from behind, and manage the Energy/combo economy without dropping bleeds.",
+    strengths: [
+      "Mangle debuff boosts the bleed/melee group's damage",
+      "Leader of the Pack gives the group crit + heal-on-crit",
+      "Strong sustained DPS with good positioning",
+    ],
+    weaknesses: [
+      "Behind-the-boss requirement (Shred) hurts on some fights",
+      "Demanding Energy/combo/bleed juggling",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Keep Mangle up (bleed-damage debuff) and Savage Roar active for attack speed.",
+      "Shred from behind to build combo points; apply and maintain Rip.",
+      "Faerie Fire (Feral) for the armor debuff; keep Leader of the Pack up for the group.",
+      "Reach the melee hit/expertise your specials need, then stack Agility/AP.",
+      "Manage Energy with pooling; align trinkets and cooldowns with Bloodlust.",
+    ],
+    playstyle:
+      "Cat DPS is an energy and bleed puzzle: Mangle and Rip must stay up, Savage Roar buffs your attack speed, and you Shred from behind to build points. Never clip Rip or let Savage Roar drop. Provide Leader of the Pack and the Mangle debuff for your melee group. Position behind the boss and pool Energy for cooldown windows.",
+    commonMistakes: [
+      "Letting Rip or Savage Roar fall off (big DPS loss).",
+      "Standing in front of the boss where you can't Shred.",
+      "Poor Energy pooling — capping Energy or starving your rotation.",
+    ],
+    bestProfessions: ["leatherworking", "jewelcrafting"],
+    faq: [
+      { question: "Why bring a Feral Cat?", answer: "The Mangle bleed-damage debuff and Leader of the Pack (group crit + heal-on-crit) buff the whole melee group, on top of solid personal DPS." },
+      { question: "Is Cat DPS hard to play?", answer: "It's one of the more demanding melee rotations — Energy pooling plus keeping Mangle, Rip and Savage Roar up from behind the boss. High skill ceiling, rewarding parse." },
+    ],
+  },
+
+  // ─────────────────────────── Druid / Restoration / PvP
+  {
+    class: "druid",
+    spec: "restoration",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Restoration Druid is arguably the best arena healer in TBC. HoTs (Rejuvenation, Lifebloom, Regrowth) heal while you're on the move or being trained, so you keep your team alive even under heavy melee pressure — and shapeshifting breaks roots and slows to stay mobile. Add Cyclone, Roots, Barkskin and Innervate, and the Resto Druid is a mobile, control-rich healer that's extremely hard to kill.\n\nYou play a kiting HoT game: keep rolling HoTs on the trained target, shift out of every root/slow, and juke melee around pillars while Cycloning to peel.",
+    strengths: [
+      "HoTs heal on the move — thrive under melee train pressure",
+      "Shapeshift breaks roots/slows for elite mobility",
+      "Cyclone, Roots and Barkskin add control and survivability",
+    ],
+    weaknesses: [
+      "Weak burst healing — a hard swap can outrun HoTs",
+      "No Pain Suppression-style hard cooldown; relies on kiting",
+    ],
+    rotationTitle: "Healing & kiting",
+    rotation: [
+      "Keep Lifebloom + Rejuvenation rolling on the trained partner; Regrowth for a bigger tick.",
+      "Shift out of roots/slows immediately; Travel/cat form to kite melee around pillars.",
+      "Cyclone the kill target or a melee to peel; Entangling Roots to create distance.",
+      "Barkskin when trained to keep casting; trinket the hard CC.",
+      "Innervate to refill mana in long games; pre-HoT before a swap.",
+    ],
+    playstyle:
+      "Resto Druid is a kiting healer — you almost never stand still. Roll HoTs, shift out of every root, and run melee around line-of-sight while your HoTs tick your partner up. Use Cyclone to peel or to CC a healer, and bank Barkskin to keep healing when caught. Your weakness is a coordinated hard swap, so pre-HoT and body-block to survive it.",
+    commonMistakes: [
+      "Standing still and getting trained instead of kiting with HoTs up.",
+      "Letting Lifebloom bloom/drop instead of refreshing the stack.",
+      "Getting caught by a hard swap with no HoTs pre-applied.",
+    ],
+    faq: [
+      { question: "Is Resto Druid the best arena healer?", answer: "It's among the very best — HoT-while-moving and shapeshift mobility let it survive melee trains that other healers can't, plus Cyclone control. Weak to hard burst swaps." },
+      { question: "How does a Resto Druid survive being trained?", answer: "Rolling HoTs that heal on the move, shifting out of roots/slows, kiting around pillars, Barkskin, and the PvP trinket. It heals while running rather than standing to cast." },
+    ],
+  },
+
+  // ─────────────────────────── Druid / Restoration / PvE
+  {
+    class: "druid",
+    spec: "restoration",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Restoration Druid is a premier raid healer specializing in HoT throughput. Rolling Lifebloom stacks and Rejuvenation on tanks and raid make you the most efficient sustained healer for constant damage, and Tree of Life form boosts your healing and gives the group a mana aura. You're the HoT engine of the healing team, complementing a Paladin's direct tank heals and a Priest/Shaman's group healing.\n\nYou play a HoT-maintenance game: keep Lifebloom rolling on the tank, blanket Rejuvenation where damage is going out, and manage mana across a long fight.",
+    strengths: [
+      "Best-in-slot HoT throughput for sustained/rolling damage",
+      "Tree of Life healing bonus + mana aura for the group",
+      "Innervate and battle-rez utility",
+    ],
+    weaknesses: [
+      "Weak burst healing — HoTs pre-empt damage rather than react",
+      "Lifebloom management is fiddly and mana-intensive",
+    ],
+    rotationTitle: "Healing priority",
+    rotation: [
+      "Keep a Lifebloom stack rolling on the main tank; refresh before it blooms (or let it bloom by design).",
+      "Blanket Rejuvenation on targets taking sustained damage; Regrowth for a bigger single-target HoT.",
+      "Swiftmend to convert a HoT into an instant when someone spikes.",
+      "Stay in Tree of Life form for the healing bonus + mana aura.",
+      "Innervate yourself or a healer; manage mana across the fight.",
+    ],
+    playstyle:
+      "Resto Druid healing is proactive HoT blanketing. Keep Lifebloom on the tank, pre-HoT before predictable damage, and use Swiftmend for the occasional instant on a spike. You shine on sustained raid damage; let Paladins handle single-target tank spikes and Priests/Shamans handle burst AoE. Watch mana — rolling Lifebloom is expensive.",
+    commonMistakes: [
+      "Mismanaging the Lifebloom stack (accidental blooms or letting it drop).",
+      "Trying to reactively burst-heal spikes (HoTs are proactive — pre-cast them).",
+      "Running oom by over-rolling Lifebloom on too many targets.",
+    ],
+    bestProfessions: ["jewelcrafting", "tailoring"],
+    faq: [
+      { question: "What's a Resto Druid's raid role?", answer: "The HoT engine — best sustained/rolling healing via Lifebloom and Rejuvenation, plus Tree of Life's healing bonus and mana aura. It complements direct-heal Paladins and burst-AoE Priests/Shamans." },
+      { question: "How do I manage Lifebloom?", answer: "Keep a stack on the tank and refresh it before it blooms for efficient rolling healing, or let it bloom intentionally for a burst tick. It's mana-intensive, so don't over-spread it." },
     ],
   },
 ];

@@ -31,16 +31,16 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - ✅ `/leaderboard`: bracket tabs, cutoff banner, class-colored team table (rank/players/rating/W-L/win%/realm), faction+class filters, pagination (25/50/100), all URL-param driven; Dataset JSON-LD; "sample data" banner; ISR `revalidate=3600`.
 - ✅ **Live feed wired to the official Battle.net PvP Season API** (`lib/blizzard.ts`) — the ToS-clean source (not scraping a third party). Env-gated OAuth client-credentials + leaderboard fetch + percentile cutoff computation; page prefers live, falls back to sample. `/api/leaderboard/sync` now probes the live feed (health check); `vercel.json` cron every 6h. `.env.example` documents the vars.
 - ⬜ **To go live (user action):** register a client at develop.battle.net and set `BLIZZARD_CLIENT_ID/SECRET`, `BLIZZARD_REGION`, `BLIZZARD_PVP_NAMESPACE`, `BLIZZARD_PVP_SEASON_ID` (verify namespace/season via `/data/wow/pvp-season/index`). Note: official leaderboard lacks class/spec + team comps — those need per-character enrichment (a follow-up).
-## 5. Guide pages — 🚧 (5a remaining)
+## 5. Guide pages — ✅ (all spec guides authored)
 - ✅ **5d** Best race per class (`data/bestRace.ts` → `/guides/best-race/[class]`, 9 pages).
 - ✅ **5c** Professions (`data/professions.ts` → `/guides/professions` sortable hub + `/guides/professions/[profession]`, 12 pages).
 - ✅ **5e** Addons (`data/addons.ts` → `/guides/addons` hub + `/guides/addons/[class]`, 9 pages, CurseForge links).
 - ✅ **5b** Macros (`data/macros.ts` + client `MacroList` copy-button component, grouped by category; rendered on each `/guides/addons/[class]` page).
 - ✅ Guides hub links best-race, professions, addons/macros.
 - ✅ **5a** Per-spec PvP/PvE guide architecture — `data/specGuides.ts` (authored prose layer) assembled with data layers into `/guides/[class]/[spec]/[content]`: overview, strengths/weaknesses, stat priority + caps, BiS link, talent summary, **rotation**, **macros**, **addons (content-filtered)**, **best race (content)**, **best professions (content)**, common mistakes, arena comps (PvP), FAQ+schema — all clearly PvP/PvE. `/guides/[class]` hub lists every spec's PvP/PvE guide (authored → link, else "soon") + race/professions/addons. Guides hub leads with class guides; BiS pages link their spec guide. Guide pages generate ONLY where authored (no thin content).
-  - **Classes fully authored: Rogue ✅, Warrior ✅, Mage ✅** (all their PvP/PvE spec combos). Plus priest/holy/pve.
-  - **Remaining classes to author (in `data/specGuides.ts`): Paladin, Hunter, Priest (disc/holy-pvp/shadow), Shaman, Warlock, Druid.** ~34 combos left. Page + all data sections already work — just add prose blocks.
+  - **✅ ALL classes fully authored (52 spec/content guides):** Rogue, Warrior, Mage, Paladin, Hunter, Priest, Shaman, Warlock, Druid — every PvP/PvE spec combo the class matrix allows. Page + all data sections assemble the authored prose.
 - ✅ Profession 1–375 leveling: `PROFESSION_LEVELING` in `data/professions.ts` (tiered skill range → craft/gather → materials) for all 12 professions, rendered as a table on each profession page.
+- ✅ **Icon-backed material lists:** `scripts/resolve-items.mjs` resolved 62 real Wowhead material ids into `data/items.json`; craftable professions carry per-tier `mats` (item id + approx qty) rendered as `ItemLink` icons with quantities on the profession page (falls back to text for gatherers).
 ## 6. Raids + boss strats — 🚧 (Phase 1 done; phases 2-5 pending)
 - ✅ Route tree: `/raids` hub → `/raids/[phase]` → `/raids/[phase]/[raid]` → `/raids/[phase]/[raid]/[boss]`.
 - ✅ `data/raids.ts`: **Phase 1** — Karazhan (9), Gruul's Lair (2), Magtheridon's Lair (1); **Phase 2** — Serpentshrine Cavern (6: Hydross, Lurker, Leotheras, Karathress, Morogrim, **Lady Vashj**), Tempest Keep (4: Al'ar, Void Reaver, Solarian, **Kael'thas**). Role-organized strategies, phases, common mistakes.
