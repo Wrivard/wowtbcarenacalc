@@ -215,6 +215,314 @@ export const SPEC_GUIDES: SpecGuide[] = [
       { question: "Do Holy Priests need Spell Hit?", answer: "No — heals can't miss. Stack +healing, then crit/haste and enough mp5/Spirit to last the fight. See the stat caps below." },
     ],
   },
+
+  // ─────────────────────────── Rogue / Combat / PvP
+  {
+    class: "rogue",
+    spec: "combat",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Combat is the sustained-pressure arena Rogue. It trades Subtlety's Shadowstep mobility and setup burst for relentless white damage — Adrenaline Rush and Blade Flurry turn any extended fight into a losing race for the enemy healer. It plays like a second melee: park on a target and grind.\n\nIt shines in dampening 2s where the game goes long, but it lacks Sub's ability to force a kill from range or reset with Preparation, so you commit to melee uptime and gear tankier to survive it.",
+    strengths: [
+      "Best sustained melee pressure of any Rogue spec",
+      "Blade Flurry cleave punishes stacked teams",
+      "Tankier and more forgiving than Subtlety",
+    ],
+    weaknesses: [
+      "No Shadowstep — kited far more easily",
+      "No Preparation reset and weaker kill-setup control",
+    ],
+    rotationTitle: "Pressure & burst",
+    rotation: [
+      "Open with Cheap Shot on the kill target, or Garrote a caster to silence.",
+      "Keep Slice and Dice up and build combo points with Sinister Strike.",
+      "Pop Adrenaline Rush + Blade Flurry + trinket to force healer cooldowns.",
+      "Kidney Shot to lock the target during your burst; Blind the healer to protect it.",
+      "Evasion + Cloak of Shadows to survive the melee/CC swap onto you.",
+    ],
+    playstyle:
+      "You win the long game, so play patiently: chip pressure, keep Slice and Dice rolling, and save your burst for when the enemy healer is low on mana or out of position. Gear tankier (resilience + stamina) than a Sub Rogue — you're committing to extended melee, and survivability is what makes that commitment pay off.",
+    commonMistakes: [
+      "Burning Adrenaline Rush into a full-mana, freely-casting healer.",
+      "Playing it like Subtlety and expecting a one-shot setup.",
+      "Under-gearing resilience for a spec that lives in melee.",
+    ],
+    faq: [
+      { question: "Is Combat viable in arena?", answer: "Yes, but Subtlety is the stronger arena spec. Combat is a sustained-pressure pick that excels in long dampening 2s; it lacks Sub's setup burst and Shadowstep mobility." },
+      { question: "Combat Rogue best 2s partner?", answer: "A Holy Paladin or Disc Priest that can keep you healed through extended melee — see the comp guides." },
+    ],
+  },
+
+  // ─────────────────────────── Rogue / Assassination / PvE
+  {
+    class: "rogue",
+    spec: "assassination",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Assassination (Mutilate) is the poison-and-daggers Rogue spec. In TBC it's a niche raid choice — Combat with swords is the standard raid spec for its higher, more consistent sustained damage — but Mutilate posts strong numbers on fights where you can reliably strike from behind and keep poisons ticking.\n\nIt leans on Cold Blood burst windows and heavy poison damage rather than Combat's Blade Flurry cleave and Adrenaline Rush uptime.",
+    strengths: [
+      "Strong burst with Cold Blood + Mutilate",
+      "Heavy poison damage scales with your uptime",
+      "Excellent from-behind single-target output",
+    ],
+    weaknesses: [
+      "Below Combat for overall raid DPS in TBC",
+      "Dagger requirement narrows your weapon options",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Open from stealth with a Cheap Shot or Garrote, then keep Slice and Dice up.",
+      "Mutilate to build combo points (best behind the target); maintain Deadly Poison stacks.",
+      "Cold Blood + Mutilate or a Cold Blood Envenom for burst windows.",
+      "Spend combo points on Envenom/Rupture per your gear; never let Slice and Dice drop.",
+      "Align Cold Blood and trinkets with Bloodlust.",
+    ],
+    playstyle:
+      "Maximize from-behind uptime for Mutilate and keep both poisons applied. It's a rotation of maintaining Slice and Dice, pooling energy for Cold Blood windows, and dumping combo points efficiently. Choose Assassination only if your loot/comp favors daggers — otherwise Combat is the raid default.",
+    commonMistakes: [
+      "Bringing Assassination when Combat would parse higher for your raid.",
+      "Letting poison stacks or Slice and Dice fall off.",
+      "Mutilating from the front and eating parries.",
+    ],
+    bestProfessions: ["jewelcrafting", "blacksmithing"],
+    faq: [
+      { question: "Assassination or Combat for TBC raids?", answer: "Combat (swords) is the standard raid Rogue spec for higher sustained DPS. Assassination/Mutilate is a viable but niche dagger alternative." },
+      { question: "What's the Rogue hit cap?", answer: "9% (142 rating) for yellow specials from behind — see the stat caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Rogue / Subtlety / PvE
+  {
+    class: "rogue",
+    spec: "subtlety",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Subtlety is a niche raid spec in TBC — a Hemorrhage-based build that can buff the raid's physical damage on the target and offers strong burst, but it trails Combat for personal sustained DPS. Most Rogues raid Combat; Sub PvE is a situational or utility pick.\n\nIf you run it, you lean on Hemorrhage uptime (a physical-damage debuff), Shadowstep positioning, and Premeditation/Cold Blood burst windows.",
+    strengths: [
+      "Hemorrhage adds raid physical-damage value",
+      "Strong burst with Premeditation + Cold Blood",
+      "Shadowstep makes target swaps and repositioning easy",
+    ],
+    weaknesses: [
+      "Lower personal sustained DPS than Combat",
+      "Rarely the optimal raid choice outside niche cases",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Open from stealth (Ambush/Garrote), keep Slice and Dice up.",
+      "Maintain Hemorrhage on the boss for the physical debuff; build combo points.",
+      "Premeditation + Cold Blood for burst windows.",
+      "Spend on Eviscerate/Rupture per gear; keep Slice and Dice rolling.",
+      "Shadowstep to reposition on swaps without losing uptime.",
+    ],
+    playstyle:
+      "It's about keeping Hemorrhage and Slice and Dice up while pooling for Cold Blood bursts. Only bring Sub to raids for the Hemorrhage debuff value or a specific fight need — otherwise Combat out-parses it comfortably.",
+    commonMistakes: [
+      "Raiding Subtlety when Combat is the better personal-DPS choice.",
+      "Letting Hemorrhage or Slice and Dice drop.",
+      "Not capping hit before stacking other stats.",
+    ],
+    faq: [
+      { question: "Should I raid as Subtlety?", answer: "Usually no — Combat is the standard raid Rogue spec. Subtlety PvE is a niche Hemorrhage-utility or burst pick." },
+      { question: "Is Subtlety better for PvP or PvE?", answer: "PvP — Subtlety is the premier arena Rogue spec. For raids, Combat is standard." },
+    ],
+  },
+
+  // ─────────────────────────── Warrior / Arms / PvE
+  {
+    class: "warrior",
+    spec: "arms",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Arms in PvE is primarily a utility DPS spec: its Mortal Strike applies the −50% healing debuff that matters on a handful of encounters, and Arms brings solid two-handed burst. For pure single-target raid DPS, though, Fury (dual-wield) is the standard Warrior raid spec.\n\nBring Arms when a fight wants the Mortal Strike debuff or when you prefer the two-handed playstyle; otherwise Fury parses higher.",
+    strengths: [
+      "Mortal Strike healing debuff for specific encounters",
+      "Strong two-handed burst",
+      "Simple, sturdy rotation",
+    ],
+    weaknesses: [
+      "Lower sustained raid DPS than Fury",
+      "Rage-starved without steady incoming damage",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Keep Battle Shout up and open in Battle Stance.",
+      "Mortal Strike on cooldown (and for the healing debuff where it matters).",
+      "Whirlwind on cooldown; Slam in the gaps when rage allows.",
+      "Overpower on dodge procs; Execute below 20%.",
+      "Pop Recklessness + Death Wish + trinkets with Bloodlust.",
+    ],
+    playstyle:
+      "Weave Slam between Mortal Strike and Whirlwind without clipping your swing timer, and keep Battle Shout up for the raid. Hit-cap first, then stack Strength/AP and crit. Choose Arms for the MS debuff or two-handed preference; Fury is the higher-DPS default.",
+    commonMistakes: [
+      "Clipping your white swing with a badly-timed Slam.",
+      "Bringing Arms for pure DPS when Fury parses higher.",
+      "Ignoring the hit cap.",
+    ],
+    bestProfessions: ["blacksmithing", "jewelcrafting"],
+    faq: [
+      { question: "Arms or Fury for raiding?", answer: "Fury (dual-wield) is the standard raid DPS spec. Arms is a utility pick for the Mortal Strike healing debuff or the two-handed playstyle." },
+      { question: "What's the Warrior hit cap?", answer: "9% (142 rating) for yellow specials; dual-wield white-hit cap is much higher and not worth chasing. See the caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Warrior / Fury / PvP
+  {
+    class: "warrior",
+    spec: "fury",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Fury PvP is a niche, aggressive alternative to Arms — it hits harder in raw burst thanks to dual-wield and Bloodthirst, but it gives up Mortal Strike's healing debuff, which is the single most valuable thing an arena Warrior brings. That trade-off keeps Arms the standard arena spec.\n\nFury can spike a squishy target fast in a coordinated swap, but without the −50% healing it struggles to close games against a competent healer.",
+    strengths: [
+      "Higher raw burst than Arms in a swap window",
+      "Strong rage generation with dual-wield",
+      "Death Wish + Recklessness delete squishies",
+    ],
+    weaknesses: [
+      "No Mortal Strike healing debuff — the big loss",
+      "Kited and peeled as hard as any Warrior",
+    ],
+    rotationTitle: "Burst & pressure",
+    rotation: [
+      "Charge/Intercept in, Hamstring to stick.",
+      "Bloodthirst and Whirlwind on cooldown for pressure.",
+      "Death Wish + Recklessness + trinket during a Freedom window or on a CC'd healer.",
+      "Execute below 20%; Spell Reflect the key CC.",
+      "Intervene to peel for your healer.",
+    ],
+    playstyle:
+      "Commit your burst fully into a swap when the healer can't respond — Fury has no sustained healing-debuff pressure, so it's all about the kill window. Otherwise it plays like Arms: stick, reflect CC, and peel. Prefer Arms unless you specifically want the burst.",
+    commonMistakes: [
+      "Expecting to grind a healer down without Mortal Strike.",
+      "Sending burst into a full-health healer.",
+      "Skipping Spell Reflection against casters.",
+    ],
+    faq: [
+      { question: "Fury or Arms for arena?", answer: "Arms — Mortal Strike's −50% healing is the reason arena Warriors are strong. Fury is a burst-focused niche pick." },
+      { question: "Is Fury good in 2s?", answer: "It can spike targets fast with a healer enabling it, but the lack of a healing debuff caps its ceiling. Arms is the standard." },
+    ],
+  },
+
+  // ─────────────────────────── Warrior / Fury / PvE
+  {
+    class: "warrior",
+    spec: "fury",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Fury is the standard raid DPS Warrior in TBC — a dual-wielding, rage-hungry spec that posts top-tier melee numbers when it's fed rage and hit-capped. Bloodthirst, Whirlwind and a Heroic Strike rage dump form a fast, satisfying rotation that scales hard with gear.\n\nYour whole game is white-hit uptime and rage management: the more you swing, the more Bloodthirst and Heroic Strike you get, so hit and expertise matter enormously.",
+    strengths: [
+      "Top-tier sustained melee raid DPS",
+      "Scales extremely well with gear and Bloodlust",
+      "Strong cleave with Whirlwind + Cleave",
+    ],
+    weaknesses: [
+      "Very hit/expertise dependent to hit hard",
+      "Rage-starved on movement or low gear",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Keep Battle Shout up; stay in Berserker Stance.",
+      "Bloodthirst on cooldown, then Whirlwind on cooldown.",
+      "Dump excess rage into Heroic Strike (queue it) — never rage-cap.",
+      "Execute below 20%; Whirlwind + Cleave on multi-target.",
+      "Death Wish + Recklessness + trinkets aligned with Bloodlust.",
+    ],
+    playstyle:
+      "Prioritize Bloodthirst > Whirlwind, and use Heroic Strike to bleed off excess rage without clipping swings. Reach the hit cap and stack expertise before pure AP — a missed or dodged special is huge lost rage and damage. Position behind the boss to avoid parries.",
+    commonMistakes: [
+      "Rage-capping instead of queuing Heroic Strike.",
+      "Not hit/expertise capped, wasting rage on misses/dodges.",
+      "Clipping white swings with mistimed specials.",
+    ],
+    bestProfessions: ["blacksmithing", "jewelcrafting"],
+    faq: [
+      { question: "Is Fury the best raid DPS Warrior?", answer: "Yes — dual-wield Fury is the standard TBC raid DPS Warrior spec. Arms is a utility pick for the Mortal Strike debuff." },
+      { question: "How much hit does Fury need?", answer: "9% (142) for yellow specials, plus expertise to remove dodge; white dual-wield hit is a soft goal. See the caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Warrior / Protection / PvP
+  {
+    class: "warrior",
+    spec: "protection",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Protection Warrior in PvP is a niche, utility-first build — think flag-carrying in battlegrounds and a tanky, disruptive body in the occasional arena setup. Intervene, Shield Wall, Spell Reflection and high armor make you incredibly hard to kill, but your damage is low, so you win through survivability and peels, not kills.\n\nMost arena Warriors play Arms; Prot is for BG objective play and specific utility comps.",
+    strengths: [
+      "Extremely durable — Shield Wall, high armor, Last Stand",
+      "Great peels: Intervene, Shield Bash, Spell Reflection",
+      "Excellent battleground flag carrier",
+    ],
+    weaknesses: [
+      "Very low kill pressure",
+      "Rarely optimal in rated arena",
+    ],
+    rotationTitle: "Disruption & survival",
+    rotation: [
+      "Intervene to peel for your healer or reach a caster.",
+      "Shield Bash / Spell Reflection to shut down casters.",
+      "Concussion Blow / Shockwave-style stuns to disrupt.",
+      "Shield Wall + Last Stand to survive focus.",
+      "Hamstring and body-block to control space.",
+    ],
+    playstyle:
+      "You're a disruptor and a wall, not a damage dealer. Peel relentlessly for your healer, reflect and interrupt casters, and carry objectives in battlegrounds. In arena, only run Prot for a specific utility plan — Arms is the standard.",
+    commonMistakes: [
+      "Expecting to kill anything solo.",
+      "Wasting Spell Reflection off cooldown instead of on the key CC.",
+      "Playing Prot in rated arena where Arms is better.",
+    ],
+    faq: [
+      { question: "Is Protection Warrior good in PvP?", answer: "For battleground flag carrying and niche utility, yes. For rated arena, Arms is the standard spec — Prot lacks kill pressure." },
+      { question: "Why play Prot in PvP at all?", answer: "Survivability and disruption — Intervene, Spell Reflect, stuns, Shield Wall — plus being the best flag carrier in the game." },
+    ],
+  },
+
+  // ─────────────────────────── Warrior / Protection / PvE
+  {
+    class: "warrior",
+    spec: "protection",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Protection is the main-tank Warrior spec — the gold-standard tank of TBC. Shield Slam and Revenge drive high threat, Devastate stacks Sunder Armor, and your deep mitigation toolkit (Shield Block, Shield Wall, Last Stand, Spell Reflection) handles every raid tank job from Prince to Illidan.\n\nYour priorities in order: become uncrittable, build enough effective health to survive spikes, then add threat stats so your DPS can go all-out.",
+    strengths: [
+      "The premier raid tank — top threat and toolkit",
+      "Spell Reflection and interrupts add unique utility",
+      "Handles every TBC tank assignment",
+    ],
+    weaknesses: [
+      "Gear-gated: must reach crit immunity and EH first",
+      "Rage-dependent threat on low incoming damage",
+    ],
+    rotationTitle: "Threat rotation",
+    rotation: [
+      "Open with a Shield Slam + Revenge and get Sunder/Devastate stacks up.",
+      "Shield Slam on cooldown (your top threat + Shield Block value).",
+      "Revenge on proc; Devastate to fill and maintain Sunder Armor.",
+      "Heroic Strike / Cleave to dump excess rage; Thunder Clap / Demo Shout for debuffs.",
+      "Shield Block on cooldown for uncrushability; Shield Wall / Last Stand for spikes.",
+    ],
+    playstyle:
+      "Get uncrittable (defense/resilience + talents) before you step into a raid, then stack stamina and armor for effective health, then hit/expertise for threat. Keep Shield Block up to avoid crushing blows, and pre-plan Shield Wall/Last Stand for known damage spikes. Face the boss away from the raid.",
+    commonMistakes: [
+      "Tanking before you're crit-immune.",
+      "Chasing avoidance over stamina/armor (effective health) for progression.",
+      "Letting Shield Block lapse and eating crushing blows.",
+    ],
+    bestProfessions: ["blacksmithing", "jewelcrafting"],
+    faq: [
+      { question: "Is Warrior the best tank in TBC?", answer: "Warriors are the premier raid tank for threat and toolkit; Druids and Paladins fill specific roles (AoE, off-tanking). Prot Warrior tanks every fight." },
+      { question: "How do Warriors become uncrittable?", answer: "Through Defense/resilience and talents to remove the boss's crit chance — not a Defense 'cap' number but the effective crit-immunity threshold. See the caps below." },
+    ],
+  },
 ];
 
 const KEY = (c: string, s: string, ct: string) => `${c}/${s}/${ct}`;
