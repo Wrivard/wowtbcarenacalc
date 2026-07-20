@@ -4,6 +4,7 @@
 
 import Link from "next/link";
 import type { ClassDef, SpecDef } from "@/lib/classes";
+import { compsForClass, guidesForClass } from "@/lib/interlinks";
 
 export function SpecCrossLinks({
   cls,
@@ -41,10 +42,15 @@ export function SpecCrossLinks({
       label: `${sibling.name} ${cls.name}`,
     });
   }
+  // Guides for this class (best race, addons & macros).
+  for (const g of guidesForClass(cls.slug)) links.push(g);
   links.push({
     href: "/arena-points-calculator",
     label: "Arena points calculator",
   });
+
+  // Arena comps that feature this class — cross-links BiS → comp guides.
+  const comps = compsForClass(cls.slug);
 
   return (
     <nav aria-label="Related guides" className="mt-12 border-t border-border pt-8">
@@ -63,6 +69,26 @@ export function SpecCrossLinks({
           </li>
         ))}
       </ul>
+
+      {comps.length > 0 && (
+        <>
+          <h2 className="mt-8 text-[11px] font-medium tracking-widest text-muted uppercase">
+            {cls.name} arena comps
+          </h2>
+          <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
+            {comps.map((c) => (
+              <li key={c.href}>
+                <Link
+                  href={c.href}
+                  className="text-sm text-muted-strong transition-colors hover:text-foreground"
+                >
+                  {c.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
     </nav>
   );
 }
