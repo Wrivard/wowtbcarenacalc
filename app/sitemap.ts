@@ -19,7 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
     { url: SITE_URL, lastModified, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/arena-points-calculator`, lastModified, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/classes`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/pvp`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/pve`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/classes`, lastModified, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/talent-calculator`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/arena`, lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/arena/comps`, lastModified, changeFrequency: "weekly", priority: 0.8 },

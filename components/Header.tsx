@@ -13,12 +13,12 @@ import { cn } from "@/lib/utils";
 
 type NavItem = { href: string; label: string };
 
+// Two-door model: PvP and PvE are the primary axis (gearing "splits
+// cleanly in two"). Arena/leaderboard live under PvP; raids live under PvE.
 const PRIMARY: NavItem[] = [
-  { href: "/classes", label: "BiS" },
+  { href: "/pvp", label: "PvP" },
+  { href: "/pve", label: "PvE" },
   { href: "/guides", label: "Guides" },
-  { href: "/arena", label: "Arena" },
-  { href: "/raids", label: "Raids" },
-  { href: "/leaderboard", label: "Leaderboard" },
 ];
 
 const TOOLS: NavItem[] = [
@@ -27,14 +27,25 @@ const TOOLS: NavItem[] = [
 ];
 
 function isActive(pathname: string, href: string): boolean {
-  if (href === "/classes") {
-    // "BiS" covers the class matrix and every per-spec BiS page.
+  if (href === "/pvp") {
+    // PvP covers the hub, arena/comps, leaderboard, and per-spec PvP BiS.
     return (
-      pathname === "/classes" ||
-      /^\/[a-z-]+\/[a-z-]+\/(pvp|pve)/.test(pathname) ||
-      /^\/(warrior|paladin|hunter|rogue|priest|shaman|mage|warlock|druid)$/.test(
-        pathname,
-      )
+      pathname === "/pvp" ||
+      pathname.startsWith("/pvp/") ||
+      pathname === "/arena" ||
+      pathname.startsWith("/arena/") ||
+      pathname === "/leaderboard" ||
+      /^\/[a-z-]+\/[a-z-]+\/pvp/.test(pathname)
+    );
+  }
+  if (href === "/pve") {
+    // PvE covers the hub, raids/bosses, and per-spec PvE BiS.
+    return (
+      pathname === "/pve" ||
+      pathname.startsWith("/pve/") ||
+      pathname === "/raids" ||
+      pathname.startsWith("/raids/") ||
+      /^\/[a-z-]+\/[a-z-]+\/pve/.test(pathname)
     );
   }
   return pathname === href || pathname.startsWith(`${href}/`);

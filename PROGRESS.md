@@ -10,7 +10,8 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - ✅ **0d** Season tabs — season page renders "Coming when the season opens" placeholder (via `ComingSoon` `heading`/`description` props) instead of 404 when a season lacks data.
 
 ## 1. Navbar + logo
-- ✅ Larger logo (40px), BiS / Guides / Arena / Leaderboard / Tools▾ dropdown, mobile hamburger, active accent underline, sticky+blur. Noindex hub placeholders for /arena, /guides, /leaderboard so nav never 404s.
+- ✅ Larger logo (40px), Tools▾ dropdown, mobile hamburger, active accent underline, sticky+blur.
+- ✅ **UX two-door restructure:** nav is now **PvP · PvE · Guides · Tools▾**. Arena/comps + leaderboard live under PvP; raids live under PvE; BiS is split into per-spec PvP/PvE grids. New `/pvp` and `/pve` hub pages aggregate everything for each side (BiS-by-spec grid + gameplay tool cards + cross-link to the other door). Homepage hero CTAs and the two category cards now point to `/pvp` and `/pve` (were both `/classes`). `isActive` highlights the right door across all sub-pages.
 
 ## 4. BiS page expansions — ✅ (data-driven, archetype-based; covers all specs)
 - ✅ **4a** Stat caps table (`data/caps.ts` by class+role+content → `components/bis/StatCaps.tsx`) below stat priority.

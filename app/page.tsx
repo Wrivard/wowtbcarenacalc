@@ -86,25 +86,25 @@ export default function Home() {
           the calculators to plan it all.
         </p>
 
-        {/* CTAs */}
+        {/* CTAs — the two doors first, then the calculator */}
         <div className="mt-6 flex flex-wrap gap-2.5">
           <Link
-            href="/classes"
+            href="/pvp"
             className="rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
           >
-            Browse BiS lists
+            PvP &amp; Arena →
+          </Link>
+          <Link
+            href="/pve"
+            className="rounded-lg border border-accent/50 bg-accent-faint px-4 py-2.5 text-sm font-medium text-accent transition-colors hover:bg-accent/20"
+          >
+            PvE &amp; Raids →
           </Link>
           <Link
             href="/talent-calculator"
             className="rounded-lg border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground backdrop-blur transition-colors hover:bg-surface-hover"
           >
-            Plan talents
-          </Link>
-          <Link
-            href="/arena-points-calculator"
-            className="rounded-lg border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground backdrop-blur transition-colors hover:bg-surface-hover"
-          >
-            Arena points calculator
+            Talent calculator
           </Link>
         </div>
 
@@ -154,18 +154,18 @@ export default function Home() {
           <p className="mt-2 text-sm leading-relaxed text-muted-strong">
             TBC gearing splits cleanly in two, and so does this site. Arena
             gear stacks resilience and comes from points and honor; raid gear
-            maxes throughput and drops from bosses. Every spec has both lists
-            — pick your side:
+            maxes throughput and drops from bosses. Pick your side — each hub
+            has the BiS gear, the gameplay guides, and the tools for it:
           </p>
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
             <Link
-              href="/classes"
+              href="/pvp"
               className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
             >
               <span
                 aria-hidden
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
-                style={{ backgroundImage: `url(${BACKGROUNDS.classes})` }}
+                style={{ backgroundImage: `url(${BACKGROUNDS.arena})` }}
               />
               <span
                 aria-hidden
@@ -176,22 +176,22 @@ export default function Home() {
                   PvP · Arena
                 </span>
                 <span className="mt-1 block text-base font-semibold text-foreground">
-                  Arena PvP BiS Lists →
+                  PvP &amp; Arena hub →
                 </span>
                 <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
-                  Live snapshots of what gladiator-range players equip —
-                  usage %, gems, enchants, stat priorities per spec.
+                  Arena BiS per spec, the comp tier list, the live leaderboard,
+                  and the arena points calculator.
                 </span>
               </span>
             </Link>
             <Link
-              href="/classes"
+              href="/pve"
               className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
             >
               <span
                 aria-hidden
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
-                style={{ backgroundImage: `url(${BACKGROUNDS.legal})` }}
+                style={{ backgroundImage: `url(${BACKGROUNDS.raids})` }}
               />
               <span
                 aria-hidden
@@ -202,11 +202,11 @@ export default function Home() {
                   PvE · Raids
                 </span>
                 <span className="mt-1 block text-base font-semibold text-foreground">
-                  Raid BiS by Phase →
+                  PvE &amp; Raids hub →
                 </span>
                 <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
-                  Phase 1–5 gear from top Warcraft Logs parses — Karazhan
-                  through Sunwell, every spec, every slot.
+                  Phase-by-phase raid BiS per spec, boss strategy guides, and
+                  profession picks.
                 </span>
               </span>
             </Link>
