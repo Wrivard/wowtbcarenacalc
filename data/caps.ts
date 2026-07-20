@@ -43,9 +43,9 @@ export function getStatCaps(
     if (isCasterDps(classSlug, role)) {
       caps.push({
         stat: "Spell Hit (vs players)",
-        cap: 3,
+        cap: 4,
         unit: "%",
-        note: "Only 3% (~38 rating) is needed against players — they are your level, so the raid 16% cap does not apply. Talents/Misery can cover it.",
+        note: "4% (~50 rating) caps spell misses against same-level players — the raid 16% boss cap does not apply. Hit talents and Misery can cover most of it, so gear little pure hit in arena.",
       });
     } else if (isPhysical(classSlug, role)) {
       caps.push({
@@ -80,24 +80,30 @@ export function getStatCaps(
       {
         stat: "Expertise",
         cap: 26,
-        unit: "rating",
-        note: "~26 rating removes a boss's dodge from behind (6.5%). Beyond that only parry matters, which you avoid by staying behind.",
+        unit: "expertise",
+        note: "26 expertise (≈102 rating) removes a boss's 6.5% dodge — each point of expertise cuts dodge/parry by 0.25%. Parry only happens from the front, so staying behind means you only need to beat dodge.",
       },
     ];
   }
   if (role === "Tank") {
     return [
       {
+        stat: "Defense (crit immunity)",
+        cap: 490,
+        unit: "defense",
+        note: "490 defense skill makes you uncrittable by a raid boss (removes the 5.6% crit chance). Resilience or class talents (e.g. a Druid's Survival of the Fittest) substitute for part of it — this is the first tanking goal before any other stat.",
+      },
+      {
         stat: "Hit Rating",
         cap: 142,
         unit: "rating",
-        note: "9% yellow cap sharply improves threat. You become uncrittable through talents/avoidance in TBC, not a Defense cap.",
+        note: "9% (142 rating) yellow-attack cap. Not a survival stat, but it sharply steadies threat by removing missed taunts and abilities.",
       },
       {
         stat: "Expertise",
-        cap: 56,
+        cap: 26,
         unit: "expertise",
-        note: "Frontal parry/dodge cap for tanks — reduces boss parry-haste risk and steadies threat.",
+        note: "26 expertise (≈102 rating) removes boss dodge; higher values chip at frontal parry to reduce parry-haste. Threat/uptime stat, taken after crit immunity.",
       },
     ];
   }
