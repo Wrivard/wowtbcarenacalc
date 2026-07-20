@@ -26,6 +26,7 @@ const PRIMARY: NavItem[] = [
   { href: "/pve", label: "PvE" },
   // Classes mega-menu is injected between here and the rest.
   { href: "/class-rankings", label: "Rankings" },
+  { href: "/raids", label: "Raids" },
   { href: "/guides", label: "Guides" },
 ];
 
@@ -49,13 +50,15 @@ function isActive(pathname: string, href: string): boolean {
     );
   }
   if (href === "/pve") {
+    // Raids have their own nav item now, so /raids doesn't light PvE.
     return (
       pathname === "/pve" ||
       pathname.startsWith("/pve/") ||
-      pathname === "/raids" ||
-      pathname.startsWith("/raids/") ||
       /^\/[a-z-]+\/[a-z-]+\/pve/.test(pathname)
     );
+  }
+  if (href === "/raids") {
+    return pathname === "/raids" || pathname.startsWith("/raids/");
   }
   if (href === "/guides") {
     // Guides hub covers professions/addons/best-race/class guides.
@@ -262,13 +265,14 @@ export function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav aria-label="Primary" className="hidden items-center gap-6 md:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-5 lg:flex">
           <NavLink item={PRIMARY[0]} active={isActive(pathname, "/")} />
           <NavLink item={PRIMARY[1]} active={isActive(pathname, "/pvp")} />
           <NavLink item={PRIMARY[2]} active={isActive(pathname, "/pve")} />
           <ClassesMega pathname={pathname} />
           <NavLink item={PRIMARY[3]} active={isActive(pathname, "/class-rankings")} />
-          <NavLink item={PRIMARY[4]} active={isActive(pathname, "/guides")} />
+          <NavLink item={PRIMARY[4]} active={isActive(pathname, "/raids")} />
+          <NavLink item={PRIMARY[5]} active={isActive(pathname, "/guides")} />
           <ToolsDropdown pathname={pathname} />
         </nav>
 
@@ -278,7 +282,7 @@ export function Header() {
           onClick={() => setMobileOpen((v) => !v)}
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
           aria-expanded={mobileOpen}
-          className="flex size-9 items-center justify-center rounded-lg border border-border text-muted-strong transition-colors hover:text-foreground md:hidden"
+          className="flex size-9 items-center justify-center rounded-lg border border-border text-muted-strong transition-colors hover:text-foreground lg:hidden"
         >
           {mobileOpen ? <X className="size-5" /> : <Menu className="size-5" />}
         </button>
@@ -288,7 +292,7 @@ export function Header() {
       {mobileOpen && (
         <nav
           aria-label="Mobile"
-          className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-border bg-background px-4 py-3 md:hidden"
+          className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-border bg-background px-4 py-3 lg:hidden"
         >
           <ul className="flex flex-col gap-1">
             {PRIMARY.map((item) => (

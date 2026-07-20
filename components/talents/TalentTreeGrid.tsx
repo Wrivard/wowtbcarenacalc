@@ -126,6 +126,9 @@ export function TalentTreeGrid({
                     active
                       ? "border-accent shadow-[0_0_10px_rgba(0,229,153,0.25)]"
                       : "border-border-strong",
+                    // Read-only (guide) view: grey out untaken talents so the
+                    // filled build reads at a glance. Taken talents stay lit.
+                    !interaction && !active && "opacity-40 grayscale",
                     locked && "opacity-35 grayscale",
                     interaction && addable && "cursor-pointer hover:border-accent/70",
                     interaction && !addable && removable && "cursor-pointer",

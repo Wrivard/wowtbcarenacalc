@@ -113,98 +113,135 @@ export default async function SpecHub({ params }: { params: Params }) {
         </p>
       </PageHero>
 
-      <main className="mx-auto max-w-[720px] px-4 pt-8 pb-4">
-        <div className="grid gap-6 sm:grid-cols-2">
-          {/* PvP column */}
-          {(spec.pvp || build?.category === "pvp") && (
-            <section aria-label={`${spec.name} PvP`}>
-              <h2 className="flex items-center gap-2 text-sm font-semibold tracking-widest text-accent uppercase">
-                PvP · Arena
-              </h2>
-              <div className="mt-3 space-y-2">
-                {pvpGuide && (
-                  <ResourceLink
-                    href={`/guides/${cls.slug}/${spec.slug}/pvp`}
-                    title={`${spec.name} PvP guide`}
-                    sub="Rotation, talents, comps & counters"
-                    accent
-                  />
-                )}
-                {pvpLive && (
-                  <ResourceLink
-                    href={`/${cls.slug}/${spec.slug}/pvp`}
-                    title="Arena BiS"
-                    sub="Best-in-slot gear with usage %"
-                  />
-                )}
-                {build?.category === "pvp" && (
-                  <ResourceLink
-                    href={`/${cls.slug}/${spec.slug}/talents`}
-                    title="Arena talent build"
-                    sub={`${build.summaryLabel} · full tree`}
-                  />
-                )}
-                {!pvpGuide && !pvpLive && build?.category !== "pvp" && (
-                  <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
-                    PvP resources for this spec are coming soon.
+      <main className="mx-auto max-w-[760px] px-4 pt-8 pb-4">
+        {/* Two categories: BiS List and Guide. Each splits into PvP / PvE. */}
+        <div className="grid gap-5 md:grid-cols-2">
+          {/* ── BiS List ─────────────────────────────── */}
+          <section
+            aria-label={`${spec.name} best in slot`}
+            className="rounded-2xl border border-border bg-surface/60 p-5"
+          >
+            <h2 className="text-lg font-semibold tracking-tight text-foreground">
+              BiS Lists
+            </h2>
+            <p className="mt-1 text-xs text-muted">Best-in-slot gear, gems &amp; enchants.</p>
+
+            {(spec.pvp) && (
+              <div className="mt-4">
+                <span className="font-mono text-[10px] tracking-widest text-accent uppercase">
+                  PvP · Arena
+                </span>
+                <div className="mt-2">
+                  {pvpLive ? (
+                    <ResourceLink
+                      href={`/${cls.slug}/${spec.slug}/pvp`}
+                      title="Arena BiS"
+                      sub="Most-used gear with usage %"
+                      accent
+                    />
+                  ) : (
+                    <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
+                      Arena BiS coming soon.
+                    </p>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {spec.pve && (
+              <div className="mt-4">
+                <span className="font-mono text-[10px] tracking-widest text-muted-strong uppercase">
+                  PvE · Raid
+                </span>
+                {pvePhases.length > 0 ? (
+                  <ul className="mt-2 space-y-0.5 rounded-lg border border-border bg-surface p-2">
+                    {pvePhases.map((p) => (
+                      <li key={p}>
+                        <Link
+                          href={`/${cls.slug}/${spec.slug}/pve/phase-${p}`}
+                          className="flex items-center justify-between gap-2 rounded-md px-2 py-1.5 text-sm text-muted-strong transition-colors hover:bg-surface-hover hover:text-foreground"
+                        >
+                          <span>Phase {p} BiS</span>
+                          <span className="truncate text-xs text-muted">{PHASE_LABELS[p as Phase]}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="mt-2 rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
+                    Raid BiS coming soon.
                   </p>
                 )}
               </div>
-            </section>
-          )}
+            )}
+          </section>
 
-          {/* PvE column */}
-          {spec.pve && (
-            <section aria-label={`${spec.name} PvE`}>
-              <h2 className="flex items-center gap-2 text-sm font-semibold tracking-widest text-muted-strong uppercase">
-                PvE · Raid
-              </h2>
-              <div className="mt-3 space-y-2">
-                {pveGuide && (
-                  <ResourceLink
-                    href={`/guides/${cls.slug}/${spec.slug}/pve`}
-                    title={`${spec.name} PvE guide`}
-                    sub="Rotation, stat caps, professions & BiS"
-                    accent
-                  />
-                )}
-                {build?.category === "pve" && (
-                  <ResourceLink
-                    href={`/${cls.slug}/${spec.slug}/talents`}
-                    title="Raid talent build"
-                    sub={`${build.summaryLabel} · full tree`}
-                  />
-                )}
-                {pvePhases.length > 0 ? (
-                  <div className="rounded-lg border border-border bg-surface p-2">
-                    <span className="block px-2 pt-1 pb-2 font-mono text-[10px] tracking-widest text-muted uppercase">
-                      Raid BiS by phase
-                    </span>
-                    <ul className="space-y-0.5">
-                      {pvePhases.map((p) => (
-                        <li key={p}>
-                          <Link
-                            href={`/${cls.slug}/${spec.slug}/pve/phase-${p}`}
-                            className="flex items-center justify-between gap-2 rounded-md px-2 py-1.5 text-sm text-muted-strong transition-colors hover:bg-surface-hover hover:text-foreground"
-                          >
-                            <span>Phase {p}</span>
-                            <span className="truncate text-xs text-muted">{PHASE_LABELS[p as Phase]}</span>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ) : (
-                  !pveGuide && build?.category !== "pve" && (
+          {/* ── Guides ───────────────────────────────── */}
+          <section
+            aria-label={`${spec.name} guides`}
+            className="rounded-2xl border border-border bg-surface/60 p-5"
+          >
+            <h2 className="text-lg font-semibold tracking-tight text-foreground">
+              Guides
+            </h2>
+            <p className="mt-1 text-xs text-muted">Rotation, talents, caps &amp; playstyle.</p>
+
+            {(spec.pvp || pvpGuide) && (
+              <div className="mt-4">
+                <span className="font-mono text-[10px] tracking-widest text-accent uppercase">
+                  PvP · Arena
+                </span>
+                <div className="mt-2">
+                  {pvpGuide ? (
+                    <ResourceLink
+                      href={`/guides/${cls.slug}/${spec.slug}/pvp`}
+                      title={`${spec.name} PvP guide`}
+                      sub="Rotation, talents, comps & counters"
+                      accent
+                    />
+                  ) : (
                     <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
-                      PvE resources for this spec are coming soon.
+                      PvP guide coming soon.
                     </p>
-                  )
-                )}
+                  )}
+                </div>
               </div>
-            </section>
-          )}
+            )}
+
+            {spec.pve && (
+              <div className="mt-4">
+                <span className="font-mono text-[10px] tracking-widest text-muted-strong uppercase">
+                  PvE · Raid
+                </span>
+                <div className="mt-2">
+                  {pveGuide ? (
+                    <ResourceLink
+                      href={`/guides/${cls.slug}/${spec.slug}/pve`}
+                      title={`${spec.name} PvE guide`}
+                      sub="Rotation, stat caps, professions & BiS"
+                      accent
+                    />
+                  ) : (
+                    <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
+                      PvE guide coming soon.
+                    </p>
+                  )}
+                </div>
+              </div>
+            )}
+          </section>
         </div>
+
+        {/* Talent build — shared by both, links to the full tree + calculator */}
+        {build && (
+          <div className="mt-5">
+            <ResourceLink
+              href={`/${cls.slug}/${spec.slug}/talents`}
+              title={`${spec.name} talent build (${build.summaryLabel})`}
+              sub={`${build.category === "pvp" ? "Arena" : "Raid"} build · full filled tree + calculator`}
+            />
+          </div>
+        )}
 
         {/* Cross-links */}
         <div className="mt-8 flex flex-wrap gap-2 text-sm">
