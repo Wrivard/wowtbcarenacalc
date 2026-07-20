@@ -50,6 +50,8 @@ export const RAIDS: Raid[] = [
   { id: "karazhan", name: "Karazhan", phase: 1, size: 10, location: "Deadwind Pass", blurb: "The 10-player gateway raid of TBC and the most-run instance of the expansion. A long, varied dungeon with puzzle-like encounters, Karazhan gears your whole roster for the 25-player content." },
   { id: "gruuls-lair", name: "Gruul's Lair", phase: 1, size: 25, location: "Blade's Edge Mountains", blurb: "A short two-boss 25-player raid: the multi-add High King Maulgar council, then Gruul the Dragonkiller and his ever-growing Grows. The first real 25-player coordination test." },
   { id: "magtheridons-lair", name: "Magtheridon's Lair", phase: 1, size: 25, location: "Hellfire Citadel", blurb: "A single-boss 25-player raid built around the Hellfire Channelers and a raid-wide click event. Punishing to undergeared groups, trivial once coordinated." },
+  { id: "serpentshrine-cavern", name: "Serpentshrine Cavern", phase: 2, size: 25, location: "Coilfang Reservoir, Zangarmarsh", blurb: "The 25-player water raid of Phase 2, home to six bosses culminating in Lady Vashj. A serious step up in coordination — poison management, add control, and the infamous tainted-core relay on Vashj." },
+  { id: "tempest-keep", name: "Tempest Keep: The Eye", phase: 2, size: 25, location: "Netherstorm", blurb: "The blood elf fortress raid, four bosses ending with Kael'thas Sunstrider — a five-phase gauntlet against his advisors, their weapons, and Kael himself. The definitive Phase 2 progression check." },
 ];
 
 export const BOSSES: Boss[] = [
@@ -389,6 +391,285 @@ export const BOSSES: Boss[] = [
       commonMistakes: [
         "A cube-clicker being dead, out of position, or too Mind-Exhausted to click — Blast Nova goes off and wipes the raid.",
         "Standing in Debris during the 30% ceiling collapse.",
+      ],
+    },
+  },
+
+  // ---------------- Serpentshrine Cavern ----------------
+  {
+    id: "hydross-the-unstable",
+    name: "Hydross the Unstable",
+    raidId: "serpentshrine-cavern",
+    phase: 2,
+    role: "2 tanks, 5 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A resistance and add-management fight. Hydross toggles between Frost and Nature forms as he's pulled across a line, each swap spawning elemental adds and applying a stacking damage debuff. You need two tanks in the matching resistance sets.",
+      phases: [
+        { name: "Frost side", description: "Tank Hydross on the frost side (frost-resist tank). At 6 stacks of Mark of Hydross he Enrages — pull him across the line before then." },
+        { name: "Nature side", description: "The nature-resist tank taunts as he crosses; nature adds spawn. Alternate sides, killing the spawned Elementals each transition." },
+      ],
+      tankNotes:
+        "Two tanks, each in a resistance set (frost / nature), taunt-swapping at every line cross before the stacking Mark enrages them. Never let one tank hold through 6 stacks.",
+      healerNotes:
+        "Tank damage spikes with Mark stacks right before each swap. The spawned adds also cleave — keep the off-tank topped through add pickup.",
+      dpsNotes:
+        "Burn the boss, but stop and AoE the Pure Spawn adds instantly on each transition — a loose add wipes the raid. Watch your own aggro across the taunt swaps.",
+      commonMistakes: [
+        "Missing the taunt swap and letting a tank enrage at 6 stacks.",
+        "Ignoring the elemental adds during a transition.",
+      ],
+    },
+  },
+  {
+    id: "the-lurker-below",
+    name: "The Lurker Below",
+    raidId: "serpentshrine-cavern",
+    phase: 2,
+    role: "2 tanks, 4 healers, rest dps",
+    difficulty: 1,
+    loot: [],
+    strategy: {
+      overview:
+        "A positioning fight around a central pool. Lurker alternates a frontal Spout (a rotating water jet that one-shots) with a Whirl, then submerges to spawn adds you handle from platforms.",
+      phases: [
+        { name: "Above water", description: "Ranged fish him out, then tank on the platform. On Spout, everyone dives into the water to avoid the rotating jet; on Whirl, melee back off." },
+        { name: "Submerged", description: "Lurker dives; Coilfang Ambushers and Guardians spawn on the platforms. Tank and kill the adds until he resurfaces." },
+      ],
+      tankNotes:
+        "Main tank holds Lurker on the central platform facing away. Off-tanks grab the adds during the submerge phase from their assigned platforms.",
+      healerNotes:
+        "Damage is light except add pickup. Position so you're never caught by Spout — dive with the raid.",
+      dpsNotes:
+        "Spout is a one-shot: jump into the water the instant it starts casting and swim under it. Split to platforms for the add phase.",
+      commonMistakes: [
+        "Getting clipped by Spout by reacting late — dive early.",
+        "Slow add cleanup in the submerge phase.",
+      ],
+    },
+  },
+  {
+    id: "leotheras-the-blind",
+    name: "Leotheras the Blind",
+    raidId: "serpentshrine-cavern",
+    phase: 2,
+    role: "2 tanks + 1 warlock tank, 5 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "A control fight with an inner-demon mechanic. Leotheras alternates human (Whirlwind) and demon (Insidious Whisper — mind control) forms, and periodically spawns Inner Demons that each assigned player must solo-kill or be feared.",
+      phases: [
+        { name: "Human form", description: "Tank Leotheras; he Whirlwinds for big raid damage — spread and heal through it." },
+        { name: "Demon form", description: "A warlock (Soul Link/Fel Armor) tanks the demon via threat wipe mechanics. Inner Demons spawn on random players — each must kill their own demon before it fears them." },
+      ],
+      tankNotes:
+        "Melee tank on human form (spread for Whirlwind). A specced warlock 'tanks' the demon form. Coordinate the form transitions so threat is ready.",
+      healerNotes:
+        "Whirlwind is heavy raid AoE — pre-HoT and top through it. Watch players fighting their Inner Demon; they take and deal solo damage.",
+      dpsNotes:
+        "When your Inner Demon spawns, tunnel it down before the timer — a surviving demon mind-controls you. Don't push both forms out of sync.",
+      commonMistakes: [
+        "A player failing to kill their Inner Demon and getting feared/MC'd into the raid.",
+        "Standing stacked during Whirlwind.",
+      ],
+    },
+  },
+  {
+    id: "fathom-lord-karathress",
+    name: "Fathom-Lord Karathress",
+    raidId: "serpentshrine-cavern",
+    phase: 2,
+    role: "4 tanks, 5 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A council fight: Karathress plus three advisors (a priest, a hunter, and an enhancement-shaman type), each buffing him as they live. Kill order and add tanking are everything, as Karathress gets stronger with each advisor's death but you remove their abilities.",
+      phases: [
+        { name: "Advisors", description: "Tank all four apart. Kill order: Sharkkis (hunter — pets/traps) → Tidalvess (shaman — totems, poison) → Caribdis (priest — heals, water spouts). Karathress powers up with each kill." },
+        { name: "Karathress solo", description: "With the advisors down, tank the empowered Karathress and burn him." },
+      ],
+      tankNotes:
+        "Four tanks, one per mob. Interrupt/kill Caribdis's heals; move out of totems on Tidalvess. Karathress's tank braces for the power-ups.",
+      healerNotes:
+        "Spread for the priest's water spouts. Each advisor death spikes Karathress's damage — shift healing to his tank as the fight progresses.",
+      dpsNotes:
+        "Follow the kill order exactly. Kill Sharkkis's pet, interrupt Caribdis. Save cooldowns for the empowered Karathress phase.",
+      commonMistakes: [
+        "Killing advisors out of order and leaving the most disruptive alive.",
+        "Ignoring totems / water spouts.",
+      ],
+    },
+  },
+  {
+    id: "morogrim-tidewalker",
+    name: "Morogrim Tidewalker",
+    raidId: "serpentshrine-cavern",
+    phase: 2,
+    role: "2 tanks, 5 healers, rest dps (AoE)",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "An add-heavy fight. Morogrim summons Murloc adds (Watery Globules) and periodically swallows a player, who must be freed by killing the boss's stomach adds. Strong AoE and quick reactions carry it.",
+      phases: [
+        { name: "Single phase", description: "Tank Morogrim; on Tidal Wave (raid knockback + damage) recover fast. He periodically spawns a wave of Murlocs — AoE them down — and Watery Globules that chase and must be killed off targeted players." },
+      ],
+      tankNotes:
+        "Main tank holds Morogrim central; an off-tank grabs Murloc waves for AoE. Reposition after Tidal Wave knockbacks.",
+      healerNotes:
+        "Tidal Wave hits the whole raid; the swallowed player takes stomach damage until freed. Globule-targeted players take chase damage.",
+      dpsNotes:
+        "Swap to Murloc waves the instant they spawn — they overwhelm healers if ignored. Kill Globules off whoever they're chasing.",
+      commonMistakes: [
+        "Slow AoE on Murloc waves, snowballing raid damage.",
+        "Not killing Watery Globules chasing casters.",
+      ],
+    },
+  },
+  {
+    id: "lady-vashj",
+    name: "Lady Vashj",
+    raidId: "serpentshrine-cavern",
+    phase: 2,
+    role: "2 tanks, 5-6 healers, rest dps",
+    difficulty: 3,
+    hasDiagram: true,
+    loot: [],
+    strategy: {
+      overview:
+        "The SSC endboss and one of TBC's signature fights, built around the phase-2 tainted-core relay. Vashj shields herself and can't be damaged until the raid destroys her four elemental generators — by carrying Tainted Cores dropped by Tainted Elementals from pad to pad without getting caught by Enchanted Elementals and Striders.",
+      phases: [
+        { name: "Phase 1 (100-70%)", description: "Tank and burn Vashj; dodge Static Charge (spread) and Shock Blast (a one-shot on the tank's target — the tank sidesteps or trinkets)." },
+        { name: "Phase 2 (shielded)", description: "Vashj shields. Kill Tainted Elementals for Tainted Cores; relay each core to a generator pad while managing Coilfang Striders (haste buff — kill fast) and Enchanted Elementals. Destroy all four generators to end the phase." },
+        { name: "Phase 3 (<70%)", description: "Shield down, Vashj resumes casting plus spawns Spore Bats and more Striders. Burn her while managing the adds and Static Charge." },
+      ],
+      tankNotes:
+        "Tank Vashj facing away; Shock Blast targets the tank's current target — position so it doesn't cleave the raid, and use a cooldown/trinket into it. In P2 the tanks help control adds.",
+      healerNotes:
+        "Static Charge is a chaining shock — spread. P2 is the crunch: Striders' haste buff and Enchanted Elementals pressure the raid while cores relay. P3 adds Spore Bat clouds to heal through.",
+      dpsNotes:
+        "P2 is the whole fight: pass Tainted Cores hand-to-hand to the pads without dropping them (a dropped core wastes precious time), kill Striders on sight, and destroy all four generators. Discipline in the relay wins the fight.",
+      commonMistakes: [
+        "Fumbling the Tainted Core relay — dropped or mis-passed cores blow the phase-2 timer.",
+        "Letting Coilfang Striders live and haste-buff the adds.",
+      ],
+    },
+  },
+
+  // ---------------- Tempest Keep: The Eye ----------------
+  {
+    id: "alar",
+    name: "Al'ar",
+    raidId: "tempest-keep",
+    phase: 2,
+    role: "2 tanks, 5 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A phoenix fight with a platform-hopping first phase and a fiery, add-summoning second. Al'ar has no melee hit but patrols between platforms, and at 0% in phase one it rebirths into phase two rather than dying.",
+      phases: [
+        { name: "Phase 1", description: "Al'ar hops between platforms in sequence; tanks pick it up at each. Avoid the swooping flame patterns and burn it to 0%, when it revives for phase 2." },
+        { name: "Phase 2", description: "Al'ar lands center, casts Flame Patch and Meteor (a knockback + Ember adds). Kill Embers, dodge fire, and burn it down for good." },
+      ],
+      tankNotes:
+        "Tanks rotate picking up Al'ar as it moves platform to platform in P1. In P2 hold it central, away from the fire patches, and grab Ember of Al'ar adds.",
+      healerNotes:
+        "P1 is light; P2's Meteor knockback + flame patches + Embers is the damage. Spread and top players caught by fire.",
+      dpsNotes:
+        "Follow it around in P1 without overaggroing the next platform. In P2 kill Embers fast (they explode) and stay out of Flame Patch.",
+      commonMistakes: [
+        "Standing in flame patterns / patches.",
+        "Ignoring Ember adds until they explode.",
+      ],
+    },
+  },
+  {
+    id: "void-reaver",
+    name: "Void Reaver",
+    raidId: "tempest-keep",
+    phase: 2,
+    role: "2 tanks, 4 healers, rest dps",
+    difficulty: 1,
+    loot: [],
+    strategy: {
+      overview:
+        "The 'loot reaver' — a simple, forgiving fight and a common first Eye kill. The only real mechanic is Arcane Orb: telegraphed orbs that fall on ranged and must be sidestepped.",
+      phases: [
+        { name: "Single phase", description: "Tank Void Reaver central; melee stack, ranged spread at max distance. Dodge the Arcane Orbs (they target ranged and deal heavy damage). Knock-away resets threat occasionally — retank fast." },
+      ],
+      tankNotes:
+        "Hold threat through the periodic Knock Away (throws the tank + drops threat). A second tank ready to pick up avoids a loose Reaver.",
+      healerNotes:
+        "Damage is low and predictable — the only spikes are players who eat an Arcane Orb. Very relaxed healing fight.",
+      dpsNotes:
+        "Ranged: watch for the orb telegraph and step out of it — it's the only thing that kills you here. Melee just tunnel.",
+      commonMistakes: [
+        "Ranged standing in an Arcane Orb.",
+        "No off-tank ready for the Knock Away threat drop.",
+      ],
+    },
+  },
+  {
+    id: "high-astromancer-solarian",
+    name: "High Astromancer Solarian",
+    raidId: "tempest-keep",
+    phase: 2,
+    role: "2 tanks, 5 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A three-phase add and burst fight. Solarian splits into adds, blinks the raid around with Wrath of the Astromancer (a bomb debuff), and transforms into a Void Walker for a hard-hitting final phase.",
+      phases: [
+        { name: "Caster phase", description: "Tank Solarian; she casts Arcane Missiles and Wrath of the Astromancer — the bombed player runs out so the explosion doesn't hit the raid." },
+        { name: "Split phase", description: "Solarian vanishes and spawns Solarium Agents/Priests with her among them — AoE them down and find the real boss." },
+        { name: "Void phase (<20%)", description: "She becomes a large Void Walker with heavy melee. Tank and burn." },
+      ],
+      tankNotes:
+        "Hold Solarian in the caster phase; in the void phase her melee spikes hard — cooldown the tank. Pick up adds in the split.",
+      healerNotes:
+        "Wrath of the Astromancer bomb must be spot-healed and the player must run out. The void phase is a burst check on the tank.",
+      dpsNotes:
+        "Run out with the bomb debuff. AoE the split adds and swap to the real Solarian when she reappears. Save burst for the void phase.",
+      commonMistakes: [
+        "Not running out with Wrath of the Astromancer and bombing the raid.",
+        "Getting lost in the split phase and letting adds pile up.",
+      ],
+    },
+  },
+  {
+    id: "kaelthas-sunstrider",
+    name: "Kael'thas Sunstrider",
+    raidId: "tempest-keep",
+    phase: 2,
+    role: "3-4 tanks, 6 healers, rest dps",
+    difficulty: 3,
+    hasDiagram: true,
+    loot: [],
+    strategy: {
+      overview:
+        "The Phase 2 capstone and a five-phase endurance test. You fight Kael's four advisors, then his weapons, then the advisors again, then Kael himself — who Mind-Controls, Gravity Lapses (flings the raid into the air), and hits like a truck. Long, mechanically dense, and unforgiving of a single mistake.",
+      phases: [
+        { name: "Phase 1 — Advisors", description: "Kill Thaladred (tank kites — he fixates and one-shots the target), Lord Sanguinar, Grand Astromancer Capernian (ranged), and Master Engineer Telonicus one at a time." },
+        { name: "Phase 2 — Weapons", description: "Kael summons seven legendary weapons. Tank and destroy them; one (the staff/bow) can be looted and used against him later." },
+        { name: "Phase 3 — Advisors return", description: "The four advisors are resurrected together — burn them down again under more pressure." },
+        { name: "Phase 4-5 — Kael'thas", description: "Kael engages: Fireball/Flamestrike/Pyroblast, Mind Control on players (off-tank or CC them), and Gravity Lapse — the raid is flung into the air and must fly/fight while Kael nukes. Survive the lapses and burn him." },
+      ],
+      tankNotes:
+        "Thaladred fixates and must be kited, not tanked. Assign a tank per advisor and per weapon. In the Kael phase, off-tanks control Mind-Controlled players; the main tank braces for heavy melee between Gravity Lapses.",
+      healerNotes:
+        "Every phase is a healing test, but Gravity Lapse is the crux — the raid floats and takes Kael's nukes with limited control. Pre-heal into each lapse and triage the fixate/MC targets throughout.",
+      dpsNotes:
+        "Respect the kill order in P1/P3. Loot and use the legendary weapon in P2 if your raid uses that strategy. In the Kael phase, stop damage on Mind-Controlled allies and maximize burn windows between Gravity Lapses.",
+      commonMistakes: [
+        "Tanking Thaladred instead of kiting his fixate.",
+        "Losing the raid during Gravity Lapse to Kael's nukes or falling out of position.",
+        "Killing a Mind-Controlled player instead of CCing them.",
       ],
     },
   },

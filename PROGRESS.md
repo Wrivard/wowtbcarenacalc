@@ -40,11 +40,11 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - ⬜ **5a** Per-spec PvP/PvE MDX guides (the big content build — 28 specs × 2, ≥800 words each).
 ## 6. Raids + boss strats — 🚧 (Phase 1 done; phases 2-5 pending)
 - ✅ Route tree: `/raids` hub → `/raids/[phase]` → `/raids/[phase]/[raid]` → `/raids/[phase]/[raid]/[boss]`.
-- ✅ `data/raids.ts`: Phase 1 fully populated — Karazhan (9 bosses), Gruul's Lair (2), Magtheridon's Lair (1) with role-organized strategies, phases, common mistakes, loot.
-- ✅ Original `BossPositionDiagram` SVG component (Gruul, Aran, Magtheridon, Maulgar, Prince, Moroes layouts; generic fallback).
+- ✅ `data/raids.ts`: **Phase 1** — Karazhan (9), Gruul's Lair (2), Magtheridon's Lair (1); **Phase 2** — Serpentshrine Cavern (6: Hydross, Lurker, Leotheras, Karathress, Morogrim, **Lady Vashj**), Tempest Keep (4: Al'ar, Void Reaver, Solarian, **Kael'thas**). Role-organized strategies, phases, common mistakes.
+- ✅ Original `BossPositionDiagram` SVG (Gruul, Aran, Magtheridon, Maulgar, Prince, Moroes, **Vashj, Kael'thas**; generic fallback).
 - ✅ Boss pages: HowTo + breadcrumb JSON-LD, role notes, loot (ItemLink), next-boss nav. "Raids" added to navbar; routes in sitemap.
 - ✅ Empty phases (2-5) show "coming soon" (noindex), never 404.
-- ⬜ Populate phases 2-5 (SSC, TK, Hyjal, BT, ZA, Sunwell) + SVG diagrams for Illidan/Kael'thas/M'uru/Brutallus.
+- ⬜ Populate phases 3-5 (Hyjal, Black Temple, Zul'Aman, Sunwell) + SVG diagrams for Illidan/M'uru/Brutallus/Archimonde/Kil'jaeden.
 
 ## 8. SEO site-wide — 🚧 (mostly done)
 - ✅ **8a** Removed the site-wide `<meta name="keywords">` (noise); ranking lives in unique per-page titles/descriptions/H1s (already unique via `buildMetadata`).

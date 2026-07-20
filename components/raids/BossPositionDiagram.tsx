@@ -87,6 +87,30 @@ function layoutFor(bossId: string): { markers: Marker[]; caption: string } {
           { x: 250, y: 250, label: "Raid", role: "ranged" },
         ],
       };
+    case "lady-vashj":
+      return {
+        caption: "Phase 2: relay Tainted Cores from the elementals to the four generator pads at the corners; kill Striders on sight.",
+        markers: [
+          { x: 200, y: 150, label: "Vashj", role: "boss" },
+          { x: 70, y: 70, label: "Gen 1", role: "point" },
+          { x: 330, y: 70, label: "Gen 2", role: "point" },
+          { x: 70, y: 230, label: "Gen 3", role: "point" },
+          { x: 330, y: 230, label: "Gen 4", role: "point" },
+          { x: 200, y: 220, label: "Raid", role: "ranged" },
+        ],
+      };
+    case "kaelthas-sunstrider":
+      return {
+        caption: "Kite Thaladred (fixate), tank one advisor/weapon each, and survive Gravity Lapse while Kael nukes from center.",
+        markers: [
+          { x: 200, y: 140, label: "Kael'thas", role: "boss" },
+          { x: 110, y: 90, label: "Advisor", role: "tank" },
+          { x: 290, y: 90, label: "Advisor", role: "tank" },
+          { x: 110, y: 200, label: "Kite", role: "avoid" },
+          { x: 290, y: 200, label: "Advisor", role: "tank" },
+          { x: 200, y: 235, label: "Raid", role: "ranged" },
+        ],
+      };
     case "moroes":
       return {
         caption: "CC the four adds apart around the room; tank Moroes central and burn him.",
