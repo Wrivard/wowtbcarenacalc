@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CLASSES, PHASES, getClass } from "@/lib/classes";
+import { CLASSES, getClass } from "@/lib/classes";
 import { getPvpBis } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
+import { hasSpecGuide } from "@/data/specGuides";
+import { specIconName } from "@/lib/icons";
+import { GameIcon } from "@/components/GameIcon";
 import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { PageHero } from "@/components/PageHero";
 import { classBackground } from "@/lib/backgrounds";
 import { SITE_URL } from "@/lib/site";
+import { ArrowRight } from "lucide-react";
 
 export const dynamicParams = false;
 
@@ -56,7 +60,7 @@ export default async function ClassHub({
             `${cls.name} TBC Classic specs`,
             cls.specs.map((s) => ({
               name: `${s.name} ${cls.name}`,
-              url: `${SITE_URL}/${cls.slug}/${s.slug}/talents`,
+              url: `${SITE_URL}/${cls.slug}/${s.slug}`,
             })),
           ),
         ]}
@@ -81,79 +85,66 @@ export default async function ClassHub({
       </PageHero>
 
       <main className="mx-auto max-w-[720px] px-4 pt-10">
-      <div className="space-y-4">
-        {cls.specs.map((spec) => {
-          const pvpLive = Boolean(getPvpBis(cls.slug, spec.slug));
-          const build = getBuild(cls.slug, spec.slug);
-          return (
-            <section
-              key={spec.slug}
-              className="rounded-xl border border-border bg-surface p-4 sm:p-5"
-              aria-label={`${spec.name} ${cls.name}`}
-            >
-              <div className="flex items-baseline justify-between gap-3">
-                <h2 className="text-lg font-semibold tracking-tight">
-                  {spec.name}
-                </h2>
-                <span className="font-mono text-[11px] tracking-wider text-muted uppercase">
-                  {spec.role}
-                </span>
-              </div>
-
-              {/* PvP — arena */}
-              {(spec.pvp || build?.category === "pvp") && (
-                <div className="mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-1.5 text-sm">
-                  <span className="w-20 shrink-0 font-mono text-[10px] tracking-widest text-accent uppercase">
-                    PvP · Arena
-                  </span>
-                  {spec.pvp && pvpLive && (
-                    <Link
-                      href={`/${cls.slug}/${spec.slug}/pvp`}
-                      className="text-muted-strong transition-colors hover:text-foreground"
-                    >
-                      Arena BiS
-                    </Link>
-                  )}
-                  {build?.category === "pvp" && (
-                    <Link
-                      href={`/${cls.slug}/${spec.slug}/talents`}
-                      className="text-muted-strong transition-colors hover:text-foreground"
-                    >
-                      Arena talent build
-                    </Link>
-                  )}
+        <h2 className="text-xl font-semibold tracking-tight">
+          {cls.name} specs
+        </h2>
+        <p className="mt-1.5 text-sm text-muted-strong">
+          Pick a spec for its PvP &amp; PvE best-in-slot, in-depth guide and
+          talent build.
+        </p>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          {cls.specs.map((spec) => {
+            const pvpLive = spec.pvp && Boolean(getPvpBis(cls.slug, spec.slug));
+            const build = getBuild(cls.slug, spec.slug);
+            const hasPvpGuide = hasSpecGuide(cls.slug, spec.slug, "pvp");
+            const hasPveGuide = hasSpecGuide(cls.slug, spec.slug, "pve");
+            // Compact list of what exists for this spec, as pills.
+            const tags: string[] = [];
+            if (hasPvpGuide || hasPveGuide) tags.push("Guide");
+            if (pvpLive) tags.push("Arena BiS");
+            if (spec.pve) tags.push("Raid BiS");
+            if (build) tags.push("Talents");
+            return (
+              <Link
+                key={spec.slug}
+                href={`/${cls.slug}/${spec.slug}`}
+                aria-label={`${spec.name} ${cls.name}`}
+                className="group flex flex-col gap-3 rounded-xl border border-border bg-surface p-4 transition-colors hover:border-border-strong hover:bg-surface-hover sm:p-5"
+              >
+                <div className="flex items-center gap-3">
+                  <GameIcon icon={specIconName(cls.slug, spec)} alt="" size="medium" />
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-1.5">
+                      <h3
+                        className="truncate text-base font-semibold tracking-tight"
+                        style={{ color: cls.color }}
+                      >
+                        {spec.name}
+                      </h3>
+                      <ArrowRight
+                        className="size-3.5 shrink-0 text-muted opacity-0 transition-opacity group-hover:opacity-100"
+                        aria-hidden
+                      />
+                    </div>
+                    <span className="font-mono text-[10px] tracking-widest text-muted uppercase">
+                      {spec.role}
+                    </span>
+                  </div>
                 </div>
-              )}
-
-              {/* PvE — raids */}
-              {spec.pve && (
-                <div className="mt-2 flex flex-wrap items-baseline gap-x-4 gap-y-1.5 text-sm">
-                  <span className="w-20 shrink-0 font-mono text-[10px] tracking-widest text-muted-strong uppercase">
-                    PvE · Raid
-                  </span>
-                  {build?.category === "pve" && (
-                    <Link
-                      href={`/${cls.slug}/${spec.slug}/talents`}
-                      className="text-muted-strong transition-colors hover:text-foreground"
+                <div className="flex flex-wrap gap-1.5">
+                  {tags.map((t) => (
+                    <span
+                      key={t}
+                      className="rounded-full border border-border bg-background px-2 py-0.5 text-[10px] font-medium tracking-wide text-muted-strong"
                     >
-                      Raid talent build
-                    </Link>
-                  )}
-                  {PHASES.map((p) => (
-                    <Link
-                      key={p}
-                      href={`/${cls.slug}/${spec.slug}/pve/phase-${p}`}
-                      className="text-muted transition-colors hover:text-foreground"
-                    >
-                      P{p} BiS
-                    </Link>
+                      {t}
+                    </span>
                   ))}
                 </div>
-              )}
-            </section>
-          );
-        })}
-      </div>
+              </Link>
+            );
+          })}
+        </div>
       </main>
     </>
   );
