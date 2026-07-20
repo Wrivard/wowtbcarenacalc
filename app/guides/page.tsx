@@ -68,13 +68,45 @@ export default function GuidesHub() {
           </div>
         </section>
 
-        <section className="mt-12 rounded-xl border border-border bg-surface p-6">
+        <section className="mt-10" aria-label="Reference guides">
+          <h2 className="text-lg font-semibold tracking-tight">
+            Reference guides
+          </h2>
+          <div className="mt-3 grid gap-2 sm:grid-cols-2">
+            <Link
+              href="/guides/professions"
+              className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-border-strong"
+            >
+              <h3 className="text-sm font-semibold text-foreground">
+                Professions tier list
+              </h3>
+              <p className="mt-1 text-xs leading-relaxed text-muted">
+                Every profession ranked for PvP and PvE, with the classes that
+                want it most.
+              </p>
+            </Link>
+            <Link
+              href="/guides/addons"
+              className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-border-strong"
+            >
+              <h3 className="text-sm font-semibold text-foreground">
+                Addons &amp; macros
+              </h3>
+              <p className="mt-1 text-xs leading-relaxed text-muted">
+                Essential addons plus copy-paste focus, arena and burst macros
+                per class.
+              </p>
+            </Link>
+          </div>
+        </section>
+
+        <section className="mt-10 rounded-xl border border-border bg-surface p-6">
           <h2 className="text-base font-semibold tracking-tight">
             More guides coming
           </h2>
           <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
-            Per-spec PvP and PvE playstyle guides, profession tier lists, macros
-            and addon lists are being written. In the meantime, browse{" "}
+            Per-spec PvP and PvE playstyle guides are being written. In the
+            meantime, browse{" "}
             <Link href="/classes" className="text-accent underline-offset-2 hover:underline">
               BiS lists &amp; talents
             </Link>{" "}

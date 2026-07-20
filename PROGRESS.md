@@ -26,11 +26,13 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - Components: `components/arena/CompBits.tsx` (TierBadge, DifficultyPips, PlaystyleTag, CompIcons, CompCard).
 
 ## 3. Live leaderboard (/leaderboard + cron) — ⬜
-## 5. Guide pages — 🚧 (partial)
-- ✅ **5d** Best race per class (`data/bestRace.ts` → `/guides/best-race/[class]`, 9 pages, PvP/PvE × Horde/Alliance with real racials + alternatives). Linked from guides hub, in sitemap.
-- ✅ Guides hub (`/guides`) upgraded to real indexable page linking best-race.
-- ⬜ **5a** Per-spec PvP/PvE MDX guides (the big content build — 28 specs × 2).
-- ⬜ **5b** Macros (`data/macros.ts`). ⬜ **5c** Professions. ⬜ **5e** Addons.
+## 5. Guide pages — 🚧 (5a remaining)
+- ✅ **5d** Best race per class (`data/bestRace.ts` → `/guides/best-race/[class]`, 9 pages).
+- ✅ **5c** Professions (`data/professions.ts` → `/guides/professions` sortable hub + `/guides/professions/[profession]`, 12 pages).
+- ✅ **5e** Addons (`data/addons.ts` → `/guides/addons` hub + `/guides/addons/[class]`, 9 pages, CurseForge links).
+- ✅ **5b** Macros (`data/macros.ts` + client `MacroList` copy-button component, grouped by category; rendered on each `/guides/addons/[class]` page).
+- ✅ Guides hub links best-race, professions, addons/macros.
+- ⬜ **5a** Per-spec PvP/PvE MDX guides (the big content build — 28 specs × 2, ≥800 words each).
 ## 6. Raids + boss strats (/raids) — ⬜
 ## 7. Interlinking system (lib/interlinks.ts) — ⬜
 ## 8. SEO site-wide (keywords, schema, sitemap expansion) — ⬜
