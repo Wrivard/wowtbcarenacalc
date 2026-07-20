@@ -1256,6 +1256,237 @@ export const SPEC_GUIDES: SpecGuide[] = [
       { question: "What's the spell hit cap for Shadow?", answer: "16% base, reduced by Shadow Focus, Misery and the Draenei racial. See the stat caps below for the exact target with talents." },
     ],
   },
+
+  // ─────────────────────────── Shaman / Elemental / PvP
+  {
+    class: "shaman",
+    spec: "elemental",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Elemental Shaman is a burst-caster arena spec built around a Lightning Bolt/Chain Lightning nuke game backed by Elemental Mastery (a guaranteed-crit, instant nuke) and totem utility. Shaman/X comps (notably Shatterplay-style caster cleaves and Shaman/Rogue) lean on your Elemental Mastery burst, Grounding Totem to eat a key cast, and Purge to strip enemy buffs/shields.\n\nYour game is landing an Elemental Mastery-empowered crit in a setup window while using totems (Grounding, Tremor, Earthbind) to control the fight and protect yourself.",
+    strengths: [
+      "Elemental Mastery gives an instant guaranteed-crit nuke burst",
+      "Totems bring unique utility — Grounding, Tremor, Earthbind, Poison/Disease cleanse",
+      "Purge strips shields, HoTs and key buffs",
+    ],
+    weaknesses: [
+      "No blink/root-break; very kiteable and vulnerable when trained by melee",
+      "Cloth-tier survivability without a peel partner",
+    ],
+    rotationTitle: "Burst setup",
+    rotation: [
+      "Drop Grounding Totem to eat a key CC/nuke; Tremor vs Fear teams.",
+      "Set up with a partner's CC, then Elemental Mastery + Lightning Bolt for a guaranteed crit.",
+      "Chain Lightning for cleave/pressure; Purge the enemy healer's shields/HoTs.",
+      "Earthbind / Frost Shock to kite melee; Ghost Wolf + Nature's Swiftness heal to reset.",
+      "Grounding + trinket to survive the swap; Stoneclaw/Earth Elemental for extra peels.",
+    ],
+    playstyle:
+      "You're a glass-cannon caster with totem tricks. Bank Elemental Mastery for a guaranteed-crit kill shot when the healer is CC'd, and micro your totems constantly — Grounding a Polymorph/Fear, Tremor a Fear chain, Earthbind a melee. Kite with Frost Shock and Ghost Wolf; you have no blink, so positioning and peels keep you alive.",
+    commonMistakes: [
+      "Blowing Elemental Mastery on cooldown instead of into a setup.",
+      "Ignoring totem micro (Grounding/Tremor) that would win the fight.",
+      "Standing in melee range with no peel and getting trained down.",
+    ],
+    faq: [
+      { question: "Is Elemental Shaman good in arena?", answer: "In the right caster comp, yes — Elemental Mastery burst plus totem utility and Purge are strong. It's fragile and kiteable, so it needs a peeling partner." },
+      { question: "What does Grounding Totem do for me?", answer: "It absorbs the next harmful spell cast at your team — huge for eating a Polymorph, Fear, or a big nuke during a swap." },
+    ],
+  },
+
+  // ─────────────────────────── Shaman / Elemental / PvE
+  {
+    class: "shaman",
+    spec: "elemental",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Elemental Shaman is a caster-DPS that doubles as a group buffer. Wrath of Air Totem gives your caster group spell haste, Totem of Wrath adds spell crit/hit, and your Lightning Bolt nuke provides solid personal DPS. You're placed in a caster group to hand out those totems while parsing well yourself.\n\nThe rotation is straightforward — nuke with Lightning Bolt, weave Chain Lightning and Elemental Mastery — with the real skill being totem management and hit-capping.",
+    strengths: [
+      "Wrath of Air + Totem of Wrath buff the whole caster group",
+      "Reliable ranged DPS with Elemental Mastery burst",
+      "Bloodlust/Heroism for the raid (Shaman staple)",
+    ],
+    weaknesses: [
+      "Mana-hungry — needs Clearcasting/regen management",
+      "Value is tied to being in a caster group",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Drop Totem of Wrath, Wrath of Air, and your fire/mana totems for the group.",
+      "Flame Shock for the DoT, then spam Lightning Bolt as your main nuke.",
+      "Chain Lightning on cooldown/cleave; Elemental Mastery + trinkets on cooldown.",
+      "Reach the spell hit cap (accounting for Totem of Wrath and Draenei).",
+      "Bloodlust at the optimal burn window; manage mana with Clearcasting.",
+    ],
+    playstyle:
+      "Keep the right totems down for your caster group and nuke with Lightning Bolt. Use Elemental Mastery + trinkets on cooldown and align them with Bloodlust for the big window. Watch mana — Elemental drinks it fast — and refresh Flame Shock without clipping. Hit-cap before stacking spell power and crit.",
+    commonMistakes: [
+      "Wrong or missing totems — you owe the group Totem of Wrath + Wrath of Air.",
+      "Ignoring the hit cap and losing nukes to misses.",
+      "Running dry by not managing Clearcasting/mana totems.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Why bring Elemental Shaman?", answer: "Totem of Wrath and Wrath of Air buff the caster group's crit/hit/haste, plus Bloodlust and solid personal DPS. It's a support-nuke in a caster camp." },
+      { question: "What's the spell hit cap?", answer: "16% base, reduced by Totem of Wrath's hit and the Draenei racial. See the stat caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Shaman / Enhancement / PvP
+  {
+    class: "shaman",
+    spec: "enhancement",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Enhancement Shaman is a burst-melee arena spec with a unique toolkit: Windfury weapon can deliver a massive spike of damage, Nature's Swiftness + instant Shock (or heal) is a clutch cast, and totems bring control. Shaman is one of the few melee that also carries a strong off-heal and Purge, making Enhancement a self-sufficient pressure class in cleaves.\n\nYou play for Windfury burst windows and totem control, sticking to a target with Frost Shock slows while using Nature's Swiftness heals and Grounding Totem to survive.",
+    strengths: [
+      "Windfury burst can global a target in a good proc window",
+      "Nature's Swiftness instant heal + Purge + totems = self-sufficient",
+      "Frost Shock and Earthbind Totem keep targets in melee range",
+    ],
+    weaknesses: [
+      "No gap closer or stun — kiteable by ranged with a peel",
+      "RNG-dependent burst (Windfury procs)",
+    ],
+    rotationTitle: "Burst & pressure",
+    rotation: [
+      "Stick to the target with Frost Shock slows and Earthbind Totem.",
+      "Stormstrike + Windfury autos for the burst; Earth Shock to interrupt a cast.",
+      "Purge the enemy healer's shields/HoTs; Grounding Totem to eat a key spell.",
+      "Nature's Swiftness → instant Healing Wave to survive; Shamanistic Rage vs casters.",
+      "Trinket the hard CC; drop Tremor Totem against Fear comps.",
+    ],
+    playstyle:
+      "Enhancement is a pressure-and-utility melee: apply constant Windfury/Stormstrike damage, Purge the healer, and Earth Shock to interrupt. Your Nature's Swiftness heal and Shamanistic Rage make you hard to burst down. The burst is proc-dependent, so keep uptime high and pounce when Windfury lines up during a healer CC.",
+    commonMistakes: [
+      "Wasting Earth Shock as damage instead of saving it to interrupt a heal.",
+      "Forgetting to Purge shields/HoTs off the kill target.",
+      "Using Nature's Swiftness offensively when you need it to survive.",
+    ],
+    faq: [
+      { question: "Does Enhancement have burst?", answer: "Yes, but it's Windfury-proc dependent — a good proc window can global a target. Consistent Stormstrike/Frost Shock pressure fills the gaps." },
+      { question: "How does Enhancement survive melee/caster pressure?", answer: "Nature's Swiftness instant heals, Shamanistic Rage vs casters, Grounding/Tremor totems and the PvP trinket. It's one of the more self-sufficient melee." },
+    ],
+  },
+
+  // ─────────────────────────── Shaman / Enhancement / PvE
+  {
+    class: "shaman",
+    spec: "enhancement",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Enhancement Shaman is a melee-DPS support that's mandatory in a melee group for its totems: Windfury Totem massively boosts the group's melee damage, Strength of Earth buffs AP, and Grace of Air adds Agility. Your personal DPS is solid, but the Windfury Totem you bring makes every melee next to you hit harder — a huge raid multiplier.\n\nYou play a Stormstrike/Shock priority with Lava Lash and weave in Flametongue/Windfury weapon, all while keeping the group's totems perfect.",
+    strengths: [
+      "Windfury Totem is a massive melee-group damage buff",
+      "Strength of Earth / Grace of Air round out melee support",
+      "Bloodlust/Heroism plus respectable personal DPS",
+    ],
+    weaknesses: [
+      "Value is tied to being in a melee group",
+      "Gear- and hit-dependent to reach its damage ceiling",
+    ],
+    rotationTitle: "Melee priority",
+    rotation: [
+      "Drop Windfury, Strength of Earth and Grace of Air totems for the melee group.",
+      "Stormstrike on cooldown, then Earth Shock/Flame Shock and Lava Lash by priority.",
+      "Keep Flametongue or Windfury weapon imbue up; maintain your shock priority.",
+      "Reach the melee hit/expertise your specials need before stacking AP/Agility.",
+      "Bloodlust at the burn window; align trinkets with it.",
+    ],
+    playstyle:
+      "Your totems come first — Windfury Totem for the group is worth more than a few personal DPS. Keep Stormstrike on cooldown, weave shocks, and maintain your weapon imbue. Hit and expertise matter a lot for Enhancement's yellow hits; cap those, then stack AP and Agility. Sync Bloodlust with the raid's burst.",
+    commonMistakes: [
+      "Dropping the wrong totems or missing Windfury Totem for the melee.",
+      "Under hit/expertise cap, causing missed Stormstrikes.",
+      "Letting the weapon imbue (Windfury/Flametongue) lapse.",
+    ],
+    bestProfessions: ["leatherworking", "jewelcrafting"],
+    faq: [
+      { question: "Why is Enhancement wanted in raids?", answer: "Windfury Totem is a large melee-group damage buff, on top of Strength of Earth, Grace of Air and Bloodlust. One Enhancement Shaman lifts an entire melee group." },
+      { question: "What stats matter for Enhancement?", answer: "Hit and expertise to land specials, then attack power and Agility. See the stat caps below for the exact targets." },
+    ],
+  },
+
+  // ─────────────────────────── Shaman / Restoration / PvP
+  {
+    class: "shaman",
+    spec: "restoration",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Restoration Shaman is a top-tier arena healer thanks to totem utility and instant-heal potential. Nature's Swiftness + Chain Heal or Healing Wave is a huge instant clutch heal, Grounding Totem eats a key cast, Tremor Totem breaks Fear, and Earthbind slows melee. Resto Shaman anchors caster cleaves and melee comps alike with the best anti-CC totem kit in the game.\n\nYour job is efficient topping plus totem micro: eat the enemy's important spell with Grounding, break Fears with Tremor, and land a Nature's Swiftness heal when your partner is about to die.",
+    strengths: [
+      "Best anti-CC totems — Grounding, Tremor, Earthbind",
+      "Nature's Swiftness instant Chain/Healing Wave saves kills",
+      "Purge to strip enemy shields/HoTs; strong mana efficiency",
+    ],
+    weaknesses: [
+      "No mobility escape and no hard damage-reduction cooldown like Pain Suppression",
+      "Interrupt-vulnerable; must juke and LoS to keep casting",
+    ],
+    rotationTitle: "Healing & totem control",
+    rotation: [
+      "Keep the trained partner up with efficient Lesser Healing Wave; Chain Heal in cleaves.",
+      "Grounding Totem to eat a Polymorph/Fear/nuke; Tremor vs Fear teams; Earthbind vs melee.",
+      "Nature's Swiftness → instant big heal when your partner is about to die.",
+      "Purge the enemy healer's shields/HoTs; Earth Shock/Wind Shear to interrupt a cast.",
+      "Trinket the hard CC; re-drop totems after they're killed or expire.",
+    ],
+    playstyle:
+      "Totem micro is what separates good Resto Shamans — Ground the enemy's key cast, Tremor their Fear, Earthbind their melee, every fight. Heal efficiently with Lesser Healing Wave and bank Nature's Swiftness for the clutch. You have no escape, so use pillars and peels to avoid being trained, and juke interrupts before every big cast.",
+    commonMistakes: [
+      "Not re-dropping Grounding/Tremor after they're consumed or killed.",
+      "Saving Nature's Swiftness too long and losing the partner.",
+      "Casting into interrupts instead of juking against melee.",
+    ],
+    faq: [
+      { question: "Is Resto Shaman a good arena healer?", answer: "Yes — top-tier. Grounding/Tremor/Earthbind totems, Nature's Swiftness clutch heals and Purge make it one of the best-supported healers in TBC arena." },
+      { question: "How do I survive without an escape?", answer: "Positioning and totems — Earthbind and peels to keep melee off, Grounding to eat casts, and the PvP trinket + Nature's Swiftness to break a burst window." },
+    ],
+  },
+
+  // ─────────────────────────── Shaman / Restoration / PvE
+  {
+    class: "shaman",
+    spec: "restoration",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Restoration Shaman is a premier raid healer built around Chain Heal — a smart, bouncing heal that's absurdly efficient in stacked groups — and, of course, Bloodlust/Heroism. Your Mana Spring/Healing Stream totems, Earth Shield on the tank, and group healing make you a staple in every TBC raid comp.\n\nYou play a Chain Heal-centric healing game, keep Earth Shield rolling on a tank, and manage your totem drops for the raid.",
+    strengths: [
+      "Chain Heal is the most efficient group heal in the game",
+      "Bloodlust/Heroism — a raid-defining cooldown",
+      "Earth Shield + totems bring strong tank and raid support",
+    ],
+    weaknesses: [
+      "Chain Heal wants stacked groups to shine",
+      "Weaker at pure single-target tank healing than a Paladin",
+    ],
+    rotationTitle: "Healing priority",
+    rotation: [
+      "Keep Earth Shield on the main tank; refresh before charges run out.",
+      "Chain Heal as your main group heal; Lesser Healing Wave for fast single-target.",
+      "Drop Mana Spring / Healing Stream and the raid's assigned totems.",
+      "Bloodlust/Heroism at the optimal burn or heavy-damage window.",
+      "Manage mana with Water Shield and downranking on light damage.",
+    ],
+    playstyle:
+      "Chain Heal is your bread and butter — position so it bounces to the most hurt targets, and keep Earth Shield on the tank at all times. Provide Bloodlust at the called window and keep your totems relevant. Downrank and use Water Shield to stay efficient across a long fight.",
+    commonMistakes: [
+      "Letting Earth Shield drop off the tank.",
+      "Chain Healing spread targets where it can't bounce efficiently.",
+      "Forgetting or mistiming Bloodlust — coordinate it with the raid.",
+    ],
+    bestProfessions: ["jewelcrafting", "tailoring"],
+    faq: [
+      { question: "Why is Resto Shaman in every raid?", answer: "Chain Heal efficiency plus Bloodlust/Heroism, Earth Shield and mana totems make it a mandatory raid healer and buffer." },
+      { question: "How do I maximize Chain Heal?", answer: "Stand where it can bounce between grouped, injured targets, and assign yourself to a stacked melee/caster group. See the stat caps for the mp5/healing balance." },
+    ],
+  },
 ];
 
 const KEY = (c: string, s: string, ct: string) => `${c}/${s}/${ct}`;
