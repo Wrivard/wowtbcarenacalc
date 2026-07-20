@@ -6,6 +6,7 @@ import { ConsentGatedScripts } from "@/components/ConsentGatedScripts";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { WowheadTooltips } from "@/components/WowheadTooltips";
+import { JsonLd, organizationJsonLd, webSiteJsonLd } from "@/components/seo/JsonLd";
 import { ADSENSE_CLIENT, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -26,16 +27,9 @@ export const metadata: Metadata = {
     template: "%s — WoW TBC",
   },
   description: SITE_DESCRIPTION,
-  keywords: [
-    "tbc classic bis",
-    "tbc bis list",
-    "tbc talent calculator",
-    "wow tbc arena points calculator",
-    "tbc arena calculator",
-    "tbc classic arena points",
-    "tbc anniversary",
-    "burning crusade classic bis",
-  ],
+  // No site-wide <meta name="keywords">: Google ignores it and a single
+  // repeated keyword set across every page is noise. Ranking signal lives
+  // in unique per-page titles/descriptions/H1s instead.
   openGraph: {
     type: "website",
     url: SITE_URL,
@@ -72,6 +66,12 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-full flex-col">
+        <JsonLd
+          data={[
+            organizationJsonLd(SITE_NAME, SITE_URL, "/images/logo.png"),
+            webSiteJsonLd(SITE_NAME, SITE_URL),
+          ]}
+        />
         <ConsentProvider>
           <Header />
           <div className="flex-1">{children}</div>

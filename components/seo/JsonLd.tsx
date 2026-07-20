@@ -84,6 +84,25 @@ export function howToJsonLd(
   };
 }
 
+export function organizationJsonLd(name: string, url: string, logo: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name,
+    url,
+    logo: `${url}${logo}`,
+  };
+}
+
+export function webSiteJsonLd(name: string, url: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name,
+    url,
+  };
+}
+
 export function webApplicationJsonLd(name: string, url: string, description: string) {
   return {
     "@context": "https://schema.org",
