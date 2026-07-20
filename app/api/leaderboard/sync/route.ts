@@ -1,19 +1,16 @@
-// Arena leaderboard sync — invoked by the Vercel cron (see vercel.json,
-// every 6 hours).
+// Arena leaderboard sync / health check — invoked by the Vercel cron
+// (see vercel.json, every 6 hours).
 //
-// ⚠️ NOT YET WIRED TO A LIVE FEED. Before enabling in production:
-//   1. Confirm the ironforge.pro (or chosen) arena-ladder source permits
-//      automated fetching + redistribution under its Terms of Service.
-//   2. Fetch each bracket's ladder, filter to arena-ACTIVE players
-//      (min rating + recent games — same rule as the BiS snapshot), and
-//      map to LeaderboardSnapshot.
-//   3. Persist the result (Vercel Blob, KV, or /public/data/leaderboard/*.json)
-//      and flip isSample to false so the UI drops the "sample data" banner.
-//
-// Until then this endpoint intentionally returns 501 so a misconfigured
-// cron can't silently publish empty or fabricated ladder data.
+// The live data path is the official Battle.net PvP Season API via
+// lib/blizzard.ts (ToS-clean). The leaderboard page fetches it directly
+// with ISR (revalidate=3600), so this route mainly serves as a cron-driven
+// cache-warm + health check: it probes the live feed and reports whether
+// credentials are configured and the feed is reachable. It returns 200
+// with `live: true` once BLIZZARD_CLIENT_ID/SECRET (+ namespace/season)
+// are set, otherwise `live: false` (the page shows labeled sample data).
 
 import { NextResponse } from "next/server";
+import { fetchLiveSnapshot } from "@/lib/blizzard";
 
 export const dynamic = "force-dynamic";
 
@@ -28,12 +25,13 @@ export async function GET(request: Request) {
     }
   }
 
-  return NextResponse.json(
-    {
-      status: "not_implemented",
-      message:
-        "Leaderboard live sync is not enabled. Wire the ladder source (ToS-permitting), then persist a LeaderboardSnapshot and set isSample=false.",
-    },
-    { status: 501 },
-  );
+  const probe = await fetchLiveSnapshot("2s");
+  const live = probe !== null;
+  return NextResponse.json({
+    status: "ok",
+    live,
+    message: live
+      ? `Live Battle.net feed reachable (${probe?.entries.length ?? 0} 2v2 entries).`
+      : "No live feed — set BLIZZARD_CLIENT_ID/SECRET + BLIZZARD_PVP_NAMESPACE/SEASON_ID to enable. Serving labeled sample data.",
+  });
 }

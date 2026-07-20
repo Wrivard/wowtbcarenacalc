@@ -28,8 +28,8 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 ## 3. Live leaderboard — 🚧 (UI + cron scaffold done; live feed pending user decision)
 - ✅ `data/leaderboard.ts`: schema + Season 2 cutoffs (Glad/Duelist/Rival/Challenger) per bracket + **clearly-labeled SAMPLE snapshots** (`isSample: true`).
 - ✅ `/leaderboard`: bracket tabs, cutoff banner, class-colored team table (rank/players/rating/W-L/win%/realm), faction+class filters, pagination (25/50/100), all URL-param driven; Dataset JSON-LD; "sample data" banner; ISR `revalidate=3600`.
-- ✅ `/api/leaderboard/sync` route (returns 501 until wired; documents ToS + arena-active filter) + `vercel.json` cron every 6h. In navbar + sitemap.
-- ⬜ **Needs user decision:** confirm ironforge.pro (or other) feed + ToS, then implement the fetch in the sync route and flip `isSample` to false.
+- ✅ **Live feed wired to the official Battle.net PvP Season API** (`lib/blizzard.ts`) — the ToS-clean source (not scraping a third party). Env-gated OAuth client-credentials + leaderboard fetch + percentile cutoff computation; page prefers live, falls back to sample. `/api/leaderboard/sync` now probes the live feed (health check); `vercel.json` cron every 6h. `.env.example` documents the vars.
+- ⬜ **To go live (user action):** register a client at develop.battle.net and set `BLIZZARD_CLIENT_ID/SECRET`, `BLIZZARD_REGION`, `BLIZZARD_PVP_NAMESPACE`, `BLIZZARD_PVP_SEASON_ID` (verify namespace/season via `/data/wow/pvp-season/index`). Note: official leaderboard lacks class/spec + team comps — those need per-character enrichment (a follow-up).
 ## 5. Guide pages — 🚧 (5a remaining)
 - ✅ **5d** Best race per class (`data/bestRace.ts` → `/guides/best-race/[class]`, 9 pages).
 - ✅ **5c** Professions (`data/professions.ts` → `/guides/professions` sortable hub + `/guides/professions/[profession]`, 12 pages).

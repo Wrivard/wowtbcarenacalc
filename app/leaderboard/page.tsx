@@ -7,6 +7,7 @@ import {
   type Faction,
   type LeaderboardEntry,
 } from "@/data/leaderboard";
+import { fetchLiveSnapshot } from "@/lib/blizzard";
 import { CLASSES, getClass } from "@/lib/classes";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
@@ -70,7 +71,9 @@ export default async function LeaderboardPage({ searchParams }: { searchParams: 
   const per = PER_OPTIONS.includes(Number(first(sp.per))) ? Number(first(sp.per)) : 25;
   const page = Math.max(1, Number(first(sp.page)) || 1);
 
-  const snap = getSnapshot(bracket);
+  // Prefer the live Battle.net feed when credentials are configured;
+  // otherwise fall back to the clearly-labeled sample snapshot.
+  const snap = (await fetchLiveSnapshot(bracket)) ?? getSnapshot(bracket);
   let entries = snap.entries;
   if (faction === "horde" || faction === "alliance")
     entries = entries.filter((e) => e.faction === faction);
