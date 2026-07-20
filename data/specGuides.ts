@@ -1064,6 +1064,198 @@ export const SPEC_GUIDES: SpecGuide[] = [
       { question: "What stat matters most for Survival?", answer: "Agility, after the hit cap — it drives both your crit and the Expose Weakness AP the whole group gets. See the stat caps below." },
     ],
   },
+
+  // ─────────────────────────── Priest / Discipline / PvP
+  {
+    class: "priest",
+    spec: "discipline",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Discipline is the premier arena healer Priest spec. Pain Suppression (a strong damage-reduction cooldown) plus Power Infusion, a huge shield, and instant Flash Heals let a Disc Priest keep a pressured partner alive through burst that would kill any other healer. In double-DPS and caster cleaves, the Disc Priest is the glue.\n\nYour toolkit is proactive: shield before the swap, dispel the DoT/root that matters, and use Fear/Psychic Scream to buy time. Mana efficiency and juking interrupts are the skills that decide long games.",
+    strengths: [
+      "Pain Suppression + shields survive burst no other healer can",
+      "Power Infusion is a huge offensive cooldown for your partner",
+      "Mass Dispel, Fear and Mana Burn bring real utility",
+    ],
+    weaknesses: [
+      "Squishy when focused and out of cooldowns; no self-Freedom vs slows",
+      "Interrupt- and mana-burn-vulnerable if you don't juke",
+    ],
+    rotationTitle: "Healing & cooldown priority",
+    rotation: [
+      "Pre-shield (Power Word: Shield) the target being trained; keep Weakened Soul in mind.",
+      "Instant Flash Heal / Penance-style topping; big heals only when safe from interrupt.",
+      "Pain Suppression on your partner (or self) to survive a burst swap.",
+      "Fear / Psychic Scream to peel melee; Mass Dispel key magic (Ice Block, DoTs, HoTs).",
+      "Power Infusion your DPS for a kill window; trinket + Fear Ward against Fear chains.",
+    ],
+    playstyle:
+      "Play proactively — shield and pre-heal before the damage lands, and bank Pain Suppression for the real swap. Juke interrupts with a fake cast, LoS casters, and don't let a Warlock/Priest mana-burn you dry. Power Infusion is both a throughput and offensive tool: use it to force a kill when the enemy healer is CC'd.",
+    commonMistakes: [
+      "Holding Pain Suppression too long and losing the partner.",
+      "Casting into an obvious interrupt instead of juking first.",
+      "Forgetting Fear Ward / trinket against Fear-heavy comps.",
+    ],
+    faq: [
+      { question: "Is Discipline the best PvP Priest spec?", answer: "Yes — Pain Suppression, shields and Power Infusion make Disc the standard arena healing Priest over Holy or Shadow." },
+      { question: "How do I avoid getting mana-burned out?", answer: "LoS the burner, spread from Felhunters, don't over-cast, and use Dispersion-style patience — bank cooldowns to survive the burn window." },
+    ],
+  },
+
+  // ─────────────────────────── Priest / Discipline / PvE
+  {
+    class: "priest",
+    spec: "discipline",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Discipline is a raid-support healer whose signature is Power Infusion — a +20% haste/reduced-mana cooldown you hand to your best caster — and strong, efficient shielding. Disc doesn't top the healing meters like a CoH Priest, but its damage prevention (shields), Pain Suppression on the tank, and Power Infusion value make it a coveted raid slot.\n\nYou play a mix of proactive shielding and single-target topping, and you manage your Power Infusion target and Pain Suppression cooldown as raid tools.",
+    strengths: [
+      "Power Infusion boosts your top caster/healer's output",
+      "Shields prevent damage rather than react to it (efficient)",
+      "Pain Suppression is a raid-saving tank cooldown",
+    ],
+    weaknesses: [
+      "Lower raw HPS than Holy (CoH) Priests",
+      "Shield-based healing 'loses' to overhealing meters",
+    ],
+    rotationTitle: "Healing priority",
+    rotation: [
+      "Keep Power Word: Shield on the tank/incoming-damage targets; mind Weakened Soul.",
+      "Renew + Flash Heal for single-target topping; Greater Heal for big tank damage.",
+      "Power Infusion your assigned caster/healer on cooldown (or a burn phase).",
+      "Pain Suppression the tank through a big hit; Prayer of Mending rolling.",
+      "Manage mana with Shadowfiend and Judgement-of-Wisdom-style regen from the group.",
+    ],
+    playstyle:
+      "Disc is proactive: shield before damage, keep Prayer of Mending bouncing, and top with Flash/Greater Heal. Your unique levers are Power Infusion (give it to the highest-value target) and Pain Suppression (bank it for the tank's scary hits). Use Shadowfiend on cooldown to stay topped on mana.",
+    commonMistakes: [
+      "Not using Power Infusion on cooldown — it's free raid DPS/HPS.",
+      "Letting Weakened Soul block a shield when the tank needs it.",
+      "Judging yourself on meters — Disc prevents damage that never shows up as healing.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Disc or Holy for raiding?", answer: "Holy (Circle of Healing) posts higher raw HPS; Disc brings Power Infusion, efficient shields and Pain Suppression. Many raids want one of each." },
+      { question: "Who should get Power Infusion?", answer: "Your highest-output caster during a burn phase, or a healer during heavy damage. Coordinate the target before the pull." },
+    ],
+  },
+
+  // ─────────────────────────── Priest / Holy / PvP
+  {
+    class: "priest",
+    spec: "holy",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Holy is the off-meta PvP Priest spec — most arena Priests go Discipline for Pain Suppression, but Holy brings raw throughput and Spirit-based survivability through talents like Spirit of Redemption and Holy Concentration. In battlegrounds and some sustained-pressure comps, Holy's healing output and Guardian Spirit-style topping shine, but it lacks Disc's panic-button damage reduction.\n\nYou play a high-output topping game and lean on Fear, Dispel and positioning to survive rather than a hard cooldown.",
+    strengths: [
+      "Highest raw single-target healing output of the Priest specs",
+      "Holy Concentration mana efficiency during heavy healing",
+      "Strong in battlegrounds and sustained-pressure fights",
+    ],
+    weaknesses: [
+      "No Pain Suppression — worse at surviving burst swaps than Disc",
+      "Squishy when focused; relies on Fear and LoS to live",
+    ],
+    rotationTitle: "Healing & control",
+    rotation: [
+      "Keep the trained partner topped with instant Flash Heal; Renew rolling.",
+      "Greater Heal only when safe from interrupt; juke casts against melee.",
+      "Fear / Psychic Scream to peel; Mass Dispel key magic (Ice Block, DoTs).",
+      "Prayer of Mending pre-cast before the swap for free reactive healing.",
+      "Trinket + Fear Ward vs Fear chains; LoS casters to bait interrupts.",
+    ],
+    playstyle:
+      "Without Pain Suppression, Holy survives through output and positioning — pre-heal, LoS, and Fear the melee before you get low. Your throughput is higher than Disc's, so you can out-heal sustained pressure, but you must respect burst by keeping Fear and trinket ready and never getting caught mid-cast.",
+    commonMistakes: [
+      "Playing Holy into a hard-swap comp where Disc's Pain Suppression is needed.",
+      "Getting caught casting Greater Heal into a stun/interrupt.",
+      "Wasting Fear early instead of saving it for the kill attempt on you.",
+    ],
+    faq: [
+      { question: "Should I PvP as Holy Priest?", answer: "Discipline is the arena standard for Pain Suppression. Holy is a throughput pick that's fine in battlegrounds and sustained comps but weaker against hard swaps." },
+      { question: "How does Holy survive without Pain Suppression?", answer: "Higher raw healing, Fear/Psychic Scream peels, LoS and pre-healing. You prevent deaths with output and positioning rather than a damage-reduction button." },
+    ],
+  },
+
+  // ─────────────────────────── Priest / Shadow / PvP
+  {
+    class: "priest",
+    spec: "shadow",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Shadow Priest is a pressure-and-utility DPS in arena. Vampiric Touch returns mana to your whole party (huge in a caster comp), Vampiric Embrace heals the team from your damage, and Silence + Psychic Scream + Dispersion give you control and survivability. You rarely land a clean solo kill, but your constant DoT pressure and mana battery make comps like Shadow/Ele or RMP-style caster cleaves tick.\n\nYou spread DoTs, dispel-protect them with sheer volume, and use Silence/Fear/Mana Burn to swing the game while feeding your team mana.",
+    strengths: [
+      "Vampiric Touch mana return + Vampiric Embrace healing sustain the team",
+      "Silence, Psychic Scream, Mana Burn and Dispersion bring strong control/survivability",
+      "Constant DoT pressure forces enemy healing",
+    ],
+    weaknesses: [
+      "Low burst — struggles to secure kills without a partner's help",
+      "DoTs are dispellable; squishy if trained without Dispersion up",
+    ],
+    rotationTitle: "Pressure & control",
+    rotation: [
+      "Apply Shadow Word: Pain, Vampiric Touch and Devouring Plague across targets for pressure + mana.",
+      "Mind Blast + Mind Flay on the kill target; Silence their healer's cast.",
+      "Psychic Scream to peel melee; Mana Burn a healer low on mana.",
+      "Dispersion to survive a train and refill mana; trinket the hard CC.",
+      "Vampiric Embrace up so your damage heals the team during the grind.",
+    ],
+    playstyle:
+      "You are a mana battery and pressure engine, not an assassin. Keep DoTs on everything, Silence key heals, and feed your team mana with Vampiric Touch. Use Dispersion proactively when trained — it's your reset button. Coordinate kills with your partner's burst rather than trying to solo a target.",
+    commonMistakes: [
+      "Saving Dispersion until you're already dead instead of pre-empting the train.",
+      "Letting DoTs fall off and losing both pressure and party mana.",
+      "Wasting Silence on cooldown instead of on the healer's key cast.",
+    ],
+    faq: [
+      { question: "Can Shadow Priest carry a 2s?", answer: "It's better in 3s/5s as a pressure + mana battery. Low burst makes solo kills hard, but DoT pressure and utility are strong in coordinated comps." },
+      { question: "Why is Shadow Priest wanted in caster comps?", answer: "Vampiric Touch refunds mana to the whole party and Vampiric Embrace heals from your damage — it keeps a caster cleave's resources up all game." },
+    ],
+  },
+
+  // ─────────────────────────── Priest / Shadow / PvE
+  {
+    class: "priest",
+    spec: "shadow",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Shadow Priest is a raid-defining support-DPS in TBC. Vampiric Touch returns mana to the whole caster group (replenishing your Mages and Warlocks), and Misery adds a spell-hit/damage debuff to the boss. Your personal DPS is respectable, but you're brought first and foremost for the mana battery and Misery — a well-played Shadow Priest lets an entire caster camp go all-out.\n\nThe rotation is a strict DoT-and-filler priority: keep everything ticking, hit-cap with Shadow Weaving/Misery in mind, and never clip your DoTs.",
+    strengths: [
+      "Vampiric Touch fuels the caster group's mana (irreplaceable)",
+      "Misery adds spell hit/damage for the whole raid on the boss",
+      "Solid, steady personal DPS on top of the utility",
+    ],
+    weaknesses: [
+      "Brought for utility more than top personal parse",
+      "Punished by movement — dropped DoTs cost damage and mana return",
+    ],
+    rotationTitle: "DoT priority",
+    rotation: [
+      "Open Vampiric Touch first (it powers group mana), then Shadow Word: Pain and Devouring Plague.",
+      "Mind Blast on cooldown; Mind Flay as filler between DoT refreshes.",
+      "Keep all three DoTs rolling without clipping; maintain Shadow Weaving stacks.",
+      "Reach the spell hit cap (accounting for Misery/Shadow Focus and Draenei).",
+      "Shadowfiend for personal mana; align trinkets/cooldowns with Bloodlust.",
+    ],
+    playstyle:
+      "Discipline is everything: Vampiric Touch always up (group mana depends on it), all DoTs ticking, Mind Blast on cooldown, Mind Flay filling. Hit-cap first so your DoTs and Mind Blasts land. On movement fights, refresh DoTs before you have to move so uptime — and the raid's mana — doesn't dip.",
+    commonMistakes: [
+      "Letting Vampiric Touch drop and starving the caster group of mana.",
+      "Clipping Mind Flay or refreshing DoTs too early.",
+      "Under the spell hit cap, causing missed DoTs and lost Shadow Weaving stacks.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Why is Shadow Priest mandatory in caster groups?", answer: "Vampiric Touch replenishes the group's mana and Misery adds raid spell hit/damage — one Shadow Priest keeps a whole caster camp casting at full tilt." },
+      { question: "What's the spell hit cap for Shadow?", answer: "16% base, reduced by Shadow Focus, Misery and the Draenei racial. See the stat caps below for the exact target with talents." },
+    ],
+  },
 ];
 
 const KEY = (c: string, s: string, ct: string) => `${c}/${s}/${ct}`;
