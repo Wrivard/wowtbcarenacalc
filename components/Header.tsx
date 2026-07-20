@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+// useEffect is still used by ToolsDropdown for outside-click handling.
 import { ChevronDown, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -143,11 +144,9 @@ function ToolsDropdown({ pathname }: { pathname: string }) {
 export function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
-
-  // Close the mobile sheet on route change.
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [pathname]);
+  // Close the mobile sheet on navigation — handled in the link onClick
+  // (event-driven) rather than an effect on pathname.
+  const closeMobile = () => setMobileOpen(false);
 
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/70">
@@ -205,6 +204,7 @@ export function Header() {
               <li key={item.href}>
                 <Link
                   href={item.href}
+                  onClick={closeMobile}
                   aria-current={isActive(pathname, item.href) ? "page" : undefined}
                   className={cn(
                     "block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
@@ -226,6 +226,7 @@ export function Header() {
               <li key={t.href}>
                 <Link
                   href={t.href}
+                  onClick={closeMobile}
                   className={cn(
                     "block rounded-lg px-3 py-2.5 text-sm transition-colors",
                     isActive(pathname, t.href)

@@ -14,9 +14,6 @@ export interface GearStep {
 function isCasterDps(classSlug: string, role: Role): boolean {
   return role === "Ranged DPS" && classSlug !== "hunter";
 }
-function isPhysical(classSlug: string, role: Role): boolean {
-  return role === "Melee DPS" || classSlug === "hunter";
-}
 
 export function getGearPriority(
   classSlug: string,

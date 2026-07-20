@@ -16,8 +16,6 @@ export interface StatCap {
   note: string;
 }
 
-const CASTER_CLASSES = new Set(["mage", "warlock", "priest", "shaman", "druid", "paladin"]);
-
 /** A ranged-DPS or healer spec that deals/relies on spell damage/hit. */
 function isCasterDps(classSlug: string, role: Role): boolean {
   return role === "Ranged DPS" && classSlug !== "hunter";
