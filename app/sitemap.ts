@@ -7,6 +7,7 @@ import { COMPS, compSlug } from "@/data/comps";
 import { getBestRace } from "@/data/bestRace";
 import { PROFESSIONS } from "@/data/professions";
 import { RAIDS, BOSSES, populatedPhases } from "@/data/raids";
+import { SPEC_GUIDES } from "@/data/specGuides";
 
 // Enumerates every indexable route from lib/classes.ts + the data
 // registries. BiS/talent pages whose dataset isn't curated yet render
@@ -78,6 +79,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}/arena/comps/${comp.bracket}/${compSlug(comp)}`,
       lastModified,
       changeFrequency: "weekly",
+      priority: 0.7,
+    });
+  }
+
+  // Class guide hubs — one per class.
+  for (const cls of CLASSES) {
+    entries.push({
+      url: `${SITE_URL}/guides/${cls.slug}`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  // Authored per-spec PvP/PvE guides.
+  for (const g of SPEC_GUIDES) {
+    entries.push({
+      url: `${SITE_URL}/guides/${g.class}/${g.spec}/${g.content}`,
+      lastModified: new Date(g.updatedAt),
+      changeFrequency: "monthly",
       priority: 0.7,
     });
   }

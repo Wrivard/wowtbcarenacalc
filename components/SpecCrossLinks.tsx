@@ -5,6 +5,7 @@
 import Link from "next/link";
 import type { ClassDef, SpecDef } from "@/lib/classes";
 import { compsForClass, guidesForClass } from "@/lib/interlinks";
+import { hasSpecGuide } from "@/data/specGuides";
 
 export function SpecCrossLinks({
   cls,
@@ -40,6 +41,13 @@ export function SpecCrossLinks({
     links.push({
       href: `/${cls.slug}/${sibling.slug}${current === "talents" ? "/talents" : sibling.pvp ? "/pvp" : "/pve/phase-1"}`,
       label: `${sibling.name} ${cls.name}`,
+    });
+  }
+  // The matching spec guide for this content, when authored.
+  if ((current === "pvp" || current === "pve") && hasSpecGuide(cls.slug, spec.slug, current)) {
+    links.unshift({
+      href: `/guides/${cls.slug}/${spec.slug}/${current}`,
+      label: `${spec.name} ${cls.name} ${current === "pvp" ? "PvP" : "PvE"} guide`,
     });
   }
   // Guides for this class (best race, addons & macros).

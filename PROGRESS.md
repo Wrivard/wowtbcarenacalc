@@ -37,7 +37,8 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - ✅ **5e** Addons (`data/addons.ts` → `/guides/addons` hub + `/guides/addons/[class]`, 9 pages, CurseForge links).
 - ✅ **5b** Macros (`data/macros.ts` + client `MacroList` copy-button component, grouped by category; rendered on each `/guides/addons/[class]` page).
 - ✅ Guides hub links best-race, professions, addons/macros.
-- ⬜ **5a** Per-spec PvP/PvE MDX guides (the big content build — 28 specs × 2, ≥800 words each).
+- ✅ **5a** Per-spec PvP/PvE guide architecture — `data/specGuides.ts` (authored prose layer) assembled with data layers into `/guides/[class]/[spec]/[content]`: overview, strengths/weaknesses, stat priority + caps, BiS link, talent summary, **rotation**, **macros**, **addons (content-filtered)**, **best race (content)**, **best professions (content)**, common mistakes, arena comps (PvP), FAQ+schema — all clearly PvP/PvE. `/guides/[class]` hub lists every spec's PvP/PvE guide (authored → link, else "soon") + race/professions/addons. Guides hub leads with class guides; BiS pages link their spec guide. Guide pages generate ONLY where authored (no thin content).
+  - Authored so far: rogue/subtlety/pvp, rogue/combat/pve, mage/frost/pvp, warrior/arms/pvp, priest/holy/pve. **Remaining specs: author prose in `data/specGuides.ts` (page + all data sections already work).**
 ## 6. Raids + boss strats — 🚧 (Phase 1 done; phases 2-5 pending)
 - ✅ Route tree: `/raids` hub → `/raids/[phase]` → `/raids/[phase]/[raid]` → `/raids/[phase]/[raid]/[boss]`.
 - ✅ `data/raids.ts`: **Phase 1** — Karazhan (9), Gruul's Lair (2), Magtheridon's Lair (1); **Phase 2** — Serpentshrine Cavern (6: Hydross, Lurker, Leotheras, Karathress, Morogrim, **Lady Vashj**), Tempest Keep (4: Al'ar, Void Reaver, Solarian, **Kael'thas**). Role-organized strategies, phases, common mistakes.

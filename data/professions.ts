@@ -225,4 +225,19 @@ export function getProfession(slug: string): Profession | undefined {
   return PROFESSIONS.find((p) => p.slug === slug);
 }
 
+/** Top professions for a class + content, best value first (non-gathering). */
+export function topProfessions(
+  classSlug: string,
+  content: "pvp" | "pve",
+  limit = 4,
+): Profession[] {
+  const order = (p: Profession) =>
+    PROF_TIER_ORDER[content === "pvp" ? p.pvpValue : p.pveValue];
+  return PROFESSIONS.filter(
+    (p) => !p.gathering && (p.bestFor.includes("all") || p.bestFor.includes(classSlug)),
+  )
+    .sort((a, b) => order(a) - order(b))
+    .slice(0, limit);
+}
+
 export const PROF_TIER_ORDER: Record<ProfTier, number> = { S: 0, A: 1, B: 2, C: 3 };

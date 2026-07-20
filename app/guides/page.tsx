@@ -40,18 +40,18 @@ export default function GuidesHub() {
       </PageHero>
 
       <main className="mx-auto max-w-[720px] px-4 pt-10">
-        <section aria-label="Best race per class">
-          <h2 className="text-lg font-semibold tracking-tight">
-            Best race per class
-          </h2>
+        <section aria-label="Class guides">
+          <h2 className="text-lg font-semibold tracking-tight">Class guides</h2>
           <p className="mt-1.5 text-sm text-muted">
-            Which racials matter most for each class in arena PvP and raid PvE.
+            Per-spec PvP and PvE guides — rotation, stat priority, BiS,
+            talents, macros, addons, best race and professions, all in one
+            place per class.
           </p>
-          <div className="mt-4 grid gap-2 sm:grid-cols-2">
+          <div className="mt-4 grid gap-2 sm:grid-cols-3">
             {CLASSES.map((cls) => (
               <Link
                 key={cls.slug}
-                href={`/guides/best-race/${cls.slug}`}
+                href={`/guides/${cls.slug}`}
                 className="flex items-center gap-2.5 rounded-xl border border-border bg-surface p-3 transition-colors hover:border-border-strong"
               >
                 <GameIcon
@@ -61,7 +61,7 @@ export default function GuidesHub() {
                   className="rounded"
                 />
                 <span className="text-sm font-medium text-foreground">
-                  Best race for {cls.name}
+                  {cls.name}
                 </span>
               </Link>
             ))}
@@ -101,18 +101,14 @@ export default function GuidesHub() {
         </section>
 
         <section className="mt-10 rounded-xl border border-border bg-surface p-6">
-          <h2 className="text-base font-semibold tracking-tight">
-            More guides coming
-          </h2>
-          <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
-            Per-spec PvP and PvE playstyle guides are being written. In the
-            meantime, browse{" "}
+          <p className="text-sm leading-relaxed text-muted-strong">
+            Per-spec guides are being expanded class by class. Gear is on the{" "}
             <Link href="/classes" className="text-accent underline-offset-2 hover:underline">
-              BiS lists &amp; talents
-            </Link>{" "}
-            or the{" "}
+              BiS lists
+            </Link>
+            , comps on the{" "}
             <Link href="/arena/comps" className="text-accent underline-offset-2 hover:underline">
-              arena comp tier list
+              arena tier list
             </Link>
             .
           </p>
