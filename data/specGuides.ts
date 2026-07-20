@@ -678,6 +678,392 @@ export const SPEC_GUIDES: SpecGuide[] = [
       { question: "Is Frost better for PvP or PvE?", answer: "PvP — Frost is the premier arena Mage. For raiding, Fire and Arcane are stronger." },
     ],
   },
+
+  // ─────────────────────────── Paladin / Holy / PvP
+  {
+    class: "paladin",
+    spec: "holy",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Holy Paladin is one of the strongest arena healers in TBC. A single, enormous Holy Light backed by Divine Favor and the right talents can top a raid-frame bar in one cast, and your Blessing of Freedom plus bubble make you very hard to lock down or kite. In the popular Retribution/Holy and melee-cleave comps, you are the anchor that outlasts the other healer.\n\nYour game is mana longevity and clutch cooldowns, not throughput variety. You have essentially one big heal, a Flash for topping, and a toolkit of Freedom, Sacrifice, bubble and Hand of Protection that decides whether your partner lives through a swap.",
+    strengths: [
+      "Huge single-target Holy Light throughput with Divine Favor",
+      "Bubble (Divine Shield) is the best panic button in the game",
+      "Freedom, Sacrifice and BoP counter slows, DoTs and swaps",
+    ],
+    weaknesses: [
+      "No group heal and no real offensive pressure",
+      "Vulnerable to mana burn, Spell Lock and long CC chains on the paladin",
+    ],
+    rotationTitle: "Healing & cooldown priority",
+    rotation: [
+      "Keep Blessing of Freedom on whoever is being trained; refresh before it drops.",
+      "Cast Holy Light as your main heal; weave Flash of Light only for cheap top-offs.",
+      "Divine Favor for a guaranteed-crit Holy Light when your partner is dropping fast.",
+      "Hand of Protection / Sacrifice to break a swap or clear a Kidney/Cheap Shot's damage.",
+      "Bubble to reset a losing position, then drink or re-position; trinket to break a stun before you die.",
+    ],
+    playstyle:
+      "You win by not dying and not running dry. Pre-Freedom your kill target against melee, LoS casters to bait interrupts, and hold Divine Shield until it genuinely saves the game. Bait the enemy's interrupt with a Flash, then land the real Holy Light. Against caster cleaves, juke Spell Lock/Counterspell before every big cast.",
+    commonMistakes: [
+      "Bubbling too late (after your partner is already dead).",
+      "Facetanking casters instead of using pillars to LoS their interrupts.",
+      "Spamming Flash of Light and going out of mana in a long game.",
+    ],
+    faq: [
+      { question: "Is Holy the best Paladin arena spec?", answer: "Yes — Holy is the go-to arena Paladin. Retribution is playable in specific melee comps, but Holy's healing and utility make it far more common." },
+      { question: "What comps does Holy Paladin fit?", answer: "Any melee cleave — Ret/Holy, Warrior/Holy, Rogue/Holy — where Freedom and a huge single-target heal keep the pressure partner alive. See the arena comps below." },
+      { question: "How do I not get mana-burned out?", answer: "LoS Priests, spread from the Warlock's Felhunter, and don't panic-Flash. Bank Divine Shield to break a burn/CC chain." },
+    ],
+  },
+
+  // ─────────────────────────── Paladin / Holy / PvE
+  {
+    class: "paladin",
+    spec: "holy",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Holy Paladin is a premier single-target raid healer in TBC. Blessing of Light plus a spammable Holy Light makes you the best tank healer in the game, and Beacon-style throughput isn't needed when your raw Holy Light output is this high. You also carry raid-wide value through Blessings (Kings, Wisdom, Might) and Judgement of Wisdom/Light for mana and healing return.\n\nYour role is narrow but elite: glue a Holy Light to the main tank, manage mana through Illumination and Judgement of Wisdom, and keep your assigned Blessings up on the raid.",
+    strengths: [
+      "Best-in-slot tank healer — enormous, efficient Holy Light",
+      "Raid-wide utility through Blessings and Judgements",
+      "Illumination makes crit-heavy healing very mana-efficient",
+    ],
+    weaknesses: [
+      "Poor at raid/AoE healing — single-target focused",
+      "Reliant on crit and Judgement of Wisdom for mana",
+    ],
+    rotationTitle: "Healing priority",
+    rotation: [
+      "Assign to the main tank; keep a rank-appropriate Holy Light rolling.",
+      "Keep Blessing of Light on the tank and your assigned Blessings (Kings/Wisdom/Might) on the raid.",
+      "Have a melee keep Judgement of Wisdom up so you regen mana while healing.",
+      "Use Divine Favor + Holy Light for a guaranteed clutch crit on a spike.",
+      "Downrank Holy Light on lighter damage to save mana; Flash of Light only for fast top-offs.",
+    ],
+    playstyle:
+      "Holy Paladin healing is about efficiency, not variety: crit + Illumination refunds most of your mana, so gear crit and keep Judgement of Wisdom on the boss. Stick to the tank, trust the other healers for raid damage, and pop Divine Illumination + a trinket during heavy phases. Manage Blessing assignments before the pull.",
+    commonMistakes: [
+      "Trying to raid-heal — that's the Priest/Shaman/Druid's job.",
+      "Healing without Judgement of Wisdom up and going oom.",
+      "Always casting max-rank Holy Light instead of downranking on light damage.",
+    ],
+    bestProfessions: ["jewelcrafting", "tailoring"],
+    faq: [
+      { question: "What makes Holy Paladin the best tank healer?", answer: "A huge, spammable Holy Light plus Blessing of Light and Illumination mana returns let you out-heal any single target more efficiently than other healers." },
+      { question: "What's the stat priority?", answer: "Intellect and spell crit (for Illumination) with enough mp5, then healing power. See the stat caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Paladin / Retribution / PvP
+  {
+    class: "paladin",
+    spec: "retribution",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Retribution Paladin is a burst-melee spec built around one thing: a Repentance into a Hammer of Justice stun, then a Crusader Strike + Judgement + Seal of Command burst that can delete a target. Paired with a Holy Paladin, Ret/Holy is a durable, high-pressure cleave that grinds teams down while being extremely hard to kill (bubble, plate, Blessings).\n\nYour damage is bursty and cooldown-gated rather than sustained, so you play for the kill window: land the stun, blow cooldowns and trinkets, and try to global a target before their healer reacts.",
+    strengths: [
+      "Big cooldown burst inside a Hammer of Justice stun",
+      "Plate + bubble + Blessings make it one of the tankiest DPS in arena",
+      "Repentance, Hammer of Justice and Freedom bring control and anti-kite",
+    ],
+    weaknesses: [
+      "Low sustained damage outside of cooldowns",
+      "Mana-dependent and easy to kite once cooldowns are down",
+    ],
+    rotationTitle: "Burst setup",
+    rotation: [
+      "Repentance the healer (or off-target) to open the kill window.",
+      "Hammer of Justice the kill target, then Crusader Strike + Judgement of the Crusader/Command.",
+      "Pop Avenging Wrath + trinket for the burst, with Seal of Command up for the extra hits.",
+      "Blessing of Freedom to stay on a kiting target; Cleanse yourself of slows/roots.",
+      "Divine Shield to survive a swap, then Hand of Protection your partner or bubble-cancel to keep pressure.",
+    ],
+    playstyle:
+      "Play around Avenging Wrath and the stun. You are a setup class: CC the healer, stun the kill target, and dump every cooldown into the window. Between bursts, keep Seal/Judgement pressure and Freedom yourself against kiters. Never waste bubble on chip damage — it's your only escape and your best offensive reset.",
+    commonMistakes: [
+      "Bursting without a stun or with the healer free to react.",
+      "Blowing Avenging Wrath off cooldown instead of syncing it to a kill attempt.",
+      "Getting kited to death because you forgot to Freedom yourself.",
+    ],
+    faq: [
+      { question: "Is Retribution viable in TBC arena?", answer: "Yes, in the right comp. Ret/Holy and Ret + melee cleaves are durable and hit hard in a stun; it's less flexible than a Rogue or Warrior but very tanky." },
+      { question: "What race is best for Ret PvP?", answer: "Blood Elf (Arcane Torrent silence) on Horde and Human (racials + Every Man for Himself-style trinket use of the PvP trinket) on Alliance — see the best-race guide." },
+    ],
+  },
+
+  // ─────────────────────────── Paladin / Retribution / PvE
+  {
+    class: "paladin",
+    spec: "retribution",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Retribution Paladin in raids is a hybrid melee DPS whose real value is buff/debuff support: Improved Blessing of Might, Judgement of Wisdom for the raid's mana, Judgement of the Crusader for melee, and Sanctity Aura all boost the group around you. Your personal DPS is middling but your presence lifts the whole melee camp.\n\nYou play a simple seal-twist-adjacent rotation and, above all, keep your Judgements and Blessings maintained on the boss and raid.",
+    strengths: [
+      "Strong raid support — Blessings, Judgements, Sanctity Aura",
+      "Provides mana (Judgement of Wisdom) for the whole raid",
+      "Simple, forgiving rotation",
+    ],
+    weaknesses: [
+      "Below-average personal DPS versus pure melee",
+      "Brings buff value more than parse value",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Keep Judgement of Wisdom (or Crusader, as assigned) up on the boss at all times.",
+      "Seal of Command or Blood; Crusader Strike and Judgement on cooldown.",
+      "Maintain Improved Blessing of Might on the melee and your assigned Blessings.",
+      "Auto-attack fills the gaps — align damage cooldowns with Bloodlust.",
+      "Hit the melee hit cap so your Judgements and Crusader Strikes land.",
+    ],
+    playstyle:
+      "Think of yourself as a walking buff kit with a weapon. Your Judgements and Blessings are worth more than your personal damage, so never let Judgement of Wisdom fall off and keep your Blessing assignments correct. Reach the hit/expertise your Judgements need, then stack Strength and Agility.",
+    commonMistakes: [
+      "Letting Judgement of Wisdom drop and starving the raid of mana.",
+      "Missing Judgements because you're under the hit cap.",
+      "Wrong Blessing assignments — coordinate with the other Paladins.",
+    ],
+    bestProfessions: ["jewelcrafting", "blacksmithing"],
+    faq: [
+      { question: "Is Ret Paladin good in PvE?", answer: "It's a support-DPS: personal damage is modest, but Judgement of Wisdom, Blessings and Sanctity Aura make the melee group stronger. Brought for utility more than parse." },
+      { question: "What's the hit cap for Ret?", answer: "Reach the melee/spell hit your Judgements and Crusader Strike need before stacking Strength/Agility — see the stat caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Hunter / Beast Mastery / PvP
+  {
+    class: "hunter",
+    spec: "beast-mastery",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Beast Mastery is the standard arena Hunter spec. The Beast Within (and Bestial Wrath) makes your pet immune to CC and hit like a truck for a window, giving you a second, uncontrollable source of pressure that a healer can't peel. Between that and your own ranged burst — Aimed Shot, Arcane Shot, and a trap-and-kite game — BM Hunters are a slippery, high-damage class in 2s and 3s.\n\nYour strength is disengaging: Freezing Trap, Scatter Shot, Wing Clip and the raw range let you reset fights, protect your healer, and force the enemy to fight on your terms.",
+    strengths: [
+      "Bestial Wrath gives an unpeelable, CC-immune pet burst window",
+      "Trap + Scatter + kiting is elite disengage and CC",
+      "Strong ranged uptime with Steady/Arcane/Aimed Shot",
+    ],
+    weaknesses: [
+      "Dead zone and melee range weakness if trained by a fast melee",
+      "Pet can be killed or LoS'd, cutting a big chunk of your pressure",
+    ],
+    rotationTitle: "Burst & control",
+    rotation: [
+      "Send the pet + Bestial Wrath (The Beast Within) for the unpeelable burst window.",
+      "Aimed Shot → Arcane Shot burst on the kill target inside the pet's window.",
+      "Freezing Trap the healer or off-target; Scatter Shot to chain CC or peel a melee off you.",
+      "Wing Clip / Concussive Shot and disengage to keep range; never sit in the dead zone.",
+      "Deterrence or trinket + trap to reset when trained; Feign Death to drop a cast or reset threat/CC.",
+    ],
+    playstyle:
+      "Create distance and dictate range. Use pillars and traps to reset, then burst with Bestial Wrath when the enemy healer is CC'd or out of position. Protect your pet — it's half your damage — and keep the healer trapped during your kill attempts. Against melee, kite with Wing Clip, Scatter, and Frost Trap rather than trading in the dead zone.",
+    commonMistakes: [
+      "Bursting into a free healer instead of trapping them first.",
+      "Letting the enemy sit in your dead zone (5–8 yards) where you can't shoot.",
+      "Losing the pet to cleave or LoS and keeping only half your damage.",
+    ],
+    faq: [
+      { question: "Is Beast Mastery the best Hunter arena spec?", answer: "Yes — Bestial Wrath's CC-immune pet burst and BM's survivability make it the standard arena build over Marksmanship and Survival." },
+      { question: "How do I deal with being trained by melee?", answer: "Kite with Frost Trap, Wing Clip, Scatter Shot and disengage around pillars; use Deterrence and the PvP trinket to buy trap resets. Don't fight in the dead zone." },
+    ],
+  },
+
+  // ─────────────────────────── Hunter / Beast Mastery / PvE
+  {
+    class: "hunter",
+    spec: "beast-mastery",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Beast Mastery is a top raid DPS spec in early TBC. Your pet contributes a large, scaling share of your damage (Ferocious Inspiration also buffs the raid by 3%), and a well-fed exotic pet plus Bestial Wrath windows push BM to the front of the meter on Phase 1–2 content. The rotation is a smooth Steady Shot weave that's easy to sustain for a full fight.\n\nYou live and die by pet uptime and the hit cap: keep the pet alive and attacking, hit-cap yourself, and manage your shot weave without clipping.",
+    strengths: [
+      "High personal DPS with strong pet scaling in early TBC",
+      "Ferocious Inspiration buffs the whole raid's damage",
+      "Smooth, sustainable Steady Shot weave",
+    ],
+    weaknesses: [
+      "Pet death or fire/cleave fights hurt a large chunk of your damage",
+      "Falls off relative to Survival/MM later as gear scales",
+    ],
+    rotationTitle: "Shot priority",
+    rotation: [
+      "Hunter's Mark + keep the pet on the boss with Bestial Wrath on cooldown.",
+      "Serpent Sting up, then Steady Shot weaved between auto-shots without clipping.",
+      "Arcane Shot on cooldown if mana allows; Kill Command when the pet crits.",
+      "Reach the ranged hit cap (9%, less with talents/Draenei) before other stats.",
+      "Misdirection to the tank on pull; align Bestial Wrath + Rapid Fire with Bloodlust.",
+    ],
+    playstyle:
+      "The whole game is a clean Steady Shot weave and pet uptime. Cap hit first, keep Serpent Sting and Hunter's Mark rolling, and use Kill Command whenever your pet crits. Position the pet to survive cleaves, and sync Rapid Fire + Bestial Wrath + trinkets with Bloodlust for the big burst window.",
+    commonMistakes: [
+      "Clipping auto-shots by firing Steady Shot too early.",
+      "Not hit-capped, causing missed shots and lost Kill Commands.",
+      "Letting the pet die or stand in avoidable damage.",
+    ],
+    bestProfessions: ["engineering", "leatherworking"],
+    faq: [
+      { question: "Is BM or Survival better for raiding?", answer: "BM is excellent in early TBC (Phase 1–2); Survival scales better with gear and group crit later. Both are viable — BM is the simpler, front-loaded pick." },
+      { question: "What's the ranged hit cap?", answer: "9% (142 hit rating), reduced by talents and the Draenei racial. See the stat caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Hunter / Marksmanship / PvP
+  {
+    class: "hunter",
+    spec: "marksmanship",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Marksmanship is the burst-focused arena alternative to BM. Aimed Shot's big up-front hit plus Silencing Shot (a 3-second lockout on a caster) give MM a strong kill-and-interrupt game, and Scatter Shot into Aimed Shot can burst a target very quickly. It trades BM's unpeelable pet burst and survivability for higher, more controllable ranged damage.\n\nYou play as a caster-hunter: land Silencing Shot on the enemy healer, set up with Scatter/Trap, and unload Aimed + Arcane in the opening.",
+    strengths: [
+      "Silencing Shot locks out a caster for 3s — a real interrupt",
+      "High controllable burst via Aimed Shot",
+      "Strong against caster comps you can silence and trap",
+    ],
+    weaknesses: [
+      "Less survivable than BM; weaker sustained pressure",
+      "Very reliant on landing setups (Scatter → Aimed, Silence on cast)",
+    ],
+    rotationTitle: "Burst & interrupt",
+    rotation: [
+      "Silencing Shot the healer as they cast to open a kill window.",
+      "Scatter Shot the kill target → Aimed Shot → Arcane Shot burst.",
+      "Freezing Trap the off-target or re-trap the healer between casts.",
+      "Kite with Wing Clip / Concussive / Frost Trap; keep out of the dead zone.",
+      "Deterrence + trinket + trap to reset when trained.",
+    ],
+    playstyle:
+      "MM is a timing spec — your damage comes in setup windows, so save Silencing Shot for the healer's important cast and chain your CC to keep them off the field. Kite melee the same as BM, but respect that you're squishier; use range and pillars religiously.",
+    commonMistakes: [
+      "Wasting Silencing Shot on cooldown instead of on a key heal.",
+      "Aimed Shot with no Scatter/Trap setup — it just gets healed.",
+      "Playing MM into a comp that trains you when BM would survive better.",
+    ],
+    faq: [
+      { question: "MM or BM for arena?", answer: "BM is the standard for survivability and pet burst; MM is a burst/interrupt pick that shines against caster comps you can Silencing-Shot. Most Hunters play BM." },
+      { question: "How useful is Silencing Shot?", answer: "Very — a 3-second caster lockout on a 20-second cooldown is real interrupt utility that BM lacks." },
+    ],
+  },
+
+  // ─────────────────────────── Hunter / Marksmanship / PvE
+  {
+    class: "hunter",
+    spec: "marksmanship",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Marksmanship is a strong raid spec whose real strength is Trueshot Aura — a raid-wide attack-power buff — on top of solid personal ranged DPS. The rotation centers on Aimed Shot and a Steady Shot weave, and MM scales well without leaning as hard on the pet as BM does, making it reliable on cleave and movement fights.\n\nBring MM for Trueshot Aura and consistent damage; the playstyle is a disciplined shot weave built around not clipping.",
+    strengths: [
+      "Trueshot Aura buffs the whole raid's attack power",
+      "Reliable personal DPS that isn't pet-dependent",
+      "Good on movement/cleave fights",
+    ],
+    weaknesses: [
+      "Tighter shot weaving — clipping is punishing",
+      "Mana-hungry without good gear/regen",
+    ],
+    rotationTitle: "Shot priority",
+    rotation: [
+      "Hunter's Mark + Trueshot Aura up; Serpent Sting on the boss.",
+      "Aimed Shot on cooldown, Steady Shot weaved cleanly between autos.",
+      "Arcane Shot as a filler when mana allows.",
+      "Cap ranged hit (9%, less with talents/Draenei) before stacking Agility/AP.",
+      "Misdirection on pull; sync Rapid Fire + trinkets with Bloodlust.",
+    ],
+    playstyle:
+      "MM is a metronome: Aimed on cooldown, Steady between autos, never clip. Keep Serpent Sting and Hunter's Mark up, watch mana (Aspect swaps, Viper if needed), and provide Trueshot Aura for the raid. Line up Rapid Fire and trinkets with Bloodlust for peak burst.",
+    commonMistakes: [
+      "Clipping auto-shots with a mistimed Steady Shot.",
+      "Forgetting Trueshot Aura — a big raid buff you uniquely provide.",
+      "Going oom from over-using Arcane Shot without regen.",
+    ],
+    bestProfessions: ["engineering", "leatherworking"],
+    faq: [
+      { question: "Why bring Marksmanship?", answer: "Trueshot Aura (raid AP buff) plus reliable, pet-independent DPS. It's a strong all-rounder that shines on cleave and movement fights." },
+      { question: "Is MM hard to play well?", answer: "The shot weave is less forgiving than BM's — clipping auto-shots is the main skill check. Get a shot-timing addon and practice the rhythm." },
+    ],
+  },
+
+  // ─────────────────────────── Hunter / Survival / PvP
+  {
+    class: "hunter",
+    spec: "survival",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Survival is a control-and-utility arena spec. Its talents lean into trapping (Improved Wing Clip, Entrapment, Deterrence, Readiness for a second set of cooldowns) and Expose Weakness-style scaling, giving you a lockdown game more than a burst game. Readiness resetting your traps, Rapid Fire and Deterrence is the signature Survival tool.\n\nYou win by kiting and CC: chain traps and slows, protect your healer, and grind the enemy down while never letting a melee stick to you.",
+    strengths: [
+      "Readiness resets traps and cooldowns for double disengage/CC",
+      "Best kiting and lockdown toolkit of the three specs",
+      "Strong utility scaling (Expose Weakness) in a cleave",
+    ],
+    weaknesses: [
+      "Lower raw burst than BM/MM",
+      "Relies on landing traps and staying at range to shine",
+    ],
+    rotationTitle: "Control & kite",
+    rotation: [
+      "Open with a Freezing Trap on the healer; keep Serpent Sting and Wing Clip pressure.",
+      "Scatter Shot → re-trap or burst with Aimed/Arcane on the kill target.",
+      "Kite melee with Frost Trap, Wing Clip and Concussive; use the dead zone in reverse.",
+      "Readiness to reset traps + Rapid Fire + Deterrence for a second full setup.",
+      "Deterrence + trinket + trap to peel when trained.",
+    ],
+    playstyle:
+      "Survival is the disengage master. Use Readiness to double up on traps and Deterrence, chain CC the healer, and slow-kite the melee to death. Your damage is steadier and lower than BM/MM, so the game is about control and outlasting rather than a single burst kill.",
+    commonMistakes: [
+      "Using Readiness for damage instead of banking it for a trap/Deterrence reset.",
+      "Standing still to DPS and letting a melee close the gap.",
+      "Wasting traps on cooldown instead of on the healer during a kill attempt.",
+    ],
+    faq: [
+      { question: "Is Survival good in arena?", answer: "It's a control/utility pick rather than a burst spec. BM is the default, but Survival's Readiness + trapping lockdown is strong in kite-heavy comps." },
+      { question: "What does Readiness do for me?", answer: "Instantly resets your trap, Rapid Fire, Deterrence and disengage cooldowns — effectively a second full setup in one fight." },
+    ],
+  },
+
+  // ─────────────────────────── Hunter / Survival / PvE
+  {
+    class: "hunter",
+    spec: "survival",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Survival is the scaling raid spec: Expose Weakness converts your Agility into raid-wide attack power for everyone hitting the target, and the spec's crit/hit talents make it stronger the better your gear (and your group's crit) gets. Later in TBC, Survival often overtakes BM for well-geared Hunters and brings big value to a physical-damage group.\n\nThe rotation is a Steady Shot weave much like MM, but your talents reward crit and group synergy over pet damage.",
+    strengths: [
+      "Expose Weakness gives the physical group a large AP boost",
+      "Scales up with gear and group crit — strong late-TBC",
+      "Provides raid utility (traps, Misdirection) alongside DPS",
+    ],
+    weaknesses: [
+      "Weaker in early TBC / low gear than BM",
+      "Benefits most in a stacked physical-DPS group",
+    ],
+    rotationTitle: "Shot priority",
+    rotation: [
+      "Hunter's Mark + Serpent Sting up; keep the pet on the boss.",
+      "Steady Shot weaved between auto-shots without clipping; Arcane Shot as filler.",
+      "Maintain uptime so Expose Weakness stays procced for the group.",
+      "Cap ranged hit (9%, less with talents/Draenei), then stack Agility for Expose Weakness.",
+      "Misdirection on pull; align Rapid Fire + trinkets with Bloodlust.",
+    ],
+    playstyle:
+      "Survival rewards consistency and Agility: keep your shot weave clean so Expose Weakness stays up for the melee group, and stack Agility hard once hit-capped. Place it in a physical-DPS group to maximize the Expose Weakness value. Same no-clip discipline as MM.",
+    commonMistakes: [
+      "Playing Survival at low gear where BM would out-parse it.",
+      "Clipping auto-shots and dropping Expose Weakness uptime.",
+      "Stacking the wrong stats — Agility is king for Survival.",
+    ],
+    bestProfessions: ["engineering", "leatherworking"],
+    faq: [
+      { question: "When should I go Survival over BM?", answer: "As your gear improves and in a stacked physical-DPS group — Expose Weakness and Survival's crit scaling overtake BM later in TBC." },
+      { question: "What stat matters most for Survival?", answer: "Agility, after the hit cap — it drives both your crit and the Expose Weakness AP the whole group gets. See the stat caps below." },
+    ],
+  },
 ];
 
 const KEY = (c: string, s: string, ct: string) => `${c}/${s}/${ct}`;
