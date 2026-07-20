@@ -55,6 +55,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     });
+    // Neutral per-spec hubs (BiS + guides + talents for one spec).
+    for (const spec of cls.specs) {
+      entries.push({
+        url: `${SITE_URL}/${cls.slug}/${spec.slug}`,
+        lastModified,
+        changeFrequency: "weekly",
+        priority: 0.7,
+      });
+    }
   }
 
   // Curated BiS pages — live PvP snapshot, per-season PvP pages, PvE phases.
