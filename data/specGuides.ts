@@ -523,6 +523,161 @@ export const SPEC_GUIDES: SpecGuide[] = [
       { question: "How do Warriors become uncrittable?", answer: "Through Defense/resilience and talents to remove the boss's crit chance — not a Defense 'cap' number but the effective crit-immunity threshold. See the caps below." },
     ],
   },
+
+  // ─────────────────────────── Mage / Arcane / PvP
+  {
+    class: "mage",
+    spec: "arcane",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Arcane PvP is a burst-focused Mage build — Presence of Mind into a big instant Pyroblast or Arcane Blast can delete a target from range, and Arcane Power stacks a huge damage window. It's a glass-cannon alternative to Frost's control, giving up kiting and Ice Barrier uptime for raw damage.\n\nMost arena Mages play Frost for its survivability and Shatter control; Arcane is a niche burst pick that punishes teams which let you free-cast.",
+    strengths: [
+      "Enormous instant burst (Presence of Mind + Pyroblast)",
+      "Arcane Power damage window",
+      "Long range pressure",
+    ],
+    weaknesses: [
+      "Far squishier and easier to train than Frost",
+      "Weak kiting/control compared to Frost",
+    ],
+    rotationTitle: "Burst setup",
+    rotation: [
+      "Polymorph the off-target to isolate the kill.",
+      "Counterspell the enemy healer's cast.",
+      "Presence of Mind + Arcane Power + trinket → instant Pyroblast / Arcane Blast burst.",
+      "Blink and Frost Nova (from talents/utility) to make space; Ice Block to reset.",
+      "Follow up with Fireball/Arcane Blast while cooldowns recharge.",
+    ],
+    playstyle:
+      "You live and die by your burst window — set it up with CC on the healer and commit Presence of Mind + Arcane Power together. Between windows you're fragile, so play safe, use Blink and Ice Block well, and don't get caught by melee. Prefer Frost unless your comp specifically wants Arcane's burst.",
+    commonMistakes: [
+      "Blowing Presence of Mind without CC on the healer.",
+      "Playing it as aggressively positioned as Frost — Arcane is squishier.",
+      "Wasting Ice Block early instead of saving the reset.",
+    ],
+    faq: [
+      { question: "Arcane or Frost for arena?", answer: "Frost is the standard arena Mage for its control, kiting and Shatter burst. Arcane is a niche high-burst pick that's much squishier." },
+      { question: "Is Arcane burst worth the fragility?", answer: "Only into teams that let you free-cast. Against melee pressure, Frost's survivability wins." },
+    ],
+  },
+
+  // ─────────────────────────── Mage / Arcane / PvE
+  {
+    class: "mage",
+    spec: "arcane",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Arcane is a strong raid Mage spec in TBC, built around a tight Arcane Blast rotation. It brings excellent single-target damage and, via Arcane Brilliance and its raid utility, solid group value — while being more mana-intensive than Fire, so it rewards good mana management and gear.\n\nFire is often the higher-parsing raid mage spec, but Arcane is very competitive and shines with strong spell-power gear and Bloodlust windows.",
+    strengths: [
+      "Excellent single-target raid DPS",
+      "Simple, high-throughput Arcane Blast rotation",
+      "Scales hard with spell power",
+    ],
+    weaknesses: [
+      "Mana-hungry — punishes poor management/low gear",
+      "Less mobile than Fire's Scorch weaving",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Reach the spell hit cap first (16%, less with talents/Draenei).",
+      "Cast Arcane Blast, ramping its stacking buff, then reset as mana dictates.",
+      "Use Arcane Missiles / Frostbolt filler to manage mana between Arcane Blast phases.",
+      "Pop Arcane Power + trinkets + Icy Veins with Bloodlust.",
+      "Use Evocation and a mana gem/potion to stay topped.",
+    ],
+    playstyle:
+      "Manage the Arcane Blast stack against your mana pool — dumping stacks then resetting keeps DPS high without going oom. Line up Arcane Power and Icy Veins with Bloodlust, and plan Evocation windows. Hit-cap before stacking spell power.",
+    commonMistakes: [
+      "Going oom by holding Arcane Blast stacks too long.",
+      "Not hit-capped, wasting casts on misses.",
+      "Misaligning cooldowns with Bloodlust.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Arcane or Fire for raiding?", answer: "Both are strong; Fire often parses highest, but Arcane is very competitive single-target and simpler to execute. Frost is a PvP spec." },
+      { question: "What's the caster spell hit cap?", answer: "16% (202 rating) for a boss, reduced by talents, Misery, or Draenei Heroic Presence. See the caps below." },
+    ],
+  },
+
+  // ─────────────────────────── Mage / Fire / PvE
+  {
+    class: "mage",
+    spec: "fire",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Fire is the premier raid DPS Mage spec in TBC on most fights — a crit-scaling powerhouse built on Fireball, Scorch-weaving to keep the Improved Scorch fire-vulnerability debuff up, and big Combustion + Bloodlust burst windows. As raid crit gear ramps, Fire pulls ahead of the pack.\n\nIt's mobile (instant Fire Blast/Scorch) and brings the raid-wide fire-damage debuff, making it both a top parser and a group-DPS enabler.",
+    strengths: [
+      "Top-tier single-target raid DPS as crit scales",
+      "Improved Scorch debuff boosts the whole raid's fire damage",
+      "Mobile — Scorch and Fire Blast on the move",
+    ],
+    weaknesses: [
+      "Crit-dependent — weaker in early gear",
+      "Must maintain the Scorch debuff (raid coordination)",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Reach the spell hit cap (16%, less with talents/Draenei/Misery).",
+      "Keep 5 stacks of Improved Scorch up (assign Scorch duty in the raid).",
+      "Spam Fireball as your main nuke; Fire Blast on the move.",
+      "Combustion + trinkets + Icy Veins aligned with Bloodlust.",
+      "Use a mana gem/Evocation to sustain.",
+    ],
+    playstyle:
+      "Maintain the Scorch debuff (often one mage is assigned to it) and otherwise Fireball non-stop, refreshing Scorch as needed. Fire scales with crit, so stack hit-to-cap then crit heavily. Blow Combustion with Bloodlust for a massive burst window.",
+    commonMistakes: [
+      "Letting the Improved Scorch debuff drop.",
+      "Stacking crit before reaching the hit cap.",
+      "Wasting Combustion outside a Bloodlust/trinket window.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Is Fire the best raid Mage spec?", answer: "On most fights, yes — Fire is the top raid DPS Mage spec once crit gear ramps, and it brings the raid fire-damage debuff." },
+      { question: "Fire or Arcane?", answer: "Fire usually parses highest with good crit; Arcane is a strong, simpler alternative. Both beat Frost for raiding." },
+    ],
+  },
+
+  // ─────────────────────────── Mage / Frost / PvE
+  {
+    class: "mage",
+    spec: "frost",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Frost is a niche raid spec in TBC — its damage trails Fire and Arcane, but it brings excellent mana efficiency, Water Elemental utility, and strong performance on fights with adds or where survivability matters. Most raiding mages go Fire or Arcane for single-target; Frost is situational.\n\nIf you bring it, you lean on Frostbolt, the Water Elemental, and Frost's efficiency rather than raw single-target ceiling.",
+    strengths: [
+      "Excellent mana efficiency",
+      "Water Elemental adds sustained damage + utility",
+      "Strong on add/AoE-friendly fights",
+    ],
+    weaknesses: [
+      "Lower single-target ceiling than Fire/Arcane",
+      "Rarely the optimal raid choice",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Reach the spell hit cap (16%, less with talents/Draenei).",
+      "Summon the Water Elemental and keep it on the boss.",
+      "Spam Frostbolt as your main nuke.",
+      "Icy Veins + trinkets with Bloodlust; use the Elemental's Freeze on adds.",
+      "Manage mana with a gem/Evocation (Frost is efficient by default).",
+    ],
+    playstyle:
+      "Keep the Water Elemental active and Frostbolt on the boss. Frost's strength is efficiency and add control, not single-target ceiling — bring it for specific fights, otherwise raid Fire or Arcane. Hit-cap first as with any caster.",
+    commonMistakes: [
+      "Raiding Frost when Fire/Arcane would parse much higher.",
+      "Forgetting to re-summon the Water Elemental.",
+      "Ignoring the hit cap.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Should I raid as Frost Mage?", answer: "Usually no — Fire or Arcane parse higher for single target. Frost PvE is a niche efficiency/utility pick. Frost is, however, the best arena Mage spec." },
+      { question: "Is Frost better for PvP or PvE?", answer: "PvP — Frost is the premier arena Mage. For raiding, Fire and Arcane are stronger." },
+    ],
+  },
 ];
 
 const KEY = (c: string, s: string, ct: string) => `${c}/${s}/${ct}`;
