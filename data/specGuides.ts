@@ -1487,6 +1487,237 @@ export const SPEC_GUIDES: SpecGuide[] = [
       { question: "How do I maximize Chain Heal?", answer: "Stand where it can bounce between grouped, injured targets, and assign yourself to a stacked melee/caster group. See the stat caps for the mp5/healing balance." },
     ],
   },
+
+  // ─────────────────────────── Warlock / Affliction / PvP
+  {
+    class: "warlock",
+    spec: "affliction",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Affliction is the premier arena Warlock spec. A full DoT spread (Corruption, Curse of Agony, Unstable Affliction, Siphon Life, Seed) plus the Felhunter's Spell Lock and Devour Magic gives you relentless pressure and one of the best interrupt/dispel pets in the game. Unstable Affliction punishes any dispel with a silence, so your DoTs are extremely hard to remove.\n\nYou win by outlasting: spread DoTs on everything, Fear the melee, drain the healer's mana, and use Death Coil + Howl of Terror to peel while your rot ticks the enemy down.",
+    strengths: [
+      "Relentless, hard-to-dispel DoT pressure (UA silences dispellers)",
+      "Felhunter Spell Lock + Devour Magic — elite interrupt/dispel",
+      "Fear, Howl, Death Coil and Curse of Exhaustion = strong control/peels",
+    ],
+    weaknesses: [
+      "Low burst — relies on grinding teams down over time",
+      "Vulnerable when trained with pet dead and Fear on DR",
+    ],
+    rotationTitle: "Pressure & control",
+    rotation: [
+      "Spread DoTs: Unstable Affliction, Corruption, Curse of Agony, Siphon Life on the kill target.",
+      "Fear the melee/off-target; Howl of Terror to peel when trained.",
+      "Felhunter Spell Lock the healer's cast; Devour Magic to strip a key buff/HoT.",
+      "Death Coil to peel + self-heal; Curse of Exhaustion to kite.",
+      "Drain the healer's mana in long games; trinket + Death Coil to break a swap.",
+    ],
+    playstyle:
+      "Affliction is attrition. Keep DoTs on multiple targets, force dispels into UA silences, and manage your Fear DR carefully — Fear is your best defensive and offensive tool. Use the Felhunter to lock the healer during your pressure and to Devour their key buffs. You rarely global anyone; you make them run out of mana and options.",
+    commonMistakes: [
+      "Letting the Felhunter die and losing Spell Lock/Devour.",
+      "Overlapping Fears and wasting Fear DR early.",
+      "Forgetting to re-apply UA — the dispel-punish DoT that protects your rot.",
+    ],
+    faq: [
+      { question: "Is Affliction the best PvP Warlock spec?", answer: "Yes — DoT pressure, the Felhunter's Spell Lock, and UA's dispel-punish make Affliction the arena standard over Demonology and Destruction." },
+      { question: "Why does Unstable Affliction matter?", answer: "It silences anyone who dispels it, so enemy healers can't cleanly remove your DoTs — making your whole rot much stickier." },
+    ],
+  },
+
+  // ─────────────────────────── Warlock / Affliction / PvE
+  {
+    class: "warlock",
+    spec: "affliction",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Affliction is a top raid DPS spec in TBC. A rolling DoT rotation — Corruption, Unstable Affliction, Siphon Life, Curse of Agony — plus Shadow Bolt filler produces high sustained damage, and your Curse of the Elements/Shadows or Malediction adds a raid-wide spell-damage debuff. Affliction Warlocks are a fixture of the caster camp for both DPS and that debuff.\n\nThe spec is a discipline game: keep four-plus DoTs ticking without clipping, weave Shadow Bolt, and never let uptime slip.",
+    strengths: [
+      "High sustained DoT DPS",
+      "Malediction/Curse of the Elements = raid spell-damage debuff",
+      "Life Tap + Dark Pact self-sufficiency for mana",
+    ],
+    weaknesses: [
+      "Punished hard by movement (dropped DoTs)",
+      "DoT juggling is unforgiving at high uptime",
+    ],
+    rotationTitle: "DoT priority",
+    rotation: [
+      "Apply your Curse (Elements/Malediction as assigned) and keep it up.",
+      "Unstable Affliction, Corruption, Siphon Life, Curse of Agony rolling without clipping.",
+      "Shadow Bolt as filler; refresh DoTs on time as they expire.",
+      "Reach the spell hit cap (accounting for talents/Draenei/Misery/shadow debuffs).",
+      "Life Tap/Dark Pact for mana; align trinkets and cooldowns with Bloodlust.",
+    ],
+    playstyle:
+      "Affliction is a plate-spinning rotation: five things ticking at once, none clipped. Keep your assigned Curse up (Malediction is a big raid buff), refresh DoTs a hair before they fall, and fill with Shadow Bolt. Pre-refresh before movement so your uptime — and DPS — survives. Life Tap to stay full on mana.",
+    commonMistakes: [
+      "Clipping DoTs by refreshing too early, or letting them fall off entirely.",
+      "Forgetting the assigned Curse (a raid-wide debuff you owe the casters).",
+      "Under the spell hit cap, missing DoT applications.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Is Affliction good for raiding?", answer: "Yes — high sustained DoT DPS plus the Malediction/Curse of the Elements raid debuff. It's a staple caster-camp spec." },
+      { question: "What's the hardest part of the rotation?", answer: "Maintaining 4–5 DoTs at high uptime without clipping, especially on movement fights. A DoT-tracker addon is essential." },
+    ],
+  },
+
+  // ─────────────────────────── Warlock / Demonology / PvP
+  {
+    class: "warlock",
+    spec: "demonology",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Demonology is the survivability-focused PvP Warlock spec. Soul Link splits incoming damage with your pet, Demonic Aegis boosts your shields and Fel Armor, and Fel Domination lets you instantly re-summon a killed pet. Demo Warlocks are extremely hard to kill — a tanky rot/control class that outlasts through sheer effective health while keeping the Felhunter or Felguard active.\n\nYou play a durable pressure game: Soul Link damage-sharing keeps you up, the Felguard adds an intercept/stun, and you grind the enemy down with DoTs and Fear like an Affliction lock but far tankier.",
+    strengths: [
+      "Soul Link + Demonic Aegis make you one of the tankiest casters",
+      "Fel Domination instantly re-summons a dead pet mid-fight",
+      "Felguard adds burst + an intercept/stun the other specs lack",
+    ],
+    weaknesses: [
+      "Lower burst and less dispel-punish than Affliction",
+      "Pet-dependent — losing the pet costs Soul Link mitigation",
+    ],
+    rotationTitle: "Pressure & survival",
+    rotation: [
+      "Keep Soul Link and Fel Armor up at all times for the damage split.",
+      "Spread DoTs (Corruption, Curse of Agony, UA) and pressure with Shadow Bolt.",
+      "Felguard Intercept/Cleave the kill target; Felhunter Spell Lock the healer (swap pets to need).",
+      "Fear the melee; Death Coil to peel/self-heal; Howl of Terror when trained.",
+      "Fel Domination → instant re-summon if the pet dies; trinket the hard swap.",
+    ],
+    playstyle:
+      "Demo trades Affliction's dispel-punish for raw durability. Always keep Soul Link and Fel Armor up (that's your survivability), maintain DoT pressure, and use Fel Domination to never be without a pet. You outlast opponents — they can't burst through Soul Link, and your rot + Fear grinds them down.",
+    commonMistakes: [
+      "Letting Soul Link or Fel Armor drop and losing your mitigation.",
+      "Not using Fel Domination to re-summon a killed pet.",
+      "Playing Demo like Affliction and expecting the same dispel-punish pressure.",
+    ],
+    faq: [
+      { question: "Why play Demonology in PvP?", answer: "Survivability — Soul Link, Demonic Aegis and Fel Domination make you extremely tanky, and the Felguard adds burst and a stun. It outlasts where Affliction gets trained down." },
+      { question: "Demo or Affliction for arena?", answer: "Affliction is the standard for dispel-punish pressure; Demo is a tankier alternative that trades some pressure for survivability and a Felguard stun." },
+    ],
+  },
+
+  // ─────────────────────────── Warlock / Demonology / PvE
+  {
+    class: "warlock",
+    spec: "demonology",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Demonology in raids is mostly a leveling/utility spec — for pure raid DPS, Affliction and Destruction parse higher. Its niche is survivability and the Felguard's extra body, and some hybrid Demonology/Destruction (Demonic Sacrifice or Soul Link) builds see play, but a straight Demo raider is uncommon. Bring Affliction or Destruction for a raid DPS slot.\n\nIf you do raid Demo, you lean on a Shadow Bolt/Incinerate filler with your pet's damage and the spec's survivability talents.",
+    strengths: [
+      "Very survivable via Soul Link",
+      "Felguard adds a durable damage pet",
+      "Fine for leveling and off-spec utility",
+    ],
+    weaknesses: [
+      "Lower raid DPS than Affliction/Destruction",
+      "Rarely the optimal raid choice",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Keep your Curse (Elements as assigned) and Corruption up.",
+      "Shadow Bolt as your main filler; maintain the Felguard on the boss.",
+      "Reach the spell hit cap before stacking spell power/crit.",
+      "Life Tap for mana; align trinkets with Bloodlust.",
+      "Consider Affliction/Destruction for a real raid DPS slot.",
+    ],
+    playstyle:
+      "Demo PvE is a survivability/off-spec choice rather than a parse spec. If you bring it, keep your Curse and Corruption up, filler with Shadow Bolt, and let the Felguard add damage. For maximum raid DPS, respec Affliction or Destruction — Demo's value is durability and leveling, not the meter.",
+    commonMistakes: [
+      "Raiding Demo when Affliction/Destruction would parse much higher.",
+      "Ignoring the assigned Curse/Corruption uptime.",
+      "Not hit-capped.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Should I raid as Demonology?", answer: "Usually no — Affliction and Destruction do more raid DPS. Demo is best for leveling and survivability off-spec; some hybrid builds exist but pure Demo raiding is rare." },
+      { question: "What is Demo actually good at?", answer: "Survivability (Soul Link) and a tanky Felguard — great for solo/leveling and PvP durability more than raid parsing." },
+    ],
+  },
+
+  // ─────────────────────────── Warlock / Destruction / PvP
+  {
+    class: "warlock",
+    spec: "destruction",
+    content: "pvp",
+    updatedAt: "2026-07-20",
+    overview:
+      "Destruction is the burst Warlock arena spec, best known in the SL/SL and Shadow-cleave hybrids but most explosive as a Shadowburn/Conflagrate finisher. Big Shadow Bolts and Incinerate, plus Shadowfury (an AoE stun) and the Felhunter's Spell Lock, let Destro set up and land real burst kills that Affliction can't. Many Warlocks run a hybrid deep-Destruction or SL/SL build to blend burst with survivability.\n\nYou play for burst windows: Shadowfury stun, then a Shadow Bolt/Conflagrate/Shadowburn sequence to spike a target down while the healer is locked.",
+    strengths: [
+      "Real burst — Shadow Bolt/Conflagrate/Shadowburn can spike a kill",
+      "Shadowfury is an AoE stun to set up burst or peel",
+      "Felhunter Spell Lock + Death Coil control on top of damage",
+    ],
+    weaknesses: [
+      "Less sustained/dispel-punish pressure than Affliction",
+      "Cast-reliant burst is interrupt-vulnerable",
+    ],
+    rotationTitle: "Burst setup",
+    rotation: [
+      "Shadowfury (AoE stun) to open a kill window or peel a melee.",
+      "Immolate → Conflagrate + Shadow Bolt burst on the kill target.",
+      "Shadowburn as an instant execute/finisher; Death Coil to peel + heal.",
+      "Felhunter Spell Lock the healer's cast during your burst.",
+      "Fear the off-target; trinket + Death Coil to survive the swap.",
+    ],
+    playstyle:
+      "Destruction is about landing a burst window. Set up with Shadowfury or a partner's CC, lock the healer with Spell Lock, and dump Conflagrate + Shadow Bolt + Shadowburn to spike the kill. You're more interrupt-reliant than Affliction, so juke and use the stun to guarantee your casts land. Many players run SL/SL for durability while keeping this burst.",
+    commonMistakes: [
+      "Bursting into a free healer instead of Spell Locking first.",
+      "Wasting Shadowfury as damage rather than a setup stun.",
+      "Getting your cast burst interrupted — juke or stun before committing.",
+    ],
+    faq: [
+      { question: "Is Destruction viable in arena?", answer: "Yes, especially in hybrid/SL builds — it brings real burst and Shadowfury that Affliction lacks. Affliction is more common, but Destro burst wins fast games." },
+      { question: "What is SL/SL?", answer: "A Soul Link + Siphon Life hybrid build that blends Destruction-adjacent damage with Demonology survivability — durable and popular for Warlock arena." },
+    ],
+  },
+
+  // ─────────────────────────── Warlock / Destruction / PvE
+  {
+    class: "warlock",
+    spec: "destruction",
+    content: "pve",
+    updatedAt: "2026-07-20",
+    overview:
+      "Destruction is a top raid DPS spec built on Shadow Bolt spam with Improved Shadow Bolt (a raid-wide shadow-damage debuff) and Ruin-boosted crits. In a group with a Shadow Priest and other Warlocks, Destruction's ISB debuff plus high Shadow Bolt throughput make it a premier caster parse. It's a simpler rotation than Affliction — cast Shadow Bolt, keep Immolate/Curse up — with a very high ceiling.\n\nYou play a Shadow Bolt-centric rotation, maintain Immolate and your Curse, and keep Improved Shadow Bolt applied for the shadow-caster group.",
+    strengths: [
+      "High single-target Shadow Bolt DPS",
+      "Improved Shadow Bolt debuff boosts the shadow-caster group",
+      "Simpler, high-ceiling rotation vs Affliction",
+    ],
+    weaknesses: [
+      "Mana-hungry — leans on Life Tap and regen",
+      "Less multi-DoT value than Affliction on cleave",
+    ],
+    rotationTitle: "Single-target rotation",
+    rotation: [
+      "Apply your Curse (Elements/Doom as assigned) and keep Immolate up.",
+      "Shadow Bolt spam as the core nuke, maintaining Improved Shadow Bolt stacks.",
+      "Conflagrate if speccing for it (consumes Immolate); otherwise pure Shadow Bolt.",
+      "Reach the spell hit cap; Life Tap between casts for mana.",
+      "Align trinkets and cooldowns with Bloodlust for the burn window.",
+    ],
+    playstyle:
+      "Destruction is a rhythm of Shadow Bolt with Immolate and your Curse maintained. Your ISB debuff benefits every shadow caster, so keep it up. Manage mana with Life Tap (and a Healthstone/Dark Pact), hit-cap first, then stack spell power and crit. Place yourself in the shadow-caster group to maximize the debuff synergy.",
+    commonMistakes: [
+      "Letting Immolate or the Curse fall off.",
+      "Dropping Improved Shadow Bolt stacks (hurts the whole shadow group).",
+      "Running oom by not weaving Life Tap.",
+    ],
+    bestProfessions: ["tailoring", "jewelcrafting"],
+    faq: [
+      { question: "Destruction or Affliction for raids?", answer: "Both are top-tier. Destruction offers higher single-target Shadow Bolt DPS and the ISB debuff; Affliction offers multi-DoT sustain and Malediction. Comp and fight decide." },
+      { question: "What's Improved Shadow Bolt?", answer: "A debuff your Shadow Bolt crits apply that increases shadow damage the target takes — a buff for every shadow caster hitting that boss." },
+    ],
+  },
 ];
 
 const KEY = (c: string, s: string, ct: string) => `${c}/${s}/${ct}`;
