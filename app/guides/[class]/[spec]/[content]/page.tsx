@@ -12,7 +12,7 @@ import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { StatCaps } from "@/components/bis/StatCaps";
-import { TalentSummary } from "@/components/bis/TalentSummary";
+import { RecommendedTalentBuild } from "@/components/talents/RecommendedTalentBuild";
 import { MacroList } from "@/components/guides/MacroList";
 import {
   JsonLd,
@@ -161,8 +161,14 @@ export default async function SpecGuidePage({ params }: { params: Params }) {
           </p>
         </Section>
 
-        {/* Talent build */}
-        <TalentSummary classSlug={cls.slug} specSlug={spec.slug} specName={`${spec.name} ${cls.name}`} className="mt-10" />
+        {/* Talent build — the real filled trees, widened on desktop so all
+            three trees fit without scrolling (breaks out of the 720 column). */}
+        <RecommendedTalentBuild
+          classSlug={cls.slug}
+          specSlug={spec.slug}
+          specName={`${spec.name} ${cls.name}`}
+          className="mt-10 lg:-mx-[140px]"
+        />
 
         <AdUnit slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT} className="mt-10" />
 

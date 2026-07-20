@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allSpecs, getSpec } from "@/lib/classes";
 import {
-  decodeBuild,
   encodeBuild,
   getTalents,
   totalPoints,
@@ -11,6 +10,7 @@ import {
   type ClassTalents,
 } from "@/lib/talents";
 import { buildValid } from "@/lib/talent-rules";
+import { resolveBuildState } from "@/lib/talent-build";
 import { getBuild } from "@/data/builds";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd, breadcrumbJsonLd, faqJsonLd } from "@/components/seo/JsonLd";
@@ -51,28 +51,6 @@ export async function generateMetadata({
     alternates: { canonical: `/${cls.slug}/${spec.slug}/talents` },
     ...(build ? {} : { robots: { index: false, follow: true } }),
   };
-}
-
-/** Resolve a build's id→rank maps into BuildState, failing loudly on typos. */
-function resolveRanks(
-  classSlug: string,
-  ranksByTree: Record<string, number>[],
-): BuildState {
-  const talents = getTalents(classSlug);
-  if (!talents) throw new Error(`no talents for ${classSlug}`);
-  return talents.trees.map((tree, ti) => {
-    const map = ranksByTree[ti] ?? {};
-    const claimed = new Set(Object.keys(map));
-    const ranks = tree.talents.map((t) => {
-      claimed.delete(t.id);
-      return Math.min(map[t.id] ?? 0, t.maxRank);
-    });
-    if (claimed.size > 0)
-      throw new Error(
-        `build for ${classSlug} references unknown talents: ${[...claimed].join(", ")}`,
-      );
-    return ranks;
-  });
 }
 
 /** Data-driven FAQ for generated builds (unique numbers per spec). */
@@ -132,9 +110,9 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
   let state: BuildState | null = null;
   let encoded = "";
   if (build) {
-    state = build.ranks
-      ? resolveRanks(cls.slug, build.ranks)
-      : decodeBuild(talents, build.encoded!);
+    state = resolveBuildState(cls.slug, build);
+    if (!state)
+      throw new Error(`could not resolve build for ${cls.slug}/${spec.slug}`);
     if (!buildValid(state, talents.trees))
       throw new Error(
         `curated build for ${cls.slug}/${spec.slug} violates talent rules`,
