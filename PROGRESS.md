@@ -25,7 +25,11 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
 - ✅ `/arena` hub upgraded to real page (top comps per bracket + links). Comp routes in sitemap.
 - Components: `components/arena/CompBits.tsx` (TierBadge, DifficultyPips, PlaystyleTag, CompIcons, CompCard).
 
-## 3. Live leaderboard (/leaderboard + cron) — ⬜
+## 3. Live leaderboard — 🚧 (UI + cron scaffold done; live feed pending user decision)
+- ✅ `data/leaderboard.ts`: schema + Season 2 cutoffs (Glad/Duelist/Rival/Challenger) per bracket + **clearly-labeled SAMPLE snapshots** (`isSample: true`).
+- ✅ `/leaderboard`: bracket tabs, cutoff banner, class-colored team table (rank/players/rating/W-L/win%/realm), faction+class filters, pagination (25/50/100), all URL-param driven; Dataset JSON-LD; "sample data" banner; ISR `revalidate=3600`.
+- ✅ `/api/leaderboard/sync` route (returns 501 until wired; documents ToS + arena-active filter) + `vercel.json` cron every 6h. In navbar + sitemap.
+- ⬜ **Needs user decision:** confirm ironforge.pro (or other) feed + ToS, then implement the fetch in the sync route and flip `isSample` to false.
 ## 5. Guide pages — 🚧 (5a remaining)
 - ✅ **5d** Best race per class (`data/bestRace.ts` → `/guides/best-race/[class]`, 9 pages).
 - ✅ **5c** Professions (`data/professions.ts` → `/guides/professions` sortable hub + `/guides/professions/[profession]`, 12 pages).
