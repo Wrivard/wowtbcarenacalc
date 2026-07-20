@@ -30,6 +30,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/guides/professions`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/guides/addons`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/raids`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/class-rankings`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/class-rankings?tier=p1`, lastModified, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE_URL}/leaderboard`, lastModified, changeFrequency: "hourly", priority: 0.8 },
     { url: `${SITE_URL}/leaderboard?bracket=3s`, lastModified, changeFrequency: "hourly", priority: 0.6 },
     { url: `${SITE_URL}/leaderboard?bracket=5s`, lastModified, changeFrequency: "hourly", priority: 0.6 },
