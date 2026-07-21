@@ -350,28 +350,34 @@ export default function Home() {
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
             <Link
               href="/talent-calculator"
-              className="rounded-xl border border-border bg-surface p-5 transition-colors hover:border-accent/50"
+              className="flex gap-3.5 rounded-xl border border-border bg-surface p-5 transition-colors hover:border-accent/50"
             >
-              <span className="text-sm font-semibold text-foreground">
-                TBC Talent Calculator →
-              </span>
-              <span className="mt-1.5 block text-xs leading-relaxed text-muted">
-                All 9 classes with real rules — 61 points at level 70, tier
-                gates every 5 points, prerequisites enforced. Load a
-                recommended build or share your own as a link.
+              <GameIcon icon="spell_arcane_arcane01" alt="" size="large" className="rounded-lg" />
+              <span className="min-w-0">
+                <span className="text-sm font-semibold text-foreground">
+                  TBC Talent Calculator →
+                </span>
+                <span className="mt-1.5 block text-xs leading-relaxed text-muted">
+                  All 9 classes with real rules — 61 points at level 70, tier
+                  gates every 5 points, prerequisites enforced. Load a
+                  recommended build or share your own as a link.
+                </span>
               </span>
             </Link>
             <Link
               href="/arena-points-calculator"
-              className="rounded-xl border border-border bg-surface p-5 transition-colors hover:border-accent/50"
+              className="flex gap-3.5 rounded-xl border border-border bg-surface p-5 transition-colors hover:border-accent/50"
             >
-              <span className="text-sm font-semibold text-foreground">
-                Arena Points Calculator →
-              </span>
-              <span className="mt-1.5 block text-xs leading-relaxed text-muted">
-                Exact weekly points from your 2v2/3v3/5v5 rating, the rating
-                you need for any points target, and weeks-to-afford for your
-                next Gladiator piece.
+              <GameIcon icon="inv_misc_coin_02" alt="" size="large" className="rounded-lg" />
+              <span className="min-w-0">
+                <span className="text-sm font-semibold text-foreground">
+                  Arena Points Calculator →
+                </span>
+                <span className="mt-1.5 block text-xs leading-relaxed text-muted">
+                  Exact weekly points from your 2v2/3v3/5v5 rating, the rating
+                  you need for any points target, and weeks-to-afford for your
+                  next Gladiator piece.
+                </span>
               </span>
             </Link>
           </div>
