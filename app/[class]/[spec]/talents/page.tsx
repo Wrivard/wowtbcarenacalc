@@ -170,7 +170,7 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link
-                href={`/talent-calculator/${cls.slug}?b=${encoded}`}
+                href={`/talent-calculator?class=${cls.slug}&b=${encoded}`}
                 className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
               >
                 Open in the talent calculator
@@ -228,7 +228,7 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
       ) : (
         <ComingSoon
           title={`${spec.name} ${cls.name} talent build`}
-          fallbackHref={`/talent-calculator/${cls.slug}`}
+          fallbackHref={`/talent-calculator?class=${cls.slug}`}
           fallbackLabel={`Build your own in the ${cls.name} calculator`}
         />
       )}

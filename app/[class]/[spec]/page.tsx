@@ -262,7 +262,7 @@ export default async function SpecHub({ params }: { params: Params }) {
             ← All {cls.name} specs
           </Link>
           <Link
-            href={`/talent-calculator/${cls.slug}`}
+            href={`/talent-calculator?class=${cls.slug}`}
             className="rounded-lg border border-border bg-surface px-3 py-1.5 text-muted-strong transition-colors hover:text-foreground"
           >
             {cls.name} talent calculator

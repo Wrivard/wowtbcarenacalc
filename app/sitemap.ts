@@ -41,18 +41,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/terms`, lastModified, changeFrequency: "monthly", priority: 0.2 },
   ];
 
-  // Class hubs + per-class calculators — always live (data-independent).
+  // Class hubs — always live (data-independent). The talent calculator is
+  // now a single page (/talent-calculator) with a class dropdown, listed
+  // once above; the old per-class URLs redirect to it.
   for (const cls of CLASSES) {
     entries.push({
       url: `${SITE_URL}/${cls.slug}`,
       lastModified,
       changeFrequency: "weekly",
-      priority: 0.8,
-    });
-    entries.push({
-      url: `${SITE_URL}/talent-calculator/${cls.slug}`,
-      lastModified,
-      changeFrequency: "monthly",
       priority: 0.8,
     });
     // Neutral per-spec hubs (BiS + guides + talents for one spec).

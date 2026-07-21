@@ -71,7 +71,7 @@ export function FilledTalentTrees({
           Full talent build &amp; reasoning
         </Link>
         <Link
-          href={`/talent-calculator/${classSlug}`}
+          href={`/talent-calculator?class=${classSlug}`}
           className="rounded-lg border border-border bg-background px-3 py-1.5 text-xs font-medium text-muted-strong transition-colors hover:text-foreground"
         >
           Open in calculator

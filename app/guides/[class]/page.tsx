@@ -142,7 +142,7 @@ export default async function ClassGuideHub({ params }: { params: Params }) {
             Gear up:{" "}
             <Link href={`/${cls.slug}`} className="text-accent underline-offset-2 hover:underline">{cls.name} BiS &amp; talents</Link>
             {" "}· plan a build in the{" "}
-            <Link href={`/talent-calculator/${cls.slug}`} className="text-accent underline-offset-2 hover:underline">{cls.name} talent calculator</Link>.
+            <Link href={`/talent-calculator?class=${cls.slug}`} className="text-accent underline-offset-2 hover:underline">{cls.name} talent calculator</Link>.
           </p>
         </section>
       </main>

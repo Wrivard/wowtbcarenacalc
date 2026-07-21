@@ -34,7 +34,7 @@ export function SpecCrossLinks({
       label: `${spec.name} ${cls.name} talents`,
     });
   links.push({
-    href: `/talent-calculator/${cls.slug}`,
+    href: `/talent-calculator?class=${cls.slug}`,
     label: `${cls.name} talent calculator`,
   });
   for (const sibling of cls.specs.filter((s) => s.slug !== spec.slug)) {
