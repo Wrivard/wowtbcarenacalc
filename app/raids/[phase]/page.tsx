@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { raidsByPhase, bossesByRaid } from "@/data/raids";
+import { raidsByPhase, bossesByRaid, bossIcon } from "@/data/raids";
 import { PHASE_LABELS, PHASES, type Phase } from "@/lib/classes";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
+import { GameIcon } from "@/components/GameIcon";
 import { ComingSoon } from "@/components/ComingSoon";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { BACKGROUNDS } from "@/lib/backgrounds";
@@ -83,6 +84,20 @@ export default async function PhasePage({ params }: { params: Params }) {
                   <p className="mt-2 text-sm leading-relaxed text-muted-strong">
                     {raid.blurb}
                   </p>
+                  {bosses.length > 0 && (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {bosses.map((b) => (
+                        <Link
+                          key={b.id}
+                          href={`/raids/phase-${phase}/${raid.id}/${b.id}`}
+                          title={b.name}
+                          className="transition-transform hover:scale-110"
+                        >
+                          <GameIcon icon={bossIcon(b.id)} alt={b.name} size="small" />
+                        </Link>
+                      ))}
+                    </div>
+                  )}
                 </section>
               );
             })}

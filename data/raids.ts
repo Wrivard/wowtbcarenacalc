@@ -705,3 +705,93 @@ export function bossesByRaid(raidId: string): Boss[] {
 export function populatedPhases(): number[] {
   return [...new Set(RAIDS.map((r) => r.phase))].sort((a, b) => a - b);
 }
+
+// ── Imagery ─────────────────────────────────────────────────────────
+// Boss "portrait" icons. Few TBC bosses have a real achievement_boss_*
+// icon on the zamimg CDN, so most use a hand-picked ability/spell icon
+// that evokes the encounter's signature mechanic (frost for Hydross,
+// poison for Vashj, felfire for Kil'jaeden…). Every id below was
+// HEAD-verified against the CDN via scripts/resolve-boss-icons.mjs so no
+// boss falls back to a generic skull.
+const BOSS_SKULL = "inv_misc_bone_skull_02";
+const BOSS_ICONS: Record<string, string> = {
+  // Karazhan
+  "attumen-the-huntsman": "ability_mount_dreadsteed",
+  moroes: "spell_shadow_summonvoidwalker",
+  "maiden-of-virtue": "spell_holy_holybolt",
+  "opera-event": "inv_mask_01",
+  "the-curator": "spell_arcane_arcane04",
+  "terestian-illhoof": "spell_shadow_summonfelguard",
+  "shade-of-aran": "spell_frost_frostbolt02",
+  netherspite: "spell_arcane_portalshattrath",
+  "prince-malchezaar": "achievement_boss_prince_malchezaar",
+  // Gruul's Lair
+  "high-king-maulgar": "ability_warrior_savageblow",
+  "gruul-the-dragonkiller": "achievement_boss_gruulthedragonkiller",
+  // Magtheridon's Lair
+  magtheridon: "achievement_boss_magtheridon",
+  // Serpentshrine Cavern
+  "hydross-the-unstable": "spell_frost_frostbolt02",
+  "the-lurker-below": "spell_frost_summonwaterelemental",
+  "leotheras-the-blind": "ability_warrior_innerrage",
+  "fathom-lord-karathress": "spell_nature_lightning",
+  "morogrim-tidewalker": "spell_frost_summonwaterelemental_2",
+  "lady-vashj": "achievement_boss_ladyvashj",
+  // Tempest Keep
+  alar: "spell_fire_fire",
+  "void-reaver": "spell_arcane_arcane01",
+  "high-astromancer-solarian": "spell_arcane_starfire",
+  "kaelthas-sunstrider": "spell_fire_selfdestruct",
+  // Mount Hyjal
+  "rage-winterchill": "spell_frost_frostnova",
+  anetheron: "spell_shadow_carrionswarm",
+  kazrogal: "spell_shadow_curseofsargeras",
+  azgalor: "spell_shadow_rainoffire",
+  archimonde: "spell_arcane_blast",
+  // Black Temple
+  "high-warlord-najentus": "inv_spear_04",
+  supremus: "spell_fire_meteorstorm",
+  "shade-of-akama": "spell_shadow_shadowform",
+  "teron-gorefiend": "spell_shadow_shadowfiend",
+  "gurtogg-bloodboil": "spell_shadow_bloodboil",
+  "reliquary-of-souls": "spell_shadow_soulleech_3",
+  "mother-shahraz": "spell_shadow_mindshear",
+  "illidari-council": "spell_holy_powerinfusion",
+  "illidan-stormrage": "achievement_boss_illidan",
+  // Zul'Aman
+  nalorakk: "ability_druid_maul",
+  akilzon: "spell_nature_callstorm",
+  janalai: "spell_fire_flamebolt",
+  halazzi: "ability_druid_challangingroar",
+  "hex-lord-malacrass": "spell_shadow_shadowwordpain",
+  zuljin: "achievement_boss_zuljin",
+  // Sunwell Plateau
+  kalecgos: "inv_misc_head_dragon_blue",
+  brutallus: "spell_fire_soulburn",
+  felmyst: "spell_fire_felflamering",
+  "eredar-twins": "spell_shadow_shadowwordpain",
+  muru: "spell_arcane_arcane04",
+  kiljaeden: "spell_fire_felfire",
+};
+
+export function bossIcon(bossId: string): string {
+  return BOSS_ICONS[bossId] ?? BOSS_SKULL;
+}
+
+// Per-raid hero art so each raid/boss page looks distinct instead of
+// sharing one background. Cycles the available webp art by theme.
+const RAID_BG: Record<string, string> = {
+  karazhan: "/images/bg-7.webp",
+  "gruuls-lair": "/images/bg-1.webp",
+  "magtheridons-lair": "/images/bg-4.webp",
+  "serpentshrine-cavern": "/images/bg-3.webp",
+  "tempest-keep": "/images/bg-6.webp",
+  "mount-hyjal": "/images/bg-2.webp",
+  "black-temple": "/images/bg-8.webp",
+  zulaman: "/images/bg-4.webp",
+  "sunwell-plateau": "/images/bg-5.webp",
+};
+
+export function raidBackground(raidId: string): string {
+  return RAID_BG[raidId] ?? "/images/bg-6.webp";
+}

@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { RAIDS, getRaid, bossesByRaid } from "@/data/raids";
+import { RAIDS, getRaid, bossesByRaid, bossIcon, raidBackground } from "@/data/raids";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
+import { GameIcon } from "@/components/GameIcon";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
-import { BACKGROUNDS } from "@/lib/backgrounds";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -57,7 +57,7 @@ export default async function RaidPage({ params }: { params: Params }) {
           ),
         ]}
       />
-      <PageHero image={BACKGROUNDS.raids}>
+      <PageHero image={raidBackground(raid.id)}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
           {raid.name} — TBC Raid Guide
@@ -78,9 +78,10 @@ export default async function RaidPage({ params }: { params: Params }) {
               href={`/raids/phase-${raid.phase}/${raid.id}/${boss.id}`}
               className="flex items-center gap-4 rounded-xl border border-border bg-surface p-4 transition-colors hover:border-border-strong"
             >
-              <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-background font-mono text-xs text-muted">
+              <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-background font-mono text-xs text-muted">
                 {i + 1}
               </span>
+              <GameIcon icon={bossIcon(boss.id)} alt="" size="medium" />
               <span className="min-w-0 flex-1">
                 <span className="block text-base font-semibold tracking-tight text-foreground">
                   {boss.name}

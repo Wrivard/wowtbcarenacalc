@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { BOSSES, getBoss, getRaid, bossesByRaid } from "@/data/raids";
+import { BOSSES, getBoss, getRaid, bossesByRaid, bossIcon, raidBackground } from "@/data/raids";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
+import { GameIcon } from "@/components/GameIcon";
 import { ItemLink } from "@/components/ItemLink";
 import { BossPositionDiagram } from "@/components/raids/BossPositionDiagram";
 import { AdUnit } from "@/components/AdUnit";
@@ -13,7 +14,6 @@ import {
   breadcrumbJsonLd,
   howToJsonLd,
 } from "@/components/seo/JsonLd";
-import { BACKGROUNDS } from "@/lib/backgrounds";
 
 export const dynamicParams = false;
 
@@ -82,14 +82,19 @@ export default async function BossPage({ params }: { params: Params }) {
           ),
         ]}
       />
-      <PageHero image={BACKGROUNDS.raids}>
+      <PageHero image={raidBackground(raid.id)}>
         <Breadcrumbs crumbs={crumbs} />
-        <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-          {boss.name} Strategy — {raid.name}
-        </h1>
-        <p className="mt-2 font-mono text-[11px] tracking-wider text-muted uppercase">
-          Phase {boss.phase} · {raid.name} · {boss.role}
-        </p>
+        <div className="mt-4 flex items-center gap-3">
+          <GameIcon icon={bossIcon(boss.id)} alt="" size="large" lazy={false} />
+          <div>
+            <h1 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+              {boss.name} Strategy — {raid.name}
+            </h1>
+            <p className="mt-1 font-mono text-[11px] tracking-wider text-muted uppercase">
+              Phase {boss.phase} · {raid.name} · {boss.role}
+            </p>
+          </div>
+        </div>
         <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
           {boss.strategy.overview}
         </p>
