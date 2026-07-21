@@ -6,6 +6,8 @@ import { BACKGROUNDS } from "@/lib/backgrounds";
 import { CLASSES, allSpecs } from "@/lib/classes";
 import { classIconName, specIconName } from "@/lib/icons";
 import { GameIcon } from "@/components/GameIcon";
+import { bossesByRaid } from "@/data/raids";
+import { BossPortrait } from "@/components/raids/BossPortrait";
 import { AdUnit } from "@/components/AdUnit";
 import { JsonLd, webApplicationJsonLd } from "@/components/seo/JsonLd";
 import { filledBisRoutes } from "@/lib/bis";
@@ -40,6 +42,39 @@ function SectionHeading({
     </h2>
   );
 }
+
+// A compact icon-led link card for the "Explore" grid.
+function FeatureCard({
+  href,
+  icon,
+  title,
+  sub,
+}: {
+  href: string;
+  icon: string;
+  title: string;
+  sub: string;
+}) {
+  return (
+    <Link
+      href={href}
+      className="flex items-center gap-3 rounded-xl border border-border bg-surface p-4 transition-colors hover:border-accent/50"
+    >
+      <GameIcon icon={icon} alt="" size="large" className="rounded-lg" />
+      <span className="min-w-0">
+        <span className="block text-sm font-semibold text-foreground">{title} →</span>
+        <span className="block text-xs leading-relaxed text-muted">{sub}</span>
+      </span>
+    </Link>
+  );
+}
+
+// Raids featured on the homepage — one marquee raid per bookend phase.
+const FEATURED_RAIDS = [
+  { phase: 1, id: "karazhan", name: "Karazhan" },
+  { phase: 3, id: "black-temple", name: "Black Temple" },
+  { phase: 5, id: "sunwell-plateau", name: "Sunwell Plateau" },
+];
 
 export default function Home() {
   const specCount = allSpecs().length;
@@ -264,6 +299,47 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Raids & boss guides */}
+        <section className="mt-14" aria-labelledby="raids">
+          <SectionHeading id="raids">Raids &amp; boss strategies</SectionHeading>
+          <p className="mt-2 text-sm leading-relaxed text-muted-strong">
+            Every TBC raid, phase by phase — role-by-role boss strategies,
+            position diagrams and loot, from Karazhan to the Sunwell.
+          </p>
+          <div className="mt-5 space-y-2.5">
+            {FEATURED_RAIDS.map((r) => {
+              const bosses = bossesByRaid(r.id);
+              return (
+                <Link
+                  key={r.id}
+                  href={`/raids/phase-${r.phase}/${r.id}`}
+                  className="group flex items-center gap-3 rounded-xl border border-border bg-surface p-3 transition-colors hover:border-accent/50"
+                >
+                  <span className="w-40 shrink-0">
+                    <span className="block text-sm font-semibold text-foreground group-hover:text-accent">
+                      {r.name}
+                    </span>
+                    <span className="font-mono text-[10px] tracking-wider text-muted uppercase">
+                      Phase {r.phase} · {bosses.length} bosses
+                    </span>
+                  </span>
+                  <span className="flex flex-1 flex-wrap gap-1.5 overflow-hidden">
+                    {bosses.slice(0, 9).map((b) => (
+                      <BossPortrait key={b.id} bossId={b.id} name={b.name} size="sm" />
+                    ))}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+          <Link
+            href="/raids"
+            className="mt-3 inline-block text-sm text-accent underline-offset-2 hover:underline"
+          >
+            All raids &amp; boss guides →
+          </Link>
+        </section>
+
         <AdUnit slot={SLOT_INCONTENT} className="mt-14" />
 
         {/* Tools */}
@@ -296,6 +372,49 @@ export default function Home() {
                 next Gladiator piece.
               </span>
             </Link>
+          </div>
+        </section>
+
+        {/* Explore the rest of the site */}
+        <section className="mt-14" aria-labelledby="explore">
+          <SectionHeading id="explore">Explore the site</SectionHeading>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
+            <FeatureCard
+              href="/class-rankings"
+              icon="inv_sword_48"
+              title="DPS Rankings"
+              sub="Best DPS specs for every raid tier, Phase 1 to Sunwell."
+            />
+            <FeatureCard
+              href="/arena/comps"
+              icon="achievement_arena_2v2_2"
+              title="Arena Comp Tier List"
+              sub="The strongest 2v2, 3v3 and 5v5 comps, with full guides."
+            />
+            <FeatureCard
+              href="/leaderboard"
+              icon="achievement_pvp_a_a"
+              title="Arena Leaderboard"
+              sub="Top-rated teams by bracket, with the season cutoffs."
+            />
+            <FeatureCard
+              href="/guides"
+              icon="inv_misc_book_11"
+              title="Class & Spec Guides"
+              sub="Rotation, stat priority, best race, macros and addons."
+            />
+            <FeatureCard
+              href="/guides/professions"
+              icon="trade_blacksmithing"
+              title="Professions & Leveling"
+              sub="Every profession ranked, plus 1–375 leveling paths."
+            />
+            <FeatureCard
+              href="/talent-calculator"
+              icon="spell_arcane_arcane01"
+              title="Talent Calculator"
+              sub="All 9 classes with real TBC rules and shareable builds."
+            />
           </div>
         </section>
 
