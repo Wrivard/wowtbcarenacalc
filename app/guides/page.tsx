@@ -3,6 +3,7 @@ import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { CLASSES } from "@/lib/classes";
 import { classIconName } from "@/lib/icons";
+import { PROFESSIONS, professionIcon } from "@/data/professions";
 import { GameIcon } from "@/components/GameIcon";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
@@ -97,6 +98,35 @@ export default function GuidesHub() {
                 per class.
               </p>
             </Link>
+          </div>
+        </section>
+
+        <section className="mt-10" aria-label="Profession leveling guides">
+          <h2 className="text-lg font-semibold tracking-tight">
+            Profession leveling (1–375)
+          </h2>
+          <p className="mt-1.5 text-sm text-muted">
+            A step-by-step 1–375 leveling path for every profession, with the
+            cheapest craft at each tier and a full materials shopping list.
+          </p>
+          <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {PROFESSIONS.map((prof) => (
+              <Link
+                key={prof.slug}
+                href={`/guides/professions/${prof.slug}`}
+                className="flex items-center gap-2.5 rounded-xl border border-border bg-surface p-3 transition-colors hover:border-border-strong"
+              >
+                <GameIcon
+                  icon={professionIcon(prof.slug)}
+                  alt={`${prof.name} icon`}
+                  size="small"
+                  className="rounded"
+                />
+                <span className="text-sm font-medium text-foreground">
+                  {prof.name}
+                </span>
+              </Link>
+            ))}
           </div>
         </section>
 

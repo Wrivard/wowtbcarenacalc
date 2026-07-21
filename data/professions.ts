@@ -342,6 +342,27 @@ export const PROFESSION_LEVELING: Record<string, LevelingStep[]> = {
   ],
 };
 
+// The in-game trade-skill icon for each profession (zamimg CDN names,
+// verified). Lets profession links carry the icon players recognize.
+export const PROFESSION_ICONS: Record<string, string> = {
+  jewelcrafting: "inv_misc_gem_01",
+  engineering: "trade_engineering",
+  tailoring: "trade_tailoring",
+  leatherworking: "trade_leatherworking",
+  blacksmithing: "trade_blacksmithing",
+  enchanting: "trade_engraving",
+  alchemy: "trade_alchemy",
+  herbalism: "trade_herbalism",
+  mining: "trade_mining",
+  skinning: "inv_misc_pelt_wolf_01",
+  "first-aid": "spell_holy_sealofsacrifice",
+  cooking: "inv_misc_food_15",
+};
+
+export function professionIcon(slug: string): string {
+  return PROFESSION_ICONS[slug] ?? "inv_misc_questionmark";
+}
+
 export function getProfessionLeveling(slug: string): LevelingStep[] {
   return PROFESSION_LEVELING[slug] ?? [];
 }
