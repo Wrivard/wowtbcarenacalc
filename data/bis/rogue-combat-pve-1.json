@@ -253,16 +253,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28649,
-    "name": "Garona's Signet Ring",
-    "usagePct": 33
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 29
    },
    "alternatives": [
-    {
-     "itemId": 28757,
-     "name": "Ring of a Thousand Marks",
-     "usagePct": 29
-    },
     {
      "itemId": 29283,
      "name": "Violet Signet of the Master Assassin",
@@ -303,16 +298,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 39
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 27
    },
    "alternatives": [
-    {
-     "itemId": 28830,
-     "name": "Dragonspine Trophy",
-     "usagePct": 27
-    },
     {
      "itemId": 23206,
      "name": "Mark of the Champion",

@@ -273,16 +273,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer",
-    "usagePct": 47
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 28790,
-     "name": "Naaru Lightwarden's Band",
-     "usagePct": 16
-    },
     {
      "itemId": 28661,
      "name": "Mender's Heart-Ring",
@@ -323,16 +318,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 38
+    "itemId": 28190,
+    "name": "Scarab of the Infinite Cycle",
+    "usagePct": 11
    },
    "alternatives": [
-    {
-     "itemId": 28190,
-     "name": "Scarab of the Infinite Cycle",
-     "usagePct": 11
-    },
     {
      "itemId": 28823,
      "name": "Eye of Gruul",

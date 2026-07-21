@@ -204,16 +204,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
-    "usagePct": 42
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 24
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 24
-    },
     {
      "itemId": 30834,
      "name": "Shapeshifter's Signet",
@@ -254,16 +249,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 30627,
-    "name": "Tsunami Talisman",
-    "usagePct": 46
+    "itemId": 32505,
+    "name": "Madness of the Betrayer",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 32505,
-     "name": "Madness of the Betrayer",
-     "usagePct": 25
-    },
     {
      "itemId": 33831,
      "name": "Berserker's Call",

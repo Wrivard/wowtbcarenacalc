@@ -328,16 +328,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 36
+    "itemId": 28789,
+    "name": "Eye of Magtheridon",
+    "usagePct": 24
    },
    "alternatives": [
-    {
-     "itemId": 28789,
-     "name": "Eye of Magtheridon",
-     "usagePct": 24
-    },
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",

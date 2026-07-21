@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
-    "usagePct": 26
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 19
    },
    "alternatives": [
-    {
-     "itemId": 30834,
-     "name": "Shapeshifter's Signet",
-     "usagePct": 19
-    },
     {
      "itemId": 33919,
      "name": "Vindicator's Band of Triumph",
@@ -333,16 +328,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 36
+    "itemId": 30627,
+    "name": "Tsunami Talisman",
+    "usagePct": 11
    },
    "alternatives": [
-    {
-     "itemId": 30627,
-     "name": "Tsunami Talisman",
-     "usagePct": 11
-    },
     {
      "itemId": 32505,
      "name": "Madness of the Betrayer",

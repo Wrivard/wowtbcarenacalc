@@ -225,16 +225,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34362,
-    "name": "Loop of Forged Power",
-    "usagePct": 27
+    "itemId": 32527,
+    "name": "Ring of Ancient Knowledge",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 32527,
-     "name": "Ring of Ancient Knowledge",
-     "usagePct": 25
-    },
     {
      "itemId": 29305,
      "name": "Band of the Eternal Sage",

@@ -230,16 +230,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34362,
-    "name": "Loop of Forged Power",
-    "usagePct": 32
+    "itemId": 29305,
+    "name": "Band of the Eternal Sage",
+    "usagePct": 30
    },
    "alternatives": [
-    {
-     "itemId": 29305,
-     "name": "Band of the Eternal Sage",
-     "usagePct": 30
-    },
     {
      "itemId": 34230,
      "name": "Ring of Omnipotence",
@@ -280,16 +275,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 33829,
-    "name": "Hex Shrunken Head",
-    "usagePct": 38
+    "itemId": 30720,
+    "name": "Serpent-Coil Braid",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 30720,
-     "name": "Serpent-Coil Braid",
-     "usagePct": 22
-    },
     {
      "itemId": 34429,
      "name": "Shifting Naaru Sliver",

@@ -248,16 +248,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29302,
-    "name": "Band of Eternity",
-    "usagePct": 51
+    "itemId": 28753,
+    "name": "Ring of Recurrence",
+    "usagePct": 20
    },
    "alternatives": [
-    {
-     "itemId": 28753,
-     "name": "Ring of Recurrence",
-     "usagePct": 20
-    },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",

@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28790,
-    "name": "Naaru Lightwarden's Band",
-    "usagePct": 27
+    "itemId": 29308,
+    "name": "Band of Eternity",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 29308,
-     "name": "Band of Eternity",
-     "usagePct": 14
-    },
     {
      "itemId": 29306,
      "name": "Band of Eternity",
@@ -318,16 +313,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 30
+    "itemId": 28727,
+    "name": "Pendant of the Violet Eye",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 28727,
-     "name": "Pendant of the Violet Eye",
-     "usagePct": 21
-    },
     {
      "itemId": 38288,
      "name": "Direbrew Hops",

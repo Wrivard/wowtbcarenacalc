@@ -253,16 +253,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30667,
-    "name": "Ring of Unrelenting Storms",
-    "usagePct": 37
+    "itemId": 28753,
+    "name": "Ring of Recurrence",
+    "usagePct": 27
    },
    "alternatives": [
-    {
-     "itemId": 28753,
-     "name": "Ring of Recurrence",
-     "usagePct": 27
-    },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",

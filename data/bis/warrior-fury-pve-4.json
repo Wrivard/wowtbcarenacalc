@@ -232,16 +232,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32497,
-    "name": "Stormrage Signet Ring",
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
     "usagePct": 27
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 27
-    },
     {
      "itemId": 32335,
      "name": "Unstoppable Aggressor's Ring",
@@ -282,16 +277,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 66
+    "itemId": 32505,
+    "name": "Madness of the Betrayer",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 32505,
-     "name": "Madness of the Betrayer",
-     "usagePct": 14
-    },
     {
      "itemId": 21670,
      "name": "Badge of the Swarmguard",

@@ -242,16 +242,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
     "usagePct": 27
    },
    "alternatives": [
-    {
-     "itemId": 30834,
-     "name": "Shapeshifter's Signet",
-     "usagePct": 27
-    },
     {
      "itemId": 32266,
      "name": "Ring of Deceitful Intent",
@@ -292,16 +287,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 30627,
-    "name": "Tsunami Talisman",
-    "usagePct": 28
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "usagePct": 14
-    },
     {
      "itemId": 32505,
      "name": "Madness of the Betrayer",

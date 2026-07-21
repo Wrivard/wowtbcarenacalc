@@ -241,16 +241,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
-    "usagePct": 35
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 29
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 29
-    },
     {
      "itemId": 32497,
      "name": "Stormrage Signet Ring",
@@ -291,16 +286,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 59
+    "itemId": 33831,
+    "name": "Berserker's Call",
+    "usagePct": 20
    },
    "alternatives": [
-    {
-     "itemId": 33831,
-     "name": "Berserker's Call",
-     "usagePct": 20
-    },
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",

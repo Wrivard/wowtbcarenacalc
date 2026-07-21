@@ -237,16 +237,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29287,
-    "name": "Violet Signet of the Archmage",
-    "usagePct": 39
+    "itemId": 29303,
+    "name": "Band of Eternity",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 29303,
-     "name": "Band of Eternity",
-     "usagePct": 15
-    },
     {
      "itemId": 29304,
      "name": "Band of Eternity",

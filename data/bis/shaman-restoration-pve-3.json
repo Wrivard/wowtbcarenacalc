@@ -293,16 +293,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28790,
-    "name": "Naaru Lightwarden's Band",
-    "usagePct": 25
+    "itemId": 29306,
+    "name": "Band of Eternity",
+    "usagePct": 18
    },
    "alternatives": [
-    {
-     "itemId": 29306,
-     "name": "Band of Eternity",
-     "usagePct": 18
-    },
     {
      "itemId": 32528,
      "name": "Blessed Band of Karabor",

@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30110,
-    "name": "Coral Band of the Revived",
-    "usagePct": 37
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 30
    },
    "alternatives": [
-    {
-     "itemId": 29290,
-     "name": "Violet Signet of the Grand Restorer",
-     "usagePct": 30
-    },
     {
      "itemId": 32528,
      "name": "Blessed Band of Karabor",

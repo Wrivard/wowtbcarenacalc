@@ -288,16 +288,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30052,
-    "name": "Ring of Lethality",
-    "usagePct": 23
+    "itemId": 29997,
+    "name": "Band of the Ranger-General",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 29997,
-     "name": "Band of the Ranger-General",
-     "usagePct": 15
-    },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",

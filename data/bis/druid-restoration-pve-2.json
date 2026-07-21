@@ -293,16 +293,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer",
-    "usagePct": 45
+    "itemId": 30110,
+    "name": "Coral Band of the Revived",
+    "usagePct": 23
    },
    "alternatives": [
-    {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "usagePct": 23
-    },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
@@ -343,16 +338,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 35
+    "itemId": 38288,
+    "name": "Direbrew Hops",
+    "usagePct": 34
    },
    "alternatives": [
-    {
-     "itemId": 38288,
-     "name": "Direbrew Hops",
-     "usagePct": 34
-    },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",

@@ -243,16 +243,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29922,
-    "name": "Band of Al'ar",
-    "usagePct": 33
+    "itemId": 29352,
+    "name": "Cobalt Band of Tyrigosa",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 29352,
-     "name": "Cobalt Band of Tyrigosa",
-     "usagePct": 14
-    },
     {
      "itemId": 21709,
      "name": "Ring of the Fallen God",
@@ -288,16 +283,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 51
+    "itemId": 38290,
+    "name": "Dark Iron Smoking Pipe",
+    "usagePct": 42
    },
    "alternatives": [
-    {
-     "itemId": 38290,
-     "name": "Dark Iron Smoking Pipe",
-     "usagePct": 42
-    },
     {
      "itemId": 28789,
      "name": "Eye of Magtheridon",

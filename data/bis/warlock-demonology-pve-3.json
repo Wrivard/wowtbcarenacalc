@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29303,
-    "name": "Band of Eternity",
-    "usagePct": 18
+    "itemId": 30109,
+    "name": "Ring of Endless Coils",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 30109,
-     "name": "Ring of Endless Coils",
-     "usagePct": 16
-    },
     {
      "itemId": 29302,
      "name": "Band of Eternity",

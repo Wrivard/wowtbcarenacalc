@@ -273,16 +273,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 35
+    "itemId": 29279,
+    "name": "Violet Signet of the Great Protector",
+    "usagePct": 20
    },
    "alternatives": [
-    {
-     "itemId": 29279,
-     "name": "Violet Signet of the Great Protector",
-     "usagePct": 20
-    },
     {
      "itemId": 32266,
      "name": "Ring of Deceitful Intent",

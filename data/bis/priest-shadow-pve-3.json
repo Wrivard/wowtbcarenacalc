@@ -278,16 +278,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29922,
-    "name": "Band of Al'ar",
-    "usagePct": 41
+    "itemId": 30109,
+    "name": "Ring of Endless Coils",
+    "usagePct": 17
    },
    "alternatives": [
-    {
-     "itemId": 30109,
-     "name": "Ring of Endless Coils",
-     "usagePct": 17
-    },
     {
      "itemId": 29305,
      "name": "Band of the Eternal Sage",
@@ -328,16 +323,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 39
+    "itemId": 38290,
+    "name": "Dark Iron Smoking Pipe",
+    "usagePct": 30
    },
    "alternatives": [
-    {
-     "itemId": 38290,
-     "name": "Dark Iron Smoking Pipe",
-     "usagePct": 30
-    },
     {
      "itemId": 23207,
      "name": "Mark of the Champion",

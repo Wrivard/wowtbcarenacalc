@@ -225,16 +225,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34887,
-    "name": "Angelista's Revenge",
-    "usagePct": 39
+    "itemId": 34361,
+    "name": "Hard Khorium Band",
+    "usagePct": 24
    },
    "alternatives": [
-    {
-     "itemId": 34361,
-     "name": "Hard Khorium Band",
-     "usagePct": 24
-    },
     {
      "itemId": 33496,
      "name": "Signet of Primal Wrath",

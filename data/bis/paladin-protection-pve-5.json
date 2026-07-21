@@ -222,16 +222,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34889,
-    "name": "Fused Nethergon Band",
-    "usagePct": 24
+    "itemId": 34213,
+    "name": "Ring of Hardened Resolve",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 34213,
-     "name": "Ring of Hardened Resolve",
-     "usagePct": 16
-    },
     {
      "itemId": 29305,
      "name": "Band of the Eternal Sage",

@@ -293,16 +293,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29302,
-    "name": "Band of Eternity",
-    "usagePct": 33
+    "itemId": 29287,
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 31
    },
    "alternatives": [
-    {
-     "itemId": 29287,
-     "name": "Violet Signet of the Archmage",
-     "usagePct": 31
-    },
     {
      "itemId": 28753,
      "name": "Ring of Recurrence",
@@ -343,16 +338,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 35
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 27683,
-     "name": "Quagmirran's Eye",
-     "usagePct": 21
-    },
     {
      "itemId": 38290,
      "name": "Dark Iron Smoking Pipe",

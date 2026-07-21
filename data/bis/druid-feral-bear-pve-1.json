@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 40
+    "itemId": 29279,
+    "name": "Violet Signet of the Great Protector",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 29279,
-     "name": "Violet Signet of the Great Protector",
-     "usagePct": 25
-    },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
@@ -318,16 +313,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 35
+    "itemId": 28034,
+    "name": "Hourglass of the Unraveller",
+    "usagePct": 24
    },
    "alternatives": [
-    {
-     "itemId": 28034,
-     "name": "Hourglass of the Unraveller",
-     "usagePct": 24
-    },
     {
      "itemId": 29181,
      "name": "Timelapse Shard",

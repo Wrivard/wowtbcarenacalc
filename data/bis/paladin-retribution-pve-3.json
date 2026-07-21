@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 50
+    "itemId": 30061,
+    "name": "Ancestral Ring of Conquest",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 30061,
-     "name": "Ancestral Ring of Conquest",
-     "usagePct": 22
-    },
     {
      "itemId": 32526,
      "name": "Band of Devastation",

@@ -302,16 +302,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 32483,
-    "name": "The Skull of Gul'dan",
-    "usagePct": 40
+    "itemId": 33829,
+    "name": "Hex Shrunken Head",
+    "usagePct": 27
    },
    "alternatives": [
-    {
-     "itemId": 33829,
-     "name": "Hex Shrunken Head",
-     "usagePct": 27
-    },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",

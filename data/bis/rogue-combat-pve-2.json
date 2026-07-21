@@ -215,16 +215,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30052,
-    "name": "Ring of Lethality",
-    "usagePct": 27
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 28757,
-     "name": "Ring of a Thousand Marks",
-     "usagePct": 25
-    },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",

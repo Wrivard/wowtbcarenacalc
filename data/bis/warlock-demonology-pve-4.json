@@ -262,16 +262,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29305,
-    "name": "Band of the Eternal Sage",
-    "usagePct": 36
+    "itemId": 32527,
+    "name": "Ring of Ancient Knowledge",
+    "usagePct": 32
    },
    "alternatives": [
-    {
-     "itemId": 32527,
-     "name": "Ring of Ancient Knowledge",
-     "usagePct": 32
-    },
     {
      "itemId": 33497,
      "name": "Mana Attuned Band",

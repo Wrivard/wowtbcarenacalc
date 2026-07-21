@@ -288,16 +288,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 33919,
-    "name": "Vindicator's Band of Triumph",
-    "usagePct": 32
+    "itemId": 29997,
+    "name": "Band of the Ranger-General",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 29997,
-     "name": "Band of the Ranger-General",
-     "usagePct": 21
-    },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
@@ -338,16 +333,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 42
+    "itemId": 30627,
+    "name": "Tsunami Talisman",
+    "usagePct": 17
    },
    "alternatives": [
-    {
-     "itemId": 30627,
-     "name": "Tsunami Talisman",
-     "usagePct": 17
-    },
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",

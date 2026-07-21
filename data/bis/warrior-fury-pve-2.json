@@ -258,16 +258,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28757,
-    "name": "Ring of a Thousand Marks",
-    "usagePct": 42
+    "itemId": 29997,
+    "name": "Band of the Ranger-General",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 29997,
-     "name": "Band of the Ranger-General",
-     "usagePct": 22
-    },
     {
      "itemId": 28730,
      "name": "Mithril Band of the Unscarred",
@@ -308,16 +303,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 52
+    "itemId": 21670,
+    "name": "Badge of the Swarmguard",
+    "usagePct": 18
    },
    "alternatives": [
-    {
-     "itemId": 21670,
-     "name": "Badge of the Swarmguard",
-     "usagePct": 18
-    },
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",

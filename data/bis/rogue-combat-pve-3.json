@@ -243,16 +243,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30052,
-    "name": "Ring of Lethality",
-    "usagePct": 36
+    "itemId": 29997,
+    "name": "Band of the Ranger-General",
+    "usagePct": 19
    },
    "alternatives": [
-    {
-     "itemId": 29997,
-     "name": "Band of the Ranger-General",
-     "usagePct": 19
-    },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",

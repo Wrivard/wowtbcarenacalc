@@ -298,16 +298,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 32483,
-    "name": "The Skull of Gul'dan",
-    "usagePct": 22
+    "itemId": 33829,
+    "name": "Hex Shrunken Head",
+    "usagePct": 18
    },
    "alternatives": [
-    {
-     "itemId": 33829,
-     "name": "Hex Shrunken Head",
-     "usagePct": 18
-    },
     {
      "itemId": 30720,
      "name": "Serpent-Coil Braid",

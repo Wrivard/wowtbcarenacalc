@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 46
+    "itemId": 29309,
+    "name": "Band of the Eternal Restorer",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 29309,
-     "name": "Band of the Eternal Restorer",
-     "usagePct": 25
-    },
     {
      "itemId": 30110,
      "name": "Coral Band of the Revived",
@@ -318,16 +313,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 32
+    "itemId": 38288,
+    "name": "Direbrew Hops",
+    "usagePct": 26
    },
    "alternatives": [
-    {
-     "itemId": 38288,
-     "name": "Direbrew Hops",
-     "usagePct": 26
-    },
     {
      "itemId": 32496,
      "name": "Memento of Tyrande",

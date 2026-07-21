@@ -263,16 +263,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30028,
-    "name": "Seventh Ring of the Tirisfalen",
-    "usagePct": 19
+    "itemId": 33054,
+    "name": "The Seal of Danzalar",
+    "usagePct": 17
    },
    "alternatives": [
-    {
-     "itemId": 33054,
-     "name": "The Seal of Danzalar",
-     "usagePct": 17
-    },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",

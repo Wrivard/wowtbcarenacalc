@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer",
-    "usagePct": 44
+    "itemId": 30110,
+    "name": "Coral Band of the Revived",
+    "usagePct": 23
    },
    "alternatives": [
-    {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "usagePct": 23
-    },
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",

@@ -288,16 +288,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 56
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 28757,
-     "name": "Ring of a Thousand Marks",
-     "usagePct": 15
-    },
     {
      "itemId": 28730,
      "name": "Mithril Band of the Unscarred",
@@ -338,16 +333,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 38
+    "itemId": 28034,
+    "name": "Hourglass of the Unraveller",
+    "usagePct": 32
    },
    "alternatives": [
-    {
-     "itemId": 28034,
-     "name": "Hourglass of the Unraveller",
-     "usagePct": 32
-    },
     {
      "itemId": 28288,
      "name": "Abacus of Violent Odds",

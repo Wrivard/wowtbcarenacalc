@@ -236,16 +236,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
-    "usagePct": 35
+    "itemId": 32497,
+    "name": "Stormrage Signet Ring",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 32497,
-     "name": "Stormrage Signet Ring",
-     "usagePct": 22
-    },
     {
      "itemId": 33496,
      "name": "Signet of Primal Wrath",

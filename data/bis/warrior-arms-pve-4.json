@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32335,
-    "name": "Unstoppable Aggressor's Ring",
-    "usagePct": 26
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 22
-    },
     {
      "itemId": 32497,
      "name": "Stormrage Signet Ring",
@@ -333,16 +328,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 48
+    "itemId": 32505,
+    "name": "Madness of the Betrayer",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 32505,
-     "name": "Madness of the Betrayer",
-     "usagePct": 15
-    },
     {
      "itemId": 30627,
      "name": "Tsunami Talisman",

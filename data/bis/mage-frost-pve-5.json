@@ -235,16 +235,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34362,
-    "name": "Loop of Forged Power",
-    "usagePct": 50
+    "itemId": 34230,
+    "name": "Ring of Omnipotence",
+    "usagePct": 20
    },
    "alternatives": [
-    {
-     "itemId": 34230,
-     "name": "Ring of Omnipotence",
-     "usagePct": 20
-    },
     {
      "itemId": 32527,
      "name": "Ring of Ancient Knowledge",
@@ -285,16 +280,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 32483,
-    "name": "The Skull of Gul'dan",
-    "usagePct": 37
+    "itemId": 34429,
+    "name": "Shifting Naaru Sliver",
+    "usagePct": 24
    },
    "alternatives": [
-    {
-     "itemId": 34429,
-     "name": "Shifting Naaru Sliver",
-     "usagePct": 24
-    },
     {
      "itemId": 33829,
      "name": "Hex Shrunken Head",

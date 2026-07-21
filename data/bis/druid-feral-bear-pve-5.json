@@ -241,16 +241,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34887,
-    "name": "Angelista's Revenge",
-    "usagePct": 28
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 14
-    },
     {
      "itemId": 34213,
      "name": "Ring of Hardened Resolve",

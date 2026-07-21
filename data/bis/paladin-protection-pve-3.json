@@ -258,16 +258,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30028,
-    "name": "Seventh Ring of the Tirisfalen",
-    "usagePct": 33
+    "itemId": 30083,
+    "name": "Ring of Sundered Souls",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 30083,
-     "name": "Ring of Sundered Souls",
-     "usagePct": 21
-    },
     {
      "itemId": 33054,
      "name": "The Seal of Danzalar",
@@ -308,16 +303,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 17
+    "itemId": 28789,
+    "name": "Eye of Magtheridon",
+    "usagePct": 13
    },
    "alternatives": [
-    {
-     "itemId": 28789,
-     "name": "Eye of Magtheridon",
-     "usagePct": 13
-    },
     {
      "itemId": 30447,
      "name": "Tome of Fiery Redemption",

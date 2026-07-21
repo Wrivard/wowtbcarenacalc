@@ -248,16 +248,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 47
+    "itemId": 29309,
+    "name": "Band of the Eternal Restorer",
+    "usagePct": 23
    },
    "alternatives": [
-    {
-     "itemId": 29309,
-     "name": "Band of the Eternal Restorer",
-     "usagePct": 23
-    },
     {
      "itemId": 30110,
      "name": "Coral Band of the Revived",
@@ -298,16 +293,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 26
+    "itemId": 32496,
+    "name": "Memento of Tyrande",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 32496,
-     "name": "Memento of Tyrande",
-     "usagePct": 16
-    },
     {
      "itemId": 28823,
      "name": "Eye of Gruul",

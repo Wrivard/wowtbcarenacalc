@@ -263,16 +263,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
-    "usagePct": 40
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 22
-    },
     {
      "itemId": 32497,
      "name": "Stormrage Signet Ring",
@@ -313,16 +308,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 50
+    "itemId": 32505,
+    "name": "Madness of the Betrayer",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 32505,
-     "name": "Madness of the Betrayer",
-     "usagePct": 14
-    },
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
@@ -363,16 +353,11 @@
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 33389,
-    "name": "Dagger of Bad Mojo",
-    "usagePct": 29
+    "itemId": 30901,
+    "name": "Boundless Agony",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 30901,
-     "name": "Boundless Agony",
-     "usagePct": 15
-    },
     {
      "itemId": 29948,
      "name": "Claw of the Phoenix",

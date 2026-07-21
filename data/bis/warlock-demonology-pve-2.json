@@ -278,16 +278,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29302,
-    "name": "Band of Eternity",
-    "usagePct": 29
+    "itemId": 28793,
+    "name": "Band of Crimson Fury",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 28793,
-     "name": "Band of Crimson Fury",
-     "usagePct": 21
-    },
     {
      "itemId": 28753,
      "name": "Ring of Recurrence",

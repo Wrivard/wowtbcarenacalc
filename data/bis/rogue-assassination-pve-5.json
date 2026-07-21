@@ -215,16 +215,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32497,
-    "name": "Stormrage Signet Ring",
+    "itemId": 34361,
+    "name": "Hard Khorium Band",
     "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 34361,
-     "name": "Hard Khorium Band",
-     "usagePct": 25
-    },
     {
      "itemId": 34887,
      "name": "Angelista's Revenge",
@@ -265,16 +260,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 41
+    "itemId": 34472,
+    "name": "Shard of Contempt",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 34472,
-     "name": "Shard of Contempt",
-     "usagePct": 15
-    },
     {
      "itemId": 30450,
      "name": "Warp-Spring Coil",
@@ -315,16 +305,11 @@
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 34329,
-    "name": "Crux of the Apocalypse",
-    "usagePct": 26
+    "itemId": 34197,
+    "name": "Shiv of Exsanguination",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 34197,
-     "name": "Shiv of Exsanguination",
-     "usagePct": 16
-    },
     {
      "itemId": 32471,
      "name": "Shard of Azzinoth",

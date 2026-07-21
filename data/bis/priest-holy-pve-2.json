@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer",
-    "usagePct": 57
+    "itemId": 30110,
+    "name": "Coral Band of the Revived",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "usagePct": 22
-    },
     {
      "itemId": 29307,
      "name": "Band of Eternity",
@@ -318,16 +313,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 28
+    "itemId": 30665,
+    "name": "Earring of Soulful Meditation",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 30665,
-     "name": "Earring of Soulful Meditation",
-     "usagePct": 21
-    },
     {
      "itemId": 38288,
      "name": "Direbrew Hops",

@@ -230,16 +230,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32497,
-    "name": "Stormrage Signet Ring",
-    "usagePct": 36
+    "itemId": 34189,
+    "name": "Band of Ruinous Delight",
+    "usagePct": 19
    },
    "alternatives": [
-    {
-     "itemId": 34189,
-     "name": "Band of Ruinous Delight",
-     "usagePct": 19
-    },
     {
      "itemId": 34887,
      "name": "Angelista's Revenge",

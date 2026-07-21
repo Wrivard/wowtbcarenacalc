@@ -263,16 +263,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 57
+    "itemId": 34363,
+    "name": "Ring of Flowing Life",
+    "usagePct": 19
    },
    "alternatives": [
-    {
-     "itemId": 34363,
-     "name": "Ring of Flowing Life",
-     "usagePct": 19
-    },
     {
      "itemId": 35733,
      "name": "Ring of Harmonic Beauty",
@@ -313,16 +308,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 35750,
-    "name": "Redeemer's Alchemist Stone",
-    "usagePct": 30
+    "itemId": 32496,
+    "name": "Memento of Tyrande",
+    "usagePct": 18
    },
    "alternatives": [
-    {
-     "itemId": 32496,
-     "name": "Memento of Tyrande",
-     "usagePct": 18
-    },
     {
      "itemId": 28823,
      "name": "Eye of Gruul",

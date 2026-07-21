@@ -293,16 +293,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 47
+    "itemId": 28553,
+    "name": "Band of the Exorcist",
+    "usagePct": 9
    },
    "alternatives": [
-    {
-     "itemId": 28553,
-     "name": "Band of the Exorcist",
-     "usagePct": 9
-    },
     {
      "itemId": 29283,
      "name": "Violet Signet of the Master Assassin",
@@ -343,16 +338,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 29
+    "itemId": 28121,
+    "name": "Icon of Unyielding Courage",
+    "usagePct": 10
    },
    "alternatives": [
-    {
-     "itemId": 28121,
-     "name": "Icon of Unyielding Courage",
-     "usagePct": 10
-    },
     {
      "itemId": 28579,
      "name": "Romulo's Poison Vial",

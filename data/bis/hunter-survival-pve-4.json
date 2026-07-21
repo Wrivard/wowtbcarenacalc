@@ -253,16 +253,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
-    "usagePct": 52
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 24
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 24
-    },
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",

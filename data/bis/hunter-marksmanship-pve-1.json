@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28649,
-    "name": "Garona's Signet Ring",
-    "usagePct": 28
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 28757,
-     "name": "Ring of a Thousand Marks",
-     "usagePct": 21
-    },
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
@@ -333,16 +328,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 44
+    "itemId": 28034,
+    "name": "Hourglass of the Unraveller",
+    "usagePct": 26
    },
    "alternatives": [
-    {
-     "itemId": 28034,
-     "name": "Hourglass of the Unraveller",
-     "usagePct": 26
-    },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",

@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 51
+    "itemId": 30061,
+    "name": "Ancestral Ring of Conquest",
+    "usagePct": 28
    },
    "alternatives": [
-    {
-     "itemId": 30061,
-     "name": "Ancestral Ring of Conquest",
-     "usagePct": 28
-    },
     {
      "itemId": 28730,
      "name": "Mithril Band of the Unscarred",
@@ -318,16 +313,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 37
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 31
    },
    "alternatives": [
-    {
-     "itemId": 28830,
-     "name": "Dragonspine Trophy",
-     "usagePct": 31
-    },
     {
      "itemId": 38287,
      "name": "Empty Mug of Direbrew",

@@ -273,16 +273,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 45
+    "itemId": 34363,
+    "name": "Ring of Flowing Life",
+    "usagePct": 23
    },
    "alternatives": [
-    {
-     "itemId": 34363,
-     "name": "Ring of Flowing Life",
-     "usagePct": 23
-    },
     {
      "itemId": 35733,
      "name": "Ring of Harmonic Beauty",

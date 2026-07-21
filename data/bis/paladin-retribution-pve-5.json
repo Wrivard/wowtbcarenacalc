@@ -240,16 +240,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34361,
-    "name": "Hard Khorium Band",
-    "usagePct": 34
+    "itemId": 34887,
+    "name": "Angelista's Revenge",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 34887,
-     "name": "Angelista's Revenge",
-     "usagePct": 22
-    },
     {
      "itemId": 34189,
      "name": "Band of Ruinous Delight",

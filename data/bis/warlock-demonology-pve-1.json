@@ -258,16 +258,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28793,
-    "name": "Band of Crimson Fury",
-    "usagePct": 30
+    "itemId": 29172,
+    "name": "Ashyen's Gift",
+    "usagePct": 23
    },
    "alternatives": [
-    {
-     "itemId": 29172,
-     "name": "Ashyen's Gift",
-     "usagePct": 23
-    },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",

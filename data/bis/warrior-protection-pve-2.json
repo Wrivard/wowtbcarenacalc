@@ -293,16 +293,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 43
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 28757,
-     "name": "Ring of a Thousand Marks",
-     "usagePct": 16
-    },
     {
      "itemId": 28730,
      "name": "Mithril Band of the Unscarred",

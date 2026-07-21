@@ -253,16 +253,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28791,
-    "name": "Ring of the Recalcitrant",
-    "usagePct": 43
+    "itemId": 29298,
+    "name": "Band of Eternity",
+    "usagePct": 28
    },
    "alternatives": [
-    {
-     "itemId": 29298,
-     "name": "Band of Eternity",
-     "usagePct": 28
-    },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",

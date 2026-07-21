@@ -248,16 +248,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30667,
-    "name": "Ring of Unrelenting Storms",
-    "usagePct": 44
+    "itemId": 29302,
+    "name": "Band of Eternity",
+    "usagePct": 28
    },
    "alternatives": [
-    {
-     "itemId": 29302,
-     "name": "Band of Eternity",
-     "usagePct": 28
-    },
     {
      "itemId": 28753,
      "name": "Ring of Recurrence",

@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30110,
-    "name": "Coral Band of the Revived",
-    "usagePct": 40
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 20
    },
    "alternatives": [
-    {
-     "itemId": 29290,
-     "name": "Violet Signet of the Grand Restorer",
-     "usagePct": 20
-    },
     {
      "itemId": 32528,
      "name": "Blessed Band of Karabor",
@@ -333,16 +328,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 37
+    "itemId": 38288,
+    "name": "Direbrew Hops",
+    "usagePct": 29
    },
    "alternatives": [
-    {
-     "itemId": 38288,
-     "name": "Direbrew Hops",
-     "usagePct": 29
-    },
     {
      "itemId": 19288,
      "name": "Darkmoon Card: Blue Dragon",

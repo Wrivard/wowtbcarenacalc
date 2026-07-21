@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 36
+    "itemId": 34363,
+    "name": "Ring of Flowing Life",
+    "usagePct": 26
    },
    "alternatives": [
-    {
-     "itemId": 34363,
-     "name": "Ring of Flowing Life",
-     "usagePct": 26
-    },
     {
      "itemId": 32238,
      "name": "Ring of Calming Waves",

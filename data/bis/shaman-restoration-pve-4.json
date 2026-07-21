@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 60
+    "itemId": 29309,
+    "name": "Band of the Eternal Restorer",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 29309,
-     "name": "Band of the Eternal Restorer",
-     "usagePct": 21
-    },
     {
      "itemId": 33498,
      "name": "Signet of the Quiet Forest",
@@ -313,16 +308,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 32
+    "itemId": 38288,
+    "name": "Direbrew Hops",
+    "usagePct": 20
    },
    "alternatives": [
-    {
-     "itemId": 38288,
-     "name": "Direbrew Hops",
-     "usagePct": 20
-    },
     {
      "itemId": 32496,
      "name": "Memento of Tyrande",

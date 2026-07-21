@@ -253,16 +253,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28793,
-    "name": "Band of Crimson Fury",
-    "usagePct": 28
+    "itemId": 29172,
+    "name": "Ashyen's Gift",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 29172,
-     "name": "Ashyen's Gift",
-     "usagePct": 25
-    },
     {
      "itemId": 28753,
      "name": "Ring of Recurrence",

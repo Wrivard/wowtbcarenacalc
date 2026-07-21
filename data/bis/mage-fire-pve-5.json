@@ -225,16 +225,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34362,
-    "name": "Loop of Forged Power",
-    "usagePct": 44
+    "itemId": 34230,
+    "name": "Ring of Omnipotence",
+    "usagePct": 19
    },
    "alternatives": [
-    {
-     "itemId": 34230,
-     "name": "Ring of Omnipotence",
-     "usagePct": 19
-    },
     {
      "itemId": 32527,
      "name": "Ring of Ancient Knowledge",

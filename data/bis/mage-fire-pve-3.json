@@ -288,16 +288,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29287,
-    "name": "Violet Signet of the Archmage",
-    "usagePct": 19
+    "itemId": 29304,
+    "name": "Band of Eternity",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 29304,
-     "name": "Band of Eternity",
-     "usagePct": 15
-    },
     {
      "itemId": 29303,
      "name": "Band of Eternity",
@@ -338,16 +333,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 28
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 19
    },
    "alternatives": [
-    {
-     "itemId": 27683,
-     "name": "Quagmirran's Eye",
-     "usagePct": 19
-    },
     {
      "itemId": 30720,
      "name": "Serpent-Coil Braid",

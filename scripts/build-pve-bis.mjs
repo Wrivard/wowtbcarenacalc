@@ -174,6 +174,30 @@ async function main() {
       const orderedSlots = ORDERED_SLOTS.filter((s) => slots[s]).map(
         (s) => slots[s],
       );
+
+      // The WCL source reports the most-worn item PER slot position, so the
+      // paired slots below often resolve to the same item — which no player
+      // can equip twice. Promote the second slot's top distinct alternative.
+      for (const [primary, dup] of [
+        ["Ring1", "Ring2"],
+        ["Trinket1", "Trinket2"],
+        ["MainHand", "OffHand"],
+      ]) {
+        const p = slots[primary];
+        const d = slots[dup];
+        if (!p || !d || d.bis.itemId !== p.bis.itemId) continue;
+        const alt = (d.alternatives ?? []).find(
+          (a) => a.itemId !== p.bis.itemId,
+        );
+        if (!alt) {
+          console.warn(`  ${classSlug}-${specSlug}-pve-${phase}: ${dup} dup ${d.bis.itemId} has no distinct alt`);
+          continue;
+        }
+        d.bis = { ...alt };
+        d.alternatives = (d.alternatives ?? []).filter(
+          (a) => a.itemId !== alt.itemId,
+        );
+      }
       const topPick = orderedSlots
         .map((s) => s.bis)
         .sort((a, b) => (b.usagePct ?? 0) - (a.usagePct ?? 0))[0];

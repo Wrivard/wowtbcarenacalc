@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29287,
-    "name": "Violet Signet of the Archmage",
-    "usagePct": 38
+    "itemId": 28753,
+    "name": "Ring of Recurrence",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 28753,
-     "name": "Ring of Recurrence",
-     "usagePct": 16
-    },
     {
      "itemId": 28793,
      "name": "Band of Crimson Fury",
@@ -333,16 +328,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 38
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 35
    },
    "alternatives": [
-    {
-     "itemId": 27683,
-     "name": "Quagmirran's Eye",
-     "usagePct": 35
-    },
     {
      "itemId": 19379,
      "name": "Neltharion's Tear",

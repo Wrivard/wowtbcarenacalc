@@ -338,16 +338,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 41
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 17
    },
    "alternatives": [
-    {
-     "itemId": 28830,
-     "name": "Dragonspine Trophy",
-     "usagePct": 17
-    },
     {
      "itemId": 28034,
      "name": "Hourglass of the Unraveller",

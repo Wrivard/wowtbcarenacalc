@@ -237,16 +237,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29305,
-    "name": "Band of the Eternal Sage",
+    "itemId": 32527,
+    "name": "Ring of Ancient Knowledge",
     "usagePct": 37
    },
    "alternatives": [
-    {
-     "itemId": 32527,
-     "name": "Ring of Ancient Knowledge",
-     "usagePct": 37
-    },
     {
      "itemId": 33497,
      "name": "Mana Attuned Band",
@@ -287,16 +282,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 27683,
-    "name": "Quagmirran's Eye",
-    "usagePct": 34
+    "itemId": 32483,
+    "name": "The Skull of Gul'dan",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 32483,
-     "name": "The Skull of Gul'dan",
-     "usagePct": 22
-    },
     {
      "itemId": 33829,
      "name": "Hex Shrunken Head",

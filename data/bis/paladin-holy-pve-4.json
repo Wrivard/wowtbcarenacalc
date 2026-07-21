@@ -258,16 +258,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 34
+    "itemId": 29309,
+    "name": "Band of the Eternal Restorer",
+    "usagePct": 29
    },
    "alternatives": [
-    {
-     "itemId": 29309,
-     "name": "Band of the Eternal Restorer",
-     "usagePct": 29
-    },
     {
      "itemId": 32238,
      "name": "Ring of Calming Waves",

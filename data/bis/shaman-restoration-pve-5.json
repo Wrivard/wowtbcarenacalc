@@ -247,16 +247,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32528,
-    "name": "Blessed Band of Karabor",
-    "usagePct": 65
+    "itemId": 34363,
+    "name": "Ring of Flowing Life",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 34363,
-     "name": "Ring of Flowing Life",
-     "usagePct": 16
-    },
     {
      "itemId": 33498,
      "name": "Signet of the Quiet Forest",

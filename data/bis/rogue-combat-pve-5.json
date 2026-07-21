@@ -194,16 +194,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32497,
-    "name": "Stormrage Signet Ring",
-    "usagePct": 46
+    "itemId": 34361,
+    "name": "Hard Khorium Band",
+    "usagePct": 28
    },
    "alternatives": [
-    {
-     "itemId": 34361,
-     "name": "Hard Khorium Band",
-     "usagePct": 28
-    },
     {
      "itemId": 34189,
      "name": "Band of Ruinous Delight",

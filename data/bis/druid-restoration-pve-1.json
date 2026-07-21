@@ -288,16 +288,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer",
-    "usagePct": 40
+    "itemId": 28763,
+    "name": "Jade Ring of the Everliving",
+    "usagePct": 18
    },
    "alternatives": [
-    {
-     "itemId": 28763,
-     "name": "Jade Ring of the Everliving",
-     "usagePct": 18
-    },
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
@@ -338,16 +333,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 43
+    "itemId": 30841,
+    "name": "Lower City Prayerbook",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 30841,
-     "name": "Lower City Prayerbook",
-     "usagePct": 16
-    },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",

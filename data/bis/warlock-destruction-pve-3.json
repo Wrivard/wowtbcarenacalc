@@ -262,16 +262,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30109,
-    "name": "Ring of Endless Coils",
-    "usagePct": 25
+    "itemId": 28753,
+    "name": "Ring of Recurrence",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 28753,
-     "name": "Ring of Recurrence",
-     "usagePct": 14
-    },
     {
      "itemId": 29305,
      "name": "Band of the Eternal Sage",

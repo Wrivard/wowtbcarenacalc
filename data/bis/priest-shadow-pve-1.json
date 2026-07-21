@@ -275,16 +275,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 43
+    "itemId": 28789,
+    "name": "Eye of Magtheridon",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 28789,
-     "name": "Eye of Magtheridon",
-     "usagePct": 21
-    },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",

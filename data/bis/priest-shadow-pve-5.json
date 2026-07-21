@@ -225,16 +225,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 32527,
-    "name": "Ring of Ancient Knowledge",
-    "usagePct": 44
+    "itemId": 34362,
+    "name": "Loop of Forged Power",
+    "usagePct": 33
    },
    "alternatives": [
-    {
-     "itemId": 34362,
-     "name": "Loop of Forged Power",
-     "usagePct": 33
-    },
     {
      "itemId": 33497,
      "name": "Mana Attuned Band",
@@ -275,16 +270,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 33829,
-    "name": "Hex Shrunken Head",
-    "usagePct": 44
+    "itemId": 34429,
+    "name": "Shifting Naaru Sliver",
+    "usagePct": 13
    },
    "alternatives": [
-    {
-     "itemId": 34429,
-     "name": "Shifting Naaru Sliver",
-     "usagePct": 13
-    },
     {
      "itemId": 32483,
      "name": "The Skull of Gul'dan",

@@ -293,16 +293,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 41
+    "itemId": 33919,
+    "name": "Vindicator's Band of Triumph",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 33919,
-     "name": "Vindicator's Band of Triumph",
-     "usagePct": 21
-    },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
@@ -343,16 +338,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 21
+    "itemId": 37128,
+    "name": "Balebrew Charm",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 37128,
-     "name": "Balebrew Charm",
-     "usagePct": 14
-    },
     {
      "itemId": 30627,
      "name": "Tsunami Talisman",

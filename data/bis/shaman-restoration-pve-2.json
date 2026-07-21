@@ -293,16 +293,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28790,
-    "name": "Naaru Lightwarden's Band",
-    "usagePct": 39
+    "itemId": 29307,
+    "name": "Band of Eternity",
+    "usagePct": 26
    },
    "alternatives": [
-    {
-     "itemId": 29307,
-     "name": "Band of Eternity",
-     "usagePct": 26
-    },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
@@ -343,16 +338,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 40
+    "itemId": 38288,
+    "name": "Direbrew Hops",
+    "usagePct": 31
    },
    "alternatives": [
-    {
-     "itemId": 38288,
-     "name": "Direbrew Hops",
-     "usagePct": 31
-    },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",

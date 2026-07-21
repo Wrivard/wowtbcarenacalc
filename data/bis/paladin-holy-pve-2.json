@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 28790,
-    "name": "Naaru Lightwarden's Band",
-    "usagePct": 41
+    "itemId": 29307,
+    "name": "Band of Eternity",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 29307,
-     "name": "Band of Eternity",
-     "usagePct": 25
-    },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",

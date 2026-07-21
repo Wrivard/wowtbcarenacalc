@@ -288,16 +288,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29301,
-    "name": "Band of the Eternal Champion",
-    "usagePct": 32
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 23
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 23
-    },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
@@ -338,16 +333,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy",
-    "usagePct": 54
+    "itemId": 33831,
+    "name": "Berserker's Call",
+    "usagePct": 15
    },
    "alternatives": [
-    {
-     "itemId": 33831,
-     "name": "Berserker's Call",
-     "usagePct": 15
-    },
     {
      "itemId": 32491,
      "name": "Ashtongue Talisman of Vision",

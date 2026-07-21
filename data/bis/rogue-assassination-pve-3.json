@@ -283,16 +283,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30052,
-    "name": "Ring of Lethality",
-    "usagePct": 26
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 28757,
-     "name": "Ring of a Thousand Marks",
-     "usagePct": 14
-    },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
@@ -333,16 +328,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 30450,
-    "name": "Warp-Spring Coil",
-    "usagePct": 40
+    "itemId": 28830,
+    "name": "Dragonspine Trophy",
+    "usagePct": 36
    },
    "alternatives": [
-    {
-     "itemId": 28830,
-     "name": "Dragonspine Trophy",
-     "usagePct": 36
-    },
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",

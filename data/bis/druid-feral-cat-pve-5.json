@@ -216,16 +216,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 34887,
-    "name": "Angelista's Revenge",
-    "usagePct": 44
+    "itemId": 33496,
+    "name": "Signet of Primal Wrath",
+    "usagePct": 36
    },
    "alternatives": [
-    {
-     "itemId": 33496,
-     "name": "Signet of Primal Wrath",
-     "usagePct": 36
-    },
     {
      "itemId": 29301,
      "name": "Band of the Eternal Champion",
@@ -266,16 +261,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 34472,
-    "name": "Shard of Contempt",
-    "usagePct": 39
+    "itemId": 32505,
+    "name": "Madness of the Betrayer",
+    "usagePct": 34
    },
    "alternatives": [
-    {
-     "itemId": 32505,
-     "name": "Madness of the Betrayer",
-     "usagePct": 34
-    },
     {
      "itemId": 34427,
      "name": "Blackened Naaru Sliver",

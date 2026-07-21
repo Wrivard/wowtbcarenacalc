@@ -247,16 +247,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29305,
-    "name": "Band of the Eternal Sage",
-    "usagePct": 46
+    "itemId": 32527,
+    "name": "Ring of Ancient Knowledge",
+    "usagePct": 31
    },
    "alternatives": [
-    {
-     "itemId": 32527,
-     "name": "Ring of Ancient Knowledge",
-     "usagePct": 31
-    },
     {
      "itemId": 33497,
      "name": "Mana Attuned Band",
@@ -297,16 +292,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 30720,
-    "name": "Serpent-Coil Braid",
-    "usagePct": 49
+    "itemId": 33829,
+    "name": "Hex Shrunken Head",
+    "usagePct": 18
    },
    "alternatives": [
-    {
-     "itemId": 33829,
-     "name": "Hex Shrunken Head",
-     "usagePct": 18
-    },
     {
      "itemId": 32483,
      "name": "The Skull of Gul'dan",

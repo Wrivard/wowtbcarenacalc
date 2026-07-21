@@ -241,16 +241,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29305,
-    "name": "Band of the Eternal Sage",
-    "usagePct": 39
+    "itemId": 32527,
+    "name": "Ring of Ancient Knowledge",
+    "usagePct": 30
    },
    "alternatives": [
-    {
-     "itemId": 32527,
-     "name": "Ring of Ancient Knowledge",
-     "usagePct": 30
-    },
     {
      "itemId": 30667,
      "name": "Ring of Unrelenting Storms",
@@ -291,16 +286,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28785,
-    "name": "The Lightning Capacitor",
-    "usagePct": 55
+    "itemId": 33829,
+    "name": "Hex Shrunken Head",
+    "usagePct": 16
    },
    "alternatives": [
-    {
-     "itemId": 33829,
-     "name": "Hex Shrunken Head",
-     "usagePct": 16
-    },
     {
      "itemId": 29370,
      "name": "Icon of the Silver Crescent",

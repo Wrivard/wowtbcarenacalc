@@ -253,16 +253,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 45
+    "itemId": 29279,
+    "name": "Violet Signet of the Great Protector",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 29279,
-     "name": "Violet Signet of the Great Protector",
-     "usagePct": 22
-    },
     {
      "itemId": 29298,
      "name": "Band of Eternity",
@@ -303,16 +298,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 21
+    "itemId": 32658,
+    "name": "Badge of Tenacity",
+    "usagePct": 18
    },
    "alternatives": [
-    {
-     "itemId": 32658,
-     "name": "Badge of Tenacity",
-     "usagePct": 18
-    },
     {
      "itemId": 30627,
      "name": "Tsunami Talisman",

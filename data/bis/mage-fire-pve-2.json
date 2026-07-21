@@ -278,16 +278,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29302,
-    "name": "Band of Eternity",
-    "usagePct": 36
+    "itemId": 28793,
+    "name": "Band of Crimson Fury",
+    "usagePct": 19
    },
    "alternatives": [
-    {
-     "itemId": 28793,
-     "name": "Band of Crimson Fury",
-     "usagePct": 19
-    },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
@@ -328,16 +323,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 27
+    "itemId": 27683,
+    "name": "Quagmirran's Eye",
+    "usagePct": 25
    },
    "alternatives": [
-    {
-     "itemId": 27683,
-     "name": "Quagmirran's Eye",
-     "usagePct": 25
-    },
     {
      "itemId": 30626,
      "name": "Sextant of Unstable Currents",

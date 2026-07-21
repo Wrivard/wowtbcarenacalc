@@ -272,16 +272,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 39
+    "itemId": 28649,
+    "name": "Garona's Signet Ring",
+    "usagePct": 23
    },
    "alternatives": [
-    {
-     "itemId": 28649,
-     "name": "Garona's Signet Ring",
-     "usagePct": 23
-    },
     {
      "itemId": 29177,
      "name": "A'dal's Command",
@@ -317,16 +312,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 40
+    "itemId": 28034,
+    "name": "Hourglass of the Unraveller",
+    "usagePct": 36
    },
    "alternatives": [
-    {
-     "itemId": 28034,
-     "name": "Hourglass of the Unraveller",
-     "usagePct": 36
-    },
     {
      "itemId": 23206,
      "name": "Mark of the Champion",

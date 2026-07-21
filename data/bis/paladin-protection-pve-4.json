@@ -231,16 +231,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29305,
-    "name": "Band of the Eternal Sage",
-    "usagePct": 29
+    "itemId": 29172,
+    "name": "Ashyen's Gift",
+    "usagePct": 22
    },
    "alternatives": [
-    {
-     "itemId": 29172,
-     "name": "Ashyen's Gift",
-     "usagePct": 22
-    },
     {
      "itemId": 30028,
      "name": "Seventh Ring of the Tirisfalen",

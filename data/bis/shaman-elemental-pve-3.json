@@ -268,16 +268,11 @@
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30667,
-    "name": "Ring of Unrelenting Storms",
-    "usagePct": 42
+    "itemId": 29303,
+    "name": "Band of Eternity",
+    "usagePct": 14
    },
    "alternatives": [
-    {
-     "itemId": 29303,
-     "name": "Band of Eternity",
-     "usagePct": 14
-    },
     {
      "itemId": 30109,
      "name": "Ring of Endless Coils",
@@ -318,16 +313,11 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28785,
-    "name": "The Lightning Capacitor",
-    "usagePct": 60
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 21
    },
    "alternatives": [
-    {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "usagePct": 21
-    },
     {
      "itemId": 30626,
      "name": "Sextant of Unstable Currents",
