@@ -25,7 +25,9 @@ const PRESETS = {
   "hunter/survival": ["hunter", "Survival"],
   "rogue/combat": ["rogue", "Combat"],
   "rogue/assassination": ["rogue", "Mutilate"],
-  "rogue/subtlety": ["rogue", "Hemo"],
+  // rogue/subtlety: wowsims' only sub-tree preset ("Hemo") is a
+  // Combat-dominant 0/40/21 PvE build — wrong tree for a Subtlety spec
+  // page. Hand-authored below as the real 0/20/41 Shadowstep build.
   "priest/shadow": ["shadow_priest", "Standard"],
   "shaman/elemental": ["elemental_shaman", "Standard"],
   "shaman/enhancement": ["enhancement_shaman", "Ele Sub"],
@@ -44,6 +46,39 @@ const PRESETS = {
 // Hand-authored standard builds for specs wowsims has no sim for.
 // Rank maps keyed by talent id (validated against the dataset below).
 const HAND_BUILDS = {
+  // Subtlety 41 / Combat 20 — the classic TBC Shadowstep/Preparation
+  // arena build (Hemorrhage, Premeditation, Cheat Death, Shadowstep),
+  // genuinely Subtlety-dominant unlike wowsims' Combat "Hemo" preset.
+  "rogue/subtlety": [
+    {},
+    {
+      lightningReflexes: 5,
+      deflection: 5,
+      precision: 5,
+      endurance: 2,
+      riposte: 1,
+      "improved-sprint": 2,
+    },
+    {
+      opportunity: 5,
+      camouflage: 5,
+      initiative: 3,
+      ghostlyStrike: 1,
+      improvedAmbush: 1,
+      serratedBlades: 3,
+      setup: 2,
+      hemorrhage: 1,
+      preparation: 1,
+      dirtyDeeds: 2,
+      "heightened-senses": 1,
+      deadliness: 5,
+      premeditation: 1,
+      "cheat-death": 3,
+      "enveloping-shadows": 1,
+      sinisterCalling: 5,
+      shadowstep: 1,
+    },
+  ],
   // Holy 41 / Protection 20 — standard raid-healing build with
   // Divine Illumination, Kings and Improved Concentration Aura.
   "paladin/holy": [

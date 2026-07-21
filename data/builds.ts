@@ -113,6 +113,9 @@ export const BUILDS: RecommendedBuild[] = [
   },
 ];
 
+// Generated builds default to PvE (raid), except these curated PvP standards.
+const GENERATED_PVP = new Set<string>(["rogue/subtlety"]);
+
 export function getBuild(
   classSlug: string,
   specSlug: string,
@@ -137,7 +140,9 @@ export function getBuild(
   return {
     classSlug: gen.classSlug,
     specSlug: gen.specSlug,
-    category: "pve", // wowsims presets and curated standards are raid builds
+    // wowsims presets are raid builds; the few curated PvP standards
+    // (e.g. Subtlety's Shadowstep build) are arena.
+    category: GENERATED_PVP.has(`${classSlug}/${specSlug}`) ? "pvp" : "pve",
     encoded: gen.encoded,
     summaryLabel: gen.summaryLabel,
     updatedAt: gen.updatedAt,

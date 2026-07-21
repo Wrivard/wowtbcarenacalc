@@ -82,10 +82,10 @@
  {
   "classSlug": "rogue",
   "specSlug": "subtlety",
-  "encoded": "-02330520100501500232105-500252100230001",
-  "summaryLabel": "0/40/21",
-  "source": "wowsims \"Hemo\" preset",
-  "updatedAt": "2026-07-18"
+  "encoded": "-005055212-0500531120311210511351",
+  "summaryLabel": "0/20/41",
+  "source": "curated standard build",
+  "updatedAt": "2026-07-21"
  },
  {
   "classSlug": "priest",
