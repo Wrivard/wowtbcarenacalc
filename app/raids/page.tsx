@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
-import { PHASE_RAIDS, getRaid, raidsByPhase } from "@/data/raids";
+import { PHASE_RAIDS, getRaid, raidsByPhase, bossesByRaid } from "@/data/raids";
 import { PHASE_LABELS, type Phase } from "@/lib/classes";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
+import { BossPortrait } from "@/components/raids/BossPortrait";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { BACKGROUNDS } from "@/lib/backgrounds";
 
@@ -57,18 +58,32 @@ export default function RaidsHub() {
                     {PHASE_LABELS[phase]}
                   </span>
                 </div>
-                <div className="mt-3 flex flex-wrap gap-2">
+                <div className="mt-4 grid gap-3 sm:grid-cols-2">
                   {raidIds.map((rid) => {
                     const raid = getRaid(rid);
                     const isLive = live.some((r) => r.id === rid);
                     if (raid && isLive) {
+                      const bosses = bossesByRaid(rid);
                       return (
                         <Link
                           key={rid}
                           href={`/raids/phase-${phase}/${rid}`}
-                          className="rounded-lg border border-border bg-background px-3 py-1.5 text-sm text-muted-strong transition-colors hover:border-border-strong hover:text-foreground"
+                          className="group rounded-xl border border-border bg-background p-3 transition-colors hover:border-border-strong"
                         >
-                          {raid.name}
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="text-sm font-semibold text-foreground transition-colors group-hover:text-accent">
+                              {raid.name}
+                            </span>
+                            <span className="font-mono text-[10px] tracking-wider text-muted uppercase">
+                              {bosses.length} bosses
+                            </span>
+                          </div>
+                          {/* Boss portrait strip */}
+                          <div className="mt-2.5 flex flex-wrap gap-1.5">
+                            {bosses.map((b) => (
+                              <BossPortrait key={b.id} bossId={b.id} name={b.name} size="sm" />
+                            ))}
+                          </div>
                         </Link>
                       );
                     }
@@ -80,7 +95,7 @@ export default function RaidsHub() {
                     return (
                       <span
                         key={rid}
-                        className="rounded-lg border border-dashed border-border px-3 py-1.5 text-sm text-muted"
+                        className="flex items-center rounded-xl border border-dashed border-border px-3 py-4 text-sm text-muted"
                         title="Guide coming soon"
                       >
                         {name} · soon
