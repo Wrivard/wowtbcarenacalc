@@ -8,7 +8,10 @@ import type { BisList } from "@/lib/bis";
 import type { ClassDef, SpecDef } from "@/lib/classes";
 import { GearGrid } from "@/components/bis/GearGrid";
 import { StatCaps } from "@/components/bis/StatCaps";
+import { StatPriorityBars } from "@/components/bis/StatPriorityBars";
+import { StatCapCalculator } from "@/components/bis/StatCapCalculator";
 import { GearPriorityList } from "@/components/bis/GearPriorityList";
+import { getStatCaps } from "@/data/caps";
 import { FilledTalentTrees } from "@/components/talents/FilledTalentTrees";
 import { PvpExtras } from "@/components/bis/PvpExtras";
 import { ItemLink } from "@/components/ItemLink";
@@ -87,6 +90,7 @@ export function BisPageBody({
             </li>
           ))}
         </ol>
+        <StatPriorityBars stats={list.statPriority} className="mt-5" />
         {list.statPriorityRationale && (
           <p className="mt-4 text-sm leading-relaxed text-muted-strong">
             {list.statPriorityRationale}
@@ -97,6 +101,11 @@ export function BisPageBody({
           role={spec.role}
           content={list.content}
           specName={`${spec.name} ${cls.name}`}
+          className="mt-6"
+        />
+        <StatCapCalculator
+          caps={getStatCaps(cls.slug, spec.role, list.content)}
+          content={list.content}
           className="mt-6"
         />
       </section>

@@ -3,6 +3,7 @@
 
 import { getGearPriority } from "@/data/gearPriority";
 import type { Role } from "@/lib/classes";
+import { GearChecklist } from "@/components/bis/GearChecklist";
 
 export function GearPriorityList({
   classSlug,
@@ -25,21 +26,13 @@ export function GearPriorityList({
       <h2 className="text-xl font-semibold tracking-tight text-foreground">
         What to buy first ({content === "pvp" ? "arena" : "raid"})
       </h2>
-      <ol className="mt-4 space-y-3">
-        {steps.map((s) => (
-          <li key={s.step} className="flex gap-3">
-            <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-accent-faint font-mono text-xs font-semibold text-accent">
-              {s.step}
-            </span>
-            <div className="min-w-0">
-              <p className="text-sm font-medium text-foreground">{s.label}</p>
-              <p className="mt-0.5 text-sm leading-relaxed text-muted-strong">
-                {s.reason}
-              </p>
-            </div>
-          </li>
-        ))}
-      </ol>
+      <p className="mt-1 text-xs leading-relaxed text-muted">
+        Tick each step as you go — your progress is saved on this device.
+      </p>
+      <GearChecklist
+        steps={steps}
+        storageKey={`gear-checklist:${classSlug}:${role}:${content}`}
+      />
     </section>
   );
 }
