@@ -47,6 +47,13 @@ export function getStatCaps(
         unit: "%",
         note: "4% (~50 rating) caps spell misses against same-level players — the raid 16% boss cap does not apply. Hit talents and Misery can cover most of it, so gear little pure hit in arena.",
       });
+    } else if (classSlug === "hunter") {
+      caps.push({
+        stat: "Hit Rating (vs players)",
+        cap: 79,
+        unit: "rating",
+        note: "5% (~79 rating) caps ranged special-shot misses (Aimed/Arcane Shot) against same-level players. Expertise does nothing for ranged attacks — never gem or gear it as a hunter.",
+      });
     } else if (isPhysical(classSlug, role)) {
       caps.push({
         stat: "Hit Rating (vs players)",
@@ -66,6 +73,18 @@ export function getStatCaps(
         cap: 202,
         unit: "rating",
         note: "16% cap for a raid boss (+3 levels). Draenei Heroic Presence, Shadow Priest's Misery, and hit talents lower how much you need on gear.",
+      },
+    ];
+  }
+  if (classSlug === "hunter") {
+    // Ranged physical: hit-capped like melee specials, but expertise is
+    // inert for ranged attacks (they can't be dodged or parried).
+    return [
+      {
+        stat: "Ranged Hit Rating",
+        cap: 142,
+        unit: "rating",
+        note: "9% (142 rating) caps ranged special-shot misses against a raid boss (+3 levels). Talents (Focused Aim) and the Draenei hit aura lower how much you carry on gear. Expertise does nothing for ranged attacks — do not gear it.",
       },
     ];
   }
