@@ -40,10 +40,26 @@ export const MACROS: Macro[] = [
   },
   {
     class: "rogue",
+    spec: "combat",
     category: "offensive",
     name: "Burst (Blade Flurry + AR + trinkets)",
     code: "#showtooltip Adrenaline Rush\n/cast Blade Flurry\n/cast Adrenaline Rush\n/use 13\n/use 14",
     description: "Stack Blade Flurry, Adrenaline Rush and both trinkets for a Combat burst window.",
+  },
+  {
+    class: "rogue",
+    spec: "subtlety",
+    category: "defensive",
+    name: "Cloak + Evasion",
+    code: "#showtooltip Cloak of Shadows\n/cast Cloak of Shadows\n/cast Evasion",
+    description: "Wipe magic debuffs and DoTs with Cloak while Evasion soaks the melee swap — your two-button panic when trained.",
+  },
+  {
+    class: "rogue",
+    category: "focus",
+    name: "Focus Sap",
+    code: "#showtooltip Sap\n/cast [target=focus] Sap",
+    description: "Sap your focus (the enemy healer) from stealth to open a kill on the other target — no target swap needed.",
   },
 
   // ---------------- Mage ----------------

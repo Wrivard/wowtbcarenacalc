@@ -10,6 +10,7 @@ import { GearGrid } from "@/components/bis/GearGrid";
 import { StatCaps } from "@/components/bis/StatCaps";
 import { GearPriorityList } from "@/components/bis/GearPriorityList";
 import { FilledTalentTrees } from "@/components/talents/FilledTalentTrees";
+import { PvpExtras } from "@/components/bis/PvpExtras";
 import { ItemLink } from "@/components/ItemLink";
 import { AdUnit } from "@/components/AdUnit";
 
@@ -154,6 +155,9 @@ export function BisPageBody({
         </div>
       </section>
       )}
+
+      {/* PvP-only Tier-1 sections: macros, best comps, best race */}
+      {list.content === "pvp" && <PvpExtras cls={cls} spec={spec} />}
 
       <AdUnit slot={SLOT_INCONTENT} className="mt-12" />
 
