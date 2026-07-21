@@ -1,0 +1,8076 @@
+{
+  "generatedFrom": "scripts/priority-score.ts",
+  "totalPages": 502,
+  "batchCounts": {
+    "1": 8,
+    "2": 40,
+    "3": 309,
+    "4": 141,
+    "5": 4
+  },
+  "pages": [
+    {
+      "url": "/rogue/subtlety/pvp",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "season": 2,
+      "scores": {
+        "searchVolume": 30,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 85,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/priest/discipline/pvp",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "season": 2,
+      "scores": {
+        "searchVolume": 28,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 83,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/warrior/arms/pvp",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "season": 2,
+      "scores": {
+        "searchVolume": 27,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 82,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/mage/frost/pvp",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "frost",
+      "season": 2,
+      "scores": {
+        "searchVolume": 26,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 81,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/warlock/affliction/pvp",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "season": 2,
+      "scores": {
+        "searchVolume": 25,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 80,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/druid/restoration/pvp",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "season": 2,
+      "scores": {
+        "searchVolume": 24,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 79,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/shaman/restoration/pvp",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "season": 2,
+      "scores": {
+        "searchVolume": 23,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 78,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/paladin/holy/pvp",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "season": 2,
+      "scores": {
+        "searchVolume": 22,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 77,
+      "batch": 1,
+      "estimatedHours": 4
+    },
+    {
+      "url": "/hunter/beast-mastery/pvp",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "season": 2,
+      "scores": {
+        "searchVolume": 17,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 72,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/rogue-disc-priest",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 26,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 72,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/rogue-holy-paladin",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 26,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 72,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/shadow-priest-rogue",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 26,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 72,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/priest/shadow/pvp",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "season": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 71,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/druid/feral-cat/pvp",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "season": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 71,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/warrior/fury/pvp",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "season": 2,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 70,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/hunter/survival/pvp",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "season": 2,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 70,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/warlock/destruction/pvp",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "season": 2,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 70,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/paladin/retribution/pvp",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "season": 2,
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 69,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/rogue/combat/pvp",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "season": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 0,
+        "freshnessPotential": 8
+      },
+      "totalScore": 69,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/priest/holy/pvp",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "holy",
+      "season": 2,
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 69,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/mage/arcane/pvp",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "season": 2,
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 69,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/shaman/elemental/pvp",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "season": 2,
+      "scores": {
+        "searchVolume": 13,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 68,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/druid/balance/pvp",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "balance",
+      "season": 2,
+      "scores": {
+        "searchVolume": 13,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 68,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/hunter/marksmanship/pvp",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "season": 2,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 67,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/shaman/enhancement/pvp",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "season": 2,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 67,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/leaderboard",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 22,
+        "competitionGap": 12,
+        "arenaRelevance": 16,
+        "contentGap": 6,
+        "freshnessPotential": 10
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/demonology/pvp",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "season": 2,
+      "scores": {
+        "searchVolume": 11,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/rmp",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/rls",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/wld",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/wmp",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/mld",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/lsd",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/tsg",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/3s/php",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 66,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena-points-calculator",
+      "pageType": "calc",
+      "scores": {
+        "searchVolume": 30,
+        "competitionGap": 10,
+        "arenaRelevance": 18,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 65,
+      "batch": 2,
+      "estimatedHours": 2.5
+    },
+    {
+      "url": "/arena/comps/2s/warrior-holy-paladin",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 64,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/warrior-disc-priest",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 64,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/warlock-disc-priest",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 64,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/warlock-holy-paladin",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 64,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/frost-mage-disc-priest",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 64,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/ret-holy-paladin",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 64,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/2s/resto-druid-warrior",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 64,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/warrior/protection/pvp",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "season": 2,
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 25,
+        "arenaRelevance": 20,
+        "contentGap": 2,
+        "freshnessPotential": 8
+      },
+      "totalScore": 63,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/5s/melee-cleave",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 58,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/5s/caster-cleave",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 58,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps/5s/double-healer-control",
+      "pageType": "comp",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 20,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 58,
+      "batch": 2,
+      "estimatedHours": 3.25
+    },
+    {
+      "url": "/arena/comps",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 12,
+        "arenaRelevance": 16,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 55,
+      "batch": 2,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/subtlety/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "season": 1,
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 54,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/rogue/subtlety/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "season": 3,
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 54,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/rogue/subtlety/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "season": 4,
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 54,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/discipline/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "season": 1,
+      "scores": {
+        "searchVolume": 13,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 53,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/discipline/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "season": 3,
+      "scores": {
+        "searchVolume": 13,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 53,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/discipline/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "season": 4,
+      "scores": {
+        "searchVolume": 13,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 53,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/talent-calculator",
+      "pageType": "calc",
+      "scores": {
+        "searchVolume": 25,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 52,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/warrior/arms/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "season": 1,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 52,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warrior/arms/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "season": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 52,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warrior/arms/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "season": 4,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 52,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/mage/frost/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "frost",
+      "season": 1,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 52,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/mage/frost/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "frost",
+      "season": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 52,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/mage/frost/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "frost",
+      "season": 4,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 52,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/pvp",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 12,
+        "arenaRelevance": 16,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 51,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/warlock/affliction/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "season": 1,
+      "scores": {
+        "searchVolume": 11,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 51,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/affliction/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "season": 3,
+      "scores": {
+        "searchVolume": 11,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 51,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/affliction/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "season": 4,
+      "scores": {
+        "searchVolume": 11,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 51,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/restoration/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "season": 1,
+      "scores": {
+        "searchVolume": 11,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 51,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/restoration/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "season": 3,
+      "scores": {
+        "searchVolume": 11,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 51,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/restoration/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "season": 4,
+      "scores": {
+        "searchVolume": 11,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 51,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/paladin/holy/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "season": 1,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 50,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/paladin/holy/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "season": 3,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 50,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/paladin/holy/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "season": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 50,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/restoration/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "season": 1,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 50,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/restoration/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "season": 3,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 50,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/restoration/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "season": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 50,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/beast-mastery/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "season": 1,
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 48,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/beast-mastery/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "season": 3,
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 48,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/beast-mastery/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "season": 4,
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 48,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/arena",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 16,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/warrior/fury/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "season": 1,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warrior/fury/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "season": 3,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warrior/fury/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "season": 4,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/survival/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "season": 1,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/survival/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "season": 3,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/survival/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "season": 4,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/shadow/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "season": 1,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/shadow/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "season": 3,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/shadow/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "season": 4,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/destruction/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "season": 1,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/destruction/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "season": 3,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/destruction/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "season": 4,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/feral-cat/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "season": 1,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/feral-cat/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "season": 3,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/feral-cat/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "season": 4,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/guides/rogue/subtlety/pvp",
+      "pageType": "guide",
+      "class": "rogue",
+      "spec": "subtlety",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/rogue/combat/pve",
+      "pageType": "guide",
+      "class": "rogue",
+      "spec": "combat",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/mage/frost/pvp",
+      "pageType": "guide",
+      "class": "mage",
+      "spec": "frost",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warrior/arms/pvp",
+      "pageType": "guide",
+      "class": "warrior",
+      "spec": "arms",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/priest/holy/pve",
+      "pageType": "guide",
+      "class": "priest",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/rogue/combat/pvp",
+      "pageType": "guide",
+      "class": "rogue",
+      "spec": "combat",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/rogue/assassination/pve",
+      "pageType": "guide",
+      "class": "rogue",
+      "spec": "assassination",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/rogue/subtlety/pve",
+      "pageType": "guide",
+      "class": "rogue",
+      "spec": "subtlety",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warrior/arms/pve",
+      "pageType": "guide",
+      "class": "warrior",
+      "spec": "arms",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warrior/fury/pvp",
+      "pageType": "guide",
+      "class": "warrior",
+      "spec": "fury",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warrior/fury/pve",
+      "pageType": "guide",
+      "class": "warrior",
+      "spec": "fury",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warrior/protection/pvp",
+      "pageType": "guide",
+      "class": "warrior",
+      "spec": "protection",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warrior/protection/pve",
+      "pageType": "guide",
+      "class": "warrior",
+      "spec": "protection",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/mage/arcane/pvp",
+      "pageType": "guide",
+      "class": "mage",
+      "spec": "arcane",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/mage/arcane/pve",
+      "pageType": "guide",
+      "class": "mage",
+      "spec": "arcane",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/mage/fire/pve",
+      "pageType": "guide",
+      "class": "mage",
+      "spec": "fire",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/mage/frost/pve",
+      "pageType": "guide",
+      "class": "mage",
+      "spec": "frost",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/paladin/holy/pvp",
+      "pageType": "guide",
+      "class": "paladin",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/paladin/holy/pve",
+      "pageType": "guide",
+      "class": "paladin",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/paladin/retribution/pvp",
+      "pageType": "guide",
+      "class": "paladin",
+      "spec": "retribution",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/paladin/retribution/pve",
+      "pageType": "guide",
+      "class": "paladin",
+      "spec": "retribution",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/paladin/protection/pve",
+      "pageType": "guide",
+      "class": "paladin",
+      "spec": "protection",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/hunter/beast-mastery/pvp",
+      "pageType": "guide",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/hunter/beast-mastery/pve",
+      "pageType": "guide",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/hunter/marksmanship/pvp",
+      "pageType": "guide",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/hunter/marksmanship/pve",
+      "pageType": "guide",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/hunter/survival/pvp",
+      "pageType": "guide",
+      "class": "hunter",
+      "spec": "survival",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/hunter/survival/pve",
+      "pageType": "guide",
+      "class": "hunter",
+      "spec": "survival",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/priest/discipline/pvp",
+      "pageType": "guide",
+      "class": "priest",
+      "spec": "discipline",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/priest/discipline/pve",
+      "pageType": "guide",
+      "class": "priest",
+      "spec": "discipline",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/priest/holy/pvp",
+      "pageType": "guide",
+      "class": "priest",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/priest/shadow/pvp",
+      "pageType": "guide",
+      "class": "priest",
+      "spec": "shadow",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/priest/shadow/pve",
+      "pageType": "guide",
+      "class": "priest",
+      "spec": "shadow",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/shaman/elemental/pvp",
+      "pageType": "guide",
+      "class": "shaman",
+      "spec": "elemental",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/shaman/elemental/pve",
+      "pageType": "guide",
+      "class": "shaman",
+      "spec": "elemental",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/shaman/enhancement/pvp",
+      "pageType": "guide",
+      "class": "shaman",
+      "spec": "enhancement",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/shaman/enhancement/pve",
+      "pageType": "guide",
+      "class": "shaman",
+      "spec": "enhancement",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/shaman/restoration/pvp",
+      "pageType": "guide",
+      "class": "shaman",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/shaman/restoration/pve",
+      "pageType": "guide",
+      "class": "shaman",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warlock/affliction/pvp",
+      "pageType": "guide",
+      "class": "warlock",
+      "spec": "affliction",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warlock/affliction/pve",
+      "pageType": "guide",
+      "class": "warlock",
+      "spec": "affliction",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warlock/demonology/pvp",
+      "pageType": "guide",
+      "class": "warlock",
+      "spec": "demonology",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warlock/demonology/pve",
+      "pageType": "guide",
+      "class": "warlock",
+      "spec": "demonology",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warlock/destruction/pvp",
+      "pageType": "guide",
+      "class": "warlock",
+      "spec": "destruction",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/warlock/destruction/pve",
+      "pageType": "guide",
+      "class": "warlock",
+      "spec": "destruction",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/druid/balance/pvp",
+      "pageType": "guide",
+      "class": "druid",
+      "spec": "balance",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/druid/balance/pve",
+      "pageType": "guide",
+      "class": "druid",
+      "spec": "balance",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/druid/feral-bear/pve",
+      "pageType": "guide",
+      "class": "druid",
+      "spec": "feral-bear",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/druid/feral-cat/pvp",
+      "pageType": "guide",
+      "class": "druid",
+      "spec": "feral-cat",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/druid/feral-cat/pve",
+      "pageType": "guide",
+      "class": "druid",
+      "spec": "feral-cat",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/druid/restoration/pvp",
+      "pageType": "guide",
+      "class": "druid",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/druid/restoration/pve",
+      "pageType": "guide",
+      "class": "druid",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/warrior",
+      "pageType": "guide",
+      "class": "warrior",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/paladin",
+      "pageType": "guide",
+      "class": "paladin",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/hunter",
+      "pageType": "guide",
+      "class": "hunter",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/rogue",
+      "pageType": "guide",
+      "class": "rogue",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/priest",
+      "pageType": "guide",
+      "class": "priest",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/shaman",
+      "pageType": "guide",
+      "class": "shaman",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/mage",
+      "pageType": "guide",
+      "class": "mage",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/warlock",
+      "pageType": "guide",
+      "class": "warlock",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/addons/druid",
+      "pageType": "guide",
+      "class": "druid",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/warrior",
+      "pageType": "guide",
+      "class": "warrior",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/paladin",
+      "pageType": "guide",
+      "class": "paladin",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/hunter",
+      "pageType": "guide",
+      "class": "hunter",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/rogue",
+      "pageType": "guide",
+      "class": "rogue",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/priest",
+      "pageType": "guide",
+      "class": "priest",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/shaman",
+      "pageType": "guide",
+      "class": "shaman",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/mage",
+      "pageType": "guide",
+      "class": "mage",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/warlock",
+      "pageType": "guide",
+      "class": "warlock",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/best-race/druid",
+      "pageType": "guide",
+      "class": "druid",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/jewelcrafting",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/engineering",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/tailoring",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/leatherworking",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/blacksmithing",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/enchanting",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/alchemy",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/herbalism",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/mining",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/skinning",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/first-aid",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/guides/professions/cooking",
+      "pageType": "guide",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 16,
+        "arenaRelevance": 12,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 47,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/paladin/retribution/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "season": 1,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/paladin/retribution/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "season": 3,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/paladin/retribution/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "season": 4,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/holy/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "holy",
+      "season": 1,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/holy/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "holy",
+      "season": 3,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/priest/holy/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "priest",
+      "spec": "holy",
+      "season": 4,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/elemental/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "season": 1,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/elemental/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "season": 3,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/elemental/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "season": 4,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/mage/arcane/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "season": 1,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/mage/arcane/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "season": 3,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/mage/arcane/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "season": 4,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/balance/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "balance",
+      "season": 1,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/balance/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "balance",
+      "season": 3,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/druid/balance/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "druid",
+      "spec": "balance",
+      "season": 4,
+      "scores": {
+        "searchVolume": 6,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 46,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/marksmanship/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "season": 1,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/marksmanship/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "season": 3,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/hunter/marksmanship/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "season": 4,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/rogue/combat/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "season": 1,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/rogue/combat/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "season": 3,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/rogue/combat/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "season": 4,
+      "scores": {
+        "searchVolume": 7,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 3,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/enhancement/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "season": 1,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/enhancement/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "season": 3,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/shaman/enhancement/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "season": 4,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/demonology/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "season": 1,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/demonology/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "season": 3,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warlock/demonology/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "season": 4,
+      "scores": {
+        "searchVolume": 5,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/talent-calculator/warrior",
+      "pageType": "calc",
+      "class": "warrior",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/paladin",
+      "pageType": "calc",
+      "class": "paladin",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/hunter",
+      "pageType": "calc",
+      "class": "hunter",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/rogue",
+      "pageType": "calc",
+      "class": "rogue",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/priest",
+      "pageType": "calc",
+      "class": "priest",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/shaman",
+      "pageType": "calc",
+      "class": "shaman",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/mage",
+      "pageType": "calc",
+      "class": "mage",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/warlock",
+      "pageType": "calc",
+      "class": "warlock",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/talent-calculator/druid",
+      "pageType": "calc",
+      "class": "druid",
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 10,
+        "contentGap": 5,
+        "freshnessPotential": 2
+      },
+      "totalScore": 45,
+      "batch": 3,
+      "estimatedHours": 1.75
+    },
+    {
+      "url": "/class-rankings",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 6
+      },
+      "totalScore": 44,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/warrior/protection/pvp/season-1",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "season": 1,
+      "scores": {
+        "searchVolume": 4,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 44,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warrior/protection/pvp/season-3",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "season": 3,
+      "scores": {
+        "searchVolume": 4,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 44,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warrior/protection/pvp/season-4",
+      "pageType": "pvp-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "season": 4,
+      "scores": {
+        "searchVolume": 4,
+        "competitionGap": 12,
+        "arenaRelevance": 20,
+        "contentGap": 5,
+        "freshnessPotential": 3
+      },
+      "totalScore": 44,
+      "batch": 3,
+      "estimatedHours": 2.25
+    },
+    {
+      "url": "/warrior/arms/talents",
+      "pageType": "talent",
+      "class": "warrior",
+      "spec": "arms",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warrior/fury/talents",
+      "pageType": "talent",
+      "class": "warrior",
+      "spec": "fury",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warrior/protection/talents",
+      "pageType": "talent",
+      "class": "warrior",
+      "spec": "protection",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/holy/talents",
+      "pageType": "talent",
+      "class": "paladin",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/protection/talents",
+      "pageType": "talent",
+      "class": "paladin",
+      "spec": "protection",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/retribution/talents",
+      "pageType": "talent",
+      "class": "paladin",
+      "spec": "retribution",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/beast-mastery/talents",
+      "pageType": "talent",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/marksmanship/talents",
+      "pageType": "talent",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/survival/talents",
+      "pageType": "talent",
+      "class": "hunter",
+      "spec": "survival",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/combat/talents",
+      "pageType": "talent",
+      "class": "rogue",
+      "spec": "combat",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/assassination/talents",
+      "pageType": "talent",
+      "class": "rogue",
+      "spec": "assassination",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/subtlety/talents",
+      "pageType": "talent",
+      "class": "rogue",
+      "spec": "subtlety",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/discipline/talents",
+      "pageType": "talent",
+      "class": "priest",
+      "spec": "discipline",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/holy/talents",
+      "pageType": "talent",
+      "class": "priest",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/shadow/talents",
+      "pageType": "talent",
+      "class": "priest",
+      "spec": "shadow",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/elemental/talents",
+      "pageType": "talent",
+      "class": "shaman",
+      "spec": "elemental",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/enhancement/talents",
+      "pageType": "talent",
+      "class": "shaman",
+      "spec": "enhancement",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/restoration/talents",
+      "pageType": "talent",
+      "class": "shaman",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/arcane/talents",
+      "pageType": "talent",
+      "class": "mage",
+      "spec": "arcane",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/fire/talents",
+      "pageType": "talent",
+      "class": "mage",
+      "spec": "fire",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/frost/talents",
+      "pageType": "talent",
+      "class": "mage",
+      "spec": "frost",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/affliction/talents",
+      "pageType": "talent",
+      "class": "warlock",
+      "spec": "affliction",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/demonology/talents",
+      "pageType": "talent",
+      "class": "warlock",
+      "spec": "demonology",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/destruction/talents",
+      "pageType": "talent",
+      "class": "warlock",
+      "spec": "destruction",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/balance/talents",
+      "pageType": "talent",
+      "class": "druid",
+      "spec": "balance",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/feral-bear/talents",
+      "pageType": "talent",
+      "class": "druid",
+      "spec": "feral-bear",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/feral-cat/talents",
+      "pageType": "talent",
+      "class": "druid",
+      "spec": "feral-cat",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/restoration/talents",
+      "pageType": "talent",
+      "class": "druid",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 10,
+        "arenaRelevance": 11,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/raids/phase-1/karazhan/attumen-the-huntsman",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/moroes",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/maiden-of-virtue",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/opera-event",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/the-curator",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/terestian-illhoof",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/shade-of-aran",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/netherspite",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-1/karazhan/prince-malchezaar",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 20,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 40,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/pve",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 14,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/warrior/arms/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warrior/fury/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warrior/protection/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/holy/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/protection/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "protection",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/retribution/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/beast-mastery/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/marksmanship/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/survival/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/combat/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/assassination/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "assassination",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/subtlety/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/discipline/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/holy/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "holy",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/shadow/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/elemental/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/enhancement/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/restoration/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/arcane/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/fire/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "fire",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/frost/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "frost",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/affliction/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/demonology/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/destruction/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/balance/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "balance",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/feral-bear/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-bear",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/feral-cat/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/restoration/pve/phase-1",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 39,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/raids/phase-3/black-temple/high-warlord-najentus",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/supremus",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/shade-of-akama",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/teron-gorefiend",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/gurtogg-bloodboil",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/reliquary-of-souls",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/mother-shahraz",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/illidari-council",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-3/black-temple/illidan-stormrage",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 18,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 38,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/classes",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/guides",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/guides/professions",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/warrior/arms/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warrior/fury/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warrior/protection/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/holy/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/protection/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "protection",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/retribution/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/beast-mastery/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/marksmanship/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/survival/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/combat/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/assassination/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "assassination",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/discipline/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/holy/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "holy",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/shadow/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/elemental/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/enhancement/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/restoration/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/arcane/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/fire/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "fire",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/frost/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "frost",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/affliction/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/demonology/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/destruction/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/balance/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "balance",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/feral-bear/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-bear",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/feral-cat/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/restoration/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/raids/phase-5/sunwell-plateau/kalecgos",
+      "pageType": "boss",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 17,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-5/sunwell-plateau/brutallus",
+      "pageType": "boss",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 17,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-5/sunwell-plateau/felmyst",
+      "pageType": "boss",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 17,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-5/sunwell-plateau/eredar-twins",
+      "pageType": "boss",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 17,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-5/sunwell-plateau/muru",
+      "pageType": "boss",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 17,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/raids/phase-5/sunwell-plateau/kiljaeden",
+      "pageType": "boss",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 17,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 37,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/warrior/arms/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warrior/fury/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warrior/protection/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/holy/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/protection/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "protection",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/paladin/retribution/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/beast-mastery/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/marksmanship/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/hunter/survival/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/combat/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/assassination/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "assassination",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/rogue/subtlety/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/discipline/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/holy/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "holy",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/priest/shadow/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/elemental/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/enhancement/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/shaman/restoration/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/arcane/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/fire/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "fire",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/mage/frost/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "frost",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/affliction/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/demonology/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/warlock/destruction/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/balance/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "balance",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/feral-bear/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-bear",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/feral-cat/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/druid/restoration/pve/phase-5",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 15,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 36,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/guides/addons",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 35,
+      "batch": 3,
+      "estimatedHours": 1
+    },
+    {
+      "url": "/rogue/subtlety/pve/phase-2",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 16,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 35,
+      "batch": 3,
+      "estimatedHours": 1.5
+    },
+    {
+      "url": "/",
+      "pageType": "hub",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warrior",
+      "pageType": "hub",
+      "class": "warrior",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/paladin",
+      "pageType": "hub",
+      "class": "paladin",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/hunter",
+      "pageType": "hub",
+      "class": "hunter",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/rogue",
+      "pageType": "hub",
+      "class": "rogue",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/priest",
+      "pageType": "hub",
+      "class": "priest",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/shaman",
+      "pageType": "hub",
+      "class": "shaman",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/mage",
+      "pageType": "hub",
+      "class": "mage",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warlock",
+      "pageType": "hub",
+      "class": "warlock",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/druid",
+      "pageType": "hub",
+      "class": "druid",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warrior/arms",
+      "pageType": "hub",
+      "class": "warrior",
+      "spec": "arms",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warrior/fury",
+      "pageType": "hub",
+      "class": "warrior",
+      "spec": "fury",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warrior/protection",
+      "pageType": "hub",
+      "class": "warrior",
+      "spec": "protection",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/paladin/holy",
+      "pageType": "hub",
+      "class": "paladin",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/paladin/protection",
+      "pageType": "hub",
+      "class": "paladin",
+      "spec": "protection",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/paladin/retribution",
+      "pageType": "hub",
+      "class": "paladin",
+      "spec": "retribution",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/hunter/beast-mastery",
+      "pageType": "hub",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/hunter/marksmanship",
+      "pageType": "hub",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/hunter/survival",
+      "pageType": "hub",
+      "class": "hunter",
+      "spec": "survival",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/rogue/combat",
+      "pageType": "hub",
+      "class": "rogue",
+      "spec": "combat",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/rogue/assassination",
+      "pageType": "hub",
+      "class": "rogue",
+      "spec": "assassination",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/rogue/subtlety",
+      "pageType": "hub",
+      "class": "rogue",
+      "spec": "subtlety",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/priest/discipline",
+      "pageType": "hub",
+      "class": "priest",
+      "spec": "discipline",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/priest/holy",
+      "pageType": "hub",
+      "class": "priest",
+      "spec": "holy",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/priest/shadow",
+      "pageType": "hub",
+      "class": "priest",
+      "spec": "shadow",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/shaman/elemental",
+      "pageType": "hub",
+      "class": "shaman",
+      "spec": "elemental",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/shaman/enhancement",
+      "pageType": "hub",
+      "class": "shaman",
+      "spec": "enhancement",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/shaman/restoration",
+      "pageType": "hub",
+      "class": "shaman",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/mage/arcane",
+      "pageType": "hub",
+      "class": "mage",
+      "spec": "arcane",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/mage/fire",
+      "pageType": "hub",
+      "class": "mage",
+      "spec": "fire",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/mage/frost",
+      "pageType": "hub",
+      "class": "mage",
+      "spec": "frost",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warlock/affliction",
+      "pageType": "hub",
+      "class": "warlock",
+      "spec": "affliction",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warlock/demonology",
+      "pageType": "hub",
+      "class": "warlock",
+      "spec": "demonology",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warlock/destruction",
+      "pageType": "hub",
+      "class": "warlock",
+      "spec": "destruction",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/druid/balance",
+      "pageType": "hub",
+      "class": "druid",
+      "spec": "balance",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/druid/feral-bear",
+      "pageType": "hub",
+      "class": "druid",
+      "spec": "feral-bear",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/druid/feral-cat",
+      "pageType": "hub",
+      "class": "druid",
+      "spec": "feral-cat",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/druid/restoration",
+      "pageType": "hub",
+      "class": "druid",
+      "spec": "restoration",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warrior/arms/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warrior/fury/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warrior/protection/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/holy/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/protection/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "protection",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/retribution/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/beast-mastery/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/marksmanship/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/survival/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/combat/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/assassination/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "assassination",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/subtlety/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/discipline/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/holy/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "holy",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/shadow/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/elemental/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/enhancement/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/restoration/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/arcane/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/fire/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "fire",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/frost/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "frost",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/affliction/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/demonology/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/destruction/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/balance/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "balance",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/feral-bear/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-bear",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/feral-cat/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/restoration/pve/phase-3",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/guides/warrior",
+      "pageType": "hub",
+      "class": "warrior",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/paladin",
+      "pageType": "hub",
+      "class": "paladin",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/hunter",
+      "pageType": "hub",
+      "class": "hunter",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/rogue",
+      "pageType": "hub",
+      "class": "rogue",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/priest",
+      "pageType": "hub",
+      "class": "priest",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/shaman",
+      "pageType": "hub",
+      "class": "shaman",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/mage",
+      "pageType": "hub",
+      "class": "mage",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/warlock",
+      "pageType": "hub",
+      "class": "warlock",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/guides/druid",
+      "pageType": "hub",
+      "class": "druid",
+      "scores": {
+        "searchVolume": 8,
+        "competitionGap": 12,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 33,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/warrior/arms/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "arms",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warrior/fury/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "fury",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warrior/protection/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "warrior",
+      "spec": "protection",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/holy/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "holy",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/protection/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "protection",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/paladin/retribution/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "paladin",
+      "spec": "retribution",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/beast-mastery/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "beast-mastery",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/marksmanship/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "marksmanship",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/hunter/survival/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "hunter",
+      "spec": "survival",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/combat/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "combat",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/assassination/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "assassination",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/rogue/subtlety/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "rogue",
+      "spec": "subtlety",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/discipline/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "discipline",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/holy/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "holy",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/priest/shadow/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "priest",
+      "spec": "shadow",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/elemental/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "elemental",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/enhancement/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "enhancement",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/shaman/restoration/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "shaman",
+      "spec": "restoration",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/arcane/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "arcane",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/fire/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "fire",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/mage/frost/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "mage",
+      "spec": "frost",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/affliction/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "affliction",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/demonology/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "demonology",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/warlock/destruction/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "warlock",
+      "spec": "destruction",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/balance/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "balance",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/feral-bear/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-bear",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/feral-cat/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "feral-cat",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/druid/restoration/pve/phase-4",
+      "pageType": "pve-bis",
+      "class": "druid",
+      "spec": "restoration",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 8,
+        "arenaRelevance": 6,
+        "contentGap": 6,
+        "freshnessPotential": 1
+      },
+      "totalScore": 31,
+      "batch": 4,
+      "estimatedHours": 0.75
+    },
+    {
+      "url": "/raids/phase-1",
+      "pageType": "raid",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-2",
+      "pageType": "raid",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-3",
+      "pageType": "raid",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-4",
+      "pageType": "raid",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-5",
+      "pageType": "raid",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-1/karazhan",
+      "pageType": "raid",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-1/gruuls-lair",
+      "pageType": "raid",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-1/magtheridons-lair",
+      "pageType": "raid",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-2/serpentshrine-cavern",
+      "pageType": "raid",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-2/tempest-keep",
+      "pageType": "raid",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-3/mount-hyjal",
+      "pageType": "raid",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-3/black-temple",
+      "pageType": "raid",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-4/zulaman",
+      "pageType": "raid",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-5/sunwell-plateau",
+      "pageType": "raid",
+      "phase": 5,
+      "scores": {
+        "searchVolume": 12,
+        "competitionGap": 9,
+        "arenaRelevance": 4,
+        "contentGap": 4,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.25
+    },
+    {
+      "url": "/raids/phase-1/gruuls-lair/high-king-maulgar",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-1/gruuls-lair/gruul-the-dragonkiller",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-1/magtheridons-lair/magtheridon",
+      "pageType": "boss",
+      "phase": 1,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/serpentshrine-cavern/hydross-the-unstable",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/serpentshrine-cavern/the-lurker-below",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/serpentshrine-cavern/leotheras-the-blind",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/serpentshrine-cavern/fathom-lord-karathress",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/serpentshrine-cavern/morogrim-tidewalker",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/serpentshrine-cavern/lady-vashj",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/tempest-keep/alar",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/tempest-keep/void-reaver",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/tempest-keep/high-astromancer-solarian",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-2/tempest-keep/kaelthas-sunstrider",
+      "pageType": "boss",
+      "phase": 2,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-3/mount-hyjal/rage-winterchill",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-3/mount-hyjal/anetheron",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-3/mount-hyjal/kazrogal",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-3/mount-hyjal/azgalor",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-3/mount-hyjal/archimonde",
+      "pageType": "boss",
+      "phase": 3,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-4/zulaman/nalorakk",
+      "pageType": "boss",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-4/zulaman/akilzon",
+      "pageType": "boss",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-4/zulaman/janalai",
+      "pageType": "boss",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-4/zulaman/halazzi",
+      "pageType": "boss",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-4/zulaman/hex-lord-malacrass",
+      "pageType": "boss",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/raids/phase-4/zulaman/zuljin",
+      "pageType": "boss",
+      "phase": 4,
+      "scores": {
+        "searchVolume": 10,
+        "competitionGap": 10,
+        "arenaRelevance": 4,
+        "contentGap": 5,
+        "freshnessPotential": 1
+      },
+      "totalScore": 30,
+      "batch": 4,
+      "estimatedHours": 0.5
+    },
+    {
+      "url": "/about",
+      "pageType": "utility",
+      "scores": {
+        "searchVolume": 2,
+        "competitionGap": 0,
+        "arenaRelevance": 0,
+        "contentGap": 1,
+        "freshnessPotential": 1
+      },
+      "totalScore": 4,
+      "batch": 5,
+      "estimatedHours": 0,
+      "noindexReason": "legal/utility page — no SEO intent"
+    },
+    {
+      "url": "/contact",
+      "pageType": "utility",
+      "scores": {
+        "searchVolume": 2,
+        "competitionGap": 0,
+        "arenaRelevance": 0,
+        "contentGap": 1,
+        "freshnessPotential": 1
+      },
+      "totalScore": 4,
+      "batch": 5,
+      "estimatedHours": 0,
+      "noindexReason": "legal/utility page — no SEO intent"
+    },
+    {
+      "url": "/privacy-policy",
+      "pageType": "utility",
+      "scores": {
+        "searchVolume": 2,
+        "competitionGap": 0,
+        "arenaRelevance": 0,
+        "contentGap": 1,
+        "freshnessPotential": 1
+      },
+      "totalScore": 4,
+      "batch": 5,
+      "estimatedHours": 0,
+      "noindexReason": "legal/utility page — no SEO intent"
+    },
+    {
+      "url": "/terms",
+      "pageType": "utility",
+      "scores": {
+        "searchVolume": 2,
+        "competitionGap": 0,
+        "arenaRelevance": 0,
+        "contentGap": 1,
+        "freshnessPotential": 1
+      },
+      "totalScore": 4,
+      "batch": 5,
+      "estimatedHours": 0,
+      "noindexReason": "legal/utility page — no SEO intent"
+    }
+  ]
+}

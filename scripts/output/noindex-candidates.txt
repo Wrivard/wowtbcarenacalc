@@ -1,0 +1,6 @@
+# Batch 5 — noindex candidates (score < 15)
+# URL\tScore\tReason
+/about	[score 4]	legal/utility page — no SEO intent
+/contact	[score 4]	legal/utility page — no SEO intent
+/privacy-policy	[score 4]	legal/utility page — no SEO intent
+/terms	[score 4]	legal/utility page — no SEO intent
