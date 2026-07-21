@@ -1,5 +1,5 @@
 // Arena leaderboard sync / health check — invoked by the Vercel cron
-// (see vercel.json, every 6 hours).
+// (see vercel.json, daily at 00:00 UTC).
 //
 // The live data path is the official Battle.net PvP Season API via
 // lib/blizzard.ts (ToS-clean). The leaderboard page fetches it directly

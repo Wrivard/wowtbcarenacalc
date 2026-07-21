@@ -118,6 +118,27 @@ export const SNAPSHOTS: Record<Bracket, LeaderboardSnapshot> = {
   },
 };
 
+// ── MANUAL REAL DATA ────────────────────────────────────────────────
+// Plug real ladder data here without waiting on the Blizzard live feed.
+// Anything present in this map is served as-is (isSample: false → no
+// "sample data" banner) and takes priority over the sample snapshots
+// below. Leave a bracket out to keep showing the labeled sample for it.
+//
+// Fill a bracket like this (ratings/records are examples — paste real ones):
+//   MANUAL_SNAPSHOTS["2s"] = {
+//     bracket: "2s", season: 2,
+//     gladiatorCutoff: 2400, duelistCutoff: 2050,
+//     rivalCutoff: 1850, challengerCutoff: 1650,
+//     fetchedAt: "2026-07-21T00:00:00Z", isSample: false,
+//     entries: [
+//       { rank: 1, players: [P("Name","rogue","subtlety","Firemaw"),
+//                            P("Name2","priest","discipline","Firemaw")],
+//         rating: 2450, wins: 220, losses: 90, faction: "alliance", realm: "Firemaw" },
+//       // …more entries
+//     ],
+//   };
+const MANUAL_SNAPSHOTS: Partial<Record<Bracket, LeaderboardSnapshot>> = {};
+
 export function getSnapshot(bracket: Bracket): LeaderboardSnapshot {
-  return SNAPSHOTS[bracket];
+  return MANUAL_SNAPSHOTS[bracket] ?? SNAPSHOTS[bracket];
 }
