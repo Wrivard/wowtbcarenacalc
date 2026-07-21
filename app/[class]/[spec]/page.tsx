@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allSpecs, getSpec, PHASES, PHASE_LABELS, type Phase } from "@/lib/classes";
+import { allSpecs, getSpec, PHASES, PHASE_LABELS, PHASE_ICONS, type Phase } from "@/lib/classes";
 import { getPvpBis, getPveBis } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
 import { hasSpecGuide } from "@/data/specGuides";
@@ -36,36 +36,59 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   });
 }
 
-// A single card linking to a resource, with an arrow affordance.
+// A single card linking to a resource, with a leading game icon and an
+// arrow affordance. The icon lets players navigate by imagery they know.
 function ResourceLink({
   href,
   title,
   sub,
+  icon,
   accent,
 }: {
   href: string;
   title: string;
   sub: string;
+  icon?: string;
   accent?: boolean;
 }) {
   return (
     <Link
       href={href}
       className={cn(
-        "group flex items-center justify-between gap-3 rounded-lg border px-4 py-3 transition-colors",
+        "group flex items-center gap-3 rounded-lg border px-3 py-2.5 transition-colors",
         accent
           ? "border-accent/40 bg-accent-faint hover:border-accent"
           : "border-border bg-surface hover:border-border-strong hover:bg-surface-hover",
       )}
     >
-      <span>
+      {icon && <GameIcon icon={icon} alt="" size="medium" />}
+      <span className="min-w-0 flex-1">
         <span className="block text-sm font-medium text-foreground">{title}</span>
-        <span className="block text-xs text-muted">{sub}</span>
+        <span className="block truncate text-xs text-muted">{sub}</span>
       </span>
       <ArrowRight className="size-4 shrink-0 text-muted transition-colors group-hover:text-accent" aria-hidden />
     </Link>
   );
 }
+
+// Sub-heading inside a PvP/PvE section (e.g. "Best in slot", "Guide") with
+// a small leading icon.
+function SubHead({ icon, children }: { icon: string; children: React.ReactNode }) {
+  return (
+    <div className="mt-4 mb-2 flex items-center gap-2 first:mt-0">
+      <GameIcon icon={icon} alt="" size="small" />
+      <span className="font-mono text-[10px] font-medium tracking-widest text-muted-strong uppercase">
+        {children}
+      </span>
+    </div>
+  );
+}
+
+const ICON_GEAR = "inv_chest_chain_05";
+const ICON_GUIDE = "inv_misc_book_11";
+const ICON_TALENTS = "spell_arcane_arcane01";
+const ICON_ARENA = "achievement_featsofstrength_gladiator_10";
+const ICON_RAID = "inv_misc_head_dragon_01";
 
 export default async function SpecHub({ params }: { params: Params }) {
   const { class: classSlug, spec: specSlug } = await params;
@@ -113,123 +136,109 @@ export default async function SpecHub({ params }: { params: Params }) {
         </p>
       </PageHero>
 
-      <main className="mx-auto max-w-[760px] px-4 pt-8 pb-4">
-        {/* Two categories: BiS List and Guide. Each splits into PvP / PvE. */}
+      <main className="mx-auto max-w-[820px] px-4 pt-8 pb-4">
+        {/* Primary split: a PvP door and a PvE door. Each door holds its own
+            Best-in-slot (per phase/season) and Guide, icon-anchored. */}
         <div className="grid gap-5 md:grid-cols-2">
-          {/* ── BiS List ─────────────────────────────── */}
-          <section
-            aria-label={`${spec.name} best in slot`}
-            className="rounded-2xl border border-border bg-surface/60 p-5"
-          >
-            <h2 className="text-lg font-semibold tracking-tight text-foreground">
-              BiS Lists
-            </h2>
-            <p className="mt-1 text-xs text-muted">Best-in-slot gear, gems &amp; enchants.</p>
-
-            {(spec.pvp) && (
-              <div className="mt-4">
-                <span className="font-mono text-[10px] tracking-widest text-accent uppercase">
-                  PvP · Arena
-                </span>
-                <div className="mt-2">
-                  {pvpLive ? (
-                    <ResourceLink
-                      href={`/${cls.slug}/${spec.slug}/pvp`}
-                      title="Arena BiS"
-                      sub="Most-used gear with usage %"
-                      accent
-                    />
-                  ) : (
-                    <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
-                      Arena BiS coming soon.
-                    </p>
-                  )}
+          {/* ── PvP · Arena ──────────────────────────── */}
+          {(spec.pvp || pvpGuide) && (
+            <section
+              aria-label={`${spec.name} PvP`}
+              className="rounded-2xl border border-border bg-surface/60 p-5"
+            >
+              <div className="flex items-center gap-2.5">
+                <GameIcon icon={ICON_ARENA} alt="" size="medium" lazy={false} />
+                <div>
+                  <h2 className="text-lg font-semibold tracking-tight text-foreground">
+                    PvP · Arena
+                  </h2>
+                  <p className="text-xs text-muted">Best-in-slot &amp; the arena guide.</p>
                 </div>
               </div>
-            )}
 
-            {spec.pve && (
-              <div className="mt-4">
-                <span className="font-mono text-[10px] tracking-widest text-muted-strong uppercase">
-                  PvE · Raid
-                </span>
-                {pvePhases.length > 0 ? (
-                  <ul className="mt-2 space-y-0.5 rounded-lg border border-border bg-surface p-2">
-                    {pvePhases.map((p) => (
-                      <li key={p}>
-                        <Link
-                          href={`/${cls.slug}/${spec.slug}/pve/phase-${p}`}
-                          className="flex items-center justify-between gap-2 rounded-md px-2 py-1.5 text-sm text-muted-strong transition-colors hover:bg-surface-hover hover:text-foreground"
-                        >
-                          <span>Phase {p} BiS</span>
-                          <span className="truncate text-xs text-muted">{PHASE_LABELS[p as Phase]}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="mt-2 rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
-                    Raid BiS coming soon.
-                  </p>
-                )}
-              </div>
-            )}
-          </section>
+              <SubHead icon={ICON_GEAR}>Best in slot</SubHead>
+              {pvpLive ? (
+                <ResourceLink
+                  href={`/${cls.slug}/${spec.slug}/pvp`}
+                  title="Arena BiS"
+                  sub="Season 1–4 gear with ladder usage %"
+                  icon={ICON_ARENA}
+                  accent
+                />
+              ) : (
+                <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
+                  Arena BiS coming soon.
+                </p>
+              )}
 
-          {/* ── Guides ───────────────────────────────── */}
-          <section
-            aria-label={`${spec.name} guides`}
-            className="rounded-2xl border border-border bg-surface/60 p-5"
-          >
-            <h2 className="text-lg font-semibold tracking-tight text-foreground">
-              Guides
-            </h2>
-            <p className="mt-1 text-xs text-muted">Rotation, talents, caps &amp; playstyle.</p>
+              <SubHead icon={ICON_GUIDE}>Guide</SubHead>
+              {pvpGuide ? (
+                <ResourceLink
+                  href={`/guides/${cls.slug}/${spec.slug}/pvp`}
+                  title={`${spec.name} PvP guide`}
+                  sub="Rotation, talents, comps & counters"
+                  icon={ICON_GUIDE}
+                  accent
+                />
+              ) : (
+                <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
+                  PvP guide coming soon.
+                </p>
+              )}
+            </section>
+          )}
 
-            {(spec.pvp || pvpGuide) && (
-              <div className="mt-4">
-                <span className="font-mono text-[10px] tracking-widest text-accent uppercase">
-                  PvP · Arena
-                </span>
-                <div className="mt-2">
-                  {pvpGuide ? (
-                    <ResourceLink
-                      href={`/guides/${cls.slug}/${spec.slug}/pvp`}
-                      title={`${spec.name} PvP guide`}
-                      sub="Rotation, talents, comps & counters"
-                      accent
-                    />
-                  ) : (
-                    <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
-                      PvP guide coming soon.
-                    </p>
-                  )}
+          {/* ── PvE · Raid ───────────────────────────── */}
+          {spec.pve && (
+            <section
+              aria-label={`${spec.name} PvE`}
+              className="rounded-2xl border border-border bg-surface/60 p-5"
+            >
+              <div className="flex items-center gap-2.5">
+                <GameIcon icon={ICON_RAID} alt="" size="medium" lazy={false} />
+                <div>
+                  <h2 className="text-lg font-semibold tracking-tight text-foreground">
+                    PvE · Raid
+                  </h2>
+                  <p className="text-xs text-muted">Best-in-slot per phase &amp; the raid guide.</p>
                 </div>
               </div>
-            )}
 
-            {spec.pve && (
-              <div className="mt-4">
-                <span className="font-mono text-[10px] tracking-widest text-muted-strong uppercase">
-                  PvE · Raid
-                </span>
-                <div className="mt-2">
-                  {pveGuide ? (
+              <SubHead icon={ICON_GEAR}>Best in slot — by phase</SubHead>
+              {pvePhases.length > 0 ? (
+                <div className="space-y-1.5">
+                  {pvePhases.map((p) => (
                     <ResourceLink
-                      href={`/guides/${cls.slug}/${spec.slug}/pve`}
-                      title={`${spec.name} PvE guide`}
-                      sub="Rotation, stat caps, professions & BiS"
-                      accent
+                      key={p}
+                      href={`/${cls.slug}/${spec.slug}/pve/phase-${p}`}
+                      title={`Phase ${p} BiS`}
+                      sub={PHASE_LABELS[p as Phase]}
+                      icon={PHASE_ICONS[p as Phase]}
                     />
-                  ) : (
-                    <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
-                      PvE guide coming soon.
-                    </p>
-                  )}
+                  ))}
                 </div>
-              </div>
-            )}
-          </section>
+              ) : (
+                <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
+                  Raid BiS coming soon.
+                </p>
+              )}
+
+              <SubHead icon={ICON_GUIDE}>Guide</SubHead>
+              {pveGuide ? (
+                <ResourceLink
+                  href={`/guides/${cls.slug}/${spec.slug}/pve`}
+                  title={`${spec.name} PvE guide`}
+                  sub="Rotation, stat caps, professions & BiS"
+                  icon={ICON_GUIDE}
+                  accent
+                />
+              ) : (
+                <p className="rounded-lg border border-border bg-surface px-4 py-3 text-xs text-muted">
+                  PvE guide coming soon.
+                </p>
+              )}
+            </section>
+          )}
         </div>
 
         {/* Talent build — shared by both, links to the full tree + calculator */}
@@ -239,6 +248,7 @@ export default async function SpecHub({ params }: { params: Params }) {
               href={`/${cls.slug}/${spec.slug}/talents`}
               title={`${spec.name} talent build (${build.summaryLabel})`}
               sub={`${build.category === "pvp" ? "Arena" : "Raid"} build · full filled tree + calculator`}
+              icon={ICON_TALENTS}
             />
           </div>
         )}

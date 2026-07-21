@@ -127,6 +127,17 @@ export const PHASE_LABELS: Record<Phase, string> = {
   5: "Sunwell Plateau",
 };
 
+// A recognizable marquee-boss icon per content phase (zamimg CDN names,
+// HEAD-verified). Used to visually anchor phase links so players navigate
+// by the encounter they know rather than a phase number.
+export const PHASE_ICONS: Record<Phase, string> = {
+  1: "achievement_boss_prince_malchezaar",
+  2: "achievement_boss_ladyvashj",
+  3: "achievement_boss_illidan",
+  4: "achievement_boss_zuljin",
+  5: "achievement_boss_kiljaedan",
+};
+
 export function getClass(classSlug: string): ClassDef | undefined {
   return CLASSES.find((c) => c.slug === classSlug);
 }

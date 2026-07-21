@@ -13,18 +13,23 @@ import { GameIcon } from "@/components/GameIcon";
 // in the 9 talent JSON files that lib/icons → lib/talents depends on.
 const classIconName = (slug: string) => `classicon_${slug}`;
 
-// Site-wide nav. Two-door model (PvP / PvE) is kept as the primary axis,
-// with a Classes mega-menu (class → spec) added for direct class access
-// and a Rankings link. Clear navigation is both an AdSense requirement
-// and the internal-linking backbone for SEO.
+// Site-wide nav. BiS is the primary door (a dropdown splitting into the
+// PvP arena and PvE raid best-in-slot hubs), with a Classes mega-menu
+// (class → spec), Rankings, Raids and Guides. Clear navigation is both an
+// AdSense requirement and the internal-linking backbone for SEO.
 
-type NavItem = { href: string; label: string };
+type NavItem = { href: string; label: string; icon?: string };
+
+// BiS dropdown: the two best-in-slot doors, icon-anchored (gladiator for
+// arena, dragon for raid) so players recognize them at a glance.
+const BIS: NavItem[] = [
+  { href: "/pvp", label: "PvP · Arena BiS", icon: "achievement_featsofstrength_gladiator_10" },
+  { href: "/pve", label: "PvE · Raid BiS", icon: "inv_misc_head_dragon_01" },
+];
 
 const PRIMARY: NavItem[] = [
   { href: "/", label: "Home" },
-  { href: "/pvp", label: "PvP" },
-  { href: "/pve", label: "PvE" },
-  // Classes mega-menu is injected between here and the rest.
+  // BiS dropdown + Classes mega-menu are injected between here and the rest.
   { href: "/class-rankings", label: "Rankings" },
   { href: "/raids", label: "Raids" },
   { href: "/guides", label: "Guides" },
@@ -71,6 +76,11 @@ function isActive(pathname: string, href: string): boolean {
 function classesActive(pathname: string): boolean {
   const seg = pathname.split("/")[1];
   return CLASS_SLUGS.has(seg);
+}
+
+// BiS door is active on the /pvp and /pve hubs and on any per-spec BiS page.
+function bisActive(pathname: string): boolean {
+  return isActive(pathname, "/pvp") || isActive(pathname, "/pve");
 }
 
 function NavLink({
@@ -179,6 +189,67 @@ function ClassesMega({ pathname }: { pathname: string }) {
   );
 }
 
+function BisDropdown({ pathname }: { pathname: string }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const active = bisActive(pathname);
+
+  useEffect(() => {
+    if (!open) return;
+    const onDown = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, [open]);
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-haspopup="menu"
+        className={cn(
+          "relative flex items-center gap-1 text-sm font-medium tracking-wide transition-colors",
+          active ? "text-foreground" : "text-muted-strong hover:text-foreground",
+        )}
+      >
+        BiS
+        <ChevronDown
+          className={cn("size-3.5 transition-transform", open && "rotate-180")}
+          aria-hidden
+        />
+        {active && (
+          <span className="absolute -bottom-1.5 left-0 h-0.5 w-[calc(100%-1rem)] rounded-full bg-accent" />
+        )}
+      </button>
+      {open && (
+        <div
+          role="menu"
+          className="absolute left-0 z-50 mt-3 w-64 overflow-hidden rounded-xl border border-border bg-surface shadow-xl"
+        >
+          {BIS.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              role="menuitem"
+              onClick={() => setOpen(false)}
+              className={cn(
+                "flex items-center gap-3 px-4 py-3 transition-colors hover:bg-surface-hover",
+                isActive(pathname, item.href) ? "text-accent" : "text-muted-strong hover:text-foreground",
+              )}
+            >
+              {item.icon && <GameIcon icon={item.icon} alt="" size="medium" />}
+              <span className="text-sm font-medium">{item.label}</span>
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function ToolsDropdown({ pathname }: { pathname: string }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -267,12 +338,11 @@ export function Header() {
         {/* Desktop nav */}
         <nav aria-label="Primary" className="hidden items-center gap-5 lg:flex">
           <NavLink item={PRIMARY[0]} active={isActive(pathname, "/")} />
-          <NavLink item={PRIMARY[1]} active={isActive(pathname, "/pvp")} />
-          <NavLink item={PRIMARY[2]} active={isActive(pathname, "/pve")} />
+          <BisDropdown pathname={pathname} />
           <ClassesMega pathname={pathname} />
-          <NavLink item={PRIMARY[3]} active={isActive(pathname, "/class-rankings")} />
-          <NavLink item={PRIMARY[4]} active={isActive(pathname, "/raids")} />
-          <NavLink item={PRIMARY[5]} active={isActive(pathname, "/guides")} />
+          <NavLink item={PRIMARY[1]} active={isActive(pathname, "/class-rankings")} />
+          <NavLink item={PRIMARY[2]} active={isActive(pathname, "/raids")} />
+          <NavLink item={PRIMARY[3]} active={isActive(pathname, "/guides")} />
           <ToolsDropdown pathname={pathname} />
         </nav>
 
@@ -313,8 +383,33 @@ export function Header() {
               </li>
             ))}
 
+            {/* BiS group */}
+            <li className="mt-1 border-t border-border pt-2">
+              <span className="px-3 text-[11px] font-medium tracking-widest text-muted uppercase">
+                Best in slot
+              </span>
+            </li>
+            {BIS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  onClick={closeMobile}
+                  aria-current={isActive(pathname, item.href) ? "page" : undefined}
+                  className={cn(
+                    "flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
+                    isActive(pathname, item.href)
+                      ? "bg-accent-faint text-accent"
+                      : "text-muted-strong hover:bg-surface-hover hover:text-foreground",
+                  )}
+                >
+                  {item.icon && <GameIcon icon={item.icon} alt="" size="small" />}
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+
             {/* Classes accordion */}
-            <li>
+            <li className="mt-1 border-t border-border pt-2">
               <button
                 type="button"
                 onClick={() => setMobileClasses((v) => !v)}
