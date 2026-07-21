@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { RAIDS, getRaid, bossesByRaid, bossIcon, raidBackground } from "@/data/raids";
+import { RAIDS, getRaid, bossesByRaid, raidBackground } from "@/data/raids";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
-import { GameIcon } from "@/components/GameIcon";
+import { BossPortrait } from "@/components/raids/BossPortrait";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { SITE_URL } from "@/lib/site";
 
@@ -81,7 +81,7 @@ export default async function RaidPage({ params }: { params: Params }) {
               <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-background font-mono text-xs text-muted">
                 {i + 1}
               </span>
-              <GameIcon icon={bossIcon(boss.id)} alt="" size="medium" />
+              <BossPortrait bossId={boss.id} name={boss.name} size="md" />
               <span className="min-w-0 flex-1">
                 <span className="block text-base font-semibold tracking-tight text-foreground">
                   {boss.name}

@@ -1495,6 +1495,28 @@ export function bossIcon(bossId: string): string {
   return BOSS_ICONS[bossId] ?? BOSS_SKULL;
 }
 
+// Real boss "portrait" banners (128×64 webp, in /public/images/bosses).
+// Most bosses have one; the few that don't fall back to bossIcon(). Kept
+// as an explicit set so the value is known without a filesystem read.
+const BOSS_IMAGES = new Set<string>([
+  "akilzon", "alar", "anetheron", "archimonde", "attumen-the-huntsman",
+  "azgalor", "brutallus", "eredar-twins", "fathom-lord-karathress",
+  "felmyst", "gruul-the-dragonkiller", "gurtogg-bloodboil", "halazzi",
+  "hex-lord-malacrass", "high-astromancer-solarian", "high-king-maulgar",
+  "high-warlord-najentus", "hydross-the-unstable", "illidan-stormrage",
+  "janalai", "kaelthas-sunstrider", "kalecgos", "kazrogal", "kiljaeden",
+  "lady-vashj", "leotheras-the-blind", "magtheridon", "maiden-of-virtue",
+  "moroes", "morogrim-tidewalker", "mother-shahraz", "muru", "nalorakk",
+  "netherspite", "prince-malchezaar", "rage-winterchill", "shade-of-akama",
+  "shade-of-aran", "supremus", "terestian-illhoof", "teron-gorefiend",
+  "the-curator", "the-lurker-below", "void-reaver", "zuljin",
+]);
+
+/** Local boss portrait banner if we have one, else null (use bossIcon). */
+export function bossImage(bossId: string): string | null {
+  return BOSS_IMAGES.has(bossId) ? `/images/bosses/${bossId}.webp` : null;
+}
+
 // Per-raid hero art so each raid/boss page looks distinct instead of
 // sharing one background. Cycles the available webp art by theme.
 const RAID_BG: Record<string, string> = {

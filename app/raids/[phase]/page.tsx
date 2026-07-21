@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { raidsByPhase, bossesByRaid, bossIcon } from "@/data/raids";
+import { raidsByPhase, bossesByRaid } from "@/data/raids";
 import { PHASE_LABELS, PHASES, type Phase } from "@/lib/classes";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
-import { GameIcon } from "@/components/GameIcon";
+import { BossPortrait } from "@/components/raids/BossPortrait";
 import { ComingSoon } from "@/components/ComingSoon";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { BACKGROUNDS } from "@/lib/backgrounds";
@@ -91,9 +91,9 @@ export default async function PhasePage({ params }: { params: Params }) {
                           key={b.id}
                           href={`/raids/phase-${phase}/${raid.id}/${b.id}`}
                           title={b.name}
-                          className="transition-transform hover:scale-110"
+                          className="transition-transform hover:scale-105"
                         >
-                          <GameIcon icon={bossIcon(b.id)} alt={b.name} size="small" />
+                          <BossPortrait bossId={b.id} name={b.name} size="sm" />
                         </Link>
                       ))}
                     </div>

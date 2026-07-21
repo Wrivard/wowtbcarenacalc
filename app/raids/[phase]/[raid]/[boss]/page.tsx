@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { BOSSES, getBoss, getRaid, bossesByRaid, bossIcon, raidBackground } from "@/data/raids";
+import { BOSSES, getBoss, getRaid, bossesByRaid, raidBackground } from "@/data/raids";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
-import { GameIcon } from "@/components/GameIcon";
+import { BossPortrait } from "@/components/raids/BossPortrait";
 import { ItemLink } from "@/components/ItemLink";
 import { BossPositionDiagram } from "@/components/raids/BossPositionDiagram";
 import { AdUnit } from "@/components/AdUnit";
@@ -85,7 +85,7 @@ export default async function BossPage({ params }: { params: Params }) {
       <PageHero image={raidBackground(raid.id)}>
         <Breadcrumbs crumbs={crumbs} />
         <div className="mt-4 flex items-center gap-3">
-          <GameIcon icon={bossIcon(boss.id)} alt="" size="large" lazy={false} />
+          <BossPortrait bossId={boss.id} name={boss.name} size="lg" lazy={false} />
           <div>
             <h1 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
               {boss.name} Strategy — {raid.name}
