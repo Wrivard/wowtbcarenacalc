@@ -41,13 +41,14 @@ Legend: ✅ done · 🚧 in progress · ⬜ not started
   - **✅ ALL classes fully authored (52 spec/content guides):** Rogue, Warrior, Mage, Paladin, Hunter, Priest, Shaman, Warlock, Druid — every PvP/PvE spec combo the class matrix allows. Page + all data sections assemble the authored prose.
 - ✅ Profession 1–375 leveling: `PROFESSION_LEVELING` in `data/professions.ts` (tiered skill range → craft/gather → materials) for all 12 professions, rendered as a table on each profession page.
 - ✅ **Icon-backed material lists:** `scripts/resolve-items.mjs` resolved 62 real Wowhead material ids into `data/items.json`; craftable professions carry per-tier `mats` (item id + approx qty) rendered as `ItemLink` icons with quantities on the profession page (falls back to text for gatherers).
-## 6. Raids + boss strats — 🚧 (Phase 1 done; phases 2-5 pending)
+## 6. Raids + boss strats — ✅ (all phases 1-5 authored)
 - ✅ Route tree: `/raids` hub → `/raids/[phase]` → `/raids/[phase]/[raid]` → `/raids/[phase]/[raid]/[boss]`.
 - ✅ `data/raids.ts`: **Phase 1** — Karazhan (9), Gruul's Lair (2), Magtheridon's Lair (1); **Phase 2** — Serpentshrine Cavern (6: Hydross, Lurker, Leotheras, Karathress, Morogrim, **Lady Vashj**), Tempest Keep (4: Al'ar, Void Reaver, Solarian, **Kael'thas**). Role-organized strategies, phases, common mistakes.
 - ✅ Original `BossPositionDiagram` SVG (Gruul, Aran, Magtheridon, Maulgar, Prince, Moroes, **Vashj, Kael'thas**; generic fallback).
 - ✅ Boss pages: HowTo + breadcrumb JSON-LD, role notes, loot (ItemLink), next-boss nav. "Raids" added to navbar; routes in sitemap.
-- ✅ Empty phases (2-5) show "coming soon" (noindex), never 404.
-- ⬜ Populate phases 3-5 (Hyjal, Black Temple, Zul'Aman, Sunwell) + SVG diagrams for Illidan/M'uru/Brutallus/Archimonde/Kil'jaeden.
+- ✅ **Phases 3-5 authored** — Mount Hyjal (5), Black Temple (9), Zul'Aman (6), Sunwell Plateau (6). All 4 raids + 26 bosses role-organized (tank/healer/dps), phase steps, common mistakes, in site voice. `/raids` hub + sitemap auto-pick-up; no more "coming soon". **Every TBC raid is now covered (phases 1-5).**
+- ✅ **Boss position diagrams** for the marquee encounters: Illidan, Archimonde, Brutallus, M'uru, Kil'jaeden (+ earlier Gruul/Aran/Mag/Maulgar/Prince/Moroes/Vashj/Kael'thas; generic fallback for the rest).
+- ✅ **Raid imagery** — every boss carries a hand-picked, CDN-verified thematic icon (`bossIcon()` in `data/raids.ts`, 48 bosses; `scripts/resolve-boss-icons.mjs` is a verifier that fails on any 404). Icons render on boss-list rows, phase-hub chips, and the boss page hero. Each raid gets its own hero background via `raidBackground()`.
 
 ## 8. SEO site-wide — 🚧 (mostly done)
 - ✅ **8a** Removed the site-wide `<meta name="keywords">` (noise); ranking lives in unique per-page titles/descriptions/H1s (already unique via `buildMetadata`).
