@@ -27,6 +27,15 @@ const BIS: NavItem[] = [
   { href: "/pve", label: "PvE · Raid BiS", icon: "inv_misc_head_dragon_01" },
 ];
 
+// Arena dropdown: everything for the arena side — comp tier list, the
+// live leaderboard, the points calculator, and the overview hub.
+const ARENA: NavItem[] = [
+  { href: "/arena/comps", label: "Arena Comps", icon: "achievement_arena_2v2_2" },
+  { href: "/leaderboard", label: "Live Leaderboard", icon: "achievement_pvp_a_a" },
+  { href: "/arena-points-calculator", label: "Arena Points Calculator", icon: "inv_misc_coin_02" },
+  { href: "/arena", label: "Arena Overview", icon: "achievement_arena_5v5_1" },
+];
+
 const PRIMARY: NavItem[] = [
   { href: "/", label: "Home" },
   // BiS dropdown + Classes mega-menu are injected between here and the rest.
@@ -81,6 +90,16 @@ function classesActive(pathname: string): boolean {
 // BiS door is active on the /pvp and /pve hubs and on any per-spec BiS page.
 function bisActive(pathname: string): boolean {
   return isActive(pathname, "/pvp") || isActive(pathname, "/pve");
+}
+
+// Arena door is active on the comps, leaderboard, points calc and hub.
+function arenaActive(pathname: string): boolean {
+  return (
+    pathname === "/arena" ||
+    pathname.startsWith("/arena/") ||
+    pathname === "/leaderboard" ||
+    pathname.startsWith("/arena-points-calculator")
+  );
 }
 
 function NavLink({
@@ -189,10 +208,21 @@ function ClassesMega({ pathname }: { pathname: string }) {
   );
 }
 
-function BisDropdown({ pathname }: { pathname: string }) {
+// A labelled nav dropdown of icon links (BiS, Arena). Left-aligned menu
+// with a game icon per item.
+function IconDropdown({
+  label,
+  items,
+  active,
+  pathname,
+}: {
+  label: string;
+  items: NavItem[];
+  active: boolean;
+  pathname: string;
+}) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-  const active = bisActive(pathname);
 
   useEffect(() => {
     if (!open) return;
@@ -215,7 +245,7 @@ function BisDropdown({ pathname }: { pathname: string }) {
           active ? "text-foreground" : "text-muted-strong hover:text-foreground",
         )}
       >
-        BiS
+        {label}
         <ChevronDown
           className={cn("size-3.5 transition-transform", open && "rotate-180")}
           aria-hidden
@@ -229,7 +259,7 @@ function BisDropdown({ pathname }: { pathname: string }) {
           role="menu"
           className="absolute left-0 z-50 mt-3 w-64 overflow-hidden rounded-xl border border-border bg-surface shadow-xl"
         >
-          {BIS.map((item) => (
+          {items.map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -338,7 +368,8 @@ export function Header() {
         {/* Desktop nav */}
         <nav aria-label="Primary" className="hidden items-center gap-5 lg:flex">
           <NavLink item={PRIMARY[0]} active={isActive(pathname, "/")} />
-          <BisDropdown pathname={pathname} />
+          <IconDropdown label="BiS" items={BIS} active={bisActive(pathname)} pathname={pathname} />
+          <IconDropdown label="Arena" items={ARENA} active={arenaActive(pathname)} pathname={pathname} />
           <ClassesMega pathname={pathname} />
           <NavLink item={PRIMARY[1]} active={isActive(pathname, "/class-rankings")} />
           <NavLink item={PRIMARY[2]} active={isActive(pathname, "/raids")} />
@@ -390,6 +421,31 @@ export function Header() {
               </span>
             </li>
             {BIS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  onClick={closeMobile}
+                  aria-current={isActive(pathname, item.href) ? "page" : undefined}
+                  className={cn(
+                    "flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
+                    isActive(pathname, item.href)
+                      ? "bg-accent-faint text-accent"
+                      : "text-muted-strong hover:bg-surface-hover hover:text-foreground",
+                  )}
+                >
+                  {item.icon && <GameIcon icon={item.icon} alt="" size="small" />}
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+
+            {/* Arena group */}
+            <li className="mt-1 border-t border-border pt-2">
+              <span className="px-3 text-[11px] font-medium tracking-widest text-muted uppercase">
+                Arena
+              </span>
+            </li>
+            {ARENA.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
