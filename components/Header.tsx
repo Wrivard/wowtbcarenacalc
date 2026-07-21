@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -8,6 +7,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { CLASSES } from "@/lib/classes";
 import { GameIcon } from "@/components/GameIcon";
+import { Logo } from "@/components/Logo";
 
 // Inlined (not imported from lib/icons) so the client bundle doesn't pull
 // in the 9 talent JSON files that lib/icons → lib/talents depends on.
@@ -38,15 +38,12 @@ const ARENA: NavItem[] = [
 
 const PRIMARY: NavItem[] = [
   { href: "/", label: "Home" },
-  // BiS dropdown + Classes mega-menu are injected between here and the rest.
+  // BiS + Arena dropdowns and the Classes mega-menu are injected between
+  // here and the rest.
   { href: "/class-rankings", label: "Rankings" },
   { href: "/raids", label: "Raids" },
   { href: "/guides", label: "Guides" },
-];
-
-const TOOLS: NavItem[] = [
-  { href: "/arena-points-calculator", label: "Arena Points Calculator" },
-  { href: "/talent-calculator", label: "Talent Calculator" },
+  { href: "/talent-calculator", label: "Talent" },
 ];
 
 const CLASS_SLUGS = new Set(CLASSES.map((c) => c.slug));
@@ -280,68 +277,6 @@ function IconDropdown({
   );
 }
 
-function ToolsDropdown({ pathname }: { pathname: string }) {
-  const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-  const active = TOOLS.some((t) => isActive(pathname, t.href));
-
-  useEffect(() => {
-    if (!open) return;
-    const onDown = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
-    };
-    document.addEventListener("mousedown", onDown);
-    return () => document.removeEventListener("mousedown", onDown);
-  }, [open]);
-
-  return (
-    <div ref={ref} className="relative">
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        aria-haspopup="menu"
-        className={cn(
-          "relative flex items-center gap-1 text-sm font-medium tracking-wide transition-colors",
-          active ? "text-foreground" : "text-muted-strong hover:text-foreground",
-        )}
-      >
-        Tools
-        <ChevronDown
-          className={cn("size-3.5 transition-transform", open && "rotate-180")}
-          aria-hidden
-        />
-        {active && (
-          <span className="absolute -bottom-1.5 left-0 h-0.5 w-[calc(100%-1rem)] rounded-full bg-accent" />
-        )}
-      </button>
-      {open && (
-        <div
-          role="menu"
-          className="absolute right-0 z-50 mt-3 w-56 overflow-hidden rounded-xl border border-border bg-surface shadow-xl"
-        >
-          {TOOLS.map((t) => (
-            <Link
-              key={t.href}
-              href={t.href}
-              role="menuitem"
-              onClick={() => setOpen(false)}
-              className={cn(
-                "block px-4 py-2.5 text-sm transition-colors hover:bg-surface-hover",
-                isActive(pathname, t.href)
-                  ? "text-accent"
-                  : "text-muted-strong hover:text-foreground",
-              )}
-            >
-              {t.label}
-            </Link>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
 export function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -354,15 +289,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between gap-4 px-4">
-        <Link href="/" aria-label="WoW TBC Arena — home" className="shrink-0">
-          <Image
-            src="/images/logo.png"
-            alt="WoW TBC Arena"
-            width={50}
-            height={40}
-            priority
-            className="h-10 w-auto"
-          />
+        <Link href="/" aria-label="WoW TBC Arena — home" className="shrink-0 text-foreground">
+          <Logo className="h-[3.125rem] w-auto" />
         </Link>
 
         {/* Desktop nav */}
@@ -374,7 +302,7 @@ export function Header() {
           <NavLink item={PRIMARY[1]} active={isActive(pathname, "/class-rankings")} />
           <NavLink item={PRIMARY[2]} active={isActive(pathname, "/raids")} />
           <NavLink item={PRIMARY[3]} active={isActive(pathname, "/guides")} />
-          <ToolsDropdown pathname={pathname} />
+          <NavLink item={PRIMARY[4]} active={isActive(pathname, "/talent-calculator")} />
         </nav>
 
         {/* Mobile toggle */}
@@ -501,28 +429,6 @@ export function Header() {
                 </ul>
               )}
             </li>
-
-            <li className="mt-1 border-t border-border pt-2">
-              <span className="px-3 text-[11px] font-medium tracking-widest text-muted uppercase">
-                Tools
-              </span>
-            </li>
-            {TOOLS.map((t) => (
-              <li key={t.href}>
-                <Link
-                  href={t.href}
-                  onClick={closeMobile}
-                  className={cn(
-                    "block rounded-lg px-3 py-2.5 text-sm transition-colors",
-                    isActive(pathname, t.href)
-                      ? "bg-accent-faint text-accent"
-                      : "text-muted-strong hover:bg-surface-hover hover:text-foreground",
-                  )}
-                >
-                  {t.label}
-                </Link>
-              </li>
-            ))}
           </ul>
         </nav>
       )}

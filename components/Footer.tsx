@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { CLASSES } from "@/lib/classes";
 import { useConsent } from "@/components/CookieConsent";
+import { Logo } from "@/components/Logo";
 
 const TOOLS = [
   { href: "/arena-points-calculator", label: "Arena Points Calculator" },
@@ -39,13 +39,8 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-[auto_1fr] sm:gap-16">
           {/* Brand */}
           <div className="max-w-[240px]">
-            <Link href="/" aria-label="WoW TBC Arena Calculator — home">
-              <Image
-                src="/images/logo.png"
-                alt="WoW TBC Arena Calculator"
-                width={90}
-                height={72}
-              />
+            <Link href="/" aria-label="WoW TBC Arena Calculator — home" className="text-foreground">
+              <Logo className="h-auto w-[112px]" />
             </Link>
             <p className="mt-4 text-xs leading-relaxed text-muted">
               Arena points math, live-snapshot BiS lists and talent tools for
