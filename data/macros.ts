@@ -206,10 +206,11 @@ export const MACROS: Macro[] = [
   // ---------------- Hunter ----------------
   {
     class: "hunter",
+    spec: "marksmanship",
     category: "focus",
     name: "Focus Scatter Shot",
     code: "#showtooltip Scatter Shot\n/cast [target=focus] Scatter Shot",
-    description: "Scatter a focus target to set up a Freezing Trap or peel without swapping.",
+    description: "Scatter a focus target to set up a Freezing Trap or peel without swapping. Scatter Shot is a Marksmanship talent.",
   },
   {
     class: "hunter",
@@ -225,6 +226,20 @@ export const MACROS: Macro[] = [
     name: "Pet on arena1",
     code: "/petattack [target=arena1]",
     description: "Send your pet at the first arena enemy — quick-swap your pet's target in 2s/3s.",
+  },
+  {
+    class: "hunter",
+    category: "defensive",
+    name: "Feign Death",
+    code: "#showtooltip Feign Death\n/stopcasting\n/cast Feign Death",
+    description: "Drop targeting and reset a melee train — /stopcasting fires it instantly even mid-shot. Baseline for every hunter spec.",
+  },
+  {
+    class: "hunter",
+    category: "utility",
+    name: "Freezing Trap",
+    code: "#showtooltip Freezing Trap\n/cast Freezing Trap",
+    description: "Your core CC. Kite the target over it, or pair with the MM Scatter Shot macro for a guaranteed trap.",
   },
 
   // ---------------- Druid ----------------
