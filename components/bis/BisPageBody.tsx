@@ -9,7 +9,7 @@ import type { ClassDef, SpecDef } from "@/lib/classes";
 import { GearGrid } from "@/components/bis/GearGrid";
 import { StatCaps } from "@/components/bis/StatCaps";
 import { GearPriorityList } from "@/components/bis/GearPriorityList";
-import { TalentSummary } from "@/components/bis/TalentSummary";
+import { FilledTalentTrees } from "@/components/talents/FilledTalentTrees";
 import { ItemLink } from "@/components/ItemLink";
 import { AdUnit } from "@/components/AdUnit";
 
@@ -178,8 +178,8 @@ export function BisPageBody({
         </div>
       </section>
 
-      {/* Recommended talent build (summary + links, not the full tree) */}
-      <TalentSummary
+      {/* Recommended talent build — the full filled trees, not just x/y/z */}
+      <FilledTalentTrees
         classSlug={cls.slug}
         specSlug={spec.slug}
         specName={`${spec.name} ${cls.name}`}
