@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -7,7 +8,6 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { CLASSES } from "@/lib/classes";
 import { GameIcon } from "@/components/GameIcon";
-import { Logo } from "@/components/Logo";
 
 // Inlined (not imported from lib/icons) so the client bundle doesn't pull
 // in the 9 talent JSON files that lib/icons → lib/talents depends on.
@@ -289,8 +289,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between gap-4 px-4">
-        <Link href="/" aria-label="WoW TBC Arena — home" className="shrink-0 text-foreground">
-          <Logo className="h-[3.125rem] w-auto" />
+        <Link href="/" aria-label="WoW TBC Arena — home" className="shrink-0">
+          <Image
+            src="/images/logo.png"
+            alt="WoW TBC Arena"
+            width={62}
+            height={50}
+            priority
+            className="h-[3.125rem] w-auto"
+          />
         </Link>
 
         {/* Desktop nav */}
