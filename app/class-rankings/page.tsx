@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ...buildMetadata({
     title: "TBC Classic DPS Rankings — Best DPS Specs by Raid Tier",
     description:
-      "TBC Classic PvE DPS rankings: the best DPS classes and specs for Karazhan/Gruul/Magtheridon and SSC/Tempest Keep, ranked by representative single-target parse data with links to every spec guide.",
+      "TBC Classic PvE DPS rankings for every phase — Karazhan/Gruul/Magtheridon, SSC/Tempest Keep, Black Temple/Hyjal, Zul'Aman and Sunwell Plateau — ranked by representative single-target parse data with links to every spec guide.",
     path: "/class-rankings",
   }),
 };
