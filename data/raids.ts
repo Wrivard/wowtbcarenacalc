@@ -52,6 +52,10 @@ export const RAIDS: Raid[] = [
   { id: "magtheridons-lair", name: "Magtheridon's Lair", phase: 1, size: 25, location: "Hellfire Citadel", blurb: "A single-boss 25-player raid built around the Hellfire Channelers and a raid-wide click event. Punishing to undergeared groups, trivial once coordinated." },
   { id: "serpentshrine-cavern", name: "Serpentshrine Cavern", phase: 2, size: 25, location: "Coilfang Reservoir, Zangarmarsh", blurb: "The 25-player water raid of Phase 2, home to six bosses culminating in Lady Vashj. A serious step up in coordination — poison management, add control, and the infamous tainted-core relay on Vashj." },
   { id: "tempest-keep", name: "Tempest Keep: The Eye", phase: 2, size: 25, location: "Netherstorm", blurb: "The blood elf fortress raid, four bosses ending with Kael'thas Sunstrider — a five-phase gauntlet against his advisors, their weapons, and Kael himself. The definitive Phase 2 progression check." },
+  { id: "mount-hyjal", name: "Mount Hyjal", phase: 3, size: 25, location: "Caverns of Time, Tanaris", blurb: "The Battle for Mount Hyjal — a five-boss survival raid where you defend Nordrassil against wave after wave of the Legion's undead and demons, base by base, culminating in Archimonde himself. Trash management matters as much as the bosses." },
+  { id: "black-temple", name: "Black Temple", phase: 3, size: 25, location: "Shadowmoon Valley", blurb: "Illidan's fortress and the flagship raid of Phase 3: nine bosses of dense, varied mechanics ending in the Betrayer, Illidan Stormrage. The gear and coordination check that defines a serious TBC guild." },
+  { id: "zulaman", name: "Zul'Aman", phase: 4, size: 10, location: "Ghostlands", blurb: "A fast, hard-hitting 10-player raid with four animal-god bosses, a timed bear-mount run, and the troll warlord Zul'jin. Tuned as a challenging alternative to Karazhan-tier 10s — tight, aggressive, and rewarding." },
+  { id: "sunwell-plateau", name: "Sunwell Plateau", phase: 5, size: 25, location: "Isle of Quel'Danas", blurb: "The final raid of TBC and its ultimate test: six bosses of unforgiving mechanics — Kalecgos, Brutallus, Felmyst, the Eredar Twins, M'uru, and Kil'jaeden — the end of the Sunwell and of the expansion itself." },
 ];
 
 export const BOSSES: Boss[] = [
@@ -670,6 +674,719 @@ export const BOSSES: Boss[] = [
         "Tanking Thaladred instead of kiting his fixate.",
         "Losing the raid during Gravity Lapse to Kael's nukes or falling out of position.",
         "Killing a Mind-Controlled player instead of CCing them.",
+      ],
+    },
+  },
+
+  // ---------------- Mount Hyjal ----------------
+  {
+    id: "rage-winterchill",
+    name: "Rage Winterchill",
+    raidId: "mount-hyjal",
+    phase: 3,
+    role: "1-2 tanks, 5 healers, rest dps",
+    difficulty: 1,
+    loot: [],
+    strategy: {
+      overview:
+        "The first Hyjal boss, a lich reached after clearing the first wave of Anetheron's undead trash. A single-phase fight defined by two debuffs — Death and Decay under the raid and Icebolt, which roots a random player in a frost tomb.",
+      phases: [
+        { name: "Single phase", description: "Tank Winterchill in place; move out of Death and Decay pools, dispel/heal Icebolt targets, and burn him before Frost Armor and Chill Nova whittle the raid." },
+      ],
+      tankNotes:
+        "Hold Winterchill still so the raid always knows where Death and Decay will land. His melee is light — this is a raid-damage fight, not a tank check.",
+      healerNotes:
+        "Icebolt roots a random player and hits hard while they're tombed — keep them topped until it breaks. Chill Nova is periodic raid AoE; keep everyone above the Death and Decay tick.",
+      dpsNotes:
+        "Step out of Death and Decay the instant it drops and keep DPS uptime high — he ramps up as the fight drags. Ranged help clear stray undead adds from the wave.",
+      commonMistakes: [
+        "Standing in Death and Decay chasing uptime.",
+        "Ignoring an Icebolt target until they die tombed.",
+      ],
+    },
+  },
+  {
+    id: "anetheron",
+    name: "Anetheron",
+    raidId: "mount-hyjal",
+    phase: 3,
+    role: "2 tanks, 5-6 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A dreadlord fight built around Carrion Swarm and Sleep. Anetheron periodically Sleeps random players and drains the raid with Carrion Swarm, while Infernals rain down and must be tanked or offed before they rampage.",
+      phases: [
+        { name: "Single phase", description: "Tank Anetheron centrally; assign someone to dispel Sleep, keep the raid spread from Carrion Swarm's cone, and pick up the Infernals that fall throughout the fight." },
+      ],
+      tankNotes:
+        "Face Anetheron away from the raid so Carrion Swarm only hits the front. Have an off-tank ready to grab Infernals the moment they land — a loose Infernal shreds the casters.",
+      healerNotes:
+        "Sleep takes healers and players out of the fight — dispel it fast (priests especially). Carrion Swarm is a big frontal drain; pre-heal into it and top the Infernal tank.",
+      dpsNotes:
+        "Stay out of the Carrion Swarm cone, wake dispels aside. Swap to Infernals if your raid kills them, otherwise tunnel Anetheron and out-race the Infernal accumulation.",
+      commonMistakes: [
+        "Standing in front for Carrion Swarm.",
+        "Letting an Infernal run free into the healers.",
+      ],
+    },
+  },
+  {
+    id: "kazrogal",
+    name: "Kaz'rogal",
+    raidId: "mount-hyjal",
+    phase: 3,
+    role: "2 tanks, 5 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A mana-burn race. Kaz'rogal's Mark of Kaz'rogal drains mana from every player carrying it, and when a marked player hits zero mana it detonates for heavy raid damage. The fight is a hard enrage against your mana pool — burn him before too many marks pop.",
+      phases: [
+        { name: "Single phase", description: "Tank Kaz'rogal and burn as fast as possible. The Mark spreads faster over time; healers and casters manage mana so their detonations don't chain-wipe the raid near the end." },
+      ],
+      tankNotes:
+        "Straightforward threat and positioning — hold him still. War Stomp interrupts and knocks back periodically, so re-establish quickly. The clock, not his melee, is the threat.",
+      healerNotes:
+        "This is a mana fight. Space out heals, use every regen cooldown, and be aware that a marked player draining to zero explodes — stagger who runs dry so detonations don't overlap.",
+      dpsNotes:
+        "Pure burn check. Bloodlust/Heroism early or on a planned window, pop trinkets, and beat the escalating Mark drain. Mana users blow detonations deliberately spread out.",
+      commonMistakes: [
+        "Slow DPS letting the Mark drain outpace your kill.",
+        "Multiple players hitting zero mana at once and chaining detonations.",
+      ],
+    },
+  },
+  {
+    id: "azgalor",
+    name: "Azgalor",
+    raidId: "mount-hyjal",
+    phase: 3,
+    role: "2 tanks, 5-6 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "The fourth Hyjal boss and the last before Archimonde. Azgalor's signature is Doom — a Rain of Fire debuff that, when it expires, spawns a Lesser Doomguard that must be tanked and killed. Manage the Doomguards while healing through Howl of Azgalor's silence.",
+      phases: [
+        { name: "Single phase", description: "Tank Azgalor central; assign a Doomguard tank for the adds Doom spawns. Cleanse/heal Doom targets, out-range Rain of Fire, and burn Azgalor before Doomguards pile up." },
+      ],
+      tankNotes:
+        "Main-tank holds Azgalor still through Howl of Azgalor (a raid silence + damage). A dedicated off-tank picks up every Lesser Doomguard — they hit hard and enrage if ignored.",
+      healerNotes:
+        "Doom can't be dispelled off in time on most setups — heal the target and prepare for the Doomguard. Howl silences and hurts the raid; stagger heals so a silence window doesn't drop the tank.",
+      dpsNotes:
+        "Kill Lesser Doomguards fast when they spawn, then back to Azgalor. Stay out of Rain of Fire. Balance add cleanup against boss DPS so you beat the Doomguard accumulation.",
+      commonMistakes: [
+        "Leaving a Lesser Doomguard untanked to maul the raid.",
+        "Standing in Rain of Fire or getting caught silenced with the tank low.",
+      ],
+    },
+  },
+  {
+    id: "archimonde",
+    name: "Archimonde",
+    raidId: "mount-hyjal",
+    phase: 3,
+    role: "1-2 tanks, 6 healers, rest dps",
+    difficulty: 3,
+    hasDiagram: true,
+    loot: [],
+    strategy: {
+      overview:
+        "The Hyjal endboss and a pure execution fight — no adds, just a checklist of mechanics that each one-shot. Air Burst flings players into the air (fatal without a Tear of the Goddess to soften the landing), Doomfire chases the raid, Grip of the Legion is a magic DoT, and Fear turns the raid into a hazard. One mistake wipes the raid.",
+      phases: [
+        { name: "Single phase", description: "Everyone carries Tears of the Goddess for Air Burst. Spread wide for Air Burst and Fear, kite Doomfire away from the raid, cleanse Grip of the Legion, and burn Archimonde over a long, disciplined DPS check." },
+      ],
+      tankNotes:
+        "Tank Archimonde in place facing away. His melee is manageable — your real job is not dying to Air Burst yourself. Keep the Tear trinket keybound and use it every throw.",
+      healerNotes:
+        "Cleanse Grip of the Legion immediately (it ramps), keep Air Burst targets alive on the way down, and watch for Fear scattering players into Doomfire. Unstoppable Funeral Pyre (Doomfire) plus Fear is the classic wipe combo.",
+      dpsNotes:
+        "Use a Tear of the Goddess on every Air Burst — pressing it late means death. Stay spread, move Doomfire away from the group, and keep steady damage; Archimonde soft-enrages, so no wasted globals.",
+      commonMistakes: [
+        "Forgetting to use Tears of the Goddess on Air Burst and dying to fall damage.",
+        "Kiting Doomfire into the raid or getting Feared into it.",
+        "Letting Grip of the Legion tick unclensed.",
+      ],
+    },
+  },
+
+  // ---------------- Black Temple ----------------
+  {
+    id: "high-warlord-najentus",
+    name: "High Warlord Naj'entus",
+    raidId: "black-temple",
+    phase: 3,
+    role: "1-2 tanks, 4-5 healers, rest dps",
+    difficulty: 1,
+    loot: [],
+    strategy: {
+      overview:
+        "The Black Temple opener, a naga warlord with a hard mechanic gate. Naj'entus periodically shields himself (Tidal Shield) and impales players on Impaling Spines — the raid must free the impaled players with the dropped spines, and use a spine to break his shield before Hurl Damage detonates.",
+      phases: [
+        { name: "Single phase", description: "Tank Naj'entus; when a player is impaled, someone loots the Naj'entus Spine and clicks the impaled ally to free them. When he shields, hurl a spine at him to shatter it before the raid-wide Tidal Burst goes off." },
+      ],
+      tankNotes:
+        "Simple threat hold — face him away from the raid. Needle Spine (the AoE spine barrage) hits the whole raid, so this is more a coordination fight than a tank-damage one.",
+      healerNotes:
+        "Impaled players take a heavy bleed until freed — keep them up until a spine removes it. The whole raid takes Needle Spine damage on a timer; steady raid healing throughout.",
+      dpsNotes:
+        "Assign spine-clickers: free impaled players fast, and break Tidal Shield with a spine every time it goes up — a missed shield break wipes the raid via Tidal Burst. Otherwise burn him down.",
+      commonMistakes: [
+        "Not breaking Tidal Shield in time — Tidal Burst wipes the raid.",
+        "Leaving impaled players unfreed to bleed out.",
+      ],
+    },
+  },
+  {
+    id: "supremus",
+    name: "Supremus",
+    raidId: "black-temple",
+    phase: 3,
+    role: "2 tanks, 4-5 healers, rest dps",
+    difficulty: 1,
+    loot: [],
+    strategy: {
+      overview:
+        "A two-phase abyssal that alternates between a normal tank-and-spank and a chase phase. In the fixate phase Supremus stops tanking and hunts a random player at reduced speed while Molten Flames erupt from the ground — the whole raid kites him in a wide arc.",
+      phases: [
+        { name: "Tank phase", description: "Tank Supremus normally; avoid the Molten Flame gouts that spawn under players. Molten Punch hits the melee." },
+        { name: "Fixate phase", description: "Supremus targets a random player and slowly chases them; that player and the raid run away in a big circle while Volcanic Geysers erupt. He reverts to tanking after ~10s." },
+      ],
+      tankNotes:
+        "In the tank phase hold threat and dodge Molten Flames. In the fixate phase you're just another runner — pick him back up the instant he reverts to tanking.",
+      healerNotes:
+        "Keep the fixated player alive as they kite. Damage is mostly self-inflicted (standing in fire), so a clean raid makes for an easy fight — punish is real for anyone caught by a Geyser.",
+      dpsNotes:
+        "Melee: mind Molten Punch and the flames. In the fixate phase everyone runs with the target and keeps DPS from range when possible. Don't crowd the chased player.",
+      commonMistakes: [
+        "Standing in Molten Flame / Volcanic Geyser eruptions.",
+        "Crowding the fixated player so the whole group can't escape the flames.",
+      ],
+    },
+  },
+  {
+    id: "shade-of-akama",
+    name: "Shade of Akama",
+    raidId: "black-temple",
+    phase: 3,
+    role: "2-3 tanks, 5 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "An add-control fight, not a boss tank-and-spank. The Shade is channeled-immune until you clear the Ashtongue attackers rushing Akama — Channelers heal the Shade, Defenders and Rogues and Spiritbinders swarm Akama. Free Akama and he helps you finish the Shade.",
+      phases: [
+        { name: "Defend Akama", description: "As the Shade approaches Akama, waves of Ashtongue adds spawn. Interrupt/kill the Channelers first (they empower the Shade), tank the Defenders, and CC/kill the rest before they overwhelm Akama." },
+        { name: "Kill the Shade", description: "Once the Channelers are down the Shade becomes attackable and charges — tank and burn it while Akama fights alongside you." },
+      ],
+      tankNotes:
+        "Tanks pick up the Defenders and the Shade when it activates. The Shade moves fast toward Akama — grab it quickly. This is a crowd-control and pickup fight more than a threat one.",
+      healerNotes:
+        "Keep Akama and the add tanks alive through the wave. Sorcerers and Spiritbinders heal enemies — mark and kill them fast. Once the Shade is active it's a short burn.",
+      dpsNotes:
+        "Priority is Channelers (they buff the Shade) and enemy healers. Assign CC to the Rogues/Defenders. When the Shade activates, everyone swaps and burns it before the next wave.",
+      commonMistakes: [
+        "Not killing/interrupting Channelers, leaving the Shade empowered.",
+        "Letting adds overrun Akama.",
+      ],
+    },
+  },
+  {
+    id: "teron-gorefiend",
+    name: "Teron Gorefiend",
+    raidId: "black-temple",
+    phase: 3,
+    role: "1-2 tanks, 5 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A fight decided by an individual mechanic: Shadow of Death. Teron periodically kills a random player, who then becomes a Vengeful Spirit and must use their ghost abilities to destroy the four Constructs that spawn — if the ghosts fail, the Constructs enrage the raid. Everyone needs to know the ghost rotation.",
+      phases: [
+        { name: "Single phase", description: "Tank Teron and burn; each Shadow of Death turns a player into a ghost who must kill the Constructs with Spirit abilities before their timer ends and they die for real. Manage Incinerate and Crushing Shadows on the raid throughout." },
+      ],
+      tankNotes:
+        "Standard threat and positioning; face him away for Incinerate. The tank can be a Shadow of Death target too, so a second tank should be ready to cover a ghost window.",
+      healerNotes:
+        "Crushing Shadows hits random players hard, and Incinerate is a frontal. The tricky part: your healers can become ghosts — coverage must survive one or two healers being out as spirits.",
+      dpsNotes:
+        "Learn the Vengeful Spirit rotation cold: use the ghost's abilities to kill your assigned Constructs. A player who fumbles the ghost phase both dies and lets Constructs live — the number one wipe cause here.",
+      commonMistakes: [
+        "Players not knowing the Vengeful Spirit abilities and failing the Constructs.",
+        "Standing in front for Incinerate.",
+      ],
+    },
+  },
+  {
+    id: "gurtogg-bloodboil",
+    name: "Gurtogg Bloodboil",
+    raidId: "black-temple",
+    phase: 3,
+    role: "2-3 tanks, 6 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "A tank-swap and aggro-shuffle fight. Gurtogg alternates between a normal tank phase and Fel Rage — where he fixates a random non-tank player, buffs them enormously, and beats on them while the raid heals through it. Bloodboil, an accumulating raid DoT on the farthest players, forces constant repositioning.",
+      phases: [
+        { name: "Tank phase", description: "Tanks hold Gurtogg; the raid manages Bloodboil (hits the five farthest players — rotate who's out) and Acidic Wound on the tank." },
+        { name: "Fel Rage phase", description: "Gurtogg fixates a random player, buffing their health/damage massively and attacking only them for ~30s. Healers pour into that player; the rest keep DPS and Bloodboil rotation going." },
+      ],
+      tankNotes:
+        "During Fel Rage the boss ignores the tank entirely — reposition and be ready to retake threat when it ends. Acidic Wound stacks a bleed on the active tank, so tank swaps keep it manageable.",
+      healerNotes:
+        "Fel Rage is the crux: the fixated player (often a healer or DPS) becomes the 'tank' and must be kept alive under huge incoming damage. Coordinate cooldowns per Fel Rage. Bloodboil needs a healthy positioning rotation.",
+      dpsNotes:
+        "Manage your distance so Bloodboil spreads across the raid rather than the same five players. Keep DPS up through Fel Rage. If you're the Fel Rage target, use personal cooldowns and trust the healers.",
+      commonMistakes: [
+        "Not enough healing funneled onto the Fel Rage target.",
+        "Poor Bloodboil rotation stacking the DoT on too few players.",
+      ],
+    },
+  },
+  {
+    id: "reliquary-of-souls",
+    name: "Reliquary of Souls",
+    raidId: "black-temple",
+    phase: 3,
+    role: "2 tanks, 5-6 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "A three-phase fight against the three Essences of the Reliquary, back to back with no break. Essence of Suffering is a threat/aura tank check, Essence of Desire punishes healing and damage with Spirit Shock and Rune Shield, and Essence of Anger is a burn against a Soul Drain enrage.",
+      phases: [
+        { name: "Essence of Suffering", description: "Frenzy and Aura of Suffering pressure the tank and raid; Fixate targets a random player who must run. A DPS-race-lite phase into phase two." },
+        { name: "Essence of Desire", description: "Deaden (reduces healing), Spirit Shock (interrupts + damages casters/healers), and Rune Shield reflect. Rune Shield means the raid must stop DPS when it's up. The hardest phase." },
+        { name: "Essence of Anger", description: "Soul Scream and Spite; a Seethe/Soul Drain soft-enrage. Pure burn — kill it before it wipes the raid." },
+      ],
+      tankNotes:
+        "Suffering hits the tank hard under Frenzy — cooldowns and a possible swap. Desire and Anger are less about the tank and more about raid execution; hold them steady and centered.",
+      healerNotes:
+        "Desire is a healer's nightmare: Deaden cuts your throughput, Spirit Shock interrupts and damages you, and you must pre-position for both. There's no mana break between essences, so plan regen across all three.",
+      dpsNotes:
+        "In Desire, stop attacking when Rune Shield is up (it reflects). Interrupt/avoid Spirit Shock. In Anger, unload everything — it's a straight burn against the enrage.",
+      commonMistakes: [
+        "DPSing through Desire's Rune Shield and killing yourselves.",
+        "Running out of mana before Anger because there's no break between phases.",
+      ],
+    },
+  },
+  {
+    id: "mother-shahraz",
+    name: "Mother Shahraz",
+    raidId: "black-temple",
+    phase: 3,
+    role: "2 tanks, 6 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "A resistance-gear and positioning fight. Shahraz teleports random players and blasts them with Fatal Attraction if they're near each other, and hits the raid with rotating Prismatic (shadow/fire/etc.) beams. The classic strategy stacks the whole raid in one spot with shadow-resistance gear.",
+      phases: [
+        { name: "Single phase", description: "Tank Shahraz; the raid stacks tightly (shadow resist helps) to share the Prismatic beam damage evenly. When Fatal Attraction teleports players, they immediately spread apart to avoid the lethal proximity explosion, then restack." },
+      ],
+      tankNotes:
+        "Tank swap on Saber Lash — it splits between the two closest players, so two tanks stand together to share it. Otherwise straightforward positioning.",
+      healerNotes:
+        "The Prismatic Aura beams are constant raid damage — this is a heavy, sustained raid-heal fight, eased massively by shadow-resistance gear. Fatal Attraction players take a burst if they don't spread.",
+      dpsNotes:
+        "Stack where assigned to distribute the beams. The instant Fatal Attraction hits you, run away from the other affected players, then return to the stack. Positioning discipline is the whole fight.",
+      commonMistakes: [
+        "Fatal Attraction targets not spreading and exploding on each other.",
+        "Bringing no shadow resistance and out-damaging the healers with beam damage.",
+      ],
+    },
+  },
+  {
+    id: "illidari-council",
+    name: "Illidari Council",
+    raidId: "black-temple",
+    phase: 3,
+    role: "3-4 tanks, 6 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "A four-boss council fight — Gathios the Shatterer, High Nethermancer Zerevor, Lady Malande, and Veras Darkshadow — that share a health pool but each bring their own kit. They must die within seconds of each other, so DPS is balanced across all four while each is tanked and controlled separately.",
+      phases: [
+        { name: "Single phase", description: "Tank each council member apart: Gathios (paladin — interrupt Consecration/Blessing, kill his seals), Zerevor (mage — Blizzard/Flamestrike/Arcane, needs interrupts and a Spellsteal target), Malande (priest — heals the council, interrupt Heal and dodge Reflective Shield), Veras (rogue — vanishes and Envenoms a target). Bring all four low together and finish within moments." },
+      ],
+      tankNotes:
+        "One tank per member, kept far apart so abilities don't bleed across the raid. Gathios buffs the council — tank him where the raid can help strip/interrupt. Hold all four cleanly for a long fight.",
+      healerNotes:
+        "Malande heals the council and shields herself (Reflective Shield punishes DPS) — interrupt her Heals. Veras poisons a random player with Deadly Poison stacks; Zerevor's Arcane Explosion and Malande's Reflective Shield add raid damage. Steady, distributed healing across four tanks.",
+      dpsNotes:
+        "Balance damage so all four hit low together — a single member dropping early wipes you (they empower on death / must die near-simultaneously). Interrupt Zerevor and Malande, avoid Reflective Shield, and burn in a coordinated final push.",
+      commonMistakes: [
+        "Unbalanced DPS — one member dies too early.",
+        "Not interrupting Malande's heals or eating Reflective Shield.",
+      ],
+    },
+  },
+  {
+    id: "illidan-stormrage",
+    name: "Illidan Stormrage",
+    raidId: "black-temple",
+    phase: 3,
+    role: "3-4 tanks, 6 healers, rest dps",
+    difficulty: 3,
+    hasDiagram: true,
+    loot: [],
+    strategy: {
+      overview:
+        "The Betrayer, and the climactic fight of Phase 3. A five-phase gauntlet: tank Illidan, then survive the Flames of Azzinoth (two glaive elementals tanked by warlocks/hunters), then a demon-form phase with Shadow Demons and Flame Bursts, and a final push. Every phase has a mechanic that wipes a careless raid.",
+      phases: [
+        { name: "Phase 1", description: "Tank Illidan; dodge Parasitic Shadowfiend (spreads on contact — infected players spread out) and Draw Soul. Push to 65%." },
+        { name: "Phase 2 — Flames of Azzinoth", description: "Illidan drops his warglaives, spawning two Flames of Azzinoth. Two ranged tanks (warlock/hunter) hold them apart, out of their Blaze trails, while the raid kills both before Illidan re-engages." },
+        { name: "Phase 3", description: "Illidan returns; more Parasitic Shadowfiends and Agonizing Flames. Push to 30%." },
+        { name: "Phase 4 — Demon Form", description: "Illidan transforms; Shadow Demons root and drain random players (kill them instantly), Flame Burst is raid AoE. Force him out of demon form before Demon enrage." },
+        { name: "Phase 5", description: "Maiev appears; Illidan is tanked and burned to death while dodging Cage Traps and the earlier mechanics recurring." },
+      ],
+      tankNotes:
+        "Main tank holds Illidan and faces him away (Flame Buffet / Shear on the tank — Shear must be healed or blocked). Two dedicated Flame of Azzinoth tanks (ranged) kite the elementals along the walls, never standing in Blaze. Demon form needs a tank ready for the transition.",
+      healerNotes:
+        "Shear hits the tank for a huge chunk — spot it and top instantly. Flames phase and demon-form Flame Burst are heavy raid damage; Parasitic Shadowfiends drain players. Long fight — manage mana across five phases.",
+      dpsNotes:
+        "Spread when Parasitic hits you. In the Flames phase, kill both Flames of Azzinoth roughly together before Illidan returns. In demon form, kill Shadow Demons the instant they spawn (they one-shot rooted players) and push him out of demon form. Respect every phase transition.",
+      commonMistakes: [
+        "Standing in Blaze or letting a Flame of Azzinoth reach its tank's melee.",
+        "Not killing Shadow Demons instantly in demon form.",
+        "Spreading Parasitic Shadowfiend by clumping up.",
+      ],
+    },
+  },
+
+  // ---------------- Zul'Aman ----------------
+  {
+    id: "nalorakk",
+    name: "Nalorakk",
+    raidId: "zulaman",
+    phase: 4,
+    role: "2 tanks, 3 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "The Bear Avatar and the first timed-chest boss. Nalorakk shifts between troll form (Brutal Swipe cleave, Mangle tank-swap) and bear form (Lacerating Slash bleed, Surge — a charge at a random player). Reached after a gauntlet of Amani'shi trash that pressures the timed bear-mount run.",
+      phases: [
+        { name: "Troll form", description: "Tank Nalorakk with the melee behind him; swap tanks on Mangle stacks and avoid Brutal Swipe cleave to the front." },
+        { name: "Bear form", description: "He shifts to bear: heavy Lacerating Slash bleed on the tank and Surge, a charge that hits whoever it lands on hard. Keep the raid out of the charge path." },
+      ],
+      tankNotes:
+        "Tank-swap on Mangle (a stacking debuff that amplifies damage taken). In bear form the Lacerating Slash bleed is brutal — swap or cooldown through it. Keep him faced away for Brutal Swipe.",
+      healerNotes:
+        "Bear form hits far harder than troll form — pre-heal the swaps and the bleed. Surge can spike a random player; keep the raid topped. A short but sharp tank-damage fight.",
+      dpsNotes:
+        "Stay behind him in troll form to dodge Brutal Swipe. Watch for Surge (the charge) and don't stand where it lands. Burn through the form shifts — the timer for the bear mounts is ticking.",
+      commonMistakes: [
+        "Missing the tank swap on Mangle.",
+        "Standing in front for Brutal Swipe or in the path of Surge.",
+      ],
+    },
+  },
+  {
+    id: "akilzon",
+    name: "Akil'zon",
+    raidId: "zulaman",
+    phase: 4,
+    role: "1-2 tanks, 3 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "The Eagle boss, a fight built around one big raid-stack mechanic. Akil'zon casts Electrical Storm — lifting a random player into a cyclone while the rest of the raid must stack tightly under them to share the storm's damage. Mishandle the stack and the raid dies.",
+      phases: [
+        { name: "Single phase", description: "Tank Akil'zon; manage Static Disruption (a chaining shock — stay spread normally) but on Electrical Storm the whole raid instantly stacks under the lifted player to split the AoE, then spreads again. Kill the Soaring Eagle adds." },
+      ],
+      tankNotes:
+        "Simple threat hold. Your job during Electrical Storm is the same as everyone's — get into the stack. Pick up the Soaring Eagles if they path to the healers.",
+      healerNotes:
+        "Electrical Storm is the whole fight: if the raid stacks correctly the damage is survivable, if not it's a wipe. The lifted player takes damage in the cyclone — keep them alive. Static Disruption chains between close players outside the storm.",
+      dpsNotes:
+        "Spread for Static Disruption, but the instant Electrical Storm casts, collapse onto the marked spot under the lifted player. Kill Soaring Eagle adds fast. Precision on the stack timing is everything.",
+      commonMistakes: [
+        "Not stacking tightly enough on Electrical Storm — the raid takes lethal unsplit damage.",
+        "Standing too close during normal phases and chaining Static Disruption.",
+      ],
+    },
+  },
+  {
+    id: "janalai",
+    name: "Jan'alai",
+    raidId: "zulaman",
+    phase: 4,
+    role: "2 tanks, 3 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "The Dragonhawk boss, an add-management and bomb-dodging fight. Jan'alai hatches Dragonhawk Eggs into Hatchlings on two platforms, rains Flame Bombs across a grid the raid must sidestep, and at 35% splits into two Amani'shi Fire Casters via Enrage.",
+      phases: [
+        { name: "Main phase", description: "Tank Jan'alai center. Control the egg hatching — either hatch one side deliberately and AoE the Hatchlings, or race him down. Dodge Fire Bombs (they detonate in a pattern) and heal through Fireball Barrage." },
+        { name: "Enrage (35%)", description: "Jan'alai summons two Hatchers and enrages; all remaining eggs hatch. Burn him while AoEing the flood of Hatchlings." },
+      ],
+      tankNotes:
+        "Hold Jan'alai central and steady. If your strategy hatches a platform, an off-tank/AoE grabs the Hatchlings. The bombs, not his melee, are the danger — keep him where the raid has room to dodge.",
+      healerNotes:
+        "Fireball Barrage and the bomb detonations are the raid damage. The 35% enrage with mass hatchlings is the crunch — save cooldowns for it. Keep the Hatchling-AoE group topped.",
+      dpsNotes:
+        "Move off Fire Bombs before they detonate (they cover half the room in a checker pattern). AoE Hatchlings when they hatch, then back to the boss. Plan the egg strategy so you don't get overwhelmed at the 35% enrage.",
+      commonMistakes: [
+        "Standing on a Fire Bomb tile when it detonates.",
+        "Letting too many eggs hatch at once and drowning in Hatchlings.",
+      ],
+    },
+  },
+  {
+    id: "halazzi",
+    name: "Halazzi",
+    raidId: "zulaman",
+    phase: 4,
+    role: "2 tanks, 3 healers, rest dps",
+    difficulty: 2,
+    loot: [],
+    strategy: {
+      overview:
+        "The Lynx boss, a split-and-burn fight. Halazzi repeatedly separates into a troll and a Lynx Spirit that must be tanked apart and brought low together; at 25% they merge permanently for a final Enrage-driven burn. Totems and a Flame Shock-like Saber Lash punctuate the fight.",
+      phases: [
+        { name: "Split phases", description: "Halazzi splits into the Lynx Spirit (off-tanked) and himself. Bring both to low health together; when the Lynx is defeated they rejoin. He drops a Totem (Corrupted Lightning) to kill and casts Saber Lash on the tank." },
+        { name: "Merged (25%)", description: "Below 25% Halazzi stays whole and enrages — Frenzy and heavy melee. Pure burn to the finish." },
+      ],
+      tankNotes:
+        "Two tanks: one on Halazzi, one on the Lynx Spirit during splits, kept apart. Saber Lash splits between the two closest, so stack tanks on Halazzi. The 25% Frenzy phase spikes tank damage — cooldown it.",
+      healerNotes:
+        "Manage the split-phase two-target healing, kill the Corrupted Lightning Totem fast (it hurts), and brace for the 25% enrage. Flame Shock / Lightning damage adds up across the phases.",
+      dpsNotes:
+        "Balance damage so Halazzi and the Lynx hit low together during splits. Kill totems on sight. Below 25% unload everything through the Frenzy — it's a race against his enrage.",
+      commonMistakes: [
+        "Unbalanced DPS in the split phase leaving one half too healthy.",
+        "Ignoring the Corrupted Lightning Totem.",
+      ],
+    },
+  },
+  {
+    id: "hex-lord-malacrass",
+    name: "Hex Lord Malacrass",
+    raidId: "zulaman",
+    phase: 4,
+    role: "2-3 tanks, 3-4 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "The penultimate boss, flanked by four random adds drawn from a pool of troll champions — each with its own class kit, so the fight changes every attempt. Malacrass himself Drains Power (a huge self-buff over time) and steals a random raid member's abilities, making him a soft-enrage you must beat before his stolen spells and stacking buff overwhelm you.",
+      phases: [
+        { name: "Adds phase", description: "Malacrass spawns with four of his eight possible add companions (healer, mage, rogue, hunter, etc.). CC and kill the adds by priority — enemy healers first — while off-tanks hold them apart from the boss." },
+        { name: "Malacrass burn", description: "With adds down, focus Malacrass. He casts the spells of whichever classes he stole from and Drains Power stacks a growing damage buff — burn him before it snowballs." },
+      ],
+      tankNotes:
+        "One tank on Malacrass, off-tanks on the adds kept separated. Which adds spawn changes the tank/CC assignments every pull — adapt the marking each attempt. Drain Power makes his melee scarier over time.",
+      healerNotes:
+        "The add composition dictates the healing — an enemy healer or caster set is far harder than melee adds. Malacrass mirrors a raid member's abilities and Drains Power into a soft enrage; cooldowns for the late burn.",
+      dpsNotes:
+        "Kill the adds by priority (heals/casters first), respecting CC. Then tunnel Malacrass and beat the Drain Power stacks. Because the adds are randomized, keep flexible kill-order and CC plans.",
+      commonMistakes: [
+        "Not adapting CC/kill order to the randomized add set.",
+        "Dragging the fight out until Drain Power stacks too high.",
+      ],
+    },
+  },
+  {
+    id: "zuljin",
+    name: "Zul'jin",
+    raidId: "zulaman",
+    phase: 4,
+    role: "2 tanks, 3-4 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "The Zul'Aman endboss, a five-phase fight where Zul'jin takes on the aspect of each animal god you've fought. After a troll phase he cycles through Bear, Eagle, Lynx, and Dragonhawk forms, each with a distinct mechanic — a checklist of everything the raid learned, back to back.",
+      phases: [
+        { name: "Troll phase", description: "Grievous Throw (a bleed that must be healed to full to remove) and Whirlwind. Push to trigger the first transformation." },
+        { name: "Bear (Lynx?) phases", description: "Bear: Creeping Paralysis and Overpower on the tank. Eagle: a spinning Zap and a Cyclone that pushes players around a claustrophobic room. Lynx: Claw Rage — a berserk on a random player the tank must peel. Dragonhawk: Flame Whirl and Flame Breath, with Pillars of Fire erupting under the raid." },
+        { name: "Final", description: "The last aspect ends in a burn as his abilities overlap — survive the accumulating mechanics and finish him." },
+      ],
+      tankNotes:
+        "Grievous Throw (troll) must be healed off before it kills. Bear's Overpower and Lynx's Claw Rage demand tank attention and peels. Reposition each phase — the Dragonhawk's Pillars of Fire and Eagle's Cyclone reshape the room.",
+      healerNotes:
+        "Grievous Throw won't stop bleeding until the target is healed to full — prioritize it. Each aspect adds a new raid-damage source (Flame breath, Zap, Pillars). Long, escalating fight — pace mana across all phases.",
+      dpsNotes:
+        "Dodge the phase-specific hazards: Cyclone (Eagle), Pillars of Fire (Dragonhawk), and Claw Rage's target (Lynx). Keep steady damage through every transformation and push him through the aspects before the mechanics pile up.",
+      commonMistakes: [
+        "Not healing Grievous Throw to full and letting it bleed a player out.",
+        "Standing in Pillars of Fire or getting shoved by Cyclone into the raid.",
+      ],
+    },
+  },
+
+  // ---------------- Sunwell Plateau ----------------
+  {
+    id: "kalecgos",
+    name: "Kalecgos",
+    raidId: "sunwell-plateau",
+    phase: 5,
+    role: "3 tanks, 5-6 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "The Sunwell opener, a two-realm fight. The blue dragon Kalecgos is corrupted by the demon Sathrovarr; the raid splits between the physical room (fighting Kalecgos's body) and the Spectral Realm (fighting Sathrovarr), teleporting between them via the Spectral Blast debuff. Both must die close together.",
+      phases: [
+        { name: "Two realms", description: "Most of the raid DPS Kalecgos's dragon body in the real room, avoiding Arcane Buffet and the wing-buffet knockback. Players hit by Spectral Blast phase into the Spectral Realm to fight Sathrovarr, who heals off Kalecgos — the two bosses share a corruption link, so balance their health." },
+      ],
+      tankNotes:
+        "One tank on Kalecgos in the real room, one (or a rotation) on Sathrovarr in the Spectral Realm, plus coverage for Kalec's dragon form in the realm. Position Kalecgos so the tail/wing buffet doesn't fling the raid off. Curse of Boundless Agony forces players into the realm on a timer.",
+      healerNotes:
+        "Split healing across both realms — the Spectral Realm group can't be reached from outside, so healers must be phased in on both sides. Arcane Buffet ramps raid damage the longer Kalec lives; keep both tank groups covered.",
+      dpsNotes:
+        "Balance damage so Kalecgos and Sathrovarr die within seconds of each other (Sathrovarr heals Kalec via Corrupting Strike). When Spectral Blast phases you, kill Sathrovarr in the realm, then return. Don't over-DPS one side.",
+      commonMistakes: [
+        "Killing one boss too far ahead of the other — the survivor heals back up.",
+        "No healer phased into the Spectral Realm to cover that group.",
+      ],
+    },
+  },
+  {
+    id: "brutallus",
+    name: "Brutallus",
+    raidId: "sunwell-plateau",
+    phase: 5,
+    role: "2 tanks, 5-6 healers, rest dps",
+    difficulty: 3,
+    hasDiagram: true,
+    loot: [],
+    strategy: {
+      overview:
+        "A pure DPS-and-healing gear check with almost no movement — the definitive Sunwell 'do you out-gear the enrage' wall. Brutallus applies Burn, a spreading fire debuff, and Meteor Slash, a frontal that splits among those in front and stacks a debuff amplifying further Meteor Slash damage. Beat his hard enrage timer or wipe.",
+      phases: [
+        { name: "Single phase", description: "Tank-swap Brutallus on Meteor Slash stacks. Melee stack behind for cleave healing; anyone who gets Burn runs out and passes it to a clean player, then rejoins. Burn him down before the ~6-minute enrage." },
+      ],
+      tankNotes:
+        "Two tanks swap on Meteor Slash — its stacking debuff makes each subsequent hit worse, so alternate who eats it. Stampeding Roar and heavy melee mean the tank takes serious punishment; keep both tanks topped.",
+      healerNotes:
+        "This is the healing check of Sunwell. Meteor Slash splits among the front group (stack them to share it), Burn is constant spreading damage, and tank damage is relentless. Every healer at full uptime and mana efficiency — there is no downtime.",
+      dpsNotes:
+        "It's an enrage race — maximum uptime, Bloodlust/Heroism on cooldown or a planned window, no wasted globals. When you take Burn, step out and pass it to someone clean immediately, then get back on the boss. Positioning is simple; the DPS bar is the whole fight.",
+      commonMistakes: [
+        "Spreading Burn poorly and multiplying the healing load.",
+        "Missing the Meteor Slash tank swap and spiking a tank dead.",
+        "Simply not enough DPS to beat the enrage.",
+      ],
+    },
+  },
+  {
+    id: "felmyst",
+    name: "Felmyst",
+    raidId: "sunwell-plateau",
+    phase: 5,
+    role: "2 tanks, 5-6 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "The dragon that rises from Brutallus's corpse. A ground-and-air fight: on the ground Felmyst breathes Gas Clouds and casts Corrosion and Encapsulate; in the air she strafes the room with a deadly Fog of Corruption breath that mind-controls anyone it touches, forcing the raid to run a precise path to dodge it.",
+      phases: [
+        { name: "Ground phase", description: "Tank Felmyst; face her away for the Gas Nova / Corrosion (a tank armor-shred). Encapsulate traps a random player in a bubble the raid must kill them out of — quickly, without cleaving the trapped ally." },
+        { name: "Air phase", description: "Felmyst takes off and sweeps a Fog of Corruption breath across the room. Anyone the fog touches is mind-controlled (Demonic Vapor). The raid runs a rehearsed route to stay ahead of the breath until she lands." },
+      ],
+      tankNotes:
+        "Corrosion shreds tank armor — swap or cooldown as it stacks. Reposition Felmyst so her breath and Gas Clouds don't corner the raid. The air phase is a raid-movement mechanic; just survive and re-establish threat on landing.",
+      healerNotes:
+        "Encapsulate and Corrosion pressure individuals and the tank; the air-phase breath will MC anyone caught, so healing the aftermath (and surviving misdodges) matters. Heal-through the Gas Cloud damage on the ground.",
+      dpsNotes:
+        "Kill Encapsulated players out of the bubble fast but don't cleave them to death. In the air phase, follow the assigned route exactly — one player touched by the Fog of Corruption becomes an MC'd threat. Dodge Gas Clouds on the ground.",
+      commonMistakes: [
+        "Getting clipped by the Fog of Corruption breath and being mind-controlled.",
+        "Mishandling Encapsulate — either not freeing the player or cleaving them down.",
+      ],
+    },
+  },
+  {
+    id: "eredar-twins",
+    name: "Eredar Twins",
+    raidId: "sunwell-plateau",
+    phase: 5,
+    role: "2-3 tanks, 6 healers, rest dps",
+    difficulty: 3,
+    loot: [],
+    strategy: {
+      overview:
+        "Lady Sacrolash and Grand Warlock Alythess — a shared-health-pool council fight of shadow and fire. The two sisters must die within ~15 seconds of each other or the survivor casts Dark Touched / Flame Touched empowerment. The raid juggles their opposing shadow and fire mechanics simultaneously.",
+      phases: [
+        { name: "Single phase", description: "Tank Alythess (fire — Blaze under the tank, Conflagration, Flame Sear on the raid) and Sacrolash (shadow — Shadow Nova, Confounding Blow, Shadowfury) apart. Manage Shadow/Flame Touched debuffs (they amplify damage from the opposite school) and bring both twins low together for a simultaneous kill." },
+      ],
+      tankNotes:
+        "One tank per twin, separated. Alythess's Blaze pools fire under her tank — reposition constantly. Confounding Blow can daze Sacrolash's tank; have coverage. Two-tank the twins and keep them apart so their auras don't stack on the raid.",
+      healerNotes:
+        "Flame Sear and Shadow Nova are constant, opposing raid AoE; the Touched debuffs mean a shadow-hit player takes extra fire damage and vice versa — a nasty compounding heal check. Pyrogenics and Conflagration add spikes. Heavy, sustained raid healing.",
+      dpsNotes:
+        "Balance DPS so both twins hit low together — kill them within the ~15s window or the survivor empowers. Watch your Shadow/Flame Touched debuff and avoid the opposite-school damage while it's up. Dodge Blaze and Shadow Nova.",
+      commonMistakes: [
+        "Killing one twin too early and letting the other empower.",
+        "Ignoring the Touched debuffs and eating amplified opposite-school damage.",
+      ],
+    },
+  },
+  {
+    id: "muru",
+    name: "M'uru",
+    raidId: "sunwell-plateau",
+    phase: 5,
+    role: "3-4 tanks, 6-7 healers, rest dps",
+    difficulty: 3,
+    hasDiagram: true,
+    loot: [],
+    strategy: {
+      overview:
+        "The infamous Sunwell add fight, widely considered the hardest encounter in TBC before nerfs. Phase one is a relentless add-management gauntlet — Void Sentinels, Shadowsword adds, and Dark Fiends pour out while M'uru pulses Negative Energy — and phase two is a burn against Entropius amid Black Holes and Darkness.",
+      phases: [
+        { name: "Phase 1 — M'uru", description: "M'uru is tanked over the center pumping Negative Energy into the raid. Constant adds: Void Sentinels (off-tanked), Shadowsword Berserkers/Fury Mages/Marshals (tanked and CC'd), and Dark Fiends that must be killed with an ability (not just damaged) before they reach and drain the healers." },
+        { name: "Phase 2 — Entropius", description: "At the transition M'uru becomes Entropius. Burn him while dodging Darkness (void zones) and the Black Holes that pull and damage — the DPS payoff after surviving the add storm." },
+      ],
+      tankNotes:
+        "A tank ballet: main tank on M'uru/Entropius, off-tanks on rotating Void Sentinels and the Shadowsword humanoids, kept apart and controlled. Positioning M'uru centrally lets the raid reach every add spawn. Phase two demands quick pickup of Entropius amid the void zones.",
+      healerNotes:
+        "The add pressure is really a healing test — Negative Energy is constant raid drain, Dark Fiends silence/drain healers if they reach the back, and the Berserkers hit hard. Assign Dark Fiend killers near the healers. Phase two adds Darkness damage on top.",
+      dpsNotes:
+        "Ruthless target priority: interrupt Fury Mages, kill Dark Fiends with an ability before they reach healers, burn Void Sentinels on the off-tanks, and respect CC on the Shadowswords — all while chipping M'uru. In phase two, dodge Black Holes/Darkness and unload on Entropius.",
+      commonMistakes: [
+        "Letting Dark Fiends reach and drain the healers.",
+        "Losing control of the Shadowsword adds or a Void Sentinel.",
+        "Standing in Black Holes / Darkness in phase two.",
+      ],
+    },
+  },
+  {
+    id: "kiljaeden",
+    name: "Kil'jaeden",
+    raidId: "sunwell-plateau",
+    phase: 5,
+    role: "2-3 tanks, 7 healers, rest dps",
+    difficulty: 3,
+    hasDiagram: true,
+    loot: [],
+    strategy: {
+      overview:
+        "The Deceiver himself — the final boss of The Burning Crusade. A long, four-phase platform fight assisted by Kalecgos and the blood elf Anveena. The raid dodges Shield Orbs, Fire Blooms, and Flame Darts, uses Orbs of the Blue Flight to fly during Darkness of a Thousand Souls, and survives Armageddon while burning KJ down.",
+      phases: [
+        { name: "Phase 1-2", description: "Kil'jaeden rises partway. Dodge Shield Orbs (they patrol and blast), spread for Fire Bloom (a spreading burn), and avoid Soul Flay on the tank. Kalecgos empowers the raid via Anveena as phases progress." },
+        { name: "Phase 3 — Darkness", description: "Darkness of a Thousand Souls is a channeled raid-wide nuke — grab an Orb of the Blue Flight to fly into the air and out of range, or die. Sinister Reflections (mirror-image adds) spawn and must be killed." },
+        { name: "Phase 4 — Armageddon", description: "Kil'jaeden fully emerges and rains Armageddon meteors across the platform, marked by targeting circles the raid must vacate. Final burn while surviving overlapping mechanics and the meteor storm." },
+      ],
+      tankNotes:
+        "Tank Kil'jaeden at the platform edge, faced out; Soul Flay and his melee pressure the tank between mechanics. Sinister Reflections need pickup. The real challenge is the tank surviving the same Orbs/Fire/Armageddon everyone dodges while holding threat.",
+      healerNotes:
+        "Every phase layers raid damage: Fire Bloom, Flame Dart, Shield Orb blasts, and the Darkness nuke (mitigated by flying on an Orb). Armageddon meteors punish anyone slow to move. A seven-healer marathon — mana and cooldown discipline across a very long fight.",
+      dpsNotes:
+        "Dodge Shield Orbs, spread for Fire Bloom, and in phase three grab an Orb of the Blue Flight to fly out of Darkness of a Thousand Souls. Kill Sinister Reflections, clear Armageddon circles instantly, and keep steady damage — KJ soft-enrages, so the burn must be efficient across all four phases.",
+      commonMistakes: [
+        "Not grabbing a Blue Flight Orb and dying to Darkness of a Thousand Souls.",
+        "Standing in an Armageddon meteor circle.",
+        "Getting caught by a Shield Orb blast or clumping for Fire Bloom.",
       ],
     },
   },

@@ -123,6 +123,59 @@ function layoutFor(bossId: string): { markers: Marker[]; caption: string } {
           { x: 320, y: 220, label: "CC", role: "point" },
         ],
       };
+    case "illidan-stormrage":
+      return {
+        caption: "P2: two off-tanks hold Flames of Azzinoth on far sides, out of their Blaze trails; raid stacks center for Parasites. Kite between the flames.",
+        markers: [
+          { x: 200, y: 150, label: "Illidan", role: "boss" },
+          { x: 200, y: 205, label: "Tank", role: "tank" },
+          { x: 60, y: 150, label: "Flame", role: "avoid" },
+          { x: 340, y: 150, label: "Flame", role: "avoid" },
+          { x: 200, y: 100, label: "Raid", role: "ranged" },
+        ],
+      };
+    case "archimonde":
+      return {
+        caption: "Spread wide so Air Burst throws don't chain; keep Doomfire trails away from the raid and use Tears of the Goddess to survive the fall.",
+        markers: [
+          { x: 200, y: 150, label: "Archimonde", role: "boss" },
+          { x: 200, y: 205, label: "Tank", role: "tank" },
+          { x: 320, y: 230, label: "Doomfire", role: "avoid" },
+          ...ring(6, "ranged", () => "spread", 120),
+        ],
+      };
+    case "brutallus":
+      return {
+        caption: "Melee stack behind Brutallus for cleave healing; the moment you take Burn, run out and pass it to a clean player before stacking again.",
+        markers: [
+          { x: 200, y: 140, label: "Brutallus", role: "boss" },
+          { x: 200, y: 195, label: "Tank", role: "tank" },
+          { x: 200, y: 235, label: "Melee stack", role: "melee" },
+          { x: 90, y: 150, label: "Ranged", role: "ranged" },
+          { x: 310, y: 150, label: "Ranged", role: "ranged" },
+        ],
+      };
+    case "muru":
+      return {
+        caption: "P1: tank M'uru central over the Sentinels; kill Dark Fiends before they reach the ranged/healers at the back. Void Sentinels tanked apart.",
+        markers: [
+          { x: 200, y: 140, label: "M'uru", role: "boss" },
+          { x: 110, y: 110, label: "Sentinel", role: "tank" },
+          { x: 290, y: 110, label: "Sentinel", role: "tank" },
+          { x: 200, y: 230, label: "Raid / adds", role: "ranged" },
+        ],
+      };
+    case "kiljaeden":
+      return {
+        caption: "Ranged spread around the platform edge; sidestep Shield Orbs and grab an Orb of the Blue Flight to fly during Darkness of a Thousand Souls.",
+        markers: [
+          { x: 200, y: 150, label: "Kil'jaeden", role: "boss" },
+          { x: 200, y: 205, label: "Tank", role: "tank" },
+          { x: 70, y: 90, label: "Orb", role: "point" },
+          { x: 330, y: 90, label: "Orb", role: "point" },
+          ...ring(6, "ranged", () => "spread", 120),
+        ],
+      };
     default:
       return {
         caption: "Tank the boss away from the raid; ranged and healers spread behind at max range.",
