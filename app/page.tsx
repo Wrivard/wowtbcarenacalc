@@ -6,7 +6,7 @@ import { BACKGROUNDS } from "@/lib/backgrounds";
 import { CLASSES, allSpecs } from "@/lib/classes";
 import { classIconName, specIconName } from "@/lib/icons";
 import { GameIcon } from "@/components/GameIcon";
-import { bossesByRaid } from "@/data/raids";
+import { bossesByRaid, bossImage } from "@/data/raids";
 import { BossPortrait } from "@/components/raids/BossPortrait";
 import { AdUnit } from "@/components/AdUnit";
 import { JsonLd, webApplicationJsonLd } from "@/components/seo/JsonLd";
@@ -308,7 +308,9 @@ export default function Home() {
           </p>
           <div className="mt-5 space-y-2.5">
             {FEATURED_RAIDS.map((r) => {
-              const bosses = bossesByRaid(r.id);
+              const allBosses = bossesByRaid(r.id);
+              // Show only bosses with real portrait art — skip icon fallbacks.
+              const bosses = allBosses.filter((b) => bossImage(b.id));
               return (
                 <Link
                   key={r.id}
@@ -320,7 +322,7 @@ export default function Home() {
                       {r.name}
                     </span>
                     <span className="font-mono text-[10px] tracking-wider text-muted uppercase">
-                      Phase {r.phase} · {bosses.length} bosses
+                      Phase {r.phase} · {allBosses.length} bosses
                     </span>
                   </span>
                   <span className="flex flex-1 flex-wrap gap-1.5 overflow-hidden">
