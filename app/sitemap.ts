@@ -4,6 +4,7 @@ import { CLASSES, allSpecs } from "@/lib/classes";
 import { filledBisRoutes } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
 import { COMPS, compSlug } from "@/data/comps";
+import { BRACKETS as SEO_BRACKETS, bracketsForClass } from "@/lib/comps-seo";
 import { getBestRace } from "@/data/bestRace";
 import { PROFESSIONS } from "@/data/professions";
 import { RAIDS, BOSSES, populatedPhases } from "@/data/raids";
@@ -88,6 +89,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.7,
     });
+  }
+
+  // Arena comp SEO landing pages: per bracket, per class, and per
+  // bracket×class (only non-empty combos). These target "best {class}
+  // {bracket} comps"-style queries and each ranks on its own.
+  for (const b of SEO_BRACKETS) {
+    entries.push({
+      url: `${SITE_URL}/arena/comps/${b}`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    });
+  }
+  for (const cls of CLASSES) {
+    entries.push({
+      url: `${SITE_URL}/arena/comps/class/${cls.slug}`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+    for (const b of bracketsForClass(cls.slug)) {
+      entries.push({
+        url: `${SITE_URL}/arena/comps/${b}/class/${cls.slug}`,
+        lastModified,
+        changeFrequency: "weekly",
+        priority: 0.6,
+      });
+    }
   }
 
   // Class guide hubs — one per class.

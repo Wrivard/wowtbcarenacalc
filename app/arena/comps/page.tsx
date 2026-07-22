@@ -10,6 +10,7 @@ import {
   type Playstyle,
 } from "@/data/comps";
 import { CLASSES } from "@/lib/classes";
+import { BRACKETS as SEO_BRACKETS, BRACKET_LABEL } from "@/lib/comps-seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { CompCard } from "@/components/arena/CompBits";
@@ -207,7 +208,40 @@ export default async function CompsBrowser({ searchParams }: { searchParams: SP 
           </div>
         </div>
 
-        <p className="mt-4 text-xs text-muted">
+        {/* Dedicated landing pages per bracket/class — each ranks on its own
+            (e.g. "best shaman 2v2 comps") and links the hub into them. */}
+        <nav aria-label="Browse comps by bracket or class" className="mt-4 space-y-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="w-16 shrink-0 font-mono text-[10px] tracking-wider text-muted uppercase">
+              Guides
+            </span>
+            {SEO_BRACKETS.map((b) => (
+              <Link
+                key={b}
+                href={`/arena/comps/${b}`}
+                className="rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-muted-strong transition-colors hover:bg-surface-hover hover:text-foreground"
+              >
+                Best {BRACKET_LABEL[b]} comps
+              </Link>
+            ))}
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="w-16 shrink-0 font-mono text-[10px] tracking-wider text-muted uppercase">
+              By class
+            </span>
+            {CLASSES.map((c) => (
+              <Link
+                key={c.slug}
+                href={`/arena/comps/class/${c.slug}`}
+                className="rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-muted-strong transition-colors hover:bg-surface-hover hover:text-foreground"
+              >
+                {c.name}
+              </Link>
+            ))}
+          </div>
+        </nav>
+
+        <p className="mt-6 text-xs text-muted">
           {comps.length} comp{comps.length === 1 ? "" : "s"}
         </p>
 
