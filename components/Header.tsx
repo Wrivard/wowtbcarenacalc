@@ -328,7 +328,7 @@ export function Header() {
       {mobileOpen && (
         <nav
           aria-label="Mobile"
-          className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-border bg-background px-4 py-3 lg:hidden"
+          className="max-h-[calc(100dvh-4rem)] overflow-y-auto overscroll-contain border-t border-border bg-background px-4 py-3 pb-[calc(env(safe-area-inset-bottom)+1.5rem)] lg:hidden"
         >
           <ul className="flex flex-col gap-1">
             {PRIMARY.map((item) => (
