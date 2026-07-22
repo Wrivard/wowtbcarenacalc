@@ -9,7 +9,7 @@
  ],
  "sampleSize": 6,
  "updatedAt": "2026-07-12",
- "blurb": "Elemental Shaman is the burst caster with a toolkit: Wind Shear-era earth shocks, Grounding Totem to eat polymorphs, and instant Chain Lightning procs that delete resilience-light targets. It gears like every caster in TBC — PvP set plus resilience — but leans harder on spell penetration to punch through totem and aura resistance.",
+ "blurb": "Elemental Shaman is the burst caster with a toolkit: instant Earth Shocks, Grounding Totem to eat polymorphs, and Elemental Mastery-empowered Chain Lightning crits that delete resilience-light targets. It gears like every caster in TBC — PvP set plus resilience — but leans harder on spell penetration to punch through totem and aura resistance.",
  "statPriorityRationale": "Elemental burst is front-loaded into Chain Lightning + Lava Burst-less windstorms of Nature damage, so spell damage and crit define your kill windows; spell penetration matters more than usual because Nature resistance totems and paladin auras eat your school.",
  "statPriority": [
   "Resilience",

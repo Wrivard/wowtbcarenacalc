@@ -76,5 +76,35 @@ hunter/beast-mastery, hunter/marksmanship, hunter/survival, rogue/combat.
   as-is; change only if you want to commit to the survival-first ordering
   (Defense → Stamina → SBV → Hit → Expertise) across all 5 PvE files.
 
-## Batch 3 — pending
-## Batch 4 — pending
+## Batch 3 — 8 specs (2026-07-22)
+
+Specs: rogue/assassination, priest/holy, priest/shadow, shaman/elemental,
+shaman/enhancement, mage/arcane, mage/fire, warlock/demonology. 10 findings
+(mage/arcane clean). All APPLIED — commit `<pending>`. Mostly WotLK
+anachronisms and talent-impossible abilities/items in TBC 2.4.3:
+
+- **priest/shadow PvP guide cited Dispersion throughout** (high) — a Wrath
+  (3.0.2) ability nonexistent in TBC. Rewrote overview/strengths/weakness/
+  rotation/playstyle/commonMistakes to TBC peels (Shield, Psychic Scream,
+  Fade, kiting).
+- **shaman/enhancement PvE rotation used Lava Lash** (high) — a WotLK ability.
+  Removed from overview + rotation; TBC priority is Stormstrike → Earth/Flame
+  Shock with the weapon imbue up.
+- **warlock/demonology PvP rotation listed UA** (medium) — Unstable Affliction
+  is the 41-pt Affliction capstone, impossible on a Felguard/Soul Link demo
+  build. Removed from the DoT list.
+- **mage/fire PvE rotation aligned Icy Veins** (medium) — a deep-Frost talent a
+  ~2/48/11 raid Fire build can't reach. Replaced with Combustion + Bloodlust +
+  trinkets. (mage/arcane's Icy Veins reference was NOT flagged and is left as-is.)
+- **shaman/elemental** (medium×2 + low) — PvP blurb named Wind Shear (WotLK) and
+  claimed "instant Chain Lightning procs"; overview/strengths called Elemental
+  Mastery "instant". EM is guaranteed-crit + free-cast, not instant. Reworded
+  blurb (json) + overview/strengths (guides).
+- **priest/holy** (medium + low) — PvE rotation called Inner Focus a
+  "guaranteed-crit" (it's +25% crit, not auto-crit); PvP overview name-dropped
+  Guardian Spirit (WotLK). Both reworded.
+- **rogue/assassination Phase 5** (low) — Warglaive of Azzinoth (a sword) listed
+  as a MH/OH alternative, but Mutilate requires daggers. Removed both entries
+  (Combat parses that leaked into the Assassination bucket).
+
+## Batch 4 — pending (warlock/destruction, druid/balance, druid/feral-bear, druid/feral-cat)

@@ -199,7 +199,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
       "Keep Prayer of Mending on cooldown, bouncing on whoever takes damage.",
       "Renew the tank and anyone taking predictable ticking damage ahead of time.",
       "Circle of Healing for group damage; Greater Heal / Flash Heal for tank spikes.",
-      "Use Inner Focus + Greater Heal for a free, guaranteed-crit clutch heal.",
+      "Use Inner Focus + Greater Heal for a free, high-crit-chance clutch heal (Inner Focus gives +25% crit and zero mana cost).",
       "Weave Shadowfiend / potions to keep mana up on long fights.",
     ],
     playstyle:
@@ -623,7 +623,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
       "Reach the spell hit cap (16%, less with talents/Draenei/Misery).",
       "Keep 5 stacks of Improved Scorch up (assign Scorch duty in the raid).",
       "Spam Fireball as your main nuke; Fire Blast on the move.",
-      "Combustion + trinkets + Icy Veins aligned with Bloodlust.",
+      "Combustion + trinkets + Bloodlust aligned into one burst window.",
       "Use a mana gem/Evocation to sustain.",
     ],
     playstyle:
@@ -1188,7 +1188,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
     content: "pvp",
     updatedAt: "2026-07-20",
     overview:
-      "Holy is the off-meta PvP Priest spec — most arena Priests go Discipline for Pain Suppression, but Holy brings raw throughput and Spirit-based survivability through talents like Spirit of Redemption and Holy Concentration. In battlegrounds and some sustained-pressure comps, Holy's healing output and Guardian Spirit-style topping shine, but it lacks Disc's panic-button damage reduction.\n\nYou play a high-output topping game and lean on Fear, Dispel and positioning to survive rather than a hard cooldown.",
+      "Holy is the off-meta PvP Priest spec — most arena Priests go Discipline for Pain Suppression, but Holy brings raw throughput and Spirit-based survivability through talents like Spirit of Redemption and Holy Concentration. In battlegrounds and some sustained-pressure comps, Holy's raw healing output and single-target topping shine, but it lacks Disc's panic-button damage reduction.\n\nYou play a high-output topping game and lean on Fear, Dispel and positioning to survive rather than a hard cooldown.",
     strengths: [
       "Highest raw single-target healing output of the Priest specs",
       "Holy Concentration mana efficiency during heavy healing",
@@ -1226,28 +1226,28 @@ export const SPEC_GUIDES: SpecGuide[] = [
     content: "pvp",
     updatedAt: "2026-07-20",
     overview:
-      "Shadow Priest is a pressure-and-utility DPS in arena. Vampiric Touch returns mana to your whole party (huge in a caster comp), Vampiric Embrace heals the team from your damage, and Silence + Psychic Scream + Dispersion give you control and survivability. You rarely land a clean solo kill, but your constant DoT pressure and mana battery make comps like Shadow/Ele or RMP-style caster cleaves tick.\n\nYou spread DoTs, dispel-protect them with sheer volume, and use Silence/Fear/Mana Burn to swing the game while feeding your team mana.",
+      "Shadow Priest is a pressure-and-utility DPS in arena. Vampiric Touch returns mana to your whole party (huge in a caster comp), Vampiric Embrace heals the team from your damage, and Silence + Psychic Scream + Fade give you control and survivability. You rarely land a clean solo kill, but your constant DoT pressure and mana battery make comps like Shadow/Ele or RMP-style caster cleaves tick.\n\nYou spread DoTs, dispel-protect them with sheer volume, and use Silence/Fear/Mana Burn to swing the game while feeding your team mana.",
     strengths: [
       "Vampiric Touch mana return + Vampiric Embrace healing sustain the team",
-      "Silence, Psychic Scream, Mana Burn and Dispersion bring strong control/survivability",
+      "Silence, Psychic Scream, Mana Burn and Fear Ward bring strong control/utility",
       "Constant DoT pressure forces enemy healing",
     ],
     weaknesses: [
       "Low burst — struggles to secure kills without a partner's help",
-      "DoTs are dispellable; squishy if trained without Dispersion up",
+      "DoTs are dispellable; squishy if trained with no peels",
     ],
     rotationTitle: "Pressure & control",
     rotation: [
       "Apply Shadow Word: Pain, Vampiric Touch and Devouring Plague across targets for pressure + mana.",
       "Mind Blast + Mind Flay on the kill target; Silence their healer's cast.",
       "Psychic Scream to peel melee; Mana Burn a healer low on mana.",
-      "Dispersion to survive a train and refill mana; trinket the hard CC.",
+      "Power Word: Shield + Psychic Scream to peel a train; trinket the hard CC and kite while DoTs tick.",
       "Vampiric Embrace up so your damage heals the team during the grind.",
     ],
     playstyle:
-      "You are a mana battery and pressure engine, not an assassin. Keep DoTs on everything, Silence key heals, and feed your team mana with Vampiric Touch. Use Dispersion proactively when trained — it's your reset button. Coordinate kills with your partner's burst rather than trying to solo a target.",
+      "You are a mana battery and pressure engine, not an assassin. Keep DoTs on everything, Silence key heals, and feed your team mana with Vampiric Touch. Shield and Fade proactively when trained, and kite with your DoTs ticking rather than standing to cast. Coordinate kills with your partner's burst rather than trying to solo a target.",
     commonMistakes: [
-      "Saving Dispersion until you're already dead instead of pre-empting the train.",
+      "Standing still to cast when trained instead of kiting and pre-shielding the burst.",
       "Letting DoTs fall off and losing both pressure and party mana.",
       "Wasting Silence on cooldown instead of on the healer's key cast.",
     ],
@@ -1303,9 +1303,9 @@ export const SPEC_GUIDES: SpecGuide[] = [
     content: "pvp",
     updatedAt: "2026-07-20",
     overview:
-      "Elemental Shaman is a burst-caster arena spec built around a Lightning Bolt/Chain Lightning nuke game backed by Elemental Mastery (a guaranteed-crit, instant nuke) and totem utility. Shaman/X comps (notably Shatterplay-style caster cleaves and Shaman/Rogue) lean on your Elemental Mastery burst, Grounding Totem to eat a key cast, and Purge to strip enemy buffs/shields.\n\nYour game is landing an Elemental Mastery-empowered crit in a setup window while using totems (Grounding, Tremor, Earthbind) to control the fight and protect yourself.",
+      "Elemental Shaman is a burst-caster arena spec built around a Lightning Bolt/Chain Lightning nuke game backed by Elemental Mastery (a guaranteed-crit, free-cast nuke enabler) and totem utility. Shaman/X comps (notably Shatterplay-style caster cleaves and Shaman/Rogue) lean on your Elemental Mastery burst, Grounding Totem to eat a key cast, and Purge to strip enemy buffs/shields.\n\nYour game is landing an Elemental Mastery-empowered crit in a setup window while using totems (Grounding, Tremor, Earthbind) to control the fight and protect yourself.",
     strengths: [
-      "Elemental Mastery gives an instant guaranteed-crit nuke burst",
+      "Elemental Mastery gives a guaranteed-crit, free-cast nuke burst",
       "Totems bring unique utility — Grounding, Tremor, Earthbind, Poison/Disease cleanse",
       "Purge strips shields, HoTs and key buffs",
     ],
@@ -1418,7 +1418,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
     content: "pve",
     updatedAt: "2026-07-20",
     overview:
-      "Enhancement Shaman is a melee-DPS support that's mandatory in a melee group for its totems: Windfury Totem massively boosts the group's melee damage, Strength of Earth buffs AP, and Grace of Air adds Agility. Your personal DPS is solid, but the Windfury Totem you bring makes every melee next to you hit harder — a huge raid multiplier.\n\nYou play a Stormstrike/Shock priority with Lava Lash and weave in Flametongue/Windfury weapon, all while keeping the group's totems perfect.",
+      "Enhancement Shaman is a melee-DPS support that's mandatory in a melee group for its totems: Windfury Totem massively boosts the group's melee damage, Strength of Earth buffs AP, and Grace of Air adds Agility. Your personal DPS is solid, but the Windfury Totem you bring makes every melee next to you hit harder — a huge raid multiplier.\n\nYou play a Stormstrike/Shock priority and weave in Flametongue/Windfury weapon, all while keeping the group's totems perfect.",
     strengths: [
       "Windfury Totem is a massive melee-group damage buff",
       "Strength of Earth / Grace of Air round out melee support",
@@ -1431,7 +1431,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
     rotationTitle: "Melee priority",
     rotation: [
       "Drop Windfury, Strength of Earth and Grace of Air totems for the melee group.",
-      "Stormstrike on cooldown, then Earth Shock/Flame Shock and Lava Lash by priority.",
+      "Stormstrike on cooldown, then Earth Shock/Flame Shock by priority.",
       "Keep Flametongue or Windfury weapon imbue up; maintain your shock priority.",
       "Reach the melee hit/expertise your specials need before stacking AP/Agility.",
       "Bloodlust at the burn window; align trinkets with it.",
@@ -1624,7 +1624,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
     rotationTitle: "Pressure & survival",
     rotation: [
       "Keep Soul Link and Fel Armor up at all times for the damage split.",
-      "Spread DoTs (Corruption, Curse of Agony, UA) and pressure with Shadow Bolt.",
+      "Spread DoTs (Corruption, Curse of Agony) and pressure with Shadow Bolt.",
       "Felguard Intercept/Cleave the kill target; Felhunter Spell Lock the healer (swap pets to need).",
       "Fear the melee; Death Coil to peel/self-heal; Howl of Terror when trained.",
       "Fel Domination → instant re-summon if the pet dies; trinket the hard swap.",
