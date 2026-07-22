@@ -79,6 +79,9 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-full flex-col">
+        <a href="#main" className="skip-link">
+          Skip to content
+        </a>
         <JsonLd
           data={[
             organizationJsonLd(SITE_NAME, SITE_URL, "/images/logo.png"),
@@ -88,7 +91,9 @@ export default function RootLayout({
         />
         <ConsentProvider>
           <Header />
-          <div className="flex-1">{children}</div>
+          <div id="main" className="flex-1">
+            {children}
+          </div>
           <Footer />
           <ConsentGatedScripts />
         </ConsentProvider>
