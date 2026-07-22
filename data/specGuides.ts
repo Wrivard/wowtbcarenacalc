@@ -1919,7 +1919,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
     content: "pve",
     updatedAt: "2026-07-20",
     overview:
-      "Feral (Cat) is a melee-DPS whose signature raid buff is Improved Leader of the Pack (group crit + heal-on-crit) and Mangle (a bleed-damage debuff that boosts the whole melee/bleed group). Your personal DPS is a Shred-and-bleed rotation that rewards positioning behind the boss and tight energy management. Cats bring meaningful melee-group utility alongside solid damage.\n\nYou play an energy-and-combo-point game: keep Mangle and Rip/Savage Roar up, Shred from behind, and manage the Energy/combo economy without dropping bleeds.",
+      "Feral (Cat) is a melee-DPS whose signature raid buff is Improved Leader of the Pack (group crit + heal-on-crit) and Mangle (a bleed-damage debuff that boosts the whole melee/bleed group). Your personal DPS is a Shred-and-bleed rotation that rewards positioning behind the boss and tight energy management. Cats bring meaningful melee-group utility alongside solid damage.\n\nYou play an energy-and-combo-point game: keep Mangle and Rip up, Shred from behind, and manage the Energy/combo economy without dropping bleeds.",
     strengths: [
       "Mangle debuff boosts the bleed/melee group's damage",
       "Leader of the Pack gives the group crit + heal-on-crit",
@@ -1931,23 +1931,23 @@ export const SPEC_GUIDES: SpecGuide[] = [
     ],
     rotationTitle: "Single-target rotation",
     rotation: [
-      "Keep Mangle up (bleed-damage debuff) and Savage Roar active for attack speed.",
+      "Keep Mangle up (bleed-damage debuff); Shred from behind to build combo points.",
       "Shred from behind to build combo points; apply and maintain Rip.",
       "Faerie Fire (Feral) for the armor debuff; keep Leader of the Pack up for the group.",
       "Reach the melee hit/expertise your specials need, then stack Agility/AP.",
       "Manage Energy with pooling; align trinkets and cooldowns with Bloodlust.",
     ],
     playstyle:
-      "Cat DPS is an energy and bleed puzzle: Mangle and Rip must stay up, Savage Roar buffs your attack speed, and you Shred from behind to build points. Never clip Rip or let Savage Roar drop. Provide Leader of the Pack and the Mangle debuff for your melee group. Position behind the boss and pool Energy for cooldown windows.",
+      "Cat DPS is an energy and bleed puzzle: Mangle and Rip must stay up, and you Shred from behind to build points, spending them on Rip (or Ferocious Bite as a filler finisher when Rip is already ticking). Never clip Rip. Provide Leader of the Pack and the Mangle debuff for your melee group. Position behind the boss and pool Energy for cooldown windows.",
     commonMistakes: [
-      "Letting Rip or Savage Roar fall off (big DPS loss).",
+      "Letting Mangle or Rip fall off (big DPS loss).",
       "Standing in front of the boss where you can't Shred.",
       "Poor Energy pooling — capping Energy or starving your rotation.",
     ],
     bestProfessions: ["leatherworking", "jewelcrafting"],
     faq: [
       { question: "Why bring a Feral Cat?", answer: "The Mangle bleed-damage debuff and Leader of the Pack (group crit + heal-on-crit) buff the whole melee group, on top of solid personal DPS." },
-      { question: "Is Cat DPS hard to play?", answer: "It's one of the more demanding melee rotations — Energy pooling plus keeping Mangle, Rip and Savage Roar up from behind the boss. High skill ceiling, rewarding parse." },
+      { question: "Is Cat DPS hard to play?", answer: "It's one of the more demanding melee rotations — Energy pooling plus keeping Mangle and Rip up from behind the boss. High skill ceiling, rewarding parse." },
     ],
   },
 

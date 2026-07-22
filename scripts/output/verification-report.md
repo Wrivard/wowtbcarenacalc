@@ -107,4 +107,44 @@ anachronisms and talent-impossible abilities/items in TBC 2.4.3:
   as a MH/OH alternative, but Mutilate requires daggers. Removed both entries
   (Combat parses that leaked into the Assassination bucket).
 
-## Batch 4 — pending (warlock/destruction, druid/balance, druid/feral-bear, druid/feral-cat)
+## Batch 4 — 4 specs (2026-07-22)
+
+Specs: warlock/destruction, druid/balance, druid/feral-bear, druid/feral-cat.
+2 findings (balance + feral-bear clean). All APPLIED — commit `<pending>`.
+
+- **druid/feral-cat PvE guide built around Savage Roar** (high) — Savage Roar is
+  a WotLK (3.0.2) ability, and even there it buffs physical damage, not attack
+  speed as the guide claimed. Removed from overview/rotation/playstyle/
+  commonMistakes/faq; replaced with the real TBC cat loop (Mangle + Shred + Rip,
+  Ferocious Bite as filler finisher).
+- **warlock/destruction PvP** (low) — statPriorityRationale named "Chaos Bolt"
+  (a WotLK Destruction spell). Reworded to Conflagrate + Shadow Bolt burst.
+
+---
+
+## Summary — all 28 specs verified
+
+**Applied: 22 fixes across 4 batches** (commits `d998245`, `84e17c7`,
+`220ffb5`, `<batch4>`). Dominant failure modes:
+1. **WotLK abilities cited in a TBC 2.4.3 site** — Penance, Dispersion, Lava
+   Lash, Wind Shear, Guardian Spirit, Chaos Bolt, Savage Roar, Focused Aim.
+2. **Talent-impossible abilities/items for the spec** — UA on Demonology,
+   Icy Veins on Fire, Warglaive (sword) on dagger specs.
+3. **Mechanic misstatements** — Inner Focus / Elemental Mastery described as
+   guaranteed-crit or instant when they aren't; Spiritual Attunement "returns
+   mana to healers"; Kill Command "on pet crit".
+4. **Malformed item IDs** — 4 retail IDs (68 occurrences) breaking Wowhead links.
+
+**Left OPEN for your decision (2):**
+- **warrior/arms Phase 4–5 weapons** are dual-wield Warglaives (a Fury config)
+  on a two-handed spec — the WCL aggregation folded Fury parses into the Arms
+  list for late phases. Needs a call: substitute a 2H, or point late-phase Arms
+  at the Fury list. (I won't invent a BiS weapon.)
+- **warrior/protection stat priority** ranks Shield Block Value above Stamina.
+  The verifier prefers survival-first; the file deliberately documents the
+  threat+mitigation rationale for the current order. Defensible as-is — change
+  only if you want to commit to Defense → Stamina → SBV → Hit → Expertise.
+
+Specs that came back clean: mage/arcane, druid/balance, druid/feral-bear
+(plus every spec not otherwise listed above had no BiS-item defects beyond
+what's noted).
