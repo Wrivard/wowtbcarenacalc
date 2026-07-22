@@ -1,18 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { CLASSES, getClass } from "@/lib/classes";
-import {
-  BRACKETS,
-  BRACKET_LABEL,
-  isBracket,
-  isClassSlug,
-  compsFor,
-  classesInBracket,
-  bracketsForClass,
-  bracketClassCopy,
-} from "@/lib/comps-seo";
-import { CompCollection, type RefineGroup } from "@/components/arena/CompCollection";
+import { CLASSES } from "@/lib/classes";
+import { BRACKETS, isBracket, isClassSlug, compsFor, facetCopy } from "@/lib/comps-seo";
+import { CompBrowser, queryFrom } from "@/components/arena/CompBrowser";
 
 export const dynamicParams = false;
 
@@ -27,60 +18,29 @@ export function generateStaticParams() {
 }
 
 type Params = Promise<{ bracket: string; class: string }>;
+type SP = Promise<Record<string, string | string[] | undefined>>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { bracket, class: classSlug } = await params;
   if (!isBracket(bracket) || !isClassSlug(classSlug)) return {};
-  const copy = bracketClassCopy(bracket, classSlug);
+  const c = facetCopy(bracket, classSlug);
   return buildMetadata({
-    title: copy.title,
-    description: copy.description,
+    title: c.title,
+    description: c.description,
     path: `/arena/comps/${bracket}/class/${classSlug}`,
   });
 }
 
-export default async function BracketClassCompsPage({ params }: { params: Params }) {
+export default async function BracketClassCompsPage({
+  params,
+  searchParams,
+}: {
+  params: Params;
+  searchParams: SP;
+}) {
   const { bracket, class: classSlug } = await params;
   if (!isBracket(bracket) || !isClassSlug(classSlug)) notFound();
-  const cls = getClass(classSlug)!;
-  const comps = compsFor({ bracket, classSlug });
-  if (comps.length === 0) notFound();
-  const copy = bracketClassCopy(bracket, classSlug);
-
-  const crumbs = [
-    { name: "Home", href: "/" },
-    { name: "Arena", href: "/arena" },
-    { name: "Comps", href: "/arena/comps" },
-    { name: BRACKET_LABEL[bracket], href: `/arena/comps/${bracket}` },
-    { name: cls.name, href: `/arena/comps/${bracket}/class/${classSlug}` },
-  ];
-
-  const refine: RefineGroup[] = [
-    {
-      label: `${cls.name} in`,
-      links: bracketsForClass(classSlug).map((b) => ({
-        href: `/arena/comps/${b}/class/${classSlug}`,
-        label: BRACKET_LABEL[b],
-        active: b === bracket,
-      })),
-    },
-    {
-      label: `${BRACKET_LABEL[bracket]} class`,
-      links: classesInBracket(bracket).map((c) => ({
-        href: `/arena/comps/${bracket}/class/${c.slug}`,
-        label: c.name,
-        active: c.slug === classSlug,
-      })),
-    },
-  ];
-
-  return (
-    <CompCollection
-      crumbs={crumbs}
-      h1={copy.h1}
-      intro={copy.intro}
-      comps={comps}
-      refine={refine}
-    />
-  );
+  if (compsFor({ bracket, classSlug }).length === 0) notFound();
+  const sp = await searchParams;
+  return <CompBrowser bracket={bracket} classSlug={classSlug} query={queryFrom(sp)} />;
 }

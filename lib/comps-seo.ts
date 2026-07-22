@@ -52,11 +52,34 @@ export function classesInBracket(bracket: Bracket): typeof CLASSES {
   return CLASSES.filter((c) => compsFor({ bracket, classSlug: c.slug }).length > 0);
 }
 
+/** Clean path for a bracket/class facet — the canonical, indexable URL. */
+export function facetPath(bracket?: Bracket, classSlug?: string): string {
+  if (bracket && classSlug) return `/arena/comps/${bracket}/class/${classSlug}`;
+  if (bracket) return `/arena/comps/${bracket}`;
+  if (classSlug) return `/arena/comps/class/${classSlug}`;
+  return "/arena/comps";
+}
+
 export interface FacetCopy {
   title: string;
   description: string;
   h1: string;
   intro: string;
+}
+
+/** Unique copy for any facet combination, including the bare hub. */
+export function facetCopy(bracket?: Bracket, classSlug?: string): FacetCopy {
+  if (bracket && classSlug) return bracketClassCopy(bracket, classSlug);
+  if (bracket) return bracketCopy(bracket);
+  if (classSlug) return classCopy(classSlug);
+  return {
+    title: "TBC Arena Comp Tier List — Best 2v2, 3v3 & 5v5 Comps",
+    description:
+      "Filterable TBC Classic arena comp tier list: the best 2s, 3s and 5s comps by tier, playstyle, class and difficulty — RMP, RLS, Warrior/Paladin and more.",
+    h1: "TBC Arena Comp Tier List",
+    intro:
+      "Every viable 2v2, 3v3 and 5v5 comp for TBC Classic arena (Season 2), ranked by tier. Pick a bracket or class to open its own guide, or refine by playstyle and difficulty.",
+  };
 }
 
 export function bracketCopy(bracket: Bracket): FacetCopy {

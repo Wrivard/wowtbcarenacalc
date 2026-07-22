@@ -3095,9 +3095,16 @@ export function getCompBySlug(bracket: string, slug: string): ArenaComp | undefi
 }
 
 /** URL slug for a comp within its bracket (drops the "-2s"/"-3s"/"-5s" suffix). */
-export function compSlug(comp: ArenaComp): string {
+export function compSlug(comp: Pick<ArenaComp, "id">): string {
   return comp.id.replace(/-(2s|3s|5s)$/, "");
 }
+
+// The subset of fields a comp card renders (lets CompCard accept a lighter
+// shape than the full ArenaComp).
+export type CompCardData = Pick<
+  ArenaComp,
+  "id" | "name" | "bracket" | "tier" | "playstyle" | "difficulty" | "blurb" | "members"
+>;
 
 export const TIER_ORDER: Record<Tier, number> = { S: 0, A: 1, B: 2, C: 3 };
 

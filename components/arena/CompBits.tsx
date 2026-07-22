@@ -2,7 +2,7 @@
 // pips, playstyle tag, class-icon row, and the comp card.
 
 import Link from "next/link";
-import type { ArenaComp, Tier, Difficulty, Playstyle } from "@/data/comps";
+import type { ArenaComp, CompCardData, Tier, Difficulty, Playstyle } from "@/data/comps";
 import { compSlug } from "@/data/comps";
 import { classIconName } from "@/lib/icons";
 import { GameIcon } from "@/components/GameIcon";
@@ -65,7 +65,7 @@ export function PlaystyleTag({ playstyle }: { playstyle: Playstyle }) {
   );
 }
 
-export function CompIcons({ comp, size = "medium" }: { comp: ArenaComp; size?: "small" | "medium" }) {
+export function CompIcons({ comp, size = "medium" }: { comp: Pick<ArenaComp, "members">; size?: "small" | "medium" }) {
   return (
     <span className="flex items-center -space-x-1">
       {comp.members.map((m, i) => {
@@ -84,7 +84,7 @@ export function CompIcons({ comp, size = "medium" }: { comp: ArenaComp; size?: "
   );
 }
 
-export function CompCard({ comp }: { comp: ArenaComp }) {
+export function CompCard({ comp }: { comp: CompCardData }) {
   return (
     <Link
       href={`/arena/comps/${comp.bracket}/${compSlug(comp)}`}
