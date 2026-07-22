@@ -84,7 +84,7 @@ export function getStatCaps(
         stat: "Ranged Hit Rating",
         cap: 142,
         unit: "rating",
-        note: "9% (142 rating) caps ranged special-shot misses against a raid boss (+3 levels). Talents (Focused Aim) and the Draenei hit aura lower how much you carry on gear. Expertise does nothing for ranged attacks — do not gear it.",
+        note: "9% (142 rating) caps ranged special-shot misses against a raid boss (+3 levels). Talents (Surefooted, a Survival talent, +3% hit) and the Draenei hit aura lower how much you carry on gear. Expertise does nothing for ranged attacks — do not gear it.",
       },
     ];
   }

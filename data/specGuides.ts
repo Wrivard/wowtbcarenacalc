@@ -841,10 +841,10 @@ export const SPEC_GUIDES: SpecGuide[] = [
     content: "pve",
     updatedAt: "2026-07-20",
     overview:
-      "Protection Paladin is the king of AoE tanking in TBC. Consecration, Holy Shield and a Righteous Fury-boosted holy threat aura let you hold threat on many mobs at once — no Warrior or Druid comes close on trash and add-heavy pulls. You also passively return mana to your healers through Blessing of Sanctuary and Spiritual Attunement, and bring the full Blessing/Aura kit.\n\nYou play a Consecration + Holy Shield + Judgement threat rotation, keeping Righteous Fury up and managing mana (which is your resource) rather than Rage.",
+      "Protection Paladin is the king of AoE tanking in TBC. Consecration, Holy Shield and a Righteous Fury-boosted holy threat aura let you hold threat on many mobs at once — no Warrior or Druid comes close on trash and add-heavy pulls. You also sustain your own mana through Spiritual Attunement (which refunds mana to you whenever you're healed) and Improved Blessing of Sanctuary, easing the strain on your healers, and bring the full Blessing/Aura kit.\n\nYou play a Consecration + Holy Shield + Judgement threat rotation, keeping Righteous Fury up and managing mana (which is your resource) rather than Rage.",
     strengths: [
       "Best AoE threat in the game — multi-target tanking on trash and adds",
-      "Returns mana to healers (Spiritual Attunement) and brings Blessings/Auras",
+      "Self-sustains mana when healed (Spiritual Attunement) and brings Blessings/Auras",
       "Very smooth, mana-fueled threat rotation",
     ],
     weaknesses: [
@@ -932,12 +932,12 @@ export const SPEC_GUIDES: SpecGuide[] = [
     rotation: [
       "Hunter's Mark + keep the pet on the boss with Bestial Wrath on cooldown.",
       "Serpent Sting up, then Steady Shot weaved between auto-shots without clipping.",
-      "Arcane Shot on cooldown if mana allows; Kill Command when the pet crits.",
+      "Arcane Shot on cooldown if mana allows; Kill Command after you land a crit (it's off the GCD).",
       "Reach the ranged hit cap (9%, less with talents/Draenei) before other stats.",
       "Misdirection to the tank on pull; align Bestial Wrath + Rapid Fire with Bloodlust.",
     ],
     playstyle:
-      "The whole game is a clean Steady Shot weave and pet uptime. Cap hit first, keep Serpent Sting and Hunter's Mark rolling, and use Kill Command whenever your pet crits. Position the pet to survive cleaves, and sync Rapid Fire + Bestial Wrath + trinkets with Bloodlust for the big burst window.",
+      "The whole game is a clean Steady Shot weave and pet uptime. Cap hit first, keep Serpent Sting and Hunter's Mark rolling, and fire Kill Command on cooldown after any of your own critical strikes (it's off the GCD). Position the pet to survive cleaves, and sync Rapid Fire + Bestial Wrath + trinkets with Bloodlust for the big burst window.",
     commonMistakes: [
       "Clipping auto-shots by firing Steady Shot too early.",
       "Not hit-capped, causing missed shots and lost Kill Commands.",
