@@ -1,9 +1,9 @@
 // A boss's visual: the real 128×64 portrait banner when we have one,
-// otherwise the thematic square game icon (bossIcon). Fixed dimensions so
-// neither variant causes layout shift. `size` picks the render scale.
+// otherwise a neutral monogram placeholder in the same banner shape (we do
+// NOT substitute an unrelated game/spell icon — a wrong portrait is worse
+// than none). Fixed dimensions so neither variant causes layout shift.
 
-import { bossIcon, bossImage } from "@/data/raids";
-import { GameIcon } from "@/components/GameIcon";
+import { bossImage } from "@/data/raids";
 
 const BANNER = {
   sm: { w: 72, h: 36 },
@@ -11,11 +11,13 @@ const BANNER = {
   lg: { w: 160, h: 80 },
 } as const;
 
-const ICON_SIZE = {
-  sm: "small",
-  md: "medium",
-  lg: "large",
-} as const;
+// Two-letter monogram from the boss name, skipping filler words.
+function initials(name: string): string {
+  const words = name
+    .split(/\s+/)
+    .filter((w) => w && !/^(the|of|and|&)$/i.test(w));
+  return (words.slice(0, 2).map((w) => w[0]).join("") || name.slice(0, 2)).toUpperCase();
+}
 
 export function BossPortrait({
   bossId,
@@ -29,10 +31,19 @@ export function BossPortrait({
   lazy?: boolean;
 }) {
   const img = bossImage(bossId);
-  if (!img) {
-    return <GameIcon icon={bossIcon(bossId)} alt="" size={ICON_SIZE[size]} lazy={lazy} />;
-  }
   const { w, h } = BANNER[size];
+  if (!img) {
+    return (
+      <span
+        aria-label={name}
+        title={name}
+        className="flex shrink-0 items-center justify-center rounded-md border border-border-strong bg-surface-hover font-mono font-semibold tracking-wide text-muted"
+        style={{ width: w, height: h, fontSize: Math.round(h * 0.38) }}
+      >
+        {initials(name)}
+      </span>
+    );
+  }
   return (
     // eslint-disable-next-line @next/next/no-img-element -- static local webp, fixed size
     <img
