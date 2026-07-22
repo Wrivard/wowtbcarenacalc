@@ -6,7 +6,7 @@ import { getClass } from "@/lib/classes";
 import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
-import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
+import { JsonLd, breadcrumbJsonLd, howToJsonLd } from "@/components/seo/JsonLd";
 import { AdUnit } from "@/components/AdUnit";
 import { ItemLink } from "@/components/ItemLink";
 import { BACKGROUNDS } from "@/lib/backgrounds";
@@ -72,9 +72,27 @@ export default async function ProfessionPage({ params }: { params: Params }) {
     { name: p.name, href: `/guides/professions/${p.slug}` },
   ];
 
+  const howToSteps = leveling.map((step) => ({
+    name: `Skill ${step.range}`,
+    text: step.note ? `${step.craft} — ${step.note}` : step.craft,
+  }));
+
   return (
     <>
-      <JsonLd data={[breadcrumbJsonLd(crumbs)]} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          ...(howToSteps.length > 0
+            ? [
+                howToJsonLd(
+                  `Level ${p.name} 1–375 in TBC Classic`,
+                  p.levelingSummary,
+                  howToSteps,
+                ),
+              ]
+            : []),
+        ]}
+      />
       <PageHero image={BACKGROUNDS.guides}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">

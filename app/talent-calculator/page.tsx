@@ -7,19 +7,27 @@ import {
   JsonLd,
   webApplicationJsonLd,
   itemListJsonLd,
+  breadcrumbJsonLd,
 } from "@/components/seo/JsonLd";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { classBackground } from "@/lib/backgrounds";
 import { ClassSelect } from "@/components/talents/ClassSelect";
 import { TalentCalculator } from "@/components/talents/TalentCalculator";
+import { buildMetadata } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "TBC Talent Calculator — All Classes (TBC Classic)",
+export const metadata: Metadata = buildMetadata({
+  title: "TBC Classic Talent Calculator — All 9 Classes",
   description:
     "Free TBC Classic talent calculator for all 9 classes. Pick a class, plan your 61 points with real tier and prerequisite rules, then share your build with a link.",
-  alternates: { canonical: "/talent-calculator" },
-};
+  path: "/talent-calculator",
+});
+
+const CRUMBS = [
+  { name: "Home", href: "/" },
+  { name: "Talent Calculator", href: "/talent-calculator" },
+];
 
 type SP = Promise<Record<string, string | string[] | undefined>>;
 
@@ -43,6 +51,7 @@ export default async function TalentCalculatorPage({
     <>
       <JsonLd
         data={[
+          breadcrumbJsonLd(CRUMBS),
           webApplicationJsonLd(
             "TBC Classic Talent Calculator",
             `${SITE_URL}/talent-calculator`,
@@ -58,7 +67,8 @@ export default async function TalentCalculatorPage({
         ]}
       />
       <PageHero image={classBackground(cls.slug)} contentClassName="max-w-[1200px]">
-        <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+        <Breadcrumbs crumbs={CRUMBS} />
+        <h1 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">
           {cls.name} Talent Calculator — TBC Classic
         </h1>
         <p className="mt-2 max-w-[60ch] text-sm leading-relaxed text-muted-strong">
