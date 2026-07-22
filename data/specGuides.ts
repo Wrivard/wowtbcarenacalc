@@ -1124,7 +1124,7 @@ export const SPEC_GUIDES: SpecGuide[] = [
     rotationTitle: "Healing & cooldown priority",
     rotation: [
       "Pre-shield (Power Word: Shield) the target being trained; keep Weakened Soul in mind.",
-      "Instant Flash Heal / Penance-style topping; big heals only when safe from interrupt.",
+      "Instant Flash Heal topping; Greater Heal only when safe from interrupt.",
       "Pain Suppression on your partner (or self) to survive a burst swap.",
       "Fear / Psychic Scream to peel melee; Mass Dispel key magic (Ice Block, DoTs, HoTs).",
       "Power Infusion your DPS for a kill window; trinket + Fear Ward against Fear chains.",
