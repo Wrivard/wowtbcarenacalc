@@ -18,8 +18,7 @@ const SLOT_INCONTENT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT;
 
 export const metadata: Metadata = {
   title: {
-    absolute:
-      "WoW TBC Classic Hub — BiS Lists, Talent Calculator & Arena Points",
+    absolute: "WoW TBC Classic — BiS, Talents & Arena Tools",
   },
   description:
     "TBC Classic tools in one place: live-snapshot PvP & PvE BiS lists for every spec, talent builds, an interactive talent calculator, and an arena points calculator.",

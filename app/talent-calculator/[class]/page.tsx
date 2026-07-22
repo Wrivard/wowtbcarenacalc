@@ -3,7 +3,7 @@
 // (and shared build links carrying ?b=) redirect there, preserving both
 // the class and the build.
 
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 import { getClass } from "@/lib/classes";
 
 type Params = Promise<{ class: string }>;
@@ -21,5 +21,6 @@ export default async function ClassCalculatorRedirect({
   const cls = getClass(classSlug);
   const target = cls ? `/talent-calculator?class=${cls.slug}` : "/talent-calculator";
   const b = Array.isArray(sp.b) ? sp.b[0] : sp.b;
-  redirect(b ? `${target}&b=${encodeURIComponent(b)}` : target);
+  // 308 permanent so Google transfers ranking signals to the consolidated page.
+  permanentRedirect(b ? `${target}&b=${encodeURIComponent(b)}` : target);
 }

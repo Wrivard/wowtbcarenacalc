@@ -31,11 +31,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/guides/professions`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/guides/addons`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/raids`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    // Only canonical bare paths belong in the sitemap — the ?tier=/?bracket=
+    // filtered views canonicalize back to these, so listing the params would
+    // submit URLs that declare themselves non-canonical.
     { url: `${SITE_URL}/class-rankings`, lastModified, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${SITE_URL}/class-rankings?tier=p1`, lastModified, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE_URL}/leaderboard`, lastModified, changeFrequency: "hourly", priority: 0.8 },
-    { url: `${SITE_URL}/leaderboard?bracket=3s`, lastModified, changeFrequency: "hourly", priority: 0.6 },
-    { url: `${SITE_URL}/leaderboard?bracket=5s`, lastModified, changeFrequency: "hourly", priority: 0.6 },
     { url: `${SITE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/contact`, lastModified, changeFrequency: "monthly", priority: 0.3 },
     { url: `${SITE_URL}/privacy-policy`, lastModified, changeFrequency: "monthly", priority: 0.2 },
@@ -103,13 +103,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
   for (const cls of CLASSES) {
+    const classBrackets = bracketsForClass(cls.slug);
+    if (classBrackets.length === 0) continue; // no comps for this class → no facet page
     entries.push({
       url: `${SITE_URL}/arena/comps/class/${cls.slug}`,
       lastModified,
       changeFrequency: "weekly",
       priority: 0.6,
     });
-    for (const b of bracketsForClass(cls.slug)) {
+    for (const b of classBrackets) {
       entries.push({
         url: `${SITE_URL}/arena/comps/${b}/class/${cls.slug}`,
         lastModified,

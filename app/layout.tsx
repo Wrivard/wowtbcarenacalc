@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { ConsentProvider } from "@/components/CookieConsent";
@@ -20,10 +20,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const HOME_TITLE = "WoW TBC Classic — BiS, Talents & Arena Tools";
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "WoW TBC Classic Hub — BiS Lists, Talent Calculator & Arena Points",
+    default: HOME_TITLE,
     template: "%s — WoW TBC",
   },
   description: SITE_DESCRIPTION,
@@ -34,15 +36,20 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: "WoW TBC Classic Hub — BiS Lists, Talent Calculator & Arena Points",
+    locale: "en_US",
+    title: HOME_TITLE,
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: "WoW TBC Classic Hub — BiS Lists, Talent Calculator & Arena Points",
+    title: HOME_TITLE,
     description: SITE_DESCRIPTION,
   },
   robots: { index: true, follow: true },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
 };
 
 export default function RootLayout({
@@ -56,6 +63,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        {/* Warm up the cross-origin hosts every content page hits (icon CDN +
+            Wowhead tooltips, AdSense) so the first request skips DNS/TCP/TLS. */}
+        <link rel="preconnect" href="https://wow.zamimg.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://wow.zamimg.com" />
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
         {/* AdSense loader — must be in the raw HTML (not consent-gated)
             for Google site verification. Ad units themselves still only
             render with cookie consent + slot ids. */}
