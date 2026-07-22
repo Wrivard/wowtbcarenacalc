@@ -6,18 +6,20 @@ import type { Role } from "@/lib/classes";
 
 export function StatCaps({
   classSlug,
+  specSlug,
   role,
   content,
   specName,
   className,
 }: {
   classSlug: string;
+  specSlug: string;
   role: Role;
   content: "pvp" | "pve";
   specName: string;
   className?: string;
 }) {
-  const caps = getStatCaps(classSlug, role, content);
+  const caps = getStatCaps(classSlug, specSlug, role, content);
   if (caps.length === 0) return null;
 
   return (

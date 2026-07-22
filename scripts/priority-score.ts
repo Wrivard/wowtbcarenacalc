@@ -301,7 +301,7 @@ function freshnessPotential(p: {
 // ── contentGap 0-15 — measured against the real backing data, not guessed.
 // More missing sections = more upside = higher score (per the spec).
 
-function bisContentGap(list: BisList | null, classSlug: string, role: Role, content: "pvp" | "pve"): number {
+function bisContentGap(list: BisList | null, classSlug: string, specSlug: string, role: Role, content: "pvp" | "pve"): number {
   if (!list) return 15; // unfilled page (e.g. a season with no data) — max gap
   let missing = 0;
   const slotCount = list.slots?.length ?? 0;
@@ -311,7 +311,7 @@ function bisContentGap(list: BisList | null, classSlug: string, role: Role, cont
   if ((list.gems?.length ?? 0) === 0) missing += 1;
   if ((list.enchants?.length ?? 0) === 0) missing += 1;
   if ((list.faq?.length ?? 0) < 5) missing += 2;
-  if (getStatCaps(classSlug, role, content).length === 0) missing += 1;
+  if (getStatCaps(classSlug, specSlug, role, content).length === 0) missing += 1;
   if (getGearPriority(classSlug, role, content).length === 0) missing += 1;
   // "How to get" coverage across the BiS slots.
   const withSource = (list.slots ?? []).filter(
@@ -534,7 +534,7 @@ function scorePage(raw: RawPage): PageScore {
     arenaRelevance: arenaRelevance(raw),
     contentGap:
       raw.pageType === "pvp-bis" || raw.pageType === "pve-bis"
-        ? bisContentGap(raw.bis ?? null, raw.class!, raw.role!, raw.content!)
+        ? bisContentGap(raw.bis ?? null, raw.class!, raw.spec!, raw.role!, raw.content!)
         : contentGapNonBis(raw.pageType),
     freshnessPotential: freshnessPotential(raw),
   };

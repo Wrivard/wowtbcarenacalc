@@ -98,13 +98,14 @@ export function BisPageBody({
         )}
         <StatCaps
           classSlug={cls.slug}
+          specSlug={spec.slug}
           role={spec.role}
           content={list.content}
           specName={`${spec.name} ${cls.name}`}
           className="mt-6"
         />
         <StatCapCalculator
-          caps={getStatCaps(cls.slug, spec.role, list.content)}
+          caps={getStatCaps(cls.slug, spec.slug, spec.role, list.content)}
           content={list.content}
           className="mt-6"
         />

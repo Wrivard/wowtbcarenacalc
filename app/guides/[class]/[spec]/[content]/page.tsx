@@ -151,7 +151,7 @@ export default async function SpecGuidePage({ params }: { params: Params }) {
 
         {/* Stat priority & caps */}
         <Section title={`Stat priority & caps (${content === "pvp" ? "arena" : "raid"})`}>
-          <StatCaps classSlug={cls.slug} role={spec.role} content={content} specName={`${spec.name} ${cls.name}`} />
+          <StatCaps classSlug={cls.slug} specSlug={spec.slug} role={spec.role} content={content} specName={`${spec.name} ${cls.name}`} />
           <p className="mt-3 text-sm leading-relaxed text-muted-strong">
             Full gear with usage %, gems and enchants is on the{" "}
             <Link href={bisHref} className="text-accent underline-offset-2 hover:underline">
