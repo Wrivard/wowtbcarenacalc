@@ -13,6 +13,7 @@ import {
   JsonLd,
   breadcrumbJsonLd,
   howToJsonLd,
+  articleJsonLd,
 } from "@/components/seo/JsonLd";
 
 export const dynamicParams = false;
@@ -34,8 +35,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   if (!boss || !raid) return {};
   return buildMetadata({
     title: `${boss.name} Strategy — ${raid.name} TBC Classic Guide (Phase ${boss.phase})`,
-    description: `How to kill ${boss.name} in ${raid.name} (TBC Classic): tank, healer and DPS strategy, phases, common mistakes and loot. ${boss.strategy.overview.slice(0, 70)}`,
+    description: `How to kill ${boss.name} in ${raid.name} (TBC Classic): tank, healer and DPS strategy, phases, common mistakes and loot. ${boss.strategy.overview}`,
     path: `/raids/phase-${boss.phase}/${raid.id}/${boss.id}`,
+    ogType: "article",
   });
 }
 
@@ -75,6 +77,12 @@ export default async function BossPage({ params }: { params: Params }) {
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
+          articleJsonLd(
+            `${boss.name} Strategy — ${raid.name} (TBC Classic)`,
+            boss.strategy.overview,
+            `/raids/phase-${boss.phase}/${raid.id}/${boss.id}`,
+            { section: raid.name, techArticle: true },
+          ),
           howToJsonLd(
             `How to kill ${boss.name} in ${raid.name} (TBC Classic)`,
             boss.strategy.overview,

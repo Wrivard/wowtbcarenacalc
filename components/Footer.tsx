@@ -11,6 +11,18 @@ const TOOLS = [
   { href: "/talent-calculator", label: "Talent Calculator" },
 ];
 
+// Primary content hubs — present on every page (incl. deep leaf pages) so
+// each head-term hub stays 1 click away and gets sitewide internal links.
+const HUBS = [
+  { href: "/pvp", label: "PvP & Arena BiS" },
+  { href: "/pve", label: "PvE & Raid BiS" },
+  { href: "/arena/comps", label: "Arena Comps" },
+  { href: "/raids", label: "Raid Guides" },
+  { href: "/class-rankings", label: "Class Rankings" },
+  { href: "/leaderboard", label: "Leaderboard" },
+  { href: "/guides", label: "Class Guides" },
+];
+
 const SITE = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
@@ -55,7 +67,17 @@ export function Footer() {
           </div>
 
           {/* Link columns */}
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-5">
+            <div>
+              <h2 className="text-[11px] font-medium tracking-widest text-muted-strong uppercase">
+                Guides &amp; Ranks
+              </h2>
+              <ul className="mt-3 space-y-2">
+                {HUBS.map((l) => (
+                  <FooterLink key={l.href} {...l} />
+                ))}
+              </ul>
+            </div>
             <div>
               <h2 className="text-[11px] font-medium tracking-widest text-muted-strong uppercase">
                 Tools

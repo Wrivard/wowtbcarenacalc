@@ -18,7 +18,7 @@ import {
   PlaystyleTag,
   CompIcons,
 } from "@/components/arena/CompBits";
-import { JsonLd, breadcrumbJsonLd, faqJsonLd } from "@/components/seo/JsonLd";
+import { JsonLd, breadcrumbJsonLd, faqJsonLd, articleJsonLd } from "@/components/seo/JsonLd";
 import { AdUnit } from "@/components/AdUnit";
 import { BACKGROUNDS } from "@/lib/backgrounds";
 
@@ -62,8 +62,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   if (!comp) return {};
   return buildMetadata({
     title: `${comp.name} TBC Arena Guide — Best ${comp.bracket} Comp Season ${SEASON}`,
-    description: `${comp.name} ${comp.bracket} arena guide for TBC Classic (${comp.tier} tier): win condition, cooldown timeline, positioning, counters and gear. ${comp.blurb.slice(0, 80)}`,
+    description: `${comp.name} ${comp.bracket} arena guide for TBC Classic (${comp.tier} tier): win condition, cooldown timeline, positioning, counters and gear. ${comp.blurb}`,
     path: `/arena/comps/${comp.bracket}/${slug}`,
+    ogType: "article",
   });
 }
 
@@ -92,7 +93,18 @@ export default async function CompGuidePage({ params }: { params: Params }) {
 
   return (
     <>
-      <JsonLd data={[breadcrumbJsonLd(crumbs), faqJsonLd(compFaq(comp))]} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          articleJsonLd(
+            `${comp.name} — TBC ${comp.bracket} Arena Comp Guide`,
+            comp.blurb,
+            `/arena/comps/${comp.bracket}/${slug}`,
+            { section: "Arena", techArticle: true },
+          ),
+          faqJsonLd(compFaq(comp)),
+        ]}
+      />
       <PageHero image={BACKGROUNDS.arena}>
         <Breadcrumbs crumbs={crumbs} />
         <div className="mt-4 flex items-center gap-3">
