@@ -18,7 +18,9 @@ import {
   JsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
+  articleJsonLd,
 } from "@/components/seo/JsonLd";
+import { SITE_NAME } from "@/lib/site";
 import { AdUnit } from "@/components/AdUnit";
 import { classBackground } from "@/lib/backgrounds";
 
@@ -48,9 +50,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const label = content === "pvp" ? "PvP" : "PvE";
   return buildMetadata({
     title: `${spec.name} ${cls.name} ${label} Guide — TBC Classic ${content === "pvp" ? "Arena" : "Raid"}`,
-    description: `${spec.name} ${cls.name} ${label} guide for TBC Classic: rotation, stat priority, BiS, talents, macros, addons, best race and professions. ${guide.overview.slice(0, 80)}`,
+    description: `${spec.name} ${cls.name} ${label} guide for TBC Classic: rotation, stat priority, BiS, talents, macros, addons, best race and professions. ${guide.overview}`,
     path: `/guides/${cls.slug}/${spec.slug}/${content}`,
     ogImage: `/${cls.slug}/opengraph-image`,
+    ogType: "article",
+    modifiedTime: guide.updatedAt,
+    authors: [SITE_NAME],
   });
 }
 
@@ -96,7 +101,23 @@ export default async function SpecGuidePage({ params }: { params: Params }) {
 
   return (
     <>
-      <JsonLd data={[breadcrumbJsonLd(crumbs), faqJsonLd(guide.faq)]} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          articleJsonLd(
+            `${spec.name} ${cls.name} ${label} Guide`,
+            overviewParas[0],
+            `/guides/${cls.slug}/${spec.slug}/${content}`,
+            {
+              datePublished: guide.updatedAt,
+              dateModified: guide.updatedAt,
+              image: `/${cls.slug}/opengraph-image`,
+              section: label === "PvP" ? "Arena" : "Raiding",
+            },
+          ),
+          faqJsonLd(guide.faq),
+        ]}
+      />
       <PageHero image={classBackground(cls.slug)}>
         <Breadcrumbs crumbs={crumbs} />
         <div

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "WoW TBC Classic Hub";
+export const alt = "WoW TBC Arena Points Calculator";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -35,23 +35,23 @@ export default function OpenGraphImage() {
           style={{
             marginTop: 28,
             color: "#ededed",
-            fontSize: 68,
+            fontSize: 72,
             fontWeight: 700,
             lineHeight: 1.1,
-            maxWidth: 960,
+            maxWidth: 900,
           }}
         >
-          WoW TBC Classic Hub
+          Arena Points Calculator
         </div>
         <div
           style={{
             marginTop: 28,
             color: "#8f8f98",
             fontSize: 30,
-            maxWidth: 900,
+            maxWidth: 860,
           }}
         >
-          BiS lists · talent calculator · arena comps · raid guides
+          2v2 · 3v3 · 5v5 — exact weekly points from your team rating
         </div>
         <div
           style={{

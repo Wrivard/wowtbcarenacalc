@@ -6,7 +6,7 @@ import { ConsentGatedScripts } from "@/components/ConsentGatedScripts";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { WowheadTooltips } from "@/components/WowheadTooltips";
-import { JsonLd, organizationJsonLd, webSiteJsonLd } from "@/components/seo/JsonLd";
+import { JsonLd, organizationJsonLd, webSiteJsonLd, videoGameJsonLd } from "@/components/seo/JsonLd";
 import { ADSENSE_CLIENT, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -82,7 +82,8 @@ export default function RootLayout({
         <JsonLd
           data={[
             organizationJsonLd(SITE_NAME, SITE_URL, "/images/logo.png"),
-            webSiteJsonLd(SITE_NAME, SITE_URL),
+            webSiteJsonLd(SITE_NAME, SITE_URL, SITE_DESCRIPTION),
+            videoGameJsonLd(),
           ]}
         />
         <ConsentProvider>

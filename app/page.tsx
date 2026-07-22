@@ -84,20 +84,12 @@ export default function Home() {
     getBuild(cls.slug, spec.slug),
   ).length;
 
-  const websiteJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "WoW TBC Classic Hub",
-    url: SITE_URL,
-    description:
-      "BiS lists, talent builds, talent calculator and arena points calculator for WoW: The Burning Crusade Classic.",
-  };
-
+  // The WebSite + Organization + VideoGame nodes come from the root layout
+  // (single source of truth); the homepage no longer re-declares WebSite.
   return (
     <>
       <JsonLd
         data={[
-          websiteJsonLd,
           webApplicationJsonLd(
             "WoW TBC Classic Hub",
             SITE_URL,
