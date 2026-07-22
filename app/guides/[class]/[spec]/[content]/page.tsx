@@ -123,7 +123,15 @@ export default async function SpecGuidePage({ params }: { params: Params }) {
         <div
           className={`mt-3 font-mono text-[11px] tracking-widest uppercase ${content === "pvp" ? "text-accent" : "text-muted-strong"}`}
         >
-          {content === "pvp" ? "PvP · Arena" : "PvE · Raid"} · {spec.role}
+          {content === "pvp" ? "PvP · Arena" : "PvE · Raid"} · {spec.role} ·{" "}
+          <span className="text-accent">
+            Updated{" "}
+            {new Date(guide.updatedAt).toLocaleDateString("en-US", {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+            })}
+          </span>
         </div>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
           {spec.name} {cls.name} {label} Guide

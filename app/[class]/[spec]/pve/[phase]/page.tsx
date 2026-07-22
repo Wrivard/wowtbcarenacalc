@@ -106,6 +106,16 @@ export default async function PveBisPage({ params }: { params: Params }) {
             PvE · Raid
           </span>
           <span>{PHASE_LABELS[phase]}</span>
+          {list && (
+            <span className="text-accent">
+              Updated{" "}
+              {new Date(list.updatedAt).toLocaleDateString("en-US", {
+                month: "short",
+                day: "numeric",
+                year: "numeric",
+              })}
+            </span>
+          )}
         </div>
         {list && (
           <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
