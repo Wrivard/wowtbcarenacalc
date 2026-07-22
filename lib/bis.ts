@@ -8,7 +8,7 @@
 // hand-edit the generated JSON.
 
 import { BIS_REGISTRY } from "@/data/bis/index";
-import type { Phase } from "@/lib/classes";
+import { PHASES, type Phase } from "@/lib/classes";
 
 export type BisSlotName =
   | "Head" | "Neck" | "Shoulders" | "Back" | "Chest" | "Wrist" | "Hands"
@@ -96,6 +96,11 @@ export function getPveBis(
   phase: Phase,
 ): BisList | null {
   return BIS_REGISTRY[`${classSlug}/${specSlug}/pve/${phase}`] ?? null;
+}
+
+/** Which PvE phases have a filled list for this spec (for the phase tabs). */
+export function availablePhases(classSlug: string, specSlug: string): Phase[] {
+  return PHASES.filter((p) => Boolean(getPveBis(classSlug, specSlug, p)));
 }
 
 /** All filled lists — drives the sitemap (unfilled specs stay out). */

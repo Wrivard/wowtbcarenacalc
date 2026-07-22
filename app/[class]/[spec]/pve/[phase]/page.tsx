@@ -11,6 +11,7 @@ import {
   itemListJsonLd,
 } from "@/components/seo/JsonLd";
 import { BisPageBody } from "@/components/bis/BisPageBody";
+import { PhaseSwitcher } from "@/components/bis/PhaseSwitcher";
 import { ComingSoon } from "@/components/ComingSoon";
 import { SpecCrossLinks } from "@/components/SpecCrossLinks";
 import { PageHero } from "@/components/PageHero";
@@ -111,6 +112,11 @@ export default async function PveBisPage({ params }: { params: Params }) {
             {list.blurb}
           </p>
         )}
+        <PhaseSwitcher
+          classSlug={cls.slug}
+          specSlug={spec.slug}
+          current={phase}
+        />
       </PageHero>
 
       <main className="mx-auto max-w-[720px] px-4">
