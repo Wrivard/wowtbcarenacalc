@@ -66,7 +66,7 @@ export const COMPS: ArenaComp[] = [
       "Vulnerable to Warrior/Druid until the rogue lands a full setup",
       "A dispelled/UA'd priest under warlock pressure can fold",
     ],
-    keyCounters: ["warlock-disc-priest-2s", "warrior-druid-2s"],
+    keyCounters: ["warlock-disc-priest-2s", "resto-druid-warrior-2s"],
     keyFavors: ["frost-mage-disc-priest-2s", "ret-holy-paladin-2s"],
     blurb:
       "The premier 2v2 comp of TBC. The rogue controls the game with stuns and Blind while the priest out-sustains and Mana Burns any healer to zero. If you want the highest 2s ceiling, this is it.",
@@ -86,7 +86,7 @@ export const COMPS: ArenaComp[] = [
             "You cannot out-sustain a Warlock's UA + dispel-punish on your priest. Swap to the warlock, purge/dispel nothing greedily, and try to burst the lock during a Blind on the priest instead of grinding.",
         },
         {
-          compId: "warrior-druid-2s",
+          compId: "resto-druid-warrior-2s",
           howToPlay:
             "The druid cyclones your rogue out of kills and the warrior trains your priest. Blind the druid on the kill attempt and Mana Burn on cooldown — druids have a smaller mana pool than you think.",
         },
