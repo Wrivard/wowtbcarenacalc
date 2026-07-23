@@ -431,8 +431,80 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 32409,
+   "name": "Relentless Earthstorm Diamond",
+   "note": "Meta socket. The Consortium (Exalted) — Nagrand."
+  },
+  {
+   "itemId": 24033,
+   "name": "Solid Star of Elune",
+   "note": "Kael'thas Sunstrider — Magisters' Terrace."
+  },
+  {
+   "itemId": 24061,
+   "name": "Glinting Noble Topaz",
+   "note": "World Drop."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 attack power and +16 hit rating",
+   "note": "Glyph of Ferocity — Fedryen Swiftwpear — Zangarmarsh"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+15 critical strike rating and +20 attack power",
+   "note": "Greater Inscription of the Blade — Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Shoulders / Legs",
+   "text": "+10 Stamina",
+   "note": "Heavy Knothide Armor Kit — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "Enchant Cloak - Greater Agility — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Chest",
+   "text": "Enchant a piece of chest armor to add 6 to all stats",
+   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Stamina",
+   "note": "Enchant Bracer - Fortitude — Coilfang Oracle — The Steamvault"
+  },
+  {
+   "slot": "Hands",
+   "text": "+2 threat from all attacks and spells%",
+   "note": "Enchant Gloves - Threat — Emperor Vek'nilash — Ahn'Qiraj"
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 Stamina and +12 Agility",
+   "note": "Nethercleft Leg Armor — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "minor movement speed increase and +9 Stamina",
+   "note": "Enchant Boots - Boar's Speed — World Drop"
+  },
+  {
+   "slot": "Main Hand",
+   "text": "Enchant a melee weapon so that often when attacking in melee it heals for 75 to 125 and increases Strength by 100 for 15 sec",
+   "note": "Enchant Weapon - Crusader — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Off Hand",
+   "text": "+18 Stamina",
+   "note": "Enchant Shield - Major Stamina — Enchanting Trainer — Faction Capital"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Protection Warrior Phase 3 BiS come from?",

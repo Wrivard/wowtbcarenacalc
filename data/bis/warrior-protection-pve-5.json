@@ -441,8 +441,85 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 32409,
+   "name": "Relentless Earthstorm Diamond",
+   "note": "Meta socket. The Consortium (Exalted) — Nagrand."
+  },
+  {
+   "itemId": 32200,
+   "name": "Solid Empyrean Sapphire",
+   "note": "Indormi — Hyjal Summit."
+  },
+  {
+   "itemId": 32206,
+   "name": "Rigid Lionseye",
+   "note": "Indormi — Hyjal Summit."
+  },
+  {
+   "itemId": 32212,
+   "name": "Shifting Shadowsong Amethyst",
+   "note": "Boss Drop — Hyjal Summit."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 attack power and +16 hit rating",
+   "note": "Glyph of Ferocity — Fedryen Swiftwpear — Zangarmarsh"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+15 dodge rating and +10 defense rating",
+   "note": "Greater Inscription of Warding — Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Shoulders / Legs",
+   "text": "+10 Stamina",
+   "note": "Heavy Knothide Armor Kit — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Back",
+   "text": "+12 defense rating",
+   "note": "Enchant Cloak - Steelweave — Priestess Delrissa — Magisters' Terrace"
+  },
+  {
+   "slot": "Chest",
+   "text": "+150 health",
+   "note": "Enchant Chest - Exceptional Health — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Stamina",
+   "note": "Enchant Bracer - Fortitude — Coilfang Oracle — The Steamvault"
+  },
+  {
+   "slot": "Hands",
+   "text": "+240 armor on a pair of gloves",
+   "note": "Glove Reinforcements — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 Stamina and +12 Agility",
+   "note": "Nethercleft Leg Armor — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "minor movement speed increase and +6 Agility",
+   "note": "Enchant Boots - Cat's Swiftness — World Drop"
+  },
+  {
+   "slot": "Main Hand",
+   "text": "Enchant a melee weapon so that often when attacking in melee it heals for 75 to 125 and increases Strength by 100 for 15 sec",
+   "note": "Enchant Weapon - Crusader — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Off Hand",
+   "text": "+18 Stamina",
+   "note": "Enchant Shield - Major Stamina — Enchanting Trainer — Faction Capital"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Protection Warrior Phase 5 BiS come from?",

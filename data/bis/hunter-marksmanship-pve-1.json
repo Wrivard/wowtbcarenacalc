@@ -421,8 +421,85 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 32409,
+   "name": "Relentless Earthstorm Diamond",
+   "note": "Meta socket. The Consortium (Exalted) — Nagrand."
+  },
+  {
+   "itemId": 24028,
+   "name": "Delicate Living Ruby",
+   "note": "World Drop."
+  },
+  {
+   "itemId": 31869,
+   "name": "Wicked Flame Spessarite",
+   "note": ""
+  },
+  {
+   "itemId": 24055,
+   "name": "Shifting Nightseye",
+   "note": "World Drop."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 attack power and +16 hit rating",
+   "note": "Glyph of Ferocity — Fedryen Swiftwpear — Zangarmarsh"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+26 attack power and +14 critical strike rating",
+   "note": "Might of the Scourge — Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)"
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "Enchant Cloak - Greater Agility — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Chest",
+   "text": "Enchant a piece of chest armor to add 6 to all stats",
+   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 attack power",
+   "note": "Enchant Bracer - Assault — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 agility",
+   "note": "Enchant Gloves - Superior Agility — World Drop"
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 attack power and +12 critical strike rating",
+   "note": "Nethercobra Leg Armor — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "+12 Agility",
+   "note": "Enchant Boots - Dexterity — Raging Skeleton — Auchenai Crypts"
+  },
+  {
+   "slot": "Weapon",
+   "text": "+15 Agility",
+   "note": "Enchant Weapon - Agility — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Two-Hand",
+   "text": "+35 Agility",
+   "note": "Enchant 2H Weapon - Major Agility — Eredar Deathbringer — The Arcatraz"
+  },
+  {
+   "slot": "Ranged",
+   "text": "Stabilitzed Eternium Scope",
+   "note": "Stabilitzed Eternium Scope — Engineering Trainer — Faction Capital"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Marksmanship Hunter Phase 1 BiS come from?",

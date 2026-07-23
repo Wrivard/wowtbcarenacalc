@@ -370,8 +370,80 @@
    "alternatives": []
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 32409,
+   "name": "Relentless Earthstorm Diamond",
+   "note": "Meta socket. The Consortium (Exalted) — Nagrand."
+  },
+  {
+   "itemId": 24027,
+   "name": "Bold Living Ruby",
+   "note": "World Drop."
+  },
+  {
+   "itemId": 24054,
+   "name": "Sovereign Nightseye",
+   "note": "World Drop."
+  },
+  {
+   "itemId": 24058,
+   "name": "Inscribed Noble Topaz",
+   "note": "World Drop."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+17 Strength and +16 Intellect",
+   "note": "Glyph of the Outcast — Lower City Quartermaster — Shattrath City"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+26 attack power and +14 critical strike rating",
+   "note": "Might of the Scourge — Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)"
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "Enchant Cloak - Greater Agility — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Chest",
+   "text": "Enchant a piece of chest armor to add 6 to all stats",
+   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "Enchant Bracer - Brawn — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 Strength",
+   "note": "Enchant Gloves - Major Strength — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 attack power and +12 critical strike rating",
+   "note": "Nethercobra Leg Armor — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "+12 Agility",
+   "note": "Enchant Boots - Dexterity — Raging Skeleton — Auchenai Crypts"
+  },
+  {
+   "slot": "Ring",
+   "text": "+4 all stats",
+   "note": "Enchant Ring - Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Main Hand",
+   "text": "Enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly",
+   "note": "Enchant Weapon - Mongoose — Moroes<Tower Steward> — Karazhan"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Retribution Paladin Phase 3 BiS come from?",

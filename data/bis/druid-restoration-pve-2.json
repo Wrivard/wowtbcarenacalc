@@ -421,8 +421,70 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 25897,
+   "name": "Bracing Earthstorm Diamond",
+   "note": "Meta socket. Ythyar — Karazhan."
+  },
+  {
+   "itemId": 24029,
+   "name": "Teardrop Living Ruby",
+   "note": "World Drop."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "up to 35 healing, +12 Spell Damage, and +7 mana per 5 sec",
+   "note": "Glyph of Renewal — Quartermaster — Hellfire Peninsula"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "up to 33 healing and +11 spell damage and +4 mana per 5 sec",
+   "note": "Greater Inscription of Faith — Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Back",
+   "text": "Enchant a cloak to decrease threat caused by the wearer by 2%",
+   "note": "Enchant Cloak - Subtlety — Emperor Vek'lor — Ahn'Qiraj"
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 Spirit",
+   "note": "Enchant Chest - Major Spirit — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+30 effect of your healing spells and +10 damage spells",
+   "note": "Enchant Bracer - Superior Healing — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing and +12 Spell Damage",
+   "note": "Enchant Gloves - Major Healing — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Legs",
+   "text": "+66 healing, +22 spell damage, and +20 Stamina",
+   "note": "Golden Spellthread — Tailoring Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "minor movement speed increase and +9 Stamina",
+   "note": "Enchant Boots - Boar's Speed — World Drop"
+  },
+  {
+   "slot": "Ring",
+   "text": "+20 healing spells and +7 damage spells",
+   "note": "Enchant Ring - Healing Power — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Main Hand",
+   "text": "+81 Healing and +27 Spell Damage",
+   "note": "Enchant Weapon - Major Healing — Enchanting Trainer — Faction Capital"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Restoration Druid Phase 2 BiS come from?",

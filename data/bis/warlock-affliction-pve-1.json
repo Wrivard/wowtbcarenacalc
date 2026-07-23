@@ -396,8 +396,75 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 34220,
+   "name": "Chaotic Skyfire Diamond",
+   "note": "Meta socket. Coilskar Siren — Shadowmoon Valley."
+  },
+  {
+   "itemId": 31867,
+   "name": "Veiled Noble Topaz",
+   "note": "World Drop."
+  },
+  {
+   "itemId": 24056,
+   "name": "Glowing Nightseye",
+   "note": "World Drop."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "up to 22 spell damage and healing and +14 spell hit rating",
+   "note": "Glyph of Power — Almaador — Shattrath City"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "up to 18 spell damage and healing and +10 spell critical strike rating",
+   "note": "Greater Inscription of Discipline — Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Back",
+   "text": "Enchant a cloak to decrease threat caused by the wearer by 2%",
+   "note": "Enchant Cloak - Subtlety — Emperor Vek'lor — Ahn'Qiraj"
+  },
+  {
+   "slot": "Chest",
+   "text": "Enchant a piece of chest armor to add 6 to all stats",
+   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+15 spell damage and healing",
+   "note": "Enchant Bracer - Spellpower — Bloodmaul Geomancer — Blade's Edge Mountains"
+  },
+  {
+   "slot": "Hands",
+   "text": "+20 damage and healing",
+   "note": "Enchant Gloves - Major Spellpower — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Legs",
+   "text": "+35 spell damage and healing and +20 Stamina",
+   "note": "Runic Spellthread — Tailoring Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "minor movement speed increase and +9 Stamina",
+   "note": "Enchant Boots - Boar's Speed — World Drop"
+  },
+  {
+   "slot": "Ring",
+   "text": "+12 spell damage and healing",
+   "note": "Enchant Ring - Spellpower — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Main Hand",
+   "text": "+40 spell damage and healing",
+   "note": "Enchant Weapon - Major Spellpower — Enchanting Trainer — Faction Capital"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Affliction Warlock Phase 1 BiS come from?",

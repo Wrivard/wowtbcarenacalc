@@ -360,8 +360,80 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 25896,
+   "name": "Powerful Earthstorm Diamond",
+   "note": "Meta socket. Ythyar — Karazhan."
+  },
+  {
+   "itemId": 32200,
+   "name": "Solid Empyrean Sapphire",
+   "note": "Indormi — Hyjal Summit."
+  },
+  {
+   "itemId": 32215,
+   "name": "Glowing Shadowsong Amethyst",
+   "note": "Indormi — Hyjal Summit."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "up to 22 spell damage and healing and +14 spell hit rating",
+   "note": "Glyph of Power — Almaador — Shattrath City"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+15 dodge rating and +10 defense rating",
+   "note": "Greater Inscription of Warding — Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Back",
+   "text": "+12 defense rating",
+   "note": "Enchant Cloak - Steelweave — Priestess Delrissa — Magisters' Terrace"
+  },
+  {
+   "slot": "Chest",
+   "text": "+15 resilience rating",
+   "note": "Enchant Chest - Major Resilience — World Drop"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Stamina",
+   "note": "Enchant Bracer - Fortitude — Coilfang Oracle — The Steamvault"
+  },
+  {
+   "slot": "Hands",
+   "text": "+2 threat from all attacks and spells%",
+   "note": "Enchant Gloves - Threat — Emperor Vek'nilash — Ahn'Qiraj"
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 Stamina and +12 Agility",
+   "note": "Nethercleft Leg Armor — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "+12 Stamina",
+   "note": "Enchant Boots - Fortitude — Ethereal Priest — Mana-Tombs"
+  },
+  {
+   "slot": "Ring",
+   "text": "+4 all stats",
+   "note": "Enchant Ring - Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Main Hand",
+   "text": "+40 spell damage and healing",
+   "note": "Enchant Weapon - Major Spellpower — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Off Hand",
+   "text": "+18 Stamina",
+   "note": "Enchant Shield - Major Stamina — Enchanting Trainer — Faction Capital"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Protection Paladin Phase 5 BiS come from?",

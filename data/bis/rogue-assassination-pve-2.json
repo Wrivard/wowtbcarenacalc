@@ -411,8 +411,75 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 32409,
+   "name": "Relentless Earthstorm Diamond",
+   "note": "Meta socket. The Consortium (Exalted) — Nagrand. Rogue socket/enchant plan (shared across rogue specs).."
+  },
+  {
+   "itemId": 24051,
+   "name": "Rigid Dawnstone",
+   "note": "Kael'thas Sunstrider — Magisters' Terrace. Rogue socket/enchant plan (shared across rogue specs).."
+  },
+  {
+   "itemId": 24061,
+   "name": "Glinting Noble Topaz",
+   "note": "World Drop. Rogue socket/enchant plan (shared across rogue specs).."
+  },
+  {
+   "itemId": 24055,
+   "name": "Shifting Nightseye",
+   "note": "World Drop. Rogue socket/enchant plan (shared across rogue specs).."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 attack power and +16 hit rating",
+   "note": "Glyph of Ferocity — Fedryen Swiftwpear — Zangarmarsh"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+30 attack power and +10 critical strike rating",
+   "note": "Greater Inscription of Vengeance — Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "Enchant Cloak - Greater Agility — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Chest",
+   "text": "Enchant a piece of chest armor to add 6 to all stats",
+   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+24 attack power",
+   "note": "Enchant Bracer - Assault — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 agility",
+   "note": "Enchant Gloves - Superior Agility — World Drop"
+  },
+  {
+   "slot": "Legs",
+   "text": "+50 attack power and +12 critical strike rating",
+   "note": "Nethercobra Leg Armor — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "minor movement speed increase and +6 Agility",
+   "note": "Enchant Boots - Cat's Swiftness — World Drop"
+  },
+  {
+   "slot": "Weapon",
+   "text": "Enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly",
+   "note": "Enchant Weapon - Mongoose — Moroes<Tower Steward> — Karazhan"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Assassination Rogue Phase 2 BiS come from?",

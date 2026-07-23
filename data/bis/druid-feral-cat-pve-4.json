@@ -302,8 +302,65 @@
    ]
   }
  ],
- "gems": [],
- "enchants": [],
+ "gems": [
+  {
+   "itemId": 24028,
+   "name": "Delicate Living Ruby",
+   "note": "World Drop."
+  }
+ ],
+ "enchants": [
+  {
+   "slot": "Head",
+   "text": "+34 attack power and +16 hit rating",
+   "note": "Glyph of Ferocity — Fedryen Swiftwpear — Zangarmarsh"
+  },
+  {
+   "slot": "Shoulders",
+   "text": "+26 attack power",
+   "note": "Inscription of Vengeance — Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Back",
+   "text": "+12 Agility",
+   "note": "Enchant Cloak - Greater Agility — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Chest",
+   "text": "Enchant a piece of chest armor to add 6 to all stats",
+   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Wrist",
+   "text": "+12 Strength",
+   "note": "Enchant Bracer - Brawn — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Hands",
+   "text": "+15 agility",
+   "note": "Enchant Gloves - Superior Agility — World Drop"
+  },
+  {
+   "slot": "Legs",
+   "text": "+40 attack power and +10 critical strike rating",
+   "note": "Cobrahide Leg Armor — Leatherworking Trainer — Faction Capital"
+  },
+  {
+   "slot": "Feet",
+   "text": "minor movement speed increase and +6 Agility",
+   "note": "Enchant Boots - Cat's Swiftness — World Drop"
+  },
+  {
+   "slot": "Ring",
+   "text": "+2 damage to physical attacks",
+   "note": "Enchant Ring - Striking — Enchanting Trainer — Faction Capital"
+  },
+  {
+   "slot": "Two-Hand",
+   "text": "+35 Agility",
+   "note": "Enchant 2H Weapon - Major Agility — Eredar Deathbringer — The Arcatraz"
+  }
+ ],
  "faq": [
   {
    "question": "Where does Feral (Cat) Druid Phase 4 BiS come from?",
