@@ -453,6 +453,8 @@
    "slot": "Head",
    "text": "+34 attack power and +16 hit rating",
    "name": "Glyph of Ferocity",
+   "icon": "classic_ability_druid_demoralizingroar",
+   "itemId": 29192,
    "source": "Fedryen Swiftwpear — Zangarmarsh",
    "note": "Fedryen Swiftwpear — Zangarmarsh"
   },
@@ -460,6 +462,8 @@
    "slot": "Shoulders",
    "text": "+15 critical strike rating and +20 attack power",
    "name": "Greater Inscription of the Blade",
+   "icon": "spell_holy_weaponmastery",
+   "itemId": 28910,
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -467,6 +471,8 @@
    "slot": "Shoulders / Legs",
    "text": "+10 Stamina",
    "name": "Heavy Knothide Armor Kit",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 34330,
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },
@@ -502,6 +508,8 @@
    "slot": "Legs",
    "text": "+40 Stamina and +12 Agility",
    "name": "Nethercleft Leg Armor",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 29536,
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },

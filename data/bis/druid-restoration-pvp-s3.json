@@ -304,7 +304,9 @@
    "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
    "note": "55% of surveyed players on this slot.",
    "name": "Glyph of Renewal",
-   "source": "Quartermaster — Hellfire Peninsula"
+   "source": "Quartermaster — Hellfire Peninsula",
+   "icon": "spell_holy_healingaura",
+   "itemId": 29190
   },
   {
    "slot": "Shoulders",
@@ -342,7 +344,9 @@
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
    "note": "97% of surveyed players on this slot.",
    "name": "Golden Spellthread",
-   "source": "Tailoring Trainer — Faction Capital"
+   "source": "Tailoring Trainer — Faction Capital",
+   "icon": "spell_holy_restoration",
+   "itemId": 24276
   },
   {
    "slot": "Feet",

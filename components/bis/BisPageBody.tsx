@@ -151,14 +151,16 @@ export function BisPageBody({
         </H2>
         <div className="mt-4 overflow-hidden rounded-xl border border-border">
           {list.enchants.map((e) => {
-            const slotIcon = enchantSlotIcon(e.slot);
+            // Item-based enhancements show their own item icon; enchanter
+            // formulas have no item, so the slot is the anchor.
+            const icon = e.icon ?? enchantSlotIcon(e.slot);
             return (
             <div
               key={`${e.slot}-${e.text}`}
               className="flex flex-col gap-1.5 border-b border-border bg-surface px-4 py-3 last:border-b-0 sm:flex-row sm:items-start sm:gap-3"
             >
               <span className="flex w-28 shrink-0 items-center gap-2 pt-0.5 font-mono text-[11px] tracking-wider text-muted uppercase">
-                {slotIcon && <GameIcon icon={slotIcon} alt="" size="small" className="size-5" />}
+                {icon && <GameIcon icon={icon} alt="" size="small" className="size-5" />}
                 {e.slot}
               </span>
               <span className="min-w-0 flex-1">

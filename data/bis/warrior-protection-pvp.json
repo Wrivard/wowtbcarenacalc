@@ -342,14 +342,18 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh"
+   "source": "Fedryen Swiftwpear — Zangarmarsh",
+   "icon": "classic_ability_druid_demoralizingroar",
+   "itemId": 29192
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City"
+   "source": "Inscriber Saalyn — Shattrath City",
+   "icon": "spell_holy_greaterblessingofkings",
+   "itemId": 28888
   },
   {
    "slot": "Back",
@@ -384,7 +388,9 @@
    "text": "+40 Stamina and +12 Agility",
    "note": "100% of surveyed players on this slot.",
    "name": "Nethercleft Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital"
+   "source": "Leatherworking Trainer — Faction Capital",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 29536
   },
   {
    "slot": "Feet",

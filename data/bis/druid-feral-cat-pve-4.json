@@ -314,6 +314,8 @@
    "slot": "Head",
    "text": "+34 attack power and +16 hit rating",
    "name": "Glyph of Ferocity",
+   "icon": "classic_ability_druid_demoralizingroar",
+   "itemId": 29192,
    "source": "Fedryen Swiftwpear — Zangarmarsh",
    "note": "Fedryen Swiftwpear — Zangarmarsh"
   },
@@ -321,6 +323,8 @@
    "slot": "Shoulders",
    "text": "+26 attack power",
    "name": "Inscription of Vengeance",
+   "icon": "spell_holy_fistofjustice",
+   "itemId": 28885,
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -356,6 +360,8 @@
    "slot": "Legs",
    "text": "+40 attack power and +10 critical strike rating",
    "name": "Cobrahide Leg Armor",
+   "icon": "inv_misc_armorkit_21",
+   "itemId": 29533,
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },

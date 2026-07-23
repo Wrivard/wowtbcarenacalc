@@ -365,6 +365,8 @@
    "slot": "Head",
    "text": "+34 attack power and +16 hit rating",
    "name": "Glyph of Ferocity",
+   "icon": "classic_ability_druid_demoralizingroar",
+   "itemId": 29192,
    "source": "Fedryen Swiftwpear — Zangarmarsh",
    "note": "Fedryen Swiftwpear — Zangarmarsh"
   },
@@ -372,6 +374,8 @@
    "slot": "Shoulders",
    "text": "+26 attack power and +14 critical strike rating",
    "name": "Might of the Scourge",
+   "icon": "spell_shadow_deathpact",
+   "itemId": 23548,
    "source": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)",
    "note": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)"
   },
@@ -407,6 +411,8 @@
    "slot": "Legs",
    "text": "+50 attack power and +12 critical strike rating",
    "name": "Nethercobra Leg Armor",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 29535,
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },
@@ -435,6 +441,8 @@
    "slot": "Ranged",
    "text": "Khorium Scope",
    "name": "Khorium Scope",
+   "icon": "inv_misc_spyglass_02",
+   "itemId": 23765,
    "source": "Engineering Trainer — Faction Capital",
    "note": "Engineering Trainer — Faction Capital"
   }

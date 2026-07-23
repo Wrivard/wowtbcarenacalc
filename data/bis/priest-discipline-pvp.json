@@ -389,7 +389,9 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "63% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City"
+   "source": "Almaador — Shattrath City",
+   "icon": "spell_nature_lightningoverload",
+   "itemId": 29191
   },
   {
    "slot": "Shoulders",
@@ -425,7 +427,9 @@
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Golden Spellthread",
-   "source": "Tailoring Trainer — Faction Capital"
+   "source": "Tailoring Trainer — Faction Capital",
+   "icon": "spell_holy_restoration",
+   "itemId": 24276
   },
   {
    "slot": "Feet",

@@ -401,6 +401,8 @@
    "slot": "Head",
    "text": "up to 22 spell damage and healing and +14 spell hit rating",
    "name": "Glyph of Power",
+   "icon": "spell_nature_lightningoverload",
+   "itemId": 29191,
    "source": "Almaador — Shattrath City",
    "note": "Almaador — Shattrath City"
   },
@@ -408,6 +410,8 @@
    "slot": "Shoulders",
    "text": "up to 18 spell damage and healing and +10 spell critical strike rating",
    "name": "Greater Inscription of Discipline",
+   "icon": "spell_holy_sealofwisdom",
+   "itemId": 28886,
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -443,6 +447,8 @@
    "slot": "Legs",
    "text": "+35 spell damage and healing and +20 Stamina",
    "name": "Runic Spellthread",
+   "icon": "spell_nature_astralrecalgroup",
+   "itemId": 24274,
    "source": "Tailoring Trainer — Faction Capital",
    "note": "Tailoring Trainer — Faction Capital"
   },

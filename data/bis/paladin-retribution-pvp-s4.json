@@ -313,14 +313,18 @@
    "text": "+17 Strength and +16 Intellect",
    "note": "96% of surveyed players on this slot.",
    "name": "Glyph of the Outcast",
-   "source": "Lower City Quartermaster — Shattrath City"
+   "source": "Lower City Quartermaster — Shattrath City",
+   "icon": "ability_rogue_masterofsubtlety",
+   "itemId": 30846
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
    "note": "78% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City"
+   "source": "Inscriber Saalyn — Shattrath City",
+   "icon": "spell_holy_greaterblessingofkings",
+   "itemId": 28888
   },
   {
    "slot": "Back",
@@ -355,7 +359,9 @@
    "text": "+50 Attack Power and +12 Critical Strike Rating",
    "note": "92% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital"
+   "source": "Leatherworking Trainer — Faction Capital",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 29535
   },
   {
    "slot": "Feet",

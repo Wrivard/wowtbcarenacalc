@@ -371,6 +371,8 @@
    "slot": "Head",
    "text": "+18 Stamina and +20 resilience rating",
    "name": "Glyph of the Gladiator",
+   "icon": "inv_misc_statue_04",
+   "itemId": 29193,
    "source": "Eldara Dawnrunner — Isle of Quel'Danas",
    "note": "Eldara Dawnrunner — Isle of Quel'Danas"
   },
@@ -378,6 +380,8 @@
    "slot": "Shoulders",
    "text": "+15 defense rating and +10 dodge rating",
    "name": "Greater Inscription of the Knight",
+   "icon": "spell_holy_championsgrace",
+   "itemId": 28911,
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },

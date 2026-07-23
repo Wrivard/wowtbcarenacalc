@@ -54,6 +54,11 @@ export interface BisList {
     note: string;
     /** Enchant/formula name, e.g. "Glyph of Ferocity". */
     name?: string;
+    /** Item-based enhancements (glyphs, inscriptions, leg armors, kits,
+     * scopes) are real items — their icon and id. Enchanter-cast formulas
+     * have neither and fall back to a slot icon. */
+    icon?: string;
+    itemId?: number;
     /** Where it comes from — vendor/rep/drop and its zone. */
     source?: string;
   }[];

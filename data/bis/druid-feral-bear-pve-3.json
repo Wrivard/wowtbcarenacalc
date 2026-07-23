@@ -418,6 +418,8 @@
    "slot": "Head",
    "text": "+16 defense rating and +17 dodge rating",
    "name": "Glyph of the Defender",
+   "icon": "ability_warrior_victoryrush",
+   "itemId": 29186,
    "source": "Alurmi — Caverns of Time",
    "note": "Alurmi — Caverns of Time"
   },
@@ -425,6 +427,8 @@
    "slot": "Shoulders",
    "text": "+15 dodge rating and +10 defense rating",
    "name": "Greater Inscription of Warding",
+   "icon": "classic_spell_holy_blessingofprotection",
+   "itemId": 28889,
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },

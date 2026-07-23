@@ -417,14 +417,18 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh"
+   "source": "Fedryen Swiftwpear — Zangarmarsh",
+   "icon": "classic_ability_druid_demoralizingroar",
+   "itemId": 29192
   },
   {
    "slot": "Shoulders",
    "text": "+15 Critical Strike Rating and +20 Attack Power",
    "note": "56% of surveyed players on this slot.",
    "name": "Greater Inscription of the Blade",
-   "source": "Inscriber Saalyn — Shattrath City"
+   "source": "Inscriber Saalyn — Shattrath City",
+   "icon": "spell_holy_weaponmastery",
+   "itemId": 28910
   },
   {
    "slot": "Back",
@@ -459,7 +463,9 @@
    "text": "+50 Attack Power and +12 Critical Strike Rating",
    "note": "86% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital"
+   "source": "Leatherworking Trainer — Faction Capital",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 29535
   },
   {
    "slot": "Feet",

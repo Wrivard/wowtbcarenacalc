@@ -226,14 +226,18 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City"
+   "source": "Almaador — Shattrath City",
+   "icon": "spell_nature_lightningoverload",
+   "itemId": 29191
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
    "note": "50% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City"
+   "source": "Inscriber Saalyn — Shattrath City",
+   "icon": "spell_holy_sealofwisdom",
+   "itemId": 28886
   },
   {
    "slot": "Back",
@@ -266,7 +270,9 @@
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital"
+   "source": "Tailoring Trainer — Faction Capital",
+   "icon": "spell_nature_astralrecalgroup",
+   "itemId": 24274
   },
   {
    "slot": "Feet",

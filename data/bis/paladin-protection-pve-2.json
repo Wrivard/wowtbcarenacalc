@@ -423,6 +423,8 @@
    "slot": "Head",
    "text": "+16 defense rating and +17 dodge rating",
    "name": "Glyph of the Defender",
+   "icon": "ability_warrior_victoryrush",
+   "itemId": 29186,
    "source": "Alurmi — Caverns of Time",
    "note": "Alurmi — Caverns of Time"
   },
@@ -430,6 +432,8 @@
    "slot": "Shoulders",
    "text": "+15 defense rating and +10 dodge rating",
    "name": "Greater Inscription of the Knight",
+   "icon": "spell_holy_championsgrace",
+   "itemId": 28911,
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -465,6 +469,8 @@
    "slot": "Legs",
    "text": "+40 Stamina and +12 Agility",
    "name": "Nethercleft Leg Armor",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 29536,
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },

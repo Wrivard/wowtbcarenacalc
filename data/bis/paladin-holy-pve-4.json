@@ -418,6 +418,8 @@
    "slot": "Head",
    "text": "up to 35 healing, +12 Spell Damage, and +7 mana per 5 sec",
    "name": "Glyph of Renewal",
+   "icon": "spell_holy_healingaura",
+   "itemId": 29190,
    "source": "Quartermaster — Hellfire Peninsula",
    "note": "Quartermaster — Hellfire Peninsula"
   },
@@ -425,6 +427,8 @@
    "slot": "Shoulders",
    "text": "up to 33 healing and +11 spell damage and +4 mana per 5 sec",
    "name": "Greater Inscription of Faith",
+   "icon": "spell_holy_greaterblessingofsalvation",
+   "itemId": 28887,
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -460,6 +464,8 @@
    "slot": "Legs",
    "text": "+66 healing, +22 spell damage, and +20 Stamina",
    "name": "Golden Spellthread",
+   "icon": "spell_holy_restoration",
+   "itemId": 24276,
    "source": "Tailoring Trainer — Faction Capital",
    "note": "Tailoring Trainer — Faction Capital"
   },

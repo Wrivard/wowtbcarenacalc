@@ -412,6 +412,8 @@
    "slot": "Head",
    "text": "up to 22 spell damage and healing and +14 spell hit rating",
    "name": "Glyph of Power",
+   "icon": "spell_nature_lightningoverload",
+   "itemId": 29191,
    "source": "Almaador — Shattrath City",
    "note": "Almaador — Shattrath City"
   },
@@ -419,6 +421,8 @@
    "slot": "Shoulders",
    "text": "Adds to a shoulder slot item increased damage and healing done by magical spells and effects up to 15 and also increases your spell critical strike rating by 14",
    "name": "Power of the Scourge",
+   "icon": "spell_shadow_darkritual",
+   "itemId": 23545,
    "source": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)",
    "note": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)"
   },
@@ -454,6 +458,8 @@
    "slot": "Legs",
    "text": "+35 spell damage and healing and +20 Stamina",
    "name": "Runic Spellthread",
+   "icon": "spell_nature_astralrecalgroup",
+   "itemId": 24274,
    "source": "Tailoring Trainer — Faction Capital",
    "note": "Tailoring Trainer — Faction Capital"
   },

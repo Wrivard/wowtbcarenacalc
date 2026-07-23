@@ -123,6 +123,60 @@ async function tooltip(kind, id) {
 const strip = (html) =>
   (html ?? "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 
+const SEARCH_URL = "https://www.wowhead.com/tbc/search/suggestions-template";
+
+/**
+ * Resolve an item-based enhancement (glyph, inscription, leg armor, armor
+ * kit, spellthread, scope) to its real item, by exact name.
+ *
+ * Head and shoulder enchants in TBC are consumable ITEMS with proper icons —
+ * the enchant SPELL behind them reports `classic_temp`. Only enchanter-cast
+ * formulas ("Enchant Cloak - Dodge") have no item; those keep a slot icon.
+ */
+async function searchItem(name) {
+  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  const file = path.join(CACHE_DIR, `search-${slug}.json`);
+  let json;
+  if (existsSync(file)) {
+    json = JSON.parse(await readFile(file, "utf8"));
+  } else {
+    try {
+      json = JSON.parse(
+        await fetchText(`${SEARCH_URL}?q=${encodeURIComponent(name)}`),
+      );
+    } catch (e) {
+      console.warn(`  search "${name}": ${e.message}`);
+      return null;
+    }
+    await writeFile(file, JSON.stringify(json));
+    await sleep(DELAY_MS);
+  }
+  const items = (json.results ?? []).filter((r) => r.type === 3 && r.name);
+  const want = name.toLowerCase();
+  // Exact first, then a tolerance of two edits: a few TBC spell names carry
+  // typos their item does not ("Stabilitzed" vs "Stabilized Eternium Scope").
+  const hit =
+    items.find((r) => r.name.toLowerCase() === want) ??
+    items.find((r) => editDistance(r.name.toLowerCase(), want) <= 2);
+  return hit ? { id: hit.id, icon: hit.icon, quality: hit.quality } : null;
+}
+
+function editDistance(a, b) {
+  if (Math.abs(a.length - b.length) > 2) return 99;
+  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    const row = [i];
+    for (let j = 1; j <= b.length; j++)
+      row[j] = Math.min(
+        prev[j] + 1,
+        row[j - 1] + 1,
+        prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+      );
+    prev = row;
+  }
+  return prev[b.length];
+}
+
 /**
  * Pull the "Permanently adds …" clause out of an enchant tooltip — that is
  * the effect players compare. Falls back to the enchant name when the
@@ -240,18 +294,24 @@ async function main() {
   console.log(`resolving ${spellIds.size} enchants + ${gemIds.size} gems…`);
 
   const enchantMeta = new Map();
+  const enchantItems = new Map();
   for (const id of spellIds) {
     const src = DATA.enchantSources[id];
     const tip = await tooltip("spell", id);
     const name = tip?.name ?? src?.name ?? `Enchant ${id}`;
-    // No icon is stored: the formulas' own spell icons are unusable (39 of 79
-    // share one generic scroll, 19 resolve to the `classic_temp` placeholder).
-    // The table anchors on an equipment-slot icon instead — see lib/icons.ts.
+    // The enchant SPELL's own icon is unusable (39 of 79 share one generic
+    // scroll, 19 are the `classic_temp` placeholder). Item-based enhancements
+    // — glyphs, inscriptions, leg armors, kits, scopes — carry a real icon on
+    // their item, so resolve that; enchanter-cast formulas have no item and
+    // fall back to a slot icon in the component (lib/icons.ts).
+    const item = /^Enchant\b/i.test(name) ? null : await searchItem(name);
     enchantMeta.set(id, {
       name,
       text: enchantEffect(tip, name),
       source: sourceNote(src),
+      ...(item ? { itemId: item.id, icon: item.icon } : {}),
     });
+    if (item) enchantItems.set(item.id, item);
   }
 
   // Gems render through <ItemLink>, which pulls the icon and quality colour
@@ -363,6 +423,8 @@ async function main() {
         slot: label,
         text: meta.text,
         name: meta.name,
+        ...(meta.icon ? { icon: meta.icon } : {}),
+        ...(meta.itemId ? { itemId: meta.itemId } : {}),
         ...(meta.source ? { source: meta.source } : {}),
         note: meta.source ?? "",
       });
@@ -458,7 +520,9 @@ async function main() {
       const meta = matchEnchant(e.slot, e.text);
       if (!meta) continue;
       e.name = meta.name;
-      delete e.icon; // superseded by the slot icon
+      if (meta.icon) e.icon = meta.icon;
+      else delete e.icon;
+      if (meta.itemId) e.itemId = meta.itemId;
       if (meta.source) e.source = meta.source;
       matched++;
       touched = true;
