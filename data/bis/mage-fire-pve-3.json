@@ -6,7 +6,7 @@
  "sampleSize": 240,
  "updatedAt": "2026-05-22",
  "blurb": "Fire Mage is the scaling monster of TBC casters: Fireball spam with Ignite munching crits into rolling burn damage, Combustion aligning with trinkets for windows that top meters. Weak in blues, terrifying in Sunwell gear — the phase progression below tells that story. This Phase 3 snapshot aggregates 240 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Belt of Blasting at 81% usage.",
- "statPriorityRationale": "Fire scales crit double through Ignite rollovers and Combustion — after the hit cap, crit rating is nearly equal in value to raw spell damage, a weighting unique to this spec.",
+ "statPriorityRationale": "T6 comfort shows in the numbers: Belt of Blasting jumps to 81% and Boots of Blasting to 63%, both pure damage-and-crit pieces with no hit tax attached. Once Black Temple and Hyjal gear covers the cap on its own, every remaining upgrade decision is a straight damage-vs-crit call, not a cap patch.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

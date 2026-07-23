@@ -6,7 +6,7 @@
  "sampleSize": 216,
  "updatedAt": "2026-05-22",
  "blurb": "Frost Mage is the safe pair of hands in a raid: one button, zero threat problems thanks to Ice Block resets, and Winter's Chill stacking crit chance for every other mage in the group. It gives up fire's ceiling for a floor no other caster matches. This Phase 3 snapshot aggregates 216 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Belt of Blasting at 77% usage.",
- "statPriorityRationale": "Deep frost raids on consistency: Empowered Frostbolt and Ice Shards make crit efficient, but the rotation never changes — cap hit, stack damage, and the meters take care of themselves.",
+ "statPriorityRationale": "Belt of Blasting climbs to 77% and Leggings of Tirisfal to 72%, both chosen for damage and intellect now that Black Temple and Hyjal gear covers hit without dedicated pieces. Ice Shards keeps crit efficient regardless, so the freed budget goes straight into the stats Deep Frost actually scales on.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

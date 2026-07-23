@@ -6,7 +6,7 @@
  "sampleSize": 374,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Priest is TBC's raid-healing workhorse: Circle of Healing spam on melee stacks, Prayer of Mending bouncing on cooldown, Renew weaving between. Throughput is never the problem — mana is, and this gear list is built around spirit regen as much as raw +healing. This Phase 1 snapshot aggregates 374 top healing parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Primal Mooncloth Belt at 79% usage.",
- "statPriorityRationale": "Circle of Healing costs nothing to aim and everything to sustain — spirit-based regen with Holy Concentration procs is what lets holy priests chain-cast through entire raid-damage phases.",
+ "statPriorityRationale": "Primal Mooncloth sweeping the belt, shoulder, and robe slots at 74-79% is the Kara/Gruul/Mag story - spirit-fed regen through Holy Concentration procs matters more than raw throughput when the loot pool is this shallow, so you take the set bonus over almost anything else.",
  "statPriority": [
   "Bonus Healing",
   "Spirit",

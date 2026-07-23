@@ -6,7 +6,7 @@
  "sampleSize": 268,
  "updatedAt": "2026-05-22",
  "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 3 snapshot aggregates 268 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Libram of Avengement at 98% usage.",
- "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriorityRationale": "T6 comfort shows in the gem list holding steady from P2 while Gloves of the Searing Grip climbs to 87% - hit and expertise are handled early now, so Shoulderpads of the Stranger and raw strength itemization are what actually separates a good Black Temple parse.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

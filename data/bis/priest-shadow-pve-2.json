@@ -6,7 +6,7 @@
  "sampleSize": 290,
  "updatedAt": "2026-05-22",
  "blurb": "Shadow Priest is the mana engine of every TBC caster group: Vampiric Touch converts your damage into the warlocks' mana bars, Misery buffs their hit. Your own rotation is dot upkeep plus Mind Flay filler, and the phase lists below balance personal scaling against the buff-bot mandate. This Phase 2 snapshot aggregates 290 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Orb of the Soul-Eater at 98% usage.",
- "statPriorityRationale": "Shadow's raid value is Vampiric Touch mana for the caster group — you hit-cap first because a resisted VT is a raid-wide regen loss, then stack shadow damage that scales every dot tick and Mind Flay channel.",
+ "statPriorityRationale": "Orb of the Soul-Eater hitting 98% in SSC/TK marks the point where a single trinket does more for your Mind Flay uptime than a full tier's worth of hit gear, letting shadow damage and crit finally compete once the 16% hit floor stops eating every upgrade.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

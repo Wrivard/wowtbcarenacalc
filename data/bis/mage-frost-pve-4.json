@@ -6,7 +6,7 @@
  "sampleSize": 282,
  "updatedAt": "2026-05-22",
  "blurb": "Frost Mage is the safe pair of hands in a raid: one button, zero threat problems thanks to Ice Block resets, and Winter's Chill stacking crit chance for every other mage in the group. It gives up fire's ceiling for a floor no other caster matches. This Phase 4 snapshot aggregates 282 top DPS parses from Zul'Aman; the highest-consensus pick is Gloves of the Tempest at 94% usage.",
- "statPriorityRationale": "Deep frost raids on consistency: Empowered Frostbolt and Ice Shards make crit efficient, but the rotation never changes — cap hit, stack damage, and the meters take care of themselves.",
+ "statPriorityRationale": "Zul'Aman's Tempest set claims the top slots — Gloves at 94%, Bracers of Nimble Thought at 93% — because a small tier patches the one or two weak pieces T6 left behind rather than replacing the set wholesale. Robes of the Tempest at 90% shows the same pattern: efficient stats, not raw upgrades.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

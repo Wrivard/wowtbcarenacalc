@@ -6,7 +6,7 @@
  "sampleSize": 197,
  "updatedAt": "2026-05-22",
  "blurb": "Subtlety (Hemo) Rogue is the niche raid pick: Hemorrhage's bleed-amplifying debuff buffs every warrior, rogue and feral hitting your target, at a real cost to your own parse. The players running it in top logs are debuff mules by choice — and this list is how they keep the personal damage respectable anyway. This Phase 2 snapshot aggregates 197 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Edgewalker Longboots at 86% usage.",
- "statPriorityRationale": "Hemo builds trade personal white damage for the Hemorrhage debuff feeding the raid's physical damage — agility leads after the hit cap because your finisher crits are where the personal numbers hide.",
+ "statPriorityRationale": "Edgewalker Longboots at 86% and Drape of the Dark Reavers show SSC/TK gear finally supplying agility without sacrificing hit, so your finisher crit numbers stop being incidental and start scaling with real itemization.",
  "statPriority": [
   "Hit Rating",
   "Agility",

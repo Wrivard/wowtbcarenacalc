@@ -6,7 +6,7 @@
  "sampleSize": 187,
  "updatedAt": "2026-05-22",
  "blurb": "Combat Swords is the standard raiding rogue of TBC: Sinister Strike, five-point Slice and Dice forever, Adrenaline Rush + Blade Flurry on cooldown. It is the most gear-forgiving melee spec in the game, and the phase lists below are the reason 'rogue' and 'swords' were synonyms for two years. This Phase 5 snapshot aggregates 187 top DPS parses from Sunwell Plateau; the highest-consensus pick is Slayer's Bracers at 97% usage.",
- "statPriorityRationale": "Combat's white-damage engine makes weapon-skill consistency king — hit and expertise before everything, because Sinister Strike dodges bleed rage-equivalent energy and break Slice uptime.",
+ "statPriorityRationale": "Sunwell's Glinting Pyrestone and Rigid Lionseye gems, paired with Slayer's Bracers and Gloves of Immortal Dusk both at 97%, mean caps are a non-issue — the list finally rewards stacking agility and AP for Sinister Strike's white-damage engine.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

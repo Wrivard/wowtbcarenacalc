@@ -6,7 +6,7 @@
  "sampleSize": 169,
  "updatedAt": "2026-05-22",
  "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 2 snapshot aggregates 169 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Edgewalker Longboots at 89% usage.",
- "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriorityRationale": "With Edgewalker Longboots and Deathmantle pieces flowing out of Serpentshrine and Tempest Keep, hit and expertise stop eating every itemization roll, so agility and AP finally show up on upgrades instead of just caps.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

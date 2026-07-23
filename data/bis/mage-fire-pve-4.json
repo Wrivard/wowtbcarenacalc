@@ -6,7 +6,7 @@
  "sampleSize": 301,
  "updatedAt": "2026-05-22",
  "blurb": "Fire Mage is the scaling monster of TBC casters: Fireball spam with Ignite munching crits into rolling burn damage, Combustion aligning with trinkets for windows that top meters. Weak in blues, terrifying in Sunwell gear — the phase progression below tells that story. This Phase 4 snapshot aggregates 301 top DPS parses from Zul'Aman; the highest-consensus pick is Gloves of the Tempest at 98% usage.",
- "statPriorityRationale": "Fire scales crit double through Ignite rollovers and Combustion — after the hit cap, crit rating is nearly equal in value to raw spell damage, a weighting unique to this spec.",
+ "statPriorityRationale": "Zul'Aman's Tempest set dominates adoption — Gloves of the Tempest at 98%, Bracers of Nimble Thought at 95% — because a small tier can't outgear T6 on raw stats, only on efficient hit-and-crit rolls badge gear doesn't match. You're filling the two or three slots ZA actually improves, not rebuilding the set.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

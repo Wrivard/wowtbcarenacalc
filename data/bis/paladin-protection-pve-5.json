@@ -6,7 +6,7 @@
  "sampleSize": 211,
  "updatedAt": "2026-05-22",
  "blurb": "Protection Paladin is the AoE tank TBC dungeons were built for: Consecration and Holy Shield generate unmatched multi-target threat, and mana returns from Spiritual Attunement keep the engine running. Uncrittable first, stamina second, then spell damage — the stat line that confuses every armory inspection. This Phase 5 snapshot aggregates 211 top DPS parses from Sunwell Plateau; the highest-consensus pick is Lightbringer Wristguards at 91% usage.",
- "statPriorityRationale": "Prot paladin threat is spell-damage-driven (Consecration, Holy Shield), so after the defense cap you gear a caster stat no other tank wants — which is exactly why AoE packs and heroics belong to you.",
+ "statPriorityRationale": "Lightbringer Wristguards lead at 91% with Waistguard and Handguards close behind, and Solid Empyrean Sapphire joins the gem lineup for pure spell damage now that defense and stamina are trivial to clear. Sunwell gear finally lets you gem for threat across the board instead of patching survivability.",
  "statPriority": [
   "Defense (490)",
   "Stamina",

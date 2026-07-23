@@ -6,7 +6,7 @@
  "sampleSize": 189,
  "updatedAt": "2026-05-22",
  "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 3 snapshot aggregates 189 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Deathmantle Legguards at 76% usage.",
- "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriorityRationale": "T6's Deathmantle Legguards and Drape of the Dark Reavers carry enough raw agility and AP that caps are a formality by Black Temple, so crit rating stops being an afterthought and starts moving your Mutilate and Deadly Poison numbers directly.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

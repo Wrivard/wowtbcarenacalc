@@ -6,7 +6,7 @@
  "sampleSize": 328,
  "updatedAt": "2026-05-22",
  "blurb": "Protection Paladin is the AoE tank TBC dungeons were built for: Consecration and Holy Shield generate unmatched multi-target threat, and mana returns from Spiritual Attunement keep the engine running. Uncrittable first, stamina second, then spell damage — the stat line that confuses every armory inspection. This Phase 1 snapshot aggregates 328 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Justicar Shoulderguards at 73% usage.",
- "statPriorityRationale": "Prot paladin threat is spell-damage-driven (Consecration, Holy Shield), so after the defense cap you gear a caster stat no other tank wants — which is exactly why AoE packs and heroics belong to you.",
+ "statPriorityRationale": "Justicar Shoulderguards, Faceguard and Chestguard all cluster near 71-73% because Karazhan barely offers enough plate to hit 490 defense, let alone fund the spell damage that drives Consecration threat — stamina and defense eat most of the budget before Holy Shield ever gets a real upgrade.",
  "statPriority": [
   "Defense (490)",
   "Stamina",

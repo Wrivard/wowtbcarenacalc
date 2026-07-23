@@ -6,7 +6,7 @@
  "sampleSize": 269,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Paladin is the tank-healing anchor of TBC raids: massive, mana-efficient Holy Lights aimed at one target while beacon-less single-target triage decides progression pulls. Gear is +healing and crit first — Illumination turns every crit into free mana. This Phase 3 snapshot aggregates 269 top healing parses from Black Temple and Mount Hyjal; the highest-consensus pick is Crystalforge Chestpiece at 84% usage.",
- "statPriorityRationale": "Illumination refunds mana on crits, making crit rating a regen stat — holy paladins uniquely value it alongside intellect, and raw +healing scales the Holy Light bombs that define the role.",
+ "statPriorityRationale": "Crystalforge Chestpiece leads at 84% alongside Boots of Courage Unending at 80%, both T6-adjacent pieces that stack bonus healing without forcing you off crit. Glorious Gauntlets of Crestfall at 78% rounds out a list where the Crystalforge set bonus, not raw stat scarcity, decides the gloves slot.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

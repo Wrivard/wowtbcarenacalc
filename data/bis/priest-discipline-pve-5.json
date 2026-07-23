@@ -6,7 +6,7 @@
  "sampleSize": 204,
  "updatedAt": "2026-05-22",
  "blurb": "Discipline Priest in PvE is the utility healer: Power Infusion on the top caster every two minutes, Pain Suppression for tank saves, shields that make spike damage disappear. Parses undersell it — the list below keeps your mana deep enough to spend on other people's cooldowns. This Phase 5 snapshot aggregates 204 top healing parses from Sunwell Plateau; the highest-consensus pick is Wand of Cleansing Light at 85% usage.",
- "statPriorityRationale": "Raid disc is a mana battery and single-target shield bot — Power Infusion on a warlock is worth more than your own casts some fights, so intellect and MP5 rank unusually high next to +healing.",
+ "statPriorityRationale": "Wand of Cleansing Light topping the Sunwell list at 85% alongside Delicate Crimson Spinel and Infused Shadowsong Amethyst in your sockets shows epic gems taking over where MP5 used to carry - bonus healing and intellect scale freely now that mana is a solved problem.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

@@ -6,7 +6,7 @@
  "sampleSize": 299,
  "updatedAt": "2026-05-22",
  "blurb": "Fury Warrior is TBC's premier melee raid DPS once gear arrives: Whirlwind and Bloodthirst on cooldown, Rampage rolling, heroic-strike rage dumping. The spec scales violently with gear — every phase list below is a meaningful step, and slow off-hands matter almost as much as your main hand. This Phase 4 snapshot aggregates 299 top DPS parses from Zul'Aman; the highest-consensus pick is Onslaught Shoulderblades at 96% usage.",
- "statPriorityRationale": "Dual-wield fury eats a 24% miss penalty on white swings, so hit rating is worth more to you than to any other melee until deep into the list; after caps, strength and crit feed Flurry and Rampage uptime.",
+ "statPriorityRationale": "Onslaught Shoulderblades at 96% and Onslaught Breastplate at 92% make Zul'Aman a near-mandatory strength and crit patch — the set fills gaps T5/T6 weapons left in Rampage uptime more than any raid boss drop does.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

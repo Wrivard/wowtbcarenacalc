@@ -6,7 +6,7 @@
  "sampleSize": 199,
  "updatedAt": "2026-05-22",
  "blurb": "Elemental Shaman pairs top-tier caster totems (Wrath of Air, Totem of Wrath) with a Lightning Bolt rotation simple enough to never miss a global. You are the caster group's second buff-bot after the shadow priest — and with the gear below, a genuine damage threat on top. This Phase 5 snapshot aggregates 199 top DPS parses from Sunwell Plateau; the highest-consensus pick is Skyshatter Bands at 89% usage.",
- "statPriorityRationale": "Lightning Bolt is 85% of your casts, so the list is one-dimensional on purpose: cap hit, then stack spell damage — crit follows naturally from Tidal Mastery and feeds Elemental Focus clearcasting.",
+ "statPriorityRationale": "Skyshatter Bands, Cord, and Treads clustering at 89% with Forceful Seaspray Emerald gems available shows Sunwell trivializing the hit cap, letting spell damage and crit rating drive Lightning Bolt scaling without any cap tax.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

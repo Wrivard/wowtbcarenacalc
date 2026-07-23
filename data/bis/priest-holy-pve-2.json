@@ -6,7 +6,7 @@
  "sampleSize": 273,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Priest is TBC's raid-healing workhorse: Circle of Healing spam on melee stacks, Prayer of Mending bouncing on cooldown, Renew weaving between. Throughput is never the problem — mana is, and this gear list is built around spirit regen as much as raw +healing. This Phase 2 snapshot aggregates 273 top healing parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Gloves of the Avatar at 84% usage.",
- "statPriorityRationale": "Circle of Healing costs nothing to aim and everything to sustain — spirit-based regen with Holy Concentration procs is what lets holy priests chain-cast through entire raid-damage phases.",
+ "statPriorityRationale": "Gloves and Mantle of the Avatar landing at 83-84% mark SSC/TK as the phase where the Avatar set bonus starts outranking individual stat upgrades, letting bonus healing and spirit finally separate from each other instead of moving together on every piece.",
  "statPriority": [
   "Bonus Healing",
   "Spirit",

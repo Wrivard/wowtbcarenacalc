@@ -6,7 +6,7 @@
  "sampleSize": 273,
  "updatedAt": "2026-05-22",
  "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 1 snapshot aggregates 273 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Malchazeen at 81% usage.",
- "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriorityRationale": "Karazhan-tier trinkets like Malchazeen and Choker of Vile Intent are how you scrape toward the hit and expertise caps at all, so agility and AP take a back seat to whatever badge or dungeon piece actually closes the gap — crit rating waits its turn.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

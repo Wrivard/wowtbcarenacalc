@@ -6,7 +6,7 @@
  "sampleSize": 198,
  "updatedAt": "2026-05-22",
  "blurb": "Shadow Priest is the mana engine of every TBC caster group: Vampiric Touch converts your damage into the warlocks' mana bars, Misery buffs their hit. Your own rotation is dot upkeep plus Mind Flay filler, and the phase lists below balance personal scaling against the buff-bot mandate. This Phase 5 snapshot aggregates 198 top DPS parses from Sunwell Plateau; the highest-consensus pick is Bracers of Absolution at 93% usage.",
- "statPriorityRationale": "Shadow's raid value is Vampiric Touch mana for the caster group — you hit-cap first because a resisted VT is a raid-wide regen loss, then stack shadow damage that scales every dot tick and Mind Flay channel.",
+ "statPriorityRationale": "Sunwell's Absolution set sweeping bracers, cord, and treads at 92-93% alongside Mystical Skyfire Diamond in your gems means hit is trivial to clear now, so shadow damage and haste scale freely off epic gem sockets instead of fighting the cap.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

@@ -6,7 +6,7 @@
  "sampleSize": 233,
  "updatedAt": "2026-05-22",
  "blurb": "Feral Bear is TBC's stat-stick tank: the biggest health pool and armor total in the game, trading crush-blocking for sheer effective health. Uncrittable via resilience or defense, then armor and stamina forever — with the bonus that your offset pieces are cat DPS gear. This Phase 3 snapshot aggregates 233 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Vindicator's Dragonhide Bracers at 91% usage.",
- "statPriorityRationale": "Bears can't block crushes, so they win by making hits small: armor cap at 35k+, a health pool warriors can't match, and agility that doubles as dodge and crit — the mitigation math is different from every other tank.",
+ "statPriorityRationale": "Vindicator's Dragonhide Bracers hit 91% pick rate on the back of T6 itemization, and with armor and stamina comfortably covered, agility's dodge and crit contribution finally moves the needle on threat and survival alike.",
  "statPriority": [
   "Armor",
   "Stamina",

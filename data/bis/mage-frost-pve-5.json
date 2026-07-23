@@ -6,7 +6,7 @@
  "sampleSize": 185,
  "updatedAt": "2026-05-22",
  "blurb": "Frost Mage is the safe pair of hands in a raid: one button, zero threat problems thanks to Ice Block resets, and Winter's Chill stacking crit chance for every other mage in the group. It gives up fire's ceiling for a floor no other caster matches. This Phase 5 snapshot aggregates 185 top DPS parses from Sunwell Plateau; the highest-consensus pick is Bracers of the Tempest at 92% usage.",
- "statPriorityRationale": "Deep frost raids on consistency: Empowered Frostbolt and Ice Shards make crit efficient, but the rotation never changes — cap hit, stack damage, and the meters take care of themselves.",
+ "statPriorityRationale": "Bracers, Belt and Boots of the Tempest all sit at 92% in Sunwell, and the epic gem shift to Runed Crimson Spinel and Forceful Seaspray Emerald means the cap is no longer a design constraint at all. Consistency was always Deep Frost's promise, and here the itemization finally has nothing left to compensate for.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

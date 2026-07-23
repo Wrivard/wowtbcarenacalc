@@ -6,7 +6,7 @@
  "sampleSize": 277,
  "updatedAt": "2026-05-22",
  "blurb": "Arms Warrior earns its raid spot with Blood Frenzy — a flat 4% physical damage buff for every melee in the group — while slam-weaving between swings for respectable personal numbers. The gear plan chases 2.2%+ weapon-speed two-handers and hit/expertise caps before raw strength. This Phase 2 snapshot aggregates 277 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Pendant of the Perilous at 75% usage.",
- "statPriorityRationale": "Arms in raids is a support DPS built around keeping Blood Frenzy's 4% physical damage buff active — you cap hit and expertise first because a dodged Mortal Strike is a rage crisis, then stack strength for slam-weave throughput.",
+ "statPriorityRationale": "Pendant of the Perilous leading SSC/TK at just 75% shows hit spreading across more slots instead of locking one mandatory piece, which finally lets Vengeance Wrap's strength profile compete for a slot instead of sitting on the bench.",
  "statPriority": [
   "Hit Rating (9%)",
   "Expertise",

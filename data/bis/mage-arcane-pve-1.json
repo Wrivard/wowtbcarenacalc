@@ -6,7 +6,7 @@
  "sampleSize": 375,
  "updatedAt": "2026-05-22",
  "blurb": "Arcane Mage in raids is a burn-phase specialist: Arcane Blast stacking with Presence of Mind and evocation weaving, mana management as the actual rotation. It shines on short fights and burst checks — the gear list keeps the pool deep enough to make the burn worth it. This Phase 1 snapshot aggregates 375 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellfire Robe at 81% usage.",
- "statPriorityRationale": "Arcane Blast stacks burn mana geometrically, so intellect is a throughput stat — your damage ceiling is your mana pool, and the list leans intellect harder than fire or frost ever would.",
+ "statPriorityRationale": "Spellfire Robe, Gloves, and Belt in Karazhan-tier gear go toward clearing the 16% hit cap first, so Chaotic Skyfire Diamond and Veiled Noble Topaz slots lean hit and spell damage while intellect's mana-pool payoff waits for a bigger budget.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

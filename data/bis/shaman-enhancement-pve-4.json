@@ -6,7 +6,7 @@
  "sampleSize": 320,
  "updatedAt": "2026-05-22",
  "blurb": "Enhancement Shaman is the heart of the TBC melee group: Windfury Totem multiplies every warrior's and rogue's output, Unleashed Rage adds AP on your crits, and your own stormstrike-windfury rolls put up real numbers. Melee groups are built around this spec — gear it like it matters. This Phase 4 snapshot aggregates 320 top DPS parses from Zul'Aman; the highest-consensus pick is Stonebreaker's Totem at 91% usage.",
- "statPriorityRationale": "Enhancement raids for Windfury Totem and Unleashed Rage — your own dual-wield windfury procs want the hit cap badly, and after it attack power scales both you and (through Unleashed Rage) your whole melee group on every crit.",
+ "statPriorityRationale": "Zul'Aman is a small tier, so Stonebreaker's Totem headlines a list built mostly from badge gear like Belt of One-Hundred Deaths and Midnight Chestguard, patching whatever slots the raid itself doesn't upgrade rather than replacing your T6 core.",
  "statPriority": [
   "Hit Rating",
   "Attack Power",

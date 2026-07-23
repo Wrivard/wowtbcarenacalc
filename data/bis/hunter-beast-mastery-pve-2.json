@@ -6,7 +6,7 @@
  "sampleSize": 291,
  "updatedAt": "2026-05-22",
  "blurb": "Beast Mastery is the top hunter raid spec of TBC — Serpent's Swiftness haste feeds a relentless auto-shot/steady-shot rotation while the pet contributes a third of your damage. The 1:1.5 macro rhythm is the skill test; the gear below is what the best parsers actually wear doing it. This Phase 2 snapshot aggregates 291 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Belt of Deep Shadow at 93% usage.",
- "statPriorityRationale": "BM's damage splits with the pet, but your auto-shot rotation still wants the 9% hit cap first; after that agility outscales raw AP through crit and Expose Weakness synergy in a typical raid comp.",
+ "statPriorityRationale": "SSC/TK gear like Rift Stalker Gauntlets and Belt of Deep Shadow lets you clear hit without gutting agility, so Wicked Flame Spessarite slots start earning their keep and the set bonuses on the Rift Stalker pieces tip item choices as much as raw stats do.",
  "statPriority": [
   "Hit Rating",
   "Agility",

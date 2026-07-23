@@ -6,7 +6,7 @@
  "sampleSize": 301,
  "updatedAt": "2026-05-22",
  "blurb": "Fury Warrior is TBC's premier melee raid DPS once gear arrives: Whirlwind and Bloodthirst on cooldown, Rampage rolling, heroic-strike rage dumping. The spec scales violently with gear — every phase list below is a meaningful step, and slow off-hands matter almost as much as your main hand. This Phase 1 snapshot aggregates 301 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Dragonmaw at 93% usage.",
- "statPriorityRationale": "Dual-wield fury eats a 24% miss penalty on white swings, so hit rating is worth more to you than to any other melee until deep into the list; after caps, strength and crit feed Flurry and Rampage uptime.",
+ "statPriorityRationale": "Dragonmaw topping Karazhan parses at 93% tells you the hit-heavy weapon is non-negotiable before anything else — with a 24% white-swing miss penalty looming, Warbringer Battle-Helm at 88% is chasing the same cap, not competing with it for a slot.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

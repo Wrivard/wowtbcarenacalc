@@ -6,7 +6,7 @@
  "sampleSize": 146,
  "updatedAt": "2026-05-22",
  "blurb": "Subtlety (Hemo) Rogue is the niche raid pick: Hemorrhage's bleed-amplifying debuff buffs every warrior, rogue and feral hitting your target, at a real cost to your own parse. The players running it in top logs are debuff mules by choice — and this list is how they keep the personal damage respectable anyway. This Phase 5 snapshot aggregates 146 top DPS parses from Sunwell Plateau; the highest-consensus pick is Slayer's Bracers at 90% usage.",
- "statPriorityRationale": "Hemo builds trade personal white damage for the Hemorrhage debuff feeding the raid's physical damage — agility leads after the hit cap because your finisher crits are where the personal numbers hide.",
+ "statPriorityRationale": "With Slayer's Bracers, Belt, and Boots clustered at 88-90% and Great Lionseye gems available, Sunwell removes any cap tension entirely, so agility and AP stacking drives your finisher-crit damage more than any prior phase.",
  "statPriority": [
   "Hit Rating",
   "Agility",

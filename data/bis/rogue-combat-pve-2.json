@@ -6,7 +6,7 @@
  "sampleSize": 281,
  "updatedAt": "2026-05-22",
  "blurb": "Combat Swords is the standard raiding rogue of TBC: Sinister Strike, five-point Slice and Dice forever, Adrenaline Rush + Blade Flurry on cooldown. It is the most gear-forgiving melee spec in the game, and the phase lists below are the reason 'rogue' and 'swords' were synonyms for two years. This Phase 2 snapshot aggregates 281 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Deathmantle Handguards at 97% usage.",
- "statPriorityRationale": "Combat's white-damage engine makes weapon-skill consistency king — hit and expertise before everything, because Sinister Strike dodges bleed rage-equivalent energy and break Slice uptime.",
+ "statPriorityRationale": "Deathmantle Handguards at 97% and Edgewalker Longboots at 96% signal SSC/TK itemization opening up — set bonuses now decide slots, and once hit and expertise are covered, agility and AP move the needle on Slice uptime damage.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

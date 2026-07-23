@@ -6,7 +6,7 @@
  "sampleSize": 268,
  "updatedAt": "2026-05-22",
  "blurb": "Arcane Mage in raids is a burn-phase specialist: Arcane Blast stacking with Presence of Mind and evocation weaving, mana management as the actual rotation. It shines on short fights and burst checks — the gear list keeps the pool deep enough to make the burn worth it. This Phase 3 snapshot aggregates 268 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Robes of Tirisfal at 97% usage.",
- "statPriorityRationale": "Arcane Blast stacks burn mana geometrically, so intellect is a throughput stat — your damage ceiling is your mana pool, and the list leans intellect harder than fire or frost ever would.",
+ "statPriorityRationale": "With Robes of Tirisfal and Mantle of Tirisfal comfortably capped in Black Temple gear, intellect gets to dominate the list the way Arcane Blast's mana curve always wanted, since spell damage and crit no longer have to compete for a scarce budget.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

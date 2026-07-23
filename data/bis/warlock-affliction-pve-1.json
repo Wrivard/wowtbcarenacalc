@@ -6,7 +6,7 @@
  "sampleSize": 346,
  "updatedAt": "2026-05-22",
  "blurb": "Affliction Warlock in raids is dot bookkeeping perfected: Unstable Affliction, Corruption, Siphon Life and Curse of Agony rolling while Shadow Bolts fill — with Malediction amplifying the whole caster raid's damage. It out-scales destruction early and hands over the crown late. This Phase 1 snapshot aggregates 346 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 85% usage.",
- "statPriorityRationale": "Five dots plus Malediction's curse amplification means every point of shadow damage ticks a dozen times — hit cap first (a resisted Unstable Affliction is catastrophic), then pure spell damage forever.",
+ "statPriorityRationale": "Spellstrike Pants and Frozen Shadoweave Boots barely clear 80% adoption because Karazhan-tier itemization is sparse for the 16% hit cap, forcing you toward crafted sets and Voidheart Crown just to stop Unstable Affliction from resisting on cooldown.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

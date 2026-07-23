@@ -6,7 +6,7 @@
  "sampleSize": 309,
  "updatedAt": "2026-05-22",
  "blurb": "Destruction Warlock is TBC's endgame caster king: Shadow Bolt machine-gunning with the Improved Shadow Bolt debuff feeding every other warlock's damage too. The spec's phase curve is the steepest in the game — mediocre in Karazhan gear, untouchable in Sunwell. This Phase 2 snapshot aggregates 309 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Belt of Blasting at 92% usage.",
- "statPriorityRationale": "Shadow Bolt spam with Improved Shadow Bolt debuff uptime rewards crit unusually well, and by late phases destruction becomes the highest-ceiling caster in the game — the list leans damage-crit over regen because fights end before mana does.",
+ "statPriorityRationale": "Belt of Blasting topping SSC/TK lists at 92% signals the shift — hit is now backed by dedicated damage pieces instead of leftover Kara gear, freeing crit and haste to matter again. Runed Living Ruby entering the gem list shows itemization finally supporting more than pure hit-capping.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow/Fire Damage",

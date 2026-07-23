@@ -6,7 +6,7 @@
  "sampleSize": 254,
  "updatedAt": "2026-05-22",
  "blurb": "Fury Warrior is TBC's premier melee raid DPS once gear arrives: Whirlwind and Bloodthirst on cooldown, Rampage rolling, heroic-strike rage dumping. The spec scales violently with gear — every phase list below is a meaningful step, and slow off-hands matter almost as much as your main hand. This Phase 2 snapshot aggregates 254 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Dragonstrike at 97% usage.",
- "statPriorityRationale": "Dual-wield fury eats a 24% miss penalty on white swings, so hit rating is worth more to you than to any other melee until deep into the list; after caps, strength and crit feed Flurry and Rampage uptime.",
+ "statPriorityRationale": "Dragonstrike jumping to 97% in SSC/TK shows the weapon slot fully solved, so Pendant of the Perilous at 76% is where the real fight for strength and crit against hit now happens instead of the main hand.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

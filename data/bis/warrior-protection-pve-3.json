@@ -6,7 +6,7 @@
  "sampleSize": 215,
  "updatedAt": "2026-05-22",
  "blurb": "Protection Warrior is the classic main tank: Shield Slam and Devastate threat, Shield Block smoothing crushes, the full toolkit of last stands and shield walls. The list prioritizes the defense cap, then converts shield block value into both threat and survival at once. This Phase 3 snapshot aggregates 215 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Vindicator's Plate Bracers at 75% usage.",
- "statPriorityRationale": "Uncrittable at 490 defense is non-negotiable; after that, shield block value doubles as threat (Shield Slam) and mitigation, which is why prot warriors gear block value where druids would stack armor.",
+ "statPriorityRationale": "Vindicator's Plate Bracers at 75% leading Black Temple parses shows defense is comfortably behind you by now — block value on Destroyer Chestguard and Legguards is doing double duty for threat and mitigation exactly as the spec intends.",
  "statPriority": [
   "Defense (490)",
   "Shield Block Value",

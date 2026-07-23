@@ -6,7 +6,7 @@
  "sampleSize": 386,
  "updatedAt": "2026-05-22",
  "blurb": "Elemental Shaman pairs top-tier caster totems (Wrath of Air, Totem of Wrath) with a Lightning Bolt rotation simple enough to never miss a global. You are the caster group's second buff-bot after the shadow priest — and with the gear below, a genuine damage threat on top. This Phase 1 snapshot aggregates 386 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Totem of the Void at 96% usage.",
- "statPriorityRationale": "Lightning Bolt is 85% of your casts, so the list is one-dimensional on purpose: cap hit, then stack spell damage — crit follows naturally from Tidal Mastery and feeds Elemental Focus clearcasting.",
+ "statPriorityRationale": "Totem of the Void at 96% adoption tells the story — Karazhan-tier trinkets are what get you to the 16% hit cap, so Netherstrike pieces fill the rest while spell damage stays scarce and crit rating waits behind it.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

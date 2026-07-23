@@ -6,7 +6,7 @@
  "sampleSize": 150,
  "updatedAt": "2026-05-22",
  "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 5 snapshot aggregates 150 top DPS parses from Sunwell Plateau; the highest-consensus pick is Slayer's Boots at 90% usage.",
- "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriorityRationale": "Sunwell's Great Lionseye and Rigid Lionseye gems push agility itemization further than any prior phase, and with Slayer's Boots, Bracers, and Belt all near 90%, caps are trivial — the list rewards raw agility and AP stacking above all.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

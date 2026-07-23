@@ -6,7 +6,7 @@
  "sampleSize": 335,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Priest is TBC's raid-healing workhorse: Circle of Healing spam on melee stacks, Prayer of Mending bouncing on cooldown, Renew weaving between. Throughput is never the problem — mana is, and this gear list is built around spirit regen as much as raw +healing. This Phase 4 snapshot aggregates 335 top healing parses from Zul'Aman; the highest-consensus pick is Boots of the Divine Light at 88% usage.",
- "statPriorityRationale": "Circle of Healing costs nothing to aim and everything to sustain — spirit-based regen with Holy Concentration procs is what lets holy priests chain-cast through entire raid-damage phases.",
+ "statPriorityRationale": "Zul'Aman's Boots of the Divine Light leading at 88% over any Avatar piece shows this tier patching gaps rather than replacing your T6 core - a small addition that fills spirit and MP5 holes badge gear left behind.",
  "statPriority": [
   "Bonus Healing",
   "Spirit",

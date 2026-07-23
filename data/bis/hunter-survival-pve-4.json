@@ -6,7 +6,7 @@
  "sampleSize": 298,
  "updatedAt": "2026-05-22",
  "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 4 snapshot aggregates 298 top DPS parses from Zul'Aman; the highest-consensus pick is Gronnstalker's Gloves at 97% usage.",
- "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriorityRationale": "Zul'Aman's Gronnstalker's Gloves and Spaulders round out agility-heavy slots the small tier doesn't fully replace, with badge pieces covering hit so Expose Weakness keeps multiplying across the raid without a stat-budget hit.",
  "statPriority": [
   "Agility",
   "Hit Rating",

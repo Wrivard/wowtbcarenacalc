@@ -6,7 +6,7 @@
  "sampleSize": 195,
  "updatedAt": "2026-05-22",
  "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 5 snapshot aggregates 195 top DPS parses from Sunwell Plateau; the highest-consensus pick is Gronnstalker's Bracers at 94% usage.",
- "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriorityRationale": "Sunwell's Gronnstalker's Bracers and Boots free you to run Bold Crimson Spinel and Steady Seaspray Emerald over hit gems, so agility's raid-wide multiplier through Expose Weakness finally runs at full strength.",
  "statPriority": [
   "Agility",
   "Hit Rating",

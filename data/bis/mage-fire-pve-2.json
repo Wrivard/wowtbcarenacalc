@@ -6,7 +6,7 @@
  "sampleSize": 289,
  "updatedAt": "2026-05-22",
  "blurb": "Fire Mage is the scaling monster of TBC casters: Fireball spam with Ignite munching crits into rolling burn damage, Combustion aligning with trinkets for windows that top meters. Weak in blues, terrifying in Sunwell gear — the phase progression below tells that story. This Phase 2 snapshot aggregates 289 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Ruby Drape of the Mysticant at 58% usage.",
- "statPriorityRationale": "Fire scales crit double through Ignite rollovers and Combustion — after the hit cap, crit rating is nearly equal in value to raw spell damage, a weighting unique to this spec.",
+ "statPriorityRationale": "With hit easier to fill from SSC/TK drops, Ruby Drape of the Mysticant and Belt of Blasting push past 50% adoption purely on damage-and-crit rolls rather than cap-filling. Itemization finally lets you chase Ignite rollovers instead of just reaching 16%, and the crit/damage tradeoff starts to matter slot by slot.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

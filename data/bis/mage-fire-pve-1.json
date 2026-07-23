@@ -6,7 +6,7 @@
  "sampleSize": 357,
  "updatedAt": "2026-05-22",
  "blurb": "Fire Mage is the scaling monster of TBC casters: Fireball spam with Ignite munching crits into rolling burn damage, Combustion aligning with trinkets for windows that top meters. Weak in blues, terrifying in Sunwell gear — the phase progression below tells that story. This Phase 1 snapshot aggregates 357 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellfire Robe at 92% usage.",
- "statPriorityRationale": "Fire scales crit double through Ignite rollovers and Combustion — after the hit cap, crit rating is nearly equal in value to raw spell damage, a weighting unique to this spec.",
+ "statPriorityRationale": "Karazhan's budget forces trade-offs: Spellfire Robe, Gloves and Belt all sit near 91-92% because the set bonus is the only way to close the hit gap without gutting damage. Every piece still fights the 16% cap, so crit rating from badge and dungeon drops has to wait its turn behind raw spell damage.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

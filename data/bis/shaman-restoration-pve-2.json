@@ -6,7 +6,7 @@
  "sampleSize": 308,
  "updatedAt": "2026-05-22",
  "blurb": "Restoration Shaman is TBC's raid-healing multiplier: Chain Heal hits three targets per cast and Earth Shield frees a tank healer's globals, while Mana Tide bails out the whole group's healers. The phase lists below are Chain-Heal-first — bounce healing scales harder with +healing than any single-target spell. This Phase 2 snapshot aggregates 308 top healing parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Totem of Healing Rains at 95% usage.",
- "statPriorityRationale": "Chain Heal is the entire job — +healing scales every bounce, and MP5 is the sustain stat because resto shamans cast more heals per fight than anyone else in the raid.",
+ "statPriorityRationale": "Totem of Healing Rains jumps to 95% once Girdle of Fallen Stars and Aegis of the Vindicator open up spirit and bonus healing options SSC and TK provide, letting you finally chase MP5 past the bare sustain floor Karazhan forced on you.",
  "statPriority": [
   "Bonus Healing",
   "MP5",

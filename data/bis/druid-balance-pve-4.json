@@ -6,7 +6,7 @@
  "sampleSize": 324,
  "updatedAt": "2026-05-22",
  "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 4 snapshot aggregates 324 top DPS parses from Zul'Aman; the highest-consensus pick is Bracers of Nimble Thought at 94% usage.",
- "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriorityRationale": "Zul'Aman is a small tier, so Thunderheart pieces and Bracers of Nimble Thought at 91-94% pick rate are patching weak slots rather than defining the set. Caps are trivial by now, which means the list is basically a badge-gear shopping trip for spell damage.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

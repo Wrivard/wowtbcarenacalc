@@ -6,7 +6,7 @@
  "sampleSize": 313,
  "updatedAt": "2026-05-22",
  "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 2 snapshot aggregates 313 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Belt of Blasting at 91% usage.",
- "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriorityRationale": "Belt of Blasting and the Nordrassil pieces put hit and damage on the same items, so the cap stops eating your whole itemization budget the way it did in Karazhan. With caps easier to clear, you can finally chase raw spell damage on rings and trinkets instead of settling.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

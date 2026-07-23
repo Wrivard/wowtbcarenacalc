@@ -6,7 +6,7 @@
  "sampleSize": 316,
  "updatedAt": "2026-05-22",
  "blurb": "Arms Warrior earns its raid spot with Blood Frenzy — a flat 4% physical damage buff for every melee in the group — while slam-weaving between swings for respectable personal numbers. The gear plan chases 2.2%+ weapon-speed two-handers and hit/expertise caps before raw strength. This Phase 4 snapshot aggregates 316 top DPS parses from Zul'Aman; the highest-consensus pick is Onslaught Shoulderblades at 86% usage.",
- "statPriorityRationale": "Arms in raids is a support DPS built around keeping Blood Frenzy's 4% physical damage buff active — you cap hit and expertise first because a dodged Mortal Strike is a rage crisis, then stack strength for slam-weave throughput.",
+ "statPriorityRationale": "Onslaught Shoulderblades at 86% and Onslaught Breastplate at 83% dominate Zul'Aman parses because the tier's set patches the exact strength and hit gaps T5/T6 left open — Blood Frenzy uptime gets easier to hold with a full Onslaught frame.",
  "statPriority": [
   "Hit Rating (9%)",
   "Expertise",

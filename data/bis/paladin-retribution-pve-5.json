@@ -6,7 +6,7 @@
  "sampleSize": 207,
  "updatedAt": "2026-05-22",
  "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 5 snapshot aggregates 207 top DPS parses from Sunwell Plateau; the highest-consensus pick is Lightbringer Bands at 94% usage.",
- "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriorityRationale": "Sunwell flips the wishlist entirely - Lightbringer Bands and Lightbringer Girdle both sit at 94% and Teardrop Crimson Spinel joins your sockets, meaning strength and crit finally scale hard once hit and expertise stop being a fight, the first phase where secondary stats decide your parse.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

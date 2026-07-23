@@ -14,6 +14,7 @@ import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { PVE_EDITORIAL } from "./pve-editorial.mjs";
+import { PVE_PHASE_EDITORIAL } from "./pve-phase-editorial.mjs";
 
 const SNAPSHOT_URL = "https://tbc-bis-guide.com/js/wcl-data.js?v=20260522b";
 const TOOLTIP_BASE = "https://nether.wowhead.com/tbc/tooltip/item";
@@ -211,7 +212,12 @@ async function main() {
         sampleSize: spec.totalPlayers,
         updatedAt,
         blurb: `${editorial.blurb} This Phase ${phase} snapshot aggregates ${spec.totalPlayers} top ${metric} from ${PHASE_RAIDS[phase]}${topPick ? `; the highest-consensus pick is ${topPick.name} at ${topPick.usagePct}% usage` : ""}.`,
-        statPriorityRationale: editorial.rationale,
+        // Per-phase prose when it exists, else the spec-wide line. What the
+        // gear budget lets you do changes between tiers even though the stat
+        // order does not — see scripts/pve-phase-editorial.mjs.
+        statPriorityRationale:
+          PVE_PHASE_EDITORIAL[`${classSlug}/${specSlug}`]?.[Number(phase)] ??
+          editorial.rationale,
         statPriority: editorial.statPriority,
         slots: orderedSlots,
         gems: [],

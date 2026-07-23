@@ -6,7 +6,7 @@
  "sampleSize": 284,
  "updatedAt": "2026-05-22",
  "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 3 snapshot aggregates 284 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Nordrassil Wrath-Mantle at 89% usage.",
- "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriorityRationale": "Nordrassil Wrath-Mantle and Headpiece sit near 90% pick rate because T6 lets you hit cap without giving up a single damage slot. With hit solved by tier alone, crit becomes the stat that separates a good Balance druid from a great one this phase.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

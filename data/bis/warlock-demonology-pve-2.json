@@ -6,7 +6,7 @@
  "sampleSize": 259,
  "updatedAt": "2026-05-22",
  "blurb": "Demonology Warlock raids for Demonic Knowledge scaling and flexibility: felguard out for personal damage or sacrificed for the shadow bonus depending on the fight. It is the bridge build — competitive numbers plus the option to soulstone-battery utility roles no pure spec covers. This Phase 2 snapshot aggregates 259 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Belt of Blasting at 74% usage.",
- "statPriorityRationale": "Demonic Sacrifice or felguard uptime defines the build's math; either way your spell damage carries a pet multiplier, and Demonic Knowledge converts stamina and intellect into damage — the only DPS caster that scales off stamina.",
+ "statPriorityRationale": "Belt of Blasting and Leggings of the Corruptor land in the 65-74% range because SSC/TK gear finally carries meaningful stamina alongside shadow damage, letting Demonic Knowledge convert more of your budget into damage than Karazhan's thin itemization allowed.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

@@ -6,7 +6,7 @@
  "sampleSize": 196,
  "updatedAt": "2026-05-22",
  "blurb": "Fury Warrior is TBC's premier melee raid DPS once gear arrives: Whirlwind and Bloodthirst on cooldown, Rampage rolling, heroic-strike rage dumping. The spec scales violently with gear — every phase list below is a meaningful step, and slow off-hands matter almost as much as your main hand. This Phase 5 snapshot aggregates 196 top DPS parses from Sunwell Plateau; the highest-consensus pick is Onslaught Bracers at 95% usage.",
- "statPriorityRationale": "Dual-wield fury eats a 24% miss penalty on white swings, so hit rating is worth more to you than to any other melee until deep into the list; after caps, strength and crit feed Flurry and Rampage uptime.",
+ "statPriorityRationale": "Onslaught Bracers, Belt and Treads clustering at 94-95% in Sunwell mean the set is locked fast, and Teardrop Crimson Spinel plus Inscribed Pyrestone push gemming straight into strength and crit for Flurry-fed burst.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

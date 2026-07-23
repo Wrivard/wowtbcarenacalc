@@ -6,7 +6,7 @@
  "sampleSize": 359,
  "updatedAt": "2026-05-22",
  "blurb": "Restoration Druid is TBC's tank-HoT machine: triple-stacked Lifeblooms rolling on two tanks, Rejuvenation blanketing the raid, Swiftmend saves in between. Tree of Life turns your gear into the group's throughput — the phase lists below stack the +healing and spirit that aura wants. This Phase 1 snapshot aggregates 359 top healing parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Idol of the Emerald Queen at 94% usage.",
- "statPriorityRationale": "Lifebloom stacks tick off +healing with absurd coefficient efficiency, and the Tree of Life aura converts your spirit into the whole party's healing — two reasons resto druids gear differently from every other healer.",
+ "statPriorityRationale": "Idol of the Emerald Queen dominates at 94% because Karazhan gives resto druids almost nothing else that boosts Lifebloom's coefficient, and Forestlord Striders' 69% pick rate shows how thin the bonus-healing options are at this stage.",
  "statPriority": [
   "Bonus Healing",
   "Spirit",

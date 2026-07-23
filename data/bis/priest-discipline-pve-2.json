@@ -6,7 +6,7 @@
  "sampleSize": 225,
  "updatedAt": "2026-05-22",
  "blurb": "Discipline Priest in PvE is the utility healer: Power Infusion on the top caster every two minutes, Pain Suppression for tank saves, shields that make spike damage disappear. Parses undersell it — the list below keeps your mana deep enough to spend on other people's cooldowns. This Phase 2 snapshot aggregates 225 top healing parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Gloves of the Avatar at 88% usage.",
- "statPriorityRationale": "Raid disc is a mana battery and single-target shield bot — Power Infusion on a warlock is worth more than your own casts some fights, so intellect and MP5 rank unusually high next to +healing.",
+ "statPriorityRationale": "Gloves of the Avatar and Mantle of the Avatar jumping to 83-88% mark SSC/TK as where the Avatar set starts deciding slots outright, letting bonus healing and intellect climb together instead of MP5 alone carrying your mana game.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

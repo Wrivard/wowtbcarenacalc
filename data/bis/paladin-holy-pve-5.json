@@ -6,7 +6,7 @@
  "sampleSize": 235,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Paladin is the tank-healing anchor of TBC raids: massive, mana-efficient Holy Lights aimed at one target while beacon-less single-target triage decides progression pulls. Gear is +healing and crit first — Illumination turns every crit into free mana. This Phase 5 snapshot aggregates 235 top healing parses from Sunwell Plateau; the highest-consensus pick is Lightbringer Belt at 79% usage.",
- "statPriorityRationale": "Illumination refunds mana on crits, making crit rating a regen stat — holy paladins uniquely value it alongside intellect, and raw +healing scales the Holy Light bombs that define the role.",
+ "statPriorityRationale": "Lightbringer Belt and Treads tie at 79% while the gem list swaps in Delicate Crimson Spinel for crit efficiency now that mana regen is no longer the constraint it was in Karazhan. Sunwell's small additions round out a kit where Illumination's crit refund can finally be pushed harder than raw MP5.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

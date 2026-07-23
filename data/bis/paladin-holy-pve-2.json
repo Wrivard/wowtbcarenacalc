@@ -6,7 +6,7 @@
  "sampleSize": 276,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Paladin is the tank-healing anchor of TBC raids: massive, mana-efficient Holy Lights aimed at one target while beacon-less single-target triage decides progression pulls. Gear is +healing and crit first — Illumination turns every crit into free mana. This Phase 2 snapshot aggregates 276 top healing parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Boots of Courage Unending at 86% usage.",
- "statPriorityRationale": "Illumination refunds mana on crits, making crit rating a regen stat — holy paladins uniquely value it alongside intellect, and raw +healing scales the Holy Light bombs that define the role.",
+ "statPriorityRationale": "Boots of Courage Unending jumps to 86% as SSC/TK finally offers a healing-caster boot slot worth wearing, with Crystalforge Pauldrons and Aegis of the Vindicator close behind once set bonuses start deciding equips rather than raw stat count. Illumination's crit refund gets easier to lean on with more crit on the table.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

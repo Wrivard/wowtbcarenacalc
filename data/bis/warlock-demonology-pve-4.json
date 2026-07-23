@@ -6,7 +6,7 @@
  "sampleSize": 243,
  "updatedAt": "2026-05-22",
  "blurb": "Demonology Warlock raids for Demonic Knowledge scaling and flexibility: felguard out for personal damage or sacrificed for the shadow bonus depending on the fight. It is the bridge build — competitive numbers plus the option to soulstone-battery utility roles no pure spec covers. This Phase 4 snapshot aggregates 243 top DPS parses from Zul'Aman; the highest-consensus pick is Bracers of Nimble Thought at 91% usage.",
- "statPriorityRationale": "Demonic Sacrifice or felguard uptime defines the build's math; either way your spell damage carries a pet multiplier, and Demonic Knowledge converts stamina and intellect into damage — the only DPS caster that scales off stamina.",
+ "statPriorityRationale": "Bracers of Nimble Thought lead at 91% while Gloves and Hood of the Malefic fill in behind them, since Zul'Aman offers little stamina gear and badge items end up doing more for Demonic Knowledge's conversion than the raid does.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

@@ -6,7 +6,7 @@
  "sampleSize": 222,
  "updatedAt": "2026-05-22",
  "blurb": "Discipline Priest in PvE is the utility healer: Power Infusion on the top caster every two minutes, Pain Suppression for tank saves, shields that make spike damage disappear. Parses undersell it — the list below keeps your mana deep enough to spend on other people's cooldowns. This Phase 3 snapshot aggregates 222 top healing parses from Black Temple and Mount Hyjal; the highest-consensus pick is Gloves of the Avatar at 94% usage.",
- "statPriorityRationale": "Raid disc is a mana battery and single-target shield bot — Power Infusion on a warlock is worth more than your own casts some fights, so intellect and MP5 rank unusually high next to +healing.",
+ "statPriorityRationale": "Black Temple pushes the Avatar set past 90% across gloves, mantle, and vestments, and with only Insightful Earthstorm Diamond left on the gem list, itemization is dense enough that bonus healing finally leads without MP5 propping up every choice.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

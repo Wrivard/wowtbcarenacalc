@@ -6,7 +6,7 @@
  "sampleSize": 341,
  "updatedAt": "2026-05-22",
  "blurb": "Shadow Priest is the mana engine of every TBC caster group: Vampiric Touch converts your damage into the warlocks' mana bars, Misery buffs their hit. Your own rotation is dot upkeep plus Mind Flay filler, and the phase lists below balance personal scaling against the buff-bot mandate. This Phase 1 snapshot aggregates 341 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Frozen Shadoweave Shoulders at 95% usage.",
- "statPriorityRationale": "Shadow's raid value is Vampiric Touch mana for the caster group — you hit-cap first because a resisted VT is a raid-wide regen loss, then stack shadow damage that scales every dot tick and Mind Flay channel.",
+ "statPriorityRationale": "Frozen Shadoweave sweeping shoulders, robe, and boots at 94-95% is the whole Kara/Gruul/Mag story - the set bonus is so far ahead of anything else available that you build around it first and worry about shadow damage scaling second.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

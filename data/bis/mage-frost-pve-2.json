@@ -6,7 +6,7 @@
  "sampleSize": 270,
  "updatedAt": "2026-05-22",
  "blurb": "Frost Mage is the safe pair of hands in a raid: one button, zero threat problems thanks to Ice Block resets, and Winter's Chill stacking crit chance for every other mage in the group. It gives up fire's ceiling for a floor no other caster matches. This Phase 2 snapshot aggregates 270 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Belt of Blasting at 53% usage.",
- "statPriorityRationale": "Deep frost raids on consistency: Empowered Frostbolt and Ice Shards make crit efficient, but the rotation never changes — cap hit, stack damage, and the meters take care of themselves.",
+ "statPriorityRationale": "Belt of Blasting overtakes at 53% as SSC/TK opens up hit sources beyond a single BiS piece, letting Ruby Drape of the Mysticant and Icon of the Silver Crescent compete on pure spell damage instead of cap-filling. The list stops being a scramble to 16% and starts rewarding straight intellect-and-damage stacking.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

@@ -6,7 +6,7 @@
  "sampleSize": 251,
  "updatedAt": "2026-05-22",
  "blurb": "Protection Warrior is the classic main tank: Shield Slam and Devastate threat, Shield Block smoothing crushes, the full toolkit of last stands and shield walls. The list prioritizes the defense cap, then converts shield block value into both threat and survival at once. This Phase 2 snapshot aggregates 251 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Dragonstrike at 65% usage.",
- "statPriorityRationale": "Uncrittable at 490 defense is non-negotiable; after that, shield block value doubles as threat (Shield Slam) and mitigation, which is why prot warriors gear block value where druids would stack armor.",
+ "statPriorityRationale": "Dragonstrike and Serpentshrine Shuriken both clearing 64%+ in SSC/TK mean block value finally has dedicated pieces to chase instead of riding leftover defense gear, so Shield Slam threat starts scaling the way it's meant to.",
  "statPriority": [
   "Defense (490)",
   "Shield Block Value",

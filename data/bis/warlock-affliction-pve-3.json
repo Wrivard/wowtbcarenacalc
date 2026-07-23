@@ -6,7 +6,7 @@
  "sampleSize": 270,
  "updatedAt": "2026-05-22",
  "blurb": "Affliction Warlock in raids is dot bookkeeping perfected: Unstable Affliction, Corruption, Siphon Life and Curse of Agony rolling while Shadow Bolts fill — with Malediction amplifying the whole caster raid's damage. It out-scales destruction early and hands over the crown late. This Phase 3 snapshot aggregates 270 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Belt of Blasting at 98% usage.",
- "statPriorityRationale": "Five dots plus Malediction's curse amplification means every point of shadow damage ticks a dozen times — hit cap first (a resisted Unstable Affliction is catastrophic), then pure spell damage forever.",
+ "statPriorityRationale": "Belt of Blasting hits 98% and Boots of Blasting joins it because T6 gear holds the hit cap comfortably, letting the list shift almost entirely toward stacking shadow damage instead of patching resist chances the way Karazhan gear did.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

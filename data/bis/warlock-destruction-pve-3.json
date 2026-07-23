@@ -6,7 +6,7 @@
  "sampleSize": 284,
  "updatedAt": "2026-05-22",
  "blurb": "Destruction Warlock is TBC's endgame caster king: Shadow Bolt machine-gunning with the Improved Shadow Bolt debuff feeding every other warlock's damage too. The spec's phase curve is the steepest in the game — mediocre in Karazhan gear, untouchable in Sunwell. This Phase 3 snapshot aggregates 284 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Belt of Blasting at 97% usage.",
- "statPriorityRationale": "Shadow Bolt spam with Improved Shadow Bolt debuff uptime rewards crit unusually well, and by late phases destruction becomes the highest-ceiling caster in the game — the list leans damage-crit over regen because fights end before mana does.",
+ "statPriorityRationale": "Hyjal and Black Temple push Belt of Blasting to 97%, meaning hit is a solved problem by now and the list is doing real work below it — Vestments of the Sea-Witch at 79% shows set bonuses competing with raw stats, letting crit and haste decide the last few slots.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow/Fire Damage",

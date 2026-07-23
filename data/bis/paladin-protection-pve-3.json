@@ -6,7 +6,7 @@
  "sampleSize": 262,
  "updatedAt": "2026-05-22",
  "blurb": "Protection Paladin is the AoE tank TBC dungeons were built for: Consecration and Holy Shield generate unmatched multi-target threat, and mana returns from Spiritual Attunement keep the engine running. Uncrittable first, stamina second, then spell damage — the stat line that confuses every armory inspection. This Phase 3 snapshot aggregates 262 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is The Darkener's Grasp at 88% usage.",
- "statPriorityRationale": "Prot paladin threat is spell-damage-driven (Consecration, Holy Shield), so after the defense cap you gear a caster stat no other tank wants — which is exactly why AoE packs and heroics belong to you.",
+ "statPriorityRationale": "The Darkener's Grasp hits 88% and Libram of Repentance 68%, both spell-damage-forward picks now that Black Temple and Hyjal gear clears 490 defense without dedicated slots. Consecration and Holy Shield threat finally scale off gear chosen for damage, not cap math, which is why AoE-heavy fights favor this kit.",
  "statPriority": [
   "Defense (490)",
   "Stamina",

@@ -6,7 +6,7 @@
  "sampleSize": 196,
  "updatedAt": "2026-05-22",
  "blurb": "Demonology Warlock raids for Demonic Knowledge scaling and flexibility: felguard out for personal damage or sacrificed for the shadow bonus depending on the fight. It is the bridge build — competitive numbers plus the option to soulstone-battery utility roles no pure spec covers. This Phase 3 snapshot aggregates 196 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Belt of Blasting at 92% usage.",
- "statPriorityRationale": "Demonic Sacrifice or felguard uptime defines the build's math; either way your spell damage carries a pet multiplier, and Demonic Knowledge converts stamina and intellect into damage — the only DPS caster that scales off stamina.",
+ "statPriorityRationale": "Belt of Blasting reaches 92% and Leggings of the Corruptor 86% as T6 stamina itemization matures, pushing The Sun King's Talisman into the mix and letting Demonic Knowledge's conversion carry more weight than in any prior tier.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

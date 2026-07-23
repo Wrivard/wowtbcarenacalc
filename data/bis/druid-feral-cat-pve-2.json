@@ -6,7 +6,7 @@
  "sampleSize": 250,
  "updatedAt": "2026-05-22",
  "blurb": "Feral Cat is the highest-skill melee rotation in TBC: powershifting out of form every few seconds for Wolfshead energy, Mangle and Rip upkeep in between, and an instant off-tank switch nobody else offers. The phase lists double as your bear offset — one gear track, two jobs. This Phase 2 snapshot aggregates 250 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Wolfshead Helm at 98% usage.",
- "statPriorityRationale": "Cat DPS is powershifting — burning mana into Wolfshead energy procs — so agility (crit + dodge for the bear set you also carry) edges strength, and the hit cap protects a rotation with zero rage-style resource insurance.",
+ "statPriorityRationale": "With Wolfshead Helm still anchoring the set at 98%, SSC/TK opens up agility itemization on pieces like Edgewalker Longboots, so once hit is covered you're finally gearing the shift-fueling stats instead of just patching the cap.",
  "statPriority": [
   "Hit Rating",
   "Agility",

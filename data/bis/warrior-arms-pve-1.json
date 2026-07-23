@@ -6,7 +6,7 @@
  "sampleSize": 359,
  "updatedAt": "2026-05-22",
  "blurb": "Arms Warrior earns its raid spot with Blood Frenzy — a flat 4% physical damage buff for every melee in the group — while slam-weaving between swings for respectable personal numbers. The gear plan chases 2.2%+ weapon-speed two-handers and hit/expertise caps before raw strength. This Phase 1 snapshot aggregates 359 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Warbringer Battle-Helm at 86% usage.",
- "statPriorityRationale": "Arms in raids is a support DPS built around keeping Blood Frenzy's 4% physical damage buff active — you cap hit and expertise first because a dodged Mortal Strike is a rage crisis, then stack strength for slam-weave throughput.",
+ "statPriorityRationale": "Warbringer Battle-Helm at 86% is nearly the only real hit source in Karazhan, so the 9% cap swallows your head slot outright — Girdle of the Endless Pit and Bladespire Warbands trail behind because strength pieces lose to raw hit availability this early in the tier.",
  "statPriority": [
   "Hit Rating (9%)",
   "Expertise",

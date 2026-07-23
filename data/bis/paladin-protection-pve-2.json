@@ -6,7 +6,7 @@
  "sampleSize": 293,
  "updatedAt": "2026-05-22",
  "blurb": "Protection Paladin is the AoE tank TBC dungeons were built for: Consecration and Holy Shield generate unmatched multi-target threat, and mana returns from Spiritual Attunement keep the engine running. Uncrittable first, stamina second, then spell damage — the stat line that confuses every armory inspection. This Phase 2 snapshot aggregates 293 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Crystalforge Legguards at 86% usage.",
- "statPriorityRationale": "Prot paladin threat is spell-damage-driven (Consecration, Holy Shield), so after the defense cap you gear a caster stat no other tank wants — which is exactly why AoE packs and heroics belong to you.",
+ "statPriorityRationale": "Crystalforge Legguards and Handguards climb to 85-86% as SSC/TK finally supplies defense-capped pieces with spell damage attached, freeing set-bonus slots to matter instead of just plugging the cap. Justicar Chestguard's 83% shows the caster-stat chase is no longer fighting the defense number for every slot.",
  "statPriority": [
   "Defense (490)",
   "Stamina",

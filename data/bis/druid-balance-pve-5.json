@@ -6,7 +6,7 @@
  "sampleSize": 200,
  "updatedAt": "2026-05-22",
  "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 5 snapshot aggregates 200 top DPS parses from Sunwell Plateau; the highest-consensus pick is Thunderheart Bands at 94% usage.",
- "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriorityRationale": "Thunderheart's matching bands, cord and footwraps all land at 94% because Sunwell itemizes hit and damage together across the whole set. Epic gems like Runed Crimson Spinel let you stack spell damage freely once the cap stops costing you a socket.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

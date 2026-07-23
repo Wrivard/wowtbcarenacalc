@@ -6,7 +6,7 @@
  "sampleSize": 240,
  "updatedAt": "2026-05-22",
  "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 3 snapshot aggregates 240 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Telonicus' Pendant of Mayhem at 87% usage.",
- "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriorityRationale": "Telonicus' Pendant of Mayhem alongside Rift Stalker Hauberk in Black Temple gear keeps you capped comfortably, so crit rating finally earns real weight in the list instead of losing every slot fight to hit.",
  "statPriority": [
   "Agility",
   "Hit Rating",

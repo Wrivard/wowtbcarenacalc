@@ -6,7 +6,7 @@
  "sampleSize": 336,
  "updatedAt": "2026-05-22",
  "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 1 snapshot aggregates 336 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Beast Lord Mantle at 97% usage.",
- "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriorityRationale": "Beast Lord Mantle and Helm push agility hard in Karazhan gear because Expose Weakness rewards it across the raid before hit even matters, and the tight budget means Jagged Talasite slots go to agility rather than stamina padding.",
  "statPriority": [
   "Agility",
   "Hit Rating",

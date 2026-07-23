@@ -6,7 +6,7 @@
  "sampleSize": 331,
  "updatedAt": "2026-05-22",
  "blurb": "Combat Swords is the standard raiding rogue of TBC: Sinister Strike, five-point Slice and Dice forever, Adrenaline Rush + Blade Flurry on cooldown. It is the most gear-forgiving melee spec in the game, and the phase lists below are the reason 'rogue' and 'swords' were synonyms for two years. This Phase 1 snapshot aggregates 331 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Latro's Shifting Sword at 84% usage.",
- "statPriorityRationale": "Combat's white-damage engine makes weapon-skill consistency king — hit and expertise before everything, because Sinister Strike dodges bleed rage-equivalent energy and break Slice uptime.",
+ "statPriorityRationale": "Latro's Shifting Sword and Netherblade Facemask are doing cap duty here — Karazhan-tier gear barely gets you to weapon-skill consistency, so hit and expertise chew through your slots before agility or crit rating get a look.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

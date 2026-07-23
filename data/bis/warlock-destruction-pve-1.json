@@ -6,7 +6,7 @@
  "sampleSize": 390,
  "updatedAt": "2026-05-22",
  "blurb": "Destruction Warlock is TBC's endgame caster king: Shadow Bolt machine-gunning with the Improved Shadow Bolt debuff feeding every other warlock's damage too. The spec's phase curve is the steepest in the game — mediocre in Karazhan gear, untouchable in Sunwell. This Phase 1 snapshot aggregates 390 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 87% usage.",
- "statPriorityRationale": "Shadow Bolt spam with Improved Shadow Bolt debuff uptime rewards crit unusually well, and by late phases destruction becomes the highest-ceiling caster in the game — the list leans damage-crit over regen because fights end before mana does.",
+ "statPriorityRationale": "Karazhan-tier trinkets barely exist for you yet, so hit stays glued to gear you can't swap out — Voidheart pieces carry the set while you chase 16% before anything else counts. With Spellstrike Pants leading parses at 87%, crit and haste are luxuries; missing a Shadow Bolt against Attumen's timers costs more than a slightly slower cast.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow/Fire Damage",

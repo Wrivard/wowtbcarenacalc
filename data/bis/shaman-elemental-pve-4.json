@@ -6,7 +6,7 @@
  "sampleSize": 338,
  "updatedAt": "2026-05-22",
  "blurb": "Elemental Shaman pairs top-tier caster totems (Wrath of Air, Totem of Wrath) with a Lightning Bolt rotation simple enough to never miss a global. You are the caster group's second buff-bot after the shadow priest — and with the gear below, a genuine damage threat on top. This Phase 4 snapshot aggregates 338 top DPS parses from Zul'Aman; the highest-consensus pick is Skyshatter Gauntlets at 98% usage.",
- "statPriorityRationale": "Lightning Bolt is 85% of your casts, so the list is one-dimensional on purpose: cap hit, then stack spell damage — crit follows naturally from Tidal Mastery and feeds Elemental Focus clearcasting.",
+ "statPriorityRationale": "Skyshatter Gauntlets and Headguard both clear 97% because Zul'Aman's small tier is patching weak slots around an already-solid Karazhan-through-Hyjal base, with badge gear still doing real work alongside the raid drops.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

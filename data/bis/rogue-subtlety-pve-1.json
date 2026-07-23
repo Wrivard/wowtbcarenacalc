@@ -6,7 +6,7 @@
  "sampleSize": 305,
  "updatedAt": "2026-05-22",
  "blurb": "Subtlety (Hemo) Rogue is the niche raid pick: Hemorrhage's bleed-amplifying debuff buffs every warrior, rogue and feral hitting your target, at a real cost to your own parse. The players running it in top logs are debuff mules by choice — and this list is how they keep the personal damage respectable anyway. This Phase 1 snapshot aggregates 305 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Netherblade Facemask at 77% usage.",
- "statPriorityRationale": "Hemo builds trade personal white damage for the Hemorrhage debuff feeding the raid's physical damage — agility leads after the hit cap because your finisher crits are where the personal numbers hide.",
+ "statPriorityRationale": "Netherblade Facemask and Choker of Vile Intent lead the Karazhan picks because reaching the hit cap eats your early slots, leaving agility scraps for the Hemorrhage debuff and finisher crits that carry your personal parse.",
  "statPriority": [
   "Hit Rating",
   "Agility",

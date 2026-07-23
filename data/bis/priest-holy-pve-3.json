@@ -6,7 +6,7 @@
  "sampleSize": 270,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Priest is TBC's raid-healing workhorse: Circle of Healing spam on melee stacks, Prayer of Mending bouncing on cooldown, Renew weaving between. Throughput is never the problem — mana is, and this gear list is built around spirit regen as much as raw +healing. This Phase 3 snapshot aggregates 270 top healing parses from Black Temple and Mount Hyjal; the highest-consensus pick is Gloves of the Avatar at 93% usage.",
- "statPriorityRationale": "Circle of Healing costs nothing to aim and everything to sustain — spirit-based regen with Holy Concentration procs is what lets holy priests chain-cast through entire raid-damage phases.",
+ "statPriorityRationale": "Black Temple pushes Gloves of the Avatar to 93% and trims the gem list to Insightful Earthstorm Diamond alone - regen is comfortable enough now that bonus healing and spirit stop being cap-driven and start being about raw output per cast.",
  "statPriority": [
   "Bonus Healing",
   "Spirit",

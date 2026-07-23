@@ -6,7 +6,7 @@
  "sampleSize": 350,
  "updatedAt": "2026-05-22",
  "blurb": "Holy Paladin is the tank-healing anchor of TBC raids: massive, mana-efficient Holy Lights aimed at one target while beacon-less single-target triage decides progression pulls. Gear is +healing and crit first — Illumination turns every crit into free mana. This Phase 1 snapshot aggregates 350 top healing parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Justicar Diadem at 71% usage.",
- "statPriorityRationale": "Illumination refunds mana on crits, making crit rating a regen stat — holy paladins uniquely value it alongside intellect, and raw +healing scales the Holy Light bombs that define the role.",
+ "statPriorityRationale": "Justicar Diadem tops out at 71% because Karazhan's caster plate is thin and Illumination punishes any slot that skimps on intellect or crit — Legplates of the Innocent and Girdle of Truth trail behind as the only other pieces that don't force a healing-stat sacrifice. Badge gear fills what the raid can't.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

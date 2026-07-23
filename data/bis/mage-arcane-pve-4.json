@@ -6,7 +6,7 @@
  "sampleSize": 320,
  "updatedAt": "2026-05-22",
  "blurb": "Arcane Mage in raids is a burn-phase specialist: Arcane Blast stacking with Presence of Mind and evocation weaving, mana management as the actual rotation. It shines on short fights and burst checks — the gear list keeps the pool deep enough to make the burn worth it. This Phase 4 snapshot aggregates 320 top DPS parses from Zul'Aman; the highest-consensus pick is Mantle of Tirisfal at 99% usage.",
- "statPriorityRationale": "Arcane Blast stacks burn mana geometrically, so intellect is a throughput stat — your damage ceiling is your mana pool, and the list leans intellect harder than fire or frost ever would.",
+ "statPriorityRationale": "Zul'Aman's Mantle of Tirisfal and Cowl of Tirisfal patch the slots the raid's small size doesn't fully cover, keeping intellect's mana-pool advantage intact while badge gear fills in whatever hit or spell damage the tier leaves short.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

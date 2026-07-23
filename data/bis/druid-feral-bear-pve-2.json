@@ -6,7 +6,7 @@
  "sampleSize": 286,
  "updatedAt": "2026-05-22",
  "blurb": "Feral Bear is TBC's stat-stick tank: the biggest health pool and armor total in the game, trading crush-blocking for sheer effective health. Uncrittable via resilience or defense, then armor and stamina forever — with the bonus that your offset pieces are cat DPS gear. This Phase 2 snapshot aggregates 286 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Nordrassil Feral-Kilt at 87% usage.",
- "statPriorityRationale": "Bears can't block crushes, so they win by making hits small: armor cap at 35k+, a health pool warriors can't match, and agility that doubles as dodge and crit — the mitigation math is different from every other tank.",
+ "statPriorityRationale": "The Nordrassil Feral set sweeps the slots at 79-87% because SSC/TK finally gives bears enough stamina and armor headroom to stop treating every piece as a cap patch. You start picking gear for the health pool instead of just to survive crushes.",
  "statPriority": [
   "Armor",
   "Stamina",

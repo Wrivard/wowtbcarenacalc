@@ -6,7 +6,7 @@
  "sampleSize": 359,
  "updatedAt": "2026-05-22",
  "blurb": "Demonology Warlock raids for Demonic Knowledge scaling and flexibility: felguard out for personal damage or sacrificed for the shadow bonus depending on the fight. It is the bridge build — competitive numbers plus the option to soulstone-battery utility roles no pure spec covers. This Phase 1 snapshot aggregates 359 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 83% usage.",
- "statPriorityRationale": "Demonic Sacrifice or felguard uptime defines the build's math; either way your spell damage carries a pet multiplier, and Demonic Knowledge converts stamina and intellect into damage — the only DPS caster that scales off stamina.",
+ "statPriorityRationale": "Spellstrike Pants and Girdle of Ruination stay under 85% because Karazhan offers little stamina itemization, so you're stitching together hit and shadow damage from crafted gear while Demonic Knowledge's stamina scaling waits for better slots to open up.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

@@ -6,7 +6,7 @@
  "sampleSize": 333,
  "updatedAt": "2026-05-22",
  "blurb": "Retribution Paladin in raids lives on seal twisting — weaving Seal of Command and Blood procs inside a single swing timer — while Sanctity Aura buffs the whole melee group. It is one of TBC's highest-skill-cap rotations, and the gear list rewards it with real scaling. This Phase 1 snapshot aggregates 333 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Libram of Avengement at 86% usage.",
- "statPriorityRationale": "Ret brings Improved Sanctity Aura and windfury-buffed seal twisting — hit and expertise caps protect the twist windows, and strength scales both your seals and the raid buffs you exist to provide.",
+ "statPriorityRationale": "With Libram of Avengement leading the wishlist and Justicar Crown pulled from Kara badges, you spend most of your budget just reaching the hit and expertise caps that protect your seal twist - strength and crit wait in line while Lionheart Champion covers the raw stat gap Kara/Gruul/Mag gear leaves open.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

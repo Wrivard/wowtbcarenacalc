@@ -6,7 +6,7 @@
  "sampleSize": 196,
  "updatedAt": "2026-05-22",
  "blurb": "Destruction Warlock is TBC's endgame caster king: Shadow Bolt machine-gunning with the Improved Shadow Bolt debuff feeding every other warlock's damage too. The spec's phase curve is the steepest in the game — mediocre in Karazhan gear, untouchable in Sunwell. This Phase 5 snapshot aggregates 196 top DPS parses from Sunwell Plateau; the highest-consensus pick is Bracers of the Malefic at 91% usage.",
- "statPriorityRationale": "Shadow Bolt spam with Improved Shadow Bolt debuff uptime rewards crit unusually well, and by late phases destruction becomes the highest-ceiling caster in the game — the list leans damage-crit over regen because fights end before mana does.",
+ "statPriorityRationale": "Sunwell's Malefic set clusters at 91% across bracers, belt and boots, and the arrival of Forceful Seaspray Emerald and Runed Crimson Spinel means gemming finally chases crit and haste directly instead of hit — the cap stopped being a fight by this point.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow/Fire Damage",

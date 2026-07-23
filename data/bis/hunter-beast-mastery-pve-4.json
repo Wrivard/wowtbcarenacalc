@@ -6,7 +6,7 @@
  "sampleSize": 285,
  "updatedAt": "2026-05-22",
  "blurb": "Beast Mastery is the top hunter raid spec of TBC — Serpent's Swiftness haste feeds a relentless auto-shot/steady-shot rotation while the pet contributes a third of your damage. The 1:1.5 macro rhythm is the skill test; the gear below is what the best parsers actually wear doing it. This Phase 4 snapshot aggregates 285 top DPS parses from Zul'Aman; the highest-consensus pick is Gronnstalker's Gloves at 98% usage.",
- "statPriorityRationale": "BM's damage splits with the pet, but your auto-shot rotation still wants the 9% hit cap first; after that agility outscales raw AP through crit and Expose Weakness synergy in a typical raid comp.",
+ "statPriorityRationale": "Zul'Aman's Gronnstalker's set patches weak slots rather than replacing your core kit, so Gronnstalker's Gloves and Spaulders slide in purely for agility and crit while badge gear fills whatever hit gaps the small tier doesn't cover.",
  "statPriority": [
   "Hit Rating",
   "Agility",

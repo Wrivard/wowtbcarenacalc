@@ -6,7 +6,7 @@
  "sampleSize": 254,
  "updatedAt": "2026-05-22",
  "blurb": "Combat Swords is the standard raiding rogue of TBC: Sinister Strike, five-point Slice and Dice forever, Adrenaline Rush + Blade Flurry on cooldown. It is the most gear-forgiving melee spec in the game, and the phase lists below are the reason 'rogue' and 'swords' were synonyms for two years. This Phase 3 snapshot aggregates 254 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Arcanite Steam-Pistol at 89% usage.",
- "statPriorityRationale": "Combat's white-damage engine makes weapon-skill consistency king — hit and expertise before everything, because Sinister Strike dodges bleed rage-equivalent energy and break Slice uptime.",
+ "statPriorityRationale": "The Arcanite Steam-Pistol joining Edgewalker Longboots and Drape of the Dark Reavers in Black Temple shows T6's budget comfortably clears both caps, so agility and AP carry real weight and crit rating stops being a rounding error.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

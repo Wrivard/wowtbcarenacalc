@@ -6,7 +6,7 @@
  "sampleSize": 165,
  "updatedAt": "2026-05-22",
  "blurb": "Demonology Warlock raids for Demonic Knowledge scaling and flexibility: felguard out for personal damage or sacrificed for the shadow bonus depending on the fight. It is the bridge build — competitive numbers plus the option to soulstone-battery utility roles no pure spec covers. This Phase 5 snapshot aggregates 165 top DPS parses from Sunwell Plateau; the highest-consensus pick is Bracers of the Malefic at 88% usage.",
- "statPriorityRationale": "Demonic Sacrifice or felguard uptime defines the build's math; either way your spell damage carries a pet multiplier, and Demonic Knowledge converts stamina and intellect into damage — the only DPS caster that scales off stamina.",
+ "statPriorityRationale": "Bracers and Belt of the Malefic both sit at 88% as Sunwell's Runed Crimson Spinel and Glowing Shadowsong Amethyst let you gem stamina and shadow damage together, with the 16% hit cap now trivial enough to socket almost entirely for output.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

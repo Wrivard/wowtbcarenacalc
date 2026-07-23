@@ -6,7 +6,7 @@
  "sampleSize": 330,
  "updatedAt": "2026-05-22",
  "blurb": "Discipline Priest in PvE is the utility healer: Power Infusion on the top caster every two minutes, Pain Suppression for tank saves, shields that make spike damage disappear. Parses undersell it — the list below keeps your mana deep enough to spend on other people's cooldowns. This Phase 1 snapshot aggregates 330 top healing parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Primal Mooncloth Belt at 67% usage.",
- "statPriorityRationale": "Raid disc is a mana battery and single-target shield bot — Power Infusion on a warlock is worth more than your own casts some fights, so intellect and MP5 rank unusually high next to +healing.",
+ "statPriorityRationale": "Primal Mooncloth pieces dominating the belt and shoulder slots at 66-67% tell you the story: Kara/Gruul/Mag itemization is thin, so you take whatever pushes intellect and MP5 forward and lean on Power Infusion timing to matter more than raw throughput this early.",
  "statPriority": [
   "Bonus Healing",
   "Intellect",

@@ -6,7 +6,7 @@
  "sampleSize": 224,
  "updatedAt": "2026-05-22",
  "blurb": "Feral Bear is TBC's stat-stick tank: the biggest health pool and armor total in the game, trading crush-blocking for sheer effective health. Uncrittable via resilience or defense, then armor and stamina forever — with the bonus that your offset pieces are cat DPS gear. This Phase 5 snapshot aggregates 224 top DPS parses from Sunwell Plateau; the highest-consensus pick is Thunderheart Wristguards at 92% usage.",
- "statPriorityRationale": "Bears can't block crushes, so they win by making hits small: armor cap at 35k+, a health pool warriors can't match, and agility that doubles as dodge and crit — the mitigation math is different from every other tank.",
+ "statPriorityRationale": "Thunderheart Wristguards, Treads and Waistguard all sit around 88-92% because Sunwell's itemization is deep enough that armor and stamina stop being scarce, letting Great Lionseye and Steady Seaspray Emerald push agility as a real scaling stat again.",
  "statPriority": [
   "Armor",
   "Stamina",

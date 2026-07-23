@@ -6,7 +6,7 @@
  "sampleSize": 242,
  "updatedAt": "2026-05-22",
  "blurb": "Assassination (Mutilate) Rogue is the dagger alternative to combat swords: Mutilate spam behind the target, five-stack Deadly Poison maintenance, Cold Blood Eviscerates on cooldown. It asks for strict positioning and rewards it in the right phases with sword-rivaling parses. This Phase 4 snapshot aggregates 242 top DPS parses from Zul'Aman; the highest-consensus pick is Slayer's Handguards at 94% usage.",
- "statPriorityRationale": "Mutilate wants poison uptime and crit-fueled combo generation — after the special-attack hit cap, agility and AP feed both the daggers and the Deadly Poison ticks that make the spec tick.",
+ "statPriorityRationale": "Zul'Aman's Slayer's set dominates the picks — Handguards, Shoulderpads, and Chestguard all above 89% — because a small tier patches your weak slots while badge gear covers whatever it doesn't, keeping the same hit-first order cheap to satisfy.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

@@ -6,7 +6,7 @@
  "sampleSize": 290,
  "updatedAt": "2026-05-22",
  "blurb": "Enhancement Shaman is the heart of the TBC melee group: Windfury Totem multiplies every warrior's and rogue's output, Unleashed Rage adds AP on your crits, and your own stormstrike-windfury rolls put up real numbers. Melee groups are built around this spec — gear it like it matters. This Phase 2 snapshot aggregates 290 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Totem of the Astral Winds at 98% usage.",
- "statPriorityRationale": "Enhancement raids for Windfury Totem and Unleashed Rage — your own dual-wield windfury procs want the hit cap badly, and after it attack power scales both you and (through Unleashed Rage) your whole melee group on every crit.",
+ "statPriorityRationale": "Cataclysm Gauntlets and Legplates push past 80% adoption because the set bonuses start deciding item choices outright, and with hit easier to hold from SSC and TK pieces you finally itemize attack power and agility instead of just chasing the cap.",
  "statPriority": [
   "Hit Rating",
   "Attack Power",

@@ -6,7 +6,7 @@
  "sampleSize": 198,
  "updatedAt": "2026-05-22",
  "blurb": "Enhancement Shaman is the heart of the TBC melee group: Windfury Totem multiplies every warrior's and rogue's output, Unleashed Rage adds AP on your crits, and your own stormstrike-windfury rolls put up real numbers. Melee groups are built around this spec — gear it like it matters. This Phase 5 snapshot aggregates 198 top DPS parses from Sunwell Plateau; the highest-consensus pick is Stonebreaker's Totem at 93% usage.",
- "statPriorityRationale": "Enhancement raids for Windfury Totem and Unleashed Rage — your own dual-wield windfury procs want the hit cap badly, and after it attack power scales both you and (through Unleashed Rage) your whole melee group on every crit.",
+ "statPriorityRationale": "Skyshatter Girdle and Greaves round out a kit where Stonebreaker's Totem is still your best trinket, and epic gems like Teardrop Crimson Spinel and Shifting Shadowsong Amethyst let you push agility and crit hard now that hit and expertise cost nothing.",
  "statPriority": [
   "Hit Rating",
   "Attack Power",

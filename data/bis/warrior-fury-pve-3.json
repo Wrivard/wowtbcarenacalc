@@ -6,7 +6,7 @@
  "sampleSize": 234,
  "updatedAt": "2026-05-22",
  "blurb": "Fury Warrior is TBC's premier melee raid DPS once gear arrives: Whirlwind and Bloodthirst on cooldown, Rampage rolling, heroic-strike rage dumping. The spec scales violently with gear — every phase list below is a meaningful step, and slow off-hands matter almost as much as your main hand. This Phase 3 snapshot aggregates 234 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Dragonstrike at 93% usage.",
- "statPriorityRationale": "Dual-wield fury eats a 24% miss penalty on white swings, so hit rating is worth more to you than to any other melee until deep into the list; after caps, strength and crit feed Flurry and Rampage uptime.",
+ "statPriorityRationale": "With Dragonstrike still at 93% in Black Temple, Warboots of Obliteration at 71% and Destroyer Battle-Helm at 68% show strength and crit finally pulling weight below the weapon, feeding Flurry uptime instead of just closing the hit gap.",
  "statPriority": [
   "Hit Rating",
   "Expertise",

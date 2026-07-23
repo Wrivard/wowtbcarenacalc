@@ -6,7 +6,7 @@
  "sampleSize": 293,
  "updatedAt": "2026-05-22",
  "blurb": "Survival Hunter is a raid multiplier: Expose Weakness procs grant the whole melee/hunter core attack power scaled off your agility. Personal DPS is the lowest of the three trees; the raid total says otherwise, and the gear list stacks agility beyond what any other hunter would. This Phase 2 snapshot aggregates 293 top DPS parses from Serpentshrine Cavern and Tempest Keep; the highest-consensus pick is Rift Stalker Mantle at 91% usage.",
- "statPriorityRationale": "Expose Weakness converts your agility into attack power for every physical DPS in the raid — survival is the only spec whose primary stat multiplies across ten other players, so agility leads even before the hit cap.",
+ "statPriorityRationale": "Rift Stalker Mantle and Belt of Deep Shadow from SSC/TK ease the hit cap enough that Shifting Nightseye and Glinting Noble Topaz start filling gem slots for agility and crit, letting Expose Weakness scale further without gear tradeoffs.",
  "statPriority": [
   "Agility",
   "Hit Rating",

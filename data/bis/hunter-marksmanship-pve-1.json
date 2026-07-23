@@ -6,7 +6,7 @@
  "sampleSize": 297,
  "updatedAt": "2026-05-22",
  "blurb": "Marksmanship Hunter brings Trueshot Aura — flat attack power for your whole group — at a modest personal DPS cost versus BM. Raids run one for the buff; the list below is tuned for steady-shot uptime and mana longevity across full raid nights. This Phase 1 snapshot aggregates 297 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Beast Lord Mantle at 76% usage.",
- "statPriorityRationale": "Marksmanship trades pet damage for Trueshot Aura's raid AP — you gear like BM (hit cap, then agility) but your value is partly the buff, so consistency beats burst in stat choices.",
+ "statPriorityRationale": "Karazhan-era picks like Beast Lord Mantle and Sunfury Bow of the Phoenix go almost entirely toward the hit cap, leaving Trueshot Aura's raid AP as your main value-add while your own agility and crit budget stays thin.",
  "statPriority": [
   "Hit Rating",
   "Agility",

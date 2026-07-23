@@ -6,7 +6,7 @@
  "sampleSize": 346,
  "updatedAt": "2026-05-22",
  "blurb": "Frost Mage is the safe pair of hands in a raid: one button, zero threat problems thanks to Ice Block resets, and Winter's Chill stacking crit chance for every other mage in the group. It gives up fire's ceiling for a floor no other caster matches. This Phase 1 snapshot aggregates 346 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 77% usage.",
- "statPriorityRationale": "Deep frost raids on consistency: Empowered Frostbolt and Ice Shards make crit efficient, but the rotation never changes — cap hit, stack damage, and the meters take care of themselves.",
+ "statPriorityRationale": "Spellstrike Pants lead at 77% because Karazhan-tier frost has to chase hit before anything else — Sapphiron's Wing Bone and Frozen Shadoweave Shoulders follow close behind as damage patches once the cap eats most of your itemization budget. Haste sits last since Empowered Frostbolt's rotation doesn't reward it yet at this gear level.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

@@ -6,7 +6,7 @@
  "sampleSize": 372,
  "updatedAt": "2026-05-22",
  "blurb": "Balance Druid raids for the caster group's sake: Moonkin Aura crit, Faerie Fire hit, innervates and battle-rezzes on demand. Personal damage is honest mid-pack — the phase lists below close the gap while keeping the buff-bot mandate funded with mana. This Phase 1 snapshot aggregates 372 top DPS parses from Karazhan, Gruul's Lair and Magtheridon; the highest-consensus pick is Spellstrike Pants at 86% usage.",
- "statPriorityRationale": "Moonkin Aura's 5% spell crit and Improved Faerie Fire justify the raid spot before your own Starfires do — you cap hit, stack damage, and let the aura do the heavy lifting on the meters you don't appear on.",
+ "statPriorityRationale": "With Karazhan-level itemization you're scraping for hit — Ivory Idol of the Moongoddess and Spellstrike Pants only get you partway there, so badge and dungeon trinkets fill the gaps the raid can't. Every point of damage past the cap is precious because so little of it exists at this stage.",
  "statPriority": [
   "Spell Hit (16%)",
   "Spell Damage",

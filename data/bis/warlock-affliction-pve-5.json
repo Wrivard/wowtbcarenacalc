@@ -6,7 +6,7 @@
  "sampleSize": 229,
  "updatedAt": "2026-05-22",
  "blurb": "Affliction Warlock in raids is dot bookkeeping perfected: Unstable Affliction, Corruption, Siphon Life and Curse of Agony rolling while Shadow Bolts fill — with Malediction amplifying the whole caster raid's damage. It out-scales destruction early and hands over the crown late. This Phase 5 snapshot aggregates 229 top DPS parses from Sunwell Plateau; the highest-consensus pick is Bracers of the Malefic at 94% usage.",
- "statPriorityRationale": "Five dots plus Malediction's curse amplification means every point of shadow damage ticks a dozen times — hit cap first (a resisted Unstable Affliction is catastrophic), then pure spell damage forever.",
+ "statPriorityRationale": "Bracers, Belt, and Boots of the Malefic sit at 92-94% while Forceful Seaspray Emerald and Glowing Shadowsong Amethyst push haste and shadow damage through epic gems, since Sunwell trivializes the hit cap and lets every socket chase raw output.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow Damage",

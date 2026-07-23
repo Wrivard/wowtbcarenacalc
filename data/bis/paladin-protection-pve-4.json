@@ -6,7 +6,7 @@
  "sampleSize": 276,
  "updatedAt": "2026-05-22",
  "blurb": "Protection Paladin is the AoE tank TBC dungeons were built for: Consecration and Holy Shield generate unmatched multi-target threat, and mana returns from Spiritual Attunement keep the engine running. Uncrittable first, stamina second, then spell damage — the stat line that confuses every armory inspection. This Phase 4 snapshot aggregates 276 top DPS parses from Zul'Aman; the highest-consensus pick is Lightbringer Handguards at 98% usage.",
- "statPriorityRationale": "Prot paladin threat is spell-damage-driven (Consecration, Holy Shield), so after the defense cap you gear a caster stat no other tank wants — which is exactly why AoE packs and heroics belong to you.",
+ "statPriorityRationale": "Lightbringer Handguards top 98% and Chestguard 97%, Zul'Aman's set sweeping adoption because it patches the exact spell-damage slots T6 left thin rather than competing on stamina. A small tier can't out-tank Black Temple, but it can out-threat it in the two or three pieces it actually upgrades.",
  "statPriority": [
   "Defense (490)",
   "Stamina",

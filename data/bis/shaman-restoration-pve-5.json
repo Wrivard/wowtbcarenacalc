@@ -6,7 +6,7 @@
  "sampleSize": 237,
  "updatedAt": "2026-05-22",
  "blurb": "Restoration Shaman is TBC's raid-healing multiplier: Chain Heal hits three targets per cast and Earth Shield frees a tank healer's globals, while Mana Tide bails out the whole group's healers. The phase lists below are Chain-Heal-first — bounce healing scales harder with +healing than any single-target spell. This Phase 5 snapshot aggregates 237 top healing parses from Sunwell Plateau; the highest-consensus pick is Skyshatter Boots at 89% usage.",
- "statPriorityRationale": "Chain Heal is the entire job — +healing scales every bounce, and MP5 is the sustain stat because resto shamans cast more heals per fight than anyone else in the raid.",
+ "statPriorityRationale": "Skyshatter Boots and Belt overtake the totem at 88-89% as Sunwell's gear pushes bonus healing higher than any prior tier, and Quick Lionseye alongside Delicate Crimson Spinel lets you gem for crit without sacrificing the intellect this deep in the expansion.",
  "statPriority": [
   "Bonus Healing",
   "MP5",

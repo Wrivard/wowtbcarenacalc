@@ -6,7 +6,7 @@
  "sampleSize": 327,
  "updatedAt": "2026-05-22",
  "blurb": "Destruction Warlock is TBC's endgame caster king: Shadow Bolt machine-gunning with the Improved Shadow Bolt debuff feeding every other warlock's damage too. The spec's phase curve is the steepest in the game — mediocre in Karazhan gear, untouchable in Sunwell. This Phase 4 snapshot aggregates 327 top DPS parses from Zul'Aman; the highest-consensus pick is Bracers of Nimble Thought at 99% usage.",
- "statPriorityRationale": "Shadow Bolt spam with Improved Shadow Bolt debuff uptime rewards crit unusually well, and by late phases destruction becomes the highest-ceiling caster in the game — the list leans damage-crit over regen because fights end before mana does.",
+ "statPriorityRationale": "Zul'Aman's small drop table barely touches destro itemization, so Malefic badge pieces near-sweep the list at 98-99% — this is a patch tier where token-fallback gear does more for your crit and haste than the raid boss loot does.",
  "statPriority": [
   "Spell Hit (16%)",
   "Shadow/Fire Damage",

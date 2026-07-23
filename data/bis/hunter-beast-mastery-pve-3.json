@@ -6,7 +6,7 @@
  "sampleSize": 239,
  "updatedAt": "2026-05-22",
  "blurb": "Beast Mastery is the top hunter raid spec of TBC — Serpent's Swiftness haste feeds a relentless auto-shot/steady-shot rotation while the pet contributes a third of your damage. The 1:1.5 macro rhythm is the skill test; the gear below is what the best parsers actually wear doing it. This Phase 3 snapshot aggregates 239 top DPS parses from Black Temple and Mount Hyjal; the highest-consensus pick is Rift Stalker Hauberk at 90% usage.",
- "statPriorityRationale": "BM's damage splits with the pet, but your auto-shot rotation still wants the 9% hit cap first; after that agility outscales raw AP through crit and Expose Weakness synergy in a typical raid comp.",
+ "statPriorityRationale": "By Black Temple, Rift Stalker Hauberk and Helm keep you capped without sacrifice, so crit rating finally competes for itemization weight — the list stops being a hit-cap checklist and starts rewarding whichever piece stacks agility and crit together.",
  "statPriority": [
   "Hit Rating",
   "Agility",
