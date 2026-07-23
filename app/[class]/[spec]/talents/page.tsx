@@ -13,7 +13,8 @@ import { buildValid } from "@/lib/talent-rules";
 import { resolveBuildState } from "@/lib/talent-build";
 import { getBuild } from "@/data/builds";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { JsonLd, breadcrumbJsonLd, faqJsonLd } from "@/components/seo/JsonLd";
+import { JsonLd, articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/components/seo/JsonLd";
+import { buildMetadata } from "@/lib/seo";
 import { TalentTreeGrid } from "@/components/talents/TalentTreeGrid";
 import { ComingSoon } from "@/components/ComingSoon";
 import { SpecCrossLinks } from "@/components/SpecCrossLinks";
@@ -45,12 +46,17 @@ export async function generateMetadata({
   const { cls, spec } = found;
   const build = getBuild(cls.slug, spec.slug);
   const category = build?.category === "pvp" ? "PvP Arena" : "Raid";
-  return {
+  // Must go through buildMetadata: a bare object leaves openGraph unset, and
+  // Next then inherits the root layout's wholesale — these 28 pages were
+  // serving the homepage's og:title and og:url to every share.
+  return buildMetadata({
     title: `${spec.name} ${cls.name} Talents — TBC ${category} Build (${build?.summaryLabel ?? "Guide"})`,
     description: `Recommended ${spec.name} ${cls.name} ${category.toLowerCase()} talent build for TBC Classic${build ? ` (${build.summaryLabel})` : ""} — full tree, reasoning, and a shareable build link.`,
-    alternates: { canonical: `/${cls.slug}/${spec.slug}/talents` },
-    ...(build ? {} : { robots: { index: false, follow: true } }),
-  };
+    path: `/${cls.slug}/${spec.slug}/talents`,
+    ogImage: `/${cls.slug}/opengraph-image`,
+    ogType: "article",
+    noindex: !build,
+  });
 }
 
 /** Data-driven FAQ for generated builds (unique numbers per spec). */
@@ -138,6 +144,21 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
       <JsonLd
         data={[
           breadcrumbJsonLd(crumbs),
+          ...(build
+            ? [
+                articleJsonLd(
+                  `${spec.name} ${cls.name} Talents — TBC ${build.category === "pvp" ? "Arena" : "Raid"} Build`,
+                  build.blurb,
+                  `/${cls.slug}/${spec.slug}/talents`,
+                  {
+                    section: build.category === "pvp" ? "PvP" : "PvE",
+                    techArticle: true,
+                    dateModified: build.updatedAt,
+                    image: `/${cls.slug}/opengraph-image`,
+                  },
+                ),
+              ]
+            : []),
           ...(faq.length ? [faqJsonLd(faq)] : []),
         ]}
       />
@@ -170,7 +191,7 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link
-                href={`/talent-calculator?class=${cls.slug}&b=${encoded}`}
+                href={`/talent-calculator/${cls.slug}?b=${encoded}`}
                 className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
               >
                 Open in the talent calculator
@@ -228,7 +249,7 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
       ) : (
         <ComingSoon
           title={`${spec.name} ${cls.name} talent build`}
-          fallbackHref={`/talent-calculator?class=${cls.slug}`}
+          fallbackHref={`/talent-calculator/${cls.slug}`}
           fallbackLabel={`Build your own in the ${cls.name} calculator`}
         />
       )}

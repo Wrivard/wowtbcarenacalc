@@ -1,9 +1,9 @@
 "use client";
 
-// Class picker for the single-page talent calculator. Changing the class
-// navigates to /talent-calculator?class=<slug> (which re-renders the tree
-// for that class), so one page + this filter replaces the old per-class
-// pages. Styled to match the calculator's dark UI, with class icons.
+// Class picker for the talent calculator. Changing the class navigates to
+// /talent-calculator/<slug> — the class lives in the path so each one is its
+// own indexable page. Styled to match the calculator's dark UI, with class
+// icons.
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -30,7 +30,7 @@ export function ClassSelect({ value }: { value: string }) {
 
   const pick = (slug: string) => {
     setOpen(false);
-    if (slug !== value) router.push(`/talent-calculator?class=${slug}`, { scroll: false });
+    if (slug !== value) router.push(`/talent-calculator/${slug}`, { scroll: false });
   };
 
   return (

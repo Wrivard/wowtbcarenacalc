@@ -139,7 +139,7 @@ export default async function PvpBisPage({ params }: { params: Params }) {
         ) : (
           <ComingSoon
             title={`${spec.name} ${cls.name} PvP BiS`}
-            fallbackHref={`/talent-calculator?class=${cls.slug}`}
+            fallbackHref={`/talent-calculator/${cls.slug}`}
             fallbackLabel={`Open the ${cls.name} talent calculator`}
           />
         )}

@@ -68,7 +68,7 @@ export function RecommendedTalentBuild({
           Full build breakdown
         </Link>
         <Link
-          href={`/talent-calculator?class=${classSlug}`}
+          href={`/talent-calculator/${classSlug}`}
           className="rounded-lg border border-border bg-background px-3 py-1.5 text-xs font-medium text-muted-strong transition-colors hover:text-foreground"
         >
           Open in calculator

@@ -77,7 +77,7 @@ export default async function ClassHub({
           interactive {cls.name} talent calculator.
         </p>
         <Link
-          href={`/talent-calculator?class=${cls.slug}`}
+          href={`/talent-calculator/${cls.slug}`}
           className="mt-5 inline-block rounded-lg bg-accent px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-accent-dim"
         >
           Open the {cls.name} talent calculator
