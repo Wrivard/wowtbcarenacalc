@@ -95,6 +95,27 @@ const SLOT_ORDER = [
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+const CLASS_NAMES = {
+  warrior: "Warrior", paladin: "Paladin", hunter: "Hunter", rogue: "Rogue",
+  priest: "Priest", shaman: "Shaman", mage: "Mage", warlock: "Warlock",
+  druid: "Druid",
+};
+const SPEC_NAMES = {
+  "beast-mastery": "Beast Mastery",
+  "feral-cat": "Feral (Cat)",
+  "feral-bear": "Feral (Bear)",
+};
+const specDisplay = (slug) =>
+  SPEC_NAMES[slug] ?? slug.charAt(0).toUpperCase() + slug.slice(1);
+
+const aOrAn = (word) => (/^[aeiou]/i.test(word) ? "an" : "a");
+
+/** "A, B and C" — Oxford-less, matching the prose elsewhere on the page. */
+function listWords(parts) {
+  if (parts.length <= 1) return parts[0] ?? "";
+  return `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}`;
+}
+
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: { "user-agent": "wowtbcarenacalc-data-build (contact: site owner)" },
@@ -399,6 +420,8 @@ async function main() {
     }
     const phase = list.phase;
     const shared = FALLBACK_NOTE[key];
+    const clsName = CLASS_NAMES[list.class] ?? list.class;
+    const specName = specDisplay(list.spec);
 
     list.gems = gemsFor(spec, phase).map((g) => {
       const meta = gemMeta.get(g.itemId) ?? {};
@@ -435,6 +458,54 @@ async function main() {
         (SLOT_ORDER.indexOf(b.slot) + 1 || 99),
     );
     list.enchants = rows;
+
+    // Two extra FAQ entries, built from the gems and enchants just assigned.
+    // build-pve-bis.mjs ships 3 questions about the item list; "what gems"
+    // and "what enchants" are the next things a player asks, and now the page
+    // can answer both from its own data. Regenerated in place, so re-running
+    // the build never stacks duplicates.
+    const GEN = /^What (?:gems|enchants)\b/i;
+    list.faq = (list.faq ?? []).filter((f) => !GEN.test(f.question));
+
+    if (list.gems.length) {
+      const meta = list.gems.find((g) => /Meta socket/.test(g.note));
+      const coloured = list.gems.filter((g) => g !== meta);
+      list.faq.push({
+        question: `What gems should ${aOrAn(specName)} ${specName} ${clsName} use in Phase ${phase}?`,
+        answer:
+          (meta ? `${meta.name} in the meta socket` : "") +
+          (meta && coloured.length ? ", then " : "") +
+          (coloured.length
+            ? `${listWords(coloured.map((g) => g.name))} in the coloured sockets`
+            : "") +
+          `. ${
+            phase >= 5
+              ? "Phase 5 is where the epic gems from Sunwell replace their rare equivalents — that swap alone is worth several item levels across a full set."
+              : "Epic gems only arrive with patch 2.4 (Sunwell), so these rare-quality cuts are the ceiling for this phase."
+          }`,
+      });
+    }
+
+    if (list.enchants.length) {
+      const key = ["Head", "Shoulders", "Legs", "Weapon", "Main Hand"]
+        .map((s) => list.enchants.find((e) => e.slot === s))
+        .filter(Boolean)
+        .slice(0, 4);
+      const head = list.enchants.find((e) => e.slot === "Head");
+      list.faq.push({
+        question: `What enchants does ${aOrAn(specName)} ${specName} ${clsName} need in Phase ${phase}?`,
+        answer:
+          `${list.enchants.length} slots are worth enchanting. The biggest swings are ${listWords(
+            key.map((e) => `${e.name} on ${e.slot.toLowerCase()}`),
+          )}.` +
+          // Sourced from the row itself rather than asserted: head enchants
+          // are usually reputation rewards, but not always (the "of the
+          // Scourge" ones are raid drops).
+          (head?.source
+            ? ` The head and shoulder enchants are consumable items rather than enchanter work — ${head.name} comes from ${head.source}.`
+            : " The head and shoulder enchants are consumable items rather than enchanter work."),
+      });
+    }
 
     if (!list.gems.length || !list.enchants.length)
       empty.push(`${file} (gems ${list.gems.length}, enchants ${list.enchants.length})`);
