@@ -199,7 +199,14 @@ function enchantEffect(tip, fallbackName) {
 
 function sourceNote(entry) {
   if (!entry) return null;
-  const where = [entry.source, entry.sourceLocation].filter(Boolean).join(" — ");
+  const where = [entry.source, entry.sourceLocation]
+    .filter(Boolean)
+    .join(" — ")
+    // NPC titles arrive in angle brackets ("Moroes<Tower Steward>"), which
+    // read like markup on the page.
+    .replace(/\s*<([^>]+)>/g, " ($1)")
+    .replace(/\s+/g, " ")
+    .trim();
   if (!where) return null;
   // The "of the Scourge" shoulder enchants come from vanilla Naxxramas, which
   // was removed at TBC launch. Top parsers still wear them because they
