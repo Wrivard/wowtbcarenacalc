@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allSpecs, getSpec } from "@/lib/classes";
 import {
@@ -13,6 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   JsonLd,
+  articleJsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
   itemListJsonLd,
@@ -62,8 +64,8 @@ export async function generateMetadata({
   const { cls, spec } = found;
   const list = getPvpSeasonBis(cls.slug, spec.slug, season);
   return buildMetadata({
-    title: `${spec.name} ${cls.name} PvP BiS Season ${season} — TBC ${SEASON_NAMES[season]} Arena Gear`,
-    description: `${spec.name} ${cls.name} Season ${season} (${SEASON_NAMES[season]}) arena PvP best in slot for TBC Classic — full gear set, gems, enchants and stat priority.`,
+    title: `${spec.name} ${cls.name} PvP BiS Season ${season} — TBC ${SEASON_NAMES[season]}`,
+    description: `${spec.name} ${cls.name} Season ${season} (${SEASON_NAMES[season]}) arena PvP best in slot for TBC Classic — full gear set, rating requirements, gems, enchants and stat priority.`,
     path: `/${cls.slug}/${spec.slug}/pvp/season-${season}`,
     ogImage: `/${cls.slug}/opengraph-image`,
     noindex: !list,
@@ -96,6 +98,17 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
           breadcrumbJsonLd(crumbs),
           ...(list
             ? [
+                articleJsonLd(
+                  `${spec.name} ${cls.name} PvP BiS — TBC Season ${season} (${SEASON_NAMES[season]})`,
+                  list.blurb,
+                  `/${cls.slug}/${spec.slug}/pvp/season-${season}`,
+                  {
+                    section: "PvP",
+                    techArticle: true,
+                    dateModified: list.updatedAt,
+                    image: `/${cls.slug}/opengraph-image`,
+                  },
+                ),
                 faqJsonLd(list.faq),
                 itemListJsonLd(
                   `${spec.name} ${cls.name} Season ${season} PvP best in slot (TBC Classic)`,
@@ -118,6 +131,16 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
             PvP · Arena
           </span>
           <span>{SEASON_NAMES[season]}</span>
+          {list && (
+            <span className="text-accent">
+              Updated{" "}
+              {new Date(list.updatedAt).toLocaleDateString("en-US", {
+                month: "short",
+                day: "numeric",
+                year: "numeric",
+              })}
+            </span>
+          )}
         </div>
         {list && (
           <p className="mt-4 max-w-[62ch] text-sm leading-relaxed text-muted-strong sm:text-base">
@@ -132,6 +155,22 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
       </PageHero>
 
       <main className="mx-auto max-w-[720px] px-4">
+        {list && (
+          // Replaces the blurb's old dead-end sentence ("see the current-season
+          // list") with a real link carrying descriptive anchor text.
+          <p className="mt-8 rounded-xl border border-border bg-surface p-4 text-sm leading-relaxed text-muted-strong">
+            This Season {season} set is mapped from the live Season {LIVE_SEASON}{" "}
+            ladder. For live usage percentages and the full stat reasoning, see
+            the{" "}
+            <Link
+              href={`/${cls.slug}/${spec.slug}/pvp`}
+              className="text-accent underline-offset-2 hover:underline"
+            >
+              {spec.name} {cls.name} arena BiS
+            </Link>
+            .
+          </p>
+        )}
         {list ? (
           <BisPageBody list={list} cls={cls} spec={spec} />
         ) : (

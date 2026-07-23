@@ -6,6 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   JsonLd,
+  articleJsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
   itemListJsonLd,
@@ -41,8 +42,8 @@ export async function generateMetadata({
   const list = getPvpBis(cls.slug, spec.slug);
   const season = list?.season ?? 2;
   return buildMetadata({
-    title: `${spec.name} ${cls.name} PvP BiS — TBC Classic Arena Gear (Season ${season})`,
-    description: `${spec.name} ${cls.name} PvP best in slot for TBC Classic arena — most-used gear with usage %, plus gems, enchants and stat priority.`,
+    title: `${spec.name} ${cls.name} PvP BiS — TBC Arena Gear Season ${season}`,
+    description: `${spec.name} ${cls.name} PvP best in slot for TBC Classic arena — the most-used gear on the Season ${season} ladder with usage %, plus gems, enchants and stat priority.`,
     path: `/${cls.slug}/${spec.slug}/pvp`,
     ogImage: `/${cls.slug}/opengraph-image`,
     noindex: !list,
@@ -70,6 +71,17 @@ export default async function PvpBisPage({ params }: { params: Params }) {
           breadcrumbJsonLd(crumbs),
           ...(list
             ? [
+                articleJsonLd(
+                  `${spec.name} ${cls.name} PvP BiS — TBC Arena Season ${list.season}`,
+                  list.blurb,
+                  `/${cls.slug}/${spec.slug}/pvp`,
+                  {
+                    section: "PvP",
+                    techArticle: true,
+                    dateModified: list.updatedAt,
+                    image: `/${cls.slug}/opengraph-image`,
+                  },
+                ),
                 faqJsonLd(list.faq),
                 itemListJsonLd(
                   `${spec.name} ${cls.name} PvP best in slot (TBC Classic)`,

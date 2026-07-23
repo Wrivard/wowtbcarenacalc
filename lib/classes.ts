@@ -127,6 +127,17 @@ export const PHASE_LABELS: Record<Phase, string> = {
   5: "Sunwell Plateau",
 };
 
+// Short form for page titles and H1s. Players search the raid name, not the
+// phase number ("fury warrior bis black temple"), so the raid has to be in
+// the title — but the full PHASE_LABELS blow past the ~60-char SERP budget.
+export const PHASE_RAID_SHORT: Record<Phase, string> = {
+  1: "Karazhan & Gruul",
+  2: "SSC & Tempest Keep",
+  3: "Black Temple & Hyjal",
+  4: "Zul'Aman",
+  5: "Sunwell Plateau",
+};
+
 // A recognizable marquee-boss icon per content phase (zamimg CDN names,
 // HEAD-verified). Used to visually anchor phase links so players navigate
 // by the encounter they know rather than a phase number.

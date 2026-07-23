@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { PHASES, PHASE_LABELS, allSpecs, getSpec, type Phase } from "@/lib/classes";
+import {
+  PHASES,
+  PHASE_LABELS,
+  PHASE_RAID_SHORT,
+  allSpecs,
+  getSpec,
+  type Phase,
+} from "@/lib/classes";
 import { getPveBis, wowheadItemUrl } from "@/lib/bis";
 import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   JsonLd,
+  articleJsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
   itemListJsonLd,
@@ -51,8 +59,10 @@ export async function generateMetadata({
   const { cls, spec } = found;
   const list = getPveBis(cls.slug, spec.slug, phase);
   return buildMetadata({
-    title: `${spec.name} ${cls.name} BiS Phase ${phase} — TBC Classic Best in Slot`,
-    description: `${spec.name} ${cls.name} Phase ${phase} best in slot (${PHASE_LABELS[phase]}) for TBC Classic — gear list, gems, enchants and stat priority.`,
+    // The raid name is the query players actually type ("fury warrior bis
+    // black temple"), so it goes in the title, not just the description.
+    title: `${spec.name} ${cls.name} Phase ${phase} BiS — ${PHASE_RAID_SHORT[phase]} (TBC)`,
+    description: `${spec.name} ${cls.name} Phase ${phase} best in slot for TBC Classic (${PHASE_LABELS[phase]}) — full gear list from top raid logs, plus gems, enchants and stat priority.`,
     path: `/${cls.slug}/${spec.slug}/pve/phase-${phase}`,
     ogImage: `/${cls.slug}/opengraph-image`,
     noindex: !list,
@@ -84,6 +94,20 @@ export default async function PveBisPage({ params }: { params: Params }) {
           breadcrumbJsonLd(crumbs),
           ...(list
             ? [
+                // dateModified is the freshness signal for a list that gets
+                // re-derived from logs; without it the only date on the page
+                // is prose Google has to guess at.
+                articleJsonLd(
+                  `${spec.name} ${cls.name} Phase ${phase} BiS — ${PHASE_RAID_SHORT[phase]}`,
+                  list.blurb,
+                  `/${cls.slug}/${spec.slug}/pve/phase-${phase}`,
+                  {
+                    section: "PvE",
+                    techArticle: true,
+                    dateModified: list.updatedAt,
+                    image: `/${cls.slug}/opengraph-image`,
+                  },
+                ),
                 faqJsonLd(list.faq),
                 itemListJsonLd(
                   `${spec.name} ${cls.name} Phase ${phase} best in slot (TBC Classic)`,
@@ -99,7 +123,7 @@ export default async function PveBisPage({ params }: { params: Params }) {
       <PageHero image={classBackground(cls.slug)}>
         <Breadcrumbs crumbs={crumbs} />
         <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-          {spec.name} {cls.name} BiS — Phase {phase}
+          {spec.name} {cls.name} Phase {phase} BiS — {PHASE_RAID_SHORT[phase]}
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[11px] tracking-wider text-muted uppercase">
           <span className="rounded-full border border-border-strong px-2 py-0.5 text-[10px] text-muted-strong">

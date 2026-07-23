@@ -154,7 +154,10 @@ function buildBlurb(clsName, specName, season, setPieces, honorPieces) {
     (honorPieces.length
       ? `, backed by ${meta.honorFamily ?? "honor"} offset pieces from the honor vendor`
       : "") +
-    `. ${meta.ratingNote} The slot-by-slot list below translates what the current arena ladder's top ${specName} ${clsName}s equip into their ${meta.label} equivalents — same slot logic, this season's items. For playstyle, stat reasoning and live usage percentages, see the current-season list.`
+    // No "see the current-season list" tail: the blurb renders as plain text
+    // in the hero, so that sentence was a dead end. The season page renders a
+    // real link to the live list instead (SeasonLiveRef).
+    `. ${meta.ratingNote} The slot-by-slot list below translates what the current arena ladder's top ${specName} ${clsName}s equip into their ${meta.label} equivalents — same slot logic, this season's items.`
   );
 }
 
