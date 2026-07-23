@@ -4,11 +4,12 @@ import { CLASSES, allSpecs } from "@/lib/classes";
 import { filledBisRoutes } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
 import { COMPS, compSlug } from "@/data/comps";
-import { BRACKETS as SEO_BRACKETS, bracketsForClass } from "@/lib/comps-seo";
+import { BRACKETS as SEO_BRACKETS, bracketsForClass, classCombos, comboSlug } from "@/lib/comps-seo";
 import { getBestRace } from "@/data/bestRace";
 import { PROFESSIONS } from "@/data/professions";
 import { RAIDS, BOSSES, populatedPhases } from "@/data/raids";
 import { SPEC_GUIDES } from "@/data/specGuides";
+import { NON_DEFAULT_TIERS } from "@/data/rankings";
 
 // Enumerates every indexable route from lib/classes.ts + the data
 // registries. BiS/talent pages whose dataset isn't curated yet render
@@ -35,6 +36,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // filtered views canonicalize back to these, so listing the params would
     // submit URLs that declare themselves non-canonical.
     { url: `${SITE_URL}/class-rankings`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    // Per-tier static DPS-ranking pages (every tier except the default one,
+    // whose content is the hub above). Same source as the [tier] route's
+    // generateStaticParams, so sitemap and routes can't drift.
+    ...NON_DEFAULT_TIERS.map((t) => ({
+      url: `${SITE_URL}/class-rankings/${t.slug}`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     { url: `${SITE_URL}/leaderboard`, lastModified, changeFrequency: "hourly", priority: 0.8 },
     { url: `${SITE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/contact`, lastModified, changeFrequency: "monthly", priority: 0.3 },
@@ -117,6 +127,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified,
         changeFrequency: "weekly",
         priority: 0.6,
+      });
+    }
+  }
+
+  // Arena comp class-combo pages: 2–3 co-occurring classes, all-brackets and
+  // per-bracket ("best rogue mage comps", "best rogue shaman 5v5 comps"). Same
+  // source (classCombos) as the pages' generateStaticParams, so the sitemap and
+  // the routes can never drift.
+  for (const combo of classCombos()) {
+    entries.push({
+      url: `${SITE_URL}/arena/comps/class/${comboSlug(combo)}`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.5,
+    });
+  }
+  for (const b of SEO_BRACKETS) {
+    for (const combo of classCombos(b)) {
+      entries.push({
+        url: `${SITE_URL}/arena/comps/${b}/class/${comboSlug(combo)}`,
+        lastModified,
+        changeFrequency: "weekly",
+        priority: 0.5,
       });
     }
   }

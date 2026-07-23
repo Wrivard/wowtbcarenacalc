@@ -7,6 +7,11 @@
 // facet path. One filter bar: the Bracket/Class rows ARE the links into the
 // facet pages, so there is no separate "browse by" block to duplicate them.
 //
+// The Class row is multi-select: ticking a second (or third) class opens the
+// combo facet /class/rogue-shaman, an AND-filtered page that ranks on its own.
+// Classes that wouldn't form a real page (no comp fields them together, or the
+// set is already at MAX_COMBO_SIZE) render disabled so every link is crawlable.
+//
 // These pages render on demand (they read the refinement query); the work is
 // just filtering an in-memory list, so SSR is cheap and the HTML is fully
 // crawlable with correct per-facet metadata.
@@ -20,8 +25,16 @@ import {
   type Tier,
   type Playstyle,
 } from "@/data/comps";
-import { CLASSES, getClass } from "@/lib/classes";
-import { BRACKETS, BRACKET_LABEL, facetPath, facetCopy } from "@/lib/comps-seo";
+import { CLASSES } from "@/lib/classes";
+import {
+  BRACKETS,
+  BRACKET_LABEL,
+  MAX_COMBO_SIZE,
+  facetPath,
+  facetCopy,
+  classLabel,
+  compsFor,
+} from "@/lib/comps-seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { CompCard } from "@/components/arena/CompBits";
@@ -67,59 +80,90 @@ function PillRow({
   label,
   options,
   activeValue,
+  activeValues,
+  disabledValues,
   hrefFor,
   scroll = false,
   cap = false,
 }: {
   label: string;
   options: { value: string; label: string }[];
-  activeValue: string | undefined;
+  /** Single-select highlight. Ignored when `activeValues` is provided. */
+  activeValue?: string | undefined;
+  /** Multi-select highlight — a pill is active when its value is in the set. */
+  activeValues?: Set<string>;
+  /** Values rendered non-interactive (would lead to an empty/non-existent page). */
+  disabledValues?: Set<string>;
   hrefFor: (value: string) => string;
   scroll?: boolean;
   cap?: boolean;
 }) {
+  const isActive = (value: string) =>
+    activeValues ? activeValues.has(value) : activeValue === value;
   return (
     <div className="flex flex-wrap items-center gap-2">
       <span className="w-16 shrink-0 font-mono text-[10px] tracking-wider text-muted uppercase">
         {label}
       </span>
-      {options.map((o) => (
-        <Link
-          key={o.value}
-          href={hrefFor(o.value)}
-          scroll={scroll}
-          aria-current={activeValue === o.value ? "true" : undefined}
-          className={cn(
-            "rounded-lg border px-2.5 py-1 text-xs font-medium transition-colors",
-            cap && "capitalize",
-            activeValue === o.value
-              ? "border-accent/50 bg-accent-faint text-accent"
-              : "border-border bg-surface text-muted-strong hover:bg-surface-hover hover:text-foreground",
-          )}
-        >
-          {o.label}
-        </Link>
-      ))}
+      {options.map((o) => {
+        const active = isActive(o.value);
+        if (disabledValues?.has(o.value)) {
+          return (
+            <span
+              key={o.value}
+              aria-disabled="true"
+              className={cn(
+                "cursor-not-allowed rounded-lg border border-border/60 bg-surface/40 px-2.5 py-1 text-xs font-medium text-muted/50",
+                cap && "capitalize",
+              )}
+            >
+              {o.label}
+            </span>
+          );
+        }
+        return (
+          <Link
+            key={o.value}
+            href={hrefFor(o.value)}
+            scroll={scroll}
+            aria-current={active ? "true" : undefined}
+            className={cn(
+              "rounded-lg border px-2.5 py-1 text-xs font-medium transition-colors",
+              cap && "capitalize",
+              active
+                ? "border-accent/50 bg-accent-faint text-accent"
+                : "border-border bg-surface text-muted-strong hover:bg-surface-hover hover:text-foreground",
+            )}
+          >
+            {o.label}
+          </Link>
+        );
+      })}
     </div>
   );
 }
 
 export function CompBrowser({
   bracket,
-  classSlug,
+  classSlugs,
   query,
 }: {
   bracket?: Bracket;
-  classSlug?: string;
+  classSlugs?: string[];
   query: CompQuery;
 }) {
-  const copy = facetCopy(bracket, classSlug);
-  const path = facetPath(bracket, classSlug);
+  const classSet = classSlugs ?? [];
+  const copy = facetCopy(bracket, classSet);
+  const path = facetPath(bracket, classSet);
   const qs = qsOf(query);
 
   let comps: ArenaComp[] = COMPS.filter((c) => {
     if (bracket && c.bracket !== bracket) return false;
-    if (classSlug && !c.members.some((m) => m.class === classSlug)) return false;
+    if (
+      classSet.length &&
+      !classSet.every((cs) => c.members.some((m) => m.class === cs))
+    )
+      return false;
     if (query.tier && c.tier !== query.tier) return false;
     if (query.playstyle && c.playstyle !== query.playstyle) return false;
     if (query.difficulty && String(c.difficulty) !== query.difficulty) return false;
@@ -135,9 +179,29 @@ export function CompBrowser({
   // Bracket/Class navigate to facet PATHS (carry the query refinements);
   // Tier/Style/Diff/Sort toggle the query on the current path.
   const bracketHref = (b: string) =>
-    facetPath(b === bracket ? undefined : (b as Bracket), classSlug) + qs;
-  const classHref = (slug: string) =>
-    facetPath(bracket, slug === classSlug ? undefined : slug) + qs;
+    facetPath(b === bracket ? undefined : (b as Bracket), classSet) + qs;
+  // Ticking a class adds it to (or removes it from) the class set, opening the
+  // single-class or combo facet for the resulting sorted set.
+  const toggleClass = (slug: string) =>
+    (classSet.includes(slug)
+      ? classSet.filter((s) => s !== slug)
+      : [...classSet, slug]
+    ).sort();
+  const classHref = (slug: string) => facetPath(bracket, toggleClass(slug)) + qs;
+  // Disable any class that isn't selected and can't extend the set into a real
+  // page — either the set would exceed MAX_COMBO_SIZE or no comp fields them
+  // all together in the current bracket scope.
+  const classActive = new Set(classSet);
+  const classDisabled = new Set<string>();
+  for (const c of CLASSES) {
+    if (classActive.has(c.slug)) continue;
+    const next = [...classSet, c.slug];
+    if (
+      next.length > MAX_COMBO_SIZE ||
+      compsFor({ bracket, classSlugs: next }).length === 0
+    )
+      classDisabled.add(c.slug);
+  }
   const queryHref = (key: keyof CompQuery, value: string) => {
     const next: CompQuery = { ...query };
     if (next[key] === value) delete next[key];
@@ -148,7 +212,7 @@ export function CompBrowser({
     path + qsOf({ ...query, sort: s === "tier" ? undefined : s });
 
   const anyActive = Boolean(
-    bracket || classSlug || query.tier || query.playstyle || query.difficulty ||
+    bracket || classSet.length || query.tier || query.playstyle || query.difficulty ||
       (query.sort && query.sort !== "tier"),
   );
 
@@ -158,10 +222,10 @@ export function CompBrowser({
     { name: "Comps", href: "/arena/comps" },
   ];
   if (bracket) crumbs.push({ name: BRACKET_LABEL[bracket], href: facetPath(bracket) });
-  if (classSlug)
+  if (classSet.length)
     crumbs.push({
-      name: getClass(classSlug)?.name ?? classSlug,
-      href: facetPath(bracket, classSlug),
+      name: classLabel(classSet),
+      href: facetPath(bracket, classSet),
     });
 
   return (
@@ -187,7 +251,8 @@ export function CompBrowser({
           />
           <PillRow
             label="Class"
-            activeValue={classSlug}
+            activeValues={classActive}
+            disabledValues={classDisabled}
             hrefFor={classHref}
             options={CLASSES.map((c) => ({ value: c.slug, label: c.name }))}
           />
