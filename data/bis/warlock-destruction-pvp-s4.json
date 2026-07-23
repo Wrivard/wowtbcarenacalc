@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Destruction Warlock: the Brutal Gladiator's set (Brutal Gladiator's Dreadweave Leggings, Brutal Gladiator's Spellblade, Brutal Gladiator's Touch of Defeat…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Destruction Warlocks equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Guardian's honor gear puts a floor under your resilience before you spend an arena point, so the priority is really a question of which gated pieces you can reach. If 1950 for the Brutal Gladiator's Spellblade is out of range, bank points on Brutal Gladiator's Dreadweave Leggings — spell damage on a slot you can claim beats waiting on 2200 shoulders.",
  "statPriority": [
   "Resilience",
   "Spell Damage",

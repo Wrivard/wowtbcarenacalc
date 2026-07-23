@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Survival Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Survival Hunters equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Vindicator's bracers, girdle and sabatons carry real resilience with no rating attached, so the defensive floor is set before you ever queue. Push team rating to 1850 for the Vengeful Gladiator's Cleaver and 2000 for the shoulders; until then keep Merciless pieces in those slots rather than dropping to a lower-resilience item for a few points of attack power.",
  "statPriority": [
   "Resilience",
   "Agility",

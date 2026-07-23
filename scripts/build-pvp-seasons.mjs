@@ -26,6 +26,7 @@
 
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { SEASON_EDITORIAL } from "./season-editorial.mjs";
 
 const OUT_DIR = path.join(process.cwd(), "data", "bis");
 const DB_CSV = path.join(process.cwd(), "assets", "wowsims-item-tooltips.csv");
@@ -242,7 +243,12 @@ async function main() {
         seasonPage: true,
         updatedAt: src.updatedAt,
         blurb: buildBlurb(clsName, specName, season, setPieces, honorPieces),
-        statPriorityRationale: "",
+        // Per-season prose from the editorial layer; the stat logic is the
+        // spec's, but what each season's resilience budget and rating gates
+        // change is not. scripts/apply-season-editorial.mjs can refresh these
+        // without re-running this build.
+        statPriorityRationale:
+          SEASON_EDITORIAL[`${src.class}/${src.spec}`]?.[season] ?? "",
         statPriority: src.statPriority,
         slots,
         gems: src.gems.map((g) => ({ ...g })),

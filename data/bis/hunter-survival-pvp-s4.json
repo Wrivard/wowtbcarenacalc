@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Survival Hunter: the Brutal Gladiator's set (Brutal Gladiator's Chain Helm, Brutal Gladiator's Chain Spaulders, Brutal Gladiator's Chain Gauntlets…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Survival Hunters equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Guardian's Chain Bracers, Girdle and Sabatons are the honor floor — buy those first, since the resilience budget here is the highest in the expansion and the offset slots close the gap cheaply. Above that floor everything becomes a rating problem: 1950 for the Brutal Gladiator's Cleaver, 2200 for the shoulders, with personal rating checked on several pieces too.",
  "statPriority": [
   "Resilience",
   "Agility",

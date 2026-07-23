@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Enhancement Shaman: the Gladiator's set (Gladiator's Linked Helm, Gladiator's Linked Spaulders, Gladiator's Linked Armor…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Enhancement Shamans equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Nobody has enough resilience yet, so stamina does the work the Gladiator's Linked set can't — one burst window kills you outright at these health pools. Nothing is gated, so buy the set in slot order and plug the holes with Marshal's Linked Bracers and dungeon pieces instead of chasing attack power early.",
  "statPriority": [
   "Resilience",
   "Stamina",

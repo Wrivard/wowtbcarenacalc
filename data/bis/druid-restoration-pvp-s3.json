@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Restoration Druid: the Vengeful Gladiator's set (Vengeful Gladiator's Kodohide Helm, Vengeful Gladiator's Wyrmhide Spaulders, Vengeful Gladiator's Kodohide Tunic…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Restoration Druids equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Vengeful Gladiator's Kodohide gear jumps the resilience budget far enough that swaps you used to die through now only cost you the time it takes to shift and run. Only two pieces are gated — the weapon at 1850, the shoulders at 2000 — so the Vindicator's neck, bracers, belt, boots and ring go on regardless, and last season's Merciless shoulders hold that slot until you clear 2000.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

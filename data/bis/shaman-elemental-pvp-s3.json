@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Elemental Shaman: the Vengeful Gladiator's set (Vengeful Gladiator's Mail Helm, Vengeful Gladiator's Mail Spaulders, Vengeful Gladiator's Mail Armor…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Elemental Shamans equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The resilience jump on Vengeful pieces changes what a swap actually takes off you, which keeps it first — but only two slots are gated, the gavel at 1850 and the spaulders at 2000, and Merciless Gladiator's Mail Spaulders cover that shoulder gap at no rating. Everything else, Vindicator's offsets included, is bought outright, so push spell damage through those slots first.",
  "statPriority": [
   "Resilience",
   "Spell Damage",

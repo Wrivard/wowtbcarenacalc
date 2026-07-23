@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Affliction Warlock: the Gladiator's set (Gladiator's Dreadweave Hood, Gladiator's Dreadweave Mantle, Gladiator's Dreadweave Robe…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Affliction Warlocks equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience pools are the thinnest they ever get, so Gladiator's Dreadweave Robe blunts a swap rather than stopping it and raw stamina is what actually buys you the extra Fear. Nothing here is rating-gated — every piece comes from points alone — so plug the empty slots with honor and dungeon gear before you chase spell damage.",
  "statPriority": [
   "Resilience",
   "Stamina",

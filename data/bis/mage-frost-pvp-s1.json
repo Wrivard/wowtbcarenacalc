@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Frost Mage: the Gladiator's set (Gladiator's Silk Cowl, Gladiator's Silk Amice, Gladiator's Silk Raiment…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Frost Mages equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience leads because there is so little of it — the Gladiator's Silk Raiment and its +15 Resilience chest enchant are most of what stands between you and a coordinated opener, and nothing in the set is gated behind rating. Stamina matters as much as spell damage while half your offset slots are still dungeon and crafted filler waiting on the honor vendor.",
  "statPriority": [
   "Resilience",
   "Stamina",

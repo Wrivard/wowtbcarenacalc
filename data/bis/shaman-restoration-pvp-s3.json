@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Restoration Shaman: the Vengeful Gladiator's set (Vengeful Gladiator's Ringmail Helm, Vengeful Gladiator's Mail Spaulders, Vengeful Gladiator's Ringmail Armor…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Restoration Shamans equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The Vengeful weapon sits behind 1850 team rating and the spaulders behind 2000; below those, keep Merciless Gladiator's Salvation and Mail Spaulders rather than dropping to a lower-resilience piece for raw healing. Every other slot is honor-bought through the Vindicator's offsets, so the resilience floor climbs high enough that surviving a swap stops being the whole game and throughput starts paying again.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

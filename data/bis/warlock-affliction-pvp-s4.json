@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Affliction Warlock: the Brutal Gladiator's set (Brutal Gladiator's Dreadweave Hood, Brutal Gladiator's Dreadweave Mantle, Brutal Gladiator's Dreadweave Robe…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Affliction Warlocks equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Every gated slot becomes its own decision — Brutal Gladiator's Spellblade at 1950 and the mantle at 2200 are what you plan a whole season around, and several pieces check personal rating on top of team rating. Underneath those lines the Guardian's offsets cost only honor, and stacking them keeps the health pool your dots need.",
  "statPriority": [
   "Resilience",
   "Stamina",

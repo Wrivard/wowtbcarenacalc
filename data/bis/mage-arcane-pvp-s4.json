@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Arcane Mage: the Brutal Gladiator's set (Brutal Gladiator's Spellblade…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The honor floor now hands you a full previous-season kit, so resilience is close to solved before you spend an arena point and the ordering only decides which gated piece to chase. Take the 1950-rating Brutal Gladiator's Spellblade over the 2200 amice — the weapon is where spell damage actually lands — and leave Guardian's Silk Footguards and Belt to cover whatever the personal-rating checks lock out.",
  "statPriority": [
   "Resilience",
   "Stamina",

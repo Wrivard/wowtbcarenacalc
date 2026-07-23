@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Balance Druid: the Vengeful Gladiator's set (Vengeful Gladiator's Salvation, Vengeful Gladiator's Reprieve…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Balance Druids equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience scales up sharply here, and the practical effect is that you survive a swap long enough to hard-cast instead of playing instant-only all match. The gates: 1850 team rating for Vengeful Gladiator's Salvation, 2000 for the Wyrmhide Spaulders — below those, Season 2 pieces stay live in the same slots. Vindicator's Kodohide Bracers and Belt need honor only.",
  "statPriority": [
   "Resilience",
   "Stamina",

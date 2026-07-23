@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Combat Rogue: the Gladiator's set (Gladiator's Quickblade…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Combat Rogues equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience is thin enough here that stamina carries most of your survivability — there is not enough of it in the game yet to blunt a full burst window, so raw health buys the seconds you need to answer. Nothing is rating-gated, so the buy order is simply Gladiator's Leather pieces first, with dungeon and honor offsets filling whatever slots are still empty.",
  "statPriority": [
   "Resilience",
   "Stamina",

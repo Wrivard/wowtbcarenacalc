@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Holy Paladin: the Brutal Gladiator's set (Brutal Gladiator's Ornamented Headcover, Brutal Gladiator's Ornamented Spaulders, Brutal Gladiator's Ornamented Chestguard…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Holy Paladins equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Gates decide this list more than stat weights do: Brutal Gladiator's Salvation checks 1950, the shoulders 2200, and several pieces read personal rating on top of team rating. Last season's Vengeful gear is the honor floor now, so put arena points into the highest-resilience slot you can actually unlock and let Guardian's Ornamented Bracers cover the rest.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Arms Warrior: the Brutal Gladiator's set (Brutal Gladiator's Plate Helm, Brutal Gladiator's Plate Shoulders, Brutal Gladiator's Plate Chestpiece…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Arms Warriors equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience is at its expansion peak, so the question is not what to stack but what you can reach: Guardian's Plate Belt, Bracers and Greaves cost honor only, while Brutal Gladiator's Plate Shoulders sit behind 2200 and the Brutal weapon behind 1950. Below those gates, Vengeful pieces keep more resilience on you than any raid drop, and attack power stays the stat you buy last.",
  "statPriority": [
   "Resilience",
   "Stamina",

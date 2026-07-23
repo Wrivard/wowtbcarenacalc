@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Shadow Priest: the Gladiator's set (Gladiator's Satin Hood, Gladiator's Satin Mantle, Gladiator's Satin Robe…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Shadow Priests equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The thinnest resilience budget of the expansion means stamina does most of the surviving — burst windows cut through what little mitigation Gladiator's Satin gear provides, and raw health is what buys your team the extra global. Take the set robe over Frozen Shadoweave Robe even at a damage loss, and plug the offset slots with dungeon and craft pieces until the honor versions unlock.",
  "statPriority": [
   "Resilience",
   "Stamina",

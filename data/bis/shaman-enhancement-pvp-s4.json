@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Enhancement Shaman: the Brutal Gladiator's set (Brutal Gladiator's Linked Helm, Brutal Gladiator's Linked Spaulders, Brutal Gladiator's Linked Armor…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Enhancement Shamans equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Gearing is an arithmetic problem now: Brutal Gladiator's Linked Spaulders require 2200 and the weapon 1950, with personal rating checked alongside team rating, so most players field a mixed set. Fill every ungated slot with Guardian's honor pieces before spending on a gated one — a complete honor floor beats two Brutal pieces and gaps everywhere else.",
  "statPriority": [
   "Resilience",
   "Stamina",

@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Holy Paladin: the Gladiator's set (Gladiator's Ornamented Headcover, Gladiator's Ornamented Spaulders, Gladiator's Ornamented Chestguard…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Holy Paladins equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Nothing is rating-locked, so your resilience total tracks how fast you farm points — Gladiator's Ornamented Chestguard before any +healing upgrade. Budgets this small blunt burst rather than stop it, which is why stamina buys the global you need to answer a stun. Wrist and waist have no arena piece yet; dungeon and crafted fills carry those slots.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

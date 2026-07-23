@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Elemental Shaman: the Brutal Gladiator's set (Brutal Gladiator's Mail Helm, Brutal Gladiator's Mail Spaulders, Brutal Gladiator's Mail Armor…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Elemental Shamans equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Brutal pieces carry the largest resilience budget of the expansion, so the order holds even when half your set is not Brutal yet — the gavel checks 1950 and the spaulders 2200, with personal rating counted as well. Guardian's Mail Bracers, Girdle and Sabatons cost honor only; fill those, then aim arena points at whichever gated slot adds the most spell damage.",
  "statPriority": [
   "Resilience",
   "Spell Damage",

@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Feral Druid: the Gladiator's set (Gladiator's Dragonhide Helm, Gladiator's Dragonhide Spaulders, Gladiator's Dragonhide Tunic…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Feral Druids equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience is scarcer here than in any later season, so no slot gets traded for a higher-agility dungeon drop — Gladiator's Dragonhide Tunic beats anything with fatter stats. Wrist stays a hole until Veteran's Dragonhide Bracers unlock; fill it with crafted leather and gem stamina, since an opener still kills through what resilience you have. Nothing is rating-gated, so only your point total limits you.",
  "statPriority": [
   "Resilience",
   "Agility",

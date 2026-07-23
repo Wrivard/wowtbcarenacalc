@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Enhancement Shaman: the Vengeful Gladiator's set (Vengeful Gladiator's Linked Helm, Vengeful Gladiator's Linked Spaulders, Vengeful Gladiator's Linked Armor…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Enhancement Shamans equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The resilience on Vengeful Gladiator's Linked Armor is a real step up — swaps that used to finish you now leave room to shock and totem out. The Spaulders check 2000 team rating and the weapon 1850, so what you actually equip depends on where your team lands. Take the rating-free Vindicator's offsets first; they raise your floor immediately.",
  "statPriority": [
   "Resilience",
   "Stamina",

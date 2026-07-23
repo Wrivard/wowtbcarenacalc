@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Restoration Druid: the Gladiator's set (Gladiator's Kodohide Helm, Gladiator's Wyrmhide Spaulders, Gladiator's Kodohide Tunic…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Restoration Druids equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The Gladiator's set carries the thinnest resilience of the expansion, so what you buy blunts a burst window rather than surviving it outright — take every point, then let stamina cover the rest. Neck, wrist, belt, boots and ring are still dungeon and craft fillers early on, so those slots are where you pick up +healing. Nothing is rating-gated, so points are the only limiter.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Retribution Paladin: the Brutal Gladiator's set (Brutal Gladiator's Scaled Helm, Brutal Gladiator's Scaled Shoulders, Brutal Gladiator's Scaled Chestpiece…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Retribution Paladins equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Everyone you meet carries a full resilience budget now, so fights run long enough that stamina and sustained attack power decide them rather than a single swing. Guardian's Scaled Greaves and last season's Vengeful plate form the floor you can gear with no rating check; spend arena points only on the Brutal slots you actually clear — 1950 for the weapon, 2200 for shoulders.",
  "statPriority": [
   "Resilience",
   "Stamina",

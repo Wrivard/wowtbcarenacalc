@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Holy Paladin: the Vengeful Gladiator's set (Vengeful Gladiator's Ornamented Headcover, Vengeful Gladiator's Ornamented Spaulders, Vengeful Gladiator's Ornamented Chestguard…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Holy Paladins equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The Vengeful weapon needs 1850 and the shoulders 2000; everything else is rating-free, so the resilience-heavy body pieces land first and the two gated slots come last. That larger per-piece budget is what lets you eat a full swap and still cast — Merciless Gladiator's Ornamented Spaulders hold the shoulder slot until 2000, and Vindicator's Ornamented Bracers cost honor only.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Fury Warrior: the Gladiator's set (Gladiator's Cleaver…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Fury Warriors equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Nothing is rating-gated yet, so your resilience total is simply whatever the Gladiator's set hands you — there is no spare budget anywhere, and an opener punches clean through what you have. Stack stamina alongside it so the first swap cannot finish you, and let dungeon and craft fillers hold the offset slots for attack power until the honor pieces unlock.",
  "statPriority": [
   "Resilience",
   "Stamina",

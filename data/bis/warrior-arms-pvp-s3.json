@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Arms Warrior: the Vengeful Gladiator's set (Vengeful Gladiator's Plate Helm, Vengeful Gladiator's Plate Shoulders, Vengeful Gladiator's Plate Chestpiece…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Arms Warriors equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The Vengeful pieces carry enough resilience that a swap you used to lose is now survivable, which is why the rating-free slots come first: Vindicator's Plate Bracers, Belt, Greaves and Pendant of Triumph all stack it for honor alone. Keep Merciless shoulders on until you hit 2000 rather than dropping resilience for a raid piece — attack power is the cheapest stat to add later.",
  "statPriority": [
   "Resilience",
   "Stamina",

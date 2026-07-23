@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Demonology Warlock: the Vengeful Gladiator's set (Vengeful Gladiator's Felweave Cowl, Vengeful Gladiator's Dreadweave Mantle, Vengeful Gladiator's Dreadweave Robe…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Demonology Warlocks equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The resilience budget jumps far enough that a swap onto you no longer resolves inside two globals, so the rating-free Vindicator's cuffs, belt and boots do real work instead of just padding health. Clear 1850 for the Vengeful Spellblade before anything else; if 2000 shoulders stay out of reach, the Merciless mantle holds the set bonus in the meantime.",
  "statPriority": [
   "Resilience",
   "Stamina",

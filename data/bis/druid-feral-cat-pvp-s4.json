@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Feral Druid: the Brutal Gladiator's set (Brutal Gladiator's Dragonhide Helm, Brutal Gladiator's Dragonhide Spaulders, Brutal Gladiator's Dragonhide Tunic…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Feral Druids equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The biggest resilience budget of the expansion is what lets Nordrassil Feral-Kilt keep the leg slot — that's the one place trading resilience for agility pays, and only because every other piece covers it. The rest is reach: Guardian's Dragonhide Bracers and Boots ask for honor alone, while the Brutal shoulders sit behind 2200 and the weapon behind 1950. Vengeful pieces hold those slots until you get there.",
  "statPriority": [
   "Resilience",
   "Agility",

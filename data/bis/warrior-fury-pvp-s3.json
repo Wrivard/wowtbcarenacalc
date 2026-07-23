@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Fury Warrior: the Vengeful Gladiator's set (Vengeful Gladiator's Cleaver…). Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Fury Warriors equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The Vengeful Gladiator's Cleaver is gated at 1850 team rating and the shoulders at 2000, so the resilience you can actually field depends on where your team finishes the week. Below those gates, fill with Vindicator's honor plate rather than dropping to a lower-resilience raid piece — the deeper pool this season is what buys you a second offensive after surviving the first swap.",
  "statPriority": [
   "Resilience",
   "Stamina",

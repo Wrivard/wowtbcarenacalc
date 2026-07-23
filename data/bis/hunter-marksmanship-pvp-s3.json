@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Marksmanship Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Marksmanship Hunters equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Vengeful Gladiator's Chain Spaulders sit behind 2000 team rating and the Cleaver behind 1850 — below those numbers your Merciless pieces stay in, and they cost you nothing but item level. Everything else in the set is rating-free and carries a far larger resilience budget than Season 2 did, which is what lets you hold a global for Aimed Shot instead of spending it escaping.",
  "statPriority": [
   "Resilience",
   "Attack Power",

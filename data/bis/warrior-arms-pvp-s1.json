@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Arms Warrior: the Gladiator's set (Gladiator's Plate Helm, Gladiator's Plate Shoulders, Gladiator's Plate Chestpiece…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Arms Warriors equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Nobody has a full set yet, so the resilience on Gladiator's Plate Helm and Chestpiece does work no other gear can replace — burst windows still take people from full to dead. Stamina matters just as much while mitigation is this thin. Fill the gaps with Marshal's and dungeon offsets, and gem for crit only once the set pieces are in.",
  "statPriority": [
   "Resilience",
   "Stamina",

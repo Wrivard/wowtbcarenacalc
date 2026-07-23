@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 1 arena gear for Holy Priest: the Gladiator's set (Gladiator's Salvation…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Holy Priests equip into their Season 1 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "A full Gladiator's set carries so little resilience that a coordinated swap kills through it anyway, which pushes stamina up hard against intellect — dying with mana left is the standard loss here. Neck, wrist and belt sit on dungeon and crafted pieces until the honor offsets unlock, so take flat healing on those and worry about regen later.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

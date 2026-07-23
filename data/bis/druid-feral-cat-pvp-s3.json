@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Feral Druid: the Vengeful Gladiator's set (Vengeful Gladiator's Dragonhide Helm, Vengeful Gladiator's Dragonhide Spaulders, Vengeful Gladiator's Dragonhide Tunic…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Feral Druids equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The resilience pool jumps enough that a full swap no longer opens you inside one stun, so the agility on Vindicator's Dragonhide Bracers is worth more than it was a season ago. Miss 2000 rating and Vengeful Gladiator's Dragonhide Spaulders stay locked — wear the Merciless shoulders rather than a raid piece carrying no resilience. The weapon slot waits on 1850, and Merciless Gladiator's Maul covers it until then.",
  "statPriority": [
   "Resilience",
   "Agility",

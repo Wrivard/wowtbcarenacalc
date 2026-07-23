@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Frost Mage: the Vengeful Gladiator's set (Vengeful Gladiator's Silk Cowl, Vengeful Gladiator's Silk Amice, Vengeful Gladiator's Silk Raiment…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Frost Mages equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The Vengeful pieces carry far more resilience per slot, so a swap you used to Ice Block out of becomes something you can hold cooldowns through. Only the Spellblade at 1850 and the Silk Amice at 2000 are gated — keep your Merciless pieces in those two slots and buy the rating-free Vindicator's Silk Cuffs and Belt first for the stamina.",
  "statPriority": [
   "Resilience",
   "Stamina",

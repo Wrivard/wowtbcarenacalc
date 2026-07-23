@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 4 arena gear for Discipline Priest: the Brutal Gladiator's set (Brutal Gladiator's Mooncloth Mantle, Brutal Gladiator's Mooncloth Robe, Brutal Gladiator's Mooncloth Gloves…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Discipline Priests equip into their Season 4 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience per arena point peaks here, so the big slots come first — Brutal Gladiator's Mooncloth Robe and Leggings — while the 2200 Mantle and 1950 weapon wait for a rating you can actually hold. Guardian's Mooncloth Belt, Cuffs and Band of Salvation cover the offsets on honor alone, so what a gate costs you is resilience, never healing.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

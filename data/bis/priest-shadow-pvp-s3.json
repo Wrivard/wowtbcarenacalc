@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Shadow Priest: the Vengeful Gladiator's set (Vengeful Gladiator's Satin Hood, Vengeful Gladiator's Satin Mantle, Vengeful Gladiator's Satin Robe…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Shadow Priests equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience jumps hard enough this season that a swap no longer burns through you before Vampiric Embrace pays out, so the offset slots can afford spell penetration again. Vindicator's Dreadweave pieces need only honor; the gates are 1850 for Vengeful Gladiator's Gavel and 2000 for the mantle, and Merciless gear covers both slots until you get there.",
  "statPriority": [
   "Resilience",
   "Stamina",

@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Discipline Priest: the Vengeful Gladiator's set (Vengeful Gladiator's Mooncloth Mantle, Vengeful Gladiator's Mooncloth Robe, Vengeful Gladiator's Mooncloth Gloves…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Discipline Priests equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "The resilience on Vengeful Gladiator's Mooncloth now blunts a full swap instead of merely delaying it, which is why the 2000-rating Mantle is the piece worth chasing first. Miss it and the Vindicator's honor line — Pendant of Salvation, Mooncloth Cuffs, Mooncloth Belt — carries the same stat shape with no gate, keeping bonus healing and stamina intact while you climb toward the 1850 weapon.",
  "statPriority": [
   "Resilience",
   "Bonus Healing",

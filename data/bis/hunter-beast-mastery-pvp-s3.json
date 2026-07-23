@@ -6,7 +6,7 @@
  "seasonPage": true,
  "updatedAt": "2026-07-12",
  "blurb": "Season 3 arena gear for Beast Mastery Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Beast Mastery Hunters equip into their Season 3 equivalents — same slot logic, this season's items.",
- "statPriorityRationale": "",
+ "statPriorityRationale": "Resilience scales hard enough here that a full swap no longer deletes you through the set, so it keeps the top slot even though every Vengeful piece also hands you more attack power than its Merciless counterpart. Vindicator's Chain Bracers, Girdle and Sabatons carry no gate — buy those first and bank arena points for the 1850-rating weapon and the 2000-rating spaulders.",
  "statPriority": [
   "Resilience",
   "Attack Power",
