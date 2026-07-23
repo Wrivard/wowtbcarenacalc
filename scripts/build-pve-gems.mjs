@@ -239,18 +239,43 @@ async function main() {
     const name = tip?.name ?? src?.name ?? `Enchant ${id}`;
     enchantMeta.set(id, {
       name,
+      icon: tip?.icon ?? null,
       text: enchantEffect(tip, name),
-      note: sourceNote(src),
+      source: sourceNote(src),
     });
   }
 
+  // Gems render through <ItemLink>, which pulls the icon and quality colour
+  // from data/items.json — an unregistered gem shows as bare text with no
+  // icon, so every gem has to land in that file.
+  const items = JSON.parse(
+    await readFile(path.join(process.cwd(), "data", "items.json"), "utf8"),
+  );
   const gemMeta = new Map();
+  let added = 0;
   for (const id of gemIds) {
     const src = DATA.gemSources[id];
-    let name = src?.name;
-    if (!name) name = (await tooltip("item", id))?.name ?? `Gem ${id}`;
-    gemMeta.set(id, { name, note: sourceNote(src) });
+    const known = items[String(id)];
+    let name = known?.name ?? src?.name;
+    if (!known) {
+      const tip = await tooltip("item", id);
+      if (tip?.name) {
+        items[String(id)] = {
+          name: tip.name,
+          icon: tip.icon,
+          quality: tip.quality,
+        };
+        name = tip.name;
+        added++;
+      }
+    }
+    gemMeta.set(id, { name: name ?? `Gem ${id}`, source: sourceNote(src) });
   }
+  await writeFile(
+    path.join(process.cwd(), "data", "items.json"),
+    JSON.stringify(items, null, 1),
+  );
+  console.log(`data/items.json: +${added} gems (${Object.keys(items).length} total)`);
 
   // Enchant coverage is uneven per phase; when a phase has no entry for a
   // slot, carry the nearest earlier phase's choice forward (TBC enchants
@@ -310,7 +335,7 @@ async function main() {
       const meta = gemMeta.get(g.itemId) ?? {};
       const bits = [];
       if (g.isMeta) bits.push("Meta socket");
-      if (meta.note) bits.push(meta.note);
+      if (meta.source) bits.push(meta.source);
       if (shared) bits.push(shared);
       return {
         itemId: Number(g.itemId),
@@ -328,7 +353,10 @@ async function main() {
       rows.push({
         slot: label,
         text: meta.text,
-        note: [meta.name, meta.note].filter(Boolean).join(" — "),
+        name: meta.name,
+        ...(meta.icon ? { icon: meta.icon } : {}),
+        ...(meta.source ? { source: meta.source } : {}),
+        note: meta.source ?? "",
       });
     }
     rows.sort(
@@ -346,6 +374,90 @@ async function main() {
   }
 
   console.log(`wrote ${written} PvE lists`);
+
+  // The PvP lists carry enchants harvested from the armory (effect text +
+  // usage %), with no spell id and so no icon or source. Their effect text is
+  // the same phrasing this catalogue produces, so match on it and graft the
+  // name/icon/source across — the usage % note is kept, it is the PvP list's
+  // whole value.
+  // Matching is three-tier because the armory phrases the same enchant three
+  // different ways: the exact effect ("+12 Agility"), just the enchant's
+  // distinctive name ("Mongoose", "Surefooted"), or a reworded effect with
+  // the same numbers ("+22 Spell Power and +14 Spell Hit Rating" vs the
+  // tooltip's "up to 22 spell damage and healing and 14 spell hit rating").
+  // The numeric signature plus the slot is what makes the third tier safe.
+  const norm = (s) =>
+    (s ?? "").toLowerCase().replace(/[^a-z0-9+]+/g, " ").replace(/\s+/g, " ").trim();
+  const nums = (s) => (s ?? "").match(/\d+/g)?.join(",") ?? "";
+  const words = (s) =>
+    new Set(norm(s).split(" ").filter((w) => w.length > 3 && !/^\d+$/.test(w)));
+
+  const byEffect = new Map();
+  const byName = new Map();
+  for (const meta of enchantMeta.values()) {
+    const k = norm(meta.text);
+    if (k && !byEffect.has(k)) byEffect.set(k, meta);
+    // "Enchant Weapon - Mongoose" → "mongoose"
+    const short = norm(meta.name.replace(/^enchant\s+[\w\s]*?-\s*/i, ""));
+    if (short && !byName.has(short)) byName.set(short, meta);
+  }
+  // Slot-scoped candidates, taken from the assignments just written.
+  const bySlot = new Map();
+  for (const spec of DATA.specs)
+    for (const p of [1, 2, 3, 4, 5])
+      for (const e of spec.phases?.[p]?.enchants ?? []) {
+        const label = SLOT_LABEL[e.slot] ?? e.slot;
+        const meta = enchantMeta.get(e.spellId);
+        if (!meta) continue;
+        if (!bySlot.has(label)) bySlot.set(label, new Set());
+        bySlot.get(label).add(meta);
+      }
+
+  function matchEnchant(slot, text) {
+    const exact = byEffect.get(norm(text));
+    if (exact) return exact;
+    const named = byName.get(norm(text));
+    if (named) return named;
+    const sig = nums(text);
+    if (!sig) return null;
+    const pool = bySlot.get(slot) ?? new Set(enchantMeta.values());
+    const w = words(text);
+    let best = null;
+    let bestScore = 0;
+    for (const meta of pool) {
+      if (nums(meta.text) !== sig) continue;
+      const mw = words(meta.text);
+      const overlap = [...w].filter((x) => mw.has(x)).length;
+      if (overlap > bestScore) {
+        bestScore = overlap;
+        best = meta;
+      } else if (!best) best = meta;
+    }
+    return best;
+  }
+
+  const pvpFiles = (await readdir(BIS_DIR)).filter((f) =>
+    /-pvp(-s\d)?\.json$/.test(f),
+  );
+  let matched = 0;
+  let total = 0;
+  for (const file of pvpFiles) {
+    const p = path.join(BIS_DIR, file);
+    const list = JSON.parse(await readFile(p, "utf8"));
+    let touched = false;
+    for (const e of list.enchants ?? []) {
+      total++;
+      const meta = matchEnchant(e.slot, e.text);
+      if (!meta) continue;
+      e.name = meta.name;
+      if (meta.icon) e.icon = meta.icon;
+      if (meta.source) e.source = meta.source;
+      matched++;
+      touched = true;
+    }
+    if (touched) await writeFile(p, JSON.stringify(list, null, 1));
+  }
+  console.log(`PvP enchants enriched: ${matched}/${total}`);
   if (empty.length) {
     console.warn(`still empty (${empty.length}):`);
     for (const e of empty) console.warn(`  ${e}`);

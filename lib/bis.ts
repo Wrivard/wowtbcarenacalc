@@ -48,7 +48,17 @@ export interface BisList {
   statPriority: string[];
   slots: BisSlot[];
   gems: { itemId: number; name?: string; note: string }[];
-  enchants: { slot: string; text: string; note: string }[];
+  enchants: {
+    slot: string;
+    text: string;
+    note: string;
+    /** Enchant/formula name, e.g. "Glyph of Ferocity". */
+    name?: string;
+    /** zamimg icon name for the enchant formula. */
+    icon?: string;
+    /** Where it comes from — vendor/rep/drop and its zone. */
+    source?: string;
+  }[];
   faq: BisFaqItem[];
 }
 

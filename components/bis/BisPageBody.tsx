@@ -15,6 +15,7 @@ import { getStatCaps } from "@/data/caps";
 import { FilledTalentTrees } from "@/components/talents/FilledTalentTrees";
 import { PvpExtras } from "@/components/bis/PvpExtras";
 import { ItemLink } from "@/components/ItemLink";
+import { GameIcon } from "@/components/GameIcon";
 import { AdUnit } from "@/components/AdUnit";
 
 const SLOT_RESULT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT;
@@ -151,14 +152,27 @@ export function BisPageBody({
           {list.enchants.map((e) => (
             <div
               key={`${e.slot}-${e.text}`}
-              className="flex flex-col gap-1 border-b border-border bg-surface px-4 py-3 last:border-b-0 sm:flex-row sm:items-baseline sm:gap-3"
+              className="flex flex-col gap-1.5 border-b border-border bg-surface px-4 py-3 last:border-b-0 sm:flex-row sm:items-start sm:gap-3"
             >
-              <span className="w-24 shrink-0 font-mono text-[11px] tracking-wider text-muted uppercase">
+              <span className="flex w-28 shrink-0 items-center gap-2 pt-0.5 font-mono text-[11px] tracking-wider text-muted uppercase">
+                {e.icon && <GameIcon icon={e.icon} alt="" size="small" className="size-5" />}
                 {e.slot}
               </span>
-              <span className="text-sm text-foreground">{e.text}</span>
-              <span className="text-xs leading-relaxed text-muted sm:flex-1 sm:text-right">
-                {e.note}
+              <span className="min-w-0 flex-1">
+                <span className="block text-sm text-foreground">{e.text}</span>
+                {e.name && (
+                  <span className="mt-0.5 block text-xs text-muted-strong">
+                    {e.name}
+                  </span>
+                )}
+              </span>
+              {/* Source on top, then the list's own note — on PvP lists that
+                  note is the usage %, which must not be replaced by it. */}
+              <span className="text-xs leading-relaxed text-muted sm:w-56 sm:shrink-0 sm:text-right">
+                {e.source && <span className="block">{e.source}</span>}
+                {e.note && e.note !== e.source && (
+                  <span className="block">{e.note}</span>
+                )}
               </span>
             </div>
           ))}

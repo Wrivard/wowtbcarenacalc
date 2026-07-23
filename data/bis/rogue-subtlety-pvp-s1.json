@@ -303,12 +303,18 @@
   {
    "slot": "Head",
    "text": "+34 Attack Power and +16 Hit Rating",
-   "note": "100% of surveyed players on this slot."
+   "note": "100% of surveyed players on this slot.",
+   "name": "Glyph of Ferocity",
+   "icon": "classic_temp",
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "95% of surveyed players on this slot."
+   "note": "95% of surveyed players on this slot.",
+   "name": "Greater Inscription of Vengeance",
+   "icon": "classic_temp",
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
@@ -318,42 +324,66 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "83% of surveyed players on this slot."
+   "note": "83% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop"
   },
   {
    "slot": "Wrist",
    "text": "+24 Attack Power",
-   "note": "50% of surveyed players on this slot."
+   "note": "50% of surveyed players on this slot.",
+   "name": "Enchant Bracer - Assault",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Hands",
    "text": "+15 Agility",
-   "note": "53% of surveyed players on this slot."
+   "note": "53% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Superior Agility",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "98% of surveyed players on this slot."
+   "note": "98% of surveyed players on this slot.",
+   "name": "Nethercobra Leg Armor",
+   "icon": "inv_misc_armorkit_25",
+   "source": "Leatherworking Trainer — Faction Capital"
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +6 Agility",
-   "note": "46% of surveyed players on this slot."
+   "note": "46% of surveyed players on this slot.",
+   "name": "Enchant Boots - Cat's Swiftness",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "2% of surveyed players on this slot."
+   "note": "2% of surveyed players on this slot.",
+   "name": "Enchant Ring - Striking",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "57% of surveyed players on this slot."
+   "note": "57% of surveyed players on this slot.",
+   "name": "Enchant Weapon - Mongoose",
+   "icon": "spell_holy_greaterheal",
+   "source": "Moroes<Tower Steward> — Karazhan"
   },
   {
    "slot": "OffHand",
    "text": "Mongoose",
-   "note": "55% of surveyed players on this slot."
+   "note": "55% of surveyed players on this slot.",
+   "name": "Enchant Weapon - Mongoose",
+   "icon": "spell_holy_greaterheal",
+   "source": "Moroes<Tower Steward> — Karazhan"
   }
  ],
  "faq": [

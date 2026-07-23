@@ -361,52 +361,82 @@
   {
    "slot": "Head",
    "text": "+34 attack power and +16 hit rating",
-   "note": "Glyph of Ferocity — Fedryen Swiftwpear — Zangarmarsh"
+   "name": "Glyph of Ferocity",
+   "icon": "classic_temp",
+   "source": "Fedryen Swiftwpear — Zangarmarsh",
+   "note": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+26 attack power",
-   "note": "Inscription of Vengeance — Inscriber Saalyn — Shattrath City"
+   "name": "Inscription of Vengeance",
+   "icon": "classic_temp",
+   "source": "Inscriber Saalyn — Shattrath City",
+   "note": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "Enchant Cloak - Greater Agility — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Cloak - Greater Agility",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Chest",
    "text": "Enchant a piece of chest armor to add 6 to all stats",
-   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Chest - Exceptional Stats",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Wrist",
    "text": "+12 Strength",
-   "note": "Enchant Bracer - Brawn — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Bracer - Brawn",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Hands",
    "text": "+15 agility",
-   "note": "Enchant Gloves - Superior Agility — World Drop"
+   "name": "Enchant Gloves - Superior Agility",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop",
+   "note": "World Drop"
   },
   {
    "slot": "Legs",
    "text": "+40 attack power and +10 critical strike rating",
-   "note": "Cobrahide Leg Armor — Leatherworking Trainer — Faction Capital"
+   "name": "Cobrahide Leg Armor",
+   "icon": "inv_misc_armorkit_21",
+   "source": "Leatherworking Trainer — Faction Capital",
+   "note": "Leatherworking Trainer — Faction Capital"
   },
   {
    "slot": "Feet",
    "text": "minor movement speed increase and +6 Agility",
-   "note": "Enchant Boots - Cat's Swiftness — World Drop"
+   "name": "Enchant Boots - Cat's Swiftness",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop",
+   "note": "World Drop"
   },
   {
    "slot": "Ring",
    "text": "+4 all stats",
-   "note": "Enchant Ring - Stats — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Ring - Stats",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Two-Hand",
    "text": "+35 Agility",
-   "note": "Enchant 2H Weapon - Major Agility — Eredar Deathbringer — The Arcatraz"
+   "name": "Enchant 2H Weapon - Major Agility",
+   "icon": "spell_holy_greaterheal",
+   "source": "Eredar Deathbringer — The Arcatraz",
+   "note": "Eredar Deathbringer — The Arcatraz"
   }
  ],
  "faq": [

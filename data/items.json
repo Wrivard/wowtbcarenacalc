@@ -644,8 +644,18 @@
   "icon": "inv_jewelcrafting_livingruby_03",
   "quality": 3
  },
+ "24030": {
+  "name": "Runed Living Ruby",
+  "icon": "inv_jewelcrafting_livingruby_03",
+  "quality": 3
+ },
  "24033": {
   "name": "Solid Star of Elune",
+  "icon": "inv_jewelcrafting_starofelune_03",
+  "quality": 3
+ },
+ "24035": {
+  "name": "Sparkling Star of Elune",
   "icon": "inv_jewelcrafting_starofelune_03",
   "quality": 3
  },
@@ -716,6 +726,11 @@
  },
  "24066": {
   "name": "Radiant Talasite",
+  "icon": "inv_jewelcrafting_talasite_03",
+  "quality": 3
+ },
+ "24067": {
+  "name": "Jagged Talasite",
   "icon": "inv_jewelcrafting_talasite_03",
   "quality": 3
  },
@@ -978,6 +993,11 @@
   "name": "Gladiator's Silk Trousers",
   "icon": "inv_pants_07",
   "quality": 4
+ },
+ "25893": {
+  "name": "Mystical Skyfire Diamond",
+  "icon": "inv_misc_gem_diamond_07",
+  "quality": 3
  },
  "25894": {
   "name": "Swift Skyfire Diamond",
@@ -5639,6 +5659,11 @@
   "icon": "inv_jewelry_ring_36",
   "quality": 4
  },
+ "31860": {
+  "name": "Great Golden Draenite",
+  "icon": "inv_misc_gem_goldendraenite_02",
+  "quality": 2
+ },
  "31861": {
   "name": "Great Dawnstone",
   "icon": "inv_jewelcrafting_dawnstone_03",
@@ -5648,6 +5673,16 @@
   "name": "Veiled Noble Topaz",
   "icon": "inv_jewelcrafting_nobletopaz_03",
   "quality": 3
+ },
+ "31868": {
+  "name": "Wicked Noble Topaz",
+  "icon": "inv_jewelcrafting_nobletopaz_03",
+  "quality": 3
+ },
+ "31869": {
+  "name": "Wicked Flame Spessarite",
+  "icon": "inv_misc_gem_flamespessarite_02",
+  "quality": 2
  },
  "31960": {
   "name": "Merciless Gladiator's Chain Armor",
@@ -6117,6 +6152,106 @@
  "32090": {
   "name": "Cowl of Naaru Blessings",
   "icon": "inv_helmet_30",
+  "quality": 4
+ },
+ "32193": {
+  "name": "Bold Crimson Spinel",
+  "icon": "inv_jewelcrafting_crimsonspinel_02",
+  "quality": 4
+ },
+ "32194": {
+  "name": "Delicate Crimson Spinel",
+  "icon": "inv_jewelcrafting_crimsonspinel_02",
+  "quality": 4
+ },
+ "32195": {
+  "name": "Teardrop Crimson Spinel",
+  "icon": "inv_jewelcrafting_crimsonspinel_02",
+  "quality": 4
+ },
+ "32196": {
+  "name": "Runed Crimson Spinel",
+  "icon": "inv_jewelcrafting_crimsonspinel_02",
+  "quality": 4
+ },
+ "32200": {
+  "name": "Solid Empyrean Sapphire",
+  "icon": "inv_jewelcrafting_empyreansapphire_02",
+  "quality": 4
+ },
+ "32201": {
+  "name": "Sparkling Empyrean Sapphire",
+  "icon": "inv_jewelcrafting_empyreansapphire_02",
+  "quality": 4
+ },
+ "32204": {
+  "name": "Brilliant Lionseye",
+  "icon": "inv_jewelcrafting_lionseye_02",
+  "quality": 4
+ },
+ "32205": {
+  "name": "Smooth Lionseye",
+  "icon": "inv_jewelcrafting_lionseye_02",
+  "quality": 4
+ },
+ "32206": {
+  "name": "Rigid Lionseye",
+  "icon": "inv_jewelcrafting_lionseye_02",
+  "quality": 4
+ },
+ "32210": {
+  "name": "Great Lionseye",
+  "icon": "inv_jewelcrafting_lionseye_02",
+  "quality": 4
+ },
+ "32211": {
+  "name": "Sovereign Shadowsong Amethyst",
+  "icon": "inv_jewelcrafting_shadowsongamethyst_02",
+  "quality": 4
+ },
+ "32212": {
+  "name": "Shifting Shadowsong Amethyst",
+  "icon": "inv_jewelcrafting_shadowsongamethyst_02",
+  "quality": 4
+ },
+ "32214": {
+  "name": "Infused Shadowsong Amethyst",
+  "icon": "inv_jewelcrafting_shadowsongamethyst_02",
+  "quality": 4
+ },
+ "32215": {
+  "name": "Glowing Shadowsong Amethyst",
+  "icon": "inv_jewelcrafting_shadowsongamethyst_02",
+  "quality": 4
+ },
+ "32217": {
+  "name": "Inscribed Pyrestone",
+  "icon": "inv_jewelcrafting_pyrestone_02",
+  "quality": 4
+ },
+ "32218": {
+  "name": "Potent Pyrestone",
+  "icon": "inv_jewelcrafting_pyrestone_02",
+  "quality": 4
+ },
+ "32220": {
+  "name": "Glinting Pyrestone",
+  "icon": "inv_jewelcrafting_pyrestone_02",
+  "quality": 4
+ },
+ "32221": {
+  "name": "Veiled Pyrestone",
+  "icon": "inv_jewelcrafting_pyrestone_02",
+  "quality": 4
+ },
+ "32222": {
+  "name": "Wicked Pyrestone",
+  "icon": "inv_jewelcrafting_pyrestone_02",
+  "quality": 4
+ },
+ "32224": {
+  "name": "Radiant Seaspray Emerald",
+  "icon": "inv_jewelcrafting_seasprayemerald_02",
   "quality": 4
  },
  "32232": {
@@ -9907,6 +10042,26 @@
  "35750": {
   "name": "Redeemer's Alchemist Stone",
   "icon": "classic_spell_nature_healingway",
+  "quality": 4
+ },
+ "35758": {
+  "name": "Steady Seaspray Emerald",
+  "icon": "inv_jewelcrafting_seasprayemerald_02",
+  "quality": 4
+ },
+ "35759": {
+  "name": "Forceful Seaspray Emerald",
+  "icon": "inv_jewelcrafting_seasprayemerald_02",
+  "quality": 4
+ },
+ "35760": {
+  "name": "Reckless Pyrestone",
+  "icon": "inv_jewelcrafting_pyrestone_02",
+  "quality": 4
+ },
+ "35761": {
+  "name": "Quick Lionseye",
+  "icon": "inv_jewelcrafting_lionseye_02",
   "quality": 4
  },
  "37128": {

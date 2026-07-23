@@ -385,57 +385,90 @@
   {
    "slot": "Head",
    "text": "up to 22 spell damage and healing and +14 spell hit rating",
-   "note": "Glyph of Power — Almaador — Shattrath City"
+   "name": "Glyph of Power",
+   "icon": "classic_temp",
+   "source": "Almaador — Shattrath City",
+   "note": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+15 dodge rating and +10 defense rating",
-   "note": "Greater Inscription of Warding — Inscriber Saalyn — Shattrath City"
+   "name": "Greater Inscription of Warding",
+   "icon": "classic_temp",
+   "source": "Inscriber Saalyn — Shattrath City",
+   "note": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 dodge rating",
-   "note": "Enchant Cloak - Dodge — World Drop"
+   "name": "Enchant Cloak - Dodge",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop",
+   "note": "World Drop"
   },
   {
    "slot": "Chest",
    "text": "Enchant a piece of chest armor to add 6 to all stats",
-   "note": "Enchant Chest - Exceptional Stats — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Chest - Exceptional Stats",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Wrist",
    "text": "+12 Stamina",
-   "note": "Enchant Bracer - Fortitude — Coilfang Oracle — The Steamvault"
+   "name": "Enchant Bracer - Fortitude",
+   "icon": "spell_holy_greaterheal",
+   "source": "Coilfang Oracle — The Steamvault",
+   "note": "Coilfang Oracle — The Steamvault"
   },
   {
    "slot": "Hands",
    "text": "+2 threat from all attacks and spells%",
-   "note": "Enchant Gloves - Threat — Emperor Vek'nilash — Ahn'Qiraj"
+   "name": "Enchant Gloves - Threat",
+   "icon": "spell_holy_greaterheal",
+   "source": "Emperor Vek'nilash — Ahn'Qiraj",
+   "note": "Emperor Vek'nilash — Ahn'Qiraj"
   },
   {
    "slot": "Legs",
    "text": "+40 Stamina and +12 Agility",
-   "note": "Nethercleft Leg Armor — Leatherworking Trainer — Faction Capital"
+   "name": "Nethercleft Leg Armor",
+   "icon": "inv_misc_armorkit_25",
+   "source": "Leatherworking Trainer — Faction Capital",
+   "note": "Leatherworking Trainer — Faction Capital"
   },
   {
    "slot": "Feet",
    "text": "+12 Stamina",
-   "note": "Enchant Boots - Fortitude — Ethereal Priest — Mana-Tombs"
+   "name": "Enchant Boots - Fortitude",
+   "icon": "spell_holy_greaterheal",
+   "source": "Ethereal Priest — Mana-Tombs",
+   "note": "Ethereal Priest — Mana-Tombs"
   },
   {
    "slot": "Ring",
    "text": "+12 spell damage and healing",
-   "note": "Enchant Ring - Spellpower — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Ring - Spellpower",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Main Hand",
    "text": "+40 spell damage and healing",
-   "note": "Enchant Weapon - Major Spellpower — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Weapon - Major Spellpower",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Off Hand",
    "text": "+18 Stamina",
-   "note": "Enchant Shield - Major Stamina — Enchanting Trainer — Faction Capital"
+   "name": "Enchant Shield - Major Stamina",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital",
+   "note": "Enchanting Trainer — Faction Capital"
   }
  ],
  "faq": [

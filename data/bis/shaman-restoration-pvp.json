@@ -408,7 +408,10 @@
   {
    "slot": "Head",
    "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
-   "note": "90% of surveyed players on this slot."
+   "note": "90% of surveyed players on this slot.",
+   "name": "Glyph of Renewal",
+   "icon": "classic_temp",
+   "source": "Quartermaster — Hellfire Peninsula"
   },
   {
    "slot": "Shoulders",
@@ -423,42 +426,66 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "95% of surveyed players on this slot."
+   "note": "95% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop"
   },
   {
    "slot": "Wrist",
    "text": "+30 Healing and +10 Spell Damage",
-   "note": "48% of surveyed players on this slot."
+   "note": "48% of surveyed players on this slot.",
+   "name": "Enchant Bracer - Superior Healing",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Hands",
    "text": "+35 Healing Spells and +12 Damage Spells",
-   "note": "46% of surveyed players on this slot."
+   "note": "46% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Major Healing",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
-   "note": "100% of surveyed players on this slot."
+   "note": "100% of surveyed players on this slot.",
+   "name": "Golden Spellthread",
+   "icon": "classic_temp",
+   "source": "Tailoring Trainer — Faction Capital"
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "46% of surveyed players on this slot."
+   "note": "46% of surveyed players on this slot.",
+   "name": "Enchant Boots - Boar's Speed",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop"
   },
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "72% of surveyed players on this slot."
+   "note": "72% of surveyed players on this slot.",
+   "name": "Enchant Ring - Healing Power",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "MainHand",
    "text": "+81 Healing Spells and +27 Damage Spells",
-   "note": "51% of surveyed players on this slot."
+   "note": "51% of surveyed players on this slot.",
+   "name": "Enchant Weapon - Major Healing",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "OffHand",
    "text": "+18 Stamina",
-   "note": "37% of surveyed players on this slot."
+   "note": "37% of surveyed players on this slot.",
+   "name": "Enchant Shield - Major Stamina",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital"
   }
  ],
  "faq": [

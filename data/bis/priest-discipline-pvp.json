@@ -387,7 +387,10 @@
   {
    "slot": "Head",
    "text": "+22 Spell Power and +14 Spell Hit Rating",
-   "note": "63% of surveyed players on this slot."
+   "note": "63% of surveyed players on this slot.",
+   "name": "Glyph of Power",
+   "icon": "classic_temp",
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
@@ -402,7 +405,10 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "97% of surveyed players on this slot."
+   "note": "97% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop"
   },
   {
    "slot": "Wrist",
@@ -412,27 +418,42 @@
   {
    "slot": "Hands",
    "text": "+15 Spell Hit Rating",
-   "note": "60% of surveyed players on this slot."
+   "note": "60% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Spell Strike",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
-   "note": "100% of surveyed players on this slot."
+   "note": "100% of surveyed players on this slot.",
+   "name": "Golden Spellthread",
+   "icon": "classic_temp",
+   "source": "Tailoring Trainer — Faction Capital"
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "58% of surveyed players on this slot."
+   "note": "58% of surveyed players on this slot.",
+   "name": "Enchant Boots - Boar's Speed",
+   "icon": "spell_holy_greaterheal",
+   "source": "World Drop"
   },
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "80% of surveyed players on this slot."
+   "note": "80% of surveyed players on this slot.",
+   "name": "Enchant Ring - Healing Power",
+   "icon": "inv_misc_note_01",
+   "source": "Enchanting Trainer — Faction Capital"
   },
   {
    "slot": "MainHand",
    "text": "+81 Healing Spells and +27 Damage Spells",
-   "note": "61% of surveyed players on this slot."
+   "note": "61% of surveyed players on this slot.",
+   "name": "Enchant Weapon - Major Healing",
+   "icon": "spell_holy_greaterheal",
+   "source": "Enchanting Trainer — Faction Capital"
   }
  ],
  "faq": [
