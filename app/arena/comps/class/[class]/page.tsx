@@ -12,7 +12,12 @@ import {
 } from "@/lib/comps-seo";
 import { CompBrowser, queryFrom } from "@/components/arena/CompBrowser";
 
-export const dynamicParams = false;
+// Only the non-empty facets are prerendered (and sitemapped); any other
+// *parseable* class set still renders on demand with an empty result state
+// instead of 404ing — the filter bar can walk you into a set no comp fields,
+// and a dead end there is worse than a page saying "no comps". Those pages are
+// noindex'd below so nothing thin enters the index.
+export const dynamicParams = true;
 
 // Single classes plus every co-occurring 2–3 class combo across all brackets.
 export function generateStaticParams() {
@@ -33,6 +38,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: c.title,
     description: c.description,
     path: facetPath(undefined, classes),
+    noindex: compsFor({ classSlugs: classes }).length === 0,
   });
 }
 
@@ -45,7 +51,7 @@ export default async function ClassCompsPage({
 }) {
   const { class: seg } = await params;
   const classes = parseClasses(seg);
-  if (!classes || compsFor({ classSlugs: classes }).length === 0) notFound();
+  if (!classes) notFound();
   const sp = await searchParams;
   return <CompBrowser classSlugs={classes} query={queryFrom(sp)} />;
 }

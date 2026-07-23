@@ -211,10 +211,30 @@ export function CompBrowser({
   const sortHref = (s: string) =>
     path + qsOf({ ...query, sort: s === "tier" ? undefined : s });
 
-  const anyActive = Boolean(
-    bracket || classSet.length || query.tier || query.playstyle || query.difficulty ||
-      (query.sort && query.sort !== "tier"),
+  const refined = Boolean(
+    query.tier || query.playstyle || query.difficulty,
   );
+  const anyActive = Boolean(
+    bracket || classSet.length || refined || (query.sort && query.sort !== "tier"),
+  );
+
+  // Escape hatch for an empty result set. Refinements come off first; past
+  // that the facet itself has no comps (the bracket row can walk you into a
+  // class set no comp fields in that bracket), so widen the path instead —
+  // linking back to `path` would be a dead end.
+  const empty: { href: string; label: string } = refined
+    ? { href: path, label: "Reset refinements" }
+    : bracket && classSet.length
+      ? {
+          href: facetPath(undefined, classSet) + qs,
+          label: `See ${classLabel(classSet)} comps in every bracket`,
+        }
+      : classSet.length > 1
+        ? {
+            href: facetPath(bracket, classSet.slice(0, -1)) + qs,
+            label: `See ${classLabel(classSet.slice(0, -1))} comps`,
+          }
+        : { href: "/arena/comps", label: "Browse every comp" };
 
   const crumbs: Crumb[] = [
     { name: "Home", href: "/" },
@@ -318,13 +338,20 @@ export function CompBrowser({
             ))}
           </div>
         ) : (
-          <p className="mt-6 rounded-xl border border-border bg-surface p-6 text-center text-sm text-muted">
-            No comps match these filters.{" "}
-            <Link href={path} className="text-accent hover:underline">
-              Reset refinements
-            </Link>
-            .
-          </p>
+          <div className="mt-6 rounded-xl border border-border bg-surface p-6 text-center">
+            <p className="text-sm text-muted-strong">
+              No comps match these filters.
+            </p>
+            <p className="mt-1.5 text-sm text-muted">
+              {classSet.length > 1
+                ? `No TBC ${bracket ? BRACKET_LABEL[bracket] + " " : ""}comp fields ${classLabel(classSet)} together.`
+                : "Try widening the selection."}{" "}
+              <Link href={empty.href} className="text-accent hover:underline">
+                {empty.label}
+              </Link>
+              .
+            </p>
+          </div>
         )}
       </main>
     </>

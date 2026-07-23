@@ -14,7 +14,10 @@ import {
 } from "@/lib/comps-seo";
 import { CompBrowser, queryFrom } from "@/components/arena/CompBrowser";
 
-export const dynamicParams = false;
+// See the /class/[class] route: only non-empty facets are prerendered, but any
+// parseable (bracket, class-set) still renders on demand with an empty result
+// state rather than 404ing, noindex'd.
+export const dynamicParams = true;
 
 // Every (bracket, class-set) that actually has comps — single classes plus the
 // co-occurring 2–3 class combos. No thin pages: classCombos only returns sets
@@ -43,6 +46,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: c.title,
     description: c.description,
     path: facetPath(bracket, classes),
+    noindex: compsFor({ bracket, classSlugs: classes }).length === 0,
   });
 }
 
@@ -56,7 +60,6 @@ export default async function BracketClassCompsPage({
   const { bracket, class: seg } = await params;
   const classes = parseClasses(seg);
   if (!isBracket(bracket) || !classes) notFound();
-  if (compsFor({ bracket, classSlugs: classes }).length === 0) notFound();
   const sp = await searchParams;
   return <CompBrowser bracket={bracket} classSlugs={classes} query={queryFrom(sp)} />;
 }
