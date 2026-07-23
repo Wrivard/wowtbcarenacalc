@@ -4,6 +4,7 @@ import {
   RANKING_TIERS,
   getRankingTier,
   DEFAULT_TIER,
+  RANKINGS_FAQ,
   type RankingTier,
 } from "@/data/rankings";
 import { getClass, getSpec } from "@/lib/classes";
@@ -16,6 +17,7 @@ import {
   JsonLd,
   breadcrumbJsonLd,
   itemListJsonLd,
+  faqJsonLd,
 } from "@/components/seo/JsonLd";
 import { AdUnit } from "@/components/AdUnit";
 import { BACKGROUNDS } from "@/lib/backgrounds";
@@ -40,7 +42,11 @@ function first(v: string | string[] | undefined): string | undefined {
   return Array.isArray(v) ? v[0] : v;
 }
 
-function TierTabs({ active }: { active: string }) {
+// Shared tier navigation. Each tab links to the tier's own static, indexable
+// page (/class-rankings/<slug>); the default tier links back to the hub. The
+// `active` prop is matched by tier `key` so it renders correctly on both the
+// hub and the per-tier pages.
+export function TierTabs({ active }: { active: string }) {
   return (
     <div className="flex flex-wrap gap-2" role="tablist" aria-label="Raid tier">
       {RANKING_TIERS.map((t) => {
@@ -48,7 +54,11 @@ function TierTabs({ active }: { active: string }) {
         return (
           <Link
             key={t.key}
-            href={t.key === DEFAULT_TIER.key ? "/class-rankings" : `/class-rankings?tier=${t.key}`}
+            href={
+              t.key === DEFAULT_TIER.key
+                ? "/class-rankings"
+                : `/class-rankings/${t.slug}`
+            }
             role="tab"
             aria-selected={on}
             className={cn(
@@ -66,7 +76,7 @@ function TierTabs({ active }: { active: string }) {
   );
 }
 
-function RankingBars({ tier }: { tier: RankingTier }) {
+export function RankingBars({ tier }: { tier: RankingTier }) {
   const max = Math.max(...tier.rankings.map((r) => r.dps));
   return (
     <ol className="mt-4 space-y-2">
@@ -109,6 +119,78 @@ function RankingBars({ tier }: { tier: RankingTier }) {
   );
 }
 
+// Methodology note — shared by the hub and every tier page.
+export function Methodology() {
+  return (
+    <p className="mt-4 text-xs leading-relaxed text-muted">
+      Methodology: values reflect the aggregate top-parse picture the community
+      tracks on sites like{" "}
+      <a
+        href="https://www.warcraftlogs.com/"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        className="text-accent underline-offset-2 hover:underline"
+      >
+        warcraftlogs.com
+      </a>{" "}
+      once a tier has settled. They assume best-in-slot-adjacent gear,
+      consumables and raid buffs on a single-target patchwerk-style fight; your
+      own numbers depend on gear, execution and fight design.
+    </p>
+  );
+}
+
+// "Read the guides" cross-link block — shared by the hub and every tier page.
+export function ReadTheGuides() {
+  return (
+    <section className="mt-10 rounded-xl border border-border bg-surface p-5">
+      <h2 className="text-sm font-semibold text-foreground">Read the guides</h2>
+      <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
+        Rankings tell you the ceiling; the guides tell you how to reach it.
+        Every spec above links to its{" "}
+        <Link href="/pve" className="text-accent underline-offset-2 hover:underline">
+          PvE guide
+        </Link>{" "}
+        with rotation, stat caps, talents and BiS — and the{" "}
+        <Link href="/raids" className="text-accent underline-offset-2 hover:underline">
+          raid &amp; boss guides
+        </Link>{" "}
+        cover where the gear drops.
+      </p>
+    </section>
+  );
+}
+
+// Visible FAQ block. Pair with faqJsonLd for the structured-data copy.
+export function FaqSection({
+  faq,
+}: {
+  faq: { question: string; answer: string }[];
+}) {
+  return (
+    <section className="mt-10" aria-label="Frequently asked questions">
+      <h2 className="text-xl font-semibold tracking-tight">
+        DPS rankings FAQ
+      </h2>
+      <dl className="mt-4 space-y-4">
+        {faq.map((f) => (
+          <div
+            key={f.question}
+            className="rounded-xl border border-border bg-surface p-5"
+          >
+            <dt className="text-sm font-semibold text-foreground">
+              {f.question}
+            </dt>
+            <dd className="mt-1.5 text-sm leading-relaxed text-muted-strong">
+              {f.answer}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  );
+}
+
 export default async function ClassRankingsPage({ searchParams }: { searchParams: SP }) {
   const sp = await searchParams;
   const tierKey = first(sp.tier);
@@ -130,6 +212,7 @@ export default async function ClassRankingsPage({ searchParams }: { searchParams
         data={[
           breadcrumbJsonLd(crumbs),
           itemListJsonLd(`TBC Classic ${tier.short} DPS Rankings`, listItems),
+          faqJsonLd(RANKINGS_FAQ),
         ]}
       />
       <PageHero image={BACKGROUNDS.raids}>
@@ -158,39 +241,13 @@ export default async function ClassRankingsPage({ searchParams }: { searchParams
           <RankingBars tier={tier} />
         </section>
 
-        <p className="mt-4 text-xs leading-relaxed text-muted">
-          Methodology: values reflect the aggregate top-parse picture the
-          community tracks on sites like{" "}
-          <a
-            href="https://www.warcraftlogs.com/"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            className="text-accent underline-offset-2 hover:underline"
-          >
-            warcraftlogs.com
-          </a>{" "}
-          once a tier has settled. They assume best-in-slot-adjacent gear,
-          consumables and raid buffs on a single-target patchwerk-style fight;
-          your own numbers depend on gear, execution and fight design.
-        </p>
+        <Methodology />
 
         <AdUnit slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT} className="mt-10" />
 
-        <section className="mt-10 rounded-xl border border-border bg-surface p-5">
-          <h2 className="text-sm font-semibold text-foreground">Read the guides</h2>
-          <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
-            Rankings tell you the ceiling; the guides tell you how to reach it.
-            Every spec above links to its{" "}
-            <Link href="/pve" className="text-accent underline-offset-2 hover:underline">
-              PvE guide
-            </Link>{" "}
-            with rotation, stat caps, talents and BiS — and the{" "}
-            <Link href="/raids" className="text-accent underline-offset-2 hover:underline">
-              raid &amp; boss guides
-            </Link>{" "}
-            cover where the gear drops.
-          </p>
-        </section>
+        <ReadTheGuides />
+
+        <FaqSection faq={RANKINGS_FAQ} />
       </main>
     </>
   );

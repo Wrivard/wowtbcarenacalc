@@ -17,11 +17,22 @@ export interface DpsRanking {
 }
 
 export interface RankingTier {
-  key: string; // url param, e.g. "p2"
+  key: string; // legacy ?tier= param, e.g. "p2" — kept for back-compat
+  /** keyword-rich, stable URL slug for the static page, e.g.
+   * "serpentshrine-tempest-keep". This is the canonical routing id. */
+  slug: string;
   short: string; // "SSC & TK"
   raids: string; // "Serpentshrine Cavern & Tempest Keep"
   phase: number;
   blurb: string;
+  /** Unique <title>/og:title for the tier's static page (≤ ~60 chars). */
+  metaTitle: string;
+  /** Unique meta description for the tier's static page. */
+  metaDescription: string;
+  /** Visible H1 for the tier's static page. */
+  h1: string;
+  /** Hero intro paragraph for the tier's static page. */
+  intro: string;
   rankings: DpsRanking[]; // authored in descending order
 }
 
@@ -135,47 +146,82 @@ const P5: DpsRanking[] = [
 export const RANKING_TIERS: RankingTier[] = [
   {
     key: "p1",
+    slug: "karazhan-gruul-magtheridon",
     short: "Kara / Gruul / Mag",
     raids: "Karazhan, Gruul's Lair & Magtheridon's Lair",
     phase: 1,
     blurb:
       "Tier-4 entry raids. With less spell power to scale on, physical and pet specs — Fury, Beast Mastery, Combat — lead the meters before casters take over in later tiers.",
+    metaTitle: "Best Phase 1 DPS — Karazhan & Gruul (TBC Classic)",
+    metaDescription:
+      "TBC Classic Phase 1 DPS rankings for Karazhan, Gruul's Lair and Magtheridon's Lair. Tier-4 meters favor Fury Warriors, Beast Mastery Hunters and Combat Rogues before casters scale up — ranked with links to every spec guide.",
+    h1: "Best Phase 1 DPS — Karazhan, Gruul & Magtheridon",
+    intro:
+      "The top DPS specs for TBC Classic's Tier-4 raids — Karazhan, Gruul's Lair and Magtheridon's Lair. With little spell power to scale on, physical and pet specs lead the early meters. Click any bar to open that spec's raid guide.",
     rankings: P1,
   },
   {
     key: "p2",
+    slug: "serpentshrine-tempest-keep",
     short: "SSC & TK",
     raids: "Serpentshrine Cavern & Tempest Keep",
     phase: 2,
     blurb:
       "Tier-5 gear from Serpentshrine Cavern and Tempest Keep. Caster scaling comes online here — Arcane Mages pull clearly ahead, and Warlocks close the gap on the physical specs that led Phase 1.",
+    metaTitle: "Best Phase 2 DPS — SSC & Tempest Keep (TBC)",
+    metaDescription:
+      "TBC Classic Phase 2 DPS rankings for Serpentshrine Cavern and Tempest Keep. Tier-5 caster scaling puts Arcane Mages clearly ahead while Warlocks close on the physical specs — ranked with links to every spec guide.",
+    h1: "Best Serpentshrine & Tempest Keep DPS — Phase 2",
+    intro:
+      "The top DPS specs for TBC Classic's Tier-5 raids, Serpentshrine Cavern and Tempest Keep. Caster scaling comes online — Arcane Mages pull clearly ahead and Warlocks surge up the meters. Click any bar to open that spec's raid guide.",
     rankings: P2,
   },
   {
     key: "p3",
+    slug: "black-temple-hyjal",
     short: "BT & Hyjal",
     raids: "Black Temple & Mount Hyjal",
     phase: 3,
     blurb:
       "Tier-6. The Warglaives of Azzinoth push Combat Rogues to the top, casters keep scaling, and Shadow Priests cement a raid spot — for their party-wide spell-damage return as much as their own parse.",
+    metaTitle: "Best Phase 3 DPS — Black Temple & Hyjal (TBC)",
+    metaDescription:
+      "TBC Classic Phase 3 DPS rankings for Black Temple and Mount Hyjal. Tier-6 Warglaive Combat Rogues top the meters, casters keep scaling and Shadow Priests lock a raid spot — ranked with links to every spec guide.",
+    h1: "Best Black Temple & Hyjal DPS — Phase 3",
+    intro:
+      "The top DPS specs for TBC Classic's Tier-6 raids, Black Temple and Mount Hyjal. The Warglaives of Azzinoth push Combat Rogues to the very top as caster scaling keeps climbing. Click any bar to open that spec's raid guide.",
     rankings: P3,
   },
   {
     key: "p4",
+    slug: "zulaman",
     short: "Zul'Aman",
     raids: "Zul'Aman",
     phase: 4,
     blurb:
       "The Phase 4 10-player raid. Its gear overlaps Tier-6, so the ordering tracks Black Temple with everyone slightly better equipped; short, add-heavy fights reward burst and cleave.",
+    metaTitle: "Best Zul'Aman DPS — Phase 4 (TBC Classic)",
+    metaDescription:
+      "TBC Classic Phase 4 DPS rankings for Zul'Aman. The Tier-6 10-player raid tracks Black Temple with slightly better gear; short, add-heavy fights reward burst and cleave — ranked with links to every spec guide.",
+    h1: "Best Zul'Aman DPS — Phase 4 TBC Classic",
+    intro:
+      "The top DPS specs for TBC Classic's Phase 4 raid, Zul'Aman. Its Tier-6 gear tracks Black Temple, and short, add-heavy fights reward burst and cleave. Click any bar to open that spec's raid guide.",
     rankings: P4,
   },
   {
     key: "p5",
+    slug: "sunwell-plateau",
     short: "Sunwell",
     raids: "Sunwell Plateau",
     phase: 5,
     blurb:
       "Tier-6.5, the expansion's ceiling. With full Sunwell scaling, Enhancement Shamans surge, casters peak, and Warglaive Rogues stay at the very top of the meters.",
+    metaTitle: "Best Sunwell Plateau DPS — TBC Classic",
+    metaDescription:
+      "TBC Classic Sunwell Plateau (Phase 5) DPS rankings. At the Tier-6.5 ceiling, Warglaive Combat Rogues and Enhancement Shamans surge to the top while casters peak — ranked with links to every spec guide.",
+    h1: "Best Sunwell Plateau DPS — TBC Classic",
+    intro:
+      "The top DPS specs for Sunwell Plateau, TBC Classic's Tier-6.5 ceiling. With full Sunwell scaling, Enhancement Shamans surge, casters peak, and Warglaive Rogues stay at the very top. Click any bar to open that spec's raid guide.",
     rankings: P5,
   },
 ];
@@ -184,7 +230,44 @@ export function getRankingTier(key: string): RankingTier | undefined {
   return RANKING_TIERS.find((t) => t.key === key);
 }
 
+export function getRankingTierBySlug(slug: string): RankingTier | undefined {
+  return RANKING_TIERS.find((t) => t.slug === slug);
+}
+
 // Default view is the endgame tier (Sunwell) — the ceiling players care
 // about most; earlier tiers are a tab click away.
 export const DEFAULT_TIER =
   RANKING_TIERS[RANKING_TIERS.length - 1];
+
+// Every tier except the default one gets its own static, indexable page at
+// /class-rankings/<slug>. The default tier's content lives on the hub
+// (/class-rankings) — generating it here too would be duplicate content.
+export const NON_DEFAULT_TIERS: RankingTier[] = RANKING_TIERS.filter(
+  (t) => t.key !== DEFAULT_TIER.key,
+);
+
+// General DPS FAQ for the hub — targets "best dps class in tbc", "does spec
+// matter", "caster vs physical" style queries. Answers are phase-aware and
+// reflect the settled-tier picture above.
+export const RANKINGS_FAQ: { question: string; answer: string }[] = [
+  {
+    question: "What is the best DPS class in TBC Classic?",
+    answer:
+      "It depends on the phase. Early in Tier 4 (Karazhan, Gruul, Magtheridon) physical and pet specs lead — Fury Warriors, Beast Mastery Hunters and Combat Rogues. Once caster gear scales in Tier 5, Arcane Mages pull ahead, and by Tier 6 / Sunwell the Warglaive Combat Rogue and Enhancement Shaman top the meters. Arcane Mage is the most consistently strong caster across every tier.",
+  },
+  {
+    question: "Does spec matter for DPS in TBC Classic?",
+    answer:
+      "Yes, enormously. Within a single class the gap between the raiding spec and the off-spec is often 30% or more — Arcane or Fire Mage far outparse Frost, Combat Rogue beats Assassination on most fights, and Beast Mastery/Survival lead Marksmanship for Hunters. Picking the correct raid spec matters more than min-maxing gear.",
+  },
+  {
+    question: "What is the best DPS for Sunwell Plateau (Phase 5)?",
+    answer:
+      "At the Tier-6.5 Sunwell ceiling, Warglaive-equipped Combat Rogues and fully-scaled Enhancement Shamans reach the very top, with Arcane Mages, Destruction Warlocks and Shadow Priests close behind. Every top spec is within a tight band, so raid buffs and execution decide the meter more than class.",
+  },
+  {
+    question: "Are caster or physical DPS better in TBC Classic?",
+    answer:
+      "Physical and pet specs lead early (Tier 4) because there is little spell power to scale on. As raids progress, spell power and hit gear come online, so casters — Arcane Mages, Warlocks, Shadow Priests — scale up and match or pass the physical specs by Tier 5 and 6. A balanced raid brings both.",
+  },
+];
