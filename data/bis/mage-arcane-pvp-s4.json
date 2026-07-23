@@ -367,7 +367,6 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "icon": "classic_temp",
    "source": "Almaador — Shattrath City"
   },
   {
@@ -375,7 +374,6 @@
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
    "note": "63% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City"
   },
   {
@@ -388,7 +386,6 @@
    "text": "+6 All Stats",
    "note": "50% of surveyed players on this slot.",
    "name": "Enchant Chest - Exceptional Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -396,7 +393,6 @@
    "text": "+15 Spell Damage",
    "note": "96% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
   },
   {
@@ -404,7 +400,6 @@
    "text": "+20 Spell Damage",
    "note": "43% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -412,7 +407,6 @@
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "icon": "classic_temp",
    "source": "Tailoring Trainer — Faction Capital"
   },
   {
@@ -420,7 +414,6 @@
    "text": "Minor Speed and +9 Stamina",
    "note": "58% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop"
   },
   {
@@ -428,7 +421,6 @@
    "text": "+12 Spell Damage",
    "note": "54% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -436,7 +428,6 @@
    "text": "+40 Spell Damage and Healing",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Weapon - Major Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital"
   }
  ],

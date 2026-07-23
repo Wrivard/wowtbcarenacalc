@@ -371,7 +371,6 @@
    "slot": "Head",
    "text": "+18 Stamina and +20 resilience rating",
    "name": "Glyph of the Gladiator",
-   "icon": "classic_temp",
    "source": "Eldara Dawnrunner — Isle of Quel'Danas",
    "note": "Eldara Dawnrunner — Isle of Quel'Danas"
   },
@@ -379,7 +378,6 @@
    "slot": "Shoulders",
    "text": "+15 defense rating and +10 dodge rating",
    "name": "Greater Inscription of the Knight",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -387,7 +385,6 @@
    "slot": "Chest",
    "text": "+15 resilience rating",
    "name": "Enchant Chest - Major Resilience",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -395,7 +392,6 @@
    "slot": "Wrist",
    "text": "+12 defense rating",
    "name": "Enchant Bracer - Major Defense",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -403,7 +399,6 @@
    "slot": "Hands",
    "text": "+15 agility",
    "name": "Enchant Gloves - Superior Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -411,7 +406,6 @@
    "slot": "Feet",
    "text": "minor movement speed increase and +6 Agility",
    "name": "Enchant Boots - Cat's Swiftness",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -419,7 +413,6 @@
    "slot": "Ring",
    "text": "+4 all stats",
    "name": "Enchant Ring - Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   }

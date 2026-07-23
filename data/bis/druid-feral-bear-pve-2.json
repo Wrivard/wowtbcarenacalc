@@ -388,7 +388,6 @@
    "slot": "Head",
    "text": "+16 defense rating and +17 dodge rating",
    "name": "Glyph of the Defender",
-   "icon": "classic_temp",
    "source": "Alurmi — Caverns of Time",
    "note": "Alurmi — Caverns of Time"
   },
@@ -396,7 +395,6 @@
    "slot": "Shoulders",
    "text": "+26 attack power and +14 critical strike rating",
    "name": "Might of the Scourge",
-   "icon": "spell_shadow_deathpact",
    "source": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)",
    "note": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)"
   },
@@ -404,7 +402,6 @@
    "slot": "Chest",
    "text": "+15 resilience rating",
    "name": "Enchant Chest - Major Resilience",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -412,7 +409,6 @@
    "slot": "Wrist",
    "text": "+4 all Stats",
    "name": "Enchant Bracer - Stats",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -420,7 +416,6 @@
    "slot": "Hands",
    "text": "+15 agility",
    "name": "Enchant Gloves - Superior Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -428,7 +423,6 @@
    "slot": "Feet",
    "text": "minor movement speed increase and +6 Agility",
    "name": "Enchant Boots - Cat's Swiftness",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -436,7 +430,6 @@
    "slot": "Ring",
    "text": "+2 damage to physical attacks",
    "name": "Enchant Ring - Striking",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   }

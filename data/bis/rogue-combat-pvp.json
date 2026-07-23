@@ -416,7 +416,6 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "96% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "icon": "classic_temp",
    "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
@@ -424,7 +423,6 @@
    "text": "+30 Attack Power and +10 Critical Strike Rating",
    "note": "92% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City"
   },
   {
@@ -432,7 +430,6 @@
    "text": "+12 Agility",
    "note": "39% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -440,7 +437,6 @@
    "text": "+6 All Stats",
    "note": "47% of surveyed players on this slot.",
    "name": "Enchant Chest - Exceptional Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -448,7 +444,6 @@
    "text": "+24 Attack Power",
    "note": "45% of surveyed players on this slot.",
    "name": "Enchant Bracer - Assault",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -456,7 +451,6 @@
    "text": "+15 Agility",
    "note": "54% of surveyed players on this slot.",
    "name": "Enchant Gloves - Superior Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop"
   },
   {
@@ -464,7 +458,6 @@
    "text": "+50 Attack Power and +12 Critical Strike Rating",
    "note": "94% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "icon": "inv_misc_armorkit_25",
    "source": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -472,7 +465,6 @@
    "text": "Minor Speed and +6 Agility",
    "note": "39% of surveyed players on this slot.",
    "name": "Enchant Boots - Cat's Swiftness",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop"
   },
   {
@@ -480,7 +472,6 @@
    "text": "+2 Weapon Damage",
    "note": "8% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -488,7 +479,6 @@
    "text": "Mongoose",
    "note": "56% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "icon": "spell_holy_greaterheal",
    "source": "Moroes<Tower Steward> — Karazhan"
   },
   {
@@ -496,7 +486,6 @@
    "text": "Mongoose",
    "note": "56% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "icon": "spell_holy_greaterheal",
    "source": "Moroes<Tower Steward> — Karazhan"
   }
  ],

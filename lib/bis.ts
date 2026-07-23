@@ -54,8 +54,6 @@ export interface BisList {
     note: string;
     /** Enchant/formula name, e.g. "Glyph of Ferocity". */
     name?: string;
-    /** zamimg icon name for the enchant formula. */
-    icon?: string;
     /** Where it comes from — vendor/rep/drop and its zone. */
     source?: string;
   }[];

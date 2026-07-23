@@ -374,7 +374,6 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "56% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "icon": "classic_temp",
    "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
@@ -382,7 +381,6 @@
    "text": "+30 Attack Power and +10 Critical Strike Rating",
    "note": "63% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City"
   },
   {
@@ -395,7 +393,6 @@
    "text": "+6 All Stats",
    "note": "56% of surveyed players on this slot.",
    "name": "Enchant Chest - Exceptional Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -403,7 +400,6 @@
    "text": "+4 All Stats",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Bracer - Stats",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -411,7 +407,6 @@
    "text": "+15 Spell Hit Rating",
    "note": "56% of surveyed players on this slot.",
    "name": "Enchant Gloves - Spell Strike",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -419,7 +414,6 @@
    "text": "+40 Stamina and +12 Agility",
    "note": "100% of surveyed players on this slot.",
    "name": "Nethercleft Leg Armor",
-   "icon": "inv_misc_armorkit_25",
    "source": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -427,7 +421,6 @@
    "text": "Minor Speed and +6 Agility",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Boots - Cat's Swiftness",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop"
   },
   {
@@ -435,7 +428,6 @@
    "text": "+20 Healing and +7 Spell Damage",
    "note": "67% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -443,7 +435,6 @@
    "text": "+35 Agility",
    "note": "57% of surveyed players on this slot.",
    "name": "Enchant 2H Weapon - Major Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "Eredar Deathbringer — The Arcatraz"
   }
  ],

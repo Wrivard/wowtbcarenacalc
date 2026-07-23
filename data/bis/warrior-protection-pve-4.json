@@ -443,7 +443,6 @@
    "slot": "Head",
    "text": "+34 attack power and +16 hit rating",
    "name": "Glyph of Ferocity",
-   "icon": "classic_temp",
    "source": "Fedryen Swiftwpear — Zangarmarsh",
    "note": "Fedryen Swiftwpear — Zangarmarsh"
   },
@@ -451,7 +450,6 @@
    "slot": "Shoulders",
    "text": "+15 dodge rating and +10 defense rating",
    "name": "Greater Inscription of Warding",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -459,7 +457,6 @@
    "slot": "Shoulders / Legs",
    "text": "+10 Stamina",
    "name": "Heavy Knothide Armor Kit",
-   "icon": "inv_misc_armorkit_25",
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },
@@ -467,7 +464,6 @@
    "slot": "Back",
    "text": "+12 Agility",
    "name": "Enchant Cloak - Greater Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -475,7 +471,6 @@
    "slot": "Chest",
    "text": "Enchant a piece of chest armor to add 6 to all stats",
    "name": "Enchant Chest - Exceptional Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -483,7 +478,6 @@
    "slot": "Wrist",
    "text": "+12 Stamina",
    "name": "Enchant Bracer - Fortitude",
-   "icon": "spell_holy_greaterheal",
    "source": "Coilfang Oracle — The Steamvault",
    "note": "Coilfang Oracle — The Steamvault"
   },
@@ -491,7 +485,6 @@
    "slot": "Hands",
    "text": "+2 threat from all attacks and spells%",
    "name": "Enchant Gloves - Threat",
-   "icon": "spell_holy_greaterheal",
    "source": "Emperor Vek'nilash — Ahn'Qiraj",
    "note": "Emperor Vek'nilash — Ahn'Qiraj"
   },
@@ -499,7 +492,6 @@
    "slot": "Legs",
    "text": "+40 Stamina and +12 Agility",
    "name": "Nethercleft Leg Armor",
-   "icon": "inv_misc_armorkit_25",
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },
@@ -507,7 +499,6 @@
    "slot": "Feet",
    "text": "minor movement speed increase and +6 Agility",
    "name": "Enchant Boots - Cat's Swiftness",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -515,7 +506,6 @@
    "slot": "Main Hand",
    "text": "Enchant a melee weapon so that often when attacking in melee it heals for 75 to 125 and increases Strength by 100 for 15 sec",
    "name": "Enchant Weapon - Crusader",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -523,7 +513,6 @@
    "slot": "Off Hand",
    "text": "+18 Stamina",
    "name": "Enchant Shield - Major Stamina",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   }

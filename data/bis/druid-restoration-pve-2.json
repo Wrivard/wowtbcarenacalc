@@ -438,7 +438,6 @@
    "slot": "Head",
    "text": "up to 35 healing, +12 Spell Damage, and +7 mana per 5 sec",
    "name": "Glyph of Renewal",
-   "icon": "classic_temp",
    "source": "Quartermaster — Hellfire Peninsula",
    "note": "Quartermaster — Hellfire Peninsula"
   },
@@ -446,7 +445,6 @@
    "slot": "Shoulders",
    "text": "up to 33 healing and +11 spell damage and +4 mana per 5 sec",
    "name": "Greater Inscription of Faith",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -454,7 +452,6 @@
    "slot": "Back",
    "text": "Enchant a cloak to decrease threat caused by the wearer by 2%",
    "name": "Enchant Cloak - Subtlety",
-   "icon": "spell_holy_greaterheal",
    "source": "Emperor Vek'lor — Ahn'Qiraj",
    "note": "Emperor Vek'lor — Ahn'Qiraj"
   },
@@ -462,7 +459,6 @@
    "slot": "Chest",
    "text": "+15 Spirit",
    "name": "Enchant Chest - Major Spirit",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -470,7 +466,6 @@
    "slot": "Wrist",
    "text": "+30 effect of your healing spells and +10 damage spells",
    "name": "Enchant Bracer - Superior Healing",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -478,7 +473,6 @@
    "slot": "Hands",
    "text": "+35 Healing and +12 Spell Damage",
    "name": "Enchant Gloves - Major Healing",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -486,7 +480,6 @@
    "slot": "Legs",
    "text": "+66 healing, +22 spell damage, and +20 Stamina",
    "name": "Golden Spellthread",
-   "icon": "classic_temp",
    "source": "Tailoring Trainer — Faction Capital",
    "note": "Tailoring Trainer — Faction Capital"
   },
@@ -494,7 +487,6 @@
    "slot": "Feet",
    "text": "minor movement speed increase and +9 Stamina",
    "name": "Enchant Boots - Boar's Speed",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -502,7 +494,6 @@
    "slot": "Ring",
    "text": "+20 healing spells and +7 damage spells",
    "name": "Enchant Ring - Healing Power",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -510,7 +501,6 @@
    "slot": "Main Hand",
    "text": "+81 Healing and +27 Spell Damage",
    "name": "Enchant Weapon - Major Healing",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   }

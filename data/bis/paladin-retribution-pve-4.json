@@ -381,7 +381,6 @@
    "slot": "Head",
    "text": "+34 attack power and +16 hit rating",
    "name": "Glyph of Ferocity",
-   "icon": "classic_temp",
    "source": "Fedryen Swiftwpear — Zangarmarsh",
    "note": "Fedryen Swiftwpear — Zangarmarsh"
   },
@@ -389,7 +388,6 @@
    "slot": "Shoulders",
    "text": "+30 attack power and +10 critical strike rating",
    "name": "Greater Inscription of Vengeance",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -397,7 +395,6 @@
    "slot": "Back",
    "text": "+12 Agility",
    "name": "Enchant Cloak - Greater Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -405,7 +402,6 @@
    "slot": "Chest",
    "text": "Enchant a piece of chest armor to add 6 to all stats",
    "name": "Enchant Chest - Exceptional Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -413,7 +409,6 @@
    "slot": "Wrist",
    "text": "+12 Strength",
    "name": "Enchant Bracer - Brawn",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -421,7 +416,6 @@
    "slot": "Hands",
    "text": "+15 Strength",
    "name": "Enchant Gloves - Major Strength",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -429,7 +423,6 @@
    "slot": "Legs",
    "text": "+50 attack power and +12 critical strike rating",
    "name": "Nethercobra Leg Armor",
-   "icon": "inv_misc_armorkit_25",
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },
@@ -437,7 +430,6 @@
    "slot": "Feet",
    "text": "+12 Agility",
    "name": "Enchant Boots - Dexterity",
-   "icon": "spell_holy_greaterheal",
    "source": "Raging Skeleton — Auchenai Crypts",
    "note": "Raging Skeleton — Auchenai Crypts"
   },
@@ -445,7 +437,6 @@
    "slot": "Ring",
    "text": "+4 all stats",
    "name": "Enchant Ring - Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -453,7 +444,6 @@
    "slot": "Main Hand",
    "text": "Enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly",
    "name": "Enchant Weapon - Mongoose",
-   "icon": "spell_holy_greaterheal",
    "source": "Moroes<Tower Steward> — Karazhan",
    "note": "Moroes<Tower Steward> — Karazhan"
   }

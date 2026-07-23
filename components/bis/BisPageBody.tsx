@@ -16,6 +16,7 @@ import { FilledTalentTrees } from "@/components/talents/FilledTalentTrees";
 import { PvpExtras } from "@/components/bis/PvpExtras";
 import { ItemLink } from "@/components/ItemLink";
 import { GameIcon } from "@/components/GameIcon";
+import { enchantSlotIcon } from "@/lib/icons";
 import { AdUnit } from "@/components/AdUnit";
 
 const SLOT_RESULT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT;
@@ -149,13 +150,15 @@ export function BisPageBody({
           <span id={`${specKey}-enchants`}>Enchants</span>
         </H2>
         <div className="mt-4 overflow-hidden rounded-xl border border-border">
-          {list.enchants.map((e) => (
+          {list.enchants.map((e) => {
+            const slotIcon = enchantSlotIcon(e.slot);
+            return (
             <div
               key={`${e.slot}-${e.text}`}
               className="flex flex-col gap-1.5 border-b border-border bg-surface px-4 py-3 last:border-b-0 sm:flex-row sm:items-start sm:gap-3"
             >
               <span className="flex w-28 shrink-0 items-center gap-2 pt-0.5 font-mono text-[11px] tracking-wider text-muted uppercase">
-                {e.icon && <GameIcon icon={e.icon} alt="" size="small" className="size-5" />}
+                {slotIcon && <GameIcon icon={slotIcon} alt="" size="small" className="size-5" />}
                 {e.slot}
               </span>
               <span className="min-w-0 flex-1">
@@ -175,7 +178,8 @@ export function BisPageBody({
                 )}
               </span>
             </div>
-          ))}
+            );
+          })}
         </div>
       </section>
       )}

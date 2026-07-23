@@ -237,9 +237,11 @@ async function main() {
     const src = DATA.enchantSources[id];
     const tip = await tooltip("spell", id);
     const name = tip?.name ?? src?.name ?? `Enchant ${id}`;
+    // No icon is stored: the formulas' own spell icons are unusable (39 of 79
+    // share one generic scroll, 19 resolve to the `classic_temp` placeholder).
+    // The table anchors on an equipment-slot icon instead — see lib/icons.ts.
     enchantMeta.set(id, {
       name,
-      icon: tip?.icon ?? null,
       text: enchantEffect(tip, name),
       source: sourceNote(src),
     });
@@ -354,7 +356,6 @@ async function main() {
         slot: label,
         text: meta.text,
         name: meta.name,
-        ...(meta.icon ? { icon: meta.icon } : {}),
         ...(meta.source ? { source: meta.source } : {}),
         note: meta.source ?? "",
       });
@@ -450,7 +451,7 @@ async function main() {
       const meta = matchEnchant(e.slot, e.text);
       if (!meta) continue;
       e.name = meta.name;
-      if (meta.icon) e.icon = meta.icon;
+      delete e.icon; // superseded by the slot icon
       if (meta.source) e.source = meta.source;
       matched++;
       touched = true;

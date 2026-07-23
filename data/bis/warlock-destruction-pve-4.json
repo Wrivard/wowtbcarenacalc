@@ -353,7 +353,6 @@
    "slot": "Head",
    "text": "up to 22 spell damage and healing and +14 spell hit rating",
    "name": "Glyph of Power",
-   "icon": "classic_temp",
    "source": "Almaador — Shattrath City",
    "note": "Almaador — Shattrath City"
   },
@@ -361,7 +360,6 @@
    "slot": "Shoulders",
    "text": "Adds to a shoulder slot item increased damage and healing done by magical spells and effects up to 15 and also increases your spell critical strike rating by 14",
    "name": "Power of the Scourge",
-   "icon": "spell_shadow_darkritual",
    "source": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)",
    "note": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)"
   },
@@ -369,7 +367,6 @@
    "slot": "Back",
    "text": "Enchant a cloak to decrease threat caused by the wearer by 2%",
    "name": "Enchant Cloak - Subtlety",
-   "icon": "spell_holy_greaterheal",
    "source": "Emperor Vek'lor — Ahn'Qiraj",
    "note": "Emperor Vek'lor — Ahn'Qiraj"
   },
@@ -377,7 +374,6 @@
    "slot": "Chest",
    "text": "Enchant a piece of chest armor to add 6 to all stats",
    "name": "Enchant Chest - Exceptional Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -385,7 +381,6 @@
    "slot": "Wrist",
    "text": "+15 spell damage and healing",
    "name": "Enchant Bracer - Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
    "note": "Bloodmaul Geomancer — Blade's Edge Mountains"
   },
@@ -393,7 +388,6 @@
    "slot": "Hands",
    "text": "+20 damage and healing",
    "name": "Enchant Gloves - Major Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -401,7 +395,6 @@
    "slot": "Legs",
    "text": "+35 spell damage and healing and +20 Stamina",
    "name": "Runic Spellthread",
-   "icon": "classic_temp",
    "source": "Tailoring Trainer — Faction Capital",
    "note": "Tailoring Trainer — Faction Capital"
   },
@@ -409,7 +402,6 @@
    "slot": "Feet",
    "text": "minor movement speed increase and +9 Stamina",
    "name": "Enchant Boots - Boar's Speed",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -417,7 +409,6 @@
    "slot": "Ring",
    "text": "+12 spell damage and healing",
    "name": "Enchant Ring - Spellpower",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -425,7 +416,6 @@
    "slot": "Main Hand",
    "text": "up to 50 damage to fire and arcane spells",
    "name": "Enchant Weapon - Sunfire",
-   "icon": "spell_holy_greaterheal",
    "source": "Shade of Aran — Karazhan",
    "note": "Shade of Aran — Karazhan"
   }

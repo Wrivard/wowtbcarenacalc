@@ -402,7 +402,6 @@
    "slot": "Head",
    "text": "+34 attack power and +16 hit rating",
    "name": "Glyph of Ferocity",
-   "icon": "classic_temp",
    "source": "Fedryen Swiftwpear — Zangarmarsh",
    "note": "Fedryen Swiftwpear — Zangarmarsh"
   },
@@ -410,7 +409,6 @@
    "slot": "Shoulders",
    "text": "+26 attack power and +14 critical strike rating",
    "name": "Might of the Scourge",
-   "icon": "spell_shadow_deathpact",
    "source": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)",
    "note": "Sapphiron — Naxxramas (legacy vanilla enchant — unobtainable in TBC unless earned pre-2.0)"
   },
@@ -418,7 +416,6 @@
    "slot": "Back",
    "text": "+12 Agility",
    "name": "Enchant Cloak - Greater Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -426,7 +423,6 @@
    "slot": "Chest",
    "text": "Enchant a piece of chest armor to add 6 to all stats",
    "name": "Enchant Chest - Exceptional Stats",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -434,7 +430,6 @@
    "slot": "Wrist",
    "text": "+24 attack power",
    "name": "Enchant Bracer - Assault",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -442,7 +437,6 @@
    "slot": "Hands",
    "text": "+15 agility",
    "name": "Enchant Gloves - Superior Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -450,7 +444,6 @@
    "slot": "Legs",
    "text": "+50 attack power and +12 critical strike rating",
    "name": "Nethercobra Leg Armor",
-   "icon": "inv_misc_armorkit_25",
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },
@@ -458,7 +451,6 @@
    "slot": "Feet",
    "text": "+12 Agility",
    "name": "Enchant Boots - Dexterity",
-   "icon": "spell_holy_greaterheal",
    "source": "Raging Skeleton — Auchenai Crypts",
    "note": "Raging Skeleton — Auchenai Crypts"
   },
@@ -466,7 +458,6 @@
    "slot": "Weapon",
    "text": "+15 Agility",
    "name": "Enchant Weapon - Agility",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -474,7 +465,6 @@
    "slot": "Two-Hand",
    "text": "+35 Agility",
    "name": "Enchant 2H Weapon - Major Agility",
-   "icon": "spell_holy_greaterheal",
    "source": "Eredar Deathbringer — The Arcatraz",
    "note": "Eredar Deathbringer — The Arcatraz"
   },
@@ -482,7 +472,6 @@
    "slot": "Ranged",
    "text": "Stabilitzed Eternium Scope",
    "name": "Stabilitzed Eternium Scope",
-   "icon": "trade_engineering",
    "source": "Engineering Trainer — Faction Capital",
    "note": "Engineering Trainer — Faction Capital"
   }

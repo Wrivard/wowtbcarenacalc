@@ -433,7 +433,6 @@
    "slot": "Head",
    "text": "+16 defense rating and +17 dodge rating",
    "name": "Glyph of the Defender",
-   "icon": "classic_temp",
    "source": "Alurmi — Caverns of Time",
    "note": "Alurmi — Caverns of Time"
   },
@@ -441,7 +440,6 @@
    "slot": "Shoulders",
    "text": "+15 defense rating and +10 dodge rating",
    "name": "Greater Inscription of the Knight",
-   "icon": "classic_temp",
    "source": "Inscriber Saalyn — Shattrath City",
    "note": "Inscriber Saalyn — Shattrath City"
   },
@@ -449,7 +447,6 @@
    "slot": "Back",
    "text": "+12 dodge rating",
    "name": "Enchant Cloak - Dodge",
-   "icon": "spell_holy_greaterheal",
    "source": "World Drop",
    "note": "World Drop"
   },
@@ -457,7 +454,6 @@
    "slot": "Chest",
    "text": "+150 health",
    "name": "Enchant Chest - Exceptional Health",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -465,7 +461,6 @@
    "slot": "Wrist",
    "text": "+15 spell damage and healing",
    "name": "Enchant Bracer - Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
    "note": "Bloodmaul Geomancer — Blade's Edge Mountains"
   },
@@ -473,7 +468,6 @@
    "slot": "Hands",
    "text": "+20 damage and healing",
    "name": "Enchant Gloves - Major Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -481,7 +475,6 @@
    "slot": "Legs",
    "text": "+40 Stamina and +12 Agility",
    "name": "Nethercleft Leg Armor",
-   "icon": "inv_misc_armorkit_25",
    "source": "Leatherworking Trainer — Faction Capital",
    "note": "Leatherworking Trainer — Faction Capital"
   },
@@ -489,7 +482,6 @@
    "slot": "Feet",
    "text": "+12 Stamina",
    "name": "Enchant Boots - Fortitude",
-   "icon": "spell_holy_greaterheal",
    "source": "Ethereal Priest — Mana-Tombs",
    "note": "Ethereal Priest — Mana-Tombs"
   },
@@ -497,7 +489,6 @@
    "slot": "Ring",
    "text": "+12 spell damage and healing",
    "name": "Enchant Ring - Spellpower",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -505,7 +496,6 @@
    "slot": "Main Hand",
    "text": "+40 spell damage and healing",
    "name": "Enchant Weapon - Major Spellpower",
-   "icon": "spell_holy_greaterheal",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   },
@@ -513,7 +503,6 @@
    "slot": "Off Hand",
    "text": "+18 Stamina",
    "name": "Enchant Shield - Major Stamina",
-   "icon": "inv_misc_note_01",
    "source": "Enchanting Trainer — Faction Capital",
    "note": "Enchanting Trainer — Faction Capital"
   }
