@@ -140,7 +140,11 @@ export default function GuidesHub() {
             <Link href="/arena/comps" className="text-accent underline-offset-2 hover:underline">
               arena tier list
             </Link>
-            .
+            , and the{" "}
+            <Link href="/class-rankings" className="text-accent underline-offset-2 hover:underline">
+              DPS rankings
+            </Link>{" "}
+            show which spec tops the meters each phase.
           </p>
         </section>
       </main>

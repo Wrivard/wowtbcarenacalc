@@ -40,6 +40,21 @@ export const FAQ_ITEMS = [
     answer:
       "Points are awarded at the weekly reset: Tuesday for US realms and Wednesday for EU realms. You must have played at least 10 rated games in a bracket that week for it to count.",
   },
+  {
+    question: "Does this arena points calculator work for TBC Anniversary realms?",
+    answer:
+      "Yes. The TBC Anniversary (fresh Classic) realms use the same weekly arena points formula and the same bracket multipliers — 2v2 ×0.76, 3v3 ×0.88, 5v5 ×1.00 — as original Burning Crusade. Enter your team rating and the weekly total shown here applies directly on Anniversary realms.",
+  },
+  {
+    question: "How many weeks does it take to earn a full Vengeful Gladiator set?",
+    answer:
+      "A full five-piece arena armor set costs about 8,250 arena points, with a weapon on top. At roughly 1,000 points per week (around 1,500 team rating) that is about 8–9 weeks for the armor and 12+ weeks once you add a weapon. A higher rating shaves weeks off — use the gear planner above for your exact timeline.",
+  },
+  {
+    question: "Do I need to win arena games to earn points?",
+    answer:
+      "Points are calculated from your team rating at the weekly reset, and rating comes from your win/loss record, so winning does raise your payout — but there is no per-win bonus. You need at least 10 rated games in a bracket that week; after that, the rating-based total shown in the calculator is what you receive.",
+  },
 ] as const;
 
 export function StructuredData() {

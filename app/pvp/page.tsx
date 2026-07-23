@@ -72,7 +72,16 @@ export default function PvpHub() {
           </h2>
           <p className="mt-2 text-sm leading-relaxed text-muted-strong">
             What top-rated ladder players actually equip — usage %, gems,
-            enchants, stat priorities and caps for every arena spec.
+            enchants, stat priorities and caps for every arena spec. Popular
+            ladder picks:{" "}
+            <Link href="/shaman/elemental/pvp" className="text-accent underline-offset-2 hover:underline">Elemental</Link>{" "}
+            and{" "}
+            <Link href="/shaman/enhancement/pvp" className="text-accent underline-offset-2 hover:underline">Enhancement Shaman</Link>,{" "}
+            <Link href="/mage/arcane/pvp" className="text-accent underline-offset-2 hover:underline">Arcane Mage</Link>,{" "}
+            <Link href="/paladin/retribution/pvp" className="text-accent underline-offset-2 hover:underline">Retribution Paladin</Link>,{" "}
+            <Link href="/druid/feral-cat/pvp" className="text-accent underline-offset-2 hover:underline">Feral (cat) Druid</Link>{" "}
+            or{" "}
+            <Link href="/warrior/fury/pvp" className="text-accent underline-offset-2 hover:underline">Fury Warrior</Link>.
           </p>
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
             {CLASSES.map((cls) => {

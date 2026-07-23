@@ -88,7 +88,10 @@ export default function PveHub() {
           </h2>
           <p className="mt-2 text-sm leading-relaxed text-muted-strong">
             Phase-by-phase best in slot from top parses — every spec, every
-            slot, with gems, enchants, caps and the talent build.
+            slot, with gems, enchants, caps and the talent build. Not sure which
+            spec to bring? The{" "}
+            <Link href="/class-rankings" className="text-accent underline-offset-2 hover:underline">DPS rankings</Link>{" "}
+            show what tops the meters each phase.
           </p>
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
             {CLASSES.map((cls) => {

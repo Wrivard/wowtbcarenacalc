@@ -81,6 +81,22 @@ export default function ArenaHub() {
             </section>
           );
         })}
+
+        <section className="mb-4 rounded-xl border border-border bg-surface p-5">
+          <h2 className="text-sm font-semibold text-foreground">Plan your climb</h2>
+          <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
+            Work out weekly points and weeks-to-afford in the{" "}
+            <Link href="/arena-points-calculator" className="text-accent underline-offset-2 hover:underline">arena points calculator</Link>
+            , track the{" "}
+            <Link href="/leaderboard" className="text-accent underline-offset-2 hover:underline">Gladiator cutoff</Link>
+            , and gear each spec with its arena BiS — among the top picks are{" "}
+            <Link href="/shaman/elemental/pvp" className="text-accent underline-offset-2 hover:underline">Elemental Shaman</Link>,{" "}
+            <Link href="/mage/arcane/pvp" className="text-accent underline-offset-2 hover:underline">Arcane Mage</Link>,{" "}
+            <Link href="/druid/feral-cat/pvp" className="text-accent underline-offset-2 hover:underline">Feral Druid</Link>{" "}
+            and{" "}
+            <Link href="/warrior/fury/pvp" className="text-accent underline-offset-2 hover:underline">Fury Warrior</Link>.
+          </p>
+        </section>
       </main>
     </>
   );

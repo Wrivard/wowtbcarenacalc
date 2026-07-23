@@ -14,22 +14,25 @@ import {
   JsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
+  howToJsonLd,
   webApplicationJsonLd,
 } from "@/components/seo/JsonLd";
+import { buildMetadata } from "@/lib/seo";
 import { BRACKET_MULTIPLIERS, maxPoints, referenceTable } from "@/lib/arena";
 import { SITE_URL } from "@/lib/site";
 
 const SLOT_RESULT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_RESULT;
 const SLOT_INCONTENT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT;
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "WoW TBC Arena Points Calculator — Points Per Week (2v2, 3v3, 5v5)",
-  },
+// buildMetadata emits a COMPLETE openGraph/twitter block so this page no
+// longer silently inherits the homepage's og:title/og:description. No ogImage
+// arg here on purpose — the file-based opengraph-image.tsx supplies og:image.
+export const metadata: Metadata = buildMetadata({
+  title: "WoW TBC Arena Points Calculator — Points Per Week (2v2, 3v3, 5v5)",
   description:
     "Free TBC Classic arena points calculator: enter your 2v2, 3v3 or 5v5 team rating for exact weekly points, required-rating lookup, and a gear planner.",
-  alternates: { canonical: "/arena-points-calculator" },
-};
+  path: "/arena-points-calculator",
+});
 
 function SectionHeading({
   id,
@@ -65,6 +68,28 @@ export default function ArenaCalculatorPage() {
             `${SITE_URL}/arena-points-calculator`,
             "Calculates weekly TBC Classic arena points from 2v2, 3v3 and 5v5 team ratings, with required-rating lookup and gear planning.",
           ),
+          howToJsonLd(
+            "How to use the TBC arena points calculator",
+            "Calculate your weekly TBC Classic arena points from your 2v2, 3v3, or 5v5 team rating.",
+            [
+              {
+                name: "Enter your team rating",
+                text: "Enter your team rating for any bracket you play — 2v2, 3v3, or 5v5. You don't need all three.",
+              },
+              {
+                name: "Read the per-bracket results",
+                text: "Read the per-bracket results. The highlighted card is your highest-earning bracket.",
+              },
+              {
+                name: "Check your weekly total",
+                text: "The large number is what you'll actually receive at the weekly reset — points never stack across brackets.",
+              },
+              {
+                name: "Plan backwards from a target",
+                text: "Use the required rating lookup to work backwards from a points target, and the gear planner to estimate weeks until your next purchase.",
+              },
+            ],
+          ),
           faqJsonLd([...FAQ_ITEMS]),
         ]}
       />
@@ -79,9 +104,10 @@ export default function ArenaCalculatorPage() {
           WoW TBC Arena Points Calculator
         </h1>
         <p className="mt-3 max-w-[52ch] text-sm leading-relaxed text-muted-strong sm:text-base">
+          The fastest way to work out your weekly TBC Classic arena points.
           Enter your 2v2, 3v3, or 5v5 team rating to see exactly how many
-          arena points you&apos;ll earn at the weekly reset — and what rating
-          you need to hit your gear targets.
+          points you&apos;ll earn at the weekly reset — and what rating you
+          need to hit your gear targets.
         </p>
       </PageHero>
 
@@ -297,10 +323,25 @@ export default function ArenaCalculatorPage() {
             </p>
             <p className="mt-3 text-sm leading-relaxed text-muted-strong">
               In practice, most players find it easier to push rating in 2v2 or
-              3v3 than to keep a 5v5 team queueing. Because the curve is steep
-              through the mid ratings, a strong 2v2 rating can still out-earn a
-              mediocre 5v5 rating — enter both above and the calculator will
-              highlight whichever team actually pays more.
+              3v3 than to keep a 5v5 team queueing. Picking a strong pairing
+              helps — the{" "}
+              <Link
+                href="/arena/comps"
+                className="text-accent underline-offset-2 hover:underline"
+              >
+                arena comp tier list
+              </Link>{" "}
+              ranks the best 2v2 and 3v3 setups, and the live{" "}
+              <Link
+                href="/leaderboard"
+                className="text-accent underline-offset-2 hover:underline"
+              >
+                arena leaderboard
+              </Link>{" "}
+              shows what the top teams are actually queueing. Because the curve
+              is steep through the mid ratings, a strong 2v2 rating can still
+              out-earn a mediocre 5v5 rating — enter both above and the
+              calculator will highlight whichever team actually pays more.
             </p>
             <p className="mt-3 text-sm leading-relaxed text-muted-strong">
               Spending those points? Browse the{" "}
@@ -310,7 +351,22 @@ export default function ArenaCalculatorPage() {
               >
                 arena PvP BiS lists
               </Link>{" "}
-              to see what gladiator-range players buy first for your spec.
+              to see what gladiator-range players buy first for your spec, check
+              the{" "}
+              <Link
+                href="/class-rankings"
+                className="text-accent underline-offset-2 hover:underline"
+              >
+                DPS rankings
+              </Link>{" "}
+              if you&apos;re still deciding what to main, or read the wider{" "}
+              <Link
+                href="/pvp"
+                className="text-accent underline-offset-2 hover:underline"
+              >
+                TBC PvP guides
+              </Link>{" "}
+              for comps, gearing and honor grinds.
             </p>
           </section>
 

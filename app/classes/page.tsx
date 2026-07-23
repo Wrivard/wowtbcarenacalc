@@ -114,6 +114,18 @@ export default function ClassesHub() {
           </Link>
           , together with the interactive calculator.
         </p>
+        <p className="mt-3 text-xs leading-relaxed text-muted">
+          Gearing for the arena? See the{" "}
+          <Link href="/arena/comps" className="text-accent underline-offset-2 hover:underline">comp tier list</Link>{" "}
+          and top ladder picks like{" "}
+          <Link href="/shaman/elemental/pvp" className="text-accent underline-offset-2 hover:underline">Elemental Shaman</Link>,{" "}
+          <Link href="/mage/arcane/pvp" className="text-accent underline-offset-2 hover:underline">Arcane Mage</Link>{" "}
+          and{" "}
+          <Link href="/paladin/retribution/pvp" className="text-accent underline-offset-2 hover:underline">Retribution Paladin</Link>
+          . For raids, the{" "}
+          <Link href="/class-rankings" className="text-accent underline-offset-2 hover:underline">DPS rankings</Link>{" "}
+          show which specs top the meters each phase.
+        </p>
       </main>
     </>
   );
