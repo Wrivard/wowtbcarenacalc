@@ -2,6 +2,11 @@
 // the Wowhead href so the global tooltip script adds the game tooltip
 // on hover. Fixed icon dimensions → zero layout shift, and the name is
 // real text in the HTML (crawlable), unlike script-rewritten links.
+//
+// rel includes nofollow deliberately. These are ~14k boilerplate links to
+// one external host (26 per page, 63 on a PvE BiS page) — functional
+// tooltip targets, not editorial citations. The dofollow attribution to
+// Wowhead lives once in the footer instead.
 
 import { getItem, qualityColor } from "@/lib/items";
 import { gameIconUrl } from "@/components/GameIcon";
@@ -22,7 +27,7 @@ export function ItemLink({
     <a
       href={wowheadItemUrl(itemId)}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener noreferrer nofollow"
       className="inline-flex items-center gap-2 align-middle underline-offset-2 hover:underline"
       style={{ color: qualityColor(meta?.quality) }}
     >

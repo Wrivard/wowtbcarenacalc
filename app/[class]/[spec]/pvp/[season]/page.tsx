@@ -84,7 +84,8 @@ export default async function PvpSeasonBisPage({ params }: { params: Params }) {
     { name: "Home", href: "/" },
     { name: "Classes", href: "/classes" },
     { name: cls.name, href: `/${cls.slug}` },
-    { name: `${spec.name} PvP BiS`, href: `/${cls.slug}/${spec.slug}/pvp` },
+    { name: spec.name, href: `/${cls.slug}/${spec.slug}` },
+    { name: "PvP BiS", href: `/${cls.slug}/${spec.slug}/pvp` },
     {
       name: `Season ${season}`,
       href: `/${cls.slug}/${spec.slug}/pvp/season-${season}`,

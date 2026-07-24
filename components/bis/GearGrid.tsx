@@ -10,21 +10,48 @@
 // useState-gated panel put all of that behind a click, invisible to
 // crawlers. The only JS left is the analytics ping on open.
 
+import Link from "next/link";
 import { ChevronDown, TriangleAlert, MapPin } from "lucide-react";
 import type { BisSlot } from "@/lib/bis";
 import { ItemLink } from "@/components/ItemLink";
 import { isPveOnly, PVE_ONLY_WARN_PCT } from "@/lib/item-flags";
 import { getItemSource, formatItemSource } from "@/data/itemSources";
+import { sourceLink } from "@/lib/raid-links";
 import { trackEvent } from "@/lib/gtag";
 import { cn } from "@/lib/utils";
 
+// "How to get" line. Raid drops link to the boss guide (or the raid, when we
+// publish no page for that boss) — the reader's next question is always "so
+// how do I kill it", and it's the only internal link on the page that points
+// at the raid section.
 function ItemSourceLine({ itemId }: { itemId: number }) {
   const sources = getItemSource(itemId);
   if (!sources) return null;
   return (
     <span className="flex items-start gap-1.5 text-xs text-muted">
       <MapPin className="mt-0.5 size-3 shrink-0 text-muted" aria-hidden />
-      <span>{sources.map(formatItemSource).join(" · ")}</span>
+      <span>
+        {sources.map((s, i) => {
+          const link = sourceLink(s);
+          return (
+            <span key={`${s.type}-${s.location}-${i}`}>
+              {i > 0 && " · "}
+              {formatItemSource(s)}
+              {link && (
+                <>
+                  {" "}
+                  <Link
+                    href={link.href}
+                    className="text-accent underline-offset-2 hover:underline"
+                  >
+                    {link.label} guide
+                  </Link>
+                </>
+              )}
+            </span>
+          );
+        })}
+      </span>
     </span>
   );
 }

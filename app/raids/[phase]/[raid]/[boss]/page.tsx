@@ -8,6 +8,7 @@ import { PageHero } from "@/components/PageHero";
 import { BossPortrait } from "@/components/raids/BossPortrait";
 import { ItemLink } from "@/components/ItemLink";
 import { BossPositionDiagram } from "@/components/raids/BossPositionDiagram";
+import { specsWantingLootFrom } from "@/lib/interlinks";
 import { AdUnit } from "@/components/AdUnit";
 import {
   JsonLd,
@@ -60,7 +61,9 @@ export default async function BossPage({ params }: { params: Params }) {
 
   const siblings = bossesByRaid(raid.id);
   const idx = siblings.findIndex((b) => b.id === boss.id);
+  const prev = idx > 0 ? siblings[idx - 1] : undefined;
   const next = siblings[idx + 1];
+  const bisLinks = specsWantingLootFrom(boss.name, boss.phase);
 
   const crumbs = [
     { name: "Home", href: "/" },
@@ -117,7 +120,7 @@ export default async function BossPage({ params }: { params: Params }) {
 
         {/* Phases */}
         <section aria-label="Fight phases">
-          <h2 className="text-xl font-semibold tracking-tight">Fight phases</h2>
+          <h2 className="text-xl font-semibold tracking-tight">{boss.name} fight phases</h2>
           <ol className="mt-3 space-y-3">
             {boss.strategy.phases.map((p, i) => (
               <li key={p.name} className="flex gap-3">
@@ -139,7 +142,7 @@ export default async function BossPage({ params }: { params: Params }) {
 
         {/* Role notes */}
         <section className="mt-10" aria-label="Role notes">
-          <h2 className="text-xl font-semibold tracking-tight">By role</h2>
+          <h2 className="text-xl font-semibold tracking-tight">{boss.name} tank, healer &amp; DPS strategy</h2>
           <div className="mt-3 grid gap-3">
             <RoleNote label="Tanks" text={boss.strategy.tankNotes} color="text-amber-300" />
             <RoleNote label="Healers" text={boss.strategy.healerNotes} color="text-emerald-300" />
@@ -149,7 +152,7 @@ export default async function BossPage({ params }: { params: Params }) {
 
         {/* Common mistakes */}
         <section className="mt-10" aria-label="Common mistakes">
-          <h2 className="text-xl font-semibold tracking-tight">Common mistakes</h2>
+          <h2 className="text-xl font-semibold tracking-tight">Common {boss.name} mistakes</h2>
           <ul className="mt-3 space-y-2 text-sm leading-relaxed text-muted-strong">
             {boss.strategy.commonMistakes.map((m) => (
               <li key={m} className="flex gap-2">
@@ -163,7 +166,7 @@ export default async function BossPage({ params }: { params: Params }) {
         {/* Loot */}
         {boss.loot.length > 0 && (
           <section className="mt-10" aria-label="Notable loot">
-            <h2 className="text-xl font-semibold tracking-tight">Notable loot</h2>
+            <h2 className="text-xl font-semibold tracking-tight">{boss.name} loot ({raid.name})</h2>
             <ul className="mt-3 space-y-2">
               {boss.loot.map((l) => (
                 <li key={l.itemId} className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
@@ -179,17 +182,100 @@ export default async function BossPage({ params }: { params: Params }) {
           </section>
         )}
 
-        {/* Next boss */}
-        {next && (
-          <div className="mt-10 border-t border-border pt-6">
-            <Link
-              href={`/raids/phase-${boss.phase}/${raid.id}/${next.id}`}
-              className="text-sm text-accent underline-offset-2 hover:underline"
-            >
-              Next: {next.name} →
-            </Link>
-          </div>
+        {/* Who gears from this fight — the reverse of the BiS gear grid's
+            "how to get" link, so the two sections point at each other. */}
+        {bisLinks.length > 0 && (
+          <section className="mt-10" aria-labelledby="boss-bis">
+            <h2 id="boss-bis" className="text-xl font-semibold tracking-tight">
+              Specs that gear from {boss.name}
+            </h2>
+            <p className="mt-1.5 text-sm text-muted-strong">
+              Phase {boss.phase} best-in-slot lists that include an item dropping
+              from this fight.
+            </p>
+            <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
+              {bisLinks.map((l) => (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    className="text-sm text-muted-strong transition-colors hover:text-foreground"
+                  >
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
+
+        {/* Prev / next + the full boss order for this raid */}
+        <nav
+          aria-label="More from this raid"
+          className="mt-10 border-t border-border pt-6"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            {prev ? (
+              <Link
+                href={`/raids/phase-${boss.phase}/${raid.id}/${prev.id}`}
+                className="text-sm text-accent underline-offset-2 hover:underline"
+              >
+                ← {prev.name}
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next && (
+              <Link
+                href={`/raids/phase-${boss.phase}/${raid.id}/${next.id}`}
+                className="text-sm text-accent underline-offset-2 hover:underline"
+              >
+                Next: {next.name} →
+              </Link>
+            )}
+          </div>
+
+          <h2 className="mt-6 text-[11px] font-medium tracking-widest text-muted uppercase">
+            All {raid.name} bosses
+          </h2>
+          <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
+            {siblings
+              .filter((b) => b.id !== boss.id)
+              .map((b) => (
+                <li key={b.id}>
+                  <Link
+                    href={`/raids/phase-${boss.phase}/${raid.id}/${b.id}`}
+                    className="text-sm text-muted-strong transition-colors hover:text-foreground"
+                  >
+                    {b.name}
+                  </Link>
+                </li>
+              ))}
+          </ul>
+
+          <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+            <li>
+              <Link href="/pve" className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                Phase {boss.phase} raid BiS by spec
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/class-rankings"
+                className="text-sm text-muted-strong transition-colors hover:text-foreground"
+              >
+                TBC DPS rankings
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/professions"
+                className="text-sm text-muted-strong transition-colors hover:text-foreground"
+              >
+                Profession guides
+              </Link>
+            </li>
+          </ul>
+        </nav>
 
         <p className="mt-6 text-xs text-muted">
           Strategy summarized from community knowledge (WoWWiki / Wowhead) and

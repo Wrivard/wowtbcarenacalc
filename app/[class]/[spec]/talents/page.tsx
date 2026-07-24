@@ -107,8 +107,11 @@ export default async function TalentBuildPage({ params }: { params: Params }) {
     { name: "Home", href: "/" },
     { name: "Classes", href: "/classes" },
     { name: cls.name, href: `/${cls.slug}` },
+    // The spec hub is a real level in the hierarchy — skipping it made the
+    // trail claim class → leaf, and left all 27 spec hubs on one inbound link.
+    { name: spec.name, href: `/${cls.slug}/${spec.slug}` },
     {
-      name: `${spec.name} Talents`,
+      name: "Talents",
       href: `/${cls.slug}/${spec.slug}/talents`,
     },
   ];

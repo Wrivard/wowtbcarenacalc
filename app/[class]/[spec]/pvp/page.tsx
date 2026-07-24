@@ -61,7 +61,10 @@ export default async function PvpBisPage({ params }: { params: Params }) {
     { name: "Home", href: "/" },
     { name: "Classes", href: "/classes" },
     { name: cls.name, href: `/${cls.slug}` },
-    { name: `${spec.name} PvP BiS`, href: `/${cls.slug}/${spec.slug}/pvp` },
+    // The spec hub is a real level in the hierarchy — skipping it made the
+    // trail claim class → leaf, and left all 27 spec hubs on one inbound link.
+    { name: spec.name, href: `/${cls.slug}/${spec.slug}` },
+    { name: "PvP BiS", href: `/${cls.slug}/${spec.slug}/pvp` },
   ];
 
   return (

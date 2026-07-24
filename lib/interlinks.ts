@@ -5,7 +5,9 @@
 
 import { COMPS, compSlug } from "@/data/comps";
 import { getBestRace } from "@/data/bestRace";
-import { getClass } from "@/lib/classes";
+import { getClass, getSpec } from "@/lib/classes";
+import { BIS_REGISTRY } from "@/data/bis/index";
+import { getItemSource } from "@/data/itemSources";
 
 export interface RelatedLink {
   href: string;
@@ -38,4 +40,50 @@ export function guidesForClass(classSlug: string): RelatedLink[] {
     label: `${cls.name} addons & macros`,
   });
   return links;
+}
+
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+/**
+ * PvE BiS pages that list an item dropping from this boss — the reverse of
+ * the "how to get" link on the gear grid. Built by walking every filled BiS
+ * list and asking data/itemSources where each item comes from, so it can
+ * never claim a drop the source data doesn't record.
+ *
+ * Boss pages were otherwise near dead ends: they averaged under three
+ * internal links that weren't already in the sitewide nav.
+ */
+export function specsWantingLootFrom(
+  bossName: string,
+  raidPhase: number,
+  limit = 12,
+): RelatedLink[] {
+  const target = norm(bossName);
+  const seen = new Map<string, RelatedLink>();
+
+  for (const list of Object.values(BIS_REGISTRY)) {
+    // Only the phase this boss belongs to: a Phase 5 list containing a
+    // Karazhan trinket is not a reason to send Karazhan's page there.
+    if (list.content !== "pve" || list.phase !== raidPhase) continue;
+    const itemIds = list.slots.flatMap((s) => [
+      s.bis.itemId,
+      ...s.alternatives.map((a) => a.itemId),
+    ]);
+    const drops = itemIds.some((id) =>
+      (getItemSource(id) ?? []).some(
+        (src) => src.type === "raid" && src.boss && norm(src.boss) === target,
+      ),
+    );
+    if (!drops) continue;
+    const found = getSpec(list.class, list.spec);
+    if (!found) continue;
+    const href = `/${list.class}/${list.spec}/pve/phase-${list.phase}`;
+    if (!seen.has(href))
+      seen.set(href, {
+        href,
+        label: `${found.spec.name} ${found.cls.name} Phase ${list.phase} BiS`,
+      });
+  }
+
+  return [...seen.values()].sort((a, b) => a.label.localeCompare(b.label)).slice(0, limit);
 }

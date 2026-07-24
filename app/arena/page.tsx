@@ -67,7 +67,9 @@ export default function ArenaHub() {
                   Best {label} comps
                 </h2>
                 <Link
-                  href={`/arena/comps?bracket=${key}`}
+                  // The static facet, not ?bracket= — the query form
+                  // canonicalises to the hub and can never rank.
+                  href={`/arena/comps/${key}`}
                   className="text-xs text-accent underline-offset-2 hover:underline"
                 >
                   All {label} comps →
