@@ -8,7 +8,8 @@ import { PageHero } from "@/components/PageHero";
 import { BossPortrait } from "@/components/raids/BossPortrait";
 import { ItemLink } from "@/components/ItemLink";
 import { BossPositionDiagram } from "@/components/raids/BossPositionDiagram";
-import { specsWantingLootFrom } from "@/lib/interlinks";
+import { bossLootInBis } from "@/lib/interlinks";
+import { GameIcon } from "@/components/GameIcon";
 import { AdUnit } from "@/components/AdUnit";
 import {
   JsonLd,
@@ -63,7 +64,7 @@ export default async function BossPage({ params }: { params: Params }) {
   const idx = siblings.findIndex((b) => b.id === boss.id);
   const prev = idx > 0 ? siblings[idx - 1] : undefined;
   const next = siblings[idx + 1];
-  const bisLinks = specsWantingLootFrom(boss.name, boss.phase);
+  const lootInBis = bossLootInBis(boss.name, boss.phase);
 
   const crumbs = [
     { name: "Home", href: "/" },
@@ -182,29 +183,50 @@ export default async function BossPage({ params }: { params: Params }) {
           </section>
         )}
 
-        {/* Who gears from this fight — the reverse of the BiS gear grid's
-            "how to get" link, so the two sections point at each other. */}
-        {bisLinks.length > 0 && (
+        {/* Best-in-slot drops — the reverse of the BiS gear grid's "how to
+            get" link, gear-first. The item icon is the anchor; each spec is a
+            class-icon link into its BiS list, so the gear→spec connection is
+            visible at a glance instead of a wall of text links. */}
+        {lootInBis.length > 0 && (
           <section className="mt-10" aria-labelledby="boss-bis">
             <h2 id="boss-bis" className="text-xl font-semibold tracking-tight">
-              Specs that gear from {boss.name}
+              {boss.name} best-in-slot drops
             </h2>
             <p className="mt-1.5 text-sm text-muted-strong">
-              Phase {boss.phase} best-in-slot lists that include an item dropping
-              from this fight.
+              Loot from this fight that appears in a Phase {boss.phase}{" "}
+              best-in-slot list — and the specs that want it.
             </p>
-            <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
-              {bisLinks.map((l) => (
-                <li key={l.href}>
-                  <Link
-                    href={l.href}
-                    className="text-sm text-muted-strong transition-colors hover:text-foreground"
-                  >
-                    {l.label}
-                  </Link>
-                </li>
+            <div className="mt-4 space-y-3">
+              {lootInBis.map(({ itemId, specs }) => (
+                <div
+                  key={itemId}
+                  className="rounded-xl border border-border bg-surface p-4"
+                >
+                  <ItemLink itemId={itemId} />
+                  <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
+                    <span className="mr-1 font-mono text-[10px] tracking-wider text-muted uppercase">
+                      BiS for
+                    </span>
+                    {specs.map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        title={`${s.specName} ${s.className} Phase ${boss.phase} BiS`}
+                        aria-label={`${s.specName} ${s.className} Phase ${boss.phase} best in slot`}
+                        className="transition-transform hover:-translate-y-0.5"
+                      >
+                        <GameIcon
+                          icon={s.icon}
+                          alt={`${s.specName} ${s.className}`}
+                          size="small"
+                          className="size-6"
+                        />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               ))}
-            </ul>
+            </div>
           </section>
         )}
 

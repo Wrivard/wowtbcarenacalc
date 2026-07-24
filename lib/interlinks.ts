@@ -8,6 +8,7 @@ import { getBestRace } from "@/data/bestRace";
 import { getClass, getSpec } from "@/lib/classes";
 import { BIS_REGISTRY } from "@/data/bis/index";
 import { getItemSource } from "@/data/itemSources";
+import { specIconName } from "@/lib/icons";
 
 export interface RelatedLink {
   href: string;
@@ -44,46 +45,81 @@ export function guidesForClass(classSlug: string): RelatedLink[] {
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 
+/** A spec whose BiS list wants a given item, with the icon + link to render. */
+export interface WantingSpec {
+  classSlug: string;
+  specSlug: string;
+  className: string;
+  specName: string;
+  /** zamimg spec icon (talent capstone), the recognition anchor. */
+  icon: string;
+  href: string;
+}
+
+/** An item dropping from a boss, and the specs that list it as BiS. */
+export interface BossLootItem {
+  itemId: number;
+  specs: WantingSpec[];
+}
+
 /**
- * PvE BiS pages that list an item dropping from this boss — the reverse of
- * the "how to get" link on the gear grid. Built by walking every filled BiS
- * list and asking data/itemSources where each item comes from, so it can
- * never claim a drop the source data doesn't record.
+ * The gear a boss drops that actually appears in a best-in-slot list, most-
+ * wanted first, each with the specs that run it. This is the gear-first view
+ * of the boss→BiS relationship: the item icon is the anchor players recognise,
+ * and each spec is a class-icon link into its BiS page.
  *
- * Boss pages were otherwise near dead ends: they averaged under three
- * internal links that weren't already in the sitewide nav.
+ * Derived by crossing every filled PvE list for the boss's phase against
+ * data/itemSources, so it can never claim a drop the source data doesn't
+ * record. Phase-scoped: a Karazhan trinket surfacing in a Phase 5 list is not
+ * a reason to file it under a Phase 5 fight.
  */
-export function specsWantingLootFrom(
+export function bossLootInBis(
   bossName: string,
   raidPhase: number,
-  limit = 12,
-): RelatedLink[] {
+  itemLimit = 10,
+  specLimit = 16,
+): BossLootItem[] {
   const target = norm(bossName);
-  const seen = new Map<string, RelatedLink>();
+  const dropsHere = (id: number) =>
+    (getItemSource(id) ?? []).some(
+      (src) => src.type === "raid" && src.boss && norm(src.boss) === target,
+    );
+
+  // itemId -> ordered, de-duped specs wanting it.
+  const byItem = new Map<number, Map<string, WantingSpec>>();
 
   for (const list of Object.values(BIS_REGISTRY)) {
-    // Only the phase this boss belongs to: a Phase 5 list containing a
-    // Karazhan trinket is not a reason to send Karazhan's page there.
     if (list.content !== "pve" || list.phase !== raidPhase) continue;
-    const itemIds = list.slots.flatMap((s) => [
-      s.bis.itemId,
-      ...s.alternatives.map((a) => a.itemId),
-    ]);
-    const drops = itemIds.some((id) =>
-      (getItemSource(id) ?? []).some(
-        (src) => src.type === "raid" && src.boss && norm(src.boss) === target,
-      ),
-    );
-    if (!drops) continue;
     const found = getSpec(list.class, list.spec);
     if (!found) continue;
-    const href = `/${list.class}/${list.spec}/pve/phase-${list.phase}`;
-    if (!seen.has(href))
-      seen.set(href, {
-        href,
-        label: `${found.spec.name} ${found.cls.name} Phase ${list.phase} BiS`,
-      });
+    const spec: WantingSpec = {
+      classSlug: list.class,
+      specSlug: list.spec,
+      className: found.cls.name,
+      specName: found.spec.name,
+      icon: specIconName(list.class, found.spec),
+      href: `/${list.class}/${list.spec}/pve/phase-${list.phase}`,
+    };
+    const ids = new Set(
+      list.slots.flatMap((s) => [s.bis.itemId, ...s.alternatives.map((a) => a.itemId)]),
+    );
+    for (const id of ids) {
+      if (!dropsHere(id)) continue;
+      if (!byItem.has(id)) byItem.set(id, new Map());
+      const specs = byItem.get(id)!;
+      if (!specs.has(spec.href)) specs.set(spec.href, spec);
+    }
   }
 
-  return [...seen.values()].sort((a, b) => a.label.localeCompare(b.label)).slice(0, limit);
+  return [...byItem.entries()]
+    .map(([itemId, specs]) => ({
+      itemId,
+      specs: [...specs.values()].sort((a, b) =>
+        `${a.className} ${a.specName}`.localeCompare(`${b.className} ${b.specName}`),
+      ),
+    }))
+    // Most contested drops first — those are the marquee items.
+    .sort((a, b) => b.specs.length - a.specs.length)
+    .slice(0, itemLimit)
+    .map((it) => ({ ...it, specs: it.specs.slice(0, specLimit) }));
 }

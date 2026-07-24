@@ -26,6 +26,7 @@ import {
 import { JsonLd, breadcrumbJsonLd, faqJsonLd, articleJsonLd } from "@/components/seo/JsonLd";
 import { AdUnit } from "@/components/AdUnit";
 import { BACKGROUNDS } from "@/lib/backgrounds";
+import { abilitiesIn } from "@/lib/abilities";
 
 export const dynamicParams = false;
 
@@ -181,6 +182,11 @@ export default async function CompGuidePage({ params }: { params: Params }) {
   const overviewParas = comp.guide.overview.split("\n\n");
   const faq = compFaq(comp, b);
   const siblings = siblingComps(comp);
+  // Signature abilities named across the game plan — rendered as spell icons
+  // players recognise on sight, so the win condition reads at a glance.
+  const abilities = abilitiesIn(
+    [comp.guide.overview, comp.guide.winCondition, comp.guide.cooldownTimeline].join(" "),
+  );
 
   // Distinct classes in the comp, for the class-facet links.
   const classSlugs = [...new Set(comp.members.map((m) => m.class))];
@@ -319,6 +325,24 @@ export default async function CompGuidePage({ params }: { params: Params }) {
               {comp.guide.winCondition}
             </p>
           </div>
+          {abilities.length > 0 && (
+            <div className="mt-4">
+              <h3 className="font-mono text-[11px] tracking-wider text-muted uppercase">
+                Key abilities in this game plan
+              </h3>
+              <ul className="mt-2.5 flex flex-wrap gap-2">
+                {abilities.map((a) => (
+                  <li
+                    key={a.name}
+                    className="flex items-center gap-1.5 rounded-lg border border-border bg-surface py-1 pr-2.5 pl-1"
+                  >
+                    <GameIcon icon={a.icon} alt="" size="small" className="size-5" />
+                    <span className="text-xs font-medium text-muted-strong">{a.name}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </Section>
 
         {/* Strengths / weaknesses */}
