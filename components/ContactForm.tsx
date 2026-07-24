@@ -53,7 +53,7 @@ export function ContactForm() {
           <Label htmlFor="name" optional>
             Name or character
           </Label>
-          <input id="name" name="name" type="text" autoComplete="name" placeholder="Wrivard — Gladiator" className={FIELD} />
+          <input id="name" name="name" type="text" autoComplete="name" placeholder="Your name or main character" className={FIELD} />
         </div>
         <div>
           <Label htmlFor="email">Email</Label>
