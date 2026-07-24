@@ -121,6 +121,12 @@ export default async function ProfessionsHub({ searchParams }: { searchParams: S
                     >
                       {p.name}
                     </Link>
+                    <Link
+                      href={`/guides/professions/${p.slug}#leveling`}
+                      className="mt-0.5 block text-xs text-muted transition-colors hover:text-accent"
+                    >
+                      1–375 leveling →
+                    </Link>
                   </td>
                   <td className="px-3 py-3"><TierCell tier={p.pvpValue} /></td>
                   <td className="px-3 py-3"><TierCell tier={p.pveValue} /></td>

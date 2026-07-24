@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { PROFESSIONS, getProfession, getProfessionLeveling, type ProfTier, type ProfCost } from "@/data/professions";
+import {
+  PROFESSIONS,
+  getProfession,
+  getProfessionLeveling,
+  professionPartners,
+  professionIcon,
+  type ProfTier,
+  type ProfCost,
+} from "@/data/professions";
 import { getClass } from "@/lib/classes";
+import { GameIcon } from "@/components/GameIcon";
 import { buildMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
@@ -48,6 +57,8 @@ export default async function ProfessionPage({ params }: { params: Params }) {
   const p = getProfession(profession);
   if (!p) notFound();
   const leveling = getProfessionLeveling(p.slug);
+  const partners = professionPartners(p.slug);
+  const others = PROFESSIONS.filter((x) => x.slug !== p.slug);
 
   // Aggregate every tier's material list into one 1–375 shopping list,
   // preserving first-seen order (ores before gems before cloth, etc.).
@@ -161,9 +172,41 @@ export default async function ProfessionPage({ params }: { params: Params }) {
           </p>
         </section>
 
-        <section className="mt-8" aria-label="Leveling 1 to 375">
+        {partners.length > 0 && (
+          <section className="mt-8" aria-label="Partner profession">
+            <h2 className="text-xl font-semibold tracking-tight">
+              Level {p.name} alongside
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-muted-strong">
+              {p.gathering
+                ? `${p.name} feeds the crafting professions below — level one of them together to turn what you gather straight into gear and gold.`
+                : `Pair ${p.name} with its gathering profession so your materials come free while you level, instead of buying every stack off the auction house.`}
+            </p>
+            <div className="mt-4 grid gap-2 sm:grid-cols-2">
+              {partners.map((partner) => (
+                <Link
+                  key={partner.slug}
+                  href={`/guides/professions/${partner.slug}#leveling`}
+                  className="group flex items-center gap-3 rounded-xl border border-border bg-surface p-3 transition-colors hover:border-border-strong hover:bg-surface-hover"
+                >
+                  <GameIcon icon={professionIcon(partner.slug)} alt="" size="medium" className="rounded" />
+                  <span className="min-w-0">
+                    <span className="block text-sm font-medium text-foreground">
+                      {partner.name}
+                    </span>
+                    <span className="block text-xs text-muted">
+                      1–375 leveling guide
+                    </span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <section id="leveling" className="mt-8 scroll-mt-24" aria-label="Leveling 1 to 375">
           <h2 className="text-xl font-semibold tracking-tight">
-            Leveling {p.name} 1–375
+            How to level {p.name} 1–375 in TBC Classic
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-muted-strong">
             {p.levelingSummary}
@@ -251,6 +294,27 @@ export default async function ProfessionPage({ params }: { params: Params }) {
             .
           </p>
         </section>
+
+        {/* Every other 1–375 guide, deep-linked to its leveling table. These
+            pages were near dead ends — one inbound link each — so this block
+            turns the twelve profession guides into a linked cluster. */}
+        <nav aria-label="Other profession leveling guides" className="mt-10 border-t border-border pt-8">
+          <h2 className="text-[11px] font-medium tracking-widest text-muted uppercase">
+            Level another profession (1–375)
+          </h2>
+          <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {others.map((o) => (
+              <Link
+                key={o.slug}
+                href={`/guides/professions/${o.slug}#leveling`}
+                className="flex items-center gap-2.5 rounded-lg border border-border bg-surface px-3 py-2 transition-colors hover:border-border-strong hover:bg-surface-hover"
+              >
+                <GameIcon icon={professionIcon(o.slug)} alt="" size="small" className="rounded" />
+                <span className="truncate text-sm text-muted-strong">{o.name}</span>
+              </Link>
+            ))}
+          </div>
+        </nav>
       </main>
     </>
   );

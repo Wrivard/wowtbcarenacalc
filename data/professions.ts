@@ -387,3 +387,29 @@ export function topProfessions(
 }
 
 export const PROF_TIER_ORDER: Record<ProfTier, number> = { S: 0, A: 1, B: 2, C: 3 };
+
+// The gathering/crafting partnerships players actually level in tandem: a
+// gathering profession feeds the crafts its materials supply, and each craft
+// points back at the gatherer that keeps it cheap. Rendered on the profession
+// pages so the leveling guides link each other instead of dead-ending on one
+// inbound link from the hub. First-aid and cooking have no ore/herb/leather
+// partner, so they're left out rather than paired arbitrarily.
+export const PROFESSION_PAIRS: Record<string, string[]> = {
+  jewelcrafting: ["mining"],
+  engineering: ["mining"],
+  blacksmithing: ["mining"],
+  mining: ["jewelcrafting", "blacksmithing", "engineering"],
+  leatherworking: ["skinning"],
+  skinning: ["leatherworking"],
+  alchemy: ["herbalism"],
+  herbalism: ["alchemy"],
+  tailoring: ["enchanting"],
+  enchanting: ["tailoring"],
+};
+
+/** The professions typically leveled alongside `slug` (gather ↔ craft). */
+export function professionPartners(slug: string): Profession[] {
+  return (PROFESSION_PAIRS[slug] ?? [])
+    .map(getProfession)
+    .filter((p): p is Profession => Boolean(p));
+}

@@ -113,7 +113,7 @@ export default function GuidesHub() {
             {PROFESSIONS.map((prof) => (
               <Link
                 key={prof.slug}
-                href={`/guides/professions/${prof.slug}`}
+                href={`/guides/professions/${prof.slug}#leveling`}
                 className="flex items-center gap-2.5 rounded-xl border border-border bg-surface p-3 transition-colors hover:border-border-strong"
               >
                 <GameIcon
