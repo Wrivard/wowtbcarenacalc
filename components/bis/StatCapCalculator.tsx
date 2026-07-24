@@ -6,6 +6,7 @@
 
 import { useState } from "react";
 import type { StatCap } from "@/data/caps";
+import { useSettledEvent } from "@/lib/useSettledEvent";
 
 type NumericCap = StatCap & { cap: number };
 
@@ -21,6 +22,25 @@ export function StatCapCalculator({
   // Only caps with a real numeric target are actionable here.
   const numeric = caps.filter((c): c is NumericCap => c.cap > 0);
   const [values, setValues] = useState<Record<string, string>>({});
+
+  // Above the early return: hooks can't be conditional, and an empty cap
+  // list would otherwise skip this one on some specs and not others.
+  const entered = numeric.filter((c) => {
+    const n = Number(values[c.stat]);
+    return values[c.stat] !== undefined && values[c.stat] !== "" && Number.isFinite(n);
+  });
+  useSettledEvent(
+    "stat_cap_checked",
+    entered.length === 0
+      ? null
+      : {
+          content,
+          stats_entered: entered.length,
+          // How many targets they've actually hit — the gap between this and
+          // stats_entered is the reason they're on the page.
+          stats_capped: entered.filter((c) => Number(values[c.stat]) >= c.cap).length,
+        },
+  );
 
   if (numeric.length === 0) return null;
 

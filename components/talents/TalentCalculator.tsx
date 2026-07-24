@@ -22,6 +22,7 @@ import {
 import { buildValid, canAddPoint, canRemovePoint } from "@/lib/talent-rules";
 import { TalentTreeGrid } from "@/components/talents/TalentTreeGrid";
 import { trackEvent } from "@/lib/gtag";
+import { useSettledEvent } from "@/lib/useSettledEvent";
 import { cn } from "@/lib/utils";
 
 export function TalentCalculator({
@@ -69,6 +70,25 @@ export function TalentCalculator({
     if (max === 0) return null;
     return cls.trees[perTree.indexOf(max)].treeName;
   }, [build, cls.trees]);
+
+  // Gated on userBuild, not on `build`: a shared ?b= link arrives with a full
+  // build already in it, and counting that as "spent points" would credit the
+  // tool for a page view. Only edits count.
+  //
+  // talent_build_shared already exists, but it only sees the sliver of players
+  // who copy the link — this is the denominator that makes it readable.
+  useSettledEvent(
+    "talent_points_spent",
+    userBuild
+      ? {
+          class: cls.class,
+          points_spent: spent,
+          summary: buildSummary(build),
+          spec: specLabel ?? undefined,
+          from_shared_link: urlBuild ? "yes" : "no",
+        }
+      : null,
+  );
 
   const mutate = useCallback(
     (treeIndex: number, talentIndex: number, delta: 1 | -1) => {

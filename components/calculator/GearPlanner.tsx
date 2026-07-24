@@ -11,6 +11,7 @@ import * as Checkbox from "@radix-ui/react-checkbox";
 import { Check, ChevronDown, RotateCcw } from "lucide-react";
 import { GEAR_ITEMS, GEAR_SECTIONS } from "@/data/gear";
 import { useRatings } from "@/components/calculator/ratings-context";
+import { useSettledEvent } from "@/lib/useSettledEvent";
 
 export function GearPlanner() {
   const [selected, setSelected] = useState<Set<string>>(new Set());
@@ -39,6 +40,22 @@ export function GearPlanner() {
       return next;
     });
   };
+
+  // Ticking a shopping list is a burst of clicks, not one decision — report
+  // the basket the player settled on, not each item.
+  useSettledEvent(
+    "gear_planner_used",
+    selected.size === 0
+      ? null
+      : {
+          items_selected: selected.size,
+          total_cost: totalCost,
+          // Only meaningful once the calculator above has a rating in it;
+          // its absence is itself the signal that the two tools aren't
+          // being used together.
+          weeks_to_afford: weeks ?? undefined,
+        },
+  );
 
   return (
     <div>

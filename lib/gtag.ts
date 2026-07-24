@@ -1,7 +1,7 @@
 // GA4 event helper. Safe to call anywhere: no-ops when gtag is absent
 // (no consent, no NEXT_PUBLIC_GA_ID, or script still loading).
 
-type GtagEventParams = Record<string, string | number | undefined>;
+export type GtagEventParams = Record<string, string | number | undefined>;
 
 declare global {
   interface Window {

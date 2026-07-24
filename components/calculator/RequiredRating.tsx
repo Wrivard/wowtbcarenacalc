@@ -5,6 +5,8 @@
 
 import { useState } from "react";
 import { BRACKETS, maxPoints, requiredRating } from "@/lib/arena";
+import { bucketRating } from "@/lib/gtag";
+import { useSettledEvent } from "@/lib/useSettledEvent";
 
 export function RequiredRating() {
   const [raw, setRaw] = useState("");
@@ -14,6 +16,20 @@ export function RequiredRating() {
     if (raw.trim() === "" || !Number.isFinite(n) || n < 0) return null;
     return Math.min(n, 10_000); // sanity cap, way above any bracket ceiling
   })();
+
+  useSettledEvent(
+    "required_rating_used",
+    desired === null
+      ? null
+      : {
+          desired_points: bucketRating(desired),
+          // Which brackets can actually deliver it — the interesting half of
+          // the answer, and free to derive here.
+          achievable_brackets: BRACKETS.filter(
+            (b) => requiredRating(desired, b) !== null,
+          ).length,
+        },
+  );
 
   return (
     <div>

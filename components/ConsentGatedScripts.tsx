@@ -10,6 +10,7 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useConsent } from "@/components/CookieConsent";
+import { LinkTracking } from "@/components/LinkTracking";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
@@ -20,7 +21,12 @@ export function ConsentGatedScripts() {
   return (
     <>
       <SpeedInsights />
-      {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+      {GA_ID && (
+        <>
+          <GoogleAnalytics gaId={GA_ID} />
+          <LinkTracking />
+        </>
+      )}
     </>
   );
 }

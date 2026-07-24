@@ -5,6 +5,7 @@
 // highlighted, so returning players resume where they left off.
 
 import { useEffect, useState } from "react";
+import { useSettledEvent } from "@/lib/useSettledEvent";
 
 export interface ChecklistStep {
   step: number;
@@ -21,6 +22,7 @@ export function GearChecklist({
 }) {
   const [done, setDone] = useState<Record<number, boolean>>({});
   const [hydrated, setHydrated] = useState(false);
+  const [touched, setTouched] = useState(false);
 
   useEffect(() => {
     try {
@@ -33,6 +35,7 @@ export function GearChecklist({
   }, [storageKey]);
 
   const toggle = (step: number) => {
+    setTouched(true);
     setDone((prev) => {
       const next = { ...prev, [step]: !prev[step] };
       try {
@@ -45,6 +48,16 @@ export function GearChecklist({
   };
 
   const doneCount = steps.filter((s) => done[s.step]).length;
+
+  // Gated on `touched`, not on doneCount: restoring saved progress from
+  // localStorage on load would otherwise report a fresh usage event on every
+  // return visit, inflating the tool's numbers with pure page views.
+  useSettledEvent(
+    "checklist_progress",
+    touched
+      ? { list: storageKey, steps_done: doneCount, steps_total: steps.length }
+      : null,
+  );
   // The first not-yet-done step gets the "up next" highlight (only after
   // hydration, so SSR and first paint stay identical).
   const nextStep =
