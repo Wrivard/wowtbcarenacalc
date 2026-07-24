@@ -984,7 +984,7 @@ export const COMPS: ArenaComp[] = [
   // ---------------------------------------------------------------- 5v5
   {
     id: "melee-cleave-5s",
-    name: "5s Melee Cleave",
+    name: "Melee Cleave",
     bracket: "5s",
     members: [
       { class: "warrior", spec: "arms" },
@@ -1038,7 +1038,7 @@ export const COMPS: ArenaComp[] = [
   },
   {
     id: "caster-cleave-5s",
-    name: "5s Caster Cleave",
+    name: "Caster Cleave",
     bracket: "5s",
     members: [
       { class: "mage", spec: "frost" },
@@ -1092,7 +1092,7 @@ export const COMPS: ArenaComp[] = [
   },
   {
     id: "double-healer-control-5s",
-    name: "5s Double-Healer Control",
+    name: "Double-Healer Control",
     bracket: "5s",
     members: [
       { class: "warrior", spec: "arms" },
@@ -2827,7 +2827,7 @@ export const COMPS: ArenaComp[] = [
   },
   {
     id: "triple-healer-control-5s",
-    name: "5s Triple-Healer Control",
+    name: "Triple-Healer Control",
     bracket: "5s",
     members: [
       { class: "warrior", spec: "arms" },
@@ -2892,7 +2892,7 @@ export const COMPS: ArenaComp[] = [
   },
   {
     id: "beast-hunter-cleave-5s",
-    name: "5s Beast/Hunter Cleave (2347)",
+    name: "Beast/Hunter Cleave (2347)",
     bracket: "5s",
     members: [
       { class: "hunter", spec: "beast-mastery" },
@@ -2956,7 +2956,7 @@ export const COMPS: ArenaComp[] = [
   },
   {
     id: "shadowplay-plus-5s",
-    name: "5s Shadowplay Plus",
+    name: "Shadowplay Plus",
     bracket: "5s",
     members: [
       { class: "priest", spec: "shadow" },
@@ -3021,7 +3021,7 @@ export const COMPS: ArenaComp[] = [
   },
   {
     id: "dps-zerg-5s",
-    name: "5s DPS Zerg",
+    name: "DPS Zerg",
     bracket: "5s",
     members: [
       { class: "warrior", spec: "arms" },
@@ -3107,6 +3107,31 @@ export type CompCardData = Pick<
 >;
 
 export const TIER_ORDER: Record<Tier, number> = { S: 0, A: 1, B: 2, C: 3 };
+
+/** Last review of the comp guides. Drives the visible "Updated" line and the
+ *  dateModified in each guide's JSON-LD — bump it when the meta is re-checked. */
+export const COMPS_UPDATED = "2026-07-24";
+
+/**
+ * Comps to link from `comp`'s guide: the next `limit` comps after it in the
+ * bracket's tier order, wrapping around the end.
+ *
+ * The window is circular on purpose. Taking "the top N of the bracket" would
+ * point every guide at the same handful of S-tier comps and leave the low-tier
+ * ones on a single inbound link (which is exactly where 12 of them were); a
+ * rotating window gives every comp in the bracket the same number of inbound
+ * links, and tier adjacency keeps the suggestions relevant.
+ */
+export function siblingComps(comp: ArenaComp, limit = 6): ArenaComp[] {
+  const all = compsByBracket(comp.bracket);
+  const at = all.findIndex((c) => c.id === comp.id);
+  if (at === -1) return all.slice(0, limit);
+  const out: ArenaComp[] = [];
+  for (let i = 1; i < all.length && out.length < limit; i++) {
+    out.push(all[(at + i) % all.length]);
+  }
+  return out;
+}
 
 export function compsByBracket(bracket: Bracket): ArenaComp[] {
   return COMPS.filter((c) => c.bracket === bracket).sort(
