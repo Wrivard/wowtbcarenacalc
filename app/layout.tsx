@@ -1,8 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { ConsentProvider } from "@/components/CookieConsent";
 import { ConsentGatedScripts } from "@/components/ConsentGatedScripts";
+import { LinkTracking } from "@/components/LinkTracking";
+import { ScrollDepth } from "@/components/ScrollDepth";
+import { CONSENT_BOOTSTRAP } from "@/lib/consent";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { WowheadTooltips } from "@/components/WowheadTooltips";
@@ -21,6 +25,8 @@ const geistMono = Geist_Mono({
 });
 
 const HOME_TITLE = "WoW TBC Classic — BiS, Talents & Arena Tools";
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -63,6 +69,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        {/* Consent Mode v2 defaults. MUST be the first script on the page:
+            gtag applies whatever consent state exists when it loads, so a
+            later push would let the tag set cookies for one pageview. */}
+        <script dangerouslySetInnerHTML={{ __html: CONSENT_BOOTSTRAP }} />
         {/* Warm up the cross-origin hosts every content page hits (icon CDN +
             Wowhead tooltips, AdSense) so the first request skips DNS/TCP/TLS. */}
         <link rel="preconnect" href="https://wow.zamimg.com" crossOrigin="anonymous" />
@@ -99,6 +109,16 @@ export default function RootLayout({
         </ConsentProvider>
         <WowheadTooltips />
         <Analytics />
+        {/* Outside ConsentProvider on purpose: under Consent Mode the tag
+            loads for everyone and governs itself through the consent signals.
+            Gating it here is what made GA4 blind to most of the audience. */}
+        {GA_ID && (
+          <>
+            <GoogleAnalytics gaId={GA_ID} />
+            <LinkTracking />
+            <ScrollDepth />
+          </>
+        )}
       </body>
     </html>
   );

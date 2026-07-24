@@ -19,18 +19,27 @@ export default function PrivacyPolicyPage() {
         operate any backend or database.
       </p>
 
-      <h2>What we collect, and only with your consent</h2>
+      <h2>What we collect</h2>
       <p>
-        When you <strong>accept cookies</strong> in the consent banner, the
-        Site loads two third-party services:
+        The Site uses Google&apos;s <strong>Consent Mode</strong>. Before you
+        make a choice, and if you decline, Google Analytics runs in a{" "}
+        <strong>cookieless</strong> state: it stores nothing on your device and
+        cannot recognise you across visits or across sites. It reports only
+        anonymous, aggregate signals such as the page being viewed. Accepting
+        allows cookies, which is what lets us tell a returning visitor from a
+        new one.
+      </p>
+      <p>
+        No advertising is shown at all until you accept. The two third-party
+        services involved:
       </p>
       <ul>
         <li>
           <strong>Google Analytics 4</strong> — anonymous usage statistics
-          (pages viewed, approximate location at city level, device type, and
-          coarse-grained calculator usage events). We use this to understand
-          which features are useful. IP addresses are processed by Google;
-          see{" "}
+          (pages viewed, scroll depth, approximate location at city level,
+          device type, and coarse-grained calculator usage events). We use this
+          to understand which features are useful. IP addresses are processed
+          by Google; see{" "}
           <a
             href="https://policies.google.com/privacy"
             rel="noopener noreferrer"
@@ -56,9 +65,11 @@ export default function PrivacyPolicyPage() {
         </li>
       </ul>
       <p>
-        If you <strong>decline</strong>, neither service loads and no
-        third-party cookies are set. Your consent choice itself is stored in
-        your browser&apos;s localStorage (a strictly functional use).
+        If you <strong>decline</strong>, AdSense does not load, no ads are
+        shown, and <strong>no third-party cookies are set</strong> — Analytics
+        stays in the cookieless state described above. Your consent choice
+        itself is stored in your browser&apos;s localStorage (a strictly
+        functional use).
       </p>
 
       <h2>How to opt out or change your mind</h2>

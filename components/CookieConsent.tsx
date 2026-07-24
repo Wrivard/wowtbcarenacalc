@@ -1,16 +1,18 @@
 "use client";
 
-// Cookie consent (GDPR / Quebec Law 25). Non-essential scripts —
-// Google Analytics 4 and Google AdSense — are mounted ONLY after the
-// user grants consent. The choice persists in localStorage and can be
+// Cookie consent (GDPR / Quebec Law 25). AdSense ad units mount ONLY after
+// the user grants consent. Google Analytics runs under Consent Mode v2: the
+// tag is present for everyone but stays cookieless until consent is granted
+// (see lib/consent.ts). The choice persists in localStorage and can be
 // revisited from the footer ("Cookie settings").
 
 import { createContext, useCallback, useContext, useSyncExternalStore } from "react";
 import Link from "next/link";
+import { CONSENT_STORAGE_KEY, applyConsentMode } from "@/lib/consent";
 
 export type ConsentStatus = "unset" | "granted" | "denied";
 
-const STORAGE_KEY = "wowtbc-cookie-consent";
+const STORAGE_KEY = CONSENT_STORAGE_KEY;
 const CHANGE_EVENT = "wowtbc-consent-change";
 
 // localStorage as an external store: the server snapshot is "denied" so
@@ -37,6 +39,9 @@ function getServerSnapshot(): ConsentStatus {
 function writeConsent(value: string | null) {
   if (value === null) window.localStorage.removeItem(STORAGE_KEY);
   else window.localStorage.setItem(STORAGE_KEY, value);
+  // Reopening the banner ("unset") revokes: back to cookieless until they
+  // choose again.
+  applyConsentMode(value === "granted");
   window.dispatchEvent(new Event(CHANGE_EVENT));
 }
 
@@ -82,8 +87,8 @@ function ConsentBanner() {
       className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-md rounded-xl border border-border bg-surface p-4 shadow-lg shadow-black/40 sm:inset-x-auto sm:right-6 sm:bottom-6"
     >
       <p className="text-sm leading-relaxed text-muted-strong">
-        We use cookies for analytics and ads to keep this tool free. No
-        tracking loads unless you accept.{" "}
+        We use cookies for analytics and ads to keep this tool free. Until you
+        accept, analytics runs without cookies and no ads are shown.{" "}
         <Link
           href="/privacy-policy"
           className="text-accent underline-offset-2 hover:underline"

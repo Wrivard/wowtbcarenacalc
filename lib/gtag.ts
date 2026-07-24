@@ -5,7 +5,15 @@ export type GtagEventParams = Record<string, string | number | undefined>;
 
 declare global {
   interface Window {
-    gtag?: (command: "event", eventName: string, params?: GtagEventParams) => void;
+    gtag?: {
+      (command: "event", eventName: string, params?: GtagEventParams): void;
+      // Consent Mode v2 — see lib/consent.ts.
+      (
+        command: "consent",
+        action: "default" | "update",
+        signals: Record<string, string | number>,
+      ): void;
+    };
   }
 }
 
