@@ -45,7 +45,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
-    { url: `${SITE_URL}/leaderboard`, lastModified, changeFrequency: "hourly", priority: 0.8 },
+    // /leaderboard is deliberately absent: it renders noindex until the live
+    // Blizzard feed lands. Submitting a noindex URL is a self-contradiction
+    // Search Console reports as an error.
     { url: `${SITE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/contact`, lastModified, changeFrequency: "monthly", priority: 0.3 },
     { url: `${SITE_URL}/privacy-policy`, lastModified, changeFrequency: "monthly", priority: 0.2 },

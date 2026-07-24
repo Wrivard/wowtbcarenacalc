@@ -22,8 +22,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const raid = getRaid(raidId);
   if (!raid) return {};
   return buildMetadata({
-    title: `${raid.name} Raid Guide — TBC Classic Boss Strategies (Phase ${raid.phase})`,
-    description: `${raid.name} (${raid.size}-player, ${raid.location}) TBC Classic raid guide: strategy for every boss with tank, healer and DPS notes. ${raid.blurb.slice(0, 70)}`,
+    // Phase dropped from the title (it stays in the description): with a raid
+    // name like "Tempest Keep: The Eye" the suffix pushed this past the SERP
+    // cutoff, and nobody searches a raid by phase number.
+    title: `${raid.name} Raid Guide — TBC Classic Strategies`,
+    description: `${raid.name} (Phase ${raid.phase}, ${raid.size}-player, ${raid.location}) TBC Classic raid guide: strategy for every boss with tank, healer and DPS notes.`,
     path: `/raids/phase-${raid.phase}/${raid.id}`,
   });
 }

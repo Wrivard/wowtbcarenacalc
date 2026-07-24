@@ -25,7 +25,8 @@ export function GET() {
   lines.push("## Tools");
   lines.push(`- [Talent Calculator](${u("/talent-calculator")}): interactive TBC talent trees for every class.`);
   lines.push(`- [Arena Points Calculator](${u("/arena-points-calculator")}): weekly arena point income by rating and bracket.`);
-  lines.push(`- [Live Arena Leaderboard](${u("/leaderboard")}): current TBC arena ladder snapshot.`);
+  // /leaderboard is omitted while it serves sample data — it renders noindex
+  // and is not in the sitemap, so listing it here would contradict both.
   lines.push(`- [Class Rankings / Tier List](${u("/class-rankings")}): spec strength by phase.`);
   lines.push("");
 

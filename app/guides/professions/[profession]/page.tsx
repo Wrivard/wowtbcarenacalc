@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const p = getProfession(profession);
   if (!p) return {};
   return buildMetadata({
-    title: `${p.name} Guide TBC Classic — 1–375 Leveling, Benefits & Best Classes`,
+    title: `${p.name} Guide TBC Classic — 1–375 Leveling & Benefits`,
     description: `${p.name} in TBC Classic: a 1–375 leveling route with materials, what it provides for PvP and PvE, which classes benefit most, and cost.`,
     path: `/guides/professions/${p.slug}`,
   });

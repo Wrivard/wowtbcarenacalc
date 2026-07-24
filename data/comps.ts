@@ -3099,6 +3099,19 @@ export function compSlug(comp: Pick<ArenaComp, "id">): string {
   return comp.id.replace(/-(2s|3s|5s)$/, "");
 }
 
+/**
+ * The comp's nickname without its parenthesised class list — "Shadowplay /
+ * Drain" out of "Shadowplay / Drain (Shadow Priest / Lock / Shaman)".
+ *
+ * For <title> only. The full name runs to 50 characters, which pushed comp
+ * titles to 89 and got them cut off in the results. The class list still
+ * appears in the description, the H1 and the roster block, so nothing is lost
+ * for a search that names the classes.
+ */
+export function compShortName(comp: Pick<ArenaComp, "name">): string {
+  return comp.name.replace(/\s*\([^)]*\)\s*$/, "").trim() || comp.name;
+}
+
 // The subset of fields a comp card renders (lets CompCard accept a lighter
 // shape than the full ArenaComp).
 export type CompCardData = Pick<

@@ -26,8 +26,11 @@ export const metadata: Metadata = {
   title: {
     absolute: "TBC Classic BiS Lists, Talent Builds & Arena Guides",
   },
+  // Kept under 160 by hand: this page sets `metadata` directly rather than
+  // going through buildMetadata (it needs an absolute title), so it doesn't
+  // get clampDescription — it was the site's only over-long description.
   description:
-    "What the best TBC Classic players actually wear and spec: live arena PvP snapshots, phase-by-phase raid best in slot for every spec, recommended talent builds, and arena comp tier lists.",
+    "What the best TBC Classic players actually wear and spec: arena PvP snapshots, phase-by-phase raid BiS, talent builds and arena comp tier lists.",
   alternates: { canonical: "/" },
 };
 
@@ -397,10 +400,10 @@ export default function Home() {
               sub="The strongest 2v2, 3v3 and 5v5 comps, with full guides."
             />
             <FeatureCard
-              href="/leaderboard"
-              icon="achievement_pvp_a_a"
-              title="Arena Leaderboard"
-              sub="Top-rated teams by bracket, with the season cutoffs."
+              href="/arena-points-calculator"
+              icon="inv_misc_coin_02"
+              title="Arena Points Calculator"
+              sub="Exact weekly points from your rating, and weeks to afford each piece."
             />
             <FeatureCard
               href="/guides"

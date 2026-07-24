@@ -19,7 +19,6 @@ const HUBS = [
   { href: "/arena/comps", label: "Arena Comps" },
   { href: "/raids", label: "Raid Guides" },
   { href: "/class-rankings", label: "Class Rankings" },
-  { href: "/leaderboard", label: "Leaderboard" },
   { href: "/guides", label: "Class Guides" },
 ];
 

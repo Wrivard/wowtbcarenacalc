@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const CARDS = [
   { href: "/arena/comps", title: "Arena comp tier list", desc: "The best 2v2, 3v3 and 5v5 comps, filterable, with per-comp guides." },
-  { href: "/leaderboard", title: "Arena leaderboard", desc: "The live ladder and current Gladiator / Duelist / Rival / Challenger cutoffs." },
+  { href: "/class-rankings", title: "Class tier list", desc: "Every spec ranked for arena, with the reasoning behind each placement." },
   { href: "/arena-points-calculator", title: "Arena points calculator", desc: "Exact weekly points from your rating and weeks-to-afford each piece." },
 ];
 

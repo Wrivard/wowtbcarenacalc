@@ -49,10 +49,10 @@ export default function ArenaHub() {
             Browse all comps
           </Link>
           <Link
-            href="/leaderboard"
+            href="/arena-points-calculator"
             className="rounded-lg border border-border bg-surface px-4 py-2 text-sm font-medium text-muted-strong transition-colors hover:text-foreground"
           >
-            Leaderboard
+            Points calculator
           </Link>
         </div>
       </PageHero>
@@ -89,8 +89,8 @@ export default function ArenaHub() {
           <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
             Work out weekly points and weeks-to-afford in the{" "}
             <Link href="/arena-points-calculator" className="text-accent underline-offset-2 hover:underline">arena points calculator</Link>
-            , track the{" "}
-            <Link href="/leaderboard" className="text-accent underline-offset-2 hover:underline">Gladiator cutoff</Link>
+            , pick a spec from the{" "}
+            <Link href="/class-rankings" className="text-accent underline-offset-2 hover:underline">class tier list</Link>
             , and gear each spec with its arena BiS — among the top picks are{" "}
             <Link href="/shaman/elemental/pvp" className="text-accent underline-offset-2 hover:underline">Elemental Shaman</Link>,{" "}
             <Link href="/mage/arcane/pvp" className="text-accent underline-offset-2 hover:underline">Arcane Mage</Link>,{" "}

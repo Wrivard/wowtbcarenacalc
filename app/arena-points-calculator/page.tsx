@@ -334,14 +334,14 @@ export default function ArenaCalculatorPage() {
               >
                 arena comp tier list
               </Link>{" "}
-              ranks the best 2v2 and 3v3 setups, and the live{" "}
+              ranks the best 2v2 and 3v3 setups, and the{" "}
               <Link
-                href="/leaderboard"
+                href="/class-rankings"
                 className="text-accent underline-offset-2 hover:underline"
               >
-                arena leaderboard
+                class tier list
               </Link>{" "}
-              shows what the top teams are actually queueing. Because the curve
+              shows which specs carry a bracket. Because the curve
               is steep through the mid ratings, a strong 2v2 rating can still
               out-earn a mediocre 5v5 rating — enter both above and the
               calculator will highlight whichever team actually pays more.

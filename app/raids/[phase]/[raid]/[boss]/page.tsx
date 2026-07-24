@@ -36,8 +36,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const raid = boss ? getRaid(boss.raidId) : undefined;
   if (!boss || !raid) return {};
   return buildMetadata({
-    title: `${boss.name} Strategy — ${raid.name} TBC Classic Guide (Phase ${boss.phase})`,
-    description: `How to kill ${boss.name} in ${raid.name} (TBC Classic): tank, healer and DPS strategy, phases, common mistakes and loot. ${boss.strategy.overview}`,
+    // Raid name and phase moved to the description. Boss names run to 25
+    // characters ("High Astromancer Solarian"), and carrying the raid as well
+    // put this at 86 — the tail was cut off in the results.
+    title: `${boss.name} Strategy — TBC Classic Boss Guide`,
+    description: `How to kill ${boss.name} in ${raid.name} (TBC Classic, Phase ${boss.phase}): tank, healer and DPS strategy, fight phases, common mistakes and loot.`,
     path: `/raids/phase-${boss.phase}/${raid.id}/${boss.id}`,
     ogType: "article",
   });

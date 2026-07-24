@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     description:
       "TBC Classic arena leaderboard for 2v2, 3v3 and 5v5 with the current Gladiator, Duelist, Rival and Challenger rating cutoffs, filterable by faction and class.",
     path: "/leaderboard",
+    // Held back from the index until the live Blizzard feed is wired up —
+    // without BLIZZARD_* env vars the page serves labeled SAMPLE data, and a
+    // ranking page built on placeholder ratings is worse than no page at all.
+    // follow stays on so the outbound links still pass equity.
+    noindex: true,
   }),
 };
 

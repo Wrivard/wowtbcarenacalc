@@ -8,7 +8,9 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { AdUnit } from "@/components/AdUnit";
+import { GameIcon } from "@/components/GameIcon";
 import { classBackground } from "@/lib/backgrounds";
+import { specIconName } from "@/lib/icons";
 
 export const dynamicParams = false;
 
@@ -120,17 +122,67 @@ export default async function BestRacePage({ params }: { params: Params }) {
 
         <AdUnit slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT} className="mt-10" />
 
-        <section className="mt-10 rounded-xl border border-border bg-surface p-5">
-          <h2 className="text-sm font-semibold text-foreground">
-            {cls.name} gear & talents
+        {/* Race is the first decision a player makes, so this page is often
+            the entry point to the whole class — but it used to end with a
+            single link to the class hub. Search Console had it at 106
+            impressions and zero clicks: a dead end at position 20. The spec
+            grid below is the payoff the query is actually reaching for. */}
+        <section className="mt-10" aria-labelledby="next-steps">
+          <h2 id="next-steps" className="text-xl font-semibold tracking-tight">
+            Next: gear and spec your {cls.name}
           </h2>
-          <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
-            Picked your race? Line up the rest:{" "}
-            <Link href={`/${cls.slug}`} className="text-accent underline-offset-2 hover:underline">
-              {cls.name} BiS &amp; talents
-            </Link>
-            .
+          <p className="mt-1.5 text-sm text-muted-strong">
+            Race is locked in at character creation — everything below you can
+            change any time.
           </p>
+          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+            {cls.specs.map((spec) => (
+              <li key={spec.slug}>
+                <Link
+                  href={`/${cls.slug}/${spec.slug}`}
+                  className="flex items-center gap-2.5 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:border-border-strong"
+                >
+                  <GameIcon
+                    icon={specIconName(cls.slug, spec)}
+                    alt={`${spec.name} ${cls.name}`}
+                    size="small"
+                    className="size-7 shrink-0"
+                  />
+                  <span className="min-w-0">
+                    <span className="block text-sm font-medium text-foreground">
+                      {spec.name} {cls.name}
+                    </span>
+                    <span className="block text-xs text-muted">
+                      BiS, talents &amp; guide
+                    </span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+            <li>
+              <Link href={`/guides/addons/${cls.slug}`} className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                {cls.name} addons &amp; macros
+              </Link>
+            </li>
+            <li>
+              <Link href={`/talent-calculator/${cls.slug}`} className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                {cls.name} talent calculator
+              </Link>
+            </li>
+            <li>
+              <Link href="/guides/professions" className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                Profession guides
+              </Link>
+            </li>
+            <li>
+              <Link href="/class-rankings" className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                TBC class tier list
+              </Link>
+            </li>
+          </ul>
         </section>
       </main>
     </>

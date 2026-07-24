@@ -27,11 +27,12 @@ const BIS: NavItem[] = [
   { href: "/pve", label: "PvE · Raid BiS", icon: "inv_misc_head_dragon_01" },
 ];
 
-// Arena dropdown: everything for the arena side — comp tier list, the
-// live leaderboard, the points calculator, and the overview hub.
+// Arena dropdown: everything for the arena side — comp tier list, the points
+// calculator, and the overview hub. /leaderboard is deliberately absent while
+// it serves sample data: a sitewide link would funnel real traffic to a page
+// we're holding out of the index.
 const ARENA: NavItem[] = [
   { href: "/arena/comps", label: "Arena Comps", icon: "achievement_arena_2v2_2" },
-  { href: "/leaderboard", label: "Live Leaderboard", icon: "achievement_pvp_a_a" },
   { href: "/arena-points-calculator", label: "Arena Points Calculator", icon: "inv_misc_coin_02" },
   { href: "/arena", label: "Arena Overview", icon: "achievement_arena_5v5_1" },
 ];

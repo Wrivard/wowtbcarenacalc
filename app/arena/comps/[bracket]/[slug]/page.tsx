@@ -7,6 +7,7 @@ import {
   getComp,
   getCompBySlug,
   compSlug,
+  compShortName,
   siblingComps,
   type ArenaComp,
 } from "@/data/comps";
@@ -91,7 +92,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   // follows so a search for either matches.
   const b = BRACKET_LABEL[comp.bracket];
   return buildMetadata({
-    title: `${comp.name} ${comp.bracket} Comp Guide — TBC ${b} Arena (${comp.tier} Tier)`,
+    title: `${compShortName(comp)} ${comp.bracket} Comp Guide — TBC ${b} Arena (${comp.tier} Tier)`,
     description: `${comp.name} ${comp.bracket} (${b}) arena comp guide for TBC Classic Season ${SEASON}: win condition, opener and cooldown timeline, positioning, counters and required gear. ${comp.blurb}`,
     path: `/arena/comps/${comp.bracket}/${slug}`,
     ogType: "article",
@@ -207,7 +208,7 @@ export default async function CompGuidePage({ params }: { params: Params }) {
           },
         ]
       : []),
-    { href: "/leaderboard", label: `Live ${b} arena leaderboard` },
+    { href: "/arena-points-calculator", label: `${b} arena points calculator` },
   ];
 
   const updated = new Date(COMPS_UPDATED).toLocaleDateString("en-US", {
