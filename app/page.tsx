@@ -16,12 +16,18 @@ import { SITE_URL } from "@/lib/site";
 
 const SLOT_INCONTENT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT;
 
+// Deliberately does NOT say "arena points calculator" or "talent calculator".
+// Search Console showed this page ranking 10th for "tbc arena point
+// calculator" while /arena-points-calculator did not rank for it at all, and
+// beating /talent-calculator on its own head term. The homepage was winning
+// the impression and losing the click (310 impr, 1.0% CTR). It now targets
+// the hub intent and leaves the tool terms to the tool pages.
 export const metadata: Metadata = {
   title: {
-    absolute: "WoW TBC Classic — BiS, Talents & Arena Tools",
+    absolute: "TBC Classic BiS Lists, Talent Builds & Arena Guides",
   },
   description:
-    "TBC Classic tools in one place: live-snapshot PvP & PvE BiS lists for every spec, talent builds, an interactive talent calculator, and an arena points calculator.",
+    "What the best TBC Classic players actually wear and spec: live arena PvP snapshots, phase-by-phase raid best in slot for every spec, recommended talent builds, and arena comp tier lists.",
   alternates: { canonical: "/" },
 };
 

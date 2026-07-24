@@ -50,7 +50,11 @@ export async function generateMetadata({
   // Next then inherits the root layout's wholesale — these 28 pages were
   // serving the homepage's og:title and og:url to every share.
   return buildMetadata({
-    title: `${spec.name} ${cls.name} Talents — TBC ${category} Build (${build?.summaryLabel ?? "Guide"})`,
+    // The point spread ("17/44/0") left the title cryptic in the results and
+    // ate the space "TBC Classic" needed — this cluster took 180 impressions
+    // at positions 13-18 for zero clicks. The spread stays in the
+    // description, where it still matches without costing a headline.
+    title: `${spec.name} ${cls.name} Talents — TBC Classic ${category} Build Guide`,
     description: `Recommended ${spec.name} ${cls.name} ${category.toLowerCase()} talent build for TBC Classic${build ? ` (${build.summaryLabel})` : ""} — full tree, reasoning, and a shareable build link.`,
     path: `/${cls.slug}/${spec.slug}/talents`,
     ogImage: `/${cls.slug}/opengraph-image`,

@@ -30,8 +30,12 @@ export async function generateMetadata({
   const cls = getClass(classSlug);
   if (!cls) return {};
   return buildMetadata({
-    title: `${cls.name} TBC Classic — BiS Lists, Talents & Talent Calculator`,
-    description: `Every ${cls.name} spec in TBC Classic: arena PvP BiS, phase-by-phase PvE best in slot, recommended talent builds, and a ${cls.name} talent calculator.`,
+    // "Talent Calculator" removed from both: nine class hubs carrying that
+    // phrase put /warrior, /druid, /hunter and /classes into the results for
+    // "tbc talent calculator" — eight pages competing on one term, with the
+    // actual tool only 15th. The hubs link to it; they shouldn't rank for it.
+    title: `${cls.name} TBC Classic — BiS Lists, Talents & Specs`,
+    description: `Every ${cls.name} spec in TBC Classic: arena PvP BiS, phase-by-phase PvE best in slot, and recommended talent builds with full trees.`,
     path: `/${cls.slug}`,
   });
 }

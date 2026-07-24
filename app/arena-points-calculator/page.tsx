@@ -28,9 +28,12 @@ const SLOT_INCONTENT = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INCONTENT;
 // longer silently inherits the homepage's og:title/og:description. No ogImage
 // arg here on purpose — the file-based opengraph-image.tsx supplies og:image.
 export const metadata: Metadata = buildMetadata({
-  title: "WoW TBC Arena Points Calculator — Points Per Week (2v2, 3v3, 5v5)",
+  // "Anniversary" earns 50 impressions across 21 queries at average position
+  // 10.9 and zero clicks — it ranks on a word it never states. Shortened
+  // elsewhere to keep those two terms inside the displayed 60 characters.
+  title: "TBC Arena Points Calculator — Anniversary (2v2, 3v3, 5v5)",
   description:
-    "Free TBC Classic arena points calculator: enter your 2v2, 3v3 or 5v5 team rating for exact weekly points, required-rating lookup, and a gear planner.",
+    "Free WoW TBC Classic arena points calculator for the Anniversary realms: enter your 2v2, 3v3 or 5v5 team rating for exact weekly points, required-rating lookup, and a gear planner.",
   path: "/arena-points-calculator",
 });
 

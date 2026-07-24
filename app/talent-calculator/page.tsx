@@ -42,9 +42,11 @@ export async function generateMetadata({
     });
   }
   return buildMetadata({
-    title: "TBC Classic Talent Calculator — All 9 Classes",
+    // "wow tbc talent calculator" is a recorded query and the page did not
+    // carry "WoW" at all.
+    title: "WoW TBC Talent Calculator — TBC Classic, All 9 Classes",
     description:
-      "Free TBC Classic talent calculator for all 9 classes. Pick a class, plan your 61 points with real tier and prerequisite rules, then share your build with a link.",
+      "Free WoW TBC Classic talent calculator for all 9 classes. Pick a class, plan your 61 points with real tier and prerequisite rules, then share your build with a link.",
     path: "/talent-calculator",
   });
 }

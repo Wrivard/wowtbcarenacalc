@@ -12,7 +12,9 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "TBC Classic BiS Lists & Talent Builds — All Classes",
   description:
-    "Best-in-slot gear and talent builds for every TBC Classic class and spec — arena PvP BiS, phase-by-phase PvE BiS, and interactive talent calculators.",
+    // No "talent calculator" here either — /classes was the fourth page
+    // competing with the tool for its own head term.
+    "Best-in-slot gear and talent builds for every TBC Classic class and spec — arena PvP BiS, phase-by-phase PvE BiS, and full talent trees with reasoning.",
   alternates: { canonical: "/classes" },
 };
 

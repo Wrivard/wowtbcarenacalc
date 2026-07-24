@@ -59,10 +59,14 @@ export async function generateMetadata({
   const { cls, spec } = found;
   const list = getPveBis(cls.slug, spec.slug, phase);
   return buildMetadata({
-    // The raid name is the query players actually type ("fury warrior bis
-    // black temple"), so it goes in the title, not just the description.
-    title: `${spec.name} ${cls.name} Phase ${phase} BiS — ${PHASE_RAID_SHORT[phase]} (TBC)`,
-    description: `${spec.name} ${cls.name} Phase ${phase} best in slot for TBC Classic (${PHASE_LABELS[phase]}) — full gear list from top raid logs, plus gems, enchants and stat priority.`,
+    // Mirrors the PvP BiS title, which earns 8-11% CTR on the same audience
+    // while this template earned 0% at position 6.8 (Search Console, 28d).
+    // Two changes drive it: "TBC" moves out of a trailing parenthesis, since
+    // players type "tbc <spec> bis", and the raid name moves to the
+    // description — it never appeared in a single recorded query, and it was
+    // eating the first 60 characters that actually get displayed.
+    title: `${spec.name} ${cls.name} PvE BiS Phase ${phase} — TBC Classic Raid Gear`,
+    description: `${spec.name} ${cls.name} Phase ${phase} best in slot for TBC Classic — the full ${PHASE_RAID_SHORT[phase]} (${PHASE_LABELS[phase]}) gear list from top raid logs, plus gems, enchants and stat priority.`,
     path: `/${cls.slug}/${spec.slug}/pve/phase-${phase}`,
     ogImage: `/${cls.slug}/opengraph-image`,
     noindex: !list,
