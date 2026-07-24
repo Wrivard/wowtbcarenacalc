@@ -51,13 +51,21 @@ export function TalentCalculator({
   const build = userBuild ?? urlBuild ?? emptyBuild(cls);
 
   // Reflect user edits in the URL without adding history entries.
+  //
+  // Debounced, and not for performance: GA4's enhanced measurement patches
+  // replaceState and counts every URL change as a page_view. Syncing on each
+  // click turned a 41-point build into 41 page views, which would quietly
+  // wreck every per-page metric on the site. One sync per settled build.
   useEffect(() => {
     if (!userBuild) return;
-    const encoded = encodeBuild(userBuild);
-    const url = new URL(window.location.href);
-    if (encoded) url.searchParams.set("b", encoded);
-    else url.searchParams.delete("b");
-    window.history.replaceState(null, "", url.toString());
+    const timer = setTimeout(() => {
+      const encoded = encodeBuild(userBuild);
+      const url = new URL(window.location.href);
+      if (encoded) url.searchParams.set("b", encoded);
+      else url.searchParams.delete("b");
+      window.history.replaceState(null, "", url.toString());
+    }, 600);
+    return () => clearTimeout(timer);
   }, [userBuild]);
 
   const spent = totalPoints(build);
