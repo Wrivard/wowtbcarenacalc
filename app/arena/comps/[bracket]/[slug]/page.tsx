@@ -85,12 +85,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const { bracket, slug } = await params;
   const comp = getCompBySlug(bracket, slug);
   if (!comp) return {};
-  // Players search "5v5", not "5s" — the bracket has to appear in the SERP
-  // form in the title, with the URL form kept in the body copy.
+  // Both bracket forms in the metadata: most players search the in-game term
+  // ("5s"), some the "5v5" form. The URL/in-game form leads, the long form
+  // follows so a search for either matches.
   const b = BRACKET_LABEL[comp.bracket];
   return buildMetadata({
-    title: `${comp.name} ${b} Guide — TBC Arena Comp (${comp.tier} Tier)`,
-    description: `${comp.name} ${b} arena guide for TBC Classic Season ${SEASON}: win condition, opener and cooldown timeline, positioning, counters and required gear. ${comp.blurb}`,
+    title: `${comp.name} ${comp.bracket} Comp Guide — TBC ${b} Arena (${comp.tier} Tier)`,
+    description: `${comp.name} ${comp.bracket} (${b}) arena comp guide for TBC Classic Season ${SEASON}: win condition, opener and cooldown timeline, positioning, counters and required gear. ${comp.blurb}`,
     path: `/arena/comps/${comp.bracket}/${slug}`,
     ogType: "article",
     modifiedTime: COMPS_UPDATED,
@@ -230,7 +231,7 @@ export default async function CompGuidePage({ params }: { params: Params }) {
           <TierBadge tier={comp.tier} />
         </div>
         <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-          {comp.name} — TBC {b} Arena Comp Guide
+          {comp.name} — TBC {comp.bracket} ({b}) Arena Comp Guide
         </h1>
         <div className="mt-3 flex flex-wrap items-center gap-3">
           <PlaystyleTag playstyle={comp.playstyle} />
