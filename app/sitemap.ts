@@ -3,7 +3,7 @@ import { SITE_URL } from "@/lib/site";
 import { CLASSES, allSpecs } from "@/lib/classes";
 import { filledBisRoutes } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
-import { COMPS, compSlug } from "@/data/comps";
+import { COMPS, COMPS_UPDATED, compSlug } from "@/data/comps";
 import { BRACKETS as SEO_BRACKETS, bracketsForClass, classCombos, comboSlug } from "@/lib/comps-seo";
 import { getBestRace } from "@/data/bestRace";
 import { PROFESSIONS } from "@/data/professions";
@@ -18,40 +18,63 @@ import { NON_DEFAULT_TIERS } from "@/data/rankings";
 // in the registry (full matrix ≈ 150+ URLs when all specs are filled).
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
+  // Entries below carry `lastModified` ONLY when a real content timestamp
+  // exists (a BiS list's updatedAt, a guide's, a build's, COMPS_UPDATED).
+  //
+  // It used to default to `new Date()`, which stamped 488 of 804 URLs with the
+  // build time — every deploy told Google the whole site had just changed,
+  // including pages untouched for months. Google discounts lastmod it finds
+  // unreliable, so the false majority was devaluing the honest minority.
+  // An omitted lastmod reads as "unknown", which is true; a wrong one is not.
   const entries: MetadataRoute.Sitemap = [
-    { url: SITE_URL, lastModified, changeFrequency: "weekly", priority: 1 },
-    { url: `${SITE_URL}/arena-points-calculator`, lastModified, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/pvp`, lastModified, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/pve`, lastModified, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/classes`, lastModified, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${SITE_URL}/talent-calculator`, lastModified, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/arena`, lastModified, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/arena/comps`, lastModified, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${SITE_URL}/guides`, lastModified, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${SITE_URL}/guides/professions`, lastModified, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${SITE_URL}/guides/addons`, lastModified, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${SITE_URL}/raids`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: SITE_URL,
+      changeFrequency: "weekly", priority: 1 },
+    { url: `${SITE_URL}/arena-points-calculator`,
+      changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/pvp`,
+      changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/pve`,
+      changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/classes`,
+      changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/talent-calculator`,
+      changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/arena`,
+      changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/arena/comps`,
+      changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/guides`,
+      changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE_URL}/guides/professions`,
+      changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/guides/addons`,
+      changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/raids`,
+      changeFrequency: "weekly", priority: 0.8 },
     // Only canonical bare paths belong in the sitemap — the ?tier=/?bracket=
     // filtered views canonicalize back to these, so listing the params would
     // submit URLs that declare themselves non-canonical.
-    { url: `${SITE_URL}/class-rankings`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/class-rankings`,
+      changeFrequency: "weekly", priority: 0.8 },
     // Per-tier static DPS-ranking pages (every tier except the default one,
     // whose content is the hub above). Same source as the [tier] route's
     // generateStaticParams, so sitemap and routes can't drift.
     ...NON_DEFAULT_TIERS.map((t) => ({
       url: `${SITE_URL}/class-rankings/${t.slug}`,
-      lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
     // /leaderboard is deliberately absent: it renders noindex until the live
     // Blizzard feed lands. Submitting a noindex URL is a self-contradiction
     // Search Console reports as an error.
-    { url: `${SITE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.4 },
-    { url: `${SITE_URL}/contact`, lastModified, changeFrequency: "monthly", priority: 0.3 },
-    { url: `${SITE_URL}/privacy-policy`, lastModified, changeFrequency: "monthly", priority: 0.2 },
-    { url: `${SITE_URL}/terms`, lastModified, changeFrequency: "monthly", priority: 0.2 },
+    { url: `${SITE_URL}/about`,
+      changeFrequency: "monthly", priority: 0.4 },
+    { url: `${SITE_URL}/contact`,
+      changeFrequency: "monthly", priority: 0.3 },
+    { url: `${SITE_URL}/privacy-policy`,
+      changeFrequency: "monthly", priority: 0.2 },
+    { url: `${SITE_URL}/terms`,
+      changeFrequency: "monthly", priority: 0.2 },
   ];
 
   // Class hubs — always live (data-independent). Each class also has its own
@@ -60,13 +83,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const cls of CLASSES) {
     entries.push({
       url: `${SITE_URL}/${cls.slug}`,
-      lastModified,
       changeFrequency: "weekly",
       priority: 0.8,
     });
     entries.push({
       url: `${SITE_URL}/talent-calculator/${cls.slug}`,
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.8,
     });
@@ -74,7 +95,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const spec of cls.specs) {
       entries.push({
         url: `${SITE_URL}/${cls.slug}/${spec.slug}`,
-        lastModified,
         changeFrequency: "weekly",
         priority: 0.7,
       });
@@ -99,11 +119,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Arena comp guide pages — one per comp.
+  // Arena comp guide pages — one per comp. COMPS_UPDATED is a real content
+  // timestamp, so these keep a lastmod.
+  const compsUpdated = new Date(COMPS_UPDATED);
   for (const comp of COMPS) {
     entries.push({
       url: `${SITE_URL}/arena/comps/${comp.bracket}/${compSlug(comp)}`,
-      lastModified,
+      lastModified: compsUpdated,
       changeFrequency: "weekly",
       priority: 0.7,
     });
@@ -115,7 +137,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const b of SEO_BRACKETS) {
     entries.push({
       url: `${SITE_URL}/arena/comps/${b}`,
-      lastModified,
       changeFrequency: "weekly",
       priority: 0.7,
     });
@@ -125,14 +146,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (classBrackets.length === 0) continue; // no comps for this class → no facet page
     entries.push({
       url: `${SITE_URL}/arena/comps/class/${cls.slug}`,
-      lastModified,
       changeFrequency: "weekly",
       priority: 0.6,
     });
     for (const b of classBrackets) {
       entries.push({
         url: `${SITE_URL}/arena/comps/${b}/class/${cls.slug}`,
-        lastModified,
         changeFrequency: "weekly",
         priority: 0.6,
       });
@@ -146,7 +165,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const combo of classCombos()) {
     entries.push({
       url: `${SITE_URL}/arena/comps/class/${comboSlug(combo)}`,
-      lastModified,
       changeFrequency: "weekly",
       priority: 0.5,
     });
@@ -155,7 +173,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const combo of classCombos(b)) {
       entries.push({
         url: `${SITE_URL}/arena/comps/${b}/class/${comboSlug(combo)}`,
-        lastModified,
         changeFrequency: "weekly",
         priority: 0.5,
       });
@@ -166,7 +183,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const cls of CLASSES) {
     entries.push({
       url: `${SITE_URL}/guides/${cls.slug}`,
-      lastModified,
       changeFrequency: "weekly",
       priority: 0.6,
     });
@@ -187,14 +203,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (getBestRace(cls.slug)) {
       entries.push({
         url: `${SITE_URL}/guides/best-race/${cls.slug}`,
-        lastModified,
         changeFrequency: "monthly",
         priority: 0.6,
       });
     }
     entries.push({
       url: `${SITE_URL}/guides/addons/${cls.slug}`,
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.5,
     });
@@ -204,7 +218,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const p of PROFESSIONS) {
     entries.push({
       url: `${SITE_URL}/guides/professions/${p.slug}`,
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.5,
     });
@@ -214,7 +227,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const phase of populatedPhases()) {
     entries.push({
       url: `${SITE_URL}/raids/phase-${phase}`,
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.6,
     });
@@ -222,7 +234,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const raid of RAIDS) {
     entries.push({
       url: `${SITE_URL}/raids/phase-${raid.phase}/${raid.id}`,
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.6,
     });
@@ -230,7 +241,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const boss of BOSSES) {
     entries.push({
       url: `${SITE_URL}/raids/phase-${boss.phase}/${boss.raidId}/${boss.id}`,
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.6,
     });

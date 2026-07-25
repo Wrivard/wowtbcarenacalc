@@ -141,6 +141,12 @@ export function TalentTreeGrid({
                     width={50}
                     height={50}
                     decoding="async"
+                    // A full tree is ~67 icons. Rendered eagerly they were the
+                    // bulk of the site's 21k eager images and competed with the
+                    // hero for bandwidth on every guide and talents page.
+                    // loading="lazy" is viewport-aware, so the rows actually on
+                    // screen (including in the calculator) still load at once.
+                    loading="lazy"
                     className="rounded-md"
                     style={{ width: 50, height: 50 }}
                   />

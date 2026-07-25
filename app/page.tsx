@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Swords } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
@@ -197,10 +198,18 @@ export default function Home() {
               href="/pvp"
               className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
             >
-              <span
-                aria-hidden
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
-                style={{ backgroundImage: `url(${BACKGROUNDS.arena})` }}
+              {/* next/image rather than a CSS background: a background-image
+                  bypasses the optimizer entirely, so these two cards shipped
+                  the raw 40KB + 57KB webp and couldn't be lazy-loaded. They sit
+                  below the fold and were competing for bandwidth with the 12KB
+                  hero, which is the LCP element. */}
+              <Image
+                src={BACKGROUNDS.arena}
+                alt=""
+                fill
+                loading="lazy"
+                sizes="(min-width: 640px) 50vw, 100vw"
+                className="object-cover object-center transition-transform duration-300 group-hover:scale-[1.03]"
               />
               <span
                 aria-hidden
@@ -223,10 +232,13 @@ export default function Home() {
               href="/pve"
               className="group relative overflow-hidden rounded-xl border border-border transition-colors hover:border-accent/60"
             >
-              <span
-                aria-hidden
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-[1.03]"
-                style={{ backgroundImage: `url(${BACKGROUNDS.raids})` }}
+              <Image
+                src={BACKGROUNDS.raids}
+                alt=""
+                fill
+                loading="lazy"
+                sizes="(min-width: 640px) 50vw, 100vw"
+                className="object-cover object-center transition-transform duration-300 group-hover:scale-[1.03]"
               />
               <span
                 aria-hidden
