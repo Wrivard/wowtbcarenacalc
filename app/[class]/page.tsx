@@ -5,6 +5,9 @@ import { CLASSES, getClass } from "@/lib/classes";
 import { getPvpBis } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
 import { hasSpecGuide } from "@/data/specGuides";
+import { getBestRace } from "@/data/bestRace";
+import { DEFAULT_TIER } from "@/data/rankings";
+import { topProfessions, professionIcon } from "@/data/professions";
 import { specIconName } from "@/lib/icons";
 import { GameIcon } from "@/components/GameIcon";
 import { buildMetadata } from "@/lib/seo";
@@ -54,6 +57,14 @@ export default async function ClassHub({
     { name: "Classes", href: "/classes" },
     { name: cls.name, href: `/${cls.slug}` },
   ];
+
+  // This class's specs inside the current tier list, each with its rank out of
+  // the full field — a spec's DPS number only means something next to that.
+  const raidPlacements = DEFAULT_TIER.rankings
+    .map((row, i) => ({ row, rank: i + 1, total: DEFAULT_TIER.rankings.length }))
+    .filter(({ row }) => row.classSlug === cls.slug);
+  const bestRace = getBestRace(cls.slug);
+  const professions = topProfessions(cls.slug, "pvp", 4);
 
   return (
     <>
@@ -149,6 +160,159 @@ export default async function ClassHub({
             );
           })}
         </div>
+
+        {/* Below the spec grid these hubs were ~186 words — a link menu and
+            nothing else. Search Console has /warrior at position 17 on 46
+            impressions with zero clicks, and the other eight in the same
+            shape. Everything here comes from data already in the repo: no
+            page renders a section it has no data for. */}
+        {raidPlacements.length > 0 && (
+          <section className="mt-12" aria-labelledby="raid-ranking">
+            <h2 id="raid-ranking" className="text-xl font-semibold tracking-tight">
+              Where {cls.name} specs rank in {DEFAULT_TIER.short}
+            </h2>
+            <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
+              Representative single-target raid DPS for {DEFAULT_TIER.raids},
+              measured against every other spec in the tier list.
+            </p>
+            <div className="mt-4 overflow-x-auto rounded-xl border border-border">
+              <table className="w-full min-w-[380px] text-sm">
+                <thead>
+                  <tr className="border-b border-border bg-surface">
+                    <th className="px-4 py-2.5 text-left text-[11px] font-medium tracking-widest text-muted uppercase">
+                      Spec
+                    </th>
+                    <th className="px-4 py-2.5 text-right text-[11px] font-medium tracking-widest text-muted uppercase">
+                      Rank
+                    </th>
+                    <th className="px-4 py-2.5 text-right text-[11px] font-medium tracking-widest text-muted uppercase">
+                      DPS
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {raidPlacements.map(({ row, rank, total }) => (
+                    <tr key={row.specSlug} className="border-b border-border bg-surface last:border-b-0">
+                      <td className="px-4 py-2.5">
+                        <Link
+                          href={`/${cls.slug}/${row.specSlug}`}
+                          className="text-accent underline-offset-2 hover:underline"
+                        >
+                          {row.label}
+                        </Link>
+                      </td>
+                      <td className="px-4 py-2.5 text-right font-mono text-muted-strong tabular-nums">
+                        {rank}/{total}
+                      </td>
+                      <td className="px-4 py-2.5 text-right font-mono tabular-nums">
+                        {row.dps.toLocaleString("en-US")}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-3 text-sm leading-relaxed text-muted-strong">
+              Full context in the{" "}
+              <Link href="/class-rankings" className="text-accent underline-offset-2 hover:underline">
+                TBC class tier list
+              </Link>
+              , which covers every phase.
+            </p>
+          </section>
+        )}
+
+        {bestRace && (
+          <section className="mt-12" aria-labelledby="best-race">
+            <h2 id="best-race" className="text-xl font-semibold tracking-tight">
+              Best race for a TBC {cls.name}
+            </h2>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              {(["pvp", "pve"] as const).map((content) => {
+                const recs = bestRace.recommendations.filter(
+                  (r) => r.content === content,
+                );
+                if (!recs.length) return null;
+                return (
+                  <div key={content} className="rounded-xl border border-border bg-surface p-4">
+                    <h3 className="font-mono text-[10px] tracking-widest text-muted uppercase">
+                      {content === "pvp" ? "Arena PvP" : "Raid PvE"}
+                    </h3>
+                    <dl className="mt-2 space-y-1.5">
+                      {recs.map((r) => (
+                        <div key={r.faction} className="flex gap-2 text-sm">
+                          <dt className="w-[4.5rem] shrink-0 text-muted">
+                            {r.faction === "horde" ? "Horde" : "Alliance"}
+                          </dt>
+                          <dd className="font-medium text-foreground">{r.race}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </div>
+                );
+              })}
+            </div>
+            <p className="mt-3 text-sm leading-relaxed text-muted-strong">
+              Race is the one choice you can&apos;t respec —{" "}
+              <Link
+                href={`/guides/best-race/${cls.slug}`}
+                className="text-accent underline-offset-2 hover:underline"
+              >
+                why each racial matters for {cls.name}
+              </Link>{" "}
+              covers the reasoning and the runners-up.
+            </p>
+          </section>
+        )}
+
+        {professions.length > 0 && (
+          <section className="mt-12" aria-labelledby="prof">
+            <h2 id="prof" className="text-xl font-semibold tracking-tight">
+              Best professions for {cls.name}
+            </h2>
+            <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
+              The professions worth the levelling time on a {cls.name} in arena.
+            </p>
+            <ul className="mt-4 flex flex-wrap gap-2">
+              {professions.map((p) => (
+                <li key={p.slug}>
+                  <Link
+                    href={`/guides/professions/${p.slug}#leveling`}
+                    className="flex items-center gap-2 rounded-xl border border-border bg-surface px-3 py-2 text-sm transition-colors hover:border-border-strong"
+                  >
+                    <GameIcon icon={professionIcon(p.slug)} alt="" size="small" className="size-5" />
+                    <span className="text-foreground">{p.name}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <nav aria-label="More for this class" className="mt-12 border-t border-border pt-6 pb-4">
+          <ul className="flex flex-wrap gap-x-5 gap-y-2">
+            <li>
+              <Link href={`/talent-calculator/${cls.slug}`} className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                TBC {cls.name} talent calculator
+              </Link>
+            </li>
+            <li>
+              <Link href={`/guides/addons/${cls.slug}`} className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                {cls.name} addons &amp; macros
+              </Link>
+            </li>
+            <li>
+              <Link href="/arena/comps" className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                Arena comp tier list
+              </Link>
+            </li>
+            <li>
+              <Link href="/arena-points-calculator" className="text-sm text-muted-strong transition-colors hover:text-foreground">
+                TBC arena points calculator
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </main>
     </>
   );
