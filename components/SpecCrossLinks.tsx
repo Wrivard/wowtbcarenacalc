@@ -33,9 +33,12 @@ export function SpecCrossLinks({
       href: `/${cls.slug}/${spec.slug}/talents`,
       label: `${spec.name} ${cls.name} talents`,
     });
+  // "TBC" in the anchor, same gap as the arena calculator had: recorded
+  // queries are "wow tbc hunter talent calculator", "tbc talent calculator",
+  // and none of the ~1800 internal links to the tool carried the term.
   links.push({
     href: `/talent-calculator/${cls.slug}`,
-    label: `${cls.name} talent calculator`,
+    label: `TBC ${cls.name} talent calculator`,
   });
   for (const sibling of cls.specs.filter((s) => s.slug !== spec.slug)) {
     links.push({

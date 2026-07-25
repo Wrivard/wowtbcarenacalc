@@ -432,7 +432,7 @@ export default function Home() {
             <FeatureCard
               href="/talent-calculator"
               icon="spell_arcane_arcane01"
-              title="Talent Calculator"
+              title="TBC Talent Calculator"
               sub="All 9 classes with real TBC rules and shareable builds."
             />
           </div>
