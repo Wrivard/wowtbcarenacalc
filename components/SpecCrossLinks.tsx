@@ -52,9 +52,13 @@ export function SpecCrossLinks({
   }
   // Guides for this class (best race, addons & macros).
   for (const g of guidesForClass(cls.slug)) links.push(g);
+  // "TBC" belongs in this anchor: every recorded search for the tool includes
+  // it ("tbc arena point calculator", "arena calculator tbc"), and not one of
+  // the ~950 internal links to the page carried it. This is the site's largest
+  // contextual source of them.
   links.push({
     href: "/arena-points-calculator",
-    label: "Arena points calculator",
+    label: "TBC arena points calculator",
   });
 
   // Arena comps that feature this class — cross-links BiS → comp guides.

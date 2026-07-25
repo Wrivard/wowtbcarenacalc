@@ -107,10 +107,10 @@ export default function ArenaCalculatorPage() {
           WoW TBC Arena Points Calculator
         </h1>
         <p className="mt-3 max-w-[52ch] text-sm leading-relaxed text-muted-strong sm:text-base">
-          The fastest way to work out your weekly TBC Classic arena points.
-          Enter your 2v2, 3v3, or 5v5 team rating to see exactly how many
-          points you&apos;ll earn at the weekly reset — and what rating you
-          need to hit your gear targets.
+          A free TBC arena point calculator for Classic and the Anniversary
+          realms. Enter your 2v2, 3v3, or 5v5 team rating to see exactly how
+          many points you&apos;ll earn at the weekly reset — and what rating
+          you need to hit your gear targets.
         </p>
       </PageHero>
 
@@ -370,6 +370,66 @@ export default function ArenaCalculatorPage() {
                 TBC PvP guides
               </Link>{" "}
               for comps, gearing and honor grinds.
+            </p>
+          </section>
+
+          {/* The most common follow-up from someone who just ran the numbers:
+              they have a points total and don't know which half of the vendor
+              it covers. Two separate currencies, and only one of them is what
+              this page calculates. */}
+          <section aria-labelledby="vs-honor">
+            <SectionHeading id="vs-honor">
+              Arena points vs honor points
+            </SectionHeading>
+            <p className="mt-4 text-sm leading-relaxed text-muted-strong">
+              TBC runs two PvP currencies side by side, and this arena
+              calculator only covers one of them. Arena points come from rated
+              arena, are paid once a week from your team rating, and buy the
+              five-piece arena set and its weapons. Honor comes from
+              battlegrounds and world PvP, accumulates continuously with no
+              weekly cap, and buys everything the set doesn&apos;t cover.
+            </p>
+            <div className="mt-5 overflow-x-auto rounded-xl border border-border">
+              <table className="w-full min-w-[420px] text-sm">
+                <thead>
+                  <tr className="border-b border-border bg-surface">
+                    <th className="px-4 py-3 text-left text-[11px] font-medium tracking-widest text-muted uppercase">
+                      &nbsp;
+                    </th>
+                    <th className="px-4 py-3 text-left text-[11px] font-medium tracking-widest text-muted uppercase">
+                      Arena points
+                    </th>
+                    <th className="px-4 py-3 text-left text-[11px] font-medium tracking-widest text-muted uppercase">
+                      Honor points
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ["Earned from", "Rated arena team rating", "Battlegrounds and world PvP"],
+                    ["Paid out", "Once, at the weekly reset", "Continuously, as you play"],
+                    ["Requirement", "10 rated games that week", "None"],
+                    ["Buys", "Arena set pieces and weapons", "Accessories, and last season's set"],
+                  ].map(([label, arena, honor]) => (
+                    <tr key={label} className="border-b border-border bg-surface last:border-b-0">
+                      <td className="px-4 py-2.5 text-[11px] font-medium tracking-wide text-muted uppercase">
+                        {label}
+                      </td>
+                      <td className="px-4 py-2.5 text-muted-strong">{arena}</td>
+                      <td className="px-4 py-2.5 text-muted-strong">{honor}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-4 text-sm leading-relaxed text-muted-strong">
+              This matters for planning: the arena points calculator above
+              tells you when the set pieces land, but bracers, belt, boots,
+              rings, neck, cloak and trinkets are an honor grind running in
+              parallel — you can be geared in those long before your first set
+              piece. And when a new season opens, the previous season&apos;s
+              arena set moves to the honor vendor, which is usually the fastest
+              way to close out a set you never finished.
             </p>
           </section>
 

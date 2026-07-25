@@ -214,8 +214,8 @@ export default function Home() {
                   PvP &amp; Arena hub →
                 </span>
                 <span className="mt-1 block text-xs leading-relaxed text-muted-strong">
-                  Arena BiS per spec, the comp tier list, the live leaderboard,
-                  and the arena points calculator.
+                  Arena BiS per spec, the comp tier list, and the TBC arena
+                  points calculator.
                 </span>
               </span>
             </Link>
@@ -371,7 +371,7 @@ export default function Home() {
               <GameIcon icon="inv_misc_coin_02" alt="" size="large" className="rounded-lg" />
               <span className="min-w-0">
                 <span className="text-sm font-semibold text-foreground">
-                  Arena Points Calculator →
+                  TBC Arena Points Calculator →
                 </span>
                 <span className="mt-1.5 block text-xs leading-relaxed text-muted">
                   Exact weekly points from your 2v2/3v3/5v5 rating, the rating

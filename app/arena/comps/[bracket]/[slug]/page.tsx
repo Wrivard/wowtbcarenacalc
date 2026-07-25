@@ -208,7 +208,9 @@ export default async function CompGuidePage({ params }: { params: Params }) {
           },
         ]
       : []),
-    { href: "/arena-points-calculator", label: `${b} arena points calculator` },
+    // Singular "point" on purpose — it's the more common query form, and the
+    // spec pages use the plural, so the two anchor sets stay varied.
+    { href: "/arena-points-calculator", label: `TBC ${b} arena point calculator` },
   ];
 
   const updated = new Date(COMPS_UPDATED).toLocaleDateString("en-US", {

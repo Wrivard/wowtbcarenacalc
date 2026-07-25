@@ -88,7 +88,7 @@ export default function ArenaHub() {
           <h2 className="text-sm font-semibold text-foreground">Plan your climb</h2>
           <p className="mt-1.5 text-sm leading-relaxed text-muted-strong">
             Work out weekly points and weeks-to-afford in the{" "}
-            <Link href="/arena-points-calculator" className="text-accent underline-offset-2 hover:underline">arena points calculator</Link>
+            <Link href="/arena-points-calculator" className="text-accent underline-offset-2 hover:underline">TBC arena points calculator</Link>
             , pick a spec from the{" "}
             <Link href="/class-rankings" className="text-accent underline-offset-2 hover:underline">class tier list</Link>
             , and gear each spec with its arena BiS — among the top picks are{" "}
