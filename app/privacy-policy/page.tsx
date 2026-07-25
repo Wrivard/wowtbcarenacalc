@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <LegalPage title="Privacy Policy" updated="July 18, 2026">
+    <LegalPage title="Privacy Policy" updated="July 25, 2026">
       <p>
         {SITE_NAME} (&quot;the Site&quot;, {SITE_URL}) is a free, client-side
         calculator. All arena point calculations happen in your browser —
@@ -30,8 +30,24 @@ export default function PrivacyPolicyPage() {
         new one.
       </p>
       <p>
+        Our host, <strong>Vercel</strong>, also measures page performance
+        (loading speed, layout stability) and aggregate traffic counts. This
+        runs for every visitor regardless of your choice because it sets no
+        cookies, stores nothing on your device, and is not tied to any
+        individual visitor or IP address — it cannot follow you from one page
+        to the next. See{" "}
+        <a
+          href="https://vercel.com/docs/speed-insights/privacy-policy"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Vercel&apos;s Speed Insights privacy notice
+        </a>
+        .
+      </p>
+      <p>
         No advertising is shown at all until you accept. The two third-party
-        services involved:
+        services that do depend on your consent:
       </p>
       <ul>
         <li>

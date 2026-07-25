@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { ConsentProvider } from "@/components/CookieConsent";
-import { ConsentGatedScripts } from "@/components/ConsentGatedScripts";
 import { LinkTracking } from "@/components/LinkTracking";
 import { ScrollDepth } from "@/components/ScrollDepth";
 import { CONSENT_BOOTSTRAP } from "@/lib/consent";
@@ -105,10 +105,20 @@ export default function RootLayout({
             {children}
           </div>
           <Footer />
-          <ConsentGatedScripts />
         </ConsentProvider>
         <WowheadTooltips />
         <Analytics />
+        {/* Ungated, like Analytics above. Speed Insights only records on hard
+            navigations — "in the case of Next.js apps, are only the first-page
+            view in a session" (Vercel docs). Gating it on the consent click
+            meant it mounted AFTER that first page load: FID was already spent
+            on the Accept button and LCP finalised by that same interaction, so
+            first-time visitors contributed nothing. Only returning visitors
+            with consent already in localStorage were ever measured, which is
+            why the dashboard sits at ~9 samples/day and can't compute a RES.
+            Vercel documents it as anonymous with no cookies and no ability to
+            reconstruct a session across pages, so there is nothing to gate. */}
+        <SpeedInsights />
         {/* Outside ConsentProvider on purpose: under Consent Mode the tag
             loads for everyone and governs itself through the consent signals.
             Gating it here is what made GA4 blind to most of the audience. */}

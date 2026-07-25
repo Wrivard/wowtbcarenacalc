@@ -6,7 +6,8 @@
 // sibling comps) are exactly what we want to measure without turning those
 // pages into client components.
 //
-// Mounted from ConsentGatedScripts, so it only runs once consent is granted.
+// Mounted ungated from the root layout: it emits gtag events, which Consent
+// Mode already holds cookieless until the visitor accepts.
 
 import { useEffect } from "react";
 import { trackEvent } from "@/lib/gtag";
