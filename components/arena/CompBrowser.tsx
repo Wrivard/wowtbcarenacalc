@@ -34,6 +34,7 @@ import {
   facetCopy,
   classLabel,
   compsFor,
+  relatedFacets,
 } from "@/lib/comps-seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
@@ -236,6 +237,8 @@ export function CompBrowser({
           }
         : { href: "/arena/comps", label: "Browse every comp" };
 
+  const related = relatedFacets(bracket, classSet);
+
   const crumbs: Crumb[] = [
     { name: "Home", href: "/" },
     { name: "Arena", href: "/arena" },
@@ -352,6 +355,33 @@ export function CompBrowser({
               .
             </p>
           </div>
+        )}
+
+        {/* Clean facet paths only — no query string. These are the canonical
+            URLs, so the crawler follows them instead of a refinement that
+            canonicalises away. */}
+        {related.length > 0 && (
+          <nav aria-label="Related comp pages" className="mt-10 space-y-6 border-t border-border pt-6">
+            {related.map((group) => (
+              <div key={group.heading}>
+                <h2 className="font-mono text-[10px] tracking-wider text-muted uppercase">
+                  {group.heading}
+                </h2>
+                <ul className="mt-2 flex flex-wrap gap-2">
+                  {group.links.map((l) => (
+                    <li key={l.href}>
+                      <Link
+                        href={l.href}
+                        className="inline-block rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-muted-strong transition-colors hover:bg-surface-hover hover:text-foreground"
+                      >
+                        {l.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </nav>
         )}
       </main>
     </>

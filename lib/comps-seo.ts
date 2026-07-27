@@ -136,6 +136,63 @@ export function facetPath(bracket?: Bracket, classSlugs?: string[]): string {
   return "/arena/comps";
 }
 
+export interface FacetLink {
+  href: string;
+  label: string;
+}
+export interface RelatedGroup {
+  heading: string;
+  links: FacetLink[];
+}
+
+/**
+ * Facet pages worth linking from a facet, as rendered link groups.
+ *
+ * The rule is one line: list only what the class pill row CANNOT reach in a
+ * single toggle. The pills add or remove exactly one class, so they already
+ * cover every set one step away; repeating those links would add clutter and
+ * no crawl path. What they cannot do is jump two steps — from the Warrior
+ * facet to Mage/Priest/Warrior, or from a triple back down to plain Rogue.
+ *
+ * That two-step gap is why the combo family measured 3.8 clicks deep with 4.3
+ * internal links on 2026-07-27, the weakest of any family on the site, with 63
+ * combos unreachable inside four clicks. Googlebot's first pass over an
+ * eight-day-old domain does not walk chains that long. Linking the distance-2
+ * sets collapses every combo to one click from a facet that is already indexed.
+ */
+export function relatedFacets(
+  bracket: Bracket | undefined,
+  classSlugs: string[],
+): RelatedGroup[] {
+  const n = classSlugs.length;
+  const groups: RelatedGroup[] = [];
+
+  // Supersets at least two classes wider (n=0 → every combo in scope;
+  // n=1 → the triples; n=2 would need a 4-class page, which doesn't exist).
+  const narrower = classCombos(bracket)
+    .filter((c) => c.length >= n + 2 && classSlugs.every((s) => c.includes(s)))
+    .sort((a, b) => a.length - b.length || comboSlug(a).localeCompare(comboSlug(b)));
+  if (narrower.length)
+    groups.push({
+      heading: n === 0 ? "Comps by class pairing" : `${classLabel(classSlugs)} paired with two more classes`,
+      links: narrower.map((c) => ({ href: facetPath(bracket, c), label: classLabel(c) })),
+    });
+
+  // Subsets at least two classes narrower — only a triple has any, and they
+  // are the single-class facets, the strongest pages this page can point at.
+  const broader: string[][] = [];
+  for (let size = n - 2; size >= 1; size--)
+    for (const sub of combinations(classSlugs, size))
+      if (compsFor({ bracket, classSlugs: sub }).length > 0) broader.push(sub);
+  if (broader.length)
+    groups.push({
+      heading: "Every comp for each class",
+      links: broader.map((c) => ({ href: facetPath(bracket, c), label: classLabel(c) })),
+    });
+
+  return groups;
+}
+
 /** Human class list for copy: "Rogue", "Rogue & Shaman", "Rogue, Mage & Priest". */
 export function classLabel(classSlugs: string[]): string {
   const names = classSlugs.map((s) => getClass(s)?.name ?? s);
