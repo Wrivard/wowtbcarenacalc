@@ -47,3 +47,7 @@ next-env.d.ts
 
 # large upstream item database (used only by scripts/build-pvp-seasons.mjs)
 assets/wowsims-item-tooltips.csv
+
+# Search Console / Vercel analytics exports — point-in-time dumps pulled for
+# audits. They go stale immediately and say nothing about the code.
+/audit_google/
