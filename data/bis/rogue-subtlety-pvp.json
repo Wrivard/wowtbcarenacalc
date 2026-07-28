@@ -21,24 +21,24 @@
  "slots": [
   {
    "slot": "Head",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 25830,
    "bis": {
-    "itemId": 25830,
-    "name": "Gladiator's Leather Helm",
-    "usagePct": 7
+    "itemId": 32478,
+    "name": "Deathblow X11 Goggles",
+    "usagePct": 60
    },
    "alternatives": [
-    {
-     "itemId": 32478,
-     "name": "Deathblow X11 Goggles",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 23763,
      "name": "Hyper-Vision Goggles",
      "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25830,
+     "name": "Gladiator's Leather Helm",
+     "usagePct": 7
     }
    ]
   },
@@ -166,18 +166,18 @@
   },
   {
    "slot": "Waist",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32802,
    "bis": {
-    "itemId": 32802,
-    "name": "Veteran's Leather Belt",
-    "usagePct": 10
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow",
+    "usagePct": 76
    },
    "alternatives": [
     {
-     "itemId": 30040,
-     "name": "Belt of Deep Shadow",
-     "usagePct": 76,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32802,
+     "name": "Veteran's Leather Belt",
+     "usagePct": 10
     },
     {
      "itemId": 28986,
@@ -215,18 +215,18 @@
   },
   {
    "slot": "Feet",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32790,
    "bis": {
-    "itemId": 32790,
-    "name": "Veteran's Leather Boots",
-    "usagePct": 22
+    "itemId": 31288,
+    "name": "The Master's Treads",
+    "usagePct": 63
    },
    "alternatives": [
     {
-     "itemId": 31288,
-     "name": "The Master's Treads",
-     "usagePct": 63,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32790,
+     "name": "Veteran's Leather Boots",
+     "usagePct": 22
     },
     {
      "itemId": 28545,
@@ -294,7 +294,34 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28234,
+   "bis": {
+    "itemId": 24128,
+    "name": "Figurine - Nightseye Panther",
+    "usagePct": 89
+   },
+   "alternatives": [
+    {
+     "itemId": 28234,
+     "name": "Medallion of the Alliance",
+     "usagePct": 59
+    },
+    {
+     "itemId": 28240,
+     "name": "Medallion of the Horde",
+     "usagePct": 37
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 28234,
     "name": "Medallion of the Alliance",
@@ -321,51 +348,25 @@
    ]
   },
   {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 24128,
-    "name": "Figurine - Nightseye Panther",
-    "usagePct": 89
-   },
-   "alternatives": [
-    {
-     "itemId": 28234,
-     "name": "Medallion of the Alliance",
-     "usagePct": 59
-    },
-    {
-     "itemId": 28240,
-     "name": "Medallion of the Horde",
-     "usagePct": 37
-    },
-    {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "usagePct": 8,
-     "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
    "slot": "MainHand",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32052,
    "bis": {
-    "itemId": 32052,
-    "name": "Merciless Gladiator's Slicer",
-    "usagePct": 15
+    "itemId": 29996,
+    "name": "Rod of the Sun King",
+    "usagePct": 38
    },
    "alternatives": [
-    {
-     "itemId": 29996,
-     "name": "Rod of the Sun King",
-     "usagePct": 38,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30082,
      "name": "Talon of Azshara",
      "usagePct": 26,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32052,
+     "name": "Merciless Gladiator's Slicer",
+     "usagePct": 15
     },
     {
      "itemId": 28729,
@@ -426,6 +427,11 @@
   {
    "itemId": 24028,
    "name": "+8 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
@@ -437,18 +443,13 @@
    "itemId": 25894,
    "name": "+24 Attack Power and Minor Run Speed Increase",
    "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 28363,
-   "name": "+10 Attack Power, +5 Critical Strike Rating",
-   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+34 Attack Power and +16 Hit Rating",
-   "note": "95% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
    "icon": "classic_ability_druid_demoralizingroar",
    "itemId": 29192,
@@ -551,25 +552,21 @@
   },
   {
    "slot": "Feet",
-   "text": "Surefooted",
-   "note": "77% of surveyed players on this slot.",
-   "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan",
+   "text": "Minor Speed and +6 Agility",
+   "note": "44% of surveyed players on this slot.",
+   "name": "Enchant Boots - Cat's Swiftness",
+   "source": "World Drop",
    "reagents": [
     {
-     "itemId": 22450,
-     "count": 2
-    },
-    {
      "itemId": 22449,
-     "count": 4
+     "count": 8
     },
     {
-     "itemId": 23572,
-     "count": 1
+     "itemId": 22451,
+     "count": 8
     }
    ],
-   "tool": "Runed Fel Iron Rod"
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
@@ -592,7 +589,7 @@
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "76% of surveyed players on this slot.",
+   "note": "93% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
    "source": "Moroes (Tower Steward) — Karazhan",
    "reagents": [
@@ -653,15 +650,15 @@
   },
   {
    "question": "How much of the Subtlety Rogue BiS list is PvP gear vs raid gear?",
-   "answer": "71% of the most-used slots are arena/honor items — for Subtlety Rogues the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "Only 47% of the most-used slots are PvP items — high-rated Subtlety Rogues flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Subtlety Rogues use in arena?",
-   "answer": "Merciless Gladiator's Slicer is the main-hand of choice (15% of surveyed players)."
+   "answer": "Rod of the Sun King is the main-hand of choice (38% of surveyed players)."
   },
   {
    "question": "What gems do Subtlety Rogues socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +20 Attack Power, +24 Attack Power and Minor Run Speed Increase. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +4 Agility and +6 Stamina, +20 Attack Power. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

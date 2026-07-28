@@ -20,18 +20,18 @@
  "slots": [
   {
    "slot": "Head",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 24545,
    "bis": {
-    "itemId": 24545,
-    "name": "Gladiator's Plate Helm",
-    "usagePct": 20
+    "itemId": 30115,
+    "name": "Destroyer Greathelm",
+    "usagePct": 60
    },
    "alternatives": [
     {
-     "itemId": 30115,
-     "name": "Destroyer Greathelm",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 24545,
+     "name": "Gladiator's Plate Helm",
+     "usagePct": 20
     },
     {
      "itemId": 32473,
@@ -43,17 +43,18 @@
   },
   {
    "slot": "Neck",
+   "raidPick": true,
+   "resilienceAlt": 33066,
    "bis": {
-    "itemId": 33066,
-    "name": "Veteran's Pendant of Triumph",
+    "itemId": 30099,
+    "name": "Frayed Tether of the Drowned",
     "usagePct": 40
    },
    "alternatives": [
     {
-     "itemId": 30099,
-     "name": "Frayed Tether of the Drowned",
-     "usagePct": 40,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "usagePct": 40
     },
     {
      "itemId": 28244,
@@ -65,18 +66,18 @@
   },
   {
    "slot": "Shoulders",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 24546,
    "bis": {
-    "itemId": 24546,
-    "name": "Gladiator's Plate Shoulders",
-    "usagePct": 20
+    "itemId": 30117,
+    "name": "Destroyer Shoulderguards",
+    "usagePct": 60
    },
    "alternatives": [
     {
-     "itemId": 30117,
-     "name": "Destroyer Shoulderguards",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 24546,
+     "name": "Gladiator's Plate Shoulders",
+     "usagePct": 20
     },
     {
      "itemId": 29023,
@@ -116,18 +117,18 @@
   },
   {
    "slot": "Chest",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 24544,
    "bis": {
-    "itemId": 24544,
-    "name": "Gladiator's Plate Chestpiece",
-    "usagePct": 20
+    "itemId": 29012,
+    "name": "Warbringer Chestguard",
+    "usagePct": 40
    },
    "alternatives": [
     {
-     "itemId": 29012,
-     "name": "Warbringer Chestguard",
-     "usagePct": 40,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 24544,
+     "name": "Gladiator's Plate Chestpiece",
+     "usagePct": 20
     },
     {
      "itemId": 28597,
@@ -215,24 +216,24 @@
   },
   {
    "slot": "Legs",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 30489,
    "bis": {
-    "itemId": 30489,
-    "name": "Merciless Gladiator's Plate Legguards",
-    "usagePct": 20
+    "itemId": 30116,
+    "name": "Destroyer Legguards",
+    "usagePct": 60
    },
    "alternatives": [
-    {
-     "itemId": 30116,
-     "name": "Destroyer Legguards",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28621,
      "name": "Wrynn Dynasty Greaves",
      "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30489,
+     "name": "Merciless Gladiator's Plate Legguards",
+     "usagePct": 20
     }
    ]
   },
@@ -253,19 +254,14 @@
   },
   {
    "slot": "Ring1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33057,
    "bis": {
-    "itemId": 33057,
-    "name": "Veteran's Band of Triumph",
-    "usagePct": 20
+    "itemId": 30834,
+    "name": "Shapeshifter's Signet",
+    "usagePct": 60
    },
    "alternatives": [
-    {
-     "itemId": 30834,
-     "name": "Shapeshifter's Signet",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
@@ -277,31 +273,43 @@
      "name": "Ring of the Shadow Deeps",
      "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
+     "usagePct": 20,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "usagePct": 20
     }
    ]
   },
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 30834,
-    "name": "Shapeshifter's Signet",
-    "usagePct": 60
+    "itemId": 29997,
+    "name": "Band of the Ranger-General",
+    "usagePct": 40
    },
    "alternatives": [
     {
-     "itemId": 33057,
-     "name": "Veteran's Band of Triumph",
-     "usagePct": 20
-    },
-    {
-     "itemId": 29997,
-     "name": "Band of the Ranger-General",
-     "usagePct": 40,
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "usagePct": 60,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27761,
      "name": "Ring of the Shadow Deeps",
+     "usagePct": 20,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
      "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
@@ -387,35 +395,35 @@
   },
   {
    "slot": "OffHand",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 31965,
    "bis": {
-    "itemId": 31965,
-    "name": "Merciless Gladiator's Cleaver",
-    "usagePct": 20
+    "itemId": 28825,
+    "name": "Aldori Legacy Defender",
+    "usagePct": 80
    },
    "alternatives": [
     {
-     "itemId": 28825,
-     "name": "Aldori Legacy Defender",
-     "usagePct": 80,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 31965,
+     "name": "Merciless Gladiator's Cleaver",
+     "usagePct": 20
     }
    ]
   },
   {
    "slot": "Ranged",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28319,
    "bis": {
-    "itemId": 28319,
-    "name": "Gladiator's War Edge",
-    "usagePct": 20
+    "itemId": 30025,
+    "name": "Serpentshrine Shuriken",
+    "usagePct": 60
    },
    "alternatives": [
     {
-     "itemId": 30025,
-     "name": "Serpentshrine Shuriken",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28319,
+     "name": "Gladiator's War Edge",
+     "usagePct": 20
     },
     {
      "itemId": 29204,
@@ -430,29 +438,29 @@
   {
    "itemId": 24033,
    "name": "+12 Stamina",
-   "note": "Socketed across 5 slots in this snapshot."
+   "note": "Socketed across 7 slots in this snapshot."
   },
   {
-   "itemId": 25896,
-   "name": "+18 Stamina & 5% Stun Resist",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24058,
-   "name": "+4 Critical Strike Rating and +4 Strength",
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 24048,
-   "name": "+8 Critical Strike Rating",
+   "itemId": 32409,
+   "name": "+12 Agility & 3% Increased Critical Damage",
    "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+34 Attack Power and +16 Hit Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
    "icon": "classic_ability_druid_demoralizingroar",
    "itemId": 29192,
@@ -460,11 +468,11 @@
   },
   {
    "slot": "Shoulders",
-   "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Greater Inscription of Vengeance",
-   "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888,
+   "text": "+15 Defense Rating and +10 Dodge Rating",
+   "note": "33% of surveyed players on this slot.",
+   "name": "Greater Inscription of the Knight",
+   "icon": "spell_holy_championsgrace",
+   "itemId": 28911,
    "source": "Inscriber Saalyn — Shattrath City"
   },
   {
@@ -487,22 +495,22 @@
   },
   {
    "slot": "Chest",
-   "text": "+150 Health",
+   "text": "+6 All Stats",
    "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Exceptional Health",
+   "name": "Enchant Chest - Exceptional Stats",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
-     "itemId": 22445,
-     "count": 8
-    },
-    {
-     "itemId": 13446,
+     "itemId": 22449,
      "count": 4
     },
     {
-     "itemId": 14344,
-     "count": 2
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -538,11 +546,11 @@
   },
   {
    "slot": "Legs",
-   "text": "+50 Attack Power and +12 Critical Strike Rating",
+   "text": "+40 Stamina and +12 Agility",
    "note": "100% of surveyed players on this slot.",
-   "name": "Nethercobra Leg Armor",
+   "name": "Nethercleft Leg Armor",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535,
+   "itemId": 29536,
    "source": "Leatherworking Trainer — Faction Capital",
    "reagents": [
     {
@@ -550,11 +558,11 @@
      "count": 4
     },
     {
-     "itemId": 29539,
-     "count": 4
+     "itemId": 25708,
+     "count": 16
     },
     {
-     "itemId": 22451,
+     "itemId": 22452,
      "count": 8
     },
     {
@@ -610,6 +618,20 @@
     }
    ],
    "tool": "Runed Eternium Rod"
+  },
+  {
+   "slot": "OffHand",
+   "text": "+18 Stamina",
+   "note": "50% of surveyed players on this slot.",
+   "name": "Enchant Shield - Major Stamina",
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 15
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   }
  ],
  "faq": [
@@ -619,11 +641,11 @@
   },
   {
    "question": "What is the most-used Protection Warrior PvP gear right now?",
-   "answer": "The highest-consensus picks are Veteran's Plate Greaves (80%), Bloodlust Brooch (80%), Girdle of the Invulnerable (60%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Veteran's Plate Greaves (80%), Bloodlust Brooch (80%), Aldori Legacy Defender (80%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Protection Warrior BiS list is PvP gear vs raid gear?",
-   "answer": "65% of the most-used slots are arena/honor items — for Protection Warriors the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "Only 18% of the most-used slots are PvP items — high-rated Protection Warriors flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Protection Warriors use in arena?",
@@ -631,7 +653,7 @@
   },
   {
    "question": "What gems do Protection Warriors socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +12 Stamina, +18 Stamina & 5% Stun Resist, +4 Critical Strike Rating and +4 Strength. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +12 Stamina, +4 Hit Rating and +4 Agility, +12 Agility & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

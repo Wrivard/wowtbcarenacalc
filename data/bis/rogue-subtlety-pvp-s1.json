@@ -5,7 +5,7 @@
  "season": 1,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 1 arena gear for Subtlety Rogue: the Gladiator's set (Gladiator's Leather Helm, Gladiator's Leather Spaulders, Gladiator's Leather Tunic…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Subtlety Rogues equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 1 arena gear for Subtlety Rogue: the Gladiator's set (Gladiator's Leather Spaulders, Gladiator's Leather Tunic, Gladiator's Leather Gloves…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Subtlety Rogues equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience is scarcer here than anywhere else in the expansion, so stamina does work it never has to do later — the Gladiator's Leather Tunic plus a big health pool is what carries you through a burst window that resilience cannot blunt. Buy the set pieces before chasing agility, and let Marshal's Leather Bracers hold the offset slots nothing else fills yet.",
  "statPriority": [
   "Resilience",
@@ -18,19 +18,18 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 25830,
-    "name": "Gladiator's Leather Helm"
+    "itemId": 32478,
+    "name": "Deathblow X11 Goggles"
    },
    "alternatives": [
-    {
-     "itemId": 32478,
-     "name": "Deathblow X11 Goggles",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 23763,
      "name": "Hyper-Vision Goggles",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25830,
+     "name": "Gladiator's Leather Helm"
     }
    ]
   },
@@ -128,15 +127,14 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 32802,
-    "name": "Veteran's Leather Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30040,
+    "name": "Belt of Deep Shadow"
    },
    "alternatives": [
     {
-     "itemId": 30040,
-     "name": "Belt of Deep Shadow",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32802,
+     "name": "Veteran's Leather Belt",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28986,
@@ -166,15 +164,14 @@
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 32790,
-    "name": "Veteran's Leather Boots",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 31288,
+    "name": "The Master's Treads"
    },
    "alternatives": [
     {
-     "itemId": 31288,
-     "name": "The Master's Treads",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32790,
+     "name": "Veteran's Leather Boots",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28545,
@@ -234,6 +231,28 @@
   {
    "slot": "Trinket1",
    "bis": {
+    "itemId": 24128,
+    "name": "Figurine - Nightseye Panther"
+   },
+   "alternatives": [
+    {
+     "itemId": 28234,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28240,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
     "itemId": 28234,
     "name": "Medallion of the Alliance"
    },
@@ -255,43 +274,20 @@
    ]
   },
   {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 24128,
-    "name": "Figurine - Nightseye Panther"
-   },
-   "alternatives": [
-    {
-     "itemId": 28234,
-     "name": "Medallion of the Alliance"
-    },
-    {
-     "itemId": 28240,
-     "name": "Medallion of the Horde"
-    },
-    {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
    "slot": "MainHand",
    "bis": {
-    "itemId": 28295,
-    "name": "Gladiator's Slicer"
+    "itemId": 29996,
+    "name": "Rod of the Sun King"
    },
    "alternatives": [
-    {
-     "itemId": 29996,
-     "name": "Rod of the Sun King",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30082,
      "name": "Talon of Azshara",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28295,
+     "name": "Gladiator's Slicer"
     },
     {
      "itemId": 28729,
@@ -332,6 +328,11 @@
   {
    "itemId": 24028,
    "name": "+8 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
@@ -343,18 +344,13 @@
    "itemId": 25894,
    "name": "+24 Attack Power and Minor Run Speed Increase",
    "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 28363,
-   "name": "+10 Attack Power, +5 Critical Strike Rating",
-   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+34 Attack Power and +16 Hit Rating",
-   "note": "95% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
    "icon": "classic_ability_druid_demoralizingroar",
    "itemId": 29192,
@@ -457,25 +453,21 @@
   },
   {
    "slot": "Feet",
-   "text": "Surefooted",
-   "note": "77% of surveyed players on this slot.",
-   "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan",
+   "text": "Minor Speed and +6 Agility",
+   "note": "44% of surveyed players on this slot.",
+   "name": "Enchant Boots - Cat's Swiftness",
+   "source": "World Drop",
    "reagents": [
     {
-     "itemId": 22450,
-     "count": 2
-    },
-    {
      "itemId": 22449,
-     "count": 4
+     "count": 8
     },
     {
-     "itemId": 23572,
-     "count": 1
+     "itemId": 22451,
+     "count": 8
     }
    ],
-   "tool": "Runed Fel Iron Rod"
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
@@ -498,7 +490,7 @@
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "76% of surveyed players on this slot.",
+   "note": "93% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
    "source": "Moroes (Tower Steward) — Karazhan",
    "reagents": [
@@ -551,7 +543,7 @@
  "faq": [
   {
    "question": "What is the Season 1 arena set for Subtlety Rogue?",
-   "answer": "The Gladiator's pieces: Gladiator's Leather Helm, Gladiator's Leather Spaulders, Gladiator's Leather Tunic, Gladiator's Leather Gloves, Gladiator's Leather Legguards, Gladiator's Slicer, Gladiator's Quickblade, Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Leather Spaulders, Gladiator's Leather Tunic, Gladiator's Leather Gloves, Gladiator's Leather Legguards, Gladiator's Quickblade, Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

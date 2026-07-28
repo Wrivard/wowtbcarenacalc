@@ -182,34 +182,35 @@
   },
   {
    "slot": "Waist",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32998,
    "bis": {
-    "itemId": 32998,
-    "name": "Veteran's Ringmail Girdle",
-    "usagePct": 37
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 51
    },
    "alternatives": [
     {
-     "itemId": 30030,
-     "name": "Girdle of Fallen Stars",
-     "usagePct": 51,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32998,
+     "name": "Veteran's Ringmail Girdle",
+     "usagePct": 37
     }
    ]
   },
   {
    "slot": "Legs",
+   "raidPick": true,
+   "resilienceAlt": 32032,
    "bis": {
-    "itemId": 32032,
-    "name": "Merciless Gladiator's Ringmail Leggings",
+    "itemId": 29991,
+    "name": "Sunhawk Leggings",
     "usagePct": 38
    },
    "alternatives": [
     {
-     "itemId": 29991,
-     "name": "Sunhawk Leggings",
-     "usagePct": 38,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32032,
+     "name": "Merciless Gladiator's Ringmail Leggings",
+     "usagePct": 38
     },
     {
      "itemId": 28751,
@@ -303,17 +304,18 @@
   },
   {
    "slot": "Trinket1",
+   "raidPick": true,
+   "resilienceAlt": 30345,
    "bis": {
-    "itemId": 30345,
-    "name": "Medallion of the Horde",
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
     "usagePct": 56
    },
    "alternatives": [
     {
-     "itemId": 29376,
-     "name": "Essence of the Martyr",
-     "usagePct": 56,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30345,
+     "name": "Medallion of the Horde",
+     "usagePct": 56
     },
     {
      "itemId": 30351,
@@ -331,15 +333,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
+    "itemId": 30345,
+    "name": "Medallion of the Horde",
     "usagePct": 56
    },
    "alternatives": [
     {
-     "itemId": 30345,
-     "name": "Medallion of the Horde",
-     "usagePct": 56
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 56,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
@@ -429,22 +432,22 @@
   {
    "itemId": 24057,
    "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 33782,
    "name": "+4 Resilience Rating and +6 Stamina",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 5 slots in this snapshot."
   },
   {
-   "itemId": 25901,
-   "name": "+12 Intellect & Chance to restore mana on spellcast",
-   "note": "Socketed across 1 slot in this snapshot."
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
-   "note": "Socketed across 2 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -636,7 +639,7 @@
   },
   {
    "question": "How much of the Restoration Shaman BiS list is PvP gear vs raid gear?",
-   "answer": "82% of the most-used slots are arena/honor items — for Restoration Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "71% of the most-used slots are arena/honor items — for Restoration Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Restoration Shamans use in arena?",
@@ -644,7 +647,7 @@
   },
   {
    "question": "What gems do Restoration Shamans socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +2 Mana every 5 seconds, +4 Resilience Rating and +6 Stamina, +12 Intellect & Chance to restore mana on spellcast. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +2 Mana every 5 seconds, +4 Resilience Rating and +6 Stamina, +9 Healing +3 Spell Damage and +4 Intellect. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

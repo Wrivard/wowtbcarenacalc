@@ -5,7 +5,7 @@
  "season": 1,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 1 arena gear for Marksmanship Hunter: the Gladiator's set (Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Armor…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Marksmanship Hunters equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 1 arena gear for Marksmanship Hunter: the Gladiator's set (Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Gauntlets…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Marksmanship Hunters equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Gladiator's Chain Helm carries the thinnest resilience budget of any set in the expansion, so a coordinated swap lands close to raw and one burst window ends you if you drift out of position. Nothing is rating-locked here, so buy the arena pieces in slot order and let Rift Stalker Hauberk and Thalassian Wildercloak cover what your points have not reached.",
  "statPriority": [
   "Resilience",
@@ -26,15 +26,14 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33066,
-    "name": "Veteran's Pendant of Triumph",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem"
    },
    "alternatives": [
     {
-     "itemId": 30017,
-     "name": "Telonicus's Pendant of Mayhem",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
@@ -55,14 +54,14 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak"
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak"
    },
    "alternatives": [
     {
-     "itemId": 29994,
-     "name": "Thalassian Wildercloak",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28672,
@@ -74,14 +73,13 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 28334,
-    "name": "Gladiator's Chain Armor"
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk"
    },
    "alternatives": [
     {
-     "itemId": 30139,
-     "name": "Rift Stalker Hauberk",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28334,
+     "name": "Gladiator's Chain Armor"
     }
    ]
   },
@@ -114,14 +112,13 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 28332,
-    "name": "Gladiator's Chain Leggings"
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings"
    },
    "alternatives": [
     {
-     "itemId": 30142,
-     "name": "Rift Stalker Leggings",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28332,
+     "name": "Gladiator's Chain Leggings"
     }
    ]
   },
@@ -279,24 +276,24 @@
  ],
  "gems": [
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 24028,
    "name": "+8 Agility",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
    "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -321,7 +318,7 @@
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "50% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -343,7 +340,7 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "71% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
    "reagents": [
@@ -497,7 +494,7 @@
  "faq": [
   {
    "question": "What is the Season 1 arena set for Marksmanship Hunter?",
-   "answer": "The Gladiator's pieces: Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Armor, Gladiator's Chain Gauntlets, Gladiator's Chain Leggings, Gladiator's Decapitator, Gladiator's Quickblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Gauntlets, Gladiator's Decapitator, Gladiator's Quickblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

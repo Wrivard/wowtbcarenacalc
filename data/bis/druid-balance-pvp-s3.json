@@ -5,7 +5,7 @@
  "season": 3,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 3 arena gear for Balance Druid: the Vengeful Gladiator's set (Vengeful Gladiator's Kodohide Helm, Vengeful Gladiator's Kodohide Spaulders, Vengeful Gladiator's Kodohide Tunic…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Balance Druids equip into their Season 3 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 3 arena gear for Balance Druid: the Vengeful Gladiator's set (Vengeful Gladiator's Salvation…). Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Balance Druids equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience scales up sharply here, and the practical effect is that you survive a swap long enough to hard-cast instead of playing instant-only all match. The gates: 1850 team rating for Vengeful Gladiator's Salvation, 2000 for the Wyrmhide Spaulders — below those, Season 2 pieces stay live in the same slots. Vindicator's Kodohide Bracers and Belt need honor only.",
  "statPriority": [
   "Resilience",
@@ -18,19 +18,18 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 33691,
-    "name": "Vengeful Gladiator's Kodohide Helm"
+    "itemId": 30219,
+    "name": "Nordrassil Headguard"
    },
    "alternatives": [
-    {
-     "itemId": 30219,
-     "name": "Nordrassil Headguard",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30233,
      "name": "Nordrassil Headpiece",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33691,
+     "name": "Vengeful Gladiator's Kodohide Helm"
     },
     {
      "itemId": 32480,
@@ -42,15 +41,10 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33922,
-    "name": "Vindicator's Pendant of Salvation"
+    "itemId": 28731,
+    "name": "Shining Chain of the Afterworld"
    },
    "alternatives": [
-    {
-     "itemId": 28731,
-     "name": "Shining Chain of the Afterworld",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30018,
      "name": "Lord Sanguinar's Claim",
@@ -60,21 +54,25 @@
      "itemId": 24116,
      "name": "Eye of the Night",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33922,
+     "name": "Vindicator's Pendant of Salvation"
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 33693,
-    "name": "Vengeful Gladiator's Kodohide Spaulders"
+    "itemId": 30221,
+    "name": "Nordrassil Life-Mantle"
    },
    "alternatives": [
-    {
-     "itemId": 30221,
-     "name": "Nordrassil Life-Mantle",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30024,
      "name": "Mantle of the Elven Kings",
@@ -84,6 +82,15 @@
      "itemId": 30079,
      "name": "Illidari Shoulderpads",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30111,
+     "name": "Runetotem's Mantle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33693,
+     "name": "Vengeful Gladiator's Kodohide Spaulders"
     }
    ]
   },
@@ -114,15 +121,10 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 33694,
-    "name": "Vengeful Gladiator's Kodohide Tunic"
+    "itemId": 30216,
+    "name": "Nordrassil Chestguard"
    },
    "alternatives": [
-    {
-     "itemId": 30216,
-     "name": "Nordrassil Chestguard",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30231,
      "name": "Nordrassil Chestpiece",
@@ -132,21 +134,25 @@
      "itemId": 29091,
      "name": "Chestpiece of Malorne",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30075,
+     "name": "Gnarled Chestpiece of the Ancients",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33694,
+     "name": "Vengeful Gladiator's Kodohide Tunic"
     }
    ]
   },
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 33887,
-    "name": "Vindicator's Kodohide Bracers"
+    "itemId": 30062,
+    "name": "Grove-Bands of Remulos"
    },
    "alternatives": [
-    {
-     "itemId": 30062,
-     "name": "Grove-Bands of Remulos",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28515,
      "name": "Bands of Nefarious Deeds",
@@ -156,21 +162,20 @@
      "itemId": 32655,
      "name": "Crystalweave Bracers",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33887,
+     "name": "Vindicator's Kodohide Bracers"
     }
    ]
   },
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 33690,
-    "name": "Vengeful Gladiator's Kodohide Gloves"
+    "itemId": 30217,
+    "name": "Nordrassil Gloves"
    },
    "alternatives": [
-    {
-     "itemId": 30217,
-     "name": "Nordrassil Gloves",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28507,
      "name": "Handwraps of Flowing Thought",
@@ -180,25 +185,33 @@
      "itemId": 28521,
      "name": "Mitts of the Treemender",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30029,
+     "name": "Bark-Gloves of Ancient Wisdom",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33690,
+     "name": "Vengeful Gladiator's Kodohide Gloves"
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 33885,
-    "name": "Vindicator's Kodohide Belt"
+    "itemId": 29984,
+    "name": "Girdle of Zaetar"
    },
    "alternatives": [
-    {
-     "itemId": 29984,
-     "name": "Girdle of Zaetar",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33885,
+     "name": "Vindicator's Kodohide Belt"
     },
     {
      "itemId": 28799,
@@ -210,15 +223,10 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 33692,
-    "name": "Vengeful Gladiator's Kodohide Legguards"
+    "itemId": 30220,
+    "name": "Nordrassil Life-Kilt"
    },
    "alternatives": [
-    {
-     "itemId": 30220,
-     "name": "Nordrassil Life-Kilt",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28591,
      "name": "Earthsoul Leggings",
@@ -228,20 +236,28 @@
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30234,
+     "name": "Nordrassil Wrath-Kilt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33692,
+     "name": "Vengeful Gladiator's Kodohide Legguards"
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 33886,
-    "name": "Vindicator's Kodohide Boots"
+    "itemId": 28752,
+    "name": "Forestlord Striders"
    },
    "alternatives": [
     {
-     "itemId": 28752,
-     "name": "Forestlord Striders",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33886,
+     "name": "Vindicator's Kodohide Boots"
     },
     {
      "itemId": 27914,
@@ -258,8 +274,36 @@
   {
    "slot": "Ring1",
    "bis": {
-    "itemId": 33918,
-    "name": "Vindicator's Band of Salvation"
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer"
+   },
+   "alternatives": [
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33918,
+     "name": "Vindicator's Band of Salvation"
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30110,
+    "name": "Coral Band of the Revived"
    },
    "alternatives": [
     {
@@ -268,36 +312,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer"
-   },
-   "alternatives": [
-    {
-     "itemId": 33918,
-     "name": "Vindicator's Band of Salvation"
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28763,
-     "name": "Jade Ring of the Everliving",
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -305,8 +326,36 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28235,
-    "name": "Medallion of the Alliance"
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 30841,
+     "name": "Lower City Prayerbook",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28235,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30841,
+    "name": "Lower City Prayerbook"
    },
    "alternatives": [
     {
@@ -315,36 +364,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30841,
-     "name": "Lower City Prayerbook",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr"
-   },
-   "alternatives": [
-    {
-     "itemId": 28235,
-     "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 30841,
-     "name": "Lower City Prayerbook",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28190,
-     "name": "Scarab of the Infinite Cycle",
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -374,15 +400,10 @@
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 33736,
-    "name": "Vengeful Gladiator's Reprieve"
+    "itemId": 29923,
+    "name": "Talisman of the Sun King"
    },
    "alternatives": [
-    {
-     "itemId": 29923,
-     "name": "Talisman of the Sun King",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28781,
      "name": "Karaborian Talisman",
@@ -392,6 +413,15 @@
      "itemId": 29170,
      "name": "Windcaller's Orb",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29271,
+     "name": "Talisman of Kalecgos",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33736,
+     "name": "Vengeful Gladiator's Reprieve"
     }
    ]
   },
@@ -417,23 +447,23 @@
  ],
  "gems": [
   {
-   "itemId": 31861,
-   "name": "+8 Spell Hit Rating",
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 32836,
    "name": "+9 Healing +3 Spell Damage and +4 Spirit",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 5 slots in this snapshot."
   },
   {
-   "itemId": 25901,
-   "name": "+12 Intellect & Chance to restore mana on spellcast",
-   "note": "Socketed across 1 slot in this snapshot."
+   "itemId": 24065,
+   "name": "+4 Intellect and +2 Mana every 5 seconds",
+   "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 30552,
-   "name": "+11 Healing +4 Spell Damage and +6 Stamina",
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -459,18 +489,14 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+15 Spirit",
+   "note": "67% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Spirit",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 4
-    },
-    {
-     "itemId": 22445,
-     "count": 10
+     "count": 2
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -478,7 +504,7 @@
   {
    "slot": "Wrist",
    "text": "+30 Healing and +10 Spell Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Bracer - Superior Healing",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -495,22 +521,22 @@
   },
   {
    "slot": "Hands",
-   "text": "+15 Spell Hit Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Gloves - Spell Strike",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "67% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Major Healing",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 8
-    },
-    {
-     "itemId": 22445,
-     "count": 2
+     "count": 6
     },
     {
      "itemId": 22449,
-     "count": 2
+     "count": 6
+    },
+    {
+     "itemId": 21886,
+     "count": 6
     }
    ],
    "tool": "Runed Adamantite Rod"
@@ -540,21 +566,8 @@
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed and +9 Stamina",
-   "note": "50% of surveyed players on this slot.",
-   "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop",
-   "reagents": [
-    {
-     "itemId": 22449,
-     "count": 8
-    },
-    {
-     "itemId": 22452,
-     "count": 8
-    }
-   ],
-   "tool": "Runed Adamantite Rod"
+   "text": "Minor Speed Increase",
+   "note": "67% of surveyed players on this slot."
   },
   {
    "slot": "Ring",
@@ -604,7 +617,7 @@
  "faq": [
   {
    "question": "What is the Season 3 arena set for Balance Druid?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Kodohide Helm, Vengeful Gladiator's Kodohide Spaulders, Vengeful Gladiator's Kodohide Tunic, Vengeful Gladiator's Kodohide Gloves, Vengeful Gladiator's Kodohide Legguards, Vengeful Gladiator's Salvation, Vengeful Gladiator's Reprieve. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Salvation. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -613,10 +626,6 @@
   {
    "question": "How many arena points does full Season 3 gear cost?",
    "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
-  },
-  {
-   "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Pendant of Salvation, Vindicator's Kodohide Bracers, Vindicator's Kodohide Belt, Vindicator's Kodohide Boots, Vindicator's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

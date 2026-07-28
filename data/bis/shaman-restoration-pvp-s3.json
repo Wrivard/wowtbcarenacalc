@@ -140,28 +140,26 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 33907,
-    "name": "Vindicator's Ringmail Girdle"
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars"
    },
    "alternatives": [
     {
-     "itemId": 30030,
-     "name": "Girdle of Fallen Stars",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33907,
+     "name": "Vindicator's Ringmail Girdle"
     }
    ]
   },
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 33741,
-    "name": "Vengeful Gladiator's Ringmail Leggings"
+    "itemId": 29991,
+    "name": "Sunhawk Leggings"
    },
    "alternatives": [
     {
-     "itemId": 29991,
-     "name": "Sunhawk Leggings",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33741,
+     "name": "Vengeful Gladiator's Ringmail Leggings"
     },
     {
      "itemId": 28751,
@@ -239,14 +237,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
    },
    "alternatives": [
     {
-     "itemId": 29376,
-     "name": "Essence of the Martyr",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30345,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 30351,
@@ -262,13 +259,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "itemId": 30345,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
-     "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
@@ -338,22 +336,22 @@
   {
    "itemId": 24057,
    "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 33782,
    "name": "+4 Resilience Rating and +6 Stamina",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 5 slots in this snapshot."
   },
   {
-   "itemId": 25901,
-   "name": "+12 Intellect & Chance to restore mana on spellcast",
-   "note": "Socketed across 1 slot in this snapshot."
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
-   "note": "Socketed across 2 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -537,7 +535,7 @@
  "faq": [
   {
    "question": "What is the Season 3 arena set for Restoration Shaman?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Ringmail Helm, Vengeful Gladiator's Mail Spaulders, Vengeful Gladiator's Ringmail Armor, Vengeful Gladiator's Mail Gauntlets, Vengeful Gladiator's Ringmail Leggings, Vengeful Gladiator's Salvation, Vengeful Gladiator's Redoubt, Vengeful Gladiator's Totem of the Third Wind. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Ringmail Helm, Vengeful Gladiator's Mail Spaulders, Vengeful Gladiator's Ringmail Armor, Vengeful Gladiator's Mail Gauntlets, Vengeful Gladiator's Salvation, Vengeful Gladiator's Redoubt, Vengeful Gladiator's Totem of the Third Wind. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -549,7 +547,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Pendant of Salvation, Vindicator's Ringmail Bracers, Vindicator's Ringmail Girdle, Vindicator's Ringmail Sabatons, Vindicator's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Vindicator's Pendant of Salvation, Vindicator's Ringmail Bracers, Vindicator's Ringmail Sabatons, Vindicator's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

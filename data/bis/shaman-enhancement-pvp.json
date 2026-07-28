@@ -125,18 +125,18 @@
   },
   {
    "slot": "Hands",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32005,
    "bis": {
-    "itemId": 32005,
-    "name": "Merciless Gladiator's Linked Gauntlets",
-    "usagePct": 38
+    "itemId": 35382,
+    "name": "Seer's Linked Gauntlets",
+    "usagePct": 63
    },
    "alternatives": [
     {
-     "itemId": 35382,
-     "name": "Seer's Linked Gauntlets",
-     "usagePct": 63,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32005,
+     "name": "Merciless Gladiator's Linked Gauntlets",
+     "usagePct": 38
     }
    ]
   },
@@ -242,18 +242,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 30345,
    "bis": {
-    "itemId": 30345,
-    "name": "Medallion of the Horde",
-    "usagePct": 63
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 75
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "usagePct": 75,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30345,
+     "name": "Medallion of the Horde",
+     "usagePct": 63
     },
     {
      "itemId": 30351,
@@ -271,15 +271,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 75
+    "itemId": 30345,
+    "name": "Medallion of the Horde",
+    "usagePct": 63
    },
    "alternatives": [
     {
-     "itemId": 30345,
-     "name": "Medallion of the Horde",
-     "usagePct": 63
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 75,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
@@ -348,18 +349,18 @@
   },
   {
    "slot": "Ranged",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33940,
    "bis": {
-    "itemId": 33940,
-    "name": "Merciless Gladiator's Totem of Indomitability",
-    "usagePct": 13
+    "itemId": 27815,
+    "name": "Totem of the Astral Winds",
+    "usagePct": 88
    },
    "alternatives": [
     {
-     "itemId": 27815,
-     "name": "Totem of the Astral Winds",
-     "usagePct": 88,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33940,
+     "name": "Merciless Gladiator's Totem of Indomitability",
+     "usagePct": 13
     }
    ]
   }
@@ -445,7 +446,7 @@
   {
    "slot": "Hands",
    "text": "+15 Strength",
-   "note": "100% of surveyed players on this slot.",
+   "note": "60% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Strength",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -591,7 +592,7 @@
   },
   {
    "question": "How much of the Enhancement Shaman BiS list is PvP gear vs raid gear?",
-   "answer": "88% of the most-used slots are arena/honor items — for Enhancement Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "76% of the most-used slots are arena/honor items — for Enhancement Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Enhancement Shamans use in arena?",

@@ -30,18 +30,18 @@
   },
   {
    "slot": "Neck",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33066,
    "bis": {
-    "itemId": 33066,
-    "name": "Veteran's Pendant of Triumph",
-    "usagePct": 40
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem",
+    "usagePct": 60
    },
    "alternatives": [
     {
-     "itemId": 30017,
-     "name": "Telonicus's Pendant of Mayhem",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "usagePct": 40
     }
    ]
   },
@@ -63,18 +63,19 @@
   },
   {
    "slot": "Back",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28377,
    "bis": {
-    "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak",
-    "usagePct": 20
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 60
    },
    "alternatives": [
     {
-     "itemId": 29994,
-     "name": "Thalassian Wildercloak",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 20,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28672,
@@ -86,18 +87,18 @@
   },
   {
    "slot": "Chest",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 31960,
    "bis": {
-    "itemId": 31960,
-    "name": "Merciless Gladiator's Chain Armor",
-    "usagePct": 30
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 70
    },
    "alternatives": [
     {
-     "itemId": 30139,
-     "name": "Rift Stalker Hauberk",
-     "usagePct": 70,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 31960,
+     "name": "Merciless Gladiator's Chain Armor",
+     "usagePct": 30
     }
    ]
   },
@@ -130,18 +131,18 @@
   },
   {
    "slot": "Legs",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 31963,
    "bis": {
-    "itemId": 31963,
-    "name": "Merciless Gladiator's Chain Leggings",
-    "usagePct": 40
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings",
+    "usagePct": 60
    },
    "alternatives": [
     {
-     "itemId": 30142,
-     "name": "Rift Stalker Leggings",
-     "usagePct": 60,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 31963,
+     "name": "Merciless Gladiator's Chain Leggings",
+     "usagePct": 40
     }
    ]
   },
@@ -319,24 +320,24 @@
  ],
  "gems": [
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 24028,
    "name": "+8 Agility",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
    "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -361,7 +362,7 @@
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "50% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -383,7 +384,7 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "71% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
    "reagents": [
@@ -545,7 +546,7 @@
   },
   {
    "question": "How much of the Marksmanship Hunter BiS list is PvP gear vs raid gear?",
-   "answer": "88% of the most-used slots are arena/honor items — for Marksmanship Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "65% of the most-used slots are arena/honor items — for Marksmanship Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Marksmanship Hunters use in arena?",
@@ -553,7 +554,7 @@
   },
   {
    "question": "What gems do Marksmanship Hunters socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Resilience Rating, +8 Agility, +4 Agility and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +4 Hit Rating and +4 Agility, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

@@ -48,19 +48,14 @@
   },
   {
    "slot": "Neck",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33066,
    "bis": {
-    "itemId": 33066,
-    "name": "Veteran's Pendant of Triumph",
-    "usagePct": 8
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem",
+    "usagePct": 54
    },
    "alternatives": [
-    {
-     "itemId": 30017,
-     "name": "Telonicus's Pendant of Mayhem",
-     "usagePct": 54,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
@@ -72,6 +67,18 @@
      "name": "Saberclaw Talisman",
      "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -126,18 +133,18 @@
   },
   {
    "slot": "Chest",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 31960,
    "bis": {
-    "itemId": 31960,
-    "name": "Merciless Gladiator's Chain Armor",
-    "usagePct": 38
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 54
    },
    "alternatives": [
     {
-     "itemId": 30139,
-     "name": "Rift Stalker Hauberk",
-     "usagePct": 54,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 31960,
+     "name": "Merciless Gladiator's Chain Armor",
+     "usagePct": 38
     },
     {
      "itemId": 29082,
@@ -279,11 +286,46 @@
   },
   {
    "slot": "Ring1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33057,
    "bis": {
-    "itemId": 33057,
-    "name": "Veteran's Band of Triumph",
-    "usagePct": 15
+    "itemId": 29298,
+    "name": "Band of Eternity",
+    "usagePct": 62
+   },
+   "alternatives": [
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 46,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "usagePct": 15,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 46
    },
    "alternatives": [
     {
@@ -293,61 +335,33 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28791,
-     "name": "Ring of the Recalcitrant",
-     "usagePct": 46,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 30052,
      "name": "Ring of Lethality",
      "usagePct": 31,
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 29298,
-    "name": "Band of Eternity",
-    "usagePct": 62
-   },
-   "alternatives": [
-    {
-     "itemId": 33057,
-     "name": "Veteran's Band of Triumph",
-     "usagePct": 15,
-     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 28791,
-     "name": "Ring of the Recalcitrant",
-     "usagePct": 46,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30052,
-     "name": "Ring of Lethality",
-     "usagePct": 31,
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28243,
    "bis": {
-    "itemId": 28243,
-    "name": "Medallion of the Horde",
-    "usagePct": 46
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 100
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "usagePct": 100,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28243,
+     "name": "Medallion of the Horde",
+     "usagePct": 46
     },
     {
      "itemId": 28237,
@@ -365,15 +379,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 100
+    "itemId": 28243,
+    "name": "Medallion of the Horde",
+    "usagePct": 46
    },
    "alternatives": [
     {
-     "itemId": 28243,
-     "name": "Medallion of the Horde",
-     "usagePct": 46
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 100,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28237,
@@ -418,18 +433,14 @@
   },
   {
    "slot": "OffHand",
+   "raidPick": true,
+   "resilienceAlt": 31985,
    "bis": {
-    "itemId": 31985,
-    "name": "Merciless Gladiator's Hacker",
+    "itemId": 28315,
+    "name": "Stormreaver Warblades",
     "usagePct": 8
    },
    "alternatives": [
-    {
-     "itemId": 28315,
-     "name": "Stormreaver Warblades",
-     "usagePct": 8,
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
     {
      "itemId": 28345,
      "name": "Warp Splinter's Thorn",
@@ -439,6 +450,12 @@
     {
      "itemId": 29948,
      "name": "Claw of the Phoenix",
+     "usagePct": 8,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 31985,
+     "name": "Merciless Gladiator's Hacker",
      "usagePct": 8,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
@@ -479,13 +496,13 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 28119,
-   "name": "+10 Critical Strike Rating",
+   "itemId": 32409,
+   "name": "+12 Agility & 3% Increased Critical Damage",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -533,7 +550,7 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "57% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
    "reagents": [
@@ -636,7 +653,7 @@
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -675,8 +692,25 @@
   },
   {
    "slot": "OffHand",
-   "text": "+30 Intellect",
-   "note": "100% of surveyed players on this slot."
+   "text": "+15 Agility",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Superior Agility",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Ranged",
@@ -695,7 +729,7 @@
   },
   {
    "question": "How much of the Beast Mastery Hunter BiS list is PvP gear vs raid gear?",
-   "answer": "82% of the most-used slots are arena/honor items — for Beast Mastery Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "Only 59% of the most-used slots are PvP items — high-rated Beast Mastery Hunters flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Beast Mastery Hunters use in arena?",
@@ -703,7 +737,7 @@
   },
   {
    "question": "What gems do Beast Mastery Hunters socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +4 Agility and +6 Stamina, +4 Hit Rating and +4 Agility. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +4 Agility and +6 Stamina, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

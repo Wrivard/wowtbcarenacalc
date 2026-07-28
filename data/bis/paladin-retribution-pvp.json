@@ -92,24 +92,24 @@
   },
   {
    "slot": "Back",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28377,
    "bis": {
-    "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak",
-    "usagePct": 16
+    "itemId": 30098,
+    "name": "Razor-Scale Battlecloak",
+    "usagePct": 53
    },
    "alternatives": [
-    {
-     "itemId": 30098,
-     "name": "Razor-Scale Battlecloak",
-     "usagePct": 53,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
      "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 16
     }
    ]
   },
@@ -137,24 +137,24 @@
   },
   {
    "slot": "Wrist",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32819,
    "bis": {
-    "itemId": 32819,
-    "name": "Veteran's Scaled Bracers",
-    "usagePct": 25
+    "itemId": 28795,
+    "name": "Bladespire Warbands",
+    "usagePct": 41
    },
    "alternatives": [
-    {
-     "itemId": 28795,
-     "name": "Bladespire Warbands",
-     "usagePct": 41,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
      "usagePct": 28,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32819,
+     "name": "Veteran's Scaled Bracers",
+     "usagePct": 25
     }
    ]
   },
@@ -308,18 +308,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28242,
    "bis": {
-    "itemId": 28242,
-    "name": "Medallion of the Horde",
-    "usagePct": 69
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 81
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "usagePct": 81,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28242,
+     "name": "Medallion of the Horde",
+     "usagePct": 69
     },
     {
      "itemId": 28830,
@@ -337,15 +337,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 81
+    "itemId": 28242,
+    "name": "Medallion of the Horde",
+    "usagePct": 69
    },
    "alternatives": [
     {
-     "itemId": 28242,
-     "name": "Medallion of the Horde",
-     "usagePct": 69
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 81,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28830,
@@ -402,17 +403,17 @@
   {
    "itemId": 24027,
    "name": "+8 Strength",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24054,
+   "name": "+4 Strength and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 25901,
    "name": "+12 Intellect & Chance to restore mana on spellcast",
    "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24058,
-   "name": "+4 Critical Strike Rating and +4 Strength",
-   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28363,
@@ -442,7 +443,7 @@
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "80% of surveyed players on this slot.",
+   "note": "82% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -486,7 +487,7 @@
   {
    "slot": "Wrist",
    "text": "+12 Strength",
-   "note": "63% of surveyed players on this slot.",
+   "note": "85% of surveyed players on this slot.",
    "name": "Enchant Bracer - Brawn",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -620,7 +621,7 @@
   },
   {
    "question": "How much of the Retribution Paladin BiS list is PvP gear vs raid gear?",
-   "answer": "75% of the most-used slots are arena/honor items — for Retribution Paladins the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "63% of the most-used slots are arena/honor items — for Retribution Paladins the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Retribution Paladins use in arena?",
@@ -628,7 +629,7 @@
   },
   {
    "question": "What gems do Retribution Paladins socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Strength, +12 Intellect & Chance to restore mana on spellcast, +4 Critical Strike Rating and +4 Strength. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Strength, +4 Strength and +6 Stamina, +12 Intellect & Chance to restore mana on spellcast. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

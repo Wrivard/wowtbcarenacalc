@@ -21,24 +21,24 @@
  "slots": [
   {
    "slot": "Head",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32016,
    "bis": {
-    "itemId": 32016,
-    "name": "Merciless Gladiator's Mooncloth Hood",
-    "usagePct": 9
+    "itemId": 30152,
+    "name": "Cowl of the Avatar",
+    "usagePct": 64
    },
    "alternatives": [
-    {
-     "itemId": 30152,
-     "name": "Cowl of the Avatar",
-     "usagePct": 64,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29049,
      "name": "Light-Collar of the Incarnate",
      "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32016,
+     "name": "Merciless Gladiator's Mooncloth Hood",
+     "usagePct": 9
     }
    ]
   },
@@ -81,19 +81,14 @@
   },
   {
    "slot": "Back",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28378,
    "bis": {
-    "itemId": 28378,
-    "name": "Sergeant's Heavy Cape",
-    "usagePct": 5
+    "itemId": 28765,
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 42
    },
    "alternatives": [
-    {
-     "itemId": 28765,
-     "name": "Stainless Cloak of the Pure Hearted",
-     "usagePct": 42,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29989,
      "name": "Sunshower Light Cloak",
@@ -105,6 +100,17 @@
      "name": "Bishop's Cloak",
      "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 279240,
+     "name": "Shroud of Winter's Chill",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28378,
+     "name": "Sergeant's Heavy Cape",
+     "usagePct": 5
     }
    ]
   },
@@ -191,18 +197,18 @@
   },
   {
    "slot": "Feet",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32981,
    "bis": {
-    "itemId": 32981,
-    "name": "Veteran's Mooncloth Slippers",
-    "usagePct": 28
+    "itemId": 30035,
+    "name": "Boots of the Long Road",
+    "usagePct": 31
    },
    "alternatives": [
     {
-     "itemId": 30035,
-     "name": "Boots of the Long Road",
-     "usagePct": 31,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32981,
+     "name": "Veteran's Mooncloth Slippers",
+     "usagePct": 28
     },
     {
      "itemId": 30100,
@@ -275,18 +281,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 30349,
    "bis": {
-    "itemId": 30349,
-    "name": "Medallion of the Alliance",
-    "usagePct": 60
+    "itemId": 30665,
+    "name": "Earring of Soulful Meditation",
+    "usagePct": 61
    },
    "alternatives": [
     {
-     "itemId": 30665,
-     "name": "Earring of Soulful Meditation",
-     "usagePct": 61,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30349,
+     "name": "Medallion of the Alliance",
+     "usagePct": 60
     },
     {
      "itemId": 30346,
@@ -304,15 +310,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 30665,
-    "name": "Earring of Soulful Meditation",
-    "usagePct": 61
+    "itemId": 30349,
+    "name": "Medallion of the Alliance",
+    "usagePct": 60
    },
    "alternatives": [
     {
-     "itemId": 30349,
-     "name": "Medallion of the Alliance",
-     "usagePct": 60
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "usagePct": 61,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30346,
@@ -411,11 +418,6 @@
  ],
  "gems": [
   {
-   "itemId": 32836,
-   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
-   "note": "Socketed across 3 slots in this snapshot."
-  },
-  {
    "itemId": 31861,
    "name": "+8 Spell Hit Rating",
    "note": "Socketed across 4 slots in this snapshot."
@@ -423,19 +425,24 @@
   {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 33782,
    "name": "+4 Resilience Rating and +6 Stamina",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+22 Spell Power and +14 Spell Hit Rating",
-   "note": "68% of surveyed players on this slot.",
+   "note": "63% of surveyed players on this slot.",
    "name": "Glyph of Power",
    "icon": "spell_nature_lightningoverload",
    "itemId": 29191,
@@ -449,7 +456,7 @@
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "69% of surveyed players on this slot."
+   "note": "62% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
@@ -522,7 +529,7 @@
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "58% of surveyed players on this slot.",
+   "note": "53% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
    "source": "World Drop",
    "reagents": [
@@ -593,7 +600,7 @@
   },
   {
    "question": "How much of the Discipline Priest BiS list is PvP gear vs raid gear?",
-   "answer": "88% of the most-used slots are arena/honor items — for Discipline Priests the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "71% of the most-used slots are arena/honor items — for Discipline Priests the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Discipline Priests use in arena?",
@@ -601,7 +608,7 @@
   },
   {
    "question": "What gems do Discipline Priests socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +4 Spirit, +8 Spell Hit Rating, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Spell Hit Rating, +8 Resilience Rating, +4 Resilience Rating and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

@@ -5,7 +5,7 @@
  "season": 4,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 4 arena gear for Arcane Mage: the Brutal Gladiator's set (Brutal Gladiator's Silk Cowl, Brutal Gladiator's Silk Amice, Brutal Gladiator's Silk Raiment…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 4 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 4 arena gear for Arcane Mage: the Brutal Gladiator's set (Brutal Gladiator's Spellblade…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 4 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "The honor floor now hands you a full previous-season kit, so resilience is close to solved before you spend an arena point and the ordering only decides which gated piece to chase. Take the 1950-rating Brutal Gladiator's Spellblade over the 2200 amice — the weapon is where spell damage actually lands — and leave Guardian's Silk Footguards and Belt to cover whatever the personal-rating checks lock out.",
  "statPriority": [
   "Resilience",
@@ -18,14 +18,14 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 35097,
-    "name": "Brutal Gladiator's Silk Cowl"
+    "itemId": 30206,
+    "name": "Cowl of Tirisfal"
    },
    "alternatives": [
     {
-     "itemId": 30206,
-     "name": "Cowl of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 35097,
+     "name": "Brutal Gladiator's Silk Cowl",
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 29076,
@@ -37,15 +37,10 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 35132,
-    "name": "Guardian's Pendant of Conquest"
+    "itemId": 30015,
+    "name": "The Sun King's Talisman"
    },
    "alternatives": [
-    {
-     "itemId": 30015,
-     "name": "The Sun King's Talisman",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28762,
      "name": "Adornment of Stolen Souls",
@@ -55,25 +50,34 @@
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
      "pveFlexNote": "Seen mostly above 2408 rating."
+    },
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35132,
+     "name": "Guardian's Pendant of Conquest"
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 35096,
-    "name": "Brutal Gladiator's Silk Amice"
+    "itemId": 30210,
+    "name": "Mantle of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30210,
-     "name": "Mantle of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29079,
      "name": "Pauldrons of the Aldor",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35096,
+     "name": "Brutal Gladiator's Silk Amice",
+     "pveFlexNote": "Seen mostly above 2408 rating."
     }
    ]
   },
@@ -99,15 +103,10 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 35099,
-    "name": "Brutal Gladiator's Silk Raiment"
+    "itemId": 30196,
+    "name": "Robes of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30196,
-     "name": "Robes of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28602,
      "name": "Robe of the Elder Scribes",
@@ -117,6 +116,16 @@
      "itemId": 29077,
      "name": "Vestments of the Aldor",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35099,
+     "name": "Brutal Gladiator's Silk Raiment",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -145,19 +154,18 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 35098,
-    "name": "Brutal Gladiator's Silk Handguards"
+    "itemId": 30205,
+    "name": "Gloves of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30205,
-     "name": "Gloves of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29987,
      "name": "Gauntlets of the Sun King",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35098,
+     "name": "Brutal Gladiator's Silk Handguards"
     },
     {
      "itemId": 29080,
@@ -169,19 +177,19 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 35164,
-    "name": "Guardian's Silk Belt"
+    "itemId": 30064,
+    "name": "Cord of Screaming Terrors"
    },
    "alternatives": [
-    {
-     "itemId": 30064,
-     "name": "Cord of Screaming Terrors",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30038,
      "name": "Belt of Blasting",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35164,
+     "name": "Guardian's Silk Belt",
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28799,
@@ -193,15 +201,10 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 35100,
-    "name": "Brutal Gladiator's Silk Trousers"
+    "itemId": 30207,
+    "name": "Leggings of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30207,
-     "name": "Leggings of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
@@ -211,25 +214,30 @@
      "itemId": 29972,
      "name": "Trousers of the Astromancer",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35100,
+     "name": "Brutal Gladiator's Silk Trousers",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 35149,
-    "name": "Guardian's Silk Footguards"
+    "itemId": 28517,
+    "name": "Boots of Foretelling"
    },
    "alternatives": [
-    {
-     "itemId": 28517,
-     "name": "Boots of Foretelling",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30067,
      "name": "Velvet Boots of the Guardian",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35149,
+     "name": "Guardian's Silk Footguards",
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28585,
@@ -289,8 +297,36 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28238,
-    "name": "Medallion of the Alliance"
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28238,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30720,
+    "name": "Serpent-Coil Braid"
    },
    "alternatives": [
     {
@@ -299,36 +335,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30720,
-     "name": "Serpent-Coil Braid",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28785,
      "name": "The Lightning Capacitor",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
-   },
-   "alternatives": [
-    {
-     "itemId": 28238,
-     "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 30720,
-     "name": "Serpent-Coil Braid",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28785,
-     "name": "The Lightning Capacitor",
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -384,19 +397,18 @@
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 35107,
-    "name": "Brutal Gladiator's Touch of Defeat"
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration"
    },
    "alternatives": [
-    {
-     "itemId": 28783,
-     "name": "Eredar Wand of Obliteration",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28673,
      "name": "Tirisfal Wand of Ascendancy",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35107,
+     "name": "Brutal Gladiator's Touch of Defeat"
     },
     {
      "itemId": 28386,
@@ -408,23 +420,23 @@
  ],
  "gems": [
   {
-   "itemId": 24059,
-   "name": "+4 Spell Critical Rating and +5 Spell Damage",
-   "note": "Socketed across 3 slots in this snapshot."
+   "itemId": 24047,
+   "name": "+8 Intellect",
+   "note": "Socketed across 7 slots in this snapshot."
   },
   {
-   "itemId": 28118,
-   "name": "+12 Spell Damage",
+   "itemId": 24030,
+   "name": "+9 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 34220,
    "name": "+12 Spell Critical & 3% Increased Critical Damage",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24039,
-   "name": "+10 Spell Penetration",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -441,7 +453,7 @@
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "40% of surveyed players on this slot.",
+   "note": "42% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
    "icon": "spell_holy_sealofwisdom",
    "itemId": 28886,
@@ -454,18 +466,22 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+6 All Stats",
+   "note": "71% of surveyed players on this slot.",
+   "name": "Enchant Chest - Exceptional Stats",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
-     "itemId": 22446,
+     "itemId": 22449,
      "count": 4
     },
     {
      "itemId": 22445,
-     "count": 10
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -495,7 +511,7 @@
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "80% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -540,7 +556,7 @@
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "75% of surveyed players on this slot.",
+   "note": "44% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
    "source": "World Drop",
    "reagents": [
@@ -595,7 +611,7 @@
  "faq": [
   {
    "question": "What is the Season 4 arena set for Arcane Mage?",
-   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Silk Cowl, Brutal Gladiator's Silk Amice, Brutal Gladiator's Silk Raiment, Brutal Gladiator's Silk Handguards, Brutal Gladiator's Silk Trousers, Brutal Gladiator's Spellblade, Brutal Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Spellblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 4?",
@@ -607,7 +623,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 4 set?",
-   "answer": "Guardian's Pendant of Conquest, Guardian's Silk Cuffs, Guardian's Silk Belt, Guardian's Silk Footguards — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Guardian's Silk Cuffs — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

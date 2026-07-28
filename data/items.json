@@ -869,6 +869,11 @@
   "icon": "inv_jewelcrafting_nobletopaz_03",
   "quality": 3
  },
+ "24065": {
+  "name": "Dazzling Talasite",
+  "icon": "inv_jewelcrafting_talasite_03",
+  "quality": 3
+ },
  "24066": {
   "name": "Radiant Talasite",
   "icon": "inv_jewelcrafting_talasite_03",

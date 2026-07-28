@@ -226,18 +226,18 @@
   },
   {
    "slot": "Legs",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28128,
    "bis": {
-    "itemId": 28128,
-    "name": "Gladiator's Dragonhide Legguards",
-    "usagePct": 14
+    "itemId": 30229,
+    "name": "Nordrassil Feral-Kilt",
+    "usagePct": 71
    },
    "alternatives": [
     {
-     "itemId": 30229,
-     "name": "Nordrassil Feral-Kilt",
-     "usagePct": 71,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28128,
+     "name": "Gladiator's Dragonhide Legguards",
+     "usagePct": 14
     },
     {
      "itemId": 28741,
@@ -281,10 +281,45 @@
   },
   {
    "slot": "Ring1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33057,
    "bis": {
-    "itemId": 33057,
-    "name": "Veteran's Band of Triumph",
+    "itemId": 34837,
+    "name": "The 2 Ring",
+    "usagePct": 100
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28553,
+    "name": "Band of the Exorcist",
     "usagePct": 7
    },
    "alternatives": [
@@ -295,42 +330,14 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28553,
-     "name": "Band of the Exorcist",
-     "usagePct": 7,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
      "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 34837,
-    "name": "The 2 Ring",
-    "usagePct": 100
-   },
-   "alternatives": [
-    {
-     "itemId": 33057,
-     "name": "Veteran's Band of Triumph",
-     "usagePct": 7,
-     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 28553,
-     "name": "Band of the Exorcist",
-     "usagePct": 7,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28649,
-     "name": "Garona's Signet Ring",
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
      "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
@@ -338,18 +345,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28235,
    "bis": {
-    "itemId": 28235,
-    "name": "Medallion of the Alliance",
-    "usagePct": 43
+    "itemId": 32658,
+    "name": "Badge of Tenacity",
+    "usagePct": 50
    },
    "alternatives": [
     {
-     "itemId": 32658,
-     "name": "Badge of Tenacity",
-     "usagePct": 50,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28235,
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 28241,
@@ -368,15 +375,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 32658,
-    "name": "Badge of Tenacity",
-    "usagePct": 50
+    "itemId": 28235,
+    "name": "Medallion of the Alliance",
+    "usagePct": 43
    },
    "alternatives": [
     {
-     "itemId": 28235,
-     "name": "Medallion of the Alliance",
-     "usagePct": 43
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "usagePct": 50,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28241,
@@ -458,14 +466,14 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
-   "note": "Socketed across 2 slots in this snapshot."
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 25896,
@@ -607,7 +615,7 @@
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "68% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -660,7 +668,7 @@
   },
   {
    "question": "How much of the Feral Druid BiS list is PvP gear vs raid gear?",
-   "answer": "71% of the most-used slots are arena/honor items — for Feral Druids the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "Only 59% of the most-used slots are PvP items — high-rated Feral Druids flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Feral Druids use in arena?",
@@ -668,7 +676,7 @@
   },
   {
    "question": "What gems do Feral Druids socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Spell Hit Rating, +4 Hit Rating and +4 Agility, +4 Agility and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Spell Hit Rating, +4 Agility and +6 Stamina, +4 Hit Rating and +4 Agility. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

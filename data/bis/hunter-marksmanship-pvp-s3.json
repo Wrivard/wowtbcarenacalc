@@ -5,7 +5,7 @@
  "season": 3,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 3 arena gear for Marksmanship Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Armor…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Marksmanship Hunters equip into their Season 3 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 3 arena gear for Marksmanship Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Marksmanship Hunters equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Vengeful Gladiator's Chain Spaulders sit behind 2000 team rating and the Cleaver behind 1850 — below those numbers your Merciless pieces stay in, and they cost you nothing but item level. Everything else in the set is rating-free and carries a far larger resilience budget than Season 2 did, which is what lets you hold a global for Aimed Shot instead of spending it escaping.",
  "statPriority": [
   "Resilience",
@@ -26,14 +26,13 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33923,
-    "name": "Vindicator's Pendant of Triumph"
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem"
    },
    "alternatives": [
     {
-     "itemId": 30017,
-     "name": "Telonicus's Pendant of Mayhem",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33923,
+     "name": "Vindicator's Pendant of Triumph"
     }
    ]
   },
@@ -54,14 +53,14 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak"
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak"
    },
    "alternatives": [
     {
-     "itemId": 29994,
-     "name": "Thalassian Wildercloak",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28672,
@@ -73,14 +72,13 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 33664,
-    "name": "Vengeful Gladiator's Chain Armor"
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk"
    },
    "alternatives": [
     {
-     "itemId": 30139,
-     "name": "Rift Stalker Hauberk",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33664,
+     "name": "Vengeful Gladiator's Chain Armor"
     }
    ]
   },
@@ -111,14 +109,13 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 33667,
-    "name": "Vengeful Gladiator's Chain Leggings"
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings"
    },
    "alternatives": [
     {
-     "itemId": 30142,
-     "name": "Rift Stalker Leggings",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33667,
+     "name": "Vengeful Gladiator's Chain Leggings"
     }
    ]
   },
@@ -273,24 +270,24 @@
  ],
  "gems": [
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 24028,
    "name": "+8 Agility",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
    "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -315,7 +312,7 @@
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "50% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -337,7 +334,7 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "71% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
    "reagents": [
@@ -491,7 +488,7 @@
  "faq": [
   {
    "question": "What is the Season 3 arena set for Marksmanship Hunter?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Armor, Vengeful Gladiator's Chain Gauntlets, Vengeful Gladiator's Chain Leggings, Vengeful Gladiator's Decapitator, Vengeful Gladiator's Quickblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets, Vengeful Gladiator's Decapitator, Vengeful Gladiator's Quickblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -503,7 +500,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Pendant of Triumph, Vindicator's Chain Bracers, Vindicator's Chain Girdle, Vindicator's Chain Sabatons, Vindicator's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Vindicator's Chain Bracers, Vindicator's Chain Girdle, Vindicator's Chain Sabatons, Vindicator's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

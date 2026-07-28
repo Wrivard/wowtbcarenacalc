@@ -94,14 +94,13 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 33707,
-    "name": "Vengeful Gladiator's Linked Gauntlets"
+    "itemId": 35382,
+    "name": "Seer's Linked Gauntlets"
    },
    "alternatives": [
     {
-     "itemId": 35382,
-     "name": "Seer's Linked Gauntlets",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33707,
+     "name": "Vengeful Gladiator's Linked Gauntlets"
     }
    ]
   },
@@ -189,14 +188,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30345,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 30351,
@@ -212,13 +210,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "itemId": 30345,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
-     "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
@@ -270,14 +269,13 @@
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 33941,
-    "name": "Vengeful Gladiator's Totem of Indomitability"
+    "itemId": 27815,
+    "name": "Totem of the Astral Winds"
    },
    "alternatives": [
     {
-     "itemId": 27815,
-     "name": "Totem of the Astral Winds",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33941,
+     "name": "Vengeful Gladiator's Totem of Indomitability"
     }
    ]
   }
@@ -363,7 +361,7 @@
   {
    "slot": "Hands",
    "text": "+15 Strength",
-   "note": "100% of surveyed players on this slot.",
+   "note": "60% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Strength",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -501,7 +499,7 @@
  "faq": [
   {
    "question": "What is the Season 3 arena set for Enhancement Shaman?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Linked Helm, Vengeful Gladiator's Linked Spaulders, Vengeful Gladiator's Linked Armor, Vengeful Gladiator's Linked Gauntlets, Vengeful Gladiator's Linked Leggings, Vengeful Gladiator's Cleaver, Vengeful Gladiator's Pummeler, Vengeful Gladiator's Totem of Indomitability. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Linked Helm, Vengeful Gladiator's Linked Spaulders, Vengeful Gladiator's Linked Armor, Vengeful Gladiator's Linked Leggings, Vengeful Gladiator's Cleaver, Vengeful Gladiator's Pummeler. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",

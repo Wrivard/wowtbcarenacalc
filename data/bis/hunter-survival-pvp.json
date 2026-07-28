@@ -103,19 +103,14 @@
   },
   {
    "slot": "Back",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28377,
    "bis": {
-    "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak",
-    "usagePct": 5
+    "itemId": 29994,
+    "name": "Thalassian Wildercloak",
+    "usagePct": 53
    },
    "alternatives": [
-    {
-     "itemId": 29994,
-     "name": "Thalassian Wildercloak",
-     "usagePct": 53,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28672,
      "name": "Drape of the Dark Reavers",
@@ -127,23 +122,34 @@
      "name": "The Frost Lord's War Cloak",
      "usagePct": 16,
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
+     "usagePct": 5,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 5
     }
    ]
   },
   {
    "slot": "Chest",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28334,
    "bis": {
-    "itemId": 28334,
-    "name": "Gladiator's Chain Armor",
-    "usagePct": 16
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 63
    },
    "alternatives": [
     {
-     "itemId": 30139,
-     "name": "Rift Stalker Hauberk",
-     "usagePct": 63,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28334,
+     "name": "Gladiator's Chain Armor",
+     "usagePct": 16
     },
     {
      "itemId": 31960,
@@ -242,18 +248,19 @@
   },
   {
    "slot": "Legs",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 31963,
    "bis": {
-    "itemId": 31963,
-    "name": "Merciless Gladiator's Chain Leggings",
-    "usagePct": 21
+    "itemId": 30142,
+    "name": "Rift Stalker Leggings",
+    "usagePct": 53
    },
    "alternatives": [
     {
-     "itemId": 30142,
-     "name": "Rift Stalker Leggings",
-     "usagePct": 53,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 31963,
+     "name": "Merciless Gladiator's Chain Leggings",
+     "usagePct": 21,
+     "pveFlexNote": "Seen mostly above 2678 rating."
     },
     {
      "itemId": 28332,
@@ -297,19 +304,14 @@
   },
   {
    "slot": "Ring1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33057,
    "bis": {
-    "itemId": 33057,
-    "name": "Veteran's Band of Triumph",
-    "usagePct": 16
+    "itemId": 29298,
+    "name": "Band of Eternity",
+    "usagePct": 58
    },
    "alternatives": [
-    {
-     "itemId": 29298,
-     "name": "Band of Eternity",
-     "usagePct": 58,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
@@ -321,31 +323,43 @@
      "name": "Garona's Signet Ring",
      "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "usagePct": 32,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "usagePct": 16
     }
    ]
   },
   {
    "slot": "Ring2",
    "bis": {
-    "itemId": 29298,
-    "name": "Band of Eternity",
-    "usagePct": 58
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 37
    },
    "alternatives": [
     {
-     "itemId": 33057,
-     "name": "Veteran's Band of Triumph",
-     "usagePct": 16
-    },
-    {
-     "itemId": 28791,
-     "name": "Ring of the Recalcitrant",
-     "usagePct": 37,
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 58,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
+     "usagePct": 32,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
      "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     }
@@ -408,18 +422,18 @@
   },
   {
    "slot": "MainHand",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28308,
    "bis": {
-    "itemId": 28308,
-    "name": "Gladiator's Cleaver",
-    "usagePct": 16
+    "itemId": 29924,
+    "name": "Netherbane",
+    "usagePct": 21
    },
    "alternatives": [
     {
-     "itemId": 29924,
-     "name": "Netherbane",
-     "usagePct": 21,
-     "pveFlexNote": "Seen mostly above 2678 rating."
+     "itemId": 28308,
+     "name": "Gladiator's Cleaver",
+     "usagePct": 16
     },
     {
      "itemId": 31965,
@@ -435,18 +449,18 @@
   },
   {
    "slot": "OffHand",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 31985,
    "bis": {
-    "itemId": 31985,
-    "name": "Merciless Gladiator's Hacker",
-    "usagePct": 16
+    "itemId": 29948,
+    "name": "Claw of the Phoenix",
+    "usagePct": 26
    },
    "alternatives": [
     {
-     "itemId": 29948,
-     "name": "Claw of the Phoenix",
-     "usagePct": 26,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 31985,
+     "name": "Merciless Gladiator's Hacker",
+     "usagePct": 16
     },
     {
      "itemId": 32027,
@@ -463,24 +477,24 @@
   },
   {
    "slot": "Ranged",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 31986,
    "bis": {
-    "itemId": 31986,
-    "name": "Merciless Gladiator's Crossbow of the Phoenix",
-    "usagePct": 21
+    "itemId": 30105,
+    "name": "Serpent Spine Longbow",
+    "usagePct": 53
    },
    "alternatives": [
-    {
-     "itemId": 30105,
-     "name": "Serpent Spine Longbow",
-     "usagePct": 53,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28772,
      "name": "Sunfury Bow of the Phoenix",
      "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31986,
+     "name": "Merciless Gladiator's Crossbow of the Phoenix",
+     "usagePct": 21
     },
     {
      "itemId": 28294,
@@ -498,6 +512,11 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
    "note": "Socketed across 3 slots in this snapshot."
@@ -506,11 +525,6 @@
    "itemId": 25895,
    "name": "+12 Critical Strike Rating & 5% Snare and Root Resist",
    "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
-   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -534,13 +548,30 @@
   },
   {
    "slot": "Back",
-   "text": "+20 Spell Penetration",
-   "note": "100% of surveyed players on this slot."
+   "text": "+12 Agility",
+   "note": "70% of surveyed players on this slot.",
+   "name": "Enchant Cloak - Greater Agility",
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "75% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
    "reagents": [
@@ -594,7 +625,7 @@
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "50% of surveyed players on this slot.",
+   "note": "90% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
    "icon": "inv_misc_armorkit_25",
    "itemId": 29535,
@@ -643,7 +674,7 @@
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "33% of surveyed players on this slot.",
+   "note": "73% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -671,7 +702,7 @@
   {
    "slot": "Ranged",
    "text": "Scope (+28 Critical Strike Rating)",
-   "note": "75% of surveyed players on this slot."
+   "note": "100% of surveyed players on this slot."
   }
  ],
  "faq": [
@@ -685,15 +716,15 @@
   },
   {
    "question": "How much of the Survival Hunter BiS list is PvP gear vs raid gear?",
-   "answer": "82% of the most-used slots are arena/honor items — for Survival Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "Only 41% of the most-used slots are PvP items — high-rated Survival Hunters flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Survival Hunters use in arena?",
-   "answer": "Gladiator's Cleaver is the main-hand of choice (16% of surveyed players)."
+   "answer": "Netherbane is the main-hand of choice (21% of surveyed players)."
   },
   {
    "question": "What gems do Survival Hunters socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +8 Resilience Rating, +12 Critical Strike Rating & 5% Snare and Root Resist. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +4 Agility and +6 Stamina, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

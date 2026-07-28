@@ -42,19 +42,14 @@
   },
   {
    "slot": "Neck",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33065,
    "bis": {
-    "itemId": 33065,
-    "name": "Veteran's Pendant of Dominance",
-    "usagePct": 14
+    "itemId": 30008,
+    "name": "Pendant of the Lost Ages",
+    "usagePct": 29
    },
    "alternatives": [
-    {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
-     "usagePct": 29,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
@@ -66,6 +61,17 @@
      "name": "Talisman of the Breaker",
      "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "usagePct": 14,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33065,
+     "name": "Veteran's Pendant of Dominance",
+     "usagePct": 14
     }
    ]
   },
@@ -253,18 +259,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 30345,
    "bis": {
-    "itemId": 30345,
-    "name": "Medallion of the Horde",
-    "usagePct": 57
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 86
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "usagePct": 86,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30345,
+     "name": "Medallion of the Horde",
+     "usagePct": 57
     },
     {
      "itemId": 30351,
@@ -282,15 +288,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 86
+    "itemId": 30345,
+    "name": "Medallion of the Horde",
+    "usagePct": 57
    },
    "alternatives": [
     {
-     "itemId": 30345,
-     "name": "Medallion of the Horde",
-     "usagePct": 57
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 86,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
@@ -356,14 +363,14 @@
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
    "itemId": 28118,
    "name": "+12 Spell Damage",
    "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -559,7 +566,7 @@
   },
   {
    "question": "How much of the Elemental Shaman BiS list is PvP gear vs raid gear?",
-   "answer": "82% of the most-used slots are arena/honor items — for Elemental Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "76% of the most-used slots are arena/honor items — for Elemental Shamans the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Elemental Shamans use in arena?",
@@ -567,7 +574,7 @@
   },
   {
    "question": "What gems do Elemental Shamans socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Critical Rating and +5 Spell Penetration, +12 Spell Critical & 3% Increased Critical Damage, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Critical Rating and +5 Spell Penetration, +12 Spell Critical & 3% Increased Critical Damage, +12 Spell Damage. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

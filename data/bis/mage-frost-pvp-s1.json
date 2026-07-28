@@ -32,15 +32,14 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33067,
-    "name": "Veteran's Pendant of Conquest",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30008,
+    "name": "Pendant of the Lost Ages"
    },
    "alternatives": [
     {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33067,
+     "name": "Veteran's Pendant of Conquest",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28245,
@@ -65,14 +64,13 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28378,
-    "name": "Sergeant's Heavy Cape"
+    "itemId": 29992,
+    "name": "Royal Cloak of the Sunstriders"
    },
    "alternatives": [
     {
-     "itemId": 29992,
-     "name": "Royal Cloak of the Sunstriders",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28378,
+     "name": "Sergeant's Heavy Cape"
     },
     {
      "itemId": 28766,
@@ -244,14 +242,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28238,
-    "name": "Medallion of the Alliance"
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28238,
+     "name": "Medallion of the Alliance"
     },
     {
      "itemId": 28239,
@@ -267,13 +264,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "itemId": 28238,
+    "name": "Medallion of the Alliance"
    },
    "alternatives": [
     {
-     "itemId": 28238,
-     "name": "Medallion of the Alliance"
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28239,
@@ -343,7 +341,7 @@
   {
    "itemId": 24059,
    "name": "+4 Spell Critical Rating and +5 Spell Damage",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28118,
@@ -383,7 +381,7 @@
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "52% of surveyed players on this slot."
+   "note": "89% of surveyed players on this slot."
   },
   {
    "slot": "Chest",

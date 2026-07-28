@@ -162,14 +162,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30343,
-    "name": "Medallion of the Horde"
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 30348,
@@ -180,13 +179,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "itemId": 30343,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
-     "itemId": 30343,
-     "name": "Medallion of the Horde"
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30348,

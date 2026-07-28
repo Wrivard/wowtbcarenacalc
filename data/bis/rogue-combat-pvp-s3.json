@@ -5,7 +5,7 @@
  "season": 3,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 3 arena gear for Combat Rogue: the Vengeful Gladiator's set (Vengeful Gladiator's Leather Spaulders, Vengeful Gladiator's Leather Tunic, Vengeful Gladiator's Leather Gloves…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Combat Rogues equip into their Season 3 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 3 arena gear for Combat Rogue: the Vengeful Gladiator's set (Vengeful Gladiator's Quickblade…). Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Combat Rogues equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "The resilience budget jumps sharply, and once you can eat an opener the match becomes the long grind this spec wants — attack power and agility finally pay off over a full minute instead of being erased in the first ten seconds. The Vengeful weapon wants 1850 and the spaulders 2000, so keep Merciless Gladiator's Leather Spaulders on until you clear it.",
  "statPriority": [
   "Resilience",
@@ -61,14 +61,14 @@
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 33703,
-    "name": "Vengeful Gladiator's Leather Spaulders"
+    "itemId": 30149,
+    "name": "Deathmantle Shoulderpads"
    },
    "alternatives": [
     {
-     "itemId": 30149,
-     "name": "Deathmantle Shoulderpads",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33703,
+     "name": "Vengeful Gladiator's Leather Spaulders",
+     "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 27797,
@@ -104,14 +104,14 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 33704,
-    "name": "Vengeful Gladiator's Leather Tunic"
+    "itemId": 30101,
+    "name": "Bloodsea Brigand's Vest"
    },
    "alternatives": [
     {
-     "itemId": 30101,
-     "name": "Bloodsea Brigand's Vest",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33704,
+     "name": "Vengeful Gladiator's Leather Tunic",
+     "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 30144,
@@ -128,14 +128,13 @@
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 33893,
-    "name": "Vindicator's Leather Bracers"
+    "itemId": 29966,
+    "name": "Vambraces of Ending"
    },
    "alternatives": [
     {
-     "itemId": 29966,
-     "name": "Vambraces of Ending",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33893,
+     "name": "Vindicator's Leather Bracers"
     },
     {
      "itemId": 28171,
@@ -152,14 +151,14 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 33700,
-    "name": "Vengeful Gladiator's Leather Gloves"
+    "itemId": 30145,
+    "name": "Deathmantle Handguards"
    },
    "alternatives": [
     {
-     "itemId": 30145,
-     "name": "Deathmantle Handguards",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33700,
+     "name": "Vengeful Gladiator's Leather Gloves",
+     "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 29048,
@@ -190,38 +189,38 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 33702,
-    "name": "Vengeful Gladiator's Leather Legguards"
+    "itemId": 30148,
+    "name": "Deathmantle Legguards"
    },
    "alternatives": [
-    {
-     "itemId": 30148,
-     "name": "Deathmantle Legguards",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28741,
      "name": "Skulker's Greaves",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33702,
+     "name": "Vengeful Gladiator's Leather Legguards",
+     "pveFlexNote": "Seen mostly above 2646 rating."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 33892,
-    "name": "Vindicator's Leather Boots"
+    "itemId": 28545,
+    "name": "Edgewalker Longboots"
    },
    "alternatives": [
-    {
-     "itemId": 28545,
-     "name": "Edgewalker Longboots",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 31288,
      "name": "The Master's Treads",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33892,
+     "name": "Vindicator's Leather Boots",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30060,
@@ -281,8 +280,36 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28234,
-    "name": "Medallion of the Alliance"
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 30450,
+     "name": "Warp-Spring Coil",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24128,
+     "name": "Figurine - Nightseye Panther",
+     "pveFlexNote": "Seen mostly above 2646 rating."
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28234,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30450,
+    "name": "Warp-Spring Coil"
    },
    "alternatives": [
     {
@@ -291,51 +318,27 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30450,
-     "name": "Warp-Spring Coil",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 24128,
      "name": "Figurine - Nightseye Panther",
      "pveFlexNote": "Seen mostly above 2646 rating."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch"
-   },
-   "alternatives": [
-    {
-     "itemId": 28234,
-     "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 30450,
-     "name": "Warp-Spring Coil",
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 24128,
-     "name": "Figurine - Nightseye Panther",
-     "pveFlexNote": "Seen mostly above 2646 rating."
     }
    ]
   },
   {
    "slot": "MainHand",
    "bis": {
-    "itemId": 33762,
-    "name": "Vengeful Gladiator's Slicer"
+    "itemId": 30082,
+    "name": "Talon of Azshara"
    },
    "alternatives": [
     {
-     "itemId": 30082,
-     "name": "Talon of Azshara",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33762,
+     "name": "Vengeful Gladiator's Slicer"
     },
     {
      "itemId": 29996,
@@ -361,14 +364,13 @@
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 33765,
-    "name": "Vengeful Gladiator's War Edge"
+    "itemId": 29949,
+    "name": "Arcanite Steam-Pistol"
    },
    "alternatives": [
     {
-     "itemId": 29949,
-     "name": "Arcanite Steam-Pistol",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33765,
+     "name": "Vengeful Gladiator's War Edge"
     },
     {
      "itemId": 28772,
@@ -385,24 +387,24 @@
  ],
  "gems": [
   {
-   "itemId": 24028,
-   "name": "+8 Agility",
+   "itemId": 24051,
+   "name": "+8 Hit Rating",
+   "note": "Socketed across 5 slots in this snapshot."
+  },
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
-   "itemId": 32409,
-   "name": "+12 Agility & 3% Increased Critical Damage",
-   "note": "Socketed across 1 slot in this snapshot."
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 5 slots in this snapshot."
   },
   {
-   "itemId": 28363,
-   "name": "+10 Attack Power, +5 Critical Strike Rating",
-   "note": "Socketed across 2 slots in this snapshot."
-  },
-  {
-   "itemId": 22054,
-   "name": "Deadly Poison VII",
-   "note": "Socketed across 1 slot in this snapshot."
+   "itemId": 24028,
+   "name": "+8 Agility",
+   "note": "Socketed across 5 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -418,7 +420,7 @@
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "92% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
    "icon": "spell_holy_greaterblessingofkings",
    "itemId": 28888,
@@ -448,18 +450,22 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+6 All Stats",
+   "note": "96% of surveyed players on this slot.",
+   "name": "Enchant Chest - Exceptional Stats",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
-     "itemId": 22446,
+     "itemId": 22449,
      "count": 4
     },
     {
      "itemId": 22445,
-     "count": 10
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -467,7 +473,7 @@
   {
    "slot": "Wrist",
    "text": "+24 Attack Power",
-   "note": "75% of surveyed players on this slot.",
+   "note": "84% of surveyed players on this slot.",
    "name": "Enchant Bracer - Assault",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -481,7 +487,7 @@
   {
    "slot": "Hands",
    "text": "+15 Agility",
-   "note": "70% of surveyed players on this slot.",
+   "note": "79% of surveyed players on this slot.",
    "name": "Enchant Gloves - Superior Agility",
    "source": "World Drop",
    "reagents": [
@@ -503,7 +509,7 @@
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "89% of surveyed players on this slot.",
+   "note": "94% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
    "icon": "inv_misc_armorkit_25",
    "itemId": 29535,
@@ -529,25 +535,21 @@
   },
   {
    "slot": "Feet",
-   "text": "Surefooted",
-   "note": "40% of surveyed players on this slot.",
-   "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan",
+   "text": "Minor Speed and +6 Agility",
+   "note": "36% of surveyed players on this slot.",
+   "name": "Enchant Boots - Cat's Swiftness",
+   "source": "World Drop",
    "reagents": [
     {
-     "itemId": 22450,
-     "count": 2
-    },
-    {
      "itemId": 22449,
-     "count": 4
+     "count": 8
     },
     {
-     "itemId": 23572,
-     "count": 1
+     "itemId": 22451,
+     "count": 8
     }
    ],
-   "tool": "Runed Fel Iron Rod"
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
@@ -570,7 +572,7 @@
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "100% of surveyed players on this slot.",
+   "note": "86% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
    "source": "Moroes (Tower Steward) — Karazhan",
    "reagents": [
@@ -618,12 +620,17 @@
     }
    ],
    "tool": "Runed Eternium Rod"
+  },
+  {
+   "slot": "Ranged",
+   "text": "Scope (+12 Damage)",
+   "note": "3% of surveyed players on this slot."
   }
  ],
  "faq": [
   {
    "question": "What is the Season 3 arena set for Combat Rogue?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Leather Spaulders, Vengeful Gladiator's Leather Tunic, Vengeful Gladiator's Leather Gloves, Vengeful Gladiator's Leather Legguards, Vengeful Gladiator's Slicer, Vengeful Gladiator's Quickblade, Vengeful Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Quickblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -632,10 +639,6 @@
   {
    "question": "How many arena points does full Season 3 gear cost?",
    "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
-  },
-  {
-   "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Leather Bracers, Vindicator's Leather Boots — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

@@ -303,18 +303,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28241,
    "bis": {
-    "itemId": 28241,
-    "name": "Medallion of the Horde",
-    "usagePct": 49
+    "itemId": 28370,
+    "name": "Bangle of Endless Blessings",
+    "usagePct": 83
    },
    "alternatives": [
     {
-     "itemId": 28370,
-     "name": "Bangle of Endless Blessings",
-     "usagePct": 83,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28241,
+     "name": "Medallion of the Horde",
+     "usagePct": 49
     },
     {
      "itemId": 28235,
@@ -332,15 +332,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28370,
-    "name": "Bangle of Endless Blessings",
-    "usagePct": 83
+    "itemId": 28241,
+    "name": "Medallion of the Horde",
+    "usagePct": 49
    },
    "alternatives": [
     {
-     "itemId": 28241,
-     "name": "Medallion of the Horde",
-     "usagePct": 49
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "usagePct": 83,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28235,

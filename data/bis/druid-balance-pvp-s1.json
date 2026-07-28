@@ -5,7 +5,7 @@
  "season": 1,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 1 arena gear for Balance Druid: the Gladiator's set (Gladiator's Kodohide Helm, Gladiator's Kodohide Spaulders, Gladiator's Kodohide Tunic…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Balance Druids equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 1 arena gear for Balance Druid: the Gladiator's set (Gladiator's Salvation…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Balance Druids equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience is scarcer here than it will ever be again — an opener kills through what little you carry, so every point of it and every point of Stamina buys you the seconds to react. Nothing gates you: Gladiator's Salvation and the Kodohide pieces cost arena points alone, and dungeon or crafted gear covers Wrist and Waist until the honor offsets exist.",
  "statPriority": [
   "Resilience",
@@ -18,19 +18,18 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 31376,
-    "name": "Gladiator's Kodohide Helm"
+    "itemId": 30219,
+    "name": "Nordrassil Headguard"
    },
    "alternatives": [
-    {
-     "itemId": 30219,
-     "name": "Nordrassil Headguard",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30233,
      "name": "Nordrassil Headpiece",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31376,
+     "name": "Gladiator's Kodohide Helm"
     },
     {
      "itemId": 32480,
@@ -42,16 +41,10 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33068,
-    "name": "Veteran's Pendant of Salvation",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 28731,
+    "name": "Shining Chain of the Afterworld"
    },
    "alternatives": [
-    {
-     "itemId": 28731,
-     "name": "Shining Chain of the Afterworld",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30018,
      "name": "Lord Sanguinar's Claim",
@@ -61,21 +54,26 @@
      "itemId": 24116,
      "name": "Eye of the Night",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24121,
+     "name": "Chain of the Twilight Owl",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33068,
+     "name": "Veteran's Pendant of Salvation",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 31378,
-    "name": "Gladiator's Kodohide Spaulders"
+    "itemId": 30221,
+    "name": "Nordrassil Life-Mantle"
    },
    "alternatives": [
-    {
-     "itemId": 30221,
-     "name": "Nordrassil Life-Mantle",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30024,
      "name": "Mantle of the Elven Kings",
@@ -85,6 +83,15 @@
      "itemId": 30079,
      "name": "Illidari Shoulderpads",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30111,
+     "name": "Runetotem's Mantle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31378,
+     "name": "Gladiator's Kodohide Spaulders"
     }
    ]
   },
@@ -115,15 +122,10 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 31379,
-    "name": "Gladiator's Kodohide Tunic"
+    "itemId": 30216,
+    "name": "Nordrassil Chestguard"
    },
    "alternatives": [
-    {
-     "itemId": 30216,
-     "name": "Nordrassil Chestguard",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30231,
      "name": "Nordrassil Chestpiece",
@@ -133,22 +135,25 @@
      "itemId": 29091,
      "name": "Chestpiece of Malorne",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30075,
+     "name": "Gnarled Chestpiece of the Ancients",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31379,
+     "name": "Gladiator's Kodohide Tunic"
     }
    ]
   },
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 32812,
-    "name": "Veteran's Kodohide Bracers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30062,
+    "name": "Grove-Bands of Remulos"
    },
    "alternatives": [
-    {
-     "itemId": 30062,
-     "name": "Grove-Bands of Remulos",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28515,
      "name": "Bands of Nefarious Deeds",
@@ -158,21 +163,21 @@
      "itemId": 32655,
      "name": "Crystalweave Bracers",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32812,
+     "name": "Veteran's Kodohide Bracers",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 31375,
-    "name": "Gladiator's Kodohide Gloves"
+    "itemId": 30217,
+    "name": "Nordrassil Gloves"
    },
    "alternatives": [
-    {
-     "itemId": 30217,
-     "name": "Nordrassil Gloves",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28507,
      "name": "Handwraps of Flowing Thought",
@@ -182,26 +187,34 @@
      "itemId": 28521,
      "name": "Mitts of the Treemender",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30029,
+     "name": "Bark-Gloves of Ancient Wisdom",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31375,
+     "name": "Gladiator's Kodohide Gloves"
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 32800,
-    "name": "Veteran's Kodohide Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 29984,
+    "name": "Girdle of Zaetar"
    },
    "alternatives": [
-    {
-     "itemId": 29984,
-     "name": "Girdle of Zaetar",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32800,
+     "name": "Veteran's Kodohide Belt",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28799,
@@ -213,15 +226,10 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 31377,
-    "name": "Gladiator's Kodohide Legguards"
+    "itemId": 30220,
+    "name": "Nordrassil Life-Kilt"
    },
    "alternatives": [
-    {
-     "itemId": 30220,
-     "name": "Nordrassil Life-Kilt",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28591,
      "name": "Earthsoul Leggings",
@@ -231,21 +239,29 @@
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30234,
+     "name": "Nordrassil Wrath-Kilt",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 31377,
+     "name": "Gladiator's Kodohide Legguards"
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 32788,
-    "name": "Veteran's Kodohide Boots",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 28752,
+    "name": "Forestlord Striders"
    },
    "alternatives": [
     {
-     "itemId": 28752,
-     "name": "Forestlord Striders",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32788,
+     "name": "Veteran's Kodohide Boots",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 27914,
@@ -262,9 +278,37 @@
   {
    "slot": "Ring1",
    "bis": {
-    "itemId": 33064,
-    "name": "Veteran's Band of Salvation",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer"
+   },
+   "alternatives": [
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33064,
+     "name": "Veteran's Band of Salvation",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30110,
+    "name": "Coral Band of the Revived"
    },
    "alternatives": [
     {
@@ -273,37 +317,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer"
-   },
-   "alternatives": [
-    {
-     "itemId": 33064,
-     "name": "Veteran's Band of Salvation",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28763,
-     "name": "Jade Ring of the Everliving",
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -311,8 +331,36 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28235,
-    "name": "Medallion of the Alliance"
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 30841,
+     "name": "Lower City Prayerbook",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28235,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30841,
+    "name": "Lower City Prayerbook"
    },
    "alternatives": [
     {
@@ -321,36 +369,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30841,
-     "name": "Lower City Prayerbook",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr"
-   },
-   "alternatives": [
-    {
-     "itemId": 28235,
-     "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 30841,
-     "name": "Lower City Prayerbook",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28190,
-     "name": "Scarab of the Infinite Cycle",
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -380,15 +405,10 @@
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 32452,
-    "name": "Gladiator's Reprieve"
+    "itemId": 29923,
+    "name": "Talisman of the Sun King"
    },
    "alternatives": [
-    {
-     "itemId": 29923,
-     "name": "Talisman of the Sun King",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28781,
      "name": "Karaborian Talisman",
@@ -398,6 +418,15 @@
      "itemId": 29170,
      "name": "Windcaller's Orb",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29271,
+     "name": "Talisman of Kalecgos",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32452,
+     "name": "Gladiator's Reprieve"
     }
    ]
   },
@@ -423,23 +452,23 @@
  ],
  "gems": [
   {
-   "itemId": 31861,
-   "name": "+8 Spell Hit Rating",
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 32836,
    "name": "+9 Healing +3 Spell Damage and +4 Spirit",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 5 slots in this snapshot."
   },
   {
-   "itemId": 25901,
-   "name": "+12 Intellect & Chance to restore mana on spellcast",
-   "note": "Socketed across 1 slot in this snapshot."
+   "itemId": 24065,
+   "name": "+4 Intellect and +2 Mana every 5 seconds",
+   "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 30552,
-   "name": "+11 Healing +4 Spell Damage and +6 Stamina",
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -465,18 +494,14 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+15 Spirit",
+   "note": "67% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Spirit",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 4
-    },
-    {
-     "itemId": 22445,
-     "count": 10
+     "count": 2
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -484,7 +509,7 @@
   {
    "slot": "Wrist",
    "text": "+30 Healing and +10 Spell Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Bracer - Superior Healing",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -501,22 +526,22 @@
   },
   {
    "slot": "Hands",
-   "text": "+15 Spell Hit Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Gloves - Spell Strike",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "67% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Major Healing",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 8
-    },
-    {
-     "itemId": 22445,
-     "count": 2
+     "count": 6
     },
     {
      "itemId": 22449,
-     "count": 2
+     "count": 6
+    },
+    {
+     "itemId": 21886,
+     "count": 6
     }
    ],
    "tool": "Runed Adamantite Rod"
@@ -546,21 +571,8 @@
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed and +9 Stamina",
-   "note": "50% of surveyed players on this slot.",
-   "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop",
-   "reagents": [
-    {
-     "itemId": 22449,
-     "count": 8
-    },
-    {
-     "itemId": 22452,
-     "count": 8
-    }
-   ],
-   "tool": "Runed Adamantite Rod"
+   "text": "Minor Speed Increase",
+   "note": "67% of surveyed players on this slot."
   },
   {
    "slot": "Ring",
@@ -610,7 +622,7 @@
  "faq": [
   {
    "question": "What is the Season 1 arena set for Balance Druid?",
-   "answer": "The Gladiator's pieces: Gladiator's Kodohide Helm, Gladiator's Kodohide Spaulders, Gladiator's Kodohide Tunic, Gladiator's Kodohide Gloves, Gladiator's Kodohide Legguards, Gladiator's Salvation, Gladiator's Reprieve. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Salvation. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

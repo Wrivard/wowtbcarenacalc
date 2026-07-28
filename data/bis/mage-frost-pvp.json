@@ -42,18 +42,18 @@
   },
   {
    "slot": "Neck",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33067,
    "bis": {
-    "itemId": 33067,
-    "name": "Veteran's Pendant of Conquest",
-    "usagePct": 22
+    "itemId": 30008,
+    "name": "Pendant of the Lost Ages",
+    "usagePct": 45
    },
    "alternatives": [
     {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
-     "usagePct": 45,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33067,
+     "name": "Veteran's Pendant of Conquest",
+     "usagePct": 22
     },
     {
      "itemId": 28245,
@@ -86,18 +86,18 @@
   },
   {
    "slot": "Back",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28378,
    "bis": {
-    "itemId": 28378,
-    "name": "Sergeant's Heavy Cape",
-    "usagePct": 21
+    "itemId": 29992,
+    "name": "Royal Cloak of the Sunstriders",
+    "usagePct": 31
    },
    "alternatives": [
     {
-     "itemId": 29992,
-     "name": "Royal Cloak of the Sunstriders",
-     "usagePct": 31,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28378,
+     "name": "Sergeant's Heavy Cape",
+     "usagePct": 21
     },
     {
      "itemId": 28766,
@@ -306,18 +306,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28238,
    "bis": {
-    "itemId": 28238,
-    "name": "Medallion of the Alliance",
-    "usagePct": 59
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 90
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "usagePct": 90,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28238,
+     "name": "Medallion of the Alliance",
+     "usagePct": 59
     },
     {
      "itemId": 28239,
@@ -335,15 +335,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 90
+    "itemId": 28238,
+    "name": "Medallion of the Alliance",
+    "usagePct": 59
    },
    "alternatives": [
     {
-     "itemId": 28238,
-     "name": "Medallion of the Alliance",
-     "usagePct": 59
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 90,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28239,
@@ -433,7 +434,7 @@
   {
    "itemId": 24059,
    "name": "+4 Spell Critical Rating and +5 Spell Damage",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28118,
@@ -473,7 +474,7 @@
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "52% of surveyed players on this slot."
+   "note": "89% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
@@ -626,7 +627,7 @@
   },
   {
    "question": "How much of the Frost Mage BiS list is PvP gear vs raid gear?",
-   "answer": "88% of the most-used slots are arena/honor items — for Frost Mages the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "76% of the most-used slots are arena/honor items — for Frost Mages the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Frost Mages use in arena?",

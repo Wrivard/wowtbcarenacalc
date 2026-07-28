@@ -11,10 +11,9 @@
 // crawlers. The only JS left is the analytics ping on open.
 
 import Link from "next/link";
-import { ChevronDown, TriangleAlert, MapPin, Shield } from "lucide-react";
+import { ChevronDown, TriangleAlert, MapPin, ShieldOff } from "lucide-react";
 import type { BisSlot } from "@/lib/bis";
 import { ItemLink } from "@/components/ItemLink";
-import { isPveOnly, PVE_ONLY_WARN_PCT } from "@/lib/item-flags";
 import { getItemSource, formatItemSource } from "@/data/itemSources";
 import { sourceLink } from "@/lib/raid-links";
 import { trackEvent } from "@/lib/gtag";
@@ -82,10 +81,14 @@ export function GearGrid({
         const hasAlts = row.alternatives.length > 0;
         const hasSource = getItemSource(row.bis.itemId) !== null;
         const expandable = hasAlts || hasSource;
-        const raidWarning =
-          content === "pvp" &&
-          isPveOnly(row.bis.itemId) &&
-          (row.bis.usagePct ?? 0) > PVE_ONLY_WARN_PCT;
+        // Driven by the snapshot's own isPvP flag, set in build-bis.mjs.
+        // This replaced a hand-curated list of 22 "known offender" item ids,
+        // which could only ever warn about the raid pieces someone had
+        // already noticed.
+        const raidWarning = content === "pvp" && row.raidPick === true;
+        const resilienceAlt = row.alternatives.find(
+          (a) => a.itemId === row.resilienceAlt,
+        );
 
         const line = (
           <>
@@ -95,25 +98,22 @@ export function GearGrid({
             <span className="min-h-7 flex-1">
               <ItemLink itemId={row.bis.itemId} fallbackName={row.bis.name} />
             </span>
-            {/* Sits before the % so the reason is read first — the number
-                below an alternative's is the thing that looks wrong. */}
-            {row.resiliencePick && (
+            {/* Before the %, so the caveat is read with the number rather
+                than after the reader has already taken it as a shopping
+                list. */}
+            {raidWarning && (
               <span
-                className="hidden shrink-0 items-center gap-1 rounded-md border border-accent/30 bg-accent/10 px-1.5 py-0.5 font-mono text-[9px] tracking-wider text-accent uppercase sm:inline-flex"
-                title="Promoted over a more-used raid piece: this one has resilience"
+                className="hidden shrink-0 items-center gap-1 rounded-md border border-amber-500/30 bg-amber-500/10 px-1.5 py-0.5 font-mono text-[9px] tracking-wider text-amber-500/90 uppercase sm:inline-flex"
+                title="Most-equipped on the ladder, but it is raid gear — no resilience"
               >
-                <Shield className="size-2.5" aria-hidden />
-                Resilience
+                <ShieldOff className="size-2.5" aria-hidden />
+                No resilience
               </span>
             )}
             {row.bis.usagePct !== undefined && (
               <span
                 className="font-mono text-xs tabular-nums text-accent"
-                title={
-                  row.resiliencePick
-                    ? "Ladder usage. Lower than the raid piece below it — we rank resilience first on a PvP page."
-                    : "Share of surveyed players using this item"
-                }
+                title="Share of surveyed players using this item"
               >
                 {row.bis.usagePct}%
               </span>
@@ -125,24 +125,23 @@ export function GearGrid({
           <div className="flex items-start gap-2 border-t border-amber-500/20 bg-amber-500/[0.06] px-3 py-2 text-[11px] leading-relaxed text-amber-500/90 sm:px-4">
             <TriangleAlert className="mt-0.5 size-3.5 shrink-0" aria-hidden />
             <span>
-              This is a raid piece — it has no resilience.{" "}
-              {hasAlts
-                ? "Expand this row for a pure-arena alternative."
-                : "Prefer the season arena set piece for this slot."}
-            </span>
-          </div>
-        );
-
-        // The badge is desktop-only — the row has no width for it on a phone.
-        // This carries the same explanation at every size, and it sits where
-        // a confused reader already clicks.
-        const resilienceNote = row.resiliencePick && (
-          <div className="flex items-start gap-2 border-t border-accent/20 bg-accent/[0.06] px-3 py-2 text-[11px] leading-relaxed text-accent/90 sm:px-4">
-            <Shield className="mt-0.5 size-3.5 shrink-0" aria-hidden />
-            <span>
-              Ranked first for its resilience, not its popularity — the raid
-              piece below it is worn more but has none. On a PvP page that
-              trade is worth the usage gap.
+              This is the most-equipped item for the slot, but it is raid gear
+              with no resilience.{" "}
+              {resilienceAlt ? (
+                <>
+                  For a pure-arena setup take{" "}
+                  <span className="font-medium">
+                    {resilienceAlt.name ?? "the arena piece"}
+                  </span>{" "}
+                  below
+                  {resilienceAlt.usagePct !== undefined
+                    ? ` (${resilienceAlt.usagePct}%)`
+                    : ""}
+                  .
+                </>
+              ) : (
+                "Prefer the season arena set piece for this slot."
+              )}
             </span>
           </div>
         );
@@ -158,7 +157,6 @@ export function GearGrid({
                 <span className="size-3.5 shrink-0" aria-hidden />
               </div>
               {warning}
-              {resilienceNote}
             </div>
           );
         }
@@ -188,7 +186,6 @@ export function GearGrid({
               />
             </summary>
             {warning}
-            {resilienceNote}
             <ul className="space-y-2 border-t border-border/60 bg-background px-3 py-2.5 sm:pl-[6.25rem]">
               {hasSource && (
                 <li className="flex flex-col gap-0.5 pb-1">

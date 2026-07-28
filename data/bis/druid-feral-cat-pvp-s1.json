@@ -180,14 +180,13 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 28128,
-    "name": "Gladiator's Dragonhide Legguards"
+    "itemId": 30229,
+    "name": "Nordrassil Feral-Kilt"
    },
    "alternatives": [
     {
-     "itemId": 30229,
-     "name": "Nordrassil Feral-Kilt",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28128,
+     "name": "Gladiator's Dragonhide Legguards"
     },
     {
      "itemId": 28741,
@@ -223,9 +222,37 @@
   {
    "slot": "Ring1",
    "bis": {
-    "itemId": 33057,
-    "name": "Veteran's Band of Triumph",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 34837,
+    "name": "The 2 Ring"
+   },
+   "alternatives": [
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28553,
+    "name": "Band of the Exorcist"
    },
    "alternatives": [
     {
@@ -234,37 +261,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28553,
-     "name": "Band of the Exorcist",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
      "pveFlexNote": "Seen mostly above 2200 rating."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 34837,
-    "name": "The 2 Ring"
-   },
-   "alternatives": [
-    {
-     "itemId": 33057,
-     "name": "Veteran's Band of Triumph",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
-     "itemId": 28553,
-     "name": "Band of the Exorcist",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28649,
-     "name": "Garona's Signet Ring",
+     "itemId": 28675,
+     "name": "Shermanar Great-Ring",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -272,14 +275,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28235,
-    "name": "Medallion of the Alliance"
+    "itemId": 32658,
+    "name": "Badge of Tenacity"
    },
    "alternatives": [
     {
-     "itemId": 32658,
-     "name": "Badge of Tenacity",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28235,
+     "name": "Medallion of the Alliance"
     },
     {
      "itemId": 28241,
@@ -296,13 +298,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 32658,
-    "name": "Badge of Tenacity"
+    "itemId": 28235,
+    "name": "Medallion of the Alliance"
    },
    "alternatives": [
     {
-     "itemId": 28235,
-     "name": "Medallion of the Alliance"
+     "itemId": 32658,
+     "name": "Badge of Tenacity",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28241,
@@ -370,14 +373,14 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
-   "note": "Socketed across 2 slots in this snapshot."
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 25896,
@@ -519,7 +522,7 @@
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "68% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -564,7 +567,7 @@
  "faq": [
   {
    "question": "What is the Season 1 arena set for Feral Druid?",
-   "answer": "The Gladiator's pieces: Gladiator's Dragonhide Helm, Gladiator's Dragonhide Spaulders, Gladiator's Dragonhide Tunic, Gladiator's Dragonhide Gloves, Gladiator's Dragonhide Legguards, Gladiator's Maul, Gladiator's Reprieve. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Dragonhide Helm, Gladiator's Dragonhide Spaulders, Gladiator's Dragonhide Tunic, Gladiator's Dragonhide Gloves, Gladiator's Maul, Gladiator's Reprieve. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

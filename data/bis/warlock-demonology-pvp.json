@@ -251,17 +251,18 @@
   },
   {
    "slot": "Trinket1",
+   "raidPick": true,
+   "resilienceAlt": 30348,
    "bis": {
-    "itemId": 30348,
-    "name": "Medallion of the Alliance",
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
     "usagePct": 56
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "usagePct": 56,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30348,
+     "name": "Medallion of the Alliance",
+     "usagePct": 56
     },
     {
      "itemId": 30449,
@@ -279,15 +280,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
+    "itemId": 30348,
+    "name": "Medallion of the Alliance",
     "usagePct": 56
    },
    "alternatives": [
     {
-     "itemId": 30348,
-     "name": "Medallion of the Alliance",
-     "usagePct": 56
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 56,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30449,

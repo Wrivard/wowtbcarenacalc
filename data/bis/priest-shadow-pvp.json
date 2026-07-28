@@ -339,18 +339,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 30346,
    "bis": {
-    "itemId": 30346,
-    "name": "Medallion of the Horde",
-    "usagePct": 43
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 80
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "usagePct": 80,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30346,
+     "name": "Medallion of the Horde",
+     "usagePct": 43
     },
     {
      "itemId": 30349,
@@ -368,15 +368,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 80
+    "itemId": 30346,
+    "name": "Medallion of the Horde",
+    "usagePct": 43
    },
    "alternatives": [
     {
-     "itemId": 30346,
-     "name": "Medallion of the Horde",
-     "usagePct": 43
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 80,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30349,

@@ -312,18 +312,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 30350,
    "bis": {
-    "itemId": 30350,
-    "name": "Medallion of the Alliance",
-    "usagePct": 51
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 87
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "usagePct": 87,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30350,
+     "name": "Medallion of the Alliance",
+     "usagePct": 51
     },
     {
      "itemId": 30344,
@@ -341,15 +341,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 87
+    "itemId": 30350,
+    "name": "Medallion of the Alliance",
+    "usagePct": 51
    },
    "alternatives": [
     {
-     "itemId": 30350,
-     "name": "Medallion of the Alliance",
-     "usagePct": 51
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 87,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30344,

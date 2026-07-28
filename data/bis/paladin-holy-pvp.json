@@ -42,17 +42,18 @@
   },
   {
    "slot": "Neck",
+   "raidPick": true,
+   "resilienceAlt": 33068,
    "bis": {
-    "itemId": 33068,
-    "name": "Veteran's Pendant of Salvation",
+    "itemId": 28609,
+    "name": "Emberspur Talisman",
     "usagePct": 22
    },
    "alternatives": [
     {
-     "itemId": 28609,
-     "name": "Emberspur Talisman",
-     "usagePct": 22,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33068,
+     "name": "Veteran's Pendant of Salvation",
+     "usagePct": 22
     },
     {
      "itemId": 28822,
@@ -188,24 +189,24 @@
   },
   {
    "slot": "Waist",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32801,
    "bis": {
-    "itemId": 32801,
-    "name": "Veteran's Lamellar Belt",
-    "usagePct": 11
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 67
    },
    "alternatives": [
-    {
-     "itemId": 30030,
-     "name": "Girdle of Fallen Stars",
-     "usagePct": 67,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30044,
      "name": "Monsoon Belt",
      "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32801,
+     "name": "Veteran's Lamellar Belt",
+     "usagePct": 11
     },
     {
      "itemId": 32988,
@@ -244,18 +245,18 @@
   },
   {
    "slot": "Feet",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32990,
    "bis": {
-    "itemId": 32990,
-    "name": "Veteran's Ornamented Greaves",
-    "usagePct": 33
+    "itemId": 30027,
+    "name": "Boots of Courage Unending",
+    "usagePct": 44
    },
    "alternatives": [
     {
-     "itemId": 30027,
-     "name": "Boots of Courage Unending",
-     "usagePct": 44,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32990,
+     "name": "Veteran's Ornamented Greaves",
+     "usagePct": 33
     },
     {
      "itemId": 32789,
@@ -266,11 +267,45 @@
   },
   {
    "slot": "Ring1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33056,
    "bis": {
-    "itemId": 33056,
-    "name": "Veteran's Band of Dominance",
-    "usagePct": 11
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 67
+   },
+   "alternatives": [
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "usagePct": 33,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "usagePct": 22,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "usagePct": 22,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "usagePct": 11
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29307,
+    "name": "Band of Eternity",
+    "usagePct": 33
    },
    "alternatives": [
     {
@@ -280,41 +315,14 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29307,
-     "name": "Band of Eternity",
-     "usagePct": 33,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
      "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 28790,
-    "name": "Naaru Lightwarden's Band",
-    "usagePct": 67
-   },
-   "alternatives": [
-    {
-     "itemId": 33056,
-     "name": "Veteran's Band of Dominance",
-     "usagePct": 11
     },
     {
-     "itemId": 29307,
-     "name": "Band of Eternity",
-     "usagePct": 33,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28763,
-     "name": "Jade Ring of the Everliving",
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
      "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
@@ -322,18 +330,18 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28236,
    "bis": {
-    "itemId": 28236,
-    "name": "Medallion of the Alliance",
-    "usagePct": 44
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 67
    },
    "alternatives": [
     {
-     "itemId": 29376,
-     "name": "Essence of the Martyr",
-     "usagePct": 67,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28236,
+     "name": "Medallion of the Alliance",
+     "usagePct": 44
     },
     {
      "itemId": 28242,
@@ -351,15 +359,16 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 67
+    "itemId": 28236,
+    "name": "Medallion of the Alliance",
+    "usagePct": 44
    },
    "alternatives": [
     {
-     "itemId": 28236,
-     "name": "Medallion of the Alliance",
-     "usagePct": 44
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "usagePct": 67,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28242,
@@ -458,7 +467,7 @@
   {
    "itemId": 24029,
    "name": "+18 Healing and +6 Spell Damage",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 25901,
@@ -583,7 +592,7 @@
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "67% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
    "source": "World Drop",
    "reagents": [
@@ -600,9 +609,9 @@
   },
   {
    "slot": "Ring",
-   "text": "+12 Spell Damage",
+   "text": "+20 Healing and +7 Spell Damage",
    "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Ring - Spellpower",
+   "name": "Enchant Ring - Healing Power",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
@@ -611,7 +620,11 @@
     },
     {
      "itemId": 22446,
-     "count": 2
+     "count": 3
+    },
+    {
+     "itemId": 22445,
+     "count": 5
     }
    ],
    "tool": "Runed Adamantite Rod"
@@ -660,11 +673,11 @@
   },
   {
    "question": "What is the most-used Holy Paladin PvP gear right now?",
-   "answer": "The highest-consensus picks are Merciless Gladiator's Salvation (78%), Veteran's Ornamented Bracers (67%), Naaru Lightwarden's Band (67%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Merciless Gladiator's Salvation (78%), Veteran's Ornamented Bracers (67%), Girdle of Fallen Stars (67%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Holy Paladin BiS list is PvP gear vs raid gear?",
-   "answer": "76% of the most-used slots are arena/honor items — for Holy Paladins the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "Only 53% of the most-used slots are PvP items — high-rated Holy Paladins flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Holy Paladins use in arena?",

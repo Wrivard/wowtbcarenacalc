@@ -27,12 +27,17 @@ export interface BisSlot {
   bis: BisItemRef;
   alternatives: BisItemRef[];
   /**
-   * PvP only: this pick was promoted over a MORE popular raid piece because
-   * it carries resilience (the guard in scripts/build-bis.mjs). Those rows
-   * show a usage % lower than an alternative below them, so the grid has to
-   * say why rather than look mis-sorted.
+   * PvP only: the ladder's most-equipped item for this slot is raid gear
+   * with no resilience. The list still leads with it — that is what top
+   * players wear — but the grid warns, because the trade is real.
    */
-  resiliencePick?: boolean;
+  raidPick?: boolean;
+  /**
+   * Item id of the highest-usage resilience alternative for a `raidPick`
+   * row. Guaranteed to be present in `alternatives`, so the warning can
+   * name something the reader can actually see.
+   */
+  resilienceAlt?: number;
 }
 
 export interface BisFaqItem {

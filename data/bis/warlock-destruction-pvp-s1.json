@@ -5,7 +5,7 @@
  "season": 1,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 1 arena gear for Destruction Warlock: the Gladiator's set (Gladiator's Felweave Cowl, Gladiator's Dreadweave Mantle, Gladiator's Dreadweave Robe…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Destruction Warlocks equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 1 arena gear for Destruction Warlock: the Gladiator's set (Gladiator's Spellblade…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Destruction Warlocks equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience leads the order, but the Season 1 budget is thin enough that it only blunts an opening burst rather than stopping it, and the ladder you are shooting at is just as exposed. Wrist, belt and ring are still dungeon and crafted fillers this early, so stack spell damage there and let Gladiator's Spellblade set your ceiling.",
  "statPriority": [
   "Resilience",
@@ -18,35 +18,28 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 30187,
-    "name": "Gladiator's Felweave Cowl"
+    "itemId": 30212,
+    "name": "Hood of the Corruptor"
    },
    "alternatives": [
-    {
-     "itemId": 30212,
-     "name": "Hood of the Corruptor",
-     "pveFlexNote": "Seen mostly above 2359 rating."
-    },
     {
      "itemId": 28963,
      "name": "Voidheart Crown",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30187,
+     "name": "Gladiator's Felweave Cowl"
     }
    ]
   },
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33065,
-    "name": "Veteran's Pendant of Dominance",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30015,
+    "name": "The Sun King's Talisman"
    },
    "alternatives": [
-    {
-     "itemId": 30015,
-     "name": "The Sun King's Talisman",
-     "pveFlexNote": "Seen mostly above 2359 rating."
-    },
     {
      "itemId": 28762,
      "name": "Adornment of Stolen Souls",
@@ -56,20 +49,24 @@
      "itemId": 28530,
      "name": "Brooch of Unquenchable Fury",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33065,
+     "name": "Veteran's Pendant of Dominance",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 24554,
-    "name": "Gladiator's Dreadweave Mantle"
+    "itemId": 28967,
+    "name": "Voidheart Mantle"
    },
    "alternatives": [
     {
-     "itemId": 28967,
-     "name": "Voidheart Mantle",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 24554,
+     "name": "Gladiator's Dreadweave Mantle"
     },
     {
      "itemId": 30186,
@@ -80,14 +77,13 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28378,
-    "name": "Sergeant's Heavy Cape"
+    "itemId": 28766,
+    "name": "Ruby Drape of the Mysticant"
    },
    "alternatives": [
     {
-     "itemId": 28766,
-     "name": "Ruby Drape of the Mysticant",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28378,
+     "name": "Sergeant's Heavy Cape"
     },
     {
      "itemId": 29992,
@@ -104,19 +100,18 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 24552,
-    "name": "Gladiator's Dreadweave Robe"
+    "itemId": 28964,
+    "name": "Voidheart Robe"
    },
    "alternatives": [
-    {
-     "itemId": 28964,
-     "name": "Voidheart Robe",
-     "pveFlexNote": "Seen mostly above 2359 rating."
-    },
     {
      "itemId": 30107,
      "name": "Vestments of the Sea-Witch",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 24552,
+     "name": "Gladiator's Dreadweave Robe"
     },
     {
      "itemId": 30056,
@@ -153,14 +148,13 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 24556,
-    "name": "Gladiator's Dreadweave Gloves"
+    "itemId": 28968,
+    "name": "Voidheart Gloves"
    },
    "alternatives": [
     {
-     "itemId": 28968,
-     "name": "Voidheart Gloves",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 24556,
+     "name": "Gladiator's Dreadweave Gloves"
     },
     {
      "itemId": 30188,
@@ -176,20 +170,19 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 32799,
-    "name": "Veteran's Dreadweave Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30038,
+    "name": "Belt of Blasting"
    },
    "alternatives": [
-    {
-     "itemId": 30038,
-     "name": "Belt of Blasting",
-     "pveFlexNote": "Seen mostly above 2359 rating."
-    },
     {
      "itemId": 28654,
      "name": "Malefic Girdle",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 32799,
+     "name": "Veteran's Dreadweave Belt",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 24256,
@@ -201,15 +194,10 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 24555,
-    "name": "Gladiator's Dreadweave Leggings"
+    "itemId": 30213,
+    "name": "Leggings of the Corruptor"
    },
    "alternatives": [
-    {
-     "itemId": 30213,
-     "name": "Leggings of the Corruptor",
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
     {
      "itemId": 24262,
      "name": "Spellstrike Pants",
@@ -219,21 +207,20 @@
      "itemId": 28966,
      "name": "Voidheart Leggings",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 24555,
+     "name": "Gladiator's Dreadweave Leggings"
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 28410,
-    "name": "General's Silk Footguards"
+    "itemId": 30050,
+    "name": "Boots of the Shifting Nightmare"
    },
    "alternatives": [
-    {
-     "itemId": 30050,
-     "name": "Boots of the Shifting Nightmare",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30037,
      "name": "Boots of Blasting",
@@ -243,11 +230,44 @@
      "itemId": 28179,
      "name": "Shattrath Jumpers",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28406,
+     "name": "Sigil-Laced Boots",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28410,
+     "name": "General's Silk Footguards"
     }
    ]
   },
   {
    "slot": "Ring1",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
@@ -272,45 +292,20 @@
    ]
   },
   {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 29302,
-    "name": "Band of Eternity"
-   },
-   "alternatives": [
-    {
-     "itemId": 33056,
-     "name": "Veteran's Band of Dominance",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
-    },
-    {
-     "itemId": 28753,
-     "name": "Ring of Recurrence",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28793,
-     "name": "Band of Crimson Fury",
-     "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30343,
-    "name": "Medallion of the Horde"
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
    },
    "alternatives": [
-    {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 30348,
@@ -321,18 +316,18 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "itemId": 27683,
+    "name": "Quagmirran's Eye"
    },
    "alternatives": [
     {
-     "itemId": 30343,
-     "name": "Medallion of the Horde"
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 27683,
-     "name": "Quagmirran's Eye",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 30348,
@@ -361,19 +356,18 @@
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 28346,
-    "name": "Gladiator's Endgame"
+    "itemId": 29272,
+    "name": "Orb of the Soul-Eater"
    },
    "alternatives": [
-    {
-     "itemId": 29272,
-     "name": "Orb of the Soul-Eater",
-     "pveFlexNote": "Seen mostly above 2359 rating."
-    },
     {
      "itemId": 30049,
      "name": "Fathomstone",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28346,
+     "name": "Gladiator's Endgame"
     },
     {
      "itemId": 28603,
@@ -385,14 +379,13 @@
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 28320,
-    "name": "Gladiator's Touch of Defeat"
+    "itemId": 29982,
+    "name": "Wand of the Forgotten Star"
    },
    "alternatives": [
     {
-     "itemId": 29982,
-     "name": "Wand of the Forgotten Star",
-     "pveFlexNote": "Seen mostly above 2359 rating."
+     "itemId": 28320,
+     "name": "Gladiator's Touch of Defeat"
     },
     {
      "itemId": 28386,
@@ -409,24 +402,24 @@
  ],
  "gems": [
   {
-   "itemId": 24039,
-   "name": "+10 Spell Penetration",
+   "itemId": 31867,
+   "name": "+4 Spell Hit Rating and +5 Spell Damage",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
-   "note": "Socketed across 3 slots in this snapshot."
-  },
-  {
-   "itemId": 25893,
-   "name": "Chance to Increase Spell Cast Speed",
+   "itemId": 34220,
+   "name": "+12 Spell Critical & 3% Increased Critical Damage",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 25896,
-   "name": "+18 Stamina & 5% Stun Resist",
-   "note": "Socketed across 1 slot in this snapshot."
+   "itemId": 24030,
+   "name": "+9 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -442,7 +435,7 @@
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
    "icon": "spell_holy_sealofwisdom",
    "itemId": 28886,
@@ -450,23 +443,44 @@
   },
   {
    "slot": "Back",
-   "text": "+20 Spell Penetration",
-   "note": "75% of surveyed players on this slot."
+   "text": "Subtlety",
+   "note": "14% of surveyed players on this slot.",
+   "name": "Enchant Cloak - Subtlety",
+   "source": "Emperor Vek'lor — Ahn'Qiraj",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    },
+    {
+     "itemId": 22456,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+6 All Stats",
+   "note": "60% of surveyed players on this slot.",
+   "name": "Enchant Chest - Exceptional Stats",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
-     "itemId": 22446,
+     "itemId": 22449,
      "count": 4
     },
     {
      "itemId": 22445,
-     "count": 10
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -496,7 +510,7 @@
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "56% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -517,49 +531,18 @@
   },
   {
    "slot": "Legs",
-   "text": "+35 Spell Damage and +20 Stamina",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Runic Spellthread",
-   "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274,
-   "source": "Tailoring Trainer — Faction Capital",
-   "reagents": [
-    {
-     "itemId": 14341,
-     "count": 1
-    },
-    {
-     "itemId": 22457,
-     "count": 10
-    },
-    {
-     "itemId": 23572,
-     "count": 1
-    }
-   ]
+   "text": "+25 Spell Damage and +15 Stamina",
+   "note": "50% of surveyed players on this slot."
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed and +9 Stamina",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop",
-   "reagents": [
-    {
-     "itemId": 22449,
-     "count": 8
-    },
-    {
-     "itemId": 22452,
-     "count": 8
-    }
-   ],
-   "tool": "Runed Adamantite Rod"
+   "text": "Minor Speed Increase",
+   "note": "60% of surveyed players on this slot."
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "60% of surveyed players on this slot.",
+   "note": "57% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -608,7 +591,7 @@
  "faq": [
   {
    "question": "What is the Season 1 arena set for Destruction Warlock?",
-   "answer": "The Gladiator's pieces: Gladiator's Felweave Cowl, Gladiator's Dreadweave Mantle, Gladiator's Dreadweave Robe, Gladiator's Dreadweave Gloves, Gladiator's Dreadweave Leggings, Gladiator's Spellblade, Gladiator's Endgame, Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Spellblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

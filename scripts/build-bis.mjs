@@ -187,48 +187,48 @@ async function main() {
     for (const [rawSlot, items] of Object.entries(spec.slots)) {
       if (!items.length) continue;
       const slot = SLOT_NAME[rawSlot] ?? rawSlot;
-      // Raid-piece guard (bug 0c): the upstream snapshot is meant to be
-      // sampled from arena-ACTIVE players (1800+ rating AND recent arena
-      // games). When raid-loggers leak into the sample, a no-resilience
-      // tier piece (isPvP === false) can top a slot. On a PvP page that is
-      // always wrong — a resilience piece beats a raid piece for the top
-      // slot regardless of raw popularity. So if the most-popular pick is
-      // a PvE item and any resilience alternative exists, promote the
-      // highest-usage PvP alternative to BiS and demote the raid piece.
+      // A no-resilience raid piece can top a slot: Restoration Shaman's
+      // waist is Girdle of Fallen Stars at 51% against the honor belt's 37%.
       //
-      // Record WHETHER it fired. The usage column is raw ladder usage, so a
-      // promotion leaves the top row showing a smaller number than the row
-      // below it, which reads as a broken sort unless the page says why.
+      // This used to be treated as sample contamination — raid-loggers
+      // leaking into an arena-active sample — and reordered away, promoting
+      // the best resilience alternative to BiS. The data does not support
+      // that premise. Across the 125 slots where it happens, the raid piece
+      // is worn by HIGHER-rated players in 52 cases against 41 for the arena
+      // piece, median rating difference zero. These are real choices by real
+      // gladiators, and reordering discarded a median 36 points of usage to
+      // claim otherwise.
+      //
+      // So the list reports what the ladder equips, in the ladder's order,
+      // and flags the trade-off instead of overruling it.
       const ranked = [...items];
-      let demoted = null;
-      if (ranked[0] && ranked[0].isPvP === false) {
-        const bestPvpIdx = ranked.findIndex((it) => it.isPvP === true);
-        if (bestPvpIdx > 0) {
-          demoted = ranked[0];
-          const [pvpPick] = ranked.splice(bestPvpIdx, 1);
-          ranked.unshift(pvpPick);
-        }
-      }
+      const bestPvpIdx = ranked.findIndex((it) => it.isPvP === true);
+      const arenaAlt =
+        ranked[0]?.isPvP === false && bestPvpIdx > 0 ? ranked[bestPvpIdx] : null;
       const targets = PAIRED_SLOTS[slot] ?? [slot];
       for (let pos = 0; pos < targets.length; pos++) {
-        // Past 100% in a two-position bucket means the average player wears
-        // more than one copy, so the same item is the honest pick for both
-        // fingers. Anything at or below that takes the next entry down.
-        const pick = ranked[0].popularity > 100 ? ranked[0] : ranked[pos];
+        // Always the next DISTINCT entry. An earlier version put the top pick
+        // in both positions when its usage passed 100%, reading that overflow
+        // as "worn on both fingers". The one case that triggers it is feral
+        // cat's The 2 Ring at 136%, a quest reward nobody can own twice — so
+        // the overflow is corrupt upstream data, not a double-equip signal,
+        // and honouring it produced a loadout no player can wear.
+        const pick = ranked[pos];
         if (!pick) break;
         // The source cannot say which finger an item sat on, so both rows
         // offer the same remaining pool minus their own pick.
         const alts = ranked.filter((a) => a !== pick).slice(0, 3);
+        // The warning names the arena option, so it has to be ON the page.
+        // Append rather than hoist: it is by definition less used than the
+        // three above it, so the list stays in descending order.
+        if (arenaAlt && pick === ranked[0] && !alts.includes(arenaAlt))
+          alts.push(arenaAlt);
         slots[targets[pos]] = {
           slot: targets[pos],
           bisIsPvP: pick.isPvP,
-          // Only the row that RECEIVED the promotion, and only when the piece
-          // it displaced was genuinely more popular. A paired slot's second
-          // row also shows a number below its own alternatives — but that is
-          // the Ring1/Ring2 split, not an editorial call, and labelling it
-          // would explain the wrong thing.
-          ...(pick === ranked[0] && demoted && demoted.popularity > pick.popularity
-            ? { resiliencePick: true }
+          // Only on the row that actually leads with raid gear.
+          ...(arenaAlt && pick === ranked[0]
+            ? { raidPick: true, resilienceAlt: arenaAlt.id }
             : {}),
           bis: {
             itemId: pick.id,

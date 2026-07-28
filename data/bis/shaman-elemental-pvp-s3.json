@@ -32,15 +32,10 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33921,
-    "name": "Vindicator's Pendant of Dominance"
+    "itemId": 30008,
+    "name": "Pendant of the Lost Ages"
    },
    "alternatives": [
-    {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
@@ -50,6 +45,15 @@
      "itemId": 29347,
      "name": "Talisman of the Breaker",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33921,
+     "name": "Vindicator's Pendant of Dominance"
     }
    ]
   },
@@ -204,14 +208,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30345,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 30351,
@@ -227,13 +230,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "itemId": 30345,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
-     "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
@@ -288,14 +292,14 @@
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
    "itemId": 28118,
    "name": "+12 Spell Damage",
    "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -495,7 +499,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Pendant of Dominance, Vindicator's Mail Bracers, Vindicator's Mail Girdle, Vindicator's Mail Sabatons, Vindicator's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Vindicator's Mail Bracers, Vindicator's Mail Girdle, Vindicator's Mail Sabatons, Vindicator's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

@@ -36,15 +36,14 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33068,
-    "name": "Veteran's Pendant of Salvation",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 28609,
+    "name": "Emberspur Talisman"
    },
    "alternatives": [
     {
-     "itemId": 28609,
-     "name": "Emberspur Talisman",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33068,
+     "name": "Veteran's Pendant of Salvation",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28822,
@@ -164,20 +163,19 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 32801,
-    "name": "Veteran's Lamellar Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30030,
+    "name": "Girdle of Fallen Stars"
    },
    "alternatives": [
-    {
-     "itemId": 30030,
-     "name": "Girdle of Fallen Stars",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30044,
      "name": "Monsoon Belt",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32801,
+     "name": "Veteran's Lamellar Belt",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 32988,
@@ -213,15 +211,14 @@
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 32990,
-    "name": "Veteran's Ornamented Greaves",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30027,
+    "name": "Boots of Courage Unending"
    },
    "alternatives": [
     {
-     "itemId": 30027,
-     "name": "Boots of Courage Unending",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32990,
+     "name": "Veteran's Ornamented Greaves",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 32789,
@@ -233,9 +230,37 @@
   {
    "slot": "Ring1",
    "bis": {
-    "itemId": 33056,
-    "name": "Veteran's Band of Dominance",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band"
+   },
+   "alternatives": [
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29307,
+    "name": "Band of Eternity"
    },
    "alternatives": [
     {
@@ -244,37 +269,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29307,
-     "name": "Band of Eternity",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 28790,
-    "name": "Naaru Lightwarden's Band"
-   },
-   "alternatives": [
-    {
-     "itemId": 33056,
-     "name": "Veteran's Band of Dominance",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
-     "itemId": 29307,
-     "name": "Band of Eternity",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28763,
-     "name": "Jade Ring of the Everliving",
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -282,14 +283,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28236,
-    "name": "Medallion of the Alliance"
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
    },
    "alternatives": [
     {
-     "itemId": 29376,
-     "name": "Essence of the Martyr",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28236,
+     "name": "Medallion of the Alliance"
     },
     {
      "itemId": 28242,
@@ -305,13 +305,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "itemId": 28236,
+    "name": "Medallion of the Alliance"
    },
    "alternatives": [
     {
-     "itemId": 28236,
-     "name": "Medallion of the Alliance"
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28242,
@@ -400,7 +401,7 @@
   {
    "itemId": 24029,
    "name": "+18 Healing and +6 Spell Damage",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 25901,
@@ -525,7 +526,7 @@
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "67% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
    "source": "World Drop",
    "reagents": [
@@ -542,9 +543,9 @@
   },
   {
    "slot": "Ring",
-   "text": "+12 Spell Damage",
+   "text": "+20 Healing and +7 Spell Damage",
    "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Ring - Spellpower",
+   "name": "Enchant Ring - Healing Power",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
@@ -553,7 +554,11 @@
     },
     {
      "itemId": 22446,
-     "count": 2
+     "count": 3
+    },
+    {
+     "itemId": 22445,
+     "count": 5
     }
    ],
    "tool": "Runed Adamantite Rod"

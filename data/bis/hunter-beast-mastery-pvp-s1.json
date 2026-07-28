@@ -5,7 +5,7 @@
  "season": 1,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 1 arena gear for Beast Mastery Hunter: the Gladiator's set (Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Armor…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Beast Mastery Hunters equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 1 arena gear for Beast Mastery Hunter: the Gladiator's set (Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Gauntlets…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Beast Mastery Hunters equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Nothing in the Gladiator's set is rating-locked, so the only limit is points — and until it is finished, stopgaps like General's Chain Bracers are all that stands between a cleave and the thinnest resilience budget of the expansion. Attack power comes free off stat sticks such as Twinblade of the Phoenix, so the real trade only bites on armor slots.",
  "statPriority": [
   "Resilience",
@@ -37,16 +37,10 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33066,
-    "name": "Veteran's Pendant of Triumph",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30017,
+    "name": "Telonicus's Pendant of Mayhem"
    },
    "alternatives": [
-    {
-     "itemId": 30017,
-     "name": "Telonicus's Pendant of Mayhem",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
@@ -56,6 +50,16 @@
      "itemId": 28674,
      "name": "Saberclaw Talisman",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29381,
+     "name": "Choker of Vile Intent",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33066,
+     "name": "Veteran's Pendant of Triumph",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
@@ -100,14 +104,13 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 28334,
-    "name": "Gladiator's Chain Armor"
+    "itemId": 30139,
+    "name": "Rift Stalker Hauberk"
    },
    "alternatives": [
     {
-     "itemId": 30139,
-     "name": "Rift Stalker Hauberk",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28334,
+     "name": "Gladiator's Chain Armor"
     },
     {
      "itemId": 29082,
@@ -229,9 +232,37 @@
   {
    "slot": "Ring1",
    "bis": {
-    "itemId": 33057,
-    "name": "Veteran's Band of Triumph",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 29298,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28791,
+    "name": "Ring of the Recalcitrant"
    },
    "alternatives": [
     {
@@ -240,37 +271,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28791,
-     "name": "Ring of the Recalcitrant",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 30052,
      "name": "Ring of Lethality",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 29298,
-    "name": "Band of Eternity"
-   },
-   "alternatives": [
-    {
-     "itemId": 33057,
-     "name": "Veteran's Band of Triumph",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
-     "itemId": 28791,
-     "name": "Ring of the Recalcitrant",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30052,
-     "name": "Ring of Lethality",
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -278,14 +285,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28243,
-    "name": "Medallion of the Horde"
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28243,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 28237,
@@ -301,13 +307,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "itemId": 28243,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
-     "itemId": 28243,
-     "name": "Medallion of the Horde"
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28237,
@@ -347,15 +354,10 @@
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 28309,
-    "name": "Gladiator's Hacker"
+    "itemId": 28315,
+    "name": "Stormreaver Warblades"
    },
    "alternatives": [
-    {
-     "itemId": 28315,
-     "name": "Stormreaver Warblades",
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
     {
      "itemId": 28345,
      "name": "Warp Splinter's Thorn",
@@ -364,6 +366,11 @@
     {
      "itemId": 29948,
      "name": "Claw of the Phoenix",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28309,
+     "name": "Gladiator's Hacker",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -401,13 +408,13 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 28119,
-   "name": "+10 Critical Strike Rating",
+   "itemId": 32409,
+   "name": "+12 Agility & 3% Increased Critical Damage",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -455,7 +462,7 @@
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "57% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
    "reagents": [
@@ -558,7 +565,7 @@
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -597,8 +604,25 @@
   },
   {
    "slot": "OffHand",
-   "text": "+30 Intellect",
-   "note": "100% of surveyed players on this slot."
+   "text": "+15 Agility",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Superior Agility",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Ranged",
@@ -609,7 +633,7 @@
  "faq": [
   {
    "question": "What is the Season 1 arena set for Beast Mastery Hunter?",
-   "answer": "The Gladiator's pieces: Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Armor, Gladiator's Chain Gauntlets, Gladiator's Chain Leggings, Gladiator's Decapitator, Gladiator's Hacker. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Chain Helm, Gladiator's Chain Spaulders, Gladiator's Chain Gauntlets, Gladiator's Chain Leggings, Gladiator's Decapitator. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

@@ -239,14 +239,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28241,
-    "name": "Medallion of the Horde"
+    "itemId": 28370,
+    "name": "Bangle of Endless Blessings"
    },
    "alternatives": [
     {
-     "itemId": 28370,
-     "name": "Bangle of Endless Blessings",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28241,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 28235,
@@ -262,13 +261,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 28370,
-    "name": "Bangle of Endless Blessings"
+    "itemId": 28241,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
-     "itemId": 28241,
-     "name": "Medallion of the Horde"
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28235,

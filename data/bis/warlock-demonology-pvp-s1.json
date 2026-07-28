@@ -194,14 +194,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30348,
-    "name": "Medallion of the Alliance"
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
    },
    "alternatives": [
     {
-     "itemId": 29370,
-     "name": "Icon of the Silver Crescent",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30348,
+     "name": "Medallion of the Alliance"
     },
     {
      "itemId": 30449,
@@ -217,13 +216,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "itemId": 30348,
+    "name": "Medallion of the Alliance"
    },
    "alternatives": [
     {
-     "itemId": 30348,
-     "name": "Medallion of the Alliance"
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30449,

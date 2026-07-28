@@ -37,19 +37,14 @@
   },
   {
    "slot": "Neck",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33068,
    "bis": {
-    "itemId": 33068,
-    "name": "Veteran's Pendant of Salvation",
-    "usagePct": 13
+    "itemId": 28822,
+    "name": "Teeth of Gruul",
+    "usagePct": 33
    },
    "alternatives": [
-    {
-     "itemId": 28822,
-     "name": "Teeth of Gruul",
-     "usagePct": 33,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28609,
      "name": "Emberspur Talisman",
@@ -61,29 +56,40 @@
      "name": "Lord Sanguinar's Claim",
      "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33068,
+     "name": "Veteran's Pendant of Salvation",
+     "usagePct": 13
     }
    ]
   },
   {
    "slot": "Shoulders",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32018,
    "bis": {
-    "itemId": 32018,
-    "name": "Merciless Gladiator's Mooncloth Mantle",
-    "usagePct": 12
+    "itemId": 30154,
+    "name": "Mantle of the Avatar",
+    "usagePct": 48
    },
    "alternatives": [
-    {
-     "itemId": 30154,
-     "name": "Mantle of the Avatar",
-     "usagePct": 48,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29054,
      "name": "Light-Mantle of the Incarnate",
      "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32018,
+     "name": "Merciless Gladiator's Mooncloth Mantle",
+     "usagePct": 12
     },
     {
      "itemId": 21874,
@@ -117,19 +123,14 @@
   },
   {
    "slot": "Chest",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32019,
    "bis": {
-    "itemId": 32019,
-    "name": "Merciless Gladiator's Mooncloth Robe",
-    "usagePct": 10
+    "itemId": 30150,
+    "name": "Vestments of the Avatar",
+    "usagePct": 57
    },
    "alternatives": [
-    {
-     "itemId": 30150,
-     "name": "Vestments of the Avatar",
-     "usagePct": 57,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29050,
      "name": "Robes of the Incarnate",
@@ -141,23 +142,28 @@
      "name": "Masquerade Gown",
      "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32019,
+     "name": "Merciless Gladiator's Mooncloth Robe",
+     "usagePct": 10
     }
    ]
   },
   {
    "slot": "Wrist",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32980,
    "bis": {
-    "itemId": 32980,
-    "name": "Veteran's Mooncloth Cuffs",
-    "usagePct": 30
+    "itemId": 32516,
+    "name": "Wraps of Purification",
+    "usagePct": 45
    },
    "alternatives": [
     {
-     "itemId": 32516,
-     "name": "Wraps of Purification",
-     "usagePct": 45,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32980,
+     "name": "Veteran's Mooncloth Cuffs",
+     "usagePct": 30
     },
     {
      "itemId": 28511,
@@ -175,19 +181,14 @@
   },
   {
    "slot": "Hands",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32015,
    "bis": {
-    "itemId": 32015,
-    "name": "Merciless Gladiator's Mooncloth Gloves",
-    "usagePct": 8
+    "itemId": 30151,
+    "name": "Gloves of the Avatar",
+    "usagePct": 62
    },
    "alternatives": [
-    {
-     "itemId": 30151,
-     "name": "Gloves of the Avatar",
-     "usagePct": 62,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29055,
      "name": "Handwraps of the Incarnate",
@@ -199,24 +200,24 @@
      "name": "Gloves of Saintly Blessings",
      "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32015,
+     "name": "Merciless Gladiator's Mooncloth Gloves",
+     "usagePct": 8
     }
    ]
   },
   {
    "slot": "Waist",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32979,
    "bis": {
-    "itemId": 32979,
-    "name": "Veteran's Mooncloth Belt",
-    "usagePct": 13
+    "itemId": 28652,
+    "name": "Cincture of Will",
+    "usagePct": 37
    },
    "alternatives": [
-    {
-     "itemId": 28652,
-     "name": "Cincture of Will",
-     "usagePct": 37,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
@@ -228,24 +229,24 @@
      "name": "Primal Mooncloth Belt",
      "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32979,
+     "name": "Veteran's Mooncloth Belt",
+     "usagePct": 13
     }
    ]
   },
   {
    "slot": "Legs",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32017,
    "bis": {
-    "itemId": 32017,
-    "name": "Merciless Gladiator's Mooncloth Leggings",
-    "usagePct": 10
+    "itemId": 30153,
+    "name": "Breeches of the Avatar",
+    "usagePct": 53
    },
    "alternatives": [
-    {
-     "itemId": 30153,
-     "name": "Breeches of the Avatar",
-     "usagePct": 53,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28742,
      "name": "Pantaloons of Repentance",
@@ -257,6 +258,11 @@
      "name": "Star-Soul Breeches",
      "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32017,
+     "name": "Merciless Gladiator's Mooncloth Leggings",
+     "usagePct": 10
     }
    ]
   },
@@ -284,11 +290,45 @@
   },
   {
    "slot": "Ring1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33064,
    "bis": {
-    "itemId": 33064,
-    "name": "Veteran's Band of Salvation",
-    "usagePct": 7
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 78
+   },
+   "alternatives": [
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 47,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 23,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "usagePct": 15,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33064,
+     "name": "Veteran's Band of Salvation",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30110,
+    "name": "Coral Band of the Revived",
+    "usagePct": 47
    },
    "alternatives": [
     {
@@ -298,53 +338,60 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "usagePct": 47,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
      "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer",
-    "usagePct": 78
-   },
-   "alternatives": [
-    {
-     "itemId": 33064,
-     "name": "Veteran's Band of Salvation",
-     "usagePct": 7
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "usagePct": 47,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28790,
-     "name": "Naaru Lightwarden's Band",
-     "usagePct": 23,
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 30349,
    "bis": {
-    "itemId": 30349,
-    "name": "Medallion of the Alliance",
-    "usagePct": 7
+    "itemId": 29376,
+    "name": "Essence of the Martyr",
+    "usagePct": 58
+   },
+   "alternatives": [
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "usagePct": 45,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28823,
+     "name": "Eye of Gruul",
+     "usagePct": 32,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 12,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30665,
+    "name": "Earring of Soulful Meditation",
+    "usagePct": 45
    },
    "alternatives": [
     {
@@ -354,42 +401,15 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30665,
-     "name": "Earring of Soulful Meditation",
-     "usagePct": 45,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28823,
      "name": "Eye of Gruul",
      "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr",
-    "usagePct": 58
-   },
-   "alternatives": [
-    {
-     "itemId": 30349,
-     "name": "Medallion of the Alliance",
-     "usagePct": 7
     },
     {
-     "itemId": 30665,
-     "name": "Earring of Soulful Meditation",
-     "usagePct": 45,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28823,
-     "name": "Eye of Gruul",
-     "usagePct": 32,
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -469,24 +489,24 @@
  ],
  "gems": [
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
-   "itemId": 32836,
-   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
-   "note": "Socketed across 2 slots in this snapshot."
-  },
-  {
-   "itemId": 31861,
-   "name": "+8 Spell Hit Rating",
-   "note": "Socketed across 3 slots in this snapshot."
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 25901,
    "name": "+12 Intellect & Chance to restore mana on spellcast",
    "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -502,7 +522,7 @@
   {
    "slot": "Shoulders",
    "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
-   "note": "71% of surveyed players on this slot."
+   "note": "59% of surveyed players on this slot."
   },
   {
    "slot": "Back",
@@ -511,45 +531,54 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+15 Spirit",
+   "note": "44% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Spirit",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 4
-    },
-    {
-     "itemId": 22445,
-     "count": 10
+     "count": 2
     }
    ],
    "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
-   "text": "6 Mana per 5 Sec.",
-   "note": "44% of surveyed players on this slot."
-  },
-  {
-   "slot": "Hands",
-   "text": "+15 Spell Hit Rating",
-   "note": "80% of surveyed players on this slot.",
-   "name": "Enchant Gloves - Spell Strike",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "59% of surveyed players on this slot.",
+   "name": "Enchant Bracer - Superior Healing",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 8
+     "count": 4
     },
     {
-     "itemId": 22445,
-     "count": 2
+     "itemId": 21886,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "51% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Major Healing",
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
     },
     {
      "itemId": 22449,
-     "count": 2
+     "count": 6
+    },
+    {
+     "itemId": 21886,
+     "count": 6
     }
    ],
    "tool": "Runed Adamantite Rod"
@@ -557,7 +586,7 @@
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
-   "note": "100% of surveyed players on this slot.",
+   "note": "94% of surveyed players on this slot.",
    "name": "Golden Spellthread",
    "icon": "spell_holy_restoration",
    "itemId": 24276,
@@ -598,7 +627,7 @@
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "89% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -651,7 +680,7 @@
   },
   {
    "question": "How much of the Holy Priest BiS list is PvP gear vs raid gear?",
-   "answer": "Only 59% of the most-used slots are PvP items — high-rated Holy Priests flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+   "answer": "Only 6% of the most-used slots are PvP items — high-rated Holy Priests flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Holy Priests use in arena?",
@@ -659,7 +688,7 @@
   },
   {
    "question": "What gems do Holy Priests socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Resilience Rating, +9 Healing +3 Spell Damage and +4 Spirit, +8 Spell Hit Rating. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +4 Spirit, +18 Healing and +6 Spell Damage, +12 Intellect & Chance to restore mana on spellcast. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

@@ -247,14 +247,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30350,
-    "name": "Medallion of the Alliance"
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30350,
+     "name": "Medallion of the Alliance"
     },
     {
      "itemId": 30344,
@@ -270,13 +269,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "itemId": 30350,
+    "name": "Medallion of the Alliance"
    },
    "alternatives": [
     {
-     "itemId": 30350,
-     "name": "Medallion of the Alliance"
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30344,

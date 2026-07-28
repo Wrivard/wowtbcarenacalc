@@ -5,7 +5,7 @@
  "season": 1,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 1 arena gear for Arcane Mage: the Gladiator's set (Gladiator's Silk Cowl, Gladiator's Silk Amice, Gladiator's Silk Raiment…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 1 arena gear for Arcane Mage: the Gladiator's set (Gladiator's Spellblade…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience leads the list but there is barely any of it on offer — the Gladiator's Silk Cowl and Gladiator's Spellblade cost points alone, and everything between them is Marshal's and General's honor filler. Stamina does the real work: an opener eats the whole pool anyway, so raw health is what buys you time to reach Ice Block.",
  "statPriority": [
   "Resilience",
@@ -18,14 +18,14 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 25855,
-    "name": "Gladiator's Silk Cowl"
+    "itemId": 30206,
+    "name": "Cowl of Tirisfal"
    },
    "alternatives": [
     {
-     "itemId": 30206,
-     "name": "Cowl of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 25855,
+     "name": "Gladiator's Silk Cowl",
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 29076,
@@ -37,16 +37,10 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33067,
-    "name": "Veteran's Pendant of Conquest",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30015,
+    "name": "The Sun King's Talisman"
    },
    "alternatives": [
-    {
-     "itemId": 30015,
-     "name": "The Sun King's Talisman",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28762,
      "name": "Adornment of Stolen Souls",
@@ -56,25 +50,35 @@
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
      "pveFlexNote": "Seen mostly above 2408 rating."
+    },
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33067,
+     "name": "Veteran's Pendant of Conquest",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 25854,
-    "name": "Gladiator's Silk Amice"
+    "itemId": 30210,
+    "name": "Mantle of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30210,
-     "name": "Mantle of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29079,
      "name": "Pauldrons of the Aldor",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25854,
+     "name": "Gladiator's Silk Amice",
+     "pveFlexNote": "Seen mostly above 2408 rating."
     }
    ]
   },
@@ -100,15 +104,10 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 25856,
-    "name": "Gladiator's Silk Raiment"
+    "itemId": 30196,
+    "name": "Robes of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30196,
-     "name": "Robes of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28602,
      "name": "Robe of the Elder Scribes",
@@ -118,6 +117,16 @@
      "itemId": 29077,
      "name": "Vestments of the Aldor",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25856,
+     "name": "Gladiator's Silk Raiment",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -147,19 +156,18 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 25857,
-    "name": "Gladiator's Silk Handguards"
+    "itemId": 30205,
+    "name": "Gloves of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30205,
-     "name": "Gloves of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29987,
      "name": "Gauntlets of the Sun King",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25857,
+     "name": "Gladiator's Silk Handguards"
     },
     {
      "itemId": 29080,
@@ -171,20 +179,19 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 32807,
-    "name": "Veteran's Silk Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 30064,
+    "name": "Cord of Screaming Terrors"
    },
    "alternatives": [
-    {
-     "itemId": 30064,
-     "name": "Cord of Screaming Terrors",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30038,
      "name": "Belt of Blasting",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32807,
+     "name": "Veteran's Silk Belt",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28799,
@@ -196,15 +203,10 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 25858,
-    "name": "Gladiator's Silk Trousers"
+    "itemId": 30207,
+    "name": "Leggings of Tirisfal"
    },
    "alternatives": [
-    {
-     "itemId": 30207,
-     "name": "Leggings of Tirisfal",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
@@ -214,26 +216,30 @@
      "itemId": 29972,
      "name": "Trousers of the Astromancer",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 25858,
+     "name": "Gladiator's Silk Trousers",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 32795,
-    "name": "Veteran's Silk Footguards",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 28517,
+    "name": "Boots of Foretelling"
    },
    "alternatives": [
-    {
-     "itemId": 28517,
-     "name": "Boots of Foretelling",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30067,
      "name": "Velvet Boots of the Guardian",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32795,
+     "name": "Veteran's Silk Footguards",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28585,
@@ -293,8 +299,36 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28238,
-    "name": "Medallion of the Alliance"
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28238,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30720,
+    "name": "Serpent-Coil Braid"
    },
    "alternatives": [
     {
@@ -303,36 +337,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30720,
-     "name": "Serpent-Coil Braid",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28785,
      "name": "The Lightning Capacitor",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
-   },
-   "alternatives": [
-    {
-     "itemId": 28238,
-     "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 30720,
-     "name": "Serpent-Coil Braid",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28785,
-     "name": "The Lightning Capacitor",
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -388,19 +399,18 @@
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 28320,
-    "name": "Gladiator's Touch of Defeat"
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration"
    },
    "alternatives": [
-    {
-     "itemId": 28783,
-     "name": "Eredar Wand of Obliteration",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28673,
      "name": "Tirisfal Wand of Ascendancy",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28320,
+     "name": "Gladiator's Touch of Defeat"
     },
     {
      "itemId": 28386,
@@ -412,23 +422,23 @@
  ],
  "gems": [
   {
-   "itemId": 24059,
-   "name": "+4 Spell Critical Rating and +5 Spell Damage",
-   "note": "Socketed across 3 slots in this snapshot."
+   "itemId": 24047,
+   "name": "+8 Intellect",
+   "note": "Socketed across 7 slots in this snapshot."
   },
   {
-   "itemId": 28118,
-   "name": "+12 Spell Damage",
+   "itemId": 24030,
+   "name": "+9 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 34220,
    "name": "+12 Spell Critical & 3% Increased Critical Damage",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24039,
-   "name": "+10 Spell Penetration",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -445,7 +455,7 @@
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "40% of surveyed players on this slot.",
+   "note": "42% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
    "icon": "spell_holy_sealofwisdom",
    "itemId": 28886,
@@ -458,18 +468,22 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+6 All Stats",
+   "note": "71% of surveyed players on this slot.",
+   "name": "Enchant Chest - Exceptional Stats",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
-     "itemId": 22446,
+     "itemId": 22449,
      "count": 4
     },
     {
      "itemId": 22445,
-     "count": 10
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -499,7 +513,7 @@
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "80% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -544,7 +558,7 @@
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "75% of surveyed players on this slot.",
+   "note": "44% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
    "source": "World Drop",
    "reagents": [
@@ -599,7 +613,7 @@
  "faq": [
   {
    "question": "What is the Season 1 arena set for Arcane Mage?",
-   "answer": "The Gladiator's pieces: Gladiator's Silk Cowl, Gladiator's Silk Amice, Gladiator's Silk Raiment, Gladiator's Silk Handguards, Gladiator's Silk Trousers, Gladiator's Spellblade, Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Spellblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

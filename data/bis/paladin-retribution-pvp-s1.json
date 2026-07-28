@@ -76,19 +76,18 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak"
+    "itemId": 30098,
+    "name": "Razor-Scale Battlecloak"
    },
    "alternatives": [
-    {
-     "itemId": 30098,
-     "name": "Razor-Scale Battlecloak",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28377,
+     "name": "Sergeant's Heavy Cloak"
     }
    ]
   },
@@ -114,20 +113,19 @@
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 32819,
-    "name": "Veteran's Scaled Bracers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "itemId": 28795,
+    "name": "Bladespire Warbands"
    },
    "alternatives": [
-    {
-     "itemId": 28795,
-     "name": "Bladespire Warbands",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32819,
+     "name": "Veteran's Scaled Bracers",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
@@ -265,14 +263,13 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 28242,
-    "name": "Medallion of the Horde"
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
    },
    "alternatives": [
     {
-     "itemId": 29383,
-     "name": "Bloodlust Brooch",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 28242,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 28830,
@@ -288,13 +285,14 @@
   {
    "slot": "Trinket2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "itemId": 28242,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
-     "itemId": 28242,
-     "name": "Medallion of the Horde"
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28830,
@@ -344,17 +342,17 @@
   {
    "itemId": 24027,
    "name": "+8 Strength",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24054,
+   "name": "+4 Strength and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 25901,
    "name": "+12 Intellect & Chance to restore mana on spellcast",
    "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24058,
-   "name": "+4 Critical Strike Rating and +4 Strength",
-   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28363,
@@ -384,7 +382,7 @@
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "80% of surveyed players on this slot.",
+   "note": "82% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -428,7 +426,7 @@
   {
    "slot": "Wrist",
    "text": "+12 Strength",
-   "note": "63% of surveyed players on this slot.",
+   "note": "85% of surveyed players on this slot.",
    "name": "Enchant Bracer - Brawn",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [

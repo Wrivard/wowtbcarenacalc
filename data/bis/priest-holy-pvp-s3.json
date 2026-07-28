@@ -5,7 +5,7 @@
  "season": 3,
  "seasonPage": true,
  "updatedAt": "2026-07-26",
- "blurb": "Season 3 arena gear for Holy Priest: the Vengeful Gladiator's set (Vengeful Gladiator's Mooncloth Mantle, Vengeful Gladiator's Mooncloth Robe, Vengeful Gladiator's Mooncloth Gloves…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Holy Priests equip into their Season 3 equivalents — same slot logic, this season's items.",
+ "blurb": "Season 3 arena gear for Holy Priest: the Vengeful Gladiator's set (Vengeful Gladiator's Salvation…). Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Holy Priests equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Enough resilience is on the table now that surviving a swap stops being a coin flip, and bonus healing pulls further ahead — you live long enough for the big heals to land. The Vengeful Gladiator's Mooncloth Mantle sits behind 2000 and the weapon behind 1850, so below those numbers you keep Merciless shoulders and spend points on the rating-free slots first.",
  "statPriority": [
   "Resilience",
@@ -32,15 +32,10 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 33922,
-    "name": "Vindicator's Pendant of Salvation"
+    "itemId": 28822,
+    "name": "Teeth of Gruul"
    },
    "alternatives": [
-    {
-     "itemId": 28822,
-     "name": "Teeth of Gruul",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28609,
      "name": "Emberspur Talisman",
@@ -50,25 +45,33 @@
      "itemId": 30018,
      "name": "Lord Sanguinar's Claim",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28731,
+     "name": "Shining Chain of the Afterworld",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33922,
+     "name": "Vindicator's Pendant of Salvation"
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 33720,
-    "name": "Vengeful Gladiator's Mooncloth Mantle"
+    "itemId": 30154,
+    "name": "Mantle of the Avatar"
    },
    "alternatives": [
-    {
-     "itemId": 30154,
-     "name": "Mantle of the Avatar",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29054,
      "name": "Light-Mantle of the Incarnate",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33720,
+     "name": "Vengeful Gladiator's Mooncloth Mantle"
     },
     {
      "itemId": 21874,
@@ -99,15 +102,10 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 33721,
-    "name": "Vengeful Gladiator's Mooncloth Robe"
+    "itemId": 30150,
+    "name": "Vestments of the Avatar"
    },
    "alternatives": [
-    {
-     "itemId": 30150,
-     "name": "Vestments of the Avatar",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29050,
      "name": "Robes of the Incarnate",
@@ -117,20 +115,23 @@
      "itemId": 28578,
      "name": "Masquerade Gown",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33721,
+     "name": "Vengeful Gladiator's Mooncloth Robe"
     }
    ]
   },
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 33901,
-    "name": "Vindicator's Mooncloth Cuffs"
+    "itemId": 32516,
+    "name": "Wraps of Purification"
    },
    "alternatives": [
     {
-     "itemId": 32516,
-     "name": "Wraps of Purification",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 33901,
+     "name": "Vindicator's Mooncloth Cuffs"
     },
     {
      "itemId": 28511,
@@ -147,15 +148,10 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 33717,
-    "name": "Vengeful Gladiator's Mooncloth Gloves"
+    "itemId": 30151,
+    "name": "Gloves of the Avatar"
    },
    "alternatives": [
-    {
-     "itemId": 30151,
-     "name": "Gloves of the Avatar",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29055,
      "name": "Handwraps of the Incarnate",
@@ -165,21 +161,20 @@
      "itemId": 28508,
      "name": "Gloves of Saintly Blessings",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33717,
+     "name": "Vengeful Gladiator's Mooncloth Gloves"
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 33900,
-    "name": "Vindicator's Mooncloth Belt"
+    "itemId": 28652,
+    "name": "Cincture of Will"
    },
    "alternatives": [
-    {
-     "itemId": 28652,
-     "name": "Cincture of Will",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
@@ -189,21 +184,20 @@
      "itemId": 21873,
      "name": "Primal Mooncloth Belt",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33900,
+     "name": "Vindicator's Mooncloth Belt"
     }
    ]
   },
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 33719,
-    "name": "Vengeful Gladiator's Mooncloth Leggings"
+    "itemId": 30153,
+    "name": "Breeches of the Avatar"
    },
    "alternatives": [
-    {
-     "itemId": 30153,
-     "name": "Breeches of the Avatar",
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28742,
      "name": "Pantaloons of Repentance",
@@ -213,6 +207,10 @@
      "itemId": 29977,
      "name": "Star-Soul Breeches",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33719,
+     "name": "Vengeful Gladiator's Mooncloth Leggings"
     }
    ]
   },
@@ -238,8 +236,36 @@
   {
    "slot": "Ring1",
    "bis": {
-    "itemId": 33918,
-    "name": "Vindicator's Band of Salvation"
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer"
+   },
+   "alternatives": [
+    {
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33918,
+     "name": "Vindicator's Band of Salvation"
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30110,
+    "name": "Coral Band of the Revived"
    },
    "alternatives": [
     {
@@ -248,36 +274,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Ring2",
-   "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer"
-   },
-   "alternatives": [
-    {
-     "itemId": 33918,
-     "name": "Vindicator's Band of Salvation"
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28790,
-     "name": "Naaru Lightwarden's Band",
+     "itemId": 29307,
+     "name": "Band of Eternity",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -285,8 +288,36 @@
   {
    "slot": "Trinket1",
    "bis": {
-    "itemId": 30349,
-    "name": "Medallion of the Alliance"
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28823,
+     "name": "Eye of Gruul",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30665,
+    "name": "Earring of Soulful Meditation"
    },
    "alternatives": [
     {
@@ -295,36 +326,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30665,
-     "name": "Earring of Soulful Meditation",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28823,
      "name": "Eye of Gruul",
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr"
-   },
-   "alternatives": [
-    {
-     "itemId": 30349,
-     "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 30665,
-     "name": "Earring of Soulful Meditation",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28823,
-     "name": "Eye of Gruul",
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -394,24 +402,24 @@
  ],
  "gems": [
   {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
-   "itemId": 32836,
-   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
-   "note": "Socketed across 2 slots in this snapshot."
-  },
-  {
-   "itemId": 31861,
-   "name": "+8 Spell Hit Rating",
-   "note": "Socketed across 3 slots in this snapshot."
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 25901,
    "name": "+12 Intellect & Chance to restore mana on spellcast",
    "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24060,
+   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -427,7 +435,7 @@
   {
    "slot": "Shoulders",
    "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
-   "note": "71% of surveyed players on this slot."
+   "note": "59% of surveyed players on this slot."
   },
   {
    "slot": "Back",
@@ -436,45 +444,54 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+15 Spirit",
+   "note": "44% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Spirit",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 4
-    },
-    {
-     "itemId": 22445,
-     "count": 10
+     "count": 2
     }
    ],
    "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
-   "text": "6 Mana per 5 Sec.",
-   "note": "44% of surveyed players on this slot."
-  },
-  {
-   "slot": "Hands",
-   "text": "+15 Spell Hit Rating",
-   "note": "80% of surveyed players on this slot.",
-   "name": "Enchant Gloves - Spell Strike",
+   "text": "+30 Healing and +10 Spell Damage",
+   "note": "59% of surveyed players on this slot.",
+   "name": "Enchant Bracer - Superior Healing",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
      "itemId": 22446,
-     "count": 8
+     "count": 4
     },
     {
-     "itemId": 22445,
-     "count": 2
+     "itemId": 21886,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
+  },
+  {
+   "slot": "Hands",
+   "text": "+35 Healing Spells and +12 Damage Spells",
+   "note": "51% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Major Healing",
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
     },
     {
      "itemId": 22449,
-     "count": 2
+     "count": 6
+    },
+    {
+     "itemId": 21886,
+     "count": 6
     }
    ],
    "tool": "Runed Adamantite Rod"
@@ -482,7 +499,7 @@
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
-   "note": "100% of surveyed players on this slot.",
+   "note": "94% of surveyed players on this slot.",
    "name": "Golden Spellthread",
    "icon": "spell_holy_restoration",
    "itemId": 24276,
@@ -523,7 +540,7 @@
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "100% of surveyed players on this slot.",
+   "note": "89% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -568,7 +585,7 @@
  "faq": [
   {
    "question": "What is the Season 3 arena set for Holy Priest?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Mooncloth Mantle, Vengeful Gladiator's Mooncloth Robe, Vengeful Gladiator's Mooncloth Gloves, Vengeful Gladiator's Mooncloth Leggings, Vengeful Gladiator's Salvation. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Salvation. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -577,10 +594,6 @@
   {
    "question": "How many arena points does full Season 3 gear cost?",
    "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
-  },
-  {
-   "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Pendant of Salvation, Vindicator's Mooncloth Cuffs, Vindicator's Mooncloth Belt, Vindicator's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

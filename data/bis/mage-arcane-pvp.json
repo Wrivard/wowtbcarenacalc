@@ -21,18 +21,19 @@
  "slots": [
   {
    "slot": "Head",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32048,
    "bis": {
-    "itemId": 32048,
-    "name": "Merciless Gladiator's Silk Cowl",
-    "usagePct": 17
+    "itemId": 30206,
+    "name": "Cowl of Tirisfal",
+    "usagePct": 63
    },
    "alternatives": [
     {
-     "itemId": 30206,
-     "name": "Cowl of Tirisfal",
-     "usagePct": 63,
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 32048,
+     "name": "Merciless Gladiator's Silk Cowl",
+     "usagePct": 17,
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 29076,
@@ -44,19 +45,14 @@
   },
   {
    "slot": "Neck",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 33067,
    "bis": {
-    "itemId": 33067,
-    "name": "Veteran's Pendant of Conquest",
-    "usagePct": 7
+    "itemId": 30015,
+    "name": "The Sun King's Talisman",
+    "usagePct": 43
    },
    "alternatives": [
-    {
-     "itemId": 30015,
-     "name": "The Sun King's Talisman",
-     "usagePct": 43,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28762,
      "name": "Adornment of Stolen Souls",
@@ -68,29 +64,41 @@
      "name": "Pendant of the Lost Ages",
      "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2408 rating."
+    },
+    {
+     "itemId": 28530,
+     "name": "Brooch of Unquenchable Fury",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 33067,
+     "name": "Veteran's Pendant of Conquest",
+     "usagePct": 7
     }
    ]
   },
   {
    "slot": "Shoulders",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32047,
    "bis": {
-    "itemId": 32047,
-    "name": "Merciless Gladiator's Silk Amice",
-    "usagePct": 17
+    "itemId": 30210,
+    "name": "Mantle of Tirisfal",
+    "usagePct": 63
    },
    "alternatives": [
-    {
-     "itemId": 30210,
-     "name": "Mantle of Tirisfal",
-     "usagePct": 63,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29079,
      "name": "Pauldrons of the Aldor",
      "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32047,
+     "name": "Merciless Gladiator's Silk Amice",
+     "usagePct": 17,
+     "pveFlexNote": "Seen mostly above 2408 rating."
     }
    ]
   },
@@ -118,19 +126,14 @@
   },
   {
    "slot": "Chest",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32050,
    "bis": {
-    "itemId": 32050,
-    "name": "Merciless Gladiator's Silk Raiment",
-    "usagePct": 7
+    "itemId": 30196,
+    "name": "Robes of Tirisfal",
+    "usagePct": 70
    },
    "alternatives": [
-    {
-     "itemId": 30196,
-     "name": "Robes of Tirisfal",
-     "usagePct": 70,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28602,
      "name": "Robe of the Elder Scribes",
@@ -142,6 +145,18 @@
      "name": "Vestments of the Aldor",
      "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30107,
+     "name": "Vestments of the Sea-Witch",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32050,
+     "name": "Merciless Gladiator's Silk Raiment",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -173,24 +188,24 @@
   },
   {
    "slot": "Hands",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32049,
    "bis": {
-    "itemId": 32049,
-    "name": "Merciless Gladiator's Silk Handguards",
-    "usagePct": 17
+    "itemId": 30205,
+    "name": "Gloves of Tirisfal",
+    "usagePct": 40
    },
    "alternatives": [
-    {
-     "itemId": 30205,
-     "name": "Gloves of Tirisfal",
-     "usagePct": 40,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 29987,
      "name": "Gauntlets of the Sun King",
      "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32049,
+     "name": "Merciless Gladiator's Silk Handguards",
+     "usagePct": 17
     },
     {
      "itemId": 29080,
@@ -202,24 +217,25 @@
   },
   {
    "slot": "Waist",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32807,
    "bis": {
-    "itemId": 32807,
-    "name": "Veteran's Silk Belt",
-    "usagePct": 17
+    "itemId": 30064,
+    "name": "Cord of Screaming Terrors",
+    "usagePct": 30
    },
    "alternatives": [
-    {
-     "itemId": 30064,
-     "name": "Cord of Screaming Terrors",
-     "usagePct": 30,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30038,
      "name": "Belt of Blasting",
      "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32807,
+     "name": "Veteran's Silk Belt",
+     "usagePct": 17,
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28799,
@@ -231,19 +247,14 @@
   },
   {
    "slot": "Legs",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32051,
    "bis": {
-    "itemId": 32051,
-    "name": "Merciless Gladiator's Silk Trousers",
-    "usagePct": 7
+    "itemId": 30207,
+    "name": "Leggings of Tirisfal",
+    "usagePct": 57
    },
    "alternatives": [
-    {
-     "itemId": 30207,
-     "name": "Leggings of Tirisfal",
-     "usagePct": 57,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
@@ -255,29 +266,36 @@
      "name": "Trousers of the Astromancer",
      "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32051,
+     "name": "Merciless Gladiator's Silk Trousers",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Feet",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32795,
    "bis": {
-    "itemId": 32795,
-    "name": "Veteran's Silk Footguards",
-    "usagePct": 13
+    "itemId": 28517,
+    "name": "Boots of Foretelling",
+    "usagePct": 53
    },
    "alternatives": [
-    {
-     "itemId": 28517,
-     "name": "Boots of Foretelling",
-     "usagePct": 53,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 30067,
      "name": "Velvet Boots of the Guardian",
      "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32795,
+     "name": "Veteran's Silk Footguards",
+     "usagePct": 13,
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28585,
@@ -345,11 +363,45 @@
   },
   {
    "slot": "Trinket1",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 28238,
    "bis": {
-    "itemId": 28238,
-    "name": "Medallion of the Alliance",
-    "usagePct": 7
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 83
+   },
+   "alternatives": [
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "usagePct": 43,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "usagePct": 30,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28238,
+     "name": "Medallion of the Alliance",
+     "usagePct": 7
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30720,
+    "name": "Serpent-Coil Braid",
+    "usagePct": 43
    },
    "alternatives": [
     {
@@ -359,42 +411,15 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30720,
-     "name": "Serpent-Coil Braid",
-     "usagePct": 43,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28785,
      "name": "The Lightning Capacitor",
      "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
-    }
-   ]
-  },
-  {
-   "slot": "Trinket2",
-   "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 83
-   },
-   "alternatives": [
-    {
-     "itemId": 28238,
-     "name": "Medallion of the Alliance",
-     "usagePct": 7
     },
     {
-     "itemId": 30720,
-     "name": "Serpent-Coil Braid",
-     "usagePct": 43,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28785,
-     "name": "The Lightning Capacitor",
-     "usagePct": 30,
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -457,24 +482,24 @@
   },
   {
    "slot": "Ranged",
-   "resiliencePick": true,
+   "raidPick": true,
+   "resilienceAlt": 32962,
    "bis": {
-    "itemId": 32962,
-    "name": "Merciless Gladiator's Touch of Defeat",
-    "usagePct": 13
+    "itemId": 28783,
+    "name": "Eredar Wand of Obliteration",
+    "usagePct": 43
    },
    "alternatives": [
-    {
-     "itemId": 28783,
-     "name": "Eredar Wand of Obliteration",
-     "usagePct": 43,
-     "pveFlexNote": "PvE flex piece."
-    },
     {
      "itemId": 28673,
      "name": "Tirisfal Wand of Ascendancy",
      "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 32962,
+     "name": "Merciless Gladiator's Touch of Defeat",
+     "usagePct": 13
     },
     {
      "itemId": 28386,
@@ -487,23 +512,23 @@
  ],
  "gems": [
   {
-   "itemId": 24059,
-   "name": "+4 Spell Critical Rating and +5 Spell Damage",
-   "note": "Socketed across 3 slots in this snapshot."
+   "itemId": 24047,
+   "name": "+8 Intellect",
+   "note": "Socketed across 7 slots in this snapshot."
   },
   {
-   "itemId": 28118,
-   "name": "+12 Spell Damage",
+   "itemId": 24030,
+   "name": "+9 Spell Damage",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24056,
+   "name": "+5 Spell Damage and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 34220,
    "name": "+12 Spell Critical & 3% Increased Critical Damage",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24039,
-   "name": "+10 Spell Penetration",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -520,7 +545,7 @@
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "40% of surveyed players on this slot.",
+   "note": "42% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
    "icon": "spell_holy_sealofwisdom",
    "itemId": 28886,
@@ -533,18 +558,22 @@
   },
   {
    "slot": "Chest",
-   "text": "+15 Resilience Rating",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop",
+   "text": "+6 All Stats",
+   "note": "71% of surveyed players on this slot.",
+   "name": "Enchant Chest - Exceptional Stats",
+   "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
     {
-     "itemId": 22446,
+     "itemId": 22449,
      "count": 4
     },
     {
      "itemId": 22445,
-     "count": 10
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
     }
    ],
    "tool": "Runed Fel Iron Rod"
@@ -574,7 +603,7 @@
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "80% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
    "reagents": [
@@ -619,7 +648,7 @@
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "75% of surveyed players on this slot.",
+   "note": "44% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
    "source": "World Drop",
    "reagents": [
@@ -678,11 +707,11 @@
   },
   {
    "question": "What is the most-used Arcane Mage PvP gear right now?",
-   "answer": "The highest-consensus picks are Icon of the Silver Crescent (83%), Veteran's Silk Cuffs (70%), Band of Eternity (70%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Icon of the Silver Crescent (83%), Robes of Tirisfal (70%), Veteran's Silk Cuffs (70%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Arcane Mage BiS list is PvP gear vs raid gear?",
-   "answer": "71% of the most-used slots are arena/honor items — for Arcane Mages the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "Only 12% of the most-used slots are PvP items — high-rated Arcane Mages flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
   },
   {
    "question": "What weapon do Arcane Mages use in arena?",
@@ -690,7 +719,7 @@
   },
   {
    "question": "What gems do Arcane Mages socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Critical Rating and +5 Spell Damage, +12 Spell Damage, +12 Spell Critical & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Intellect, +9 Spell Damage, +5 Spell Damage and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }
