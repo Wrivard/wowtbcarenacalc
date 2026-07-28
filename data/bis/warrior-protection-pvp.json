@@ -20,6 +20,7 @@
  "slots": [
   {
    "slot": "Head",
+   "resiliencePick": true,
    "bis": {
     "itemId": 24545,
     "name": "Gladiator's Plate Helm",
@@ -64,6 +65,7 @@
   },
   {
    "slot": "Shoulders",
+   "resiliencePick": true,
    "bis": {
     "itemId": 24546,
     "name": "Gladiator's Plate Shoulders",
@@ -114,6 +116,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 24544,
     "name": "Gladiator's Plate Chestpiece",
@@ -212,6 +215,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30489,
     "name": "Merciless Gladiator's Plate Legguards",
@@ -249,6 +253,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33057,
     "name": "Veteran's Band of Triumph",
@@ -382,6 +387,7 @@
   },
   {
    "slot": "OffHand",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31965,
     "name": "Merciless Gladiator's Cleaver",
@@ -398,6 +404,7 @@
   },
   {
    "slot": "Ranged",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28319,
     "name": "Gladiator's War Edge",

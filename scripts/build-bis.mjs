@@ -195,10 +195,16 @@ async function main() {
       // slot regardless of raw popularity. So if the most-popular pick is
       // a PvE item and any resilience alternative exists, promote the
       // highest-usage PvP alternative to BiS and demote the raid piece.
+      //
+      // Record WHETHER it fired. The usage column is raw ladder usage, so a
+      // promotion leaves the top row showing a smaller number than the row
+      // below it, which reads as a broken sort unless the page says why.
       const ranked = [...items];
+      let demoted = null;
       if (ranked[0] && ranked[0].isPvP === false) {
         const bestPvpIdx = ranked.findIndex((it) => it.isPvP === true);
         if (bestPvpIdx > 0) {
+          demoted = ranked[0];
           const [pvpPick] = ranked.splice(bestPvpIdx, 1);
           ranked.unshift(pvpPick);
         }
@@ -216,6 +222,14 @@ async function main() {
         slots[targets[pos]] = {
           slot: targets[pos],
           bisIsPvP: pick.isPvP,
+          // Only the row that RECEIVED the promotion, and only when the piece
+          // it displaced was genuinely more popular. A paired slot's second
+          // row also shows a number below its own alternatives — but that is
+          // the Ring1/Ring2 split, not an editorial call, and labelling it
+          // would explain the wrong thing.
+          ...(pick === ranked[0] && demoted && demoted.popularity > pick.popularity
+            ? { resiliencePick: true }
+            : {}),
           bis: {
             itemId: pick.id,
             name: pick.name,
@@ -276,6 +290,7 @@ async function main() {
     const orderedSlots = orderedSlotNames
       .filter((s) => slots[s])
       .map((s) => {
+        // bisIsPvP is scratch for the FAQ's pvpShare; resiliencePick ships.
         const rest = { ...slots[s] };
         delete rest.bisIsPvP;
         return rest;

@@ -37,6 +37,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33068,
     "name": "Veteran's Pendant of Salvation",
@@ -65,6 +66,7 @@
   },
   {
    "slot": "Shoulders",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32018,
     "name": "Merciless Gladiator's Mooncloth Mantle",
@@ -115,6 +117,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32019,
     "name": "Merciless Gladiator's Mooncloth Robe",
@@ -143,6 +146,7 @@
   },
   {
    "slot": "Wrist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32980,
     "name": "Veteran's Mooncloth Cuffs",
@@ -171,6 +175,7 @@
   },
   {
    "slot": "Hands",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32015,
     "name": "Merciless Gladiator's Mooncloth Gloves",
@@ -199,6 +204,7 @@
   },
   {
    "slot": "Waist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32979,
     "name": "Veteran's Mooncloth Belt",
@@ -227,6 +233,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32017,
     "name": "Merciless Gladiator's Mooncloth Leggings",
@@ -277,6 +284,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33064,
     "name": "Veteran's Band of Salvation",
@@ -332,6 +340,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30349,
     "name": "Medallion of the Alliance",

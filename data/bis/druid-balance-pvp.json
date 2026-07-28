@@ -21,6 +21,7 @@
  "slots": [
   {
    "slot": "Head",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31376,
     "name": "Gladiator's Kodohide Helm",
@@ -49,6 +50,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33068,
     "name": "Veteran's Pendant of Salvation",
@@ -77,6 +79,7 @@
   },
   {
    "slot": "Shoulders",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31990,
     "name": "Merciless Gladiator's Kodohide Spaulders",
@@ -133,6 +136,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31991,
     "name": "Merciless Gladiator's Kodohide Tunic",
@@ -161,6 +165,7 @@
   },
   {
    "slot": "Wrist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32812,
     "name": "Veteran's Kodohide Bracers",
@@ -189,6 +194,7 @@
   },
   {
    "slot": "Hands",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31987,
     "name": "Merciless Gladiator's Kodohide Gloves",
@@ -245,6 +251,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31989,
     "name": "Merciless Gladiator's Kodohide Legguards",
@@ -273,6 +280,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32788,
     "name": "Veteran's Kodohide Boots",
@@ -301,6 +309,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33064,
     "name": "Veteran's Band of Salvation",
@@ -356,6 +365,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28235,
     "name": "Medallion of the Alliance",
@@ -437,6 +447,7 @@
   },
   {
    "slot": "OffHand",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32961,
     "name": "Merciless Gladiator's Reprieve",

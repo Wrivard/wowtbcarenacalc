@@ -182,6 +182,7 @@
   },
   {
    "slot": "Waist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32998,
     "name": "Veteran's Ringmail Girdle",

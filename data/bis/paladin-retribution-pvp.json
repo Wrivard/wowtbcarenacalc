@@ -92,6 +92,7 @@
   },
   {
    "slot": "Back",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28377,
     "name": "Sergeant's Heavy Cloak",
@@ -136,6 +137,7 @@
   },
   {
    "slot": "Wrist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32819,
     "name": "Veteran's Scaled Bracers",
@@ -306,6 +308,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28242,
     "name": "Medallion of the Horde",

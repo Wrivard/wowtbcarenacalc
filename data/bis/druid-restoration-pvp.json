@@ -303,6 +303,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28241,
     "name": "Medallion of the Horde",

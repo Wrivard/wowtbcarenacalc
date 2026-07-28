@@ -71,6 +71,7 @@
   },
   {
    "slot": "Shoulders",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32001,
     "name": "Merciless Gladiator's Leather Spaulders",
@@ -121,6 +122,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32002,
     "name": "Merciless Gladiator's Leather Tunic",
@@ -149,6 +151,7 @@
   },
   {
    "slot": "Wrist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32814,
     "name": "Veteran's Leather Bracers",
@@ -177,6 +180,7 @@
   },
   {
    "slot": "Hands",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31998,
     "name": "Merciless Gladiator's Leather Gloves",
@@ -221,6 +225,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32000,
     "name": "Merciless Gladiator's Leather Legguards",
@@ -243,6 +248,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32790,
     "name": "Veteran's Leather Boots",
@@ -327,6 +333,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28234,
     "name": "Medallion of the Alliance",
@@ -382,6 +389,7 @@
   },
   {
    "slot": "MainHand",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32052,
     "name": "Merciless Gladiator's Slicer",
@@ -425,6 +433,7 @@
   },
   {
    "slot": "Ranged",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32054,
     "name": "Merciless Gladiator's War Edge",

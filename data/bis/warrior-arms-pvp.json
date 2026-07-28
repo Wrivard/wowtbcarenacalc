@@ -312,6 +312,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30350,
     "name": "Medallion of the Alliance",

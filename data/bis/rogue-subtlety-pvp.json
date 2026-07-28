@@ -21,6 +21,7 @@
  "slots": [
   {
    "slot": "Head",
+   "resiliencePick": true,
    "bis": {
     "itemId": 25830,
     "name": "Gladiator's Leather Helm",
@@ -165,6 +166,7 @@
   },
   {
    "slot": "Waist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32802,
     "name": "Veteran's Leather Belt",
@@ -213,6 +215,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32790,
     "name": "Veteran's Leather Boots",
@@ -291,6 +294,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28234,
     "name": "Medallion of the Alliance",
@@ -344,6 +348,7 @@
   },
   {
    "slot": "MainHand",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32052,
     "name": "Merciless Gladiator's Slicer",

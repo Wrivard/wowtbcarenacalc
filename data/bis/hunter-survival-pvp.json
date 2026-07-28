@@ -103,6 +103,7 @@
   },
   {
    "slot": "Back",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28377,
     "name": "Sergeant's Heavy Cloak",
@@ -131,6 +132,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28334,
     "name": "Gladiator's Chain Armor",
@@ -240,6 +242,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31963,
     "name": "Merciless Gladiator's Chain Leggings",
@@ -294,6 +297,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33057,
     "name": "Veteran's Band of Triumph",
@@ -404,6 +408,7 @@
   },
   {
    "slot": "MainHand",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28308,
     "name": "Gladiator's Cleaver",
@@ -430,6 +435,7 @@
   },
   {
    "slot": "OffHand",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31985,
     "name": "Merciless Gladiator's Hacker",
@@ -457,6 +463,7 @@
   },
   {
    "slot": "Ranged",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31986,
     "name": "Merciless Gladiator's Crossbow of the Phoenix",

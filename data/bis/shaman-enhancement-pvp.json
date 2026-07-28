@@ -125,6 +125,7 @@
   },
   {
    "slot": "Hands",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32005,
     "name": "Merciless Gladiator's Linked Gauntlets",
@@ -241,6 +242,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30345,
     "name": "Medallion of the Horde",
@@ -346,6 +348,7 @@
   },
   {
    "slot": "Ranged",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33940,
     "name": "Merciless Gladiator's Totem of Indomitability",

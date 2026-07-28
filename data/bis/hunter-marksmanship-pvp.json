@@ -30,6 +30,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33066,
     "name": "Veteran's Pendant of Triumph",
@@ -62,6 +63,7 @@
   },
   {
    "slot": "Back",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28377,
     "name": "Sergeant's Heavy Cloak",
@@ -84,6 +86,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31960,
     "name": "Merciless Gladiator's Chain Armor",
@@ -127,6 +130,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31963,
     "name": "Merciless Gladiator's Chain Leggings",

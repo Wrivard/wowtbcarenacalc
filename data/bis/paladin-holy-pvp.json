@@ -188,6 +188,7 @@
   },
   {
    "slot": "Waist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32801,
     "name": "Veteran's Lamellar Belt",
@@ -243,6 +244,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32990,
     "name": "Veteran's Ornamented Greaves",
@@ -264,6 +266,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
@@ -319,6 +322,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28236,
     "name": "Medallion of the Alliance",

@@ -62,6 +62,16 @@ export function BisPageBody({
               equipping each item
               {list.sampleSize ? ` (n=${list.sampleSize})` : ""}. Click a row
               to expand alternatives.
+              {/* Without this the reordered rows read as a broken sort. */}
+              {list.slots.some((s) => s.resiliencePick) && (
+                <>
+                  {" "}
+                  Rows marked <span className="text-accent">Resilience</span>{" "}
+                  are ranked above a more-used raid piece on purpose: raid gear
+                  has no resilience, so the ladder&apos;s most-worn item is not
+                  always the arena pick.
+                </>
+              )}
             </>
           ) : (
             <>

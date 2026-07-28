@@ -26,6 +26,13 @@ export interface BisSlot {
   slot: BisSlotName;
   bis: BisItemRef;
   alternatives: BisItemRef[];
+  /**
+   * PvP only: this pick was promoted over a MORE popular raid piece because
+   * it carries resilience (the guard in scripts/build-bis.mjs). Those rows
+   * show a usage % lower than an alternative below them, so the grid has to
+   * say why rather than look mis-sorted.
+   */
+  resiliencePick?: boolean;
 }
 
 export interface BisFaqItem {

@@ -21,6 +21,7 @@
  "slots": [
   {
    "slot": "Head",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32016,
     "name": "Merciless Gladiator's Mooncloth Hood",
@@ -80,6 +81,7 @@
   },
   {
    "slot": "Back",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28378,
     "name": "Sergeant's Heavy Cape",
@@ -189,6 +191,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32981,
     "name": "Veteran's Mooncloth Slippers",
@@ -272,6 +275,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30349,
     "name": "Medallion of the Alliance",

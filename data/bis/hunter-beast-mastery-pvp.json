@@ -48,6 +48,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33066,
     "name": "Veteran's Pendant of Triumph",
@@ -125,6 +126,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31960,
     "name": "Merciless Gladiator's Chain Armor",
@@ -277,6 +279,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33057,
     "name": "Veteran's Band of Triumph",
@@ -333,6 +336,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28243,
     "name": "Medallion of the Horde",

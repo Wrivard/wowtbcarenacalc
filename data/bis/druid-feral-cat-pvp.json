@@ -226,6 +226,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28128,
     "name": "Gladiator's Dragonhide Legguards",
@@ -280,6 +281,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33057,
     "name": "Veteran's Band of Triumph",
@@ -336,6 +338,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28235,
     "name": "Medallion of the Alliance",

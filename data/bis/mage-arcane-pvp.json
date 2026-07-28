@@ -21,6 +21,7 @@
  "slots": [
   {
    "slot": "Head",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32048,
     "name": "Merciless Gladiator's Silk Cowl",
@@ -43,6 +44,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33067,
     "name": "Veteran's Pendant of Conquest",
@@ -71,6 +73,7 @@
   },
   {
    "slot": "Shoulders",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32047,
     "name": "Merciless Gladiator's Silk Amice",
@@ -115,6 +118,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32050,
     "name": "Merciless Gladiator's Silk Raiment",
@@ -169,6 +173,7 @@
   },
   {
    "slot": "Hands",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32049,
     "name": "Merciless Gladiator's Silk Handguards",
@@ -197,6 +202,7 @@
   },
   {
    "slot": "Waist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32807,
     "name": "Veteran's Silk Belt",
@@ -225,6 +231,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32051,
     "name": "Merciless Gladiator's Silk Trousers",
@@ -253,6 +260,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32795,
     "name": "Veteran's Silk Footguards",
@@ -337,6 +345,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28238,
     "name": "Medallion of the Alliance",
@@ -448,6 +457,7 @@
   },
   {
    "slot": "Ranged",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32962,
     "name": "Merciless Gladiator's Touch of Defeat",

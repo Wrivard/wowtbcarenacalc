@@ -42,6 +42,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33065,
     "name": "Veteran's Pendant of Dominance",
@@ -252,6 +253,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30345,
     "name": "Medallion of the Horde",

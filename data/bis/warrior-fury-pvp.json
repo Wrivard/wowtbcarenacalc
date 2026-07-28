@@ -21,6 +21,7 @@
  "slots": [
   {
    "slot": "Head",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30488,
     "name": "Merciless Gladiator's Plate Helm",
@@ -49,6 +50,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33066,
     "name": "Veteran's Pendant of Triumph",
@@ -77,6 +79,7 @@
   },
   {
    "slot": "Shoulders",
+   "resiliencePick": true,
    "bis": {
     "itemId": 24546,
     "name": "Gladiator's Plate Shoulders",
@@ -105,6 +108,7 @@
   },
   {
    "slot": "Back",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28377,
     "name": "Sergeant's Heavy Cloak",
@@ -133,6 +137,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30486,
     "name": "Merciless Gladiator's Plate Chestpiece",
@@ -161,6 +166,7 @@
   },
   {
    "slot": "Wrist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32818,
     "name": "Veteran's Plate Bracers",
@@ -183,6 +189,7 @@
   },
   {
    "slot": "Hands",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30487,
     "name": "Merciless Gladiator's Plate Gauntlets",
@@ -211,6 +218,7 @@
   },
   {
    "slot": "Waist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32805,
     "name": "Veteran's Plate Belt",
@@ -239,6 +247,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30489,
     "name": "Merciless Gladiator's Plate Legguards",
@@ -267,6 +276,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32793,
     "name": "Veteran's Plate Greaves",
@@ -289,6 +299,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33057,
     "name": "Veteran's Band of Triumph",
@@ -344,6 +355,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30344,
     "name": "Medallion of the Horde",

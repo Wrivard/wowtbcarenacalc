@@ -21,6 +21,7 @@
  "slots": [
   {
    "slot": "Head",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30187,
     "name": "Gladiator's Felweave Cowl",
@@ -48,6 +49,7 @@
   },
   {
    "slot": "Neck",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33065,
     "name": "Veteran's Pendant of Dominance",
@@ -76,6 +78,7 @@
   },
   {
    "slot": "Shoulders",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31976,
     "name": "Merciless Gladiator's Dreadweave Mantle",
@@ -102,6 +105,7 @@
   },
   {
    "slot": "Back",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28378,
     "name": "Sergeant's Heavy Cape",
@@ -130,6 +134,7 @@
   },
   {
    "slot": "Chest",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31977,
     "name": "Merciless Gladiator's Dreadweave Robe",
@@ -185,6 +190,7 @@
   },
   {
    "slot": "Hands",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31973,
     "name": "Merciless Gladiator's Dreadweave Gloves",
@@ -212,6 +218,7 @@
   },
   {
    "slot": "Waist",
+   "resiliencePick": true,
    "bis": {
     "itemId": 32799,
     "name": "Veteran's Dreadweave Belt",
@@ -240,6 +247,7 @@
   },
   {
    "slot": "Legs",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31975,
     "name": "Merciless Gladiator's Dreadweave Leggings",
@@ -268,6 +276,7 @@
   },
   {
    "slot": "Feet",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28410,
     "name": "General's Silk Footguards",
@@ -296,6 +305,7 @@
   },
   {
    "slot": "Ring1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
@@ -351,6 +361,7 @@
   },
   {
    "slot": "Trinket1",
+   "resiliencePick": true,
    "bis": {
     "itemId": 30343,
     "name": "Medallion of the Horde",
@@ -430,6 +441,7 @@
   },
   {
    "slot": "OffHand",
+   "resiliencePick": true,
    "bis": {
     "itemId": 31978,
     "name": "Merciless Gladiator's Endgame",
@@ -458,6 +470,7 @@
   },
   {
    "slot": "Ranged",
+   "resiliencePick": true,
    "bis": {
     "itemId": 28320,
     "name": "Gladiator's Touch of Defeat",
