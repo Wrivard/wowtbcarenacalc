@@ -679,6 +679,11 @@
   "icon": "inv_ore_adamantium",
   "quality": 1
  },
+ "23438": {
+  "name": "Star of Elune",
+  "icon": "inv_jewelcrafting_starofelune_02",
+  "quality": 3
+ },
  "23440": {
   "name": "Dawnstone",
   "icon": "inv_jewelcrafting_dawnstone_02",
@@ -752,6 +757,11 @@
  "23785": {
   "name": "Hardened Adamantite Tube",
   "icon": "inv_gizmo_hardenedadamantitetube",
+  "quality": 1
+ },
+ "23787": {
+  "name": "Felsteel Stabilizer",
+  "icon": "inv_gizmo_felstabilizer",
   "quality": 1
  },
  "23793": {

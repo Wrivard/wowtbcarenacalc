@@ -155,7 +155,22 @@ const SEARCH_URL = "https://www.wowhead.com/tbc/search/suggestions-template";
  * formulas ("Enchant Cloak - Dodge") have no item; those keep a slot icon.
  */
 async function searchItem(name) {
-  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  const hit = await searchOnce(name, name);
+  if (hit) return hit;
+  // Wowhead's suggestion endpoint matches on prefix, not fuzzily: one typo
+  // anywhere in the query returns zero rows, so the edit-distance tolerance
+  // below never gets a candidate to work on. "Stabilitzed Eternium Scope" is
+  // one edit from the real item and still found nothing. Retry without the
+  // leading word — a misspelling sits in one token, the remaining words stay
+  // distinctive, and the match is still scored against the FULL name, so a
+  // near-miss like "Schematic: Stabilized Eternium Scope" is still rejected.
+  const tail = name.split(" ").slice(1).join(" ");
+  if (tail.split(" ").length < 2) return null;
+  return searchOnce(tail, name);
+}
+
+async function searchOnce(query, want) {
+  const slug = query.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   const file = path.join(CACHE_DIR, `search-${slug}.json`);
   let json;
   if (existsSync(file)) {
@@ -163,23 +178,25 @@ async function searchItem(name) {
   } else {
     try {
       json = JSON.parse(
-        await fetchText(`${SEARCH_URL}?q=${encodeURIComponent(name)}`),
+        await fetchText(`${SEARCH_URL}?q=${encodeURIComponent(query)}`),
       );
     } catch (e) {
-      console.warn(`  search "${name}": ${e.message}`);
+      console.warn(`  search "${query}": ${e.message}`);
       return null;
     }
     await writeFile(file, JSON.stringify(json));
     await sleep(DELAY_MS);
   }
   const items = (json.results ?? []).filter((r) => r.type === 3 && r.name);
-  const want = name.toLowerCase();
+  const wanted = want.toLowerCase();
   // Exact first, then a tolerance of two edits: a few TBC spell names carry
   // typos their item does not ("Stabilitzed" vs "Stabilized Eternium Scope").
   const hit =
-    items.find((r) => r.name.toLowerCase() === want) ??
-    items.find((r) => editDistance(r.name.toLowerCase(), want) <= 2);
-  return hit ? { id: hit.id, icon: hit.icon, quality: hit.quality } : null;
+    items.find((r) => r.name.toLowerCase() === wanted) ??
+    items.find((r) => editDistance(r.name.toLowerCase(), wanted) <= 2);
+  return hit
+    ? { id: hit.id, icon: hit.icon, quality: hit.quality, name: hit.name }
+    : null;
 }
 
 function editDistance(a, b) {
@@ -412,13 +429,17 @@ async function main() {
   for (const id of spellIds) {
     const src = DATA.enchantSources[id];
     const tip = await tooltip("spell", id);
-    const name = tip?.name ?? src?.name ?? `Enchant ${id}`;
+    const spellName = tip?.name ?? src?.name ?? `Enchant ${id}`;
     // The enchant SPELL's own icon is unusable (39 of 79 share one generic
     // scroll, 19 are the `classic_temp` placeholder). Item-based enhancements
     // — glyphs, inscriptions, leg armors, kits, scopes — carry a real icon on
     // their item, so resolve that; enchanter-cast formulas have no item and
     // fall back to a slot icon in the component (lib/icons.ts).
-    const item = /^Enchant\b/i.test(name) ? null : await searchItem(name);
+    const item = /^Enchant\b/i.test(spellName) ? null : await searchItem(spellName);
+    // A few TBC enchant SPELLS carry a typo their item does not. Once the
+    // item is resolved its name is the one on the vendor and in the search
+    // box, so it is what the page should print.
+    const name = item?.name ?? spellName;
     const { reagents, tool } = await reagentsFor(tip, item);
     for (const r of reagents) reagentItems.set(r.itemId, r);
     if (reagents.length) withMats++;

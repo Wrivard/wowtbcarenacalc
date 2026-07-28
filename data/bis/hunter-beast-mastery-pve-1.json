@@ -594,9 +594,25 @@
   },
   {
    "slot": "Ranged",
-   "text": "Stabilitzed Eternium Scope",
-   "name": "Stabilitzed Eternium Scope",
+   "text": "Stabilized Eternium Scope",
+   "name": "Stabilized Eternium Scope",
+   "icon": "inv_misc_spyglass_02",
+   "itemId": 23766,
    "source": "Engineering Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23785,
+     "count": 2
+    },
+    {
+     "itemId": 23787,
+     "count": 6
+    },
+    {
+     "itemId": 23438,
+     "count": 2
+    }
+   ],
    "note": "Engineering Trainer — Faction Capital"
   }
  ],

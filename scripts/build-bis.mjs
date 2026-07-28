@@ -85,6 +85,19 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+/**
+ * The snapshot's `popularity` is userCount / playerCount, which the paired
+ * buckets can push past 100: the feral cat ring bucket reports The 2 Ring
+ * with 19 users against a 14-player sample, i.e. 136%. More users than
+ * players is not a share of anything, so cap it — the page's caption
+ * promises "share of surveyed players equipping this item", and above 100
+ * the number stops being one.
+ *
+ * The uncapped value still drives the double-equip test in the slot loop,
+ * which reads the raw entry rather than this.
+ */
+const usageShare = (pct) => (pct > 100 ? 100 : pct);
+
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: { "user-agent": "wowtbcarenacalc-data-build (contact: site owner)" },
@@ -203,11 +216,15 @@ async function main() {
         slots[targets[pos]] = {
           slot: targets[pos],
           bisIsPvP: pick.isPvP,
-          bis: { itemId: pick.id, name: pick.name, usagePct: pick.popularity },
+          bis: {
+            itemId: pick.id,
+            name: pick.name,
+            usagePct: usageShare(pick.popularity),
+          },
           alternatives: alts.map((a) => ({
             itemId: a.id,
             name: a.name,
-            usagePct: a.popularity,
+            usagePct: usageShare(a.popularity),
             ...(a.ratingGate
               ? { pveFlexNote: `Seen mostly above ${a.ratingGate} rating.` }
               : a.isPvEFlex

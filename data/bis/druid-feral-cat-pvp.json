@@ -289,7 +289,7 @@
     {
      "itemId": 34837,
      "name": "The 2 Ring",
-     "usagePct": 136,
+     "usagePct": 100,
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -311,7 +311,7 @@
    "bis": {
     "itemId": 34837,
     "name": "The 2 Ring",
-    "usagePct": 136
+    "usagePct": 100
    },
    "alternatives": [
     {
@@ -653,7 +653,7 @@
   },
   {
    "question": "What is the most-used Feral Druid PvP gear right now?",
-   "answer": "The highest-consensus picks are The 2 Ring (136%), Veteran's Dragonhide Bracers (79%), Merciless Gladiator's Dragonhide Spaulders (71%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are The 2 Ring (100%), Veteran's Dragonhide Bracers (79%), Merciless Gladiator's Dragonhide Spaulders (71%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Feral Druid BiS list is PvP gear vs raid gear?",
