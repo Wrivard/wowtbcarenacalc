@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 3,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 3 arena gear for Protection Warrior: the Vengeful Gladiator's set (Vengeful Gladiator's Plate Helm, Vengeful Gladiator's Plate Shoulders, Vengeful Gladiator's Plate Chestpiece…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Protection Warriors equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "The resilience budget jumps enough that a coordinated swap no longer beats your health pool before your cooldowns come back around. Only the Vengeful weapon at 1850 and the shoulders at 2000 are gated, so take Vengeful Gladiator's Plate Chestpiece and Helm on points alone and leave Merciless Gladiator's Plate Shoulders in the slot until the rating lands.",
  "statPriority": [
@@ -41,6 +41,11 @@
    },
    "alternatives": [
     {
+     "itemId": 30099,
+     "name": "Frayed Tether of the Drowned",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28244,
      "name": "Pendant of Triumph",
      "pveFlexNote": "PvE flex piece."
@@ -54,6 +59,11 @@
     "name": "Vengeful Gladiator's Plate Shoulders"
    },
    "alternatives": [
+    {
+     "itemId": 30117,
+     "name": "Destroyer Shoulderguards",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 29023,
      "name": "Warbringer Shoulderplates",
@@ -69,6 +79,16 @@
    },
    "alternatives": [
     {
+     "itemId": 28529,
+     "name": "Royal Cloak of Arathi Kings",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28660,
+     "name": "Gilded Thorium Cloak",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 29925,
      "name": "Phoenix-Wing Cloak",
      "pveFlexNote": "PvE flex piece."
@@ -83,13 +103,13 @@
    },
    "alternatives": [
     {
-     "itemId": 28597,
-     "name": "Panzar'Thar Breastplate",
+     "itemId": 29012,
+     "name": "Warbringer Chestguard",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29012,
-     "name": "Warbringer Chestguard",
+     "itemId": 28597,
+     "name": "Panzar'Thar Breastplate",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -97,17 +117,23 @@
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 28502,
-    "name": "Vambraces of Courage"
+    "itemId": 33813,
+    "name": "Vindicator's Plate Bracers"
    },
    "alternatives": [
+    {
+     "itemId": 28502,
+     "name": "Vambraces of Courage",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28996,
      "name": "Marshal's Plate Bracers"
     },
     {
-     "itemId": 33813,
-     "name": "Vindicator's Plate Bracers"
+     "itemId": 30057,
+     "name": "Bracers of Eradication",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -119,6 +145,11 @@
    },
    "alternatives": [
     {
+     "itemId": 30114,
+     "name": "Destroyer Handguards",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 29947,
      "name": "Gloves of the Searing Grip",
      "pveFlexNote": "PvE flex piece."
@@ -128,13 +159,13 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 28566,
-    "name": "Crimson Girdle of the Indomitable"
+    "itemId": 30096,
+    "name": "Girdle of the Invulnerable"
    },
    "alternatives": [
     {
-     "itemId": 30096,
-     "name": "Girdle of the Invulnerable",
+     "itemId": 28566,
+     "name": "Crimson Girdle of the Indomitable",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -147,10 +178,15 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30116,
-    "name": "Destroyer Legguards"
+    "itemId": 33731,
+    "name": "Vengeful Gladiator's Plate Legguards"
    },
    "alternatives": [
+    {
+     "itemId": 30116,
+     "name": "Destroyer Legguards",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28621,
      "name": "Wrynn Dynasty Greaves",
@@ -172,31 +208,54 @@
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 33919,
+    "name": "Vindicator's Band of Triumph"
+   },
+   "alternatives": [
+    {
+     "itemId": 30834,
+     "name": "Shapeshifter's Signet",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27761,
+     "name": "Ring of the Shadow Deeps",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
    "bis": {
     "itemId": 30834,
     "name": "Shapeshifter's Signet"
    },
    "alternatives": [
     {
+     "itemId": 33919,
+     "name": "Vindicator's Band of Triumph"
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 27761,
      "name": "Ring of the Shadow Deeps",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28675,
-     "name": "Shermanar Great-Ring",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30083,
-     "name": "Ring of Sundered Souls",
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Trinket1",
    "bis": {
     "itemId": 29383,
     "name": "Bloodlust Brooch"
@@ -208,13 +267,37 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28121,
-     "name": "Icon of Unyielding Courage",
+     "itemId": 23836,
+     "name": "Goblin Rocket Launcher",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30620,
-     "name": "Spyglass of the Hidden Fleet",
+     "itemId": 28121,
+     "name": "Icon of Unyielding Courage",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 28034,
+    "name": "Hourglass of the Unraveller"
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 23836,
+     "name": "Goblin Rocket Launcher",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28121,
+     "name": "Icon of Unyielding Courage",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -230,19 +313,25 @@
      "itemId": 28438,
      "name": "Dragonmaw",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28439,
+     "name": "Dragonstrike",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 28825,
-    "name": "Aldori Legacy Defender"
+    "itemId": 33669,
+    "name": "Vengeful Gladiator's Cleaver"
    },
    "alternatives": [
     {
-     "itemId": 33669,
-     "name": "Vengeful Gladiator's Cleaver"
+     "itemId": 28825,
+     "name": "Aldori Legacy Defender",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -254,13 +343,13 @@
    },
    "alternatives": [
     {
-     "itemId": 29204,
-     "name": "Felsteel Whisper Knives",
+     "itemId": 30025,
+     "name": "Serpentshrine Shuriken",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30025,
-     "name": "Serpentshrine Shuriken",
+     "itemId": 29204,
+     "name": "Felsteel Whisper Knives",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -270,7 +359,7 @@
   {
    "itemId": 24033,
    "name": "+12 Stamina",
-   "note": "Socketed across 8 slots in this snapshot."
+   "note": "Socketed across 5 slots in this snapshot."
   },
   {
    "itemId": 25896,
@@ -278,13 +367,13 @@
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 24048,
-   "name": "+8 Critical Strike Rating",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
    "itemId": 24058,
    "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 24048,
+   "name": "+8 Critical Strike Rating",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -294,82 +383,168 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+15 Nature Resistance",
    "note": "50% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Shadow Resistance",
-   "source": "Voidshrieker — Netherstorm"
+   "source": "Voidshrieker — Netherstorm",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 22456,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Chest",
    "text": "+150 Health",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Chest - Exceptional Health",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 8
+    },
+    {
+     "itemId": 13446,
+     "count": 4
+    },
+    {
+     "itemId": 14344,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
-   "text": "+12 Stamina",
+   "text": "+12 Strength",
    "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Bracer - Fortitude",
-   "source": "Coilfang Oracle — The Steamvault"
+   "name": "Enchant Bracer - Brawn",
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
-   "text": "+15 Strength",
+   "text": "+10 Stamina",
    "note": "50% of surveyed players on this slot.",
-   "name": "Enchant Gloves - Major Strength",
-   "source": "Enchanting Trainer — Faction Capital"
+   "name": "Heavy Knothide Armor Kit",
+   "icon": "inv_misc_armorkit_25",
+   "itemId": 34330,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 3
+    }
+   ]
   },
   {
    "slot": "Legs",
-   "text": "+40 Stamina and +12 Agility",
+   "text": "+50 Attack Power and +12 Critical Strike Rating",
    "note": "100% of surveyed players on this slot.",
-   "name": "Nethercleft Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
+   "name": "Nethercobra Leg Armor",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29536
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Surefooted",
-   "note": "100% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan"
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "50% of surveyed players on this slot.",
+   "note": "33% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
-  },
-  {
-   "slot": "OffHand",
-   "text": "+18 Stamina",
-   "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Shield - Major Stamina",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 3 arena set for Protection Warrior?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Plate Helm, Vengeful Gladiator's Plate Shoulders, Vengeful Gladiator's Plate Chestpiece, Vengeful Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Plate Helm, Vengeful Gladiator's Plate Shoulders, Vengeful Gladiator's Plate Chestpiece, Vengeful Gladiator's Plate Legguards, Vengeful Gladiator's Cleaver, Vengeful Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -381,7 +556,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Pendant of Triumph, Vindicator's Plate Greaves — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Vindicator's Pendant of Triumph, Vindicator's Plate Bracers, Vindicator's Plate Greaves, Vindicator's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

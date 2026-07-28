@@ -4,8 +4,8 @@
  "content": "pvp",
  "season": 4,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
- "blurb": "Season 4 arena gear for Beast Mastery Hunter: the Brutal Gladiator's set (Brutal Gladiator's Chain Helm, Brutal Gladiator's Chain Spaulders, Brutal Gladiator's Chain Gauntlets…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Beast Mastery Hunters equip into their Season 4 equivalents — same slot logic, this season's items.",
+ "updatedAt": "2026-07-26",
+ "blurb": "Season 4 arena gear for Beast Mastery Hunter: the Brutal Gladiator's set (Brutal Gladiator's Chain Helm, Brutal Gladiator's Chain Spaulders, Brutal Gladiator's Chain Armor…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Beast Mastery Hunters equip into their Season 4 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Guardian's Chain Bracers, Girdle and Sabatons cost honor and marks alone, so even a fresh hunter opens with more resilience than a Merciless-geared one ever carried — it still leads, there is simply less scrambling for it. What decides your list now is reach: clear 1950 for the weapon before chasing the 2200 spaulders, and note that several pieces check personal rating too.",
  "statPriority": [
   "Resilience",
@@ -25,11 +25,11 @@
     {
      "itemId": 30141,
      "name": "Rift Stalker Helm",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2514 rating."
     },
     {
-     "itemId": 32474,
-     "name": "Surestrike Goggles v2.0",
+     "itemId": 23762,
+     "name": "Ultra-Spectropic Detection Goggles",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -37,14 +37,14 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 30017,
-    "name": "Telonicus's Pendant of Mayhem"
+    "itemId": 35135,
+    "name": "Guardian's Pendant of Triumph"
    },
    "alternatives": [
     {
-     "itemId": 35135,
-     "name": "Guardian's Pendant of Triumph",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 30017,
+     "name": "Telonicus's Pendant of Mayhem",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28509,
@@ -80,10 +80,6 @@
    },
    "alternatives": [
     {
-     "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak"
-    },
-    {
      "itemId": 28672,
      "name": "Drape of the Dark Reavers",
      "pveFlexNote": "Seen mostly above 2200 rating."
@@ -92,20 +88,25 @@
      "itemId": 28777,
      "name": "Cloak of the Pit Stalker",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29382,
+     "name": "Blood Knight War Cloak",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 30139,
-    "name": "Rift Stalker Hauberk"
+    "itemId": 34990,
+    "name": "Brutal Gladiator's Chain Armor"
    },
    "alternatives": [
     {
-     "itemId": 34990,
-     "name": "Brutal Gladiator's Chain Armor",
-     "pveFlexNote": "Seen mostly above 2642 rating."
+     "itemId": 30139,
+     "name": "Rift Stalker Hauberk",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29082,
@@ -126,14 +127,14 @@
      "name": "General's Chain Bracers"
     },
     {
-     "itemId": 28454,
-     "name": "Stalker's War Bands",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29527,
-     "name": "Primalstrike Bracers",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30026,
+     "name": "Bands of the Celestial Archer",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -161,24 +162,30 @@
     {
      "itemId": 30040,
      "name": "Belt of Deep Shadow",
-     "pveFlexNote": "Seen mostly above 2642 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28450,
      "name": "General's Chain Girdle"
+    },
+    {
+     "itemId": 28828,
+     "name": "Gronn-Stitched Girdle",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30142,
-    "name": "Rift Stalker Leggings"
+    "itemId": 34993,
+    "name": "Brutal Gladiator's Chain Leggings"
    },
    "alternatives": [
     {
-     "itemId": 34993,
-     "name": "Brutal Gladiator's Chain Leggings"
+     "itemId": 30142,
+     "name": "Rift Stalker Leggings",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29083,
@@ -209,17 +216,17 @@
      "name": "General's Chain Sabatons"
     },
     {
-     "itemId": 29951,
-     "name": "Star-Strider Boots",
+     "itemId": 28746,
+     "name": "Fiend Slayer Boots",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 28791,
-    "name": "Ring of the Recalcitrant"
+    "itemId": 35131,
+    "name": "Guardian's Band of Triumph"
    },
    "alternatives": [
     {
@@ -228,8 +235,8 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28757,
-     "name": "Ring of a Thousand Marks",
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -240,19 +247,66 @@
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29298,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 35131,
+     "name": "Guardian's Band of Triumph",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30052,
+     "name": "Ring of Lethality",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28243,
+    "name": "Medallion of the Horde"
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28237,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29383,
     "name": "Bloodlust Brooch"
    },
    "alternatives": [
     {
-     "itemId": 28237,
-     "name": "Medallion of the Alliance"
-    },
-    {
      "itemId": 28243,
      "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28237,
+     "name": "Medallion of the Alliance"
     },
     {
      "itemId": 28034,
@@ -264,36 +318,34 @@
   {
    "slot": "MainHand",
    "bis": {
-    "itemId": 29993,
-    "name": "Twinblade of the Phoenix"
+    "itemId": 34997,
+    "name": "Brutal Gladiator's Decapitator"
    },
    "alternatives": [
     {
-     "itemId": 34997,
-     "name": "Brutal Gladiator's Decapitator"
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35076,
-     "name": "Brutal Gladiator's Right Ripper",
+     "itemId": 34996,
+     "name": "Brutal Gladiator's Cleaver",
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 35101,
-     "name": "Brutal Gladiator's Slicer"
+     "itemId": 28524,
+     "name": "Emerald Ripper",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 35038,
-    "name": "Brutal Gladiator's Left Ripper"
+    "itemId": 35017,
+    "name": "Brutal Gladiator's Hacker"
    },
    "alternatives": [
-    {
-     "itemId": 35072,
-     "name": "Brutal Gladiator's Quickblade"
-    },
     {
      "itemId": 28315,
      "name": "Stormreaver Warblades",
@@ -303,6 +355,11 @@
      "itemId": 28345,
      "name": "Warp Splinter's Thorn",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29948,
+     "name": "Claw of the Phoenix",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -331,22 +388,22 @@
   {
    "itemId": 24028,
    "name": "+8 Agility",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
-   "itemId": 23097,
-   "name": "+6 Agility",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24053,
-   "name": "+8 Resilience Rating",
-   "note": "Socketed across 2 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24055,
    "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
    "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 28119,
+   "name": "+10 Critical Strike Rating",
+   "note": "Socketed across 1 slot in this snapshot."
   }
  ],
  "enchants": [
@@ -355,76 +412,183 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "88% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "67% of surveyed players on this slot.",
+   "note": "88% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Chest",
-   "text": "+6 All Stats",
-   "note": "43% of surveyed players on this slot.",
-   "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+24 Attack Power",
-   "note": "44% of surveyed players on this slot.",
+   "note": "89% of surveyed players on this slot.",
    "name": "Enchant Bracer - Assault",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Agility",
-   "note": "56% of surveyed players on this slot.",
+   "note": "89% of surveyed players on this slot.",
    "name": "Enchant Gloves - Superior Agility",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "83% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Surefooted",
-   "note": "50% of surveyed players on this slot.",
+   "note": "43% of surveyed players on this slot.",
    "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan"
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "43% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+35 Agility",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant 2H Weapon - Major Agility",
-   "source": "Eredar Deathbringer — The Arcatraz"
+   "source": "Eredar Deathbringer — The Arcatraz",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22445,
+     "count": 20
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "OffHand",
@@ -440,7 +604,7 @@
  "faq": [
   {
    "question": "What is the Season 4 arena set for Beast Mastery Hunter?",
-   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Chain Helm, Brutal Gladiator's Chain Spaulders, Brutal Gladiator's Chain Gauntlets, Brutal Gladiator's Left Ripper. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Chain Helm, Brutal Gladiator's Chain Spaulders, Brutal Gladiator's Chain Armor, Brutal Gladiator's Chain Gauntlets, Brutal Gladiator's Chain Leggings, Brutal Gladiator's Decapitator, Brutal Gladiator's Hacker. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 4?",
@@ -452,7 +616,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 4 set?",
-   "answer": "Guardian's Chain Bracers, Guardian's Chain Girdle, Guardian's Chain Sabatons — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Guardian's Pendant of Triumph, Guardian's Chain Bracers, Guardian's Chain Girdle, Guardian's Chain Sabatons, Guardian's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

@@ -400,6 +400,21 @@
    "text": "+12 Agility",
    "name": "Enchant Cloak - Greater Agility",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -407,6 +422,21 @@
    "text": "Enchant a piece of chest armor to add 6 to all stats",
    "name": "Enchant Chest - Exceptional Stats",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -414,6 +444,13 @@
    "text": "+12 Strength",
    "name": "Enchant Bracer - Brawn",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -421,6 +458,17 @@
    "text": "+15 Strength",
    "name": "Enchant Gloves - Major Strength",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 12
+    },
+    {
+     "itemId": 22446,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -430,6 +478,24 @@
    "icon": "inv_misc_armorkit_25",
    "itemId": 29535,
    "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
    "note": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -437,6 +503,17 @@
    "text": "+12 Agility",
    "name": "Enchant Boots - Dexterity",
    "source": "Raging Skeleton — Auchenai Crypts",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Raging Skeleton — Auchenai Crypts"
   },
   {
@@ -444,6 +521,17 @@
    "text": "+4 all stats",
    "name": "Enchant Ring - Stats",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -451,6 +539,25 @@
    "text": "Enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly",
    "name": "Enchant Weapon - Mongoose",
    "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod",
    "note": "Moroes (Tower Steward) — Karazhan"
   }
  ],

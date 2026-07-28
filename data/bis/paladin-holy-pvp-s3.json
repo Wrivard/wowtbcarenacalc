@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 3,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 3 arena gear for Holy Paladin: the Vengeful Gladiator's set (Vengeful Gladiator's Ornamented Headcover, Vengeful Gladiator's Ornamented Spaulders, Vengeful Gladiator's Ornamented Chestguard…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Holy Paladins equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "The Vengeful weapon needs 1850 and the shoulders 2000; everything else is rating-free, so the resilience-heavy body pieces land first and the two gated slots come last. That larger per-piece budget is what lets you eat a full swap and still cast — Merciless Gladiator's Ornamented Spaulders hold the shoulder slot until 2000, and Vindicator's Ornamented Bracers cost honor only.",
  "statPriority": [
@@ -36,18 +36,18 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 28609,
-    "name": "Emberspur Talisman"
+    "itemId": 33922,
+    "name": "Vindicator's Pendant of Salvation"
    },
    "alternatives": [
     {
-     "itemId": 28822,
-     "name": "Teeth of Gruul",
+     "itemId": 28609,
+     "name": "Emberspur Talisman",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29374,
-     "name": "Necklace of Eternal Hope",
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -83,7 +83,7 @@
    },
    "alternatives": [
     {
-     "itemId": 35494,
+     "itemId": 279240,
      "name": "Shroud of Winter's Chill",
      "pveFlexNote": "PvE flex piece."
     },
@@ -125,13 +125,13 @@
    },
    "alternatives": [
     {
-     "itemId": 28512,
-     "name": "Bracers of Justice",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 33889,
      "name": "Vindicator's Lamellar Bracers"
+    },
+    {
+     "itemId": 30047,
+     "name": "Blackfathom Warbands",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -148,23 +148,28 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
+     "itemId": 33696,
+     "name": "Vengeful Gladiator's Lamellar Gauntlets"
+    },
+    {
      "itemId": 30135,
      "name": "Crystalforge Gloves",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 33696,
-     "name": "Vengeful Gladiator's Lamellar Gauntlets"
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 30030,
-    "name": "Girdle of Fallen Stars"
+    "itemId": 33888,
+    "name": "Vindicator's Lamellar Belt"
    },
    "alternatives": [
+    {
+     "itemId": 30030,
+     "name": "Girdle of Fallen Stars",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30044,
      "name": "Monsoon Belt",
@@ -192,19 +197,25 @@
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28748,
+     "name": "Legplates of the Innocent",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 30027,
-    "name": "Boots of Courage Unending"
+    "itemId": 33905,
+    "name": "Vindicator's Ornamented Greaves"
    },
    "alternatives": [
     {
-     "itemId": 33905,
-     "name": "Vindicator's Ornamented Greaves"
+     "itemId": 30027,
+     "name": "Boots of Courage Unending",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33890,
@@ -213,20 +224,20 @@
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 28790,
-    "name": "Naaru Lightwarden's Band"
+    "itemId": 33853,
+    "name": "Vindicator's Band of Dominance"
    },
    "alternatives": [
     {
-     "itemId": 29307,
-     "name": "Band of Eternity",
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
+     "itemId": 29307,
+     "name": "Band of Eternity",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -237,7 +248,53 @@
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band"
+   },
+   "alternatives": [
+    {
+     "itemId": 33853,
+     "name": "Vindicator's Band of Dominance"
+    },
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28236,
+    "name": "Medallion of the Alliance"
+   },
+   "alternatives": [
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28242,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29376,
     "name": "Essence of the Martyr"
@@ -252,8 +309,8 @@
      "name": "Medallion of the Horde"
     },
     {
-     "itemId": 28727,
-     "name": "Pendant of the Violet Eye",
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -279,8 +336,8 @@
    },
    "alternatives": [
     {
-     "itemId": 29458,
-     "name": "Aegis of the Vindicator"
+     "itemId": 33661,
+     "name": "Vengeful Gladiator's Barrier"
     },
     {
      "itemId": 29274,
@@ -288,8 +345,8 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 33661,
-     "name": "Vengeful Gladiator's Barrier"
+     "itemId": 29458,
+     "name": "Aegis of the Vindicator"
     }
    ]
   },
@@ -306,13 +363,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 27917,
-     "name": "Libram of the Eternal Rest",
+     "itemId": 28296,
+     "name": "Libram of the Lightbringer",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28296,
-     "name": "Libram of the Lightbringer",
+     "itemId": 23006,
+     "name": "Libram of Light",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -325,14 +382,14 @@
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
-   "itemId": 24029,
-   "name": "+18 Healing and +6 Spell Damage",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 24057,
    "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
    "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24029,
+   "name": "+18 Healing and +6 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 25901,
@@ -344,11 +401,11 @@
   {
    "slot": "Head",
    "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
-   "note": "100% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Glyph of Renewal",
-   "source": "Quartermaster — Hellfire Peninsula",
    "icon": "spell_holy_healingaura",
-   "itemId": 29190
+   "itemId": 29190,
+   "source": "Quartermaster — Hellfire Peninsula"
   },
   {
    "slot": "Shoulders",
@@ -358,67 +415,173 @@
   {
    "slot": "Back",
    "text": "+15 Shadow Resistance",
-   "note": "67% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Shadow Resistance",
-   "source": "Voidshrieker — Netherstorm"
+   "source": "Voidshrieker — Netherstorm",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 22456,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+30 Healing and +10 Spell Damage",
    "note": "67% of surveyed players on this slot.",
    "name": "Enchant Bracer - Superior Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 21886,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Hands",
    "text": "+35 Healing Spells and +12 Damage Spells",
-   "note": "75% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21886,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Golden Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_holy_restoration",
-   "itemId": 24276
+   "itemId": 24276,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 21886,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "75% of surveyed players on this slot.",
+   "note": "67% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
-   "text": "+20 Healing and +7 Spell Damage",
+   "text": "+12 Spell Damage",
    "note": "100% of surveyed players on this slot.",
-   "name": "Enchant Ring - Healing Power",
-   "source": "Enchanting Trainer — Faction Capital"
+   "name": "Enchant Ring - Spellpower",
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+81 Healing Spells and +27 Damage Spells",
-   "note": "83% of surveyed players on this slot.",
+   "note": "71% of surveyed players on this slot.",
    "name": "Enchant Weapon - Major Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 8
+    },
+    {
+     "itemId": 21886,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "OffHand",
    "text": "+12 Intellect",
    "note": "50% of surveyed players on this slot.",
    "name": "Enchant Shield - Intellect",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   }
  ],
  "faq": [
@@ -436,7 +599,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Ornamented Bracers — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Vindicator's Pendant of Salvation, Vindicator's Ornamented Bracers, Vindicator's Lamellar Belt, Vindicator's Ornamented Greaves, Vindicator's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

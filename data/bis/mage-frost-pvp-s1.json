@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 1,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 1 arena gear for Frost Mage: the Gladiator's set (Gladiator's Silk Cowl, Gladiator's Silk Amice, Gladiator's Silk Raiment…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Frost Mages equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience leads because there is so little of it — the Gladiator's Silk Raiment and its +15 Resilience chest enchant are most of what stands between you and a coordinated opener, and nothing in the set is gated behind rating. Stamina matters as much as spell damage while half your offset slots are still dungeon and crafted filler waiting on the honor vendor.",
  "statPriority": [
@@ -32,14 +32,15 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 30008,
-    "name": "Pendant of the Lost Ages"
+    "itemId": 33067,
+    "name": "Veteran's Pendant of Conquest",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
     {
-     "itemId": 33067,
-     "name": "Veteran's Pendant of Conquest",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28245,
@@ -47,8 +48,8 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29347,
-     "name": "Talisman of the Breaker",
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -64,13 +65,14 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 29992,
-    "name": "Royal Cloak of the Sunstriders"
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape"
    },
    "alternatives": [
     {
-     "itemId": 28378,
-     "name": "Sergeant's Heavy Cape"
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28766,
@@ -94,11 +96,6 @@
     {
      "itemId": 30107,
      "name": "Vestments of the Sea-Witch",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30056,
-     "name": "Robe of Hateful Echoes",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -140,7 +137,7 @@
     {
      "itemId": 30064,
      "name": "Cord of Screaming Terrors",
-     "pveFlexNote": "Seen mostly above 2492 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28799,
@@ -164,6 +161,11 @@
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30207,
+     "name": "Leggings of Tirisfal",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -182,11 +184,16 @@
     {
      "itemId": 28410,
      "name": "General's Silk Footguards"
+    },
+    {
+     "itemId": 28517,
+     "name": "Boots of Foretelling",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
@@ -211,7 +218,54 @@
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28238,
+    "name": "Medallion of the Alliance"
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28239,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29370,
     "name": "Icon of the Silver Crescent"
@@ -224,6 +278,11 @@
     {
      "itemId": 28239,
      "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -237,7 +296,7 @@
     {
      "itemId": 30095,
      "name": "Fang of the Leviathan",
-     "pveFlexNote": "Seen mostly above 2492 rating."
+     "pveFlexNote": "Seen mostly above 2491 rating."
     },
     {
      "itemId": 28770,
@@ -284,7 +343,7 @@
   {
    "itemId": 24059,
    "name": "+4 Spell Critical Rating and +5 Spell Damage",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 28118,
@@ -308,74 +367,162 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "99% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "59% of surveyed players on this slot.",
+   "note": "63% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "58% of surveyed players on this slot."
+   "note": "52% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
    "note": "98% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
    "note": "98% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "52% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "45% of surveyed players on this slot.",
+   "note": "48% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "45% of surveyed players on this slot.",
+   "note": "51% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+40 Spell Damage and Healing",
-   "note": "100% of surveyed players on this slot.",
+   "note": "79% of surveyed players on this slot.",
    "name": "Enchant Weapon - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   }
  ],
  "faq": [

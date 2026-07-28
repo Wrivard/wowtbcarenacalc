@@ -4,8 +4,8 @@
  "content": "pvp",
  "season": 4,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
- "blurb": "Season 4 arena gear for Fury Warrior: the Brutal Gladiator's set (Brutal Gladiator's Cleaver…). Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Fury Warriors equip into their Season 4 equivalents — same slot logic, this season's items.",
+ "updatedAt": "2026-07-26",
+ "blurb": "Season 4 arena gear for Fury Warrior: the Brutal Gladiator's set (Brutal Gladiator's Plate Helm, Brutal Gladiator's Plate Shoulders, Brutal Gladiator's Plate Chestpiece…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Fury Warriors equip into their Season 4 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience comes cheapest from Guardian's honor plate, so build that floor before spending points and treat the Brutal Gladiator's Cleaver at 1950 and the shoulders at 2200 as the only pieces your rating truly decides. Several slots check personal rating as well as team, so weight attack power onto the ungated ones — Dragonstrike, Red Belt of Battle — instead of waiting on a gate you will not clear.",
  "statPriority": [
   "Resilience",
@@ -18,23 +18,23 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 30120,
-    "name": "Destroyer Battle-Helm"
+    "itemId": 35068,
+    "name": "Brutal Gladiator's Plate Helm"
    },
    "alternatives": [
     {
-     "itemId": 29021,
-     "name": "Warbringer Battle-Helm",
+     "itemId": 30120,
+     "name": "Destroyer Battle-Helm",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 35068,
-     "name": "Brutal Gladiator's Plate Helm",
-     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 32461,
      "name": "Furious Gizmatic Goggles",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29021,
+     "name": "Warbringer Battle-Helm",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -42,22 +42,23 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 30022,
-    "name": "Pendant of the Perilous"
+    "itemId": 35135,
+    "name": "Guardian's Pendant of Triumph"
    },
    "alternatives": [
+    {
+     "itemId": 30022,
+     "name": "Pendant of the Perilous",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30059,
      "name": "Choker of Animalistic Fury",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35135,
-     "name": "Guardian's Pendant of Triumph"
-    },
-    {
-     "itemId": 28509,
-     "name": "Worgen Claw Necklace",
+     "itemId": 28745,
+     "name": "Mithril Chain of Heroism",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -65,13 +66,13 @@
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 30122,
-    "name": "Destroyer Shoulderblades"
+    "itemId": 35070,
+    "name": "Brutal Gladiator's Plate Shoulders"
    },
    "alternatives": [
     {
-     "itemId": 30053,
-     "name": "Pauldrons of the Wardancer",
+     "itemId": 30122,
+     "name": "Destroyer Shoulderblades",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -80,8 +81,8 @@
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 35070,
-     "name": "Brutal Gladiator's Plate Shoulders",
+     "itemId": 30053,
+     "name": "Pauldrons of the Wardancer",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -89,23 +90,23 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 24259,
-    "name": "Vengeance Wrap"
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak"
    },
    "alternatives": [
     {
-     "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak",
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
-     "itemId": 28529,
-     "name": "Royal Cloak of Arathi Kings",
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28672,
-     "name": "Drape of the Dark Reavers",
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -113,51 +114,66 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 30118,
-    "name": "Destroyer Breastplate"
+    "itemId": 35066,
+    "name": "Brutal Gladiator's Plate Chestpiece"
    },
    "alternatives": [
     {
-     "itemId": 35066,
-     "name": "Brutal Gladiator's Plate Chestpiece",
+     "itemId": 30118,
+     "name": "Destroyer Breastplate",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29019,
+     "name": "Warbringer Breastplate",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30101,
+     "name": "Bloodsea Brigand's Vest",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 28795,
-    "name": "Bladespire Warbands"
+    "itemId": 35176,
+    "name": "Guardian's Plate Bracers"
    },
    "alternatives": [
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
-     "pveFlexNote": "Seen mostly above 2540 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35176,
-     "name": "Guardian's Plate Bracers",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 30119,
-    "name": "Destroyer Gauntlets"
+    "itemId": 35067,
+    "name": "Brutal Gladiator's Plate Gauntlets"
    },
    "alternatives": [
     {
-     "itemId": 28824,
-     "name": "Gauntlets of Martial Perfection",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 30119,
+     "name": "Destroyer Gauntlets",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35067,
-     "name": "Brutal Gladiator's Plate Gauntlets",
+     "itemId": 28824,
+     "name": "Gauntlets of Martial Perfection",
+     "pveFlexNote": "Seen mostly above 2358 rating."
+    },
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -165,75 +181,80 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 30032,
-    "name": "Red Belt of Battle"
+    "itemId": 35161,
+    "name": "Guardian's Plate Belt"
    },
    "alternatives": [
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28779,
      "name": "Girdle of the Endless Pit",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35161,
-     "name": "Guardian's Plate Belt",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30121,
-    "name": "Destroyer Greaves"
+    "itemId": 35069,
+    "name": "Brutal Gladiator's Plate Legguards"
    },
    "alternatives": [
+    {
+     "itemId": 30121,
+     "name": "Destroyer Greaves",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 29950,
      "name": "Greaves of the Bloodwarder",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30538,
-     "name": "Midnight Legguards",
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
      "itemId": 29995,
      "name": "Leggings of Murderous Intent",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 30081,
-    "name": "Warboots of Obliteration"
+    "itemId": 35146,
+    "name": "Guardian's Plate Greaves"
    },
    "alternatives": [
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28608,
      "name": "Ironstriders of Urgency",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 35146,
-     "name": "Guardian's Plate Greaves",
-     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 28757,
-    "name": "Ring of a Thousand Marks"
+    "itemId": 35131,
+    "name": "Guardian's Band of Triumph"
    },
    "alternatives": [
     {
-     "itemId": 28730,
-     "name": "Mithril Band of the Unscarred",
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -242,17 +263,40 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30061,
-     "name": "Ancestral Ring of Conquest",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy"
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks"
+   },
+   "alternatives": [
+    {
+     "itemId": 35131,
+     "name": "Guardian's Band of Triumph"
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30344,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
@@ -261,14 +305,37 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 21670,
-     "name": "Badge of the Swarmguard",
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28034,
-     "name": "Hourglass of the Unraveller",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 30344,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -282,6 +349,11 @@
     {
      "itemId": 28442,
      "name": "Stormherald",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30311,
+     "name": "Warp Slicer",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -296,58 +368,64 @@
     {
      "itemId": 30082,
      "name": "Talon of Azshara",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2358 rating."
     },
     {
      "itemId": 29924,
      "name": "Netherbane",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35071,
+     "name": "Brutal Gladiator's Pummeler",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 28772,
-    "name": "Sunfury Bow of the Phoenix"
+    "itemId": 35108,
+    "name": "Brutal Gladiator's War Edge"
    },
    "alternatives": [
     {
-     "itemId": 35108,
-     "name": "Brutal Gladiator's War Edge"
-    },
-    {
      "itemId": 30025,
      "name": "Serpentshrine Shuriken",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2358 rating."
     },
     {
-     "itemId": 30105,
-     "name": "Serpent Spine Longbow",
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30279,
+     "name": "Mama's Insurance",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   }
  ],
  "gems": [
   {
-   "itemId": 24027,
-   "name": "+8 Strength",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
-   "itemId": 24054,
-   "name": "+4 Strength and +6 Stamina",
-   "note": "Socketed across 5 slots in this snapshot."
+   "itemId": 24048,
+   "name": "+8 Critical Strike Rating",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24058,
    "name": "+4 Critical Strike Rating and +4 Strength",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 32409,
-   "name": "+12 Agility & 3% Increased Critical Damage",
+   "itemId": 25894,
+   "name": "+24 Attack Power and Minor Run Speed Increase",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -357,89 +435,197 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
-   "text": "+15 Critical Strike Rating and +20 Attack Power",
-   "note": "56% of surveyed players on this slot.",
-   "name": "Greater Inscription of the Blade",
-   "source": "Inscriber Saalyn — Shattrath City",
-   "icon": "spell_holy_weaponmastery",
-   "itemId": 28910
+   "text": "+15 Dodge Rating and +10 Defense Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Greater Inscription of Warding",
+   "icon": "classic_spell_holy_blessingofprotection",
+   "itemId": 28889,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "57% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Chest",
-   "text": "+6 All Stats",
-   "note": "50% of surveyed players on this slot.",
-   "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+12 Strength",
-   "note": "50% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Bracer - Brawn",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Strength",
-   "note": "60% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Strength",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 12
+    },
+    {
+     "itemId": 22446,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "86% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed and +6 Agility",
-   "note": "75% of surveyed players on this slot.",
-   "name": "Enchant Boots - Cat's Swiftness",
-   "source": "World Drop"
-  },
-  {
-   "slot": "Ring",
-   "text": "+2 Weapon Damage",
-   "note": "9% of surveyed players on this slot.",
-   "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "Surefooted",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Boots - Surefooted",
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "50% of surveyed players on this slot.",
+   "note": "92% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   },
   {
    "slot": "OffHand",
    "text": "Mongoose",
-   "note": "50% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 4 arena set for Fury Warrior?",
-   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Cleaver. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Plate Helm, Brutal Gladiator's Plate Shoulders, Brutal Gladiator's Plate Chestpiece, Brutal Gladiator's Plate Gauntlets, Brutal Gladiator's Plate Legguards, Brutal Gladiator's Cleaver, Brutal Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 4?",
@@ -448,6 +634,10 @@
   {
    "question": "How many arena points does full Season 4 gear cost?",
    "answer": "The five set pieces total roughly 8,250 arena points (helm/chest/legs 1,875 each, shoulders 1,500, gloves 1,125) plus about 3,750 for a main weapon. Use the arena points calculator to turn your weekly rating into a purchase timeline."
+  },
+  {
+   "question": "Which honor pieces complement the Season 4 set?",
+   "answer": "Guardian's Pendant of Triumph, Guardian's Plate Bracers, Guardian's Plate Belt, Guardian's Plate Greaves, Guardian's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

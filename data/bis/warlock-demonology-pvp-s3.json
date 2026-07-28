@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 3,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 3 arena gear for Demonology Warlock: the Vengeful Gladiator's set (Vengeful Gladiator's Felweave Cowl, Vengeful Gladiator's Dreadweave Mantle, Vengeful Gladiator's Dreadweave Robe…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Demonology Warlocks equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "The resilience budget jumps far enough that a swap onto you no longer resolves inside two globals, so the rating-free Vindicator's cuffs, belt and boots do real work instead of just padding health. Clear 1850 for the Vengeful Spellblade before anything else; if 2000 shoulders stay out of reach, the Merciless mantle holds the set bonus in the meantime.",
  "statPriority": [
@@ -36,13 +36,13 @@
    },
    "alternatives": [
     {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28245,
-     "name": "Pendant of Dominance",
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -139,7 +139,7 @@
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33853,
     "name": "Vindicator's Band of Dominance"
@@ -163,7 +163,53 @@
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 33054,
+    "name": "The Seal of Danzalar"
+   },
+   "alternatives": [
+    {
+     "itemId": 33853,
+     "name": "Vindicator's Band of Dominance"
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28247,
+     "name": "Band of Dominance",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30348,
+    "name": "Medallion of the Alliance"
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30449,
+     "name": "Void Star Talisman",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29370,
     "name": "Icon of the Silver Crescent"
@@ -174,13 +220,13 @@
      "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 30343,
-     "name": "Medallion of the Horde"
-    },
-    {
      "itemId": 30449,
      "name": "Void Star Talisman",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde"
     }
    ]
   },
@@ -222,14 +268,14 @@
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
-   "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
    "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28118,
@@ -243,74 +289,174 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "63% of surveyed players on this slot.",
+   "note": "66% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "59% of surveyed players on this slot."
+   "note": "69% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
    "note": "99% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
    "note": "96% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "51% of surveyed players on this slot.",
+   "note": "82% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
-   "note": "98% of surveyed players on this slot.",
+   "note": "99% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "37% of surveyed players on this slot.",
+   "note": "42% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "50% of surveyed players on this slot.",
+   "note": "53% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Soulfrost",
-   "note": "89% of surveyed players on this slot.",
+   "note": "90% of surveyed players on this slot.",
    "name": "Enchant Weapon - Soulfrost",
-   "source": "Terestian Illhoof — Karazhan"
+   "source": "Terestian Illhoof — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 12
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    },
+    {
+     "itemId": 22456,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [

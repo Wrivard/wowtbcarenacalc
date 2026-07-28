@@ -401,6 +401,17 @@
    "text": "+15 resilience rating",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "World Drop"
   },
   {
@@ -408,6 +419,17 @@
    "text": "+4 all Stats",
    "name": "Enchant Bracer - Stats",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    },
+    {
+     "itemId": 22447,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -415,6 +437,21 @@
    "text": "+15 agility",
    "name": "Enchant Gloves - Superior Agility",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod",
    "note": "World Drop"
   },
   {
@@ -422,6 +459,17 @@
    "text": "minor movement speed increase and +6 Agility",
    "name": "Enchant Boots - Cat's Swiftness",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "World Drop"
   },
   {
@@ -429,6 +477,17 @@
    "text": "+4 all stats",
    "name": "Enchant Ring - Stats",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   }
  ],

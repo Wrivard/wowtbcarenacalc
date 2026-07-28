@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 3,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 3 arena gear for Feral Druid: the Vengeful Gladiator's set (Vengeful Gladiator's Dragonhide Helm, Vengeful Gladiator's Dragonhide Spaulders, Vengeful Gladiator's Dragonhide Tunic…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Feral Druids equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "The resilience pool jumps enough that a full swap no longer opens you inside one stun, so the agility on Vindicator's Dragonhide Bracers is worth more than it was a season ago. Miss 2000 rating and Vengeful Gladiator's Dragonhide Spaulders stay locked — wear the Merciless shoulders rather than a raid piece carrying no resilience. The weapon slot waits on 1850, and Merciless Gladiator's Maul covers it until then.",
  "statPriority": [
@@ -21,19 +21,30 @@
     "itemId": 33672,
     "name": "Vengeful Gladiator's Dragonhide Helm"
    },
-   "alternatives": []
+   "alternatives": [
+    {
+     "itemId": 8345,
+     "name": "Wolfshead Helm",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29098,
+     "name": "Stag-Helm of Malorne",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
   },
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 30017,
-    "name": "Telonicus's Pendant of Mayhem"
+    "itemId": 29381,
+    "name": "Choker of Vile Intent"
    },
    "alternatives": [
     {
-     "itemId": 29381,
-     "name": "Choker of Vile Intent",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30017,
+     "name": "Telonicus's Pendant of Mayhem",
+     "pveFlexNote": "Seen mostly above 2650 rating."
     },
     {
      "itemId": 28509,
@@ -41,7 +52,7 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35507,
+     "itemId": 278827,
      "name": "Amulet of Bitter Hatred",
      "pveFlexNote": "PvE flex piece."
     }
@@ -74,14 +85,14 @@
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 35495,
+     "itemId": 278819,
      "name": "The Frost Lord's War Cloak",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30098,
-     "name": "Razor-Scale Battlecloak",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 28660,
+     "name": "Gilded Thorium Cloak",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -91,7 +102,13 @@
     "itemId": 33675,
     "name": "Vengeful Gladiator's Dragonhide Tunic"
    },
-   "alternatives": []
+   "alternatives": [
+    {
+     "itemId": 30222,
+     "name": "Nordrassil Chestplate",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
   },
   {
    "slot": "Wrist",
@@ -105,6 +122,11 @@
      "name": "Marshal's Dragonhide Bracers"
     },
     {
+     "itemId": 29966,
+     "name": "Vambraces of Ending",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
      "itemId": 33893,
      "name": "Vindicator's Leather Bracers"
     }
@@ -116,18 +138,30 @@
     "itemId": 33671,
     "name": "Vengeful Gladiator's Dragonhide Gloves"
    },
-   "alternatives": []
+   "alternatives": [
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30223,
+     "name": "Nordrassil Handgrips",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 30040,
-    "name": "Belt of Deep Shadow"
+    "itemId": 33879,
+    "name": "Vindicator's Dragonhide Belt"
    },
    "alternatives": [
     {
-     "itemId": 33879,
-     "name": "Vindicator's Dragonhide Belt"
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "pveFlexNote": "Seen mostly above 2650 rating."
     },
     {
      "itemId": 28976,
@@ -143,13 +177,14 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30229,
-    "name": "Nordrassil Feral-Kilt"
+    "itemId": 33673,
+    "name": "Vengeful Gladiator's Dragonhide Legguards"
    },
    "alternatives": [
     {
-     "itemId": 33673,
-     "name": "Vengeful Gladiator's Dragonhide Legguards"
+     "itemId": 30229,
+     "name": "Nordrassil Feral-Kilt",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28741,
@@ -161,64 +196,118 @@
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 30041,
-    "name": "Boots of Natural Grace"
+    "itemId": 33880,
+    "name": "Vindicator's Dragonhide Boots"
    },
    "alternatives": [
     {
-     "itemId": 33880,
-     "name": "Vindicator's Dragonhide Boots"
+     "itemId": 30041,
+     "name": "Boots of Natural Grace",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28977,
      "name": "Marshal's Dragonhide Boots"
+    },
+    {
+     "itemId": 30060,
+     "name": "Boots of Effortless Striking",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 34837,
-    "name": "The 2 Ring"
+    "itemId": 33919,
+    "name": "Vindicator's Band of Triumph"
    },
    "alternatives": [
+    {
+     "itemId": 34837,
+     "name": "The 2 Ring",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28553,
      "name": "Band of the Exorcist",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28791,
-     "name": "Ring of the Recalcitrant",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30052,
-     "name": "Ring of Lethality",
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 34837,
+    "name": "The 2 Ring"
+   },
+   "alternatives": [
+    {
+     "itemId": 33919,
+     "name": "Vindicator's Band of Triumph",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28553,
+     "name": "Band of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
    "bis": {
     "itemId": 28235,
     "name": "Medallion of the Alliance"
    },
    "alternatives": [
     {
-     "itemId": 28241,
-     "name": "Medallion of the Horde"
-    },
-    {
      "itemId": 32658,
      "name": "Badge of Tenacity",
      "pveFlexNote": "PvE flex piece."
     },
     {
+     "itemId": 28241,
+     "name": "Medallion of the Horde",
+     "pveFlexNote": "Seen mostly above 2650 rating."
+    },
+    {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 32658,
+    "name": "Badge of Tenacity"
+   },
+   "alternatives": [
+    {
+     "itemId": 28235,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28241,
+     "name": "Medallion of the Horde",
+     "pveFlexNote": "Seen mostly above 2650 rating."
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -241,23 +330,19 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 33743,
-     "name": "Vengeful Gladiator's Salvation"
+     "itemId": 29981,
+     "name": "Ethereum Life-Staff",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 29170,
-    "name": "Windcaller's Orb"
+    "itemId": 33736,
+    "name": "Vengeful Gladiator's Reprieve"
    },
-   "alternatives": [
-    {
-     "itemId": 33736,
-     "name": "Vengeful Gladiator's Reprieve"
-    }
-   ]
+   "alternatives": []
   },
   {
    "slot": "Ranged",
@@ -270,6 +355,11 @@
      "itemId": 27886,
      "name": "Idol of the Emerald Queen",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28064,
+     "name": "Idol of the Wild",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   }
@@ -281,19 +371,19 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24039,
-   "name": "+10 Spell Penetration",
-   "note": "Socketed across 2 slots in this snapshot."
+   "itemId": 24061,
+   "name": "+4 Hit Rating and +4 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24055,
    "name": "+4 Agility and +6 Stamina",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
-   "note": "Socketed across 3 slots in this snapshot."
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
+   "note": "Socketed across 1 slot in this snapshot."
   }
  ],
  "enchants": [
@@ -302,18 +392,18 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "56% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "63% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
@@ -323,59 +413,159 @@
   {
    "slot": "Chest",
    "text": "+6 All Stats",
-   "note": "56% of surveyed players on this slot.",
+   "note": "90% of surveyed players on this slot.",
    "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+4 All Stats",
-   "note": "100% of surveyed players on this slot.",
+   "note": "55% of surveyed players on this slot.",
    "name": "Enchant Bracer - Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    },
+    {
+     "itemId": 22447,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Spell Hit Rating",
-   "note": "56% of surveyed players on this slot.",
+   "note": "90% of surveyed players on this slot.",
    "name": "Enchant Gloves - Spell Strike",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+40 Stamina and +12 Agility",
    "note": "100% of surveyed players on this slot.",
    "name": "Nethercleft Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29536
+   "itemId": 29536,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 25708,
+     "count": 16
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +6 Agility",
-   "note": "100% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Enchant Boots - Cat's Swiftness",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "67% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22445,
+     "count": 5
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+35 Agility",
-   "note": "57% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant 2H Weapon - Major Agility",
-   "source": "Eredar Deathbringer — The Arcatraz"
+   "source": "Eredar Deathbringer — The Arcatraz",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22445,
+     "count": 20
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 3 arena set for Feral Druid?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Dragonhide Helm, Vengeful Gladiator's Dragonhide Spaulders, Vengeful Gladiator's Dragonhide Tunic, Vengeful Gladiator's Dragonhide Gloves. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Dragonhide Helm, Vengeful Gladiator's Dragonhide Spaulders, Vengeful Gladiator's Dragonhide Tunic, Vengeful Gladiator's Dragonhide Gloves, Vengeful Gladiator's Dragonhide Legguards, Vengeful Gladiator's Reprieve. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -387,7 +577,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Dragonhide Bracers — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Vindicator's Dragonhide Bracers, Vindicator's Dragonhide Belt, Vindicator's Dragonhide Boots, Vindicator's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

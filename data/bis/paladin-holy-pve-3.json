@@ -442,6 +442,29 @@
    "text": "+7 all Resistances",
    "name": "Enchant Cloak - Major Resistance",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 21884,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 4
+    },
+    {
+     "itemId": 22452,
+     "count": 4
+    },
+    {
+     "itemId": 21885,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "World Drop"
   },
   {
@@ -449,6 +472,17 @@
    "text": "+6 Mana every 5 seconds",
    "name": "Enchant Chest - Restore Mana Prime",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22447,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Truesilver Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -456,6 +490,17 @@
    "text": "+30 effect of your healing spells and +10 damage spells",
    "name": "Enchant Bracer - Superior Healing",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 21886,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -463,6 +508,21 @@
    "text": "+35 Healing and +12 Spell Damage",
    "name": "Enchant Gloves - Major Healing",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21886,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -472,6 +532,20 @@
    "icon": "spell_holy_restoration",
    "itemId": 24276,
    "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 21886,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
    "note": "Tailoring Trainer — Faction Capital"
   },
   {
@@ -479,6 +553,17 @@
    "text": "minor movement speed increase and +9 Stamina",
    "name": "Enchant Boots - Boar's Speed",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "World Drop"
   },
   {
@@ -486,6 +571,21 @@
    "text": "+20 healing spells and +7 damage spells",
    "name": "Enchant Ring - Healing Power",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22445,
+     "count": 5
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -493,6 +593,21 @@
    "text": "+81 Healing and +27 Spell Damage",
    "name": "Enchant Weapon - Major Healing",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 8
+    },
+    {
+     "itemId": 21886,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -500,6 +615,13 @@
    "text": "+12 intellect",
    "name": "Enchant Shield - Intellect",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   }
  ],

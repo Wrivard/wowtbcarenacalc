@@ -4,13 +4,13 @@
  "content": "pvp",
  "season": 2,
  "ratingRange": [
-  2135,
-  2943
+  2108,
+  2996
  ],
  "sampleSize": 14,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Destruction is the warlock spec for players who want kill windows instead of attrition: Shadowfury AoE stuns, Backlash instants and Conflagrate burst that resilience barely dents. It gives up SL/SL's immortality, so it appears mostly alongside a dedicated peeling partner.",
- "statPriorityRationale": "Destruction actually kills people in a window, so it is the one warlock tree where spell damage and crit rank above pure stamina stacking — Shadowfury into a Conflagrate + Shadow Bolt burst rewards throughput.",
+ "statPriorityRationale": "Destruction actually kills people in a window, so it is the one warlock tree where spell damage and crit rank above pure stamina stacking — Shadowfury into Chaos Bolt-era Conflagrate burst rewards throughput.",
  "statPriority": [
   "Resilience",
   "Spell Damage",
@@ -22,73 +22,80 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 28963,
-    "name": "Voidheart Crown",
-    "usagePct": 36
+    "itemId": 30187,
+    "name": "Gladiator's Felweave Cowl",
+    "usagePct": 14
    },
    "alternatives": [
     {
      "itemId": 30212,
      "name": "Hood of the Corruptor",
-     "usagePct": 29,
+     "usagePct": 50,
+     "pveFlexNote": "Seen mostly above 2359 rating."
+    },
+    {
+     "itemId": 28963,
+     "name": "Voidheart Crown",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31980,
      "name": "Merciless Gladiator's Felweave Cowl",
      "usagePct": 14
-    },
-    {
-     "itemId": 28744,
-     "name": "Uni-Mind Headdress",
-     "usagePct": 7,
-     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 28762,
-    "name": "Adornment of Stolen Souls",
-    "usagePct": 36
+    "itemId": 33065,
+    "name": "Veteran's Pendant of Dominance",
+    "usagePct": 14
    },
    "alternatives": [
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "usagePct": 29,
+     "pveFlexNote": "Seen mostly above 2359 rating."
+    },
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28530,
      "name": "Brooch of Unquenchable Fury",
      "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30015,
-     "name": "The Sun King's Talisman",
-     "usagePct": 14,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 33065,
-     "name": "Veteran's Pendant of Dominance",
-     "usagePct": 14
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 28967,
-    "name": "Voidheart Mantle",
-    "usagePct": 64
+    "itemId": 31976,
+    "name": "Merciless Gladiator's Dreadweave Mantle",
+    "usagePct": 21
    },
    "alternatives": [
     {
-     "itemId": 31976,
-     "name": "Merciless Gladiator's Dreadweave Mantle",
-     "usagePct": 29
+     "itemId": 28967,
+     "name": "Voidheart Mantle",
+     "usagePct": 64,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30186,
      "name": "Gladiator's Felweave Amice",
+     "usagePct": 7
+    },
+    {
+     "itemId": 31979,
+     "name": "Merciless Gladiator's Felweave Amice",
      "usagePct": 7
     }
    ]
@@ -96,25 +103,26 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28766,
-    "name": "Ruby Drape of the Mysticant",
-    "usagePct": 36
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 29
    },
    "alternatives": [
     {
-     "itemId": 28378,
-     "name": "Sergeant's Heavy Cape",
-     "usagePct": 29
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "usagePct": 50,
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 27981,
-     "name": "Sethekk Oracle Cloak",
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
      "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 28797,
-     "name": "Brute Cloak of the Ogre-Magi",
+     "itemId": 30735,
+     "name": "Ancient Spellcloak of the Highborne",
      "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
@@ -123,26 +131,28 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 28964,
-    "name": "Voidheart Robe",
-    "usagePct": 50
+    "itemId": 31977,
+    "name": "Merciless Gladiator's Dreadweave Robe",
+    "usagePct": 14
    },
    "alternatives": [
     {
-     "itemId": 31977,
-     "name": "Merciless Gladiator's Dreadweave Robe",
-     "usagePct": 21
+     "itemId": 28964,
+     "name": "Voidheart Robe",
+     "usagePct": 36,
+     "pveFlexNote": "Seen mostly above 2359 rating."
     },
     {
      "itemId": 30107,
      "name": "Vestments of the Sea-Witch",
-     "usagePct": 7,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30200,
-     "name": "Gladiator's Felweave Raiment",
-     "usagePct": 7
+     "itemId": 30056,
+     "name": "Robe of Hateful Echoes",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -151,23 +161,23 @@
    "bis": {
     "itemId": 32811,
     "name": "Veteran's Dreadweave Cuffs",
-    "usagePct": 50
+    "usagePct": 36
    },
    "alternatives": [
     {
      "itemId": 32820,
      "name": "Veteran's Silk Cuffs",
-     "usagePct": 14
+     "usagePct": 29
+    },
+    {
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "usagePct": 14,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 24250,
      "name": "Bracers of Havok",
-     "usagePct": 7,
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
-     "itemId": 27462,
-     "name": "Crimson Bracers of Gloom",
      "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
@@ -176,47 +186,49 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 28968,
-    "name": "Voidheart Gloves",
-    "usagePct": 50
+    "itemId": 31973,
+    "name": "Merciless Gladiator's Dreadweave Gloves",
+    "usagePct": 14
    },
    "alternatives": [
     {
-     "itemId": 31973,
-     "name": "Merciless Gladiator's Dreadweave Gloves",
-     "usagePct": 21
+     "itemId": 28968,
+     "name": "Voidheart Gloves",
+     "usagePct": 64,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30188,
      "name": "Gladiator's Felweave Handguards",
-     "usagePct": 14
+     "usagePct": 7
     },
     {
-     "itemId": 28507,
-     "name": "Handwraps of Flowing Thought",
+     "itemId": 30725,
+     "name": "Anger-Spark Gloves",
      "usagePct": 7,
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 28654,
-    "name": "Malefic Girdle",
-    "usagePct": 21
+    "itemId": 32799,
+    "name": "Veteran's Dreadweave Belt",
+    "usagePct": 14
    },
    "alternatives": [
     {
      "itemId": 30038,
      "name": "Belt of Blasting",
-     "usagePct": 21,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 36,
+     "pveFlexNote": "Seen mostly above 2359 rating."
     },
     {
-     "itemId": 32799,
-     "name": "Veteran's Dreadweave Belt",
-     "usagePct": 21
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "usagePct": 14,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24256,
@@ -231,46 +243,47 @@
    "bis": {
     "itemId": 31975,
     "name": "Merciless Gladiator's Dreadweave Leggings",
-    "usagePct": 29
+    "usagePct": 14
    },
    "alternatives": [
     {
-     "itemId": 28966,
-     "name": "Voidheart Leggings",
-     "usagePct": 21,
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
      "itemId": 30213,
      "name": "Leggings of the Corruptor",
-     "usagePct": 21,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 29,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24262,
      "name": "Spellstrike Pants",
-     "usagePct": 14,
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28966,
+     "name": "Voidheart Leggings",
+     "usagePct": 14,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 30050,
-    "name": "Boots of the Shifting Nightmare",
-    "usagePct": 29
+    "itemId": 28410,
+    "name": "General's Silk Footguards",
+    "usagePct": 7
    },
    "alternatives": [
     {
-     "itemId": 32787,
-     "name": "Veteran's Dreadweave Stalkers",
-     "usagePct": 29
+     "itemId": 30050,
+     "name": "Boots of the Shifting Nightmare",
+     "usagePct": 36,
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28517,
-     "name": "Boots of Foretelling",
-     "usagePct": 14,
+     "itemId": 30037,
+     "name": "Boots of Blasting",
+     "usagePct": 21,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
@@ -282,57 +295,110 @@
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
-    "usagePct": 43
+    "usagePct": 36
    },
    "alternatives": [
     {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "usagePct": 50,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28753,
      "name": "Ring of Recurrence",
-     "usagePct": 36,
-     "pveFlexNote": "Seen mostly above 2528 rating."
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28793,
      "name": "Band of Crimson Fury",
-     "usagePct": 36,
-     "pveFlexNote": "Seen mostly above 2528 rating."
-    },
-    {
-     "itemId": 29302,
-     "name": "Band of Eternity",
      "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent",
-    "usagePct": 79
+    "itemId": 29302,
+    "name": "Band of Eternity",
+    "usagePct": 50
    },
    "alternatives": [
     {
-     "itemId": 27683,
-     "name": "Quagmirran's Eye",
-     "usagePct": 64,
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "usagePct": 36
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30343,
-     "name": "Medallion of the Horde",
-     "usagePct": 21
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30343,
+    "name": "Medallion of the Horde",
+    "usagePct": 14
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 86,
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 19379,
-     "name": "Neltharion's Tear",
-     "usagePct": 7,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 79,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance",
+     "usagePct": 14
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 86
+   },
+   "alternatives": [
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde",
+     "usagePct": 14
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 79,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance",
+     "usagePct": 14
     }
    ]
   },
@@ -341,38 +407,50 @@
    "bis": {
     "itemId": 32053,
     "name": "Merciless Gladiator's Spellblade",
-    "usagePct": 86
+    "usagePct": 64
    },
    "alternatives": [
     {
      "itemId": 24557,
      "name": "Gladiator's War Staff",
      "usagePct": 7
+    },
+    {
+     "itemId": 28297,
+     "name": "Gladiator's Spellblade",
+     "usagePct": 7
+    },
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 29272,
-    "name": "Orb of the Soul-Eater",
-    "usagePct": 29
+    "itemId": 31978,
+    "name": "Merciless Gladiator's Endgame",
+    "usagePct": 14
    },
    "alternatives": [
     {
-     "itemId": 31978,
-     "name": "Merciless Gladiator's Endgame",
-     "usagePct": 29
-    },
-    {
-     "itemId": 28734,
-     "name": "Jewel of Infinite Possibilities",
-     "usagePct": 21,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "usagePct": 29,
+     "pveFlexNote": "Seen mostly above 2359 rating."
     },
     {
      "itemId": 30049,
      "name": "Fathomstone",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
      "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
@@ -383,25 +461,25 @@
    "bis": {
     "itemId": 28320,
     "name": "Gladiator's Touch of Defeat",
-    "usagePct": 29
+    "usagePct": 21
    },
    "alternatives": [
     {
-     "itemId": 32962,
-     "name": "Merciless Gladiator's Touch of Defeat",
-     "usagePct": 29,
-     "pveFlexNote": "Seen mostly above 2528 rating."
+     "itemId": 29982,
+     "name": "Wand of the Forgotten Star",
+     "usagePct": 43,
+     "pveFlexNote": "Seen mostly above 2359 rating."
     },
     {
      "itemId": 28386,
      "name": "Nether Core's Control Rod",
-     "usagePct": 14,
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28673,
-     "name": "Tirisfal Wand of Ascendancy",
-     "usagePct": 14,
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -409,23 +487,23 @@
  ],
  "gems": [
   {
-   "itemId": 31867,
-   "name": "+4 Spell Hit Rating and +5 Spell Damage",
-   "note": "Socketed across 2 slots in this snapshot."
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24056,
-   "name": "+5 Spell Damage and +6 Stamina",
-   "note": "Socketed across 2 slots in this snapshot."
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 34220,
-   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "itemId": 25893,
+   "name": "Chance to Increase Spell Cast Speed",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 23096,
-   "name": "+7 Spell Damage",
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -435,89 +513,196 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "67% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "75% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
-   "text": "+6 All Stats",
-   "note": "43% of surveyed players on this slot.",
-   "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "43% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed Increase",
-   "note": "50% of surveyed players on this slot."
+   "text": "Minor Speed and +9 Stamina",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Boots - Boar's Speed",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "83% of surveyed players on this slot.",
+   "note": "60% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Soulfrost",
-   "note": "92% of surveyed players on this slot.",
+   "note": "78% of surveyed players on this slot.",
    "name": "Enchant Weapon - Soulfrost",
-   "source": "Terestian Illhoof — Karazhan"
+   "source": "Terestian Illhoof — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 12
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    },
+    {
+     "itemId": 22456,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What rating are these Destruction Warlocks?",
-   "answer": "This snapshot covers 14 Destruction Warlocks between 2135 and 2943 rating (average 2516) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 14 Destruction Warlocks between 2108 and 2996 rating (average 2444) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Destruction Warlock PvP gear right now?",
-   "answer": "The highest-consensus picks are Merciless Gladiator's Spellblade (86%), Icon of the Silver Crescent (79%), Voidheart Mantle (64%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Icon of the Silver Crescent (86%), Merciless Gladiator's Spellblade (64%), Band of Eternity (50%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Destruction Warlock BiS list is PvP gear vs raid gear?",
-   "answer": "Only 33% of the most-used slots are PvP items — high-rated Destruction Warlocks flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+   "answer": "88% of the most-used slots are arena/honor items — for Destruction Warlocks the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Destruction Warlocks use in arena?",
-   "answer": "Merciless Gladiator's Spellblade is the main-hand of choice (86% of surveyed players)."
+   "answer": "Merciless Gladiator's Spellblade is the main-hand of choice (64% of surveyed players)."
   },
   {
    "question": "What gems do Destruction Warlocks socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Hit Rating and +5 Spell Damage, +5 Spell Damage and +6 Stamina, +12 Spell Critical & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +10 Spell Penetration, +8 Resilience Rating, Chance to Increase Spell Cast Speed. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

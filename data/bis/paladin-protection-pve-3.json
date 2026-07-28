@@ -432,6 +432,21 @@
    "text": "+12 dodge rating",
    "name": "Enchant Cloak - Dodge",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Arcanite Rod",
    "note": "World Drop"
   },
   {
@@ -439,6 +454,21 @@
    "text": "+150 health",
    "name": "Enchant Chest - Exceptional Health",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 8
+    },
+    {
+     "itemId": 13446,
+     "count": 4
+    },
+    {
+     "itemId": 14344,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -446,6 +476,21 @@
    "text": "+15 spell damage and healing",
    "name": "Enchant Bracer - Spellpower",
    "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Bloodmaul Geomancer — Blade's Edge Mountains"
   },
   {
@@ -453,6 +498,21 @@
    "text": "+20 damage and healing",
    "name": "Enchant Gloves - Major Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -462,6 +522,24 @@
    "icon": "inv_misc_armorkit_25",
    "itemId": 29536,
    "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 25708,
+     "count": 16
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
    "note": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -469,6 +547,13 @@
    "text": "+12 Stamina",
    "name": "Enchant Boots - Fortitude",
    "source": "Ethereal Priest — Mana-Tombs",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 12
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Ethereal Priest — Mana-Tombs"
   },
   {
@@ -476,6 +561,17 @@
    "text": "+12 spell damage and healing",
    "name": "Enchant Ring - Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -483,6 +579,17 @@
    "text": "+40 spell damage and healing",
    "name": "Enchant Weapon - Major Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -490,6 +597,13 @@
    "text": "+18 Stamina",
    "name": "Enchant Shield - Major Stamina",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 15
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   }
  ],

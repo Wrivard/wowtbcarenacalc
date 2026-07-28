@@ -4,8 +4,8 @@
  "content": "pvp",
  "season": 4,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
- "blurb": "Season 4 arena gear for Destruction Warlock: the Brutal Gladiator's set (Brutal Gladiator's Dreadweave Leggings, Brutal Gladiator's Spellblade, Brutal Gladiator's Touch of Defeat…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Destruction Warlocks equip into their Season 4 equivalents — same slot logic, this season's items.",
+ "updatedAt": "2026-07-26",
+ "blurb": "Season 4 arena gear for Destruction Warlock: the Brutal Gladiator's set (Brutal Gladiator's Felweave Cowl, Brutal Gladiator's Dreadweave Mantle, Brutal Gladiator's Dreadweave Robe…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Destruction Warlocks equip into their Season 4 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Guardian's honor gear puts a floor under your resilience before you spend an arena point, so the priority is really a question of which gated pieces you can reach. If 1950 for the Brutal Gladiator's Spellblade is out of range, bank points on Brutal Gladiator's Dreadweave Leggings — spell damage on a slot you can claim beats waiting on 2200 shoulders.",
  "statPriority": [
   "Resilience",
@@ -18,59 +18,57 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 28963,
-    "name": "Voidheart Crown"
+    "itemId": 35010,
+    "name": "Brutal Gladiator's Felweave Cowl"
    },
    "alternatives": [
     {
      "itemId": 30212,
      "name": "Hood of the Corruptor",
+     "pveFlexNote": "Seen mostly above 2359 rating."
+    },
+    {
+     "itemId": 28963,
+     "name": "Voidheart Crown",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 35010,
-     "name": "Brutal Gladiator's Felweave Cowl"
-    },
-    {
-     "itemId": 28744,
-     "name": "Uni-Mind Headdress",
-     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 28762,
-    "name": "Adornment of Stolen Souls"
+    "itemId": 35133,
+    "name": "Guardian's Pendant of Dominance"
    },
    "alternatives": [
+    {
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
+     "pveFlexNote": "Seen mostly above 2359 rating."
+    },
+    {
+     "itemId": 28762,
+     "name": "Adornment of Stolen Souls",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28530,
      "name": "Brooch of Unquenchable Fury",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30015,
-     "name": "The Sun King's Talisman",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 35133,
-     "name": "Guardian's Pendant of Dominance"
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 28967,
-    "name": "Voidheart Mantle"
+    "itemId": 35006,
+    "name": "Brutal Gladiator's Dreadweave Mantle"
    },
    "alternatives": [
     {
-     "itemId": 35006,
-     "name": "Brutal Gladiator's Dreadweave Mantle"
+     "itemId": 28967,
+     "name": "Voidheart Mantle",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35009,
@@ -81,22 +79,23 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28766,
-    "name": "Ruby Drape of the Mysticant"
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape"
    },
    "alternatives": [
     {
-     "itemId": 28378,
-     "name": "Sergeant's Heavy Cape"
+     "itemId": 28766,
+     "name": "Ruby Drape of the Mysticant",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 27981,
-     "name": "Sethekk Oracle Cloak",
+     "itemId": 29992,
+     "name": "Royal Cloak of the Sunstriders",
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 28797,
-     "name": "Brute Cloak of the Ogre-Magi",
+     "itemId": 30735,
+     "name": "Ancient Spellcloak of the Highborne",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -104,22 +103,24 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 28964,
-    "name": "Voidheart Robe"
+    "itemId": 35007,
+    "name": "Brutal Gladiator's Dreadweave Robe"
    },
    "alternatives": [
     {
-     "itemId": 35007,
-     "name": "Brutal Gladiator's Dreadweave Robe"
+     "itemId": 28964,
+     "name": "Voidheart Robe",
+     "pveFlexNote": "Seen mostly above 2359 rating."
     },
     {
      "itemId": 30107,
      "name": "Vestments of the Sea-Witch",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35012,
-     "name": "Brutal Gladiator's Felweave Raiment"
+     "itemId": 30056,
+     "name": "Robe of Hateful Echoes",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -135,13 +136,13 @@
      "name": "Guardian's Silk Cuffs"
     },
     {
-     "itemId": 24250,
-     "name": "Bracers of Havok",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 29918,
+     "name": "Mindstorm Wristbands",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 27462,
-     "name": "Crimson Bracers of Gloom",
+     "itemId": 24250,
+     "name": "Bracers of Havok",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -149,40 +150,42 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 28968,
-    "name": "Voidheart Gloves"
+    "itemId": 35003,
+    "name": "Brutal Gladiator's Dreadweave Gloves"
    },
    "alternatives": [
     {
-     "itemId": 35003,
-     "name": "Brutal Gladiator's Dreadweave Gloves"
+     "itemId": 28968,
+     "name": "Voidheart Gloves",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35011,
      "name": "Brutal Gladiator's Felweave Handguards"
     },
     {
-     "itemId": 28507,
-     "name": "Handwraps of Flowing Thought",
-     "pveFlexNote": "PvE flex piece."
+     "itemId": 30725,
+     "name": "Anger-Spark Gloves",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 28654,
-    "name": "Malefic Girdle"
+    "itemId": 35153,
+    "name": "Guardian's Dreadweave Belt"
    },
    "alternatives": [
     {
      "itemId": 30038,
      "name": "Belt of Blasting",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2359 rating."
     },
     {
-     "itemId": 35153,
-     "name": "Guardian's Dreadweave Belt"
+     "itemId": 28654,
+     "name": "Malefic Girdle",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24256,
@@ -199,36 +202,37 @@
    },
    "alternatives": [
     {
-     "itemId": 28966,
-     "name": "Voidheart Leggings",
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
      "itemId": 30213,
      "name": "Leggings of the Corruptor",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24262,
      "name": "Spellstrike Pants",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28966,
+     "name": "Voidheart Leggings",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 30050,
-    "name": "Boots of the Shifting Nightmare"
+    "itemId": 28410,
+    "name": "General's Silk Footguards"
    },
    "alternatives": [
     {
-     "itemId": 35138,
-     "name": "Guardian's Dreadweave Stalkers"
+     "itemId": 30050,
+     "name": "Boots of the Shifting Nightmare",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28517,
-     "name": "Boots of Foretelling",
+     "itemId": 30037,
+     "name": "Boots of Blasting",
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
@@ -239,49 +243,94 @@
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 35129,
     "name": "Guardian's Band of Dominance"
    },
    "alternatives": [
     {
+     "itemId": 29302,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28753,
      "name": "Ring of Recurrence",
-     "pveFlexNote": "Seen mostly above 2528 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28793,
      "name": "Band of Crimson Fury",
-     "pveFlexNote": "Seen mostly above 2528 rating."
-    },
-    {
-     "itemId": 29302,
-     "name": "Band of Eternity",
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "itemId": 29302,
+    "name": "Band of Eternity"
    },
    "alternatives": [
+    {
+     "itemId": 35129,
+     "name": "Guardian's Band of Dominance"
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30343,
+    "name": "Medallion of the Horde"
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",
      "pveFlexNote": "PvE flex piece."
     },
     {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
      "itemId": 30343,
      "name": "Medallion of the Horde"
     },
     {
-     "itemId": 19379,
-     "name": "Neltharion's Tear",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30348,
+     "name": "Medallion of the Alliance"
     }
    ]
   },
@@ -295,28 +344,34 @@
     {
      "itemId": 35109,
      "name": "Brutal Gladiator's War Staff"
+    },
+    {
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 29272,
-    "name": "Orb of the Soul-Eater"
+    "itemId": 35008,
+    "name": "Brutal Gladiator's Endgame"
    },
    "alternatives": [
     {
-     "itemId": 35008,
-     "name": "Brutal Gladiator's Endgame"
-    },
-    {
-     "itemId": 28734,
-     "name": "Jewel of Infinite Possibilities",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 29272,
+     "name": "Orb of the Soul-Eater",
+     "pveFlexNote": "Seen mostly above 2359 rating."
     },
     {
      "itemId": 30049,
      "name": "Fathomstone",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -329,13 +384,18 @@
    },
    "alternatives": [
     {
+     "itemId": 29982,
+     "name": "Wand of the Forgotten Star",
+     "pveFlexNote": "Seen mostly above 2359 rating."
+    },
+    {
      "itemId": 28386,
      "name": "Nether Core's Control Rod",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28673,
-     "name": "Tirisfal Wand of Ascendancy",
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -343,23 +403,23 @@
  ],
  "gems": [
   {
-   "itemId": 31867,
-   "name": "+4 Spell Hit Rating and +5 Spell Damage",
-   "note": "Socketed across 2 slots in this snapshot."
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24056,
-   "name": "+5 Spell Damage and +6 Stamina",
-   "note": "Socketed across 2 slots in this snapshot."
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 34220,
-   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "itemId": 25893,
+   "name": "Chance to Increase Spell Cast Speed",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 23096,
-   "name": "+7 Spell Damage",
+   "itemId": 25896,
+   "name": "+18 Stamina & 5% Stun Resist",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -369,73 +429,180 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "67% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
+  },
+  {
+   "slot": "Back",
+   "text": "+20 Spell Penetration",
+   "note": "75% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
-   "text": "+6 All Stats",
-   "note": "43% of surveyed players on this slot.",
-   "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "43% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed Increase",
-   "note": "50% of surveyed players on this slot."
+   "text": "Minor Speed and +9 Stamina",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Boots - Boar's Speed",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "83% of surveyed players on this slot.",
+   "note": "60% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Soulfrost",
-   "note": "92% of surveyed players on this slot.",
+   "note": "78% of surveyed players on this slot.",
    "name": "Enchant Weapon - Soulfrost",
-   "source": "Terestian Illhoof — Karazhan"
+   "source": "Terestian Illhoof — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 12
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    },
+    {
+     "itemId": 22456,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 4 arena set for Destruction Warlock?",
-   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Dreadweave Leggings, Brutal Gladiator's Spellblade, Brutal Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Felweave Cowl, Brutal Gladiator's Dreadweave Mantle, Brutal Gladiator's Dreadweave Robe, Brutal Gladiator's Dreadweave Gloves, Brutal Gladiator's Dreadweave Leggings, Brutal Gladiator's Spellblade, Brutal Gladiator's Endgame, Brutal Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 4?",
@@ -447,7 +614,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 4 set?",
-   "answer": "Guardian's Dreadweave Cuffs, Guardian's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Guardian's Pendant of Dominance, Guardian's Dreadweave Cuffs, Guardian's Dreadweave Belt, Guardian's Band of Dominance — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

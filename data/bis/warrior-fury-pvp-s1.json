@@ -4,8 +4,8 @@
  "content": "pvp",
  "season": 1,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
- "blurb": "Season 1 arena gear for Fury Warrior: the Gladiator's set (Gladiator's Cleaver…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Fury Warriors equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "updatedAt": "2026-07-26",
+ "blurb": "Season 1 arena gear for Fury Warrior: the Gladiator's set (Gladiator's Plate Helm, Gladiator's Plate Shoulders, Gladiator's Plate Chestpiece…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Fury Warriors equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Nothing is rating-gated yet, so your resilience total is simply whatever the Gladiator's set hands you — there is no spare budget anywhere, and an opener punches clean through what you have. Stack stamina alongside it so the first swap cannot finish you, and let dungeon and craft fillers hold the offset slots for attack power until the honor pieces unlock.",
  "statPriority": [
   "Resilience",
@@ -18,23 +18,23 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 30120,
-    "name": "Destroyer Battle-Helm"
+    "itemId": 24545,
+    "name": "Gladiator's Plate Helm"
    },
    "alternatives": [
     {
-     "itemId": 29021,
-     "name": "Warbringer Battle-Helm",
+     "itemId": 30120,
+     "name": "Destroyer Battle-Helm",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 24545,
-     "name": "Gladiator's Plate Helm",
-     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 32461,
      "name": "Furious Gizmatic Goggles",
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 29021,
+     "name": "Warbringer Battle-Helm",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -42,23 +42,24 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 30022,
-    "name": "Pendant of the Perilous"
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
+    {
+     "itemId": 30022,
+     "name": "Pendant of the Perilous",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30059,
      "name": "Choker of Animalistic Fury",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 33066,
-     "name": "Veteran's Pendant of Triumph",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
-    },
-    {
-     "itemId": 28509,
-     "name": "Worgen Claw Necklace",
+     "itemId": 28745,
+     "name": "Mithril Chain of Heroism",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -66,13 +67,13 @@
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 30122,
-    "name": "Destroyer Shoulderblades"
+    "itemId": 24546,
+    "name": "Gladiator's Plate Shoulders"
    },
    "alternatives": [
     {
-     "itemId": 30053,
-     "name": "Pauldrons of the Wardancer",
+     "itemId": 30122,
+     "name": "Destroyer Shoulderblades",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -81,8 +82,8 @@
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
-     "itemId": 24546,
-     "name": "Gladiator's Plate Shoulders",
+     "itemId": 30053,
+     "name": "Pauldrons of the Wardancer",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -90,23 +91,23 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 24259,
-    "name": "Vengeance Wrap"
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak"
    },
    "alternatives": [
     {
-     "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak",
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
-     "itemId": 28529,
-     "name": "Royal Cloak of Arathi Kings",
+     "itemId": 24259,
+     "name": "Vengeance Wrap",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28672,
-     "name": "Drape of the Dark Reavers",
+     "itemId": 28777,
+     "name": "Cloak of the Pit Stalker",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -114,51 +115,67 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 30118,
-    "name": "Destroyer Breastplate"
+    "itemId": 24544,
+    "name": "Gladiator's Plate Chestpiece"
    },
    "alternatives": [
     {
-     "itemId": 24544,
-     "name": "Gladiator's Plate Chestpiece",
+     "itemId": 30118,
+     "name": "Destroyer Breastplate",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29019,
+     "name": "Warbringer Breastplate",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30101,
+     "name": "Bloodsea Brigand's Vest",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 28795,
-    "name": "Bladespire Warbands"
+    "itemId": 32818,
+    "name": "Veteran's Plate Bracers",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
-     "pveFlexNote": "Seen mostly above 2540 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 32818,
-     "name": "Veteran's Plate Bracers",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 30119,
-    "name": "Destroyer Gauntlets"
+    "itemId": 24549,
+    "name": "Gladiator's Plate Gauntlets"
    },
    "alternatives": [
     {
-     "itemId": 28824,
-     "name": "Gauntlets of Martial Perfection",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 30119,
+     "name": "Destroyer Gauntlets",
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 24549,
-     "name": "Gladiator's Plate Gauntlets",
+     "itemId": 28824,
+     "name": "Gauntlets of Martial Perfection",
+     "pveFlexNote": "Seen mostly above 2358 rating."
+    },
+    {
+     "itemId": 29947,
+     "name": "Gloves of the Searing Grip",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -166,75 +183,83 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 30032,
-    "name": "Red Belt of Battle"
+    "itemId": 32805,
+    "name": "Veteran's Plate Belt",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
+    {
+     "itemId": 30032,
+     "name": "Red Belt of Battle",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28779,
      "name": "Girdle of the Endless Pit",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 32805,
-     "name": "Veteran's Plate Belt",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30121,
-    "name": "Destroyer Greaves"
+    "itemId": 24547,
+    "name": "Gladiator's Plate Legguards"
    },
    "alternatives": [
+    {
+     "itemId": 30121,
+     "name": "Destroyer Greaves",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 29950,
      "name": "Greaves of the Bloodwarder",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30538,
-     "name": "Midnight Legguards",
-     "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
      "itemId": 29995,
      "name": "Leggings of Murderous Intent",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 30081,
-    "name": "Warboots of Obliteration"
+    "itemId": 32793,
+    "name": "Veteran's Plate Greaves",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28608,
      "name": "Ironstriders of Urgency",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32793,
-     "name": "Veteran's Plate Greaves",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 28757,
-    "name": "Ring of a Thousand Marks"
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
     {
-     "itemId": 28730,
-     "name": "Mithril Band of the Unscarred",
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -243,17 +268,41 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30061,
-     "name": "Ancestral Ring of Conquest",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
    "bis": {
-    "itemId": 28830,
-    "name": "Dragonspine Trophy"
+    "itemId": 28757,
+    "name": "Ring of a Thousand Marks"
+   },
+   "alternatives": [
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28730,
+     "name": "Mithril Band of the Unscarred",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30344,
+    "name": "Medallion of the Horde"
    },
    "alternatives": [
     {
@@ -262,14 +311,37 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 21670,
-     "name": "Badge of the Swarmguard",
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28034,
-     "name": "Hourglass of the Unraveller",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch"
+   },
+   "alternatives": [
+    {
+     "itemId": 30344,
+     "name": "Medallion of the Horde"
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 21670,
+     "name": "Badge of the Swarmguard",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -283,6 +355,11 @@
     {
      "itemId": 28442,
      "name": "Stormherald",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30311,
+     "name": "Warp Slicer",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -297,58 +374,64 @@
     {
      "itemId": 30082,
      "name": "Talon of Azshara",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2358 rating."
     },
     {
      "itemId": 29924,
      "name": "Netherbane",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28305,
+     "name": "Gladiator's Pummeler",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 28772,
-    "name": "Sunfury Bow of the Phoenix"
+    "itemId": 28319,
+    "name": "Gladiator's War Edge"
    },
    "alternatives": [
     {
-     "itemId": 28319,
-     "name": "Gladiator's War Edge"
-    },
-    {
      "itemId": 30025,
      "name": "Serpentshrine Shuriken",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2358 rating."
     },
     {
-     "itemId": 30105,
-     "name": "Serpent Spine Longbow",
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 30279,
+     "name": "Mama's Insurance",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   }
  ],
  "gems": [
   {
-   "itemId": 24027,
-   "name": "+8 Strength",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
-   "itemId": 24054,
-   "name": "+4 Strength and +6 Stamina",
-   "note": "Socketed across 5 slots in this snapshot."
+   "itemId": 24048,
+   "name": "+8 Critical Strike Rating",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24058,
    "name": "+4 Critical Strike Rating and +4 Strength",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 32409,
-   "name": "+12 Agility & 3% Increased Critical Damage",
+   "itemId": 25894,
+   "name": "+24 Attack Power and Minor Run Speed Increase",
+   "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -358,89 +441,197 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
-   "text": "+15 Critical Strike Rating and +20 Attack Power",
-   "note": "56% of surveyed players on this slot.",
-   "name": "Greater Inscription of the Blade",
-   "source": "Inscriber Saalyn — Shattrath City",
-   "icon": "spell_holy_weaponmastery",
-   "itemId": 28910
+   "text": "+15 Dodge Rating and +10 Defense Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Greater Inscription of Warding",
+   "icon": "classic_spell_holy_blessingofprotection",
+   "itemId": 28889,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "57% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Chest",
-   "text": "+6 All Stats",
-   "note": "50% of surveyed players on this slot.",
-   "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+12 Strength",
-   "note": "50% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Bracer - Brawn",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Strength",
-   "note": "60% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Strength",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 12
+    },
+    {
+     "itemId": 22446,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "86% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed and +6 Agility",
-   "note": "75% of surveyed players on this slot.",
-   "name": "Enchant Boots - Cat's Swiftness",
-   "source": "World Drop"
-  },
-  {
-   "slot": "Ring",
-   "text": "+2 Weapon Damage",
-   "note": "9% of surveyed players on this slot.",
-   "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "Surefooted",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Boots - Surefooted",
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "50% of surveyed players on this slot.",
+   "note": "92% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   },
   {
    "slot": "OffHand",
    "text": "Mongoose",
-   "note": "50% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 1 arena set for Fury Warrior?",
-   "answer": "The Gladiator's pieces: Gladiator's Cleaver. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Plate Helm, Gladiator's Plate Shoulders, Gladiator's Plate Chestpiece, Gladiator's Plate Gauntlets, Gladiator's Plate Legguards, Gladiator's Cleaver, Gladiator's War Edge. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

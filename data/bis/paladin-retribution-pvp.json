@@ -8,7 +8,7 @@
   2993
  ],
  "sampleSize": 32,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Retribution is TBC's glass-cannon support melee: absurd burst during a Judgement + Crusader Strike window, real utility from blessings and Hammer of Justice, and a tendency to fold when focused. The retail meta answer is heavy PvP gear — the ladder data shows rets stacking resilience to buy the seconds their burst needs.",
  "statPriorityRationale": "Ret burst arrives in short judgement windows, so the priority is surviving between them — resilience and stamina first, then attack power and crit to make each window count double.",
  "statPriority": [
@@ -24,7 +24,7 @@
    "bis": {
     "itemId": 32041,
     "name": "Merciless Gladiator's Scaled Helm",
-    "usagePct": 75
+    "usagePct": 78
    },
    "alternatives": [
     {
@@ -36,7 +36,7 @@
     {
      "itemId": 30131,
      "name": "Crystalforge War-Helm",
-     "usagePct": 9,
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -52,7 +52,7 @@
     {
      "itemId": 30022,
      "name": "Pendant of the Perilous",
-     "usagePct": 25,
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -80,7 +80,7 @@
     {
      "itemId": 30055,
      "name": "Shoulderpads of the Stranger",
-     "usagePct": 19,
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -93,27 +93,22 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 30098,
-    "name": "Razor-Scale Battlecloak",
-    "usagePct": 44
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 16
    },
    "alternatives": [
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "usagePct": 53,
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
      "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak",
-     "usagePct": 19
-    },
-    {
-     "itemId": 35495,
-     "name": "The Frost Lord's War Cloak",
-     "usagePct": 9,
-     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -122,41 +117,42 @@
    "bis": {
     "itemId": 32039,
     "name": "Merciless Gladiator's Scaled Chestpiece",
-    "usagePct": 72
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 30129,
      "name": "Crystalforge Breastplate",
-     "usagePct": 22,
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30102,
+     "name": "Krakken-Heart Breastplate",
+     "usagePct": 6,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 28795,
-    "name": "Bladespire Warbands",
-    "usagePct": 34
+    "itemId": 32819,
+    "name": "Veteran's Scaled Bracers",
+    "usagePct": 25
    },
    "alternatives": [
+    {
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "usagePct": 41,
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
      "usagePct": 28,
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32819,
-     "name": "Veteran's Scaled Bracers",
-     "usagePct": 28
-    },
-    {
-     "itemId": 32818,
-     "name": "Veteran's Plate Bracers",
-     "usagePct": 6,
-     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -185,15 +181,15 @@
    },
    "alternatives": [
     {
-     "itemId": 30106,
-     "name": "Belt of One-Hundred Deaths",
-     "usagePct": 16,
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28779,
-     "name": "Girdle of the Endless Pit",
-     "usagePct": 6,
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -203,19 +199,19 @@
    "bis": {
     "itemId": 32042,
     "name": "Merciless Gladiator's Scaled Legguards",
-    "usagePct": 41
+    "usagePct": 34
    },
    "alternatives": [
     {
      "itemId": 29950,
      "name": "Greaves of the Bloodwarder",
-     "usagePct": 19,
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30132,
      "name": "Crystalforge Greaves",
-     "usagePct": 16,
+     "usagePct": 22,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
@@ -231,12 +227,12 @@
    "bis": {
     "itemId": 32794,
     "name": "Veteran's Scaled Greaves",
-    "usagePct": 75
+    "usagePct": 72
    },
    "alternatives": [
     {
-     "itemId": 30081,
-     "name": "Warboots of Obliteration",
+     "itemId": 28608,
+     "name": "Ironstriders of Urgency",
      "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     },
@@ -244,11 +240,45 @@
      "itemId": 28645,
      "name": "General's Scaled Greaves",
      "usagePct": 6
+    },
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "usagePct": 6,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "usagePct": 53
+   },
+   "alternatives": [
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "usagePct": 47,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "usagePct": 25,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 22,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
    "bis": {
     "itemId": 30061,
     "name": "Ancestral Ring of Conquest",
@@ -258,7 +288,7 @@
     {
      "itemId": 33057,
      "name": "Veteran's Band of Triumph",
-     "usagePct": 44
+     "usagePct": 53
     },
     {
      "itemId": 28757,
@@ -267,15 +297,42 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29298,
-     "name": "Band of Eternity",
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
      "usagePct": 22,
-     "pveFlexNote": "Seen mostly above 2647 rating."
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28242,
+    "name": "Medallion of the Horde",
+    "usagePct": 69
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 81,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 31,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28236,
+     "name": "Medallion of the Alliance",
+     "usagePct": 9
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29383,
     "name": "Bloodlust Brooch",
@@ -285,12 +342,12 @@
     {
      "itemId": 28242,
      "name": "Medallion of the Horde",
-     "usagePct": 72
+     "usagePct": 69
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
-     "usagePct": 28,
+     "usagePct": 31,
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -311,13 +368,13 @@
     {
      "itemId": 30090,
      "name": "World Breaker",
-     "usagePct": 34,
+     "usagePct": 28,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28430,
-     "name": "Lionheart Executioner",
-     "usagePct": 6,
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -333,7 +390,7 @@
    "bis": {
     "itemId": 27484,
     "name": "Libram of Avengement",
-    "usagePct": 97
+    "usagePct": 100
    },
    "alternatives": []
   }
@@ -342,11 +399,6 @@
   {
    "itemId": 24027,
    "name": "+8 Strength",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
-   "itemId": 24054,
-   "name": "+4 Strength and +6 Stamina",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
@@ -355,8 +407,13 @@
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 28362,
-   "name": "+20 Attack Power",
+   "itemId": 24058,
+   "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 28363,
+   "name": "+10 Attack Power, +5 Critical Strike Rating",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],
@@ -364,92 +421,203 @@
   {
    "slot": "Head",
    "text": "+17 Strength and +16 Intellect",
-   "note": "96% of surveyed players on this slot.",
+   "note": "92% of surveyed players on this slot.",
    "name": "Glyph of the Outcast",
-   "source": "Lower City Quartermaster — Shattrath City",
    "icon": "ability_rogue_masterofsubtlety",
-   "itemId": 30846
+   "itemId": 30846,
+   "source": "Lower City Quartermaster — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "78% of surveyed players on this slot.",
+   "note": "74% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "71% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Chest",
    "text": "+6 All Stats",
-   "note": "43% of surveyed players on this slot.",
+   "note": "46% of surveyed players on this slot.",
    "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+12 Strength",
-   "note": "82% of surveyed players on this slot.",
+   "note": "63% of surveyed players on this slot.",
    "name": "Enchant Bracer - Brawn",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Strength",
-   "note": "63% of surveyed players on this slot.",
+   "note": "71% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Strength",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 12
+    },
+    {
+     "itemId": 22446,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "92% of surveyed players on this slot.",
+   "note": "91% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Surefooted",
-   "note": "63% of surveyed players on this slot.",
+   "note": "70% of surveyed players on this slot.",
    "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan"
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "13% of surveyed players on this slot.",
+   "note": "12% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "62% of surveyed players on this slot.",
+   "note": "69% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What rating are these Retribution Paladins?",
-   "answer": "This snapshot covers 32 Retribution Paladins between 2124 and 2993 rating (average 2552) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 32 Retribution Paladins between 2124 and 2993 rating (average 2564) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Retribution Paladin PvP gear right now?",
-   "answer": "The highest-consensus picks are Libram of Avengement (97%), Bloodlust Brooch (81%), Merciless Gladiator's Scaled Helm (75%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Libram of Avengement (100%), Bloodlust Brooch (81%), Merciless Gladiator's Scaled Helm (78%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Retribution Paladin BiS list is PvP gear vs raid gear?",
-   "answer": "Only 57% of the most-used slots are PvP items — high-rated Retribution Paladins flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+   "answer": "75% of the most-used slots are arena/honor items — for Retribution Paladins the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Retribution Paladins use in arena?",
@@ -457,7 +625,7 @@
   },
   {
    "question": "What gems do Retribution Paladins socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Strength, +4 Strength and +6 Stamina, +12 Intellect & Chance to restore mana on spellcast. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Strength, +12 Intellect & Chance to restore mana on spellcast, +4 Critical Strike Rating and +4 Strength. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

@@ -4,8 +4,8 @@
  "content": "pvp",
  "season": 1,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
- "blurb": "Season 1 arena gear for Holy Priest: the Gladiator's set (Gladiator's Salvation…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Holy Priests equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "updatedAt": "2026-07-26",
+ "blurb": "Season 1 arena gear for Holy Priest: the Gladiator's set (Gladiator's Mooncloth Mantle, Gladiator's Mooncloth Robe, Gladiator's Mooncloth Gloves…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Holy Priests equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "A full Gladiator's set carries so little resilience that a coordinated swap kills through it anyway, which pushes stamina up hard against intellect — dying with mana left is the standard loss here. Neck, wrist and belt sit on dungeon and crafted pieces until the honor offsets unlock, so take flat healing on those and worry about regen later.",
  "statPriority": [
   "Resilience",
@@ -32,42 +32,49 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 28822,
-    "name": "Teeth of Gruul"
+    "itemId": 33068,
+    "name": "Veteran's Pendant of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
     {
-     "itemId": 30018,
-     "name": "Lord Sanguinar's Claim",
+     "itemId": 28822,
+     "name": "Teeth of Gruul",
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28609,
      "name": "Emberspur Talisman",
-     "pveFlexNote": "Seen mostly above 2494 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 33068,
-     "name": "Veteran's Pendant of Salvation",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "itemId": 30018,
+     "name": "Lord Sanguinar's Claim",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 30154,
-    "name": "Mantle of the Avatar"
+    "itemId": 31412,
+    "name": "Gladiator's Mooncloth Mantle"
    },
    "alternatives": [
+    {
+     "itemId": 30154,
+     "name": "Mantle of the Avatar",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 29054,
      "name": "Light-Mantle of the Incarnate",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 31412,
-     "name": "Gladiator's Mooncloth Mantle"
+     "itemId": 21874,
+     "name": "Primal Mooncloth Shoulders",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -84,7 +91,7 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35494,
+     "itemId": 279240,
      "name": "Shroud of Winter's Chill",
      "pveFlexNote": "PvE flex piece."
     }
@@ -93,8 +100,8 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 29050,
-    "name": "Robes of the Incarnate"
+    "itemId": 31413,
+    "name": "Gladiator's Mooncloth Robe"
    },
    "alternatives": [
     {
@@ -103,8 +110,9 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 31413,
-     "name": "Gladiator's Mooncloth Robe"
+     "itemId": 29050,
+     "name": "Robes of the Incarnate",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28578,
@@ -116,18 +124,24 @@
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 32516,
-    "name": "Wraps of Purification"
+    "itemId": 32980,
+    "name": "Veteran's Mooncloth Cuffs",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
     {
-     "itemId": 32980,
-     "name": "Veteran's Mooncloth Cuffs",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "itemId": 32516,
+     "name": "Wraps of Purification",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28511,
      "name": "Bands of Indwelling",
+     "pveFlexNote": "Seen mostly above 2496 rating."
+    },
+    {
+     "itemId": 29183,
+     "name": "Bindings of the Timewalker",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -135,22 +149,23 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 30151,
-    "name": "Gloves of the Avatar"
+    "itemId": 31409,
+    "name": "Gladiator's Mooncloth Gloves"
    },
    "alternatives": [
     {
-     "itemId": 28508,
-     "name": "Gloves of Saintly Blessings",
+     "itemId": 30151,
+     "name": "Gloves of the Avatar",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 31409,
-     "name": "Gladiator's Mooncloth Gloves"
     },
     {
      "itemId": 29055,
      "name": "Handwraps of the Incarnate",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28508,
+     "name": "Gloves of Saintly Blessings",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -158,19 +173,20 @@
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 28652,
-    "name": "Cincture of Will"
+    "itemId": 32979,
+    "name": "Veteran's Mooncloth Belt",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
+    {
+     "itemId": 28652,
+     "name": "Cincture of Will",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32979,
-     "name": "Veteran's Mooncloth Belt",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 21873,
@@ -182,23 +198,24 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30153,
-    "name": "Breeches of the Avatar"
+    "itemId": 31411,
+    "name": "Gladiator's Mooncloth Leggings"
    },
    "alternatives": [
+    {
+     "itemId": 30153,
+     "name": "Breeches of the Avatar",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28742,
      "name": "Pantaloons of Repentance",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 31411,
-     "name": "Gladiator's Mooncloth Leggings"
-    },
-    {
      "itemId": 29977,
      "name": "Star-Soul Breeches",
-     "pveFlexNote": "Seen mostly above 2494 rating."
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -222,12 +239,18 @@
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer"
+    "itemId": 33064,
+    "name": "Veteran's Band of Salvation",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30110,
      "name": "Coral Band of the Revived",
@@ -237,21 +260,45 @@
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
      "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29290,
+    "name": "Violet Signet of the Grand Restorer"
+   },
+   "alternatives": [
+    {
+     "itemId": 33064,
+     "name": "Veteran's Band of Salvation",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
-     "itemId": 28763,
-     "name": "Jade Ring of the Everliving",
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Trinket1",
    "bis": {
-    "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "itemId": 30349,
+    "name": "Medallion of the Alliance"
    },
    "alternatives": [
+    {
+     "itemId": 29376,
+     "name": "Essence of the Martyr",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30665,
      "name": "Earring of Soulful Meditation",
@@ -261,10 +308,28 @@
      "itemId": 28823,
      "name": "Eye of Gruul",
      "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 28590,
-     "name": "Ribbon of Sacrifice",
+     "itemId": 30665,
+     "name": "Earring of Soulful Meditation",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28823,
+     "name": "Eye of Gruul",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -282,13 +347,13 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29981,
-     "name": "Ethereum Life-Staff",
+     "itemId": 28771,
+     "name": "Light's Justice",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28771,
-     "name": "Light's Justice",
+     "itemId": 29981,
+     "name": "Ethereum Life-Staff",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -334,102 +399,181 @@
  ],
  "gems": [
   {
+   "itemId": 24053,
+   "name": "+8 Resilience Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
    "itemId": 32836,
    "name": "+9 Healing +3 Spell Damage and +4 Spirit",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 2 slots in this snapshot."
+  },
+  {
+   "itemId": 31861,
+   "name": "+8 Spell Hit Rating",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 25901,
    "name": "+12 Intellect & Chance to restore mana on spellcast",
    "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 24029,
-   "name": "+18 Healing and +6 Spell Damage",
-   "note": "Socketed across 3 slots in this snapshot."
-  },
-  {
-   "itemId": 24060,
-   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
-   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+22 Spell Power and +14 Spell Hit Rating",
-   "note": "59% of surveyed players on this slot.",
+   "note": "56% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
-   "note": "63% of surveyed players on this slot."
+   "note": "71% of surveyed players on this slot."
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "62% of surveyed players on this slot."
+   "note": "82% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
-   "text": "+15 Spirit",
-   "note": "79% of surveyed players on this slot.",
-   "name": "Enchant Chest - Major Spirit",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
-   "text": "+30 Healing and +10 Spell Damage",
-   "note": "43% of surveyed players on this slot.",
-   "name": "Enchant Bracer - Superior Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "6 Mana per 5 Sec.",
+   "note": "44% of surveyed players on this slot."
   },
   {
    "slot": "Hands",
-   "text": "+35 Healing Spells and +12 Damage Spells",
-   "note": "45% of surveyed players on this slot.",
-   "name": "Enchant Gloves - Major Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Spell Hit Rating",
+   "note": "80% of surveyed players on this slot.",
+   "name": "Enchant Gloves - Spell Strike",
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Golden Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_holy_restoration",
-   "itemId": 24276
+   "itemId": 24276,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 21886,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "35% of surveyed players on this slot.",
+   "note": "42% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "85% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22445,
+     "count": 5
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+81 Healing Spells and +27 Damage Spells",
-   "note": "53% of surveyed players on this slot.",
+   "note": "54% of surveyed players on this slot.",
    "name": "Enchant Weapon - Major Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 8
+    },
+    {
+     "itemId": 21886,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 1 arena set for Holy Priest?",
-   "answer": "The Gladiator's pieces: Gladiator's Salvation. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Mooncloth Mantle, Gladiator's Mooncloth Robe, Gladiator's Mooncloth Gloves, Gladiator's Mooncloth Leggings, Gladiator's Salvation. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

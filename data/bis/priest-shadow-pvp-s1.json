@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 1,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 1 arena gear for Shadow Priest: the Gladiator's set (Gladiator's Satin Hood, Gladiator's Satin Mantle, Gladiator's Satin Robe…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Shadow Priests equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "The thinnest resilience budget of the expansion means stamina does most of the surviving — burst windows cut through what little mitigation Gladiator's Satin gear provides, and raw health is what buys your team the extra global. Take the set robe over Frozen Shadoweave Robe even at a damage loss, and plug the offset slots with dungeon and craft pieces until the honor versions unlock.",
  "statPriority": [
@@ -23,6 +23,11 @@
    },
    "alternatives": [
     {
+     "itemId": 28804,
+     "name": "Collar of Cho'gall",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 30161,
      "name": "Hood of the Avatar",
      "pveFlexNote": "PvE flex piece."
@@ -38,13 +43,13 @@
    },
    "alternatives": [
     {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
-     "pveFlexNote": "Seen mostly above 2402 rating."
-    },
-    {
      "itemId": 30666,
      "name": "Ritssyn's Lost Pendant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -68,8 +73,12 @@
     },
     {
      "itemId": 31412,
-     "name": "Gladiator's Mooncloth Mantle",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "name": "Gladiator's Mooncloth Mantle"
+    },
+    {
+     "itemId": 30163,
+     "name": "Wings of the Avatar",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -88,6 +97,11 @@
     {
      "itemId": 29992,
      "name": "Royal Cloak of the Sunstriders",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -100,14 +114,14 @@
    },
    "alternatives": [
     {
+     "itemId": 30159,
+     "name": "Shroud of the Avatar",
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    },
+    {
      "itemId": 21871,
      "name": "Frozen Shadoweave Robe",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30159,
-     "name": "Shroud of the Avatar",
-     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -120,13 +134,14 @@
    },
    "alternatives": [
     {
-     "itemId": 24250,
-     "name": "Bracers of Havok",
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28405,
-     "name": "General's Dreadweave Cuffs"
+     "itemId": 32980,
+     "name": "Veteran's Mooncloth Cuffs",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
@@ -140,11 +155,11 @@
     {
      "itemId": 28780,
      "name": "Soul-Eater's Handwraps",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
-     "itemId": 30160,
-     "name": "Handguards of the Avatar",
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -161,6 +176,11 @@
      "itemId": 28799,
      "name": "Belt of Divine Inspiration",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30038,
+     "name": "Belt of Blasting",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -175,6 +195,16 @@
      "itemId": 29972,
      "name": "Trousers of the Astromancer",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30153,
+     "name": "Breeches of the Avatar",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -187,10 +217,6 @@
    },
    "alternatives": [
     {
-     "itemId": 28402,
-     "name": "General's Dreadweave Stalkers"
-    },
-    {
      "itemId": 21870,
      "name": "Frozen Shadoweave Boots",
      "pveFlexNote": "PvE flex piece."
@@ -199,11 +225,15 @@
      "itemId": 30050,
      "name": "Boots of the Shifting Nightmare",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers"
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
@@ -228,7 +258,54 @@
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29922,
+    "name": "Band of Al'ar"
+   },
+   "alternatives": [
+    {
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28327,
+     "name": "Arcane Netherband",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30346,
+    "name": "Medallion of the Horde"
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29370,
     "name": "Icon of the Silver Crescent"
@@ -243,8 +320,8 @@
      "name": "Medallion of the Alliance"
     },
     {
-     "itemId": 28727,
-     "name": "Pendant of the Violet Eye",
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -261,9 +338,9 @@
      "name": "Gladiator's Spellblade"
     },
     {
-     "itemId": 32451,
-     "name": "Gladiator's Salvation",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -297,6 +374,11 @@
      "itemId": 30080,
      "name": "Luminescent Rod of the Naaru",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   }
@@ -329,74 +411,174 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "64% of surveyed players on this slot.",
+   "note": "69% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "68% of surveyed players on this slot."
+   "note": "73% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "93% of surveyed players on this slot.",
+   "note": "87% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
-   "note": "72% of surveyed players on this slot.",
+   "note": "76% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "54% of surveyed players on this slot.",
+   "note": "86% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "47% of surveyed players on this slot.",
+   "note": "69% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "41% of surveyed players on this slot.",
+   "note": "44% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Soulfrost",
    "note": "54% of surveyed players on this slot.",
    "name": "Enchant Weapon - Soulfrost",
-   "source": "Terestian Illhoof — Karazhan"
+   "source": "Terestian Illhoof — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 12
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    },
+    {
+     "itemId": 22456,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [

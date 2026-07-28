@@ -401,6 +401,17 @@
    "text": "+12 defense rating",
    "name": "Enchant Cloak - Steelweave",
    "source": "Priestess Delrissa — Magisters' Terrace",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Priestess Delrissa — Magisters' Terrace"
   },
   {
@@ -408,6 +419,17 @@
    "text": "+15 resilience rating",
    "name": "Enchant Chest - Major Resilience",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "World Drop"
   },
   {
@@ -415,6 +437,21 @@
    "text": "+12 Stamina",
    "name": "Enchant Bracer - Fortitude",
    "source": "Coilfang Oracle — The Steamvault",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 1
+    },
+    {
+     "itemId": 22446,
+     "count": 10
+    },
+    {
+     "itemId": 22445,
+     "count": 20
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Coilfang Oracle — The Steamvault"
   },
   {
@@ -422,6 +459,21 @@
    "text": "+2 threat from all attacks and spells%",
    "name": "Enchant Gloves - Threat",
    "source": "Emperor Vek'nilash — Ahn'Qiraj",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    },
+    {
+     "itemId": 21886,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Arcanite Rod",
    "note": "Emperor Vek'nilash — Ahn'Qiraj"
   },
   {
@@ -431,6 +483,24 @@
    "icon": "inv_misc_armorkit_25",
    "itemId": 29536,
    "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 25708,
+     "count": 16
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
    "note": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -438,6 +508,13 @@
    "text": "+12 Stamina",
    "name": "Enchant Boots - Fortitude",
    "source": "Ethereal Priest — Mana-Tombs",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 12
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Ethereal Priest — Mana-Tombs"
   },
   {
@@ -445,6 +522,17 @@
    "text": "+4 all stats",
    "name": "Enchant Ring - Stats",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -452,6 +540,17 @@
    "text": "+40 spell damage and healing",
    "name": "Enchant Weapon - Major Spellpower",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -459,6 +558,13 @@
    "text": "+18 Stamina",
    "name": "Enchant Shield - Major Stamina",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 15
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   }
  ],

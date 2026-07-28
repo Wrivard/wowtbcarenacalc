@@ -4,8 +4,8 @@
  "content": "pvp",
  "season": 3,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
- "blurb": "Season 3 arena gear for Survival Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Survival Hunters equip into their Season 3 equivalents — same slot logic, this season's items.",
+ "updatedAt": "2026-07-26",
+ "blurb": "Season 3 arena gear for Survival Hunter: the Vengeful Gladiator's set (Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Armor…), backed by Vindicator's offset pieces from the honor vendor. Season 3 introduces rating requirements: the Vengeful weapon needs 1850 team rating and the shoulders need 2000. Everything else is rating-free. The slot-by-slot list below translates what the current arena ladder's top Survival Hunters equip into their Season 3 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Vindicator's bracers, girdle and sabatons carry real resilience with no rating attached, so the defensive floor is set before you ever queue. Push team rating to 1850 for the Vengeful Gladiator's Cleaver and 2000 for the shoulders; until then keep Merciless pieces in those slots rather than dropping to a lower-resilience item for a few points of attack power.",
  "statPriority": [
   "Resilience",
@@ -42,6 +42,11 @@
    },
    "alternatives": [
     {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
      "pveFlexNote": "PvE flex piece."
@@ -49,12 +54,7 @@
     {
      "itemId": 28674,
      "name": "Saberclaw Talisman",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28244,
-     "name": "Pendant of Triumph",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -68,7 +68,7 @@
     {
      "itemId": 30143,
      "name": "Rift Stalker Mantle",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27801,
@@ -80,37 +80,38 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 29994,
-    "name": "Thalassian Wildercloak"
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak"
    },
    "alternatives": [
+    {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28672,
      "name": "Drape of the Dark Reavers",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35495,
+     "itemId": 278819,
      "name": "The Frost Lord's War Cloak",
      "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
-     "itemId": 24259,
-     "name": "Vengeance Wrap",
-     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 30139,
-    "name": "Rift Stalker Hauberk"
+    "itemId": 33664,
+    "name": "Vengeful Gladiator's Chain Armor"
    },
    "alternatives": [
     {
-     "itemId": 33664,
-     "name": "Vengeful Gladiator's Chain Armor"
+     "itemId": 30139,
+     "name": "Rift Stalker Hauberk",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28228,
@@ -187,13 +188,14 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30142,
-    "name": "Rift Stalker Leggings"
+    "itemId": 33667,
+    "name": "Vengeful Gladiator's Chain Leggings"
    },
    "alternatives": [
     {
-     "itemId": 33667,
-     "name": "Vengeful Gladiator's Chain Leggings"
+     "itemId": 30142,
+     "name": "Rift Stalker Leggings",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28740,
@@ -214,24 +216,29 @@
      "name": "Marshal's Chain Sabatons"
     },
     {
-     "itemId": 30104,
-     "name": "Cobra-Lash Boots",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
      "itemId": 28449,
      "name": "General's Chain Sabatons",
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 29298,
-    "name": "Band of Eternity"
+    "itemId": 33919,
+    "name": "Vindicator's Band of Triumph"
    },
    "alternatives": [
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
@@ -241,16 +248,58 @@
      "itemId": 28649,
      "name": "Garona's Signet Ring",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30052,
-     "name": "Ring of Lethality",
-     "pveFlexNote": "Seen mostly above 2685 rating."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29298,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 33919,
+     "name": "Vindicator's Band of Triumph"
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28237,
+    "name": "Medallion of the Alliance"
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29383,
     "name": "Bloodlust Brooch"
@@ -282,48 +331,54 @@
     {
      "itemId": 29924,
      "name": "Netherbane",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2678 rating."
     },
     {
-     "itemId": 33670,
-     "name": "Vengeful Gladiator's Decapitator"
+     "itemId": 33762,
+     "name": "Vengeful Gladiator's Slicer"
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 29948,
-    "name": "Claw of the Phoenix"
+    "itemId": 33689,
+    "name": "Vengeful Gladiator's Hacker"
    },
    "alternatives": [
     {
-     "itemId": 33689,
-     "name": "Vengeful Gladiator's Hacker",
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 29948,
+     "name": "Claw of the Phoenix",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33734,
      "name": "Vengeful Gladiator's Quickblade"
+    },
+    {
+     "itemId": 28768,
+     "name": "Malchazeen",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 30105,
-    "name": "Serpent Spine Longbow"
+    "itemId": 31986,
+    "name": "Merciless Gladiator's Crossbow of the Phoenix",
+    "pveFlexNote": "No Season 3 equivalent — current-season item shown."
    },
    "alternatives": [
+    {
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28772,
      "name": "Sunfury Bow of the Phoenix",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 31986,
-     "name": "Merciless Gladiator's Crossbow of the Phoenix",
-     "pveFlexNote": "No Season 3 equivalent — current-season item shown."
     },
     {
      "itemId": 33006,
@@ -337,7 +392,7 @@
   {
    "itemId": 24028,
    "name": "+8 Agility",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24053,
@@ -345,14 +400,14 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 25895,
    "name": "+12 Critical Strike Rating & 5% Snare and Root Resist",
    "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -361,69 +416,144 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "67% of surveyed players on this slot.",
+   "note": "75% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
-   "text": "+12 Agility",
-   "note": "60% of surveyed players on this slot.",
-   "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+20 Spell Penetration",
+   "note": "100% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "79% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+24 Attack Power",
-   "note": "60% of surveyed players on this slot.",
+   "note": "77% of surveyed players on this slot.",
    "name": "Enchant Bracer - Assault",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Agility",
-   "note": "73% of surveyed players on this slot.",
+   "note": "92% of surveyed players on this slot.",
    "name": "Enchant Gloves - Superior Agility",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "92% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Surefooted",
-   "note": "62% of surveyed players on this slot.",
+   "note": "83% of surveyed players on this slot.",
    "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan"
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "56% of surveyed players on this slot.",
+   "note": "33% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
@@ -438,13 +568,13 @@
   {
    "slot": "Ranged",
    "text": "Scope (+28 Critical Strike Rating)",
-   "note": "100% of surveyed players on this slot."
+   "note": "75% of surveyed players on this slot."
   }
  ],
  "faq": [
   {
    "question": "What is the Season 3 arena set for Survival Hunter?",
-   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Gauntlets, Vengeful Gladiator's Cleaver. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Vengeful Gladiator's pieces: Vengeful Gladiator's Chain Helm, Vengeful Gladiator's Chain Spaulders, Vengeful Gladiator's Chain Armor, Vengeful Gladiator's Chain Gauntlets, Vengeful Gladiator's Chain Leggings, Vengeful Gladiator's Cleaver, Vengeful Gladiator's Hacker. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 3?",
@@ -456,7 +586,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 3 set?",
-   "answer": "Vindicator's Chain Bracers, Vindicator's Chain Girdle, Vindicator's Chain Sabatons — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Vindicator's Chain Bracers, Vindicator's Chain Girdle, Vindicator's Chain Sabatons, Vindicator's Band of Triumph — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

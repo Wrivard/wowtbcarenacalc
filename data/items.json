@@ -139,6 +139,21 @@
   "icon": "inv_ingot_08",
   "quality": 2
  },
+ "7076": {
+  "name": "Essence of Earth",
+  "icon": "spell_nature_strengthofearthtotem02",
+  "quality": 2
+ },
+ "7080": {
+  "name": "Essence of Water",
+  "icon": "spell_nature_acid_01",
+  "quality": 2
+ },
+ "7082": {
+  "name": "Essence of Air",
+  "icon": "spell_nature_earthbind",
+  "quality": 2
+ },
  "7909": {
   "name": "Aquamarine",
   "icon": "inv_misc_gem_crystal_02",
@@ -189,10 +204,25 @@
   "icon": "inv_enchant_dustvision",
   "quality": 1
  },
+ "11174": {
+  "name": "Lesser Nether Essence",
+  "icon": "inv_enchant_essencenethersmall",
+  "quality": 2
+ },
  "11175": {
   "name": "Greater Nether Essence",
   "icon": "inv_enchant_essencenetherlarge",
   "quality": 2
+ },
+ "11177": {
+  "name": "Small Radiant Shard",
+  "icon": "inv_enchant_shardradientsmall",
+  "quality": 3
+ },
+ "11371": {
+  "name": "Dark Iron Bar",
+  "icon": "inv_ingot_mithril",
+  "quality": 1
  },
  "12359": {
   "name": "Thorium Bar",
@@ -219,6 +249,16 @@
   "icon": "inv_misc_gem_diamond_01",
   "quality": 2
  },
+ "12811": {
+  "name": "Righteous Orb",
+  "icon": "inv_misc_gem_pearl_03",
+  "quality": 2
+ },
+ "13446": {
+  "name": "Major Healing Potion",
+  "icon": "inv_potion_54",
+  "quality": 1
+ },
  "13503": {
   "name": "Alchemist's Stone",
   "icon": "spell_holy_pureofheart",
@@ -229,15 +269,45 @@
   "icon": "inv_fabric_purplefire_01",
   "quality": 1
  },
+ "14341": {
+  "name": "Rune Thread",
+  "icon": "spell_shadow_antimagicshell",
+  "quality": 1
+ },
+ "14344": {
+  "name": "Large Brilliant Shard",
+  "icon": "inv_enchant_shardbrilliantlarge",
+  "quality": 3
+ },
  "15417": {
   "name": "Devilsaur Leather",
   "icon": "inv_misc_pelt_03",
   "quality": 1
  },
+ "16000": {
+  "name": "Thorium Tube",
+  "icon": "inv_gizmo_pipe_04",
+  "quality": 1
+ },
+ "16006": {
+  "name": "Delicate Arcanite Converter",
+  "icon": "inv_gizmo_07",
+  "quality": 1
+ },
+ "16203": {
+  "name": "Greater Eternal Essence",
+  "icon": "inv_enchant_essenceeternallarge",
+  "quality": 2
+ },
  "16204": {
   "name": "Illusion Dust",
   "icon": "inv_enchant_dustillusion",
   "quality": 1
+ },
+ "17011": {
+  "name": "Lava Core",
+  "icon": "spell_nature_earthquake",
+  "quality": 3
  },
  "18814": {
   "name": "Choker of the Fire Lord",
@@ -282,6 +352,11 @@
  "19431": {
   "name": "Styleen's Impeding Scarab",
   "icon": "inv_misc_armorkit_10",
+  "quality": 4
+ },
+ "20725": {
+  "name": "Nexus Crystal",
+  "icon": "inv_enchant_shardnexuslarge",
   "quality": 4
  },
  "21670": {
@@ -354,9 +429,19 @@
   "icon": "inv_elemental_primal_water",
   "quality": 2
  },
+ "21886": {
+  "name": "Primal Life",
+  "icon": "inv_elemental_primal_life",
+  "quality": 2
+ },
  "21887": {
   "name": "Knothide Leather",
   "icon": "inv_misc_leatherscrap_10",
+  "quality": 1
+ },
+ "22054": {
+  "name": "Deadly Poison VII",
+  "icon": "ability_rogue_dualweild",
   "quality": 1
  },
  "22128": {
@@ -403,6 +488,11 @@
   "name": "Lesser Planar Essence",
   "icon": "inv_enchant_essencearcanesmall",
   "quality": 2
+ },
+ "22448": {
+  "name": "Small Prismatic Shard",
+  "icon": "inv_enchant_shardprismaticsmall",
+  "quality": 3
  },
  "22449": {
   "name": "Large Prismatic Shard",
@@ -483,6 +573,11 @@
   "name": "Doomfinger",
   "icon": "inv_wand_1h_stratholme_d_02",
   "quality": 4
+ },
+ "22824": {
+  "name": "Elixir of Major Strength",
+  "icon": "inv_potion_147",
+  "quality": 1
  },
  "22960": {
   "name": "Cloak of Suturing",
@@ -584,6 +679,11 @@
   "icon": "inv_ore_adamantium",
   "quality": 1
  },
+ "23440": {
+  "name": "Dawnstone",
+  "icon": "inv_jewelcrafting_dawnstone_02",
+  "quality": 3
+ },
  "23445": {
   "name": "Fel Iron Bar",
   "icon": "inv_ingot_feliron",
@@ -593,6 +693,11 @@
   "name": "Adamantite Bar",
   "icon": "inv_ingot_10",
   "quality": 1
+ },
+ "23449": {
+  "name": "Khorium Bar",
+  "icon": "inv_ingot_09",
+  "quality": 2
  },
  "23522": {
   "name": "Ragesteel Breastplate",
@@ -624,9 +729,39 @@
   "icon": "inv_weapon_shortblade_05",
   "quality": 4
  },
+ "23571": {
+  "name": "Primal Might",
+  "icon": "spell_nature_lightningoverload",
+  "quality": 3
+ },
+ "23572": {
+  "name": "Primal Nether",
+  "icon": "inv_elemental_primal_nether",
+  "quality": 3
+ },
+ "23762": {
+  "name": "Ultra-Spectropic Detection Goggles",
+  "icon": "inv_gizmo_newgoggles",
+  "quality": 3
+ },
  "23763": {
   "name": "Hyper-Vision Goggles",
   "icon": "inv_gizmo_newgoggles",
+  "quality": 3
+ },
+ "23785": {
+  "name": "Hardened Adamantite Tube",
+  "icon": "inv_gizmo_hardenedadamantitetube",
+  "quality": 1
+ },
+ "23793": {
+  "name": "Heavy Knothide Leather",
+  "icon": "inv_misc_leatherscrap_11",
+  "quality": 1
+ },
+ "23836": {
+  "name": "Goblin Rocket Launcher",
+  "icon": "inv_gizmo_rocketlauncher",
   "quality": 3
  },
  "24027": {
@@ -943,6 +1078,11 @@
   "name": "Felstalker Bracers",
   "icon": "inv_bracer_14",
   "quality": 3
+ },
+ "25708": {
+  "name": "Thick Clefthoof Leather",
+  "icon": "inv_misc_leatherscrap_14",
+  "quality": 1
  },
  "25830": {
   "name": "Gladiator's Leather Helm",
@@ -1309,6 +1449,11 @@
   "icon": "inv_spear_08",
   "quality": 3
  },
+ "27914": {
+  "name": "Moonstrider Boots",
+  "icon": "inv_boots_cloth_14",
+  "quality": 3
+ },
  "27917": {
   "name": "Libram of the Eternal Rest",
   "icon": "inv_relics_libramoftruth",
@@ -1352,6 +1497,11 @@
  "28118": {
   "name": "Runed Ornate Ruby",
   "icon": "inv_misc_gem_bloodstone_01",
+  "quality": 4
+ },
+ "28119": {
+  "name": "Smooth Ornate Dawnstone",
+  "icon": "inv_misc_gem_topaz_01",
   "quality": 4
  },
  "28121": {
@@ -3314,6 +3464,11 @@
   "icon": "inv_jewelry_ring_62",
   "quality": 4
  },
+ "29291": {
+  "name": "Violet Signet",
+  "icon": "inv_jewelry_ring_62",
+  "quality": 4
+ },
  "29298": {
   "name": "Band of Eternity",
   "icon": "inv_jewelry_ring_54",
@@ -3563,6 +3718,11 @@
   "name": "Primalstrike Bracers",
   "icon": "inv_bracer_07",
   "quality": 4
+ },
+ "29539": {
+  "name": "Cobra Scales",
+  "icon": "inv_misc_monsterscales_18",
+  "quality": 1
  },
  "29918": {
   "name": "Mindstorm Wristbands",
@@ -4589,6 +4749,11 @@
   "icon": "inv_weapon_rifle_06",
   "quality": 2
  },
+ "30311": {
+  "name": "Warp Slicer",
+  "icon": "inv_sword_69",
+  "quality": 5
+ },
  "30341": {
   "name": "Flesh Handler's Gauntlets",
   "icon": "inv_gauntlets_23",
@@ -4702,6 +4867,11 @@
  "30543": {
   "name": "Pontifex Kilt",
   "icon": "inv_pants_cloth_20",
+  "quality": 4
+ },
+ "30552": {
+  "name": "Blessed Tanzanite",
+  "icon": "inv_jewelcrafting_nightseye_03",
   "quality": 4
  },
  "30620": {
@@ -5772,6 +5942,11 @@
  "31978": {
   "name": "Merciless Gladiator's Endgame",
   "icon": "inv_misc_book_06",
+  "quality": 4
+ },
+ "31979": {
+  "name": "Merciless Gladiator's Felweave Amice",
+  "icon": "inv_shoulder_19",
   "quality": 4
  },
  "31980": {
@@ -6994,6 +7169,11 @@
   "icon": "inv_belt_17",
   "quality": 4
  },
+ "32801": {
+  "name": "Veteran's Lamellar Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
  "32802": {
   "name": "Veteran's Leather Belt",
   "icon": "inv_belt_17",
@@ -8069,6 +8249,11 @@
   "icon": "inv_bracer_07",
   "quality": 4
  },
+ "33888": {
+  "name": "Vindicator's Lamellar Belt",
+  "icon": "inv_belt_14",
+  "quality": 4
+ },
  "33889": {
   "name": "Vindicator's Lamellar Bracers",
   "icon": "inv_bracer_19",
@@ -8227,6 +8412,21 @@
  "33923": {
   "name": "Vindicator's Pendant of Triumph",
   "icon": "inv_jewelry_necklace_36",
+  "quality": 4
+ },
+ "33939": {
+  "name": "Gladiator's Totem of Indomitability",
+  "icon": "spell_nature_slowingtotem",
+  "quality": 4
+ },
+ "33940": {
+  "name": "Merciless Gladiator's Totem of Indomitability",
+  "icon": "spell_nature_slowingtotem",
+  "quality": 4
+ },
+ "33941": {
+  "name": "Vengeful Gladiator's Totem of Indomitability",
+  "icon": "spell_nature_slowingtotem",
   "quality": 4
  },
  "34009": {
@@ -9694,6 +9894,11 @@
   "icon": "inv_weapon_shortblade_73",
   "quality": 4
  },
+ "35104": {
+  "name": "Brutal Gladiator's Totem of Indomitability",
+  "icon": "spell_nature_slowingtotem",
+  "quality": 4
+ },
  "35106": {
   "name": "Brutal Gladiator's Totem of the Third Wind",
   "icon": "spell_frost_summonwaterelemental",
@@ -9851,6 +10056,11 @@
  },
  "35154": {
   "name": "Guardian's Kodohide Belt",
+  "icon": "inv_belt_12",
+  "quality": 4
+ },
+ "35155": {
+  "name": "Guardian's Lamellar Belt",
   "icon": "inv_belt_12",
   "quality": 4
  },

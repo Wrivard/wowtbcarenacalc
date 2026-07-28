@@ -4,11 +4,11 @@
  "content": "pvp",
  "season": 2,
  "ratingRange": [
-  2111,
+  2199,
   2988
  ],
- "sampleSize": 21,
- "updatedAt": "2026-07-12",
+ "sampleSize": 19,
+ "updatedAt": "2026-07-26",
  "blurb": "Survival Hunter is the team-player tree: Expose Weakness turns your agility into your warrior's attack power, Wyvern Sting adds a second CC school, and Readiness doubles your trap count. It shines in physical cleaves where the aura effect multiplies across two DPS.",
  "statPriorityRationale": "Survival scales agility harder than the other trees thanks to Lightning Reflexes and Expose Weakness — which also buffs your whole team's physical damage, so agility jumps ahead of raw AP here.",
  "statPriority": [
@@ -24,18 +24,18 @@
    "bis": {
     "itemId": 31962,
     "name": "Merciless Gladiator's Chain Helm",
-    "usagePct": 71
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28331,
      "name": "Gladiator's Chain Helm",
-     "usagePct": 14
+     "usagePct": 16
     },
     {
      "itemId": 30141,
      "name": "Rift Stalker Helm",
-     "usagePct": 10,
+     "usagePct": 11,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
@@ -51,26 +51,26 @@
    "bis": {
     "itemId": 30017,
     "name": "Telonicus's Pendant of Mayhem",
-    "usagePct": 67
+    "usagePct": 68
    },
    "alternatives": [
     {
+     "itemId": 28244,
+     "name": "Pendant of Triumph",
+     "usagePct": 11,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
-     "usagePct": 10,
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28674,
      "name": "Saberclaw Talisman",
-     "usagePct": 10,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28244,
-     "name": "Pendant of Triumph",
      "usagePct": 5,
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -79,19 +79,19 @@
    "bis": {
     "itemId": 31964,
     "name": "Merciless Gladiator's Chain Spaulders",
-    "usagePct": 71
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 28333,
      "name": "Gladiator's Chain Spaulders",
-     "usagePct": 14
+     "usagePct": 16
     },
     {
      "itemId": 30143,
      "name": "Rift Stalker Mantle",
-     "usagePct": 10,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "usagePct": 16,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27801,
@@ -104,48 +104,50 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 29994,
-    "name": "Thalassian Wildercloak",
-    "usagePct": 48
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 5
    },
    "alternatives": [
     {
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 53,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28672,
      "name": "Drape of the Dark Reavers",
-     "usagePct": 24,
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35495,
+     "itemId": 278819,
      "name": "The Frost Lord's War Cloak",
-     "usagePct": 14,
+     "usagePct": 16,
      "pveFlexNote": "Seen mostly above 2200 rating."
-    },
-    {
-     "itemId": 24259,
-     "name": "Vengeance Wrap",
-     "usagePct": 5,
-     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 30139,
-    "name": "Rift Stalker Hauberk",
-    "usagePct": 67
+    "itemId": 28334,
+    "name": "Gladiator's Chain Armor",
+    "usagePct": 16
    },
    "alternatives": [
     {
-     "itemId": 28334,
-     "name": "Gladiator's Chain Armor",
-     "usagePct": 14
+     "itemId": 30139,
+     "name": "Rift Stalker Hauberk",
+     "usagePct": 63,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31960,
      "name": "Merciless Gladiator's Chain Armor",
-     "usagePct": 14
+     "usagePct": 16,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28228,
@@ -160,13 +162,13 @@
    "bis": {
     "itemId": 32809,
     "name": "Veteran's Chain Bracers",
-    "usagePct": 71
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28973,
      "name": "Marshal's Chain Bracers",
-     "usagePct": 10
+     "usagePct": 11
     },
     {
      "itemId": 22443,
@@ -187,18 +189,18 @@
    "bis": {
     "itemId": 31961,
     "name": "Merciless Gladiator's Chain Gauntlets",
-    "usagePct": 71
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28335,
      "name": "Gladiator's Chain Gauntlets",
-     "usagePct": 14
+     "usagePct": 16
     },
     {
      "itemId": 30140,
      "name": "Rift Stalker Gauntlets",
-     "usagePct": 10,
+     "usagePct": 11,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
@@ -214,13 +216,13 @@
    "bis": {
     "itemId": 32797,
     "name": "Veteran's Chain Girdle",
-    "usagePct": 67
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28974,
      "name": "Marshal's Chain Girdle",
-     "usagePct": 14
+     "usagePct": 11
     },
     {
      "itemId": 22442,
@@ -239,20 +241,21 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30142,
-    "name": "Rift Stalker Leggings",
-    "usagePct": 62
+    "itemId": 31963,
+    "name": "Merciless Gladiator's Chain Leggings",
+    "usagePct": 21
    },
    "alternatives": [
     {
-     "itemId": 28332,
-     "name": "Gladiator's Chain Leggings",
-     "usagePct": 10
+     "itemId": 30142,
+     "name": "Rift Stalker Leggings",
+     "usagePct": 53,
+     "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 31963,
-     "name": "Merciless Gladiator's Chain Leggings",
-     "usagePct": 10
+     "itemId": 28332,
+     "name": "Gladiator's Chain Leggings",
+     "usagePct": 11
     },
     {
      "itemId": 28740,
@@ -267,79 +270,134 @@
    "bis": {
     "itemId": 32785,
     "name": "Veteran's Chain Sabatons",
-    "usagePct": 62
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 28975,
      "name": "Marshal's Chain Sabatons",
-     "usagePct": 14
-    },
-    {
-     "itemId": 30104,
-     "name": "Cobra-Lash Boots",
-     "usagePct": 10,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 16
     },
     {
      "itemId": 28449,
      "name": "General's Chain Sabatons",
      "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28545,
+     "name": "Edgewalker Longboots",
+     "usagePct": 5,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
-    "itemId": 29298,
-    "name": "Band of Eternity",
-    "usagePct": 76
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "usagePct": 16
    },
    "alternatives": [
     {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 58,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
-     "usagePct": 38,
+     "usagePct": 37,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
-     "usagePct": 33,
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 30052,
-     "name": "Ring of Lethality",
-     "usagePct": 19,
-     "pveFlexNote": "Seen mostly above 2685 rating."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
    "bis": {
-    "itemId": 29383,
-    "name": "Bloodlust Brooch",
-    "usagePct": 86
+    "itemId": 29298,
+    "name": "Band of Eternity",
+    "usagePct": 58
    },
    "alternatives": [
     {
-     "itemId": 28237,
-     "name": "Medallion of the Alliance",
-     "usagePct": 76
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "usagePct": 16
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 37,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 32,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28237,
+    "name": "Medallion of the Alliance",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 79,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
-     "usagePct": 14,
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28034,
      "name": "Hourglass of the Unraveller",
-     "usagePct": 10,
+     "usagePct": 11,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29383,
+    "name": "Bloodlust Brooch",
+    "usagePct": 79
+   },
+   "alternatives": [
+    {
+     "itemId": 28237,
+     "name": "Medallion of the Alliance",
+     "usagePct": 79
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "usagePct": 16,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28034,
+     "name": "Hourglass of the Unraveller",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -347,73 +405,75 @@
   {
    "slot": "MainHand",
    "bis": {
-    "itemId": 31965,
-    "name": "Merciless Gladiator's Cleaver",
-    "usagePct": 24
+    "itemId": 28308,
+    "name": "Gladiator's Cleaver",
+    "usagePct": 16
    },
    "alternatives": [
     {
      "itemId": 29924,
      "name": "Netherbane",
-     "usagePct": 19,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 21,
+     "pveFlexNote": "Seen mostly above 2678 rating."
     },
     {
-     "itemId": 28308,
-     "name": "Gladiator's Cleaver",
-     "usagePct": 14
+     "itemId": 31965,
+     "name": "Merciless Gladiator's Cleaver",
+     "usagePct": 16
     },
     {
-     "itemId": 31966,
-     "name": "Merciless Gladiator's Decapitator",
-     "usagePct": 10
+     "itemId": 32052,
+     "name": "Merciless Gladiator's Slicer",
+     "usagePct": 16
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 29948,
-    "name": "Claw of the Phoenix",
-    "usagePct": 24
+    "itemId": 31985,
+    "name": "Merciless Gladiator's Hacker",
+    "usagePct": 16
    },
    "alternatives": [
     {
-     "itemId": 31985,
-     "name": "Merciless Gladiator's Hacker",
-     "usagePct": 14,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 29948,
+     "name": "Claw of the Phoenix",
+     "usagePct": 26,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32027,
      "name": "Merciless Gladiator's Quickblade",
-     "usagePct": 14
+     "usagePct": 16
     },
     {
-     "itemId": 28309,
-     "name": "Gladiator's Hacker",
-     "usagePct": 10
+     "itemId": 28768,
+     "name": "Malchazeen",
+     "usagePct": 11,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 30105,
-    "name": "Serpent Spine Longbow",
-    "usagePct": 43
+    "itemId": 31986,
+    "name": "Merciless Gladiator's Crossbow of the Phoenix",
+    "usagePct": 21
    },
    "alternatives": [
     {
-     "itemId": 28772,
-     "name": "Sunfury Bow of the Phoenix",
-     "usagePct": 29,
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "usagePct": 53,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 31986,
-     "name": "Merciless Gladiator's Crossbow of the Phoenix",
-     "usagePct": 24
+     "itemId": 28772,
+     "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28294,
@@ -428,7 +488,7 @@
   {
    "itemId": 24028,
    "name": "+8 Agility",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24053,
@@ -436,14 +496,14 @@
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 25895,
    "name": "+12 Critical Strike Rating & 5% Snare and Root Resist",
    "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
@@ -452,69 +512,144 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "67% of surveyed players on this slot.",
+   "note": "75% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
-   "text": "+12 Agility",
-   "note": "60% of surveyed players on this slot.",
-   "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+20 Spell Penetration",
+   "note": "100% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "79% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+24 Attack Power",
-   "note": "60% of surveyed players on this slot.",
+   "note": "77% of surveyed players on this slot.",
    "name": "Enchant Bracer - Assault",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Agility",
-   "note": "73% of surveyed players on this slot.",
+   "note": "92% of surveyed players on this slot.",
    "name": "Enchant Gloves - Superior Agility",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "92% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Surefooted",
-   "note": "62% of surveyed players on this slot.",
+   "note": "83% of surveyed players on this slot.",
    "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan"
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "56% of surveyed players on this slot.",
+   "note": "33% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
@@ -529,29 +664,29 @@
   {
    "slot": "Ranged",
    "text": "Scope (+28 Critical Strike Rating)",
-   "note": "100% of surveyed players on this slot."
+   "note": "75% of surveyed players on this slot."
   }
  ],
  "faq": [
   {
    "question": "What rating are these Survival Hunters?",
-   "answer": "This snapshot covers 21 Survival Hunters between 2111 and 2988 rating (average 2630) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 19 Survival Hunters between 2199 and 2988 rating (average 2652) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Survival Hunter PvP gear right now?",
-   "answer": "The highest-consensus picks are Bloodlust Brooch (86%), Band of Eternity (76%), Merciless Gladiator's Chain Helm (71%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Medallion of the Alliance (79%), Bloodlust Brooch (79%), Merciless Gladiator's Chain Helm (68%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Survival Hunter BiS list is PvP gear vs raid gear?",
-   "answer": "Only 47% of the most-used slots are PvP items — high-rated Survival Hunters flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+   "answer": "82% of the most-used slots are arena/honor items — for Survival Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Survival Hunters use in arena?",
-   "answer": "Merciless Gladiator's Cleaver is the main-hand of choice (24% of surveyed players)."
+   "answer": "Gladiator's Cleaver is the main-hand of choice (16% of surveyed players)."
   },
   {
    "question": "What gems do Survival Hunters socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +8 Resilience Rating, +4 Agility and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +8 Resilience Rating, +12 Critical Strike Rating & 5% Snare and Root Resist. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

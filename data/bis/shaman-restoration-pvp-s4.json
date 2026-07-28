@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 4,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 4 arena gear for Restoration Shaman: the Brutal Gladiator's set (Brutal Gladiator's Ringmail Helm, Brutal Gladiator's Mail Spaulders, Brutal Gladiator's Ringmail Armor…), backed by Guardian's offset pieces from the honor vendor. Season 4 has the strictest gates in TBC: the Brutal weapon requires 1950 rating, shoulders 2200, and several pieces check personal rating as well as team rating. The slot-by-slot list below translates what the current arena ladder's top Restoration Shamans equip into their Season 4 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Weapon gates at 1950 and shoulders at 2200, with personal rating checked on top, so buy in order: Brutal Gladiator's Ringmail Helm and Armor early, spaulders whenever you get there. Vengeful pieces on honor cover anything your rating cannot reach, and with resilience at its expansion peak the ungated slots go to healing — Girdle of Fallen Stars still beats Guardian's Ringmail Girdle.",
  "statPriority": [
@@ -25,12 +25,7 @@
     {
      "itemId": 30166,
      "name": "Cataclysm Headguard",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 29028,
-     "name": "Cyclone Headdress",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2427 rating."
     }
    ]
   },
@@ -44,7 +39,7 @@
     {
      "itemId": 28609,
      "name": "Emberspur Talisman",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
      "itemId": 30018,
@@ -64,6 +59,10 @@
      "itemId": 30168,
      "name": "Cataclysm Shoulderguards",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 35081,
+     "name": "Brutal Gladiator's Ringmail Spaulders"
     }
    ]
   },
@@ -75,18 +74,18 @@
    },
    "alternatives": [
     {
-     "itemId": 35494,
+     "itemId": 279240,
      "name": "Shroud of Winter's Chill",
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29989,
      "name": "Sunshower Light Cloak",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
-     "itemId": 29375,
-     "name": "Bishop's Cloak",
+     "itemId": 28582,
+     "name": "Red Riding Hood's Cloak",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -101,7 +100,7 @@
     {
      "itemId": 30164,
      "name": "Cataclysm Chestguard",
-     "pveFlexNote": "PvE flex piece."
+     "pveFlexNote": "Seen mostly above 2427 rating."
     }
    ]
   },
@@ -115,16 +114,6 @@
     {
      "itemId": 30047,
      "name": "Blackfathom Warbands",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28503,
-     "name": "Whirlwind Bracers",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32516,
-     "name": "Wraps of Purification",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -144,33 +133,35 @@
     {
      "itemId": 28520,
      "name": "Gloves of Centering",
-     "pveFlexNote": "Seen mostly above 2427 rating."
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 30030,
-    "name": "Girdle of Fallen Stars"
+    "itemId": 35162,
+    "name": "Guardian's Ringmail Girdle"
    },
    "alternatives": [
     {
-     "itemId": 35162,
-     "name": "Guardian's Ringmail Girdle"
+     "itemId": 30030,
+     "name": "Girdle of Fallen Stars",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 29991,
-    "name": "Sunhawk Leggings"
+    "itemId": 35080,
+    "name": "Brutal Gladiator's Ringmail Leggings"
    },
    "alternatives": [
     {
-     "itemId": 35080,
-     "name": "Brutal Gladiator's Ringmail Leggings"
+     "itemId": 29991,
+     "name": "Sunhawk Leggings",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28751,
@@ -192,14 +183,14 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30092,
-     "name": "Orca-Hide Boots",
-     "pveFlexNote": "Seen mostly above 2427 rating."
+     "itemId": 28752,
+     "name": "Forestlord Striders",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 35130,
     "name": "Guardian's Band of Salvation"
@@ -223,7 +214,30 @@
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 28790,
+    "name": "Naaru Lightwarden's Band"
+   },
+   "alternatives": [
+    {
+     "itemId": 35130,
+     "name": "Guardian's Band of Salvation"
+    },
+    {
+     "itemId": 29307,
+     "name": "Band of Eternity",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28763,
+     "name": "Jade Ring of the Everliving",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
    "bis": {
     "itemId": 30345,
     "name": "Medallion of the Horde"
@@ -235,13 +249,35 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
+     "itemId": 30351,
+     "name": "Medallion of the Alliance"
+    },
+    {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29376,
+    "name": "Essence of the Martyr"
+   },
+   "alternatives": [
+    {
+     "itemId": 30345,
+     "name": "Medallion of the Horde"
     },
     {
      "itemId": 30351,
      "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 28190,
+     "name": "Scarab of the Infinite Cycle",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -267,14 +303,14 @@
    },
    "alternatives": [
     {
-     "itemId": 28754,
-     "name": "Triptych Shield of the Ancients",
-     "pveFlexNote": "Seen mostly above 2427 rating."
-    },
-    {
      "itemId": 29458,
      "name": "Aegis of the Vindicator",
      "pveFlexNote": "Seen mostly above 2427 rating."
+    },
+    {
+     "itemId": 28754,
+     "name": "Triptych Shield of the Ancients",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -286,13 +322,13 @@
    },
    "alternatives": [
     {
-     "itemId": 25645,
-     "name": "Totem of the Plains",
+     "itemId": 28523,
+     "name": "Totem of Healing Rains",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28523,
-     "name": "Totem of Healing Rains",
+     "itemId": 25645,
+     "name": "Totem of the Plains",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -302,107 +338,206 @@
   {
    "itemId": 24057,
    "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 33782,
    "name": "+4 Resilience Rating and +6 Stamina",
-   "note": "Socketed across 5 slots in this snapshot."
+   "note": "Socketed across 4 slots in this snapshot."
   },
   {
-   "itemId": 24060,
-   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
-   "note": "Socketed across 5 slots in this snapshot."
+   "itemId": 25901,
+   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
-   "note": "Socketed across 3 slots in this snapshot."
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+35 Healing +12 Spell Damage and 7 Mana Per 5 sec.",
-   "note": "90% of surveyed players on this slot.",
+   "note": "65% of surveyed players on this slot.",
    "name": "Glyph of Renewal",
-   "source": "Quartermaster — Hellfire Peninsula",
    "icon": "spell_holy_healingaura",
-   "itemId": 29190
+   "itemId": 29190,
+   "source": "Quartermaster — Hellfire Peninsula"
   },
   {
    "slot": "Shoulders",
    "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
-   "note": "85% of surveyed players on this slot."
+   "note": "86% of surveyed players on this slot."
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "57% of surveyed players on this slot."
+   "note": "82% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "95% of surveyed players on this slot.",
+   "note": "96% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+30 Healing and +10 Spell Damage",
-   "note": "48% of surveyed players on this slot.",
+   "note": "52% of surveyed players on this slot.",
    "name": "Enchant Bracer - Superior Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 21886,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Hands",
    "text": "+35 Healing Spells and +12 Damage Spells",
-   "note": "46% of surveyed players on this slot.",
+   "note": "53% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21886,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Golden Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_holy_restoration",
-   "itemId": 24276
+   "itemId": 24276,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 21886,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "46% of surveyed players on this slot.",
+   "note": "39% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "72% of surveyed players on this slot.",
+   "note": "77% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22445,
+     "count": 5
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+81 Healing Spells and +27 Damage Spells",
-   "note": "51% of surveyed players on this slot.",
+   "note": "62% of surveyed players on this slot.",
    "name": "Enchant Weapon - Major Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 8
+    },
+    {
+     "itemId": 21886,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "OffHand",
    "text": "+18 Stamina",
-   "note": "37% of surveyed players on this slot.",
+   "note": "56% of surveyed players on this slot.",
    "name": "Enchant Shield - Major Stamina",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 15
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 4 arena set for Restoration Shaman?",
-   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Ringmail Helm, Brutal Gladiator's Mail Spaulders, Brutal Gladiator's Ringmail Armor, Brutal Gladiator's Mail Gauntlets, Brutal Gladiator's Salvation, Brutal Gladiator's Redoubt, Brutal Gladiator's Totem of the Third Wind. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Brutal Gladiator's pieces: Brutal Gladiator's Ringmail Helm, Brutal Gladiator's Mail Spaulders, Brutal Gladiator's Ringmail Armor, Brutal Gladiator's Mail Gauntlets, Brutal Gladiator's Ringmail Leggings, Brutal Gladiator's Salvation, Brutal Gladiator's Redoubt, Brutal Gladiator's Totem of the Third Wind. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 4?",
@@ -414,7 +549,7 @@
   },
   {
    "question": "Which honor pieces complement the Season 4 set?",
-   "answer": "Guardian's Pendant of Salvation, Guardian's Ringmail Bracers, Guardian's Ringmail Sabatons, Guardian's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
+   "answer": "Guardian's Pendant of Salvation, Guardian's Ringmail Bracers, Guardian's Ringmail Girdle, Guardian's Ringmail Sabatons, Guardian's Band of Salvation — bought with honor and battleground marks, no arena rating needed."
   }
  ]
 }

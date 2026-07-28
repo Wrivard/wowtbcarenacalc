@@ -4,7 +4,7 @@
  "content": "pvp",
  "season": 1,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
+ "updatedAt": "2026-07-26",
  "blurb": "Season 1 arena gear for Retribution Paladin: the Gladiator's set (Gladiator's Scaled Helm, Gladiator's Scaled Shoulders, Gladiator's Scaled Chestpiece…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Retribution Paladins equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Nobody has resilience yet, so opening trades end games outright — take every point the Gladiator's Scaled pieces carry and lean on stamina while your offset slots are still dungeon and crafted leftovers. Nothing is rating-locked, so finishing the set is the fastest survivability you can buy; attack power waits until the plate is on.",
  "statPriority": [
@@ -76,23 +76,19 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 30098,
-    "name": "Razor-Scale Battlecloak"
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak"
    },
    "alternatives": [
+    {
+     "itemId": 30098,
+     "name": "Razor-Scale Battlecloak",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak"
-    },
-    {
-     "itemId": 35495,
-     "name": "The Frost Lord's War Cloak",
-     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -107,30 +103,31 @@
      "itemId": 30129,
      "name": "Crystalforge Breastplate",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30102,
+     "name": "Krakken-Heart Breastplate",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Wrist",
    "bis": {
-    "itemId": 28795,
-    "name": "Bladespire Warbands"
+    "itemId": 32819,
+    "name": "Veteran's Scaled Bracers",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
+    {
+     "itemId": 28795,
+     "name": "Bladespire Warbands",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 32819,
-     "name": "Veteran's Scaled Bracers",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
-    },
-    {
-     "itemId": 32818,
-     "name": "Veteran's Plate Bracers",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
    ]
   },
@@ -157,13 +154,13 @@
    },
    "alternatives": [
     {
-     "itemId": 30106,
-     "name": "Belt of One-Hundred Deaths",
+     "itemId": 28779,
+     "name": "Girdle of the Endless Pit",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28779,
-     "name": "Girdle of the Endless Pit",
+     "itemId": 30106,
+     "name": "Belt of One-Hundred Deaths",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -201,18 +198,48 @@
    },
    "alternatives": [
     {
-     "itemId": 30081,
-     "name": "Warboots of Obliteration",
+     "itemId": 28608,
+     "name": "Ironstriders of Urgency",
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28645,
      "name": "General's Scaled Greaves"
+    },
+    {
+     "itemId": 30081,
+     "name": "Warboots of Obliteration",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 33057,
+    "name": "Veteran's Band of Triumph",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+   },
+   "alternatives": [
+    {
+     "itemId": 30061,
+     "name": "Ancestral Ring of Conquest",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28757,
+     "name": "Ring of a Thousand Marks",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
    "bis": {
     "itemId": 30061,
     "name": "Ancestral Ring of Conquest"
@@ -229,14 +256,37 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29298,
-     "name": "Band of Eternity",
-     "pveFlexNote": "Seen mostly above 2647 rating."
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28242,
+    "name": "Medallion of the Horde"
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28830,
+     "name": "Dragonspine Trophy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28236,
+     "name": "Medallion of the Alliance"
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29383,
     "name": "Bloodlust Brooch"
@@ -270,8 +320,8 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28430,
-     "name": "Lionheart Executioner",
+     "itemId": 29993,
+     "name": "Twinblade of the Phoenix",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -294,11 +344,6 @@
   {
    "itemId": 24027,
    "name": "+8 Strength",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
-   "itemId": 24054,
-   "name": "+4 Strength and +6 Stamina",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
@@ -307,8 +352,13 @@
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 28362,
-   "name": "+20 Attack Power",
+   "itemId": 24058,
+   "name": "+4 Critical Strike Rating and +4 Strength",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 28363,
+   "name": "+10 Attack Power, +5 Critical Strike Rating",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],
@@ -316,78 +366,189 @@
   {
    "slot": "Head",
    "text": "+17 Strength and +16 Intellect",
-   "note": "96% of surveyed players on this slot.",
+   "note": "92% of surveyed players on this slot.",
    "name": "Glyph of the Outcast",
-   "source": "Lower City Quartermaster — Shattrath City",
    "icon": "ability_rogue_masterofsubtlety",
-   "itemId": 30846
+   "itemId": 30846,
+   "source": "Lower City Quartermaster — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "78% of surveyed players on this slot.",
+   "note": "74% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 Agility",
-   "note": "71% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Chest",
    "text": "+6 All Stats",
-   "note": "43% of surveyed players on this slot.",
+   "note": "46% of surveyed players on this slot.",
    "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22446,
+     "count": 4
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+12 Strength",
-   "note": "82% of surveyed players on this slot.",
+   "note": "63% of surveyed players on this slot.",
    "name": "Enchant Bracer - Brawn",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Strength",
-   "note": "63% of surveyed players on this slot.",
+   "note": "71% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Strength",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 12
+    },
+    {
+     "itemId": 22446,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
-   "note": "92% of surveyed players on this slot.",
+   "note": "91% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Surefooted",
-   "note": "63% of surveyed players on this slot.",
+   "note": "70% of surveyed players on this slot.",
    "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan"
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "13% of surveyed players on this slot.",
+   "note": "12% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "62% of surveyed players on this slot.",
+   "note": "69% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [

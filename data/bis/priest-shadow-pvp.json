@@ -7,8 +7,8 @@
   2113,
   2994
  ],
- "sampleSize": 26,
- "updatedAt": "2026-07-12",
+ "sampleSize": 30,
+ "updatedAt": "2026-07-26",
  "blurb": "Shadow Priest is TBC arena's drain machine: Vampiric Touch mana pressure, Vampiric Embrace healing, Silence and Psychic Scream on rotation. You win by making the game longer while your dots make it shorter for them — and you gear like a tank because everyone knows killing the shadow priest first is the counterplay.",
  "statPriorityRationale": "Shadow's pressure is dot-based and constant, so spell damage beats crit — but every rogue and warrior queues into you as the free kill, which is why the ladder's shadow priests run more stamina and resilience than any other caster.",
  "statPriority": [
@@ -24,19 +24,25 @@
    "bis": {
     "itemId": 32035,
     "name": "Merciless Gladiator's Satin Hood",
-    "usagePct": 62
+    "usagePct": 53
    },
    "alternatives": [
     {
-     "itemId": 27708,
-     "name": "Gladiator's Satin Hood",
-     "usagePct": 15
+     "itemId": 28804,
+     "name": "Collar of Cho'gall",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30161,
      "name": "Hood of the Avatar",
-     "usagePct": 12,
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 27708,
+     "name": "Gladiator's Satin Hood",
+     "usagePct": 7
     }
    ]
   },
@@ -45,25 +51,25 @@
    "bis": {
     "itemId": 33065,
     "name": "Veteran's Pendant of Dominance",
-    "usagePct": 42
+    "usagePct": 37
    },
    "alternatives": [
+    {
+     "itemId": 30666,
+     "name": "Ritssyn's Lost Pendant",
+     "usagePct": 30,
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
      "usagePct": 27,
-     "pveFlexNote": "Seen mostly above 2402 rating."
-    },
-    {
-     "itemId": 30666,
-     "name": "Ritssyn's Lost Pendant",
-     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
-     "usagePct": 12,
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -73,25 +79,25 @@
    "bis": {
     "itemId": 32037,
     "name": "Merciless Gladiator's Satin Mantle",
-    "usagePct": 54
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 21869,
      "name": "Frozen Shadoweave Shoulders",
-     "usagePct": 12,
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 27710,
-     "name": "Gladiator's Satin Mantle",
-     "usagePct": 12
+     "itemId": 32018,
+     "name": "Merciless Gladiator's Mooncloth Mantle",
+     "usagePct": 10
     },
     {
-     "itemId": 31412,
-     "name": "Gladiator's Mooncloth Mantle",
-     "usagePct": 8,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 30163,
+     "name": "Wings of the Avatar",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -100,19 +106,25 @@
    "bis": {
     "itemId": 28378,
     "name": "Sergeant's Heavy Cape",
-    "usagePct": 73
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 28570,
      "name": "Shadow-Cloak of Dalaran",
-     "usagePct": 12,
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29992,
      "name": "Royal Cloak of the Sunstriders",
-     "usagePct": 12,
+     "usagePct": 13,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29989,
+     "name": "Sunshower Light Cloak",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -122,25 +134,25 @@
    "bis": {
     "itemId": 32038,
     "name": "Merciless Gladiator's Satin Robe",
-    "usagePct": 58
+    "usagePct": 50
    },
    "alternatives": [
     {
+     "itemId": 30159,
+     "name": "Shroud of the Avatar",
+     "usagePct": 13,
+     "pveFlexNote": "Seen mostly above 2427 rating."
+    },
+    {
      "itemId": 21871,
      "name": "Frozen Shadoweave Robe",
-     "usagePct": 8,
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27711,
      "name": "Gladiator's Satin Robe",
-     "usagePct": 8
-    },
-    {
-     "itemId": 30159,
-     "name": "Shroud of the Avatar",
-     "usagePct": 8,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "usagePct": 7
     }
    ]
   },
@@ -149,19 +161,20 @@
    "bis": {
     "itemId": 32811,
     "name": "Veteran's Dreadweave Cuffs",
-    "usagePct": 69
+    "usagePct": 57
    },
    "alternatives": [
     {
-     "itemId": 24250,
-     "name": "Bracers of Havok",
-     "usagePct": 8,
+     "itemId": 28515,
+     "name": "Bands of Nefarious Deeds",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28405,
-     "name": "General's Dreadweave Cuffs",
-     "usagePct": 8
+     "itemId": 32980,
+     "name": "Veteran's Mooncloth Cuffs",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -170,24 +183,24 @@
    "bis": {
     "itemId": 32034,
     "name": "Merciless Gladiator's Satin Gloves",
-    "usagePct": 50
+    "usagePct": 47
    },
    "alternatives": [
     {
-     "itemId": 27707,
-     "name": "Gladiator's Satin Gloves",
-     "usagePct": 15
-    },
-    {
      "itemId": 28780,
      "name": "Soul-Eater's Handwraps",
-     "usagePct": 12,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 13,
+     "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
-     "itemId": 30160,
-     "name": "Handguards of the Avatar",
-     "usagePct": 8,
+     "itemId": 27707,
+     "name": "Gladiator's Satin Gloves",
+     "usagePct": 10
+    },
+    {
+     "itemId": 28507,
+     "name": "Handwraps of Flowing Thought",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -197,14 +210,20 @@
    "bis": {
     "itemId": 32799,
     "name": "Veteran's Dreadweave Belt",
-    "usagePct": 69
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28799,
      "name": "Belt of Divine Inspiration",
-     "usagePct": 12,
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30038,
+     "name": "Belt of Blasting",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -213,19 +232,26 @@
    "bis": {
     "itemId": 32036,
     "name": "Merciless Gladiator's Satin Leggings",
-    "usagePct": 62
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 29972,
      "name": "Trousers of the Astromancer",
-     "usagePct": 19,
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 27709,
-     "name": "Gladiator's Satin Leggings",
-     "usagePct": 8
+     "itemId": 28594,
+     "name": "Trial-Fire Trousers",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30153,
+     "name": "Breeches of the Avatar",
+     "usagePct": 7,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
@@ -234,78 +260,132 @@
    "bis": {
     "itemId": 32787,
     "name": "Veteran's Dreadweave Stalkers",
-    "usagePct": 58
+    "usagePct": 53
    },
    "alternatives": [
     {
-     "itemId": 28402,
-     "name": "General's Dreadweave Stalkers",
-     "usagePct": 15
-    },
-    {
      "itemId": 21870,
      "name": "Frozen Shadoweave Boots",
-     "usagePct": 12,
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30050,
      "name": "Boots of the Shifting Nightmare",
-     "usagePct": 8,
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28402,
+     "name": "General's Dreadweave Stalkers",
+     "usagePct": 7
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
-    "usagePct": 65
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 29922,
      "name": "Band of Al'ar",
-     "usagePct": 42,
+     "usagePct": 43,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
-     "usagePct": 23,
+     "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28327,
      "name": "Arcane Netherband",
-     "usagePct": 8,
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29922,
+    "name": "Band of Al'ar",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "usagePct": 53
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "usagePct": 27,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28327,
+     "name": "Arcane Netherband",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30346,
+    "name": "Medallion of the Horde",
+    "usagePct": 43
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 80,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance",
+     "usagePct": 23
+    },
+    {
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29370,
     "name": "Icon of the Silver Crescent",
-    "usagePct": 85
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 30346,
      "name": "Medallion of the Horde",
-     "usagePct": 54
+     "usagePct": 43
     },
     {
      "itemId": 30349,
      "name": "Medallion of the Alliance",
-     "usagePct": 31
+     "usagePct": 23
     },
     {
-     "itemId": 28727,
-     "name": "Pendant of the Violet Eye",
-     "usagePct": 8,
+     "itemId": 27683,
+     "name": "Quagmirran's Eye",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -315,24 +395,24 @@
    "bis": {
     "itemId": 32963,
     "name": "Merciless Gladiator's Gavel",
-    "usagePct": 50
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 32053,
      "name": "Merciless Gladiator's Spellblade",
-     "usagePct": 23
+     "usagePct": 33
     },
     {
      "itemId": 32450,
      "name": "Gladiator's Gavel",
-     "usagePct": 12
+     "usagePct": 10
     },
     {
-     "itemId": 32451,
-     "name": "Gladiator's Salvation",
-     "usagePct": 8,
-     "pveFlexNote": "Seen mostly above 2200 rating."
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -341,19 +421,19 @@
    "bis": {
     "itemId": 31978,
     "name": "Merciless Gladiator's Endgame",
-    "usagePct": 65
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 29272,
      "name": "Orb of the Soul-Eater",
-     "usagePct": 15,
+     "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28781,
      "name": "Karaborian Talisman",
-     "usagePct": 8,
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -363,19 +443,25 @@
    "bis": {
     "itemId": 32962,
     "name": "Merciless Gladiator's Touch of Defeat",
-    "usagePct": 62
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28320,
      "name": "Gladiator's Touch of Defeat",
-     "usagePct": 23
+     "usagePct": 13
     },
     {
      "itemId": 30080,
      "name": "Luminescent Rod of the Naaru",
-     "usagePct": 8,
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2200 rating."
+    },
+    {
+     "itemId": 28673,
+     "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   }
@@ -408,92 +494,192 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "64% of surveyed players on this slot.",
+   "note": "69% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "68% of surveyed players on this slot."
+   "note": "73% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "93% of surveyed players on this slot.",
+   "note": "87% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
-   "note": "72% of surveyed players on this slot.",
+   "note": "76% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "54% of surveyed players on this slot.",
+   "note": "86% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "47% of surveyed players on this slot.",
+   "note": "69% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "41% of surveyed players on this slot.",
+   "note": "44% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Soulfrost",
    "note": "54% of surveyed players on this slot.",
    "name": "Enchant Weapon - Soulfrost",
-   "source": "Terestian Illhoof — Karazhan"
+   "source": "Terestian Illhoof — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 12
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    },
+    {
+     "itemId": 22456,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What rating are these Shadow Priests?",
-   "answer": "This snapshot covers 26 Shadow Priests between 2113 and 2994 rating (average 2448) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 30 Shadow Priests between 2113 and 2994 rating (average 2471) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Shadow Priest PvP gear right now?",
-   "answer": "The highest-consensus picks are Icon of the Silver Crescent (85%), Sergeant's Heavy Cape (73%), Veteran's Dreadweave Cuffs (69%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Icon of the Silver Crescent (80%), Veteran's Dreadweave Cuffs (57%), Merciless Gladiator's Satin Leggings (57%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Shadow Priest BiS list is PvP gear vs raid gear?",
-   "answer": "93% of the most-used slots are arena/honor items — for Shadow Priests the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "88% of the most-used slots are arena/honor items — for Shadow Priests the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Shadow Priests use in arena?",
-   "answer": "Merciless Gladiator's Gavel is the main-hand of choice (50% of surveyed players)."
+   "answer": "Merciless Gladiator's Gavel is the main-hand of choice (43% of surveyed players)."
   },
   {
    "question": "What gems do Shadow Priests socket for PvP?",

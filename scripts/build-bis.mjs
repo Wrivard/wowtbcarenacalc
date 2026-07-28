@@ -55,6 +55,20 @@ const SLOT_NAME = {
   "Off Hand": "OffHand",
 };
 
+// The armory snapshot buckets BOTH ring positions (and both trinket
+// positions) into ONE list, because it aggregates per item, not per finger.
+// A character wears two of each, which is why the percentages inside these
+// buckets routinely sum past 100 — they count slot occurrences, not players.
+//
+// Mapping that bucket to a single row shipped every PvP list with one ring
+// and one trinket while the PvE lists, whose source reports each position
+// separately, shipped two. Half the character was missing. Split the bucket
+// back into the two positions it describes.
+const PAIRED_SLOTS = {
+  Ring: ["Ring1", "Ring2"],
+  Trinket: ["Trinket1", "Trinket2"],
+};
+
 const CLASS_NAMES = {
   warrior: "Warrior", paladin: "Paladin", hunter: "Hunter", rogue: "Rogue",
   priest: "Priest", shaman: "Shaman", mage: "Mage", warlock: "Warlock",
@@ -176,24 +190,38 @@ async function main() {
           ranked.unshift(pvpPick);
         }
       }
-      const [bis, ...alts] = ranked;
-      slots[slot] = {
-        slot,
-        bisIsPvP: bis.isPvP,
-        bis: { itemId: bis.id, name: bis.name, usagePct: bis.popularity },
-        alternatives: alts.slice(0, 3).map((a) => ({
-          itemId: a.id,
-          name: a.name,
-          usagePct: a.popularity,
-          ...(a.ratingGate
-            ? { pveFlexNote: `Seen mostly above ${a.ratingGate} rating.` }
-            : a.isPvEFlex
-              ? { pveFlexNote: "PvE flex piece." }
-              : {}),
-        })),
-      };
-      allItemIds.add(bis.id);
-      for (const a of alts.slice(0, 3)) allItemIds.add(a.id);
+      const targets = PAIRED_SLOTS[slot] ?? [slot];
+      for (let pos = 0; pos < targets.length; pos++) {
+        // Past 100% in a two-position bucket means the average player wears
+        // more than one copy, so the same item is the honest pick for both
+        // fingers. Anything at or below that takes the next entry down.
+        const pick = ranked[0].popularity > 100 ? ranked[0] : ranked[pos];
+        if (!pick) break;
+        // The source cannot say which finger an item sat on, so both rows
+        // offer the same remaining pool minus their own pick.
+        const alts = ranked.filter((a) => a !== pick).slice(0, 3);
+        slots[targets[pos]] = {
+          slot: targets[pos],
+          bisIsPvP: pick.isPvP,
+          bis: { itemId: pick.id, name: pick.name, usagePct: pick.popularity },
+          alternatives: alts.map((a) => ({
+            itemId: a.id,
+            name: a.name,
+            usagePct: a.popularity,
+            ...(a.ratingGate
+              ? { pveFlexNote: `Seen mostly above ${a.ratingGate} rating.` }
+              : a.isPvEFlex
+                ? { pveFlexNote: "PvE flex piece." }
+                : {}),
+          })),
+        };
+        allItemIds.add(pick.id);
+        for (const a of alts) allItemIds.add(a.id);
+      }
+      // Gems and enchants are harvested from the bucket's top pick and keyed
+      // on the bucket's own label ("Ring"), not the split positions — one
+      // ring enchant covers both fingers.
+      const bis = ranked[0];
       for (const g of bis.topGems ?? []) {
         const cur = gemUsage.get(g.id) ?? { id: g.id, name: g.name, usage: 0, slots: 0 };
         cur.usage += g.usage;
@@ -225,7 +253,8 @@ async function main() {
 
     const orderedSlotNames = [
       "Head", "Neck", "Shoulders", "Back", "Chest", "Wrist", "Hands",
-      "Waist", "Legs", "Feet", "Ring", "Trinket", "MainHand", "OffHand", "Ranged",
+      "Waist", "Legs", "Feet", "Ring1", "Ring2", "Trinket1", "Trinket2",
+      "MainHand", "OffHand", "Ranged",
     ];
     const orderedSlots = orderedSlotNames
       .filter((s) => slots[s])
@@ -274,7 +303,15 @@ async function main() {
   );
 
   // Item metadata (name/icon/quality) for server-rendered icons.
-  const items = {};
+  //
+  // Merged, not replaced: data/items.json is shared with the PvE lists, the
+  // season pages, the gems and the enchant reagents. Writing only this
+  // build's ids used to silently drop two thirds of the catalogue, and every
+  // item that lost its entry fell back to bare text with no icon.
+  const itemsPath = path.join(process.cwd(), "data", "items.json");
+  const items = existsSync(itemsPath)
+    ? JSON.parse(await readFile(itemsPath, "utf8"))
+    : {};
   const ids = [...allItemIds].sort((a, b) => a - b);
   console.log(`resolving ${ids.length} items via Wowhead tooltip API…`);
   for (const id of ids) {
@@ -298,10 +335,7 @@ async function main() {
       quality: json.quality, // 0..5 (wowhead q index)
     };
   }
-  await writeFile(
-    path.join(process.cwd(), "data", "items.json"),
-    JSON.stringify(items, null, 1),
-  );
+  await writeFile(itemsPath, JSON.stringify(items, null, 1));
   console.log(`data/items.json: ${Object.keys(items).length} items`);
 }
 

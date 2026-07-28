@@ -489,6 +489,12 @@
    "icon": "inv_misc_armorkit_25",
    "itemId": 34330,
    "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 3
+    }
+   ],
    "note": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -496,6 +502,17 @@
    "text": "+12 defense rating",
    "name": "Enchant Cloak - Steelweave",
    "source": "Priestess Delrissa — Magisters' Terrace",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Priestess Delrissa — Magisters' Terrace"
   },
   {
@@ -503,6 +520,21 @@
    "text": "+150 health",
    "name": "Enchant Chest - Exceptional Health",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 8
+    },
+    {
+     "itemId": 13446,
+     "count": 4
+    },
+    {
+     "itemId": 14344,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -510,6 +542,21 @@
    "text": "+12 Stamina",
    "name": "Enchant Bracer - Fortitude",
    "source": "Coilfang Oracle — The Steamvault",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 1
+    },
+    {
+     "itemId": 22446,
+     "count": 10
+    },
+    {
+     "itemId": 22445,
+     "count": 20
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "Coilfang Oracle — The Steamvault"
   },
   {
@@ -519,6 +566,16 @@
    "icon": "inv_misc_armorkit_08",
    "itemId": 34207,
    "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 22452,
+     "count": 3
+    }
+   ],
    "note": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -528,6 +585,24 @@
    "icon": "inv_misc_armorkit_25",
    "itemId": 29536,
    "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 25708,
+     "count": 16
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
    "note": "Leatherworking Trainer — Faction Capital"
   },
   {
@@ -535,6 +610,17 @@
    "text": "minor movement speed increase and +6 Agility",
    "name": "Enchant Boots - Cat's Swiftness",
    "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod",
    "note": "World Drop"
   },
   {
@@ -542,6 +628,17 @@
    "text": "Enchant a melee weapon so that often when attacking in melee it heals for 75 to 125 and increases Strength by 100 for 15 sec",
    "name": "Enchant Weapon - Crusader",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14344,
+     "count": 4
+    },
+    {
+     "itemId": 12811,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod",
    "note": "Enchanting Trainer — Faction Capital"
   },
   {
@@ -549,6 +646,13 @@
    "text": "+18 Stamina",
    "name": "Enchant Shield - Major Stamina",
    "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 15
+    }
+   ],
+   "tool": "Runed Fel Iron Rod",
    "note": "Enchanting Trainer — Faction Capital"
   }
  ],

@@ -61,6 +61,15 @@ export interface BisList {
     itemId?: number;
     /** Where it comes from — vendor/rep/drop and its zone. */
     source?: string;
+    /**
+     * What applying it costs. Enchanter formulas list the spell's reagents;
+     * crafted enhancements (spellthreads, leg armors, kits, scopes) list the
+     * mats of the profession spell that creates them. Vendor items (glyphs,
+     * inscriptions) have none — for those the `source` line is the answer.
+     */
+    reagents?: { itemId: number; count: number }[];
+    /** Enchanter's rod, when the formula needs one. Never a player expense. */
+    tool?: string;
   }[];
   faq: BisFaqItem[];
 }

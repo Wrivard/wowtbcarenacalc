@@ -7,8 +7,8 @@
   2108,
   3126
  ],
- "sampleSize": 339,
- "updatedAt": "2026-07-12",
+ "sampleSize": 320,
+ "updatedAt": "2026-07-26",
  "blurb": "Subtlety is the defining rogue spec of TBC arena — Shadowstep, Preparation and Cheat Death make it the best opener-and-reset spec in the game. The ladder's most-played spec by a wide margin, it wins through control chains (Cheap Shot → Kidney → Blind) rather than raw damage, and its gear list mixes PvP set pieces with surprising PvE engineering goggles for the opener burst.",
  "statPriorityRationale": "Subtlety wins with openers and restealths, not sustained damage — agility feeds crit for Cheap Shot ambushes while resilience and stamina let you survive being the squishiest melee in the game once the opener ends.",
  "statPriority": [
@@ -22,21 +22,22 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 32478,
-    "name": "Deathblow X11 Goggles",
-    "usagePct": 57
+    "itemId": 25830,
+    "name": "Gladiator's Leather Helm",
+    "usagePct": 7
    },
    "alternatives": [
     {
-     "itemId": 23763,
-     "name": "Hyper-Vision Goggles",
-     "usagePct": 28,
+     "itemId": 32478,
+     "name": "Deathblow X11 Goggles",
+     "usagePct": 60,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 25830,
-     "name": "Gladiator's Leather Helm",
-     "usagePct": 7
+     "itemId": 23763,
+     "name": "Hyper-Vision Goggles",
+     "usagePct": 27,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -45,25 +46,25 @@
    "bis": {
     "itemId": 30017,
     "name": "Telonicus's Pendant of Mayhem",
-    "usagePct": 51
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 29381,
      "name": "Choker of Vile Intent",
-     "usagePct": 25,
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
-     "usagePct": 9,
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35507,
+     "itemId": 278827,
      "name": "Amulet of Bitter Hatred",
-     "usagePct": 9,
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -73,7 +74,7 @@
    "bis": {
     "itemId": 32001,
     "name": "Merciless Gladiator's Leather Spaulders",
-    "usagePct": 80
+    "usagePct": 81
    },
    "alternatives": [
     {
@@ -88,17 +89,17 @@
    "bis": {
     "itemId": 29994,
     "name": "Thalassian Wildercloak",
-    "usagePct": 28
+    "usagePct": 31
    },
    "alternatives": [
     {
      "itemId": 28672,
      "name": "Drape of the Dark Reavers",
-     "usagePct": 26,
+     "usagePct": 24,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 35495,
+     "itemId": 278819,
      "name": "The Frost Lord's War Cloak",
      "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
@@ -106,7 +107,7 @@
     {
      "itemId": 29382,
      "name": "Blood Knight War Cloak",
-     "usagePct": 17,
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -116,13 +117,13 @@
    "bis": {
     "itemId": 32002,
     "name": "Merciless Gladiator's Leather Tunic",
-    "usagePct": 80
+    "usagePct": 81
    },
    "alternatives": [
     {
      "itemId": 25831,
      "name": "Gladiator's Leather Tunic",
-     "usagePct": 14
+     "usagePct": 13
     }
    ]
   },
@@ -137,8 +138,8 @@
     {
      "itemId": 29966,
      "name": "Vambraces of Ending",
-     "usagePct": 19,
-     "pveFlexNote": "Seen mostly above 2525 rating."
+     "usagePct": 21,
+     "pveFlexNote": "Seen mostly above 2526 rating."
     },
     {
      "itemId": 28988,
@@ -152,39 +153,34 @@
    "bis": {
     "itemId": 31998,
     "name": "Merciless Gladiator's Leather Gloves",
-    "usagePct": 79
+    "usagePct": 82
    },
    "alternatives": [
     {
      "itemId": 25834,
      "name": "Gladiator's Leather Gloves",
-     "usagePct": 15
+     "usagePct": 13
     }
    ]
   },
   {
    "slot": "Waist",
    "bis": {
-    "itemId": 30040,
-    "name": "Belt of Deep Shadow",
-    "usagePct": 70
+    "itemId": 32802,
+    "name": "Veteran's Leather Belt",
+    "usagePct": 10
    },
    "alternatives": [
     {
-     "itemId": 32802,
-     "name": "Veteran's Leather Belt",
-     "usagePct": 13
+     "itemId": 30040,
+     "name": "Belt of Deep Shadow",
+     "usagePct": 76,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28986,
      "name": "Marshal's Leather Belt",
      "usagePct": 6
-    },
-    {
-     "itemId": 28750,
-     "name": "Girdle of Treachery",
-     "usagePct": 5,
-     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -193,7 +189,7 @@
    "bis": {
     "itemId": 32000,
     "name": "Merciless Gladiator's Leather Legguards",
-    "usagePct": 75
+    "usagePct": 76
    },
    "alternatives": [
     {
@@ -204,7 +200,7 @@
     {
      "itemId": 28741,
      "name": "Skulker's Greaves",
-     "usagePct": 6,
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -218,26 +214,27 @@
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 31288,
-    "name": "The Master's Treads",
-    "usagePct": 65
+    "itemId": 32790,
+    "name": "Veteran's Leather Boots",
+    "usagePct": 22
    },
    "alternatives": [
     {
-     "itemId": 32790,
-     "name": "Veteran's Leather Boots",
-     "usagePct": 20
+     "itemId": 31288,
+     "name": "The Master's Treads",
+     "usagePct": 63,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28545,
      "name": "Edgewalker Longboots",
-     "usagePct": 9,
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 29298,
     "name": "Band of Eternity",
@@ -247,40 +244,95 @@
     {
      "itemId": 30052,
      "name": "Ring of Lethality",
-     "usagePct": 48,
+     "usagePct": 52,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
-     "usagePct": 34,
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
-     "usagePct": 27,
+     "usagePct": 26,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30052,
+    "name": "Ring of Lethality",
+    "usagePct": 52
+   },
+   "alternatives": [
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 62,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 32,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28649,
+     "name": "Garona's Signet Ring",
+     "usagePct": 26,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28234,
+    "name": "Medallion of the Alliance",
+    "usagePct": 59
+   },
+   "alternatives": [
+    {
+     "itemId": 24128,
+     "name": "Figurine - Nightseye Panther",
+     "usagePct": 89,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28240,
+     "name": "Medallion of the Horde",
+     "usagePct": 37
+    },
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 8,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 24128,
     "name": "Figurine - Nightseye Panther",
-    "usagePct": 88
+    "usagePct": 89
    },
    "alternatives": [
     {
      "itemId": 28234,
      "name": "Medallion of the Alliance",
-     "usagePct": 60
+     "usagePct": 59
     },
     {
      "itemId": 28240,
      "name": "Medallion of the Horde",
-     "usagePct": 35
+     "usagePct": 37
     },
     {
      "itemId": 29383,
@@ -293,11 +345,17 @@
   {
    "slot": "MainHand",
    "bis": {
-    "itemId": 29996,
-    "name": "Rod of the Sun King",
-    "usagePct": 34
+    "itemId": 32052,
+    "name": "Merciless Gladiator's Slicer",
+    "usagePct": 15
    },
    "alternatives": [
+    {
+     "itemId": 29996,
+     "name": "Rod of the Sun King",
+     "usagePct": 38,
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 30082,
      "name": "Talon of Azshara",
@@ -305,14 +363,10 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 32052,
-     "name": "Merciless Gladiator's Slicer",
-     "usagePct": 17
-    },
-    {
-     "itemId": 28295,
-     "name": "Gladiator's Slicer",
-     "usagePct": 7
+     "itemId": 28729,
+     "name": "Spiteblade",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -321,13 +375,13 @@
    "bis": {
     "itemId": 32027,
     "name": "Merciless Gladiator's Quickblade",
-    "usagePct": 52
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 32046,
      "name": "Merciless Gladiator's Shiv",
-     "usagePct": 15
+     "usagePct": 14
     },
     {
      "itemId": 28307,
@@ -337,7 +391,7 @@
     {
      "itemId": 28310,
      "name": "Gladiator's Shiv",
-     "usagePct": 7
+     "usagePct": 5
     }
    ]
   },
@@ -346,19 +400,19 @@
    "bis": {
     "itemId": 32054,
     "name": "Merciless Gladiator's War Edge",
-    "usagePct": 57
+    "usagePct": 60
    },
    "alternatives": [
-    {
-     "itemId": 28319,
-     "name": "Gladiator's War Edge",
-     "usagePct": 18
-    },
     {
      "itemId": 34622,
      "name": "Spinesever",
      "usagePct": 18,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28319,
+     "name": "Gladiator's War Edge",
+     "usagePct": 15
     }
    ]
   }
@@ -367,11 +421,6 @@
   {
    "itemId": 24028,
    "name": "+8 Agility",
-   "note": "Socketed across 3 slots in this snapshot."
-  },
-  {
-   "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
@@ -383,111 +432,231 @@
    "itemId": 25894,
    "name": "+24 Attack Power and Minor Run Speed Increase",
    "note": "Socketed across 1 slot in this snapshot."
+  },
+  {
+   "itemId": 28363,
+   "name": "+10 Attack Power, +5 Critical Strike Rating",
+   "note": "Socketed across 2 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+34 Attack Power and +16 Hit Rating",
-   "note": "100% of surveyed players on this slot.",
+   "note": "95% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
    "note": "95% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "Increased Stealth",
-   "note": "90% of surveyed players on this slot."
+   "note": "62% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "83% of surveyed players on this slot.",
+   "note": "85% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+24 Attack Power",
-   "note": "50% of surveyed players on this slot.",
+   "note": "81% of surveyed players on this slot.",
    "name": "Enchant Bracer - Assault",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Agility",
-   "note": "53% of surveyed players on this slot.",
+   "note": "83% of surveyed players on this slot.",
    "name": "Enchant Gloves - Superior Agility",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
    "note": "98% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
-   "text": "Minor Speed and +6 Agility",
-   "note": "46% of surveyed players on this slot.",
-   "name": "Enchant Boots - Cat's Swiftness",
-   "source": "World Drop"
+   "text": "Surefooted",
+   "note": "77% of surveyed players on this slot.",
+   "name": "Enchant Boots - Surefooted",
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
    "note": "2% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Mongoose",
-   "note": "57% of surveyed players on this slot.",
+   "note": "76% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   },
   {
    "slot": "OffHand",
    "text": "Mongoose",
-   "note": "55% of surveyed players on this slot.",
+   "note": "86% of surveyed players on this slot.",
    "name": "Enchant Weapon - Mongoose",
-   "source": "Moroes (Tower Steward) — Karazhan"
+   "source": "Moroes (Tower Steward) — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 40
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What rating are these Subtlety Rogues?",
-   "answer": "This snapshot covers 339 Subtlety Rogues between 2108 and 3126 rating (average 2550) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 320 Subtlety Rogues between 2108 and 3126 rating (average 2547) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Subtlety Rogue PvP gear right now?",
-   "answer": "The highest-consensus picks are Figurine - Nightseye Panther (88%), Merciless Gladiator's Leather Spaulders (80%), Merciless Gladiator's Leather Tunic (80%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Figurine - Nightseye Panther (89%), Merciless Gladiator's Leather Gloves (82%), Merciless Gladiator's Leather Spaulders (81%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Subtlety Rogue BiS list is PvP gear vs raid gear?",
-   "answer": "Only 47% of the most-used slots are PvP items — high-rated Subtlety Rogues flex real raid pieces into this list, so check the per-slot alternatives before spending points on a marginal upgrade."
+   "answer": "71% of the most-used slots are arena/honor items — for Subtlety Rogues the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Subtlety Rogues use in arena?",
-   "answer": "Rod of the Sun King is the main-hand of choice (34% of surveyed players)."
+   "answer": "Merciless Gladiator's Slicer is the main-hand of choice (15% of surveyed players)."
   },
   {
    "question": "What gems do Subtlety Rogues socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +4 Agility and +6 Stamina, +20 Attack Power. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +20 Attack Power, +24 Attack Power and Minor Run Speed Increase. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

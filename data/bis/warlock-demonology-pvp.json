@@ -5,10 +5,10 @@
  "season": 2,
  "ratingRange": [
   2124,
-  2996
+  2987
  ],
- "sampleSize": 120,
- "updatedAt": "2026-07-12",
+ "sampleSize": 118,
+ "updatedAt": "2026-07-26",
  "blurb": "Demonology Warlock rides the Felguard: Intercept stuns on demand, Soul Link damage splitting, and enough sustained shadow pressure to matter. It is the bridge between SL/SL's tankiness and Destruction's threat, and its ladder gear list looks like affliction's for a reason — stamina wins warlock games.",
  "statPriorityRationale": "Demonology in arena is Soul Link first and foremost — the felguard soaks damage, you soak the rest, and stamina multiplies the value of every heal your partner lands on you.",
  "statPriority": [
@@ -24,7 +24,7 @@
    "bis": {
     "itemId": 31980,
     "name": "Merciless Gladiator's Felweave Cowl",
-    "usagePct": 51
+    "usagePct": 53
    },
    "alternatives": [
     {
@@ -35,7 +35,7 @@
     {
      "itemId": 30187,
      "name": "Gladiator's Felweave Cowl",
-     "usagePct": 18
+     "usagePct": 12
     },
     {
      "itemId": 24553,
@@ -49,19 +49,19 @@
    "bis": {
     "itemId": 33065,
     "name": "Veteran's Pendant of Dominance",
-    "usagePct": 70
+    "usagePct": 67
    },
    "alternatives": [
     {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
-     "usagePct": 17,
+     "itemId": 28245,
+     "name": "Pendant of Dominance",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28245,
-     "name": "Pendant of Dominance",
-     "usagePct": 13,
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -71,13 +71,13 @@
    "bis": {
     "itemId": 31976,
     "name": "Merciless Gladiator's Dreadweave Mantle",
-    "usagePct": 84
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 24554,
      "name": "Gladiator's Dreadweave Mantle",
-     "usagePct": 15
+     "usagePct": 14
     }
    ]
   },
@@ -86,7 +86,7 @@
    "bis": {
     "itemId": 28378,
     "name": "Sergeant's Heavy Cape",
-    "usagePct": 93
+    "usagePct": 88
    },
    "alternatives": [
     {
@@ -102,13 +102,13 @@
    "bis": {
     "itemId": 31977,
     "name": "Merciless Gladiator's Dreadweave Robe",
-    "usagePct": 84
+    "usagePct": 82
    },
    "alternatives": [
     {
      "itemId": 24552,
      "name": "Gladiator's Dreadweave Robe",
-     "usagePct": 15
+     "usagePct": 13
     }
    ]
   },
@@ -117,7 +117,7 @@
    "bis": {
     "itemId": 32811,
     "name": "Veteran's Dreadweave Cuffs",
-    "usagePct": 89
+    "usagePct": 85
    },
    "alternatives": [
     {
@@ -133,13 +133,13 @@
    "bis": {
     "itemId": 31973,
     "name": "Merciless Gladiator's Dreadweave Gloves",
-    "usagePct": 83
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 24556,
      "name": "Gladiator's Dreadweave Gloves",
-     "usagePct": 15
+     "usagePct": 14
     }
    ]
   },
@@ -148,7 +148,7 @@
    "bis": {
     "itemId": 32799,
     "name": "Veteran's Dreadweave Belt",
-    "usagePct": 86
+    "usagePct": 81
    },
    "alternatives": [
     {
@@ -170,7 +170,7 @@
     {
      "itemId": 24555,
      "name": "Gladiator's Dreadweave Leggings",
-     "usagePct": 21
+     "usagePct": 16
     }
    ]
   },
@@ -179,13 +179,13 @@
    "bis": {
     "itemId": 32787,
     "name": "Veteran's Dreadweave Stalkers",
-    "usagePct": 81
+    "usagePct": 76
    },
    "alternatives": [
     {
      "itemId": 28982,
      "name": "Marshal's Dreadweave Stalkers",
-     "usagePct": 11
+     "usagePct": 10
     },
     {
      "itemId": 28402,
@@ -195,11 +195,11 @@
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
-    "usagePct": 93
+    "usagePct": 88
    },
    "alternatives": [
     {
@@ -211,7 +211,7 @@
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
-     "usagePct": 46,
+     "usagePct": 42,
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -223,28 +223,82 @@
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 33054,
+    "name": "The Seal of Danzalar",
+    "usagePct": 49
+   },
+   "alternatives": [
+    {
+     "itemId": 33056,
+     "name": "Veteran's Band of Dominance",
+     "usagePct": 88
+    },
+    {
+     "itemId": 28555,
+     "name": "Seal of the Exorcist",
+     "usagePct": 42,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28247,
+     "name": "Band of Dominance",
+     "usagePct": 11,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 30348,
+    "name": "Medallion of the Alliance",
+    "usagePct": 56
+   },
+   "alternatives": [
+    {
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
+     "usagePct": 56,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30449,
+     "name": "Void Star Talisman",
+     "usagePct": 42,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde",
+     "usagePct": 40
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29370,
     "name": "Icon of the Silver Crescent",
-    "usagePct": 57
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 30348,
      "name": "Medallion of the Alliance",
-     "usagePct": 55
-    },
-    {
-     "itemId": 30343,
-     "name": "Medallion of the Horde",
-     "usagePct": 45
+     "usagePct": 56
     },
     {
      "itemId": 30449,
      "name": "Void Star Talisman",
-     "usagePct": 40,
+     "usagePct": 42,
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30343,
+     "name": "Medallion of the Horde",
+     "usagePct": 40
     }
    ]
   },
@@ -253,13 +307,13 @@
    "bis": {
     "itemId": 32053,
     "name": "Merciless Gladiator's Spellblade",
-    "usagePct": 81
+    "usagePct": 82
    },
    "alternatives": [
     {
      "itemId": 28297,
      "name": "Gladiator's Spellblade",
-     "usagePct": 18
+     "usagePct": 16
     }
    ]
   },
@@ -268,13 +322,13 @@
    "bis": {
     "itemId": 31978,
     "name": "Merciless Gladiator's Endgame",
-    "usagePct": 81
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 29272,
      "name": "Orb of the Soul-Eater",
-     "usagePct": 15,
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -284,13 +338,13 @@
    "bis": {
     "itemId": 32962,
     "name": "Merciless Gladiator's Touch of Defeat",
-    "usagePct": 34
+    "usagePct": 36
    },
    "alternatives": [
     {
      "itemId": 28320,
      "name": "Gladiator's Touch of Defeat",
-     "usagePct": 23
+     "usagePct": 14
     }
    ]
   }
@@ -302,14 +356,14 @@
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
-   "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
    "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28118,
@@ -323,96 +377,196 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "63% of surveyed players on this slot.",
+   "note": "66% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "59% of surveyed players on this slot."
+   "note": "69% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
    "note": "99% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
    "note": "96% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "51% of surveyed players on this slot.",
+   "note": "82% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
-   "note": "98% of surveyed players on this slot.",
+   "note": "99% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "37% of surveyed players on this slot.",
+   "note": "42% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "50% of surveyed players on this slot.",
+   "note": "53% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "Soulfrost",
-   "note": "89% of surveyed players on this slot.",
+   "note": "90% of surveyed players on this slot.",
    "name": "Enchant Weapon - Soulfrost",
-   "source": "Terestian Illhoof — Karazhan"
+   "source": "Terestian Illhoof — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 12
+    },
+    {
+     "itemId": 22449,
+     "count": 10
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    },
+    {
+     "itemId": 22456,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Eternium Rod"
   }
  ],
  "faq": [
   {
    "question": "What rating are these Demonology Warlocks?",
-   "answer": "This snapshot covers 120 Demonology Warlocks between 2124 and 2996 rating (average 2538) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 118 Demonology Warlocks between 2124 and 2987 rating (average 2532) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Demonology Warlock PvP gear right now?",
-   "answer": "The highest-consensus picks are Sergeant's Heavy Cape (93%), Veteran's Band of Dominance (93%), Veteran's Dreadweave Cuffs (89%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Sergeant's Heavy Cape (88%), Veteran's Band of Dominance (88%), Veteran's Dreadweave Cuffs (85%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Demonology Warlock BiS list is PvP gear vs raid gear?",
-   "answer": "93% of the most-used slots are arena/honor items — for Demonology Warlocks the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "88% of the most-used slots are arena/honor items — for Demonology Warlocks the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Demonology Warlocks use in arena?",
-   "answer": "Merciless Gladiator's Spellblade is the main-hand of choice (81% of surveyed players)."
+   "answer": "Merciless Gladiator's Spellblade is the main-hand of choice (82% of surveyed players)."
   },
   {
    "question": "What gems do Demonology Warlocks socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +10 Spell Penetration, +4 Resilience Rating and +6 Stamina, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +10 Spell Penetration, +8 Resilience Rating, +4 Resilience Rating and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

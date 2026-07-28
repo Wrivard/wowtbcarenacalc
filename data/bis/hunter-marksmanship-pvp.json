@@ -4,11 +4,11 @@
  "content": "pvp",
  "season": 2,
  "ratingRange": [
-  2392,
+  2111,
   2742
  ],
- "sampleSize": 8,
- "updatedAt": "2026-07-12",
+ "sampleSize": 10,
+ "updatedAt": "2026-07-26",
  "blurb": "Marksmanship is the control hunter: Silencing Shot interrupts, Aimed Shot cuts healing, and scatter-trap chains set up kills for your partner. It demands more positioning discipline than BM and rewards it with the most spammable utility kit a physical DPS has in TBC arena.",
  "statPriorityRationale": "Marksmanship trades pet safety for Aimed Shot's healing debuff and Silencing Shot — burst-window stats (AP, agility, crit) rank higher than for BM, but resilience still anchors the list.",
  "statPriority": [
@@ -24,29 +24,23 @@
    "bis": {
     "itemId": 31962,
     "name": "Merciless Gladiator's Chain Helm",
-    "usagePct": 88
+    "usagePct": 100
    },
-   "alternatives": [
-    {
-     "itemId": 30141,
-     "name": "Rift Stalker Helm",
-     "usagePct": 13,
-     "pveFlexNote": "PvE flex piece."
-    }
-   ]
+   "alternatives": []
   },
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 30017,
-    "name": "Telonicus's Pendant of Mayhem",
-    "usagePct": 63
+    "itemId": 33066,
+    "name": "Veteran's Pendant of Triumph",
+    "usagePct": 40
    },
    "alternatives": [
     {
-     "itemId": 33066,
-     "name": "Veteran's Pendant of Triumph",
-     "usagePct": 38
+     "itemId": 30017,
+     "name": "Telonicus's Pendant of Mayhem",
+     "usagePct": 60,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -55,33 +49,35 @@
    "bis": {
     "itemId": 31964,
     "name": "Merciless Gladiator's Chain Spaulders",
-    "usagePct": 100
+    "usagePct": 90
    },
-   "alternatives": []
+   "alternatives": [
+    {
+     "itemId": 30143,
+     "name": "Rift Stalker Mantle",
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
+    }
+   ]
   },
   {
    "slot": "Back",
    "bis": {
-    "itemId": 29994,
-    "name": "Thalassian Wildercloak",
-    "usagePct": 50
+    "itemId": 28377,
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 20
    },
    "alternatives": [
     {
-     "itemId": 28672,
-     "name": "Drape of the Dark Reavers",
-     "usagePct": 25,
+     "itemId": 29994,
+     "name": "Thalassian Wildercloak",
+     "usagePct": 60,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak",
-     "usagePct": 13
-    },
-    {
-     "itemId": 35495,
-     "name": "The Frost Lord's War Cloak",
-     "usagePct": 13,
+     "itemId": 28672,
+     "name": "Drape of the Dark Reavers",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -89,15 +85,16 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 30139,
-    "name": "Rift Stalker Hauberk",
-    "usagePct": 75
+    "itemId": 31960,
+    "name": "Merciless Gladiator's Chain Armor",
+    "usagePct": 30
    },
    "alternatives": [
     {
-     "itemId": 31960,
-     "name": "Merciless Gladiator's Chain Armor",
-     "usagePct": 25
+     "itemId": 30139,
+     "name": "Rift Stalker Hauberk",
+     "usagePct": 70,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -133,13 +130,13 @@
    "bis": {
     "itemId": 31963,
     "name": "Merciless Gladiator's Chain Leggings",
-    "usagePct": 63
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 30142,
      "name": "Rift Stalker Leggings",
-     "usagePct": 38,
+     "usagePct": 60,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -154,35 +151,78 @@
    "alternatives": []
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33057,
     "name": "Veteran's Band of Triumph",
-    "usagePct": 63
+    "usagePct": 80
    },
    "alternatives": [
     {
-     "itemId": 28649,
-     "name": "Garona's Signet Ring",
-     "usagePct": 38,
+     "itemId": 29997,
+     "name": "Band of the Ranger-General",
+     "usagePct": 40,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29298,
      "name": "Band of Eternity",
-     "usagePct": 38,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 29997,
-     "name": "Band of the Ranger-General",
-     "usagePct": 25,
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 29997,
+    "name": "Band of the Ranger-General",
+    "usagePct": 40
+   },
+   "alternatives": [
+    {
+     "itemId": 33057,
+     "name": "Veteran's Band of Triumph",
+     "usagePct": 80
+    },
+    {
+     "itemId": 28791,
+     "name": "Ring of the Recalcitrant",
+     "usagePct": 30,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29298,
+     "name": "Band of Eternity",
+     "usagePct": 30,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
+   "bis": {
+    "itemId": 28237,
+    "name": "Medallion of the Alliance",
+    "usagePct": 100
+   },
+   "alternatives": [
+    {
+     "itemId": 29383,
+     "name": "Bloodlust Brooch",
+     "usagePct": 100,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
    "bis": {
     "itemId": 29383,
     "name": "Bloodlust Brooch",
@@ -192,43 +232,33 @@
     {
      "itemId": 28237,
      "name": "Medallion of the Alliance",
-     "usagePct": 75
-    },
-    {
-     "itemId": 28243,
-     "name": "Medallion of the Horde",
-     "usagePct": 13
-    },
-    {
-     "itemId": 28830,
-     "name": "Dragonspine Trophy",
-     "usagePct": 13,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 100
     }
    ]
   },
   {
    "slot": "MainHand",
    "bis": {
-    "itemId": 31965,
-    "name": "Merciless Gladiator's Cleaver",
-    "usagePct": 38
+    "itemId": 31966,
+    "name": "Merciless Gladiator's Decapitator",
+    "usagePct": 30
    },
    "alternatives": [
     {
-     "itemId": 31966,
-     "name": "Merciless Gladiator's Decapitator",
-     "usagePct": 25
-    },
-    {
      "itemId": 32052,
      "name": "Merciless Gladiator's Slicer",
-     "usagePct": 25
+     "usagePct": 30
     },
     {
-     "itemId": 32028,
-     "name": "Merciless Gladiator's Right Ripper",
-     "usagePct": 13
+     "itemId": 31965,
+     "name": "Merciless Gladiator's Cleaver",
+     "usagePct": 20
+    },
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -237,62 +267,71 @@
    "bis": {
     "itemId": 32027,
     "name": "Merciless Gladiator's Quickblade",
-    "usagePct": 25
+    "usagePct": 30
    },
    "alternatives": [
     {
-     "itemId": 28295,
-     "name": "Gladiator's Slicer",
-     "usagePct": 13
+     "itemId": 28572,
+     "name": "Blade of the Unrequited",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29924,
+     "name": "Netherbane",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29948,
      "name": "Claw of the Phoenix",
-     "usagePct": 13,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 31985,
-     "name": "Merciless Gladiator's Hacker",
-     "usagePct": 13
+     "usagePct": 10,
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 30105,
-    "name": "Serpent Spine Longbow",
-    "usagePct": 75
+    "itemId": 31986,
+    "name": "Merciless Gladiator's Crossbow of the Phoenix",
+    "usagePct": 50
    },
    "alternatives": [
     {
-     "itemId": 31986,
-     "name": "Merciless Gladiator's Crossbow of the Phoenix",
-     "usagePct": 25
+     "itemId": 30105,
+     "name": "Serpent Spine Longbow",
+     "usagePct": 40,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29949,
+     "name": "Arcanite Steam-Pistol",
+     "usagePct": 10,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   }
  ],
  "gems": [
   {
-   "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
-   "note": "Socketed across 2 slots in this snapshot."
-  },
-  {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
+   "note": "Socketed across 4 slots in this snapshot."
+  },
+  {
+   "itemId": 24028,
+   "name": "+8 Agility",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
+  {
+   "itemId": 24055,
+   "name": "+4 Agility and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
-   "itemId": 25895,
-   "name": "+12 Critical Strike Rating & 5% Snare and Root Resist",
-   "note": "Socketed across 1 slot in this snapshot."
-  },
-  {
-   "itemId": 28362,
-   "name": "+20 Attack Power",
+   "itemId": 33782,
+   "name": "+4 Resilience Rating and +6 Stamina",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],
@@ -302,74 +341,183 @@
    "text": "+34 Attack Power and +16 Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Ferocity",
-   "source": "Fedryen Swiftwpear — Zangarmarsh",
    "icon": "classic_ability_druid_demoralizingroar",
-   "itemId": 29192
+   "itemId": 29192,
+   "source": "Fedryen Swiftwpear — Zangarmarsh"
   },
   {
    "slot": "Shoulders",
    "text": "+30 Attack Power and +10 Critical Strike Rating",
-   "note": "75% of surveyed players on this slot.",
+   "note": "78% of surveyed players on this slot.",
    "name": "Greater Inscription of Vengeance",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_greaterblessingofkings",
-   "itemId": 28888
+   "itemId": 28888,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+12 Agility",
    "note": "50% of surveyed players on this slot.",
    "name": "Enchant Cloak - Greater Agility",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 1
+    },
+    {
+     "itemId": 22445,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "50% of surveyed players on this slot.",
+   "note": "100% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+24 Attack Power",
-   "note": "38% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Enchant Bracer - Assault",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Truesilver Rod"
   },
   {
    "slot": "Hands",
    "text": "+15 Agility",
-   "note": "50% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Gloves - Superior Agility",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22448,
+     "count": 3
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22451,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Arcanite Rod"
   },
   {
    "slot": "Legs",
    "text": "+50 Attack Power and +12 Critical Strike Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Nethercobra Leg Armor",
-   "source": "Leatherworking Trainer — Faction Capital",
    "icon": "inv_misc_armorkit_25",
-   "itemId": 29535
+   "itemId": 29535,
+   "source": "Leatherworking Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 23793,
+     "count": 4
+    },
+    {
+     "itemId": 29539,
+     "count": 4
+    },
+    {
+     "itemId": 22451,
+     "count": 8
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Surefooted",
-   "note": "50% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Boots - Surefooted",
-   "source": "Phantom Stagehand — Karazhan"
+   "source": "Phantom Stagehand — Karazhan",
+   "reagents": [
+    {
+     "itemId": 22450,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 4
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Ring",
    "text": "+2 Weapon Damage",
-   "note": "40% of surveyed players on this slot.",
+   "note": "50% of surveyed players on this slot.",
    "name": "Enchant Ring - Striking",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22445,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
-   "text": "+30 Intellect",
-   "note": "100% of surveyed players on this slot."
+   "text": "+35 Agility",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant 2H Weapon - Major Agility",
+   "source": "Eredar Deathbringer — The Arcatraz",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22445,
+     "count": 20
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "OffHand",
@@ -379,29 +527,29 @@
   {
    "slot": "Ranged",
    "text": "Scope (+28 Critical Strike Rating)",
-   "note": "100% of surveyed players on this slot."
+   "note": "80% of surveyed players on this slot."
   }
  ],
  "faq": [
   {
    "question": "What rating are these Marksmanship Hunters?",
-   "answer": "This snapshot covers 8 Marksmanship Hunters between 2392 and 2742 rating (average 2592) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 10 Marksmanship Hunters between 2111 and 2742 rating (average 2546) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Marksmanship Hunter PvP gear right now?",
-   "answer": "The highest-consensus picks are Merciless Gladiator's Chain Spaulders (100%), Veteran's Chain Bracers (100%), Merciless Gladiator's Chain Gauntlets (100%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Merciless Gladiator's Chain Helm (100%), Veteran's Chain Bracers (100%), Merciless Gladiator's Chain Gauntlets (100%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Marksmanship Hunter BiS list is PvP gear vs raid gear?",
-   "answer": "67% of the most-used slots are arena/honor items — for Marksmanship Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "88% of the most-used slots are arena/honor items — for Marksmanship Hunters the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Marksmanship Hunters use in arena?",
-   "answer": "Merciless Gladiator's Cleaver is the main-hand of choice (38% of surveyed players)."
+   "answer": "Merciless Gladiator's Decapitator is the main-hand of choice (30% of surveyed players)."
   },
   {
    "question": "What gems do Marksmanship Hunters socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Hit Rating and +4 Agility, +8 Resilience Rating, +12 Critical Strike Rating & 5% Snare and Root Resist. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Resilience Rating, +8 Agility, +4 Agility and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

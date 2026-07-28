@@ -7,8 +7,8 @@
   2108,
   3024
  ],
- "sampleSize": 264,
- "updatedAt": "2026-07-12",
+ "sampleSize": 238,
+ "updatedAt": "2026-07-26",
  "blurb": "Discipline Priest is the arena healer archetype in TBC: Pain Suppression negates kill windows, Mass Dispel eats Blessing of Protection, and mana burn wins every long game. Top discipline priests gear almost identically — full Mooncloth PvP set, resilience everywhere — because the spec's power is in its buttons, not its numbers.",
  "statPriorityRationale": "Discipline is the premier 2v2 and 3v3 healer because Pain Suppression and Power Infusion swing entire games — the gear just has to keep you alive and mana-positive through dispel wars, hence resilience and stamina over throughput.",
  "statPriority": [
@@ -22,26 +22,22 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 30152,
-    "name": "Cowl of the Avatar",
-    "usagePct": 59
+    "itemId": 32016,
+    "name": "Merciless Gladiator's Mooncloth Hood",
+    "usagePct": 9
    },
    "alternatives": [
     {
-     "itemId": 29049,
-     "name": "Light-Collar of the Incarnate",
-     "usagePct": 26,
+     "itemId": 30152,
+     "name": "Cowl of the Avatar",
+     "usagePct": 64,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 32016,
-     "name": "Merciless Gladiator's Mooncloth Hood",
-     "usagePct": 8
-    },
-    {
-     "itemId": 31410,
-     "name": "Gladiator's Mooncloth Hood",
-     "usagePct": 6
+     "itemId": 29049,
+     "name": "Light-Collar of the Incarnate",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -50,7 +46,7 @@
    "bis": {
     "itemId": 33068,
     "name": "Veteran's Pendant of Salvation",
-    "usagePct": 69
+    "usagePct": 74
    },
    "alternatives": [
     {
@@ -64,12 +60,6 @@
      "name": "Pendant of Dominance",
      "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28731,
-     "name": "Shining Chain of the Afterworld",
-     "usagePct": 5,
-     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -78,40 +68,40 @@
    "bis": {
     "itemId": 32018,
     "name": "Merciless Gladiator's Mooncloth Mantle",
-    "usagePct": 79
+    "usagePct": 82
    },
    "alternatives": [
     {
      "itemId": 31412,
      "name": "Gladiator's Mooncloth Mantle",
-     "usagePct": 15
+     "usagePct": 14
     }
    ]
   },
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28765,
-    "name": "Stainless Cloak of the Pure Hearted",
-    "usagePct": 44
+    "itemId": 28378,
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 5
    },
    "alternatives": [
     {
+     "itemId": 28765,
+     "name": "Stainless Cloak of the Pure Hearted",
+     "usagePct": 42,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 29989,
      "name": "Sunshower Light Cloak",
-     "usagePct": 30,
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29375,
      "name": "Bishop's Cloak",
      "usagePct": 8,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 35494,
-     "name": "Shroud of Winter's Chill",
-     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -121,13 +111,13 @@
    "bis": {
     "itemId": 32019,
     "name": "Merciless Gladiator's Mooncloth Robe",
-    "usagePct": 79
+    "usagePct": 83
    },
    "alternatives": [
     {
      "itemId": 31413,
      "name": "Gladiator's Mooncloth Robe",
-     "usagePct": 15
+     "usagePct": 13
     }
    ]
   },
@@ -136,7 +126,7 @@
    "bis": {
     "itemId": 32980,
     "name": "Veteran's Mooncloth Cuffs",
-    "usagePct": 82
+    "usagePct": 84
    },
    "alternatives": [
     {
@@ -151,13 +141,13 @@
    "bis": {
     "itemId": 32015,
     "name": "Merciless Gladiator's Mooncloth Gloves",
-    "usagePct": 78
+    "usagePct": 81
    },
    "alternatives": [
     {
      "itemId": 31409,
      "name": "Gladiator's Mooncloth Gloves",
-     "usagePct": 15
+     "usagePct": 14
     }
    ]
   },
@@ -172,12 +162,12 @@
     {
      "itemId": 32976,
      "name": "Marshal's Mooncloth Belt",
-     "usagePct": 9
+     "usagePct": 10
     },
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
-     "usagePct": 6,
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -187,73 +177,101 @@
    "bis": {
     "itemId": 32017,
     "name": "Merciless Gladiator's Mooncloth Leggings",
-    "usagePct": 75
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 31411,
      "name": "Gladiator's Mooncloth Leggings",
-     "usagePct": 17
+     "usagePct": 15
     }
    ]
   },
   {
    "slot": "Feet",
    "bis": {
-    "itemId": 30035,
-    "name": "Boots of the Long Road",
-    "usagePct": 30
+    "itemId": 32981,
+    "name": "Veteran's Mooncloth Slippers",
+    "usagePct": 28
    },
    "alternatives": [
     {
-     "itemId": 32981,
-     "name": "Veteran's Mooncloth Slippers",
-     "usagePct": 25
-    },
-    {
-     "itemId": 28663,
-     "name": "Boots of the Incorrupt",
-     "usagePct": 18,
+     "itemId": 30035,
+     "name": "Boots of the Long Road",
+     "usagePct": 31,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30100,
      "name": "Soul-Strider Boots",
-     "usagePct": 18,
+     "usagePct": 17,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28663,
+     "name": "Boots of the Incorrupt",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
    "bis": {
     "itemId": 33064,
     "name": "Veteran's Band of Salvation",
-    "usagePct": 78
+    "usagePct": 80
    },
    "alternatives": [
     {
-     "itemId": 29290,
-     "name": "Violet Signet of the Grand Restorer",
-     "usagePct": 36,
+     "itemId": 30110,
+     "name": "Coral Band of the Revived",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 30110,
-     "name": "Coral Band of the Revived",
-     "usagePct": 32,
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
-     "usagePct": 20,
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Ring2",
+   "bis": {
+    "itemId": 30110,
+    "name": "Coral Band of the Revived",
+    "usagePct": 33
+   },
+   "alternatives": [
+    {
+     "itemId": 33064,
+     "name": "Veteran's Band of Salvation",
+     "usagePct": 80
+    },
+    {
+     "itemId": 29290,
+     "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 29,
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28790,
+     "name": "Naaru Lightwarden's Band",
+     "usagePct": 21,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket1",
    "bis": {
     "itemId": 30349,
     "name": "Medallion of the Alliance",
@@ -263,18 +281,44 @@
     {
      "itemId": 30665,
      "name": "Earring of Soulful Meditation",
-     "usagePct": 57,
+     "usagePct": 61,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30346,
      "name": "Medallion of the Horde",
-     "usagePct": 33
+     "usagePct": 37
     },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
-     "usagePct": 25,
+     "usagePct": 22,
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 30665,
+    "name": "Earring of Soulful Meditation",
+    "usagePct": 61
+   },
+   "alternatives": [
+    {
+     "itemId": 30349,
+     "name": "Medallion of the Alliance",
+     "usagePct": 60
+    },
+    {
+     "itemId": 30346,
+     "name": "Medallion of the Horde",
+     "usagePct": 37
+    },
+    {
+     "itemId": 28370,
+     "name": "Bangle of Endless Blessings",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -284,24 +328,24 @@
    "bis": {
     "itemId": 32964,
     "name": "Merciless Gladiator's Salvation",
-    "usagePct": 52
+    "usagePct": 55
    },
    "alternatives": [
     {
      "itemId": 30108,
      "name": "Lightfathom Scepter",
-     "usagePct": 15,
-     "pveFlexNote": "PvE flex piece."
+     "usagePct": 14,
+     "pveFlexNote": "Seen mostly above 2506 rating."
     },
     {
      "itemId": 32451,
      "name": "Gladiator's Salvation",
-     "usagePct": 13
+     "usagePct": 11
     },
     {
      "itemId": 28771,
      "name": "Light's Justice",
-     "usagePct": 11,
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -317,19 +361,19 @@
     {
      "itemId": 29923,
      "name": "Talisman of the Sun King",
-     "usagePct": 23,
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28525,
-     "name": "Signet of Unshakable Faith",
-     "usagePct": 8,
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32452,
      "name": "Gladiator's Reprieve",
      "usagePct": 8
+    },
+    {
+     "itemId": 28525,
+     "name": "Signet of Unshakable Faith",
+     "usagePct": 7,
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -338,30 +382,35 @@
    "bis": {
     "itemId": 32962,
     "name": "Merciless Gladiator's Touch of Defeat",
-    "usagePct": 34
+    "usagePct": 37
    },
    "alternatives": [
     {
      "itemId": 30080,
      "name": "Luminescent Rod of the Naaru",
-     "usagePct": 27,
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28320,
      "name": "Gladiator's Touch of Defeat",
-     "usagePct": 16
+     "usagePct": 14
     },
     {
      "itemId": 28588,
      "name": "Blue Diamond Witchwand",
-     "usagePct": 16,
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
   }
  ],
  "gems": [
+  {
+   "itemId": 32836,
+   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "note": "Socketed across 3 slots in this snapshot."
+  },
   {
    "itemId": 31861,
    "name": "+8 Spell Hit Rating",
@@ -370,109 +419,185 @@
   {
    "itemId": 24053,
    "name": "+8 Resilience Rating",
-   "note": "Socketed across 4 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 33782,
    "name": "+4 Resilience Rating and +6 Stamina",
-   "note": "Socketed across 4 slots in this snapshot."
-  },
-  {
-   "itemId": 32836,
-   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
-   "note": "Socketed across 2 slots in this snapshot."
+   "note": "Socketed across 3 slots in this snapshot."
   }
  ],
  "enchants": [
   {
    "slot": "Head",
    "text": "+22 Spell Power and +14 Spell Hit Rating",
-   "note": "63% of surveyed players on this slot.",
+   "note": "68% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+33 Healing and +11 Spell Damage and +4 Mana Regen",
-   "note": "59% of surveyed players on this slot."
+   "note": "61% of surveyed players on this slot."
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "70% of surveyed players on this slot."
+   "note": "69% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
    "text": "+15 Resilience Rating",
-   "note": "97% of surveyed players on this slot.",
+   "note": "98% of surveyed players on this slot.",
    "name": "Enchant Chest - Major Resilience",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "6 Mana per 5 Sec.",
-   "note": "45% of surveyed players on this slot."
+   "note": "57% of surveyed players on this slot."
   },
   {
    "slot": "Hands",
    "text": "+15 Spell Hit Rating",
-   "note": "60% of surveyed players on this slot.",
+   "note": "73% of surveyed players on this slot.",
    "name": "Enchant Gloves - Spell Strike",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 8
+    },
+    {
+     "itemId": 22445,
+     "count": 2
+    },
+    {
+     "itemId": 22449,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+66 Healing +22 Spell Damage and +20 Stamina",
-   "note": "100% of surveyed players on this slot.",
+   "note": "99% of surveyed players on this slot.",
    "name": "Golden Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_holy_restoration",
-   "itemId": 24276
+   "itemId": 24276,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 21886,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
    "note": "58% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+20 Healing and +7 Spell Damage",
-   "note": "80% of surveyed players on this slot.",
+   "note": "78% of surveyed players on this slot.",
    "name": "Enchant Ring - Healing Power",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 3
+    },
+    {
+     "itemId": 22445,
+     "count": 5
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+81 Healing Spells and +27 Damage Spells",
-   "note": "61% of surveyed players on this slot.",
+   "note": "51% of surveyed players on this slot.",
    "name": "Enchant Weapon - Major Healing",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 21885,
+     "count": 8
+    },
+    {
+     "itemId": 21886,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   }
  ],
  "faq": [
   {
    "question": "What rating are these Discipline Priests?",
-   "answer": "This snapshot covers 264 Discipline Priests between 2108 and 3024 rating (average 2512) on the TBC Classic arena ladder, refreshed from public leaderboard data."
+   "answer": "This snapshot covers 238 Discipline Priests between 2108 and 3024 rating (average 2508) on the TBC Classic arena ladder, refreshed from public leaderboard data."
   },
   {
    "question": "What is the most-used Discipline Priest PvP gear right now?",
-   "answer": "The highest-consensus picks are Veteran's Mooncloth Cuffs (82%), Veteran's Mooncloth Belt (80%), Merciless Gladiator's Mooncloth Mantle (79%). Anything above ~70% usage at this rating range is effectively mandatory."
+   "answer": "The highest-consensus picks are Veteran's Mooncloth Cuffs (84%), Merciless Gladiator's Mooncloth Robe (83%), Merciless Gladiator's Mooncloth Mantle (82%). Anything above ~70% usage at this rating range is effectively mandatory."
   },
   {
    "question": "How much of the Discipline Priest BiS list is PvP gear vs raid gear?",
-   "answer": "80% of the most-used slots are arena/honor items — for Discipline Priests the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
+   "answer": "88% of the most-used slots are arena/honor items — for Discipline Priests the resilience on PvP gear beats raid alternatives almost everywhere. The exceptions are listed as alternatives per slot."
   },
   {
    "question": "What weapon do Discipline Priests use in arena?",
-   "answer": "Merciless Gladiator's Salvation is the main-hand of choice (52% of surveyed players)."
+   "answer": "Merciless Gladiator's Salvation is the main-hand of choice (55% of surveyed players)."
   },
   {
    "question": "What gems do Discipline Priests socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Spell Hit Rating, +8 Resilience Rating, +4 Resilience Rating and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +4 Spirit, +8 Spell Hit Rating, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

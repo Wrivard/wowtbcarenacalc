@@ -16,6 +16,7 @@ import { FilledTalentTrees } from "@/components/talents/FilledTalentTrees";
 import { PvpExtras } from "@/components/bis/PvpExtras";
 import { ItemLink } from "@/components/ItemLink";
 import { GameIcon } from "@/components/GameIcon";
+import { EnchantMats } from "@/components/bis/EnchantMats";
 import { enchantSlotIcon } from "@/lib/icons";
 import { AdUnit } from "@/components/AdUnit";
 
@@ -149,7 +150,17 @@ export function BisPageBody({
         <H2>
           <span id={`${specKey}-enchants`}>Enchants</span>
         </H2>
-        <div className="mt-4 overflow-hidden rounded-xl border border-border">
+        {list.enchants.some((e) => e.reagents?.length) && (
+          <p className="mt-2 text-xs leading-relaxed text-muted">
+            Hover <span className="text-muted-strong">Mats</span> on any row
+            for the reagents that enchant costs. Head and shoulder
+            enhancements are vendor items instead, so they show where to buy
+            them rather than a materials list.
+          </p>
+        )}
+        {/* No overflow-hidden: the mats popover has to escape the row. The
+            corners it used to clip are rounded on the rows themselves. */}
+        <div className="mt-4 rounded-xl border border-border">
           {list.enchants.map((e) => {
             // Item-based enhancements show their own item icon; enchanter
             // formulas have no item, so the slot is the anchor.
@@ -157,7 +168,7 @@ export function BisPageBody({
             return (
             <div
               key={`${e.slot}-${e.text}`}
-              className="flex flex-col gap-1.5 border-b border-border bg-surface px-4 py-3 last:border-b-0 sm:flex-row sm:items-start sm:gap-3"
+              className="relative flex flex-col gap-1.5 border-b border-border bg-surface px-4 py-3 first:rounded-t-xl last:rounded-b-xl last:border-b-0 sm:flex-row sm:items-start sm:gap-3"
             >
               <span className="flex w-28 shrink-0 items-center gap-2 pt-0.5 font-mono text-[11px] tracking-wider text-muted uppercase">
                 {icon && <GameIcon icon={icon} alt="" size="small" className="size-5" />}
@@ -165,9 +176,19 @@ export function BisPageBody({
               </span>
               <span className="min-w-0 flex-1">
                 <span className="block text-sm text-foreground">{e.text}</span>
-                {e.name && (
-                  <span className="mt-0.5 block text-xs text-muted-strong">
-                    {e.name}
+                {(e.name || e.reagents?.length) && (
+                  <span className="mt-0.5 flex flex-wrap items-center gap-2">
+                    {e.name && (
+                      <span className="text-xs text-muted-strong">{e.name}</span>
+                    )}
+                    {e.reagents && e.reagents.length > 0 && (
+                      <EnchantMats
+                        reagents={e.reagents}
+                        tool={e.tool}
+                        source={e.source}
+                        label={e.name ?? e.text}
+                      />
+                    )}
                   </span>
                 )}
               </span>

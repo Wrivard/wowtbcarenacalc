@@ -4,8 +4,8 @@
  "content": "pvp",
  "season": 1,
  "seasonPage": true,
- "updatedAt": "2026-07-12",
- "blurb": "Season 1 arena gear for Arcane Mage: the Gladiator's set (Gladiator's Spellblade…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 1 equivalents — same slot logic, this season's items.",
+ "updatedAt": "2026-07-26",
+ "blurb": "Season 1 arena gear for Arcane Mage: the Gladiator's set (Gladiator's Silk Cowl, Gladiator's Silk Amice, Gladiator's Silk Raiment…). Season 1 has no rating requirements — every piece is purchasable with points alone, which is why it remains the catch-up set all expansion. The slot-by-slot list below translates what the current arena ladder's top Arcane Mages equip into their Season 1 equivalents — same slot logic, this season's items.",
  "statPriorityRationale": "Resilience leads the list but there is barely any of it on offer — the Gladiator's Silk Cowl and Gladiator's Spellblade cost points alone, and everything between them is Marshal's and General's honor filler. Stamina does the real work: an opener eats the whole pool anyway, so raw health is what buys you time to reach Ice Block.",
  "statPriority": [
   "Resilience",
@@ -18,22 +18,18 @@
   {
    "slot": "Head",
    "bis": {
-    "itemId": 30206,
-    "name": "Cowl of Tirisfal"
+    "itemId": 25855,
+    "name": "Gladiator's Silk Cowl"
    },
    "alternatives": [
     {
-     "itemId": 29076,
-     "name": "Collar of the Aldor",
+     "itemId": 30206,
+     "name": "Cowl of Tirisfal",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 25855,
-     "name": "Gladiator's Silk Cowl"
-    },
-    {
-     "itemId": 32494,
-     "name": "Destruction Holo-gogs",
+     "itemId": 29076,
+     "name": "Collar of the Aldor",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -41,37 +37,39 @@
   {
    "slot": "Neck",
    "bis": {
-    "itemId": 30015,
-    "name": "The Sun King's Talisman"
+    "itemId": 33067,
+    "name": "Veteran's Pendant of Conquest",
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
    },
    "alternatives": [
     {
-     "itemId": 30008,
-     "name": "Pendant of the Lost Ages",
+     "itemId": 30015,
+     "name": "The Sun King's Talisman",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 33067,
-     "name": "Veteran's Pendant of Conquest",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     },
     {
      "itemId": 28762,
      "name": "Adornment of Stolen Souls",
      "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 30008,
+     "name": "Pendant of the Lost Ages",
+     "pveFlexNote": "Seen mostly above 2408 rating."
     }
    ]
   },
   {
    "slot": "Shoulders",
    "bis": {
-    "itemId": 30210,
-    "name": "Mantle of Tirisfal"
+    "itemId": 25854,
+    "name": "Gladiator's Silk Amice"
    },
    "alternatives": [
     {
-     "itemId": 25854,
-     "name": "Gladiator's Silk Amice"
+     "itemId": 30210,
+     "name": "Mantle of Tirisfal",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29079,
@@ -83,23 +81,18 @@
   {
    "slot": "Back",
    "bis": {
-    "itemId": 28797,
-    "name": "Brute Cloak of the Ogre-Magi"
+    "itemId": 29992,
+    "name": "Royal Cloak of the Sunstriders"
    },
    "alternatives": [
     {
+     "itemId": 28797,
+     "name": "Brute Cloak of the Ogre-Magi",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
      "itemId": 28766,
      "name": "Ruby Drape of the Mysticant",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 29992,
-     "name": "Royal Cloak of the Sunstriders",
-     "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 35497,
-     "name": "Cloak of the Frigid Winds",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -107,17 +100,23 @@
   {
    "slot": "Chest",
    "bis": {
-    "itemId": 30196,
-    "name": "Robes of Tirisfal"
+    "itemId": 25856,
+    "name": "Gladiator's Silk Raiment"
    },
    "alternatives": [
     {
-     "itemId": 25856,
-     "name": "Gladiator's Silk Raiment"
+     "itemId": 30196,
+     "name": "Robes of Tirisfal",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28602,
      "name": "Robe of the Elder Scribes",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29077,
+     "name": "Vestments of the Aldor",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -148,17 +147,23 @@
   {
    "slot": "Hands",
    "bis": {
-    "itemId": 30205,
-    "name": "Gloves of Tirisfal"
+    "itemId": 25857,
+    "name": "Gladiator's Silk Handguards"
    },
    "alternatives": [
     {
-     "itemId": 25857,
-     "name": "Gladiator's Silk Handguards"
+     "itemId": 30205,
+     "name": "Gloves of Tirisfal",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29987,
      "name": "Gauntlets of the Sun King",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 29080,
+     "name": "Gloves of the Aldor",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -191,18 +196,24 @@
   {
    "slot": "Legs",
    "bis": {
-    "itemId": 30207,
-    "name": "Leggings of Tirisfal"
+    "itemId": 25858,
+    "name": "Gladiator's Silk Trousers"
    },
    "alternatives": [
+    {
+     "itemId": 30207,
+     "name": "Leggings of Tirisfal",
+     "pveFlexNote": "PvE flex piece."
+    },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 25858,
-     "name": "Gladiator's Silk Trousers"
+     "itemId": 29972,
+     "name": "Trousers of the Astromancer",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -225,13 +236,38 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29003,
-     "name": "Marshal's Silk Footguards"
+     "itemId": 28585,
+     "name": "Ruby Slippers",
+     "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
   },
   {
-   "slot": "Ring",
+   "slot": "Ring1",
+   "bis": {
+    "itemId": 29302,
+    "name": "Band of Eternity"
+   },
+   "alternatives": [
+    {
+     "itemId": 29287,
+     "name": "Violet Signet of the Archmage",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Ring2",
    "bis": {
     "itemId": 29287,
     "name": "Violet Signet of the Archmage"
@@ -243,27 +279,27 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28793,
-     "name": "Band of Crimson Fury",
+     "itemId": 28753,
+     "name": "Ring of Recurrence",
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 29286,
-     "name": "Violet Signet",
+     "itemId": 28793,
+     "name": "Band of Crimson Fury",
      "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
-   "slot": "Trinket",
+   "slot": "Trinket1",
    "bis": {
-    "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "itemId": 28238,
+    "name": "Medallion of the Alliance"
    },
    "alternatives": [
     {
-     "itemId": 28785,
-     "name": "The Lightning Capacitor",
+     "itemId": 29370,
+     "name": "Icon of the Silver Crescent",
      "pveFlexNote": "PvE flex piece."
     },
     {
@@ -272,8 +308,32 @@
      "pveFlexNote": "PvE flex piece."
     },
     {
-     "itemId": 28239,
-     "name": "Medallion of the Horde"
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "pveFlexNote": "PvE flex piece."
+    }
+   ]
+  },
+  {
+   "slot": "Trinket2",
+   "bis": {
+    "itemId": 29370,
+    "name": "Icon of the Silver Crescent"
+   },
+   "alternatives": [
+    {
+     "itemId": 28238,
+     "name": "Medallion of the Alliance"
+    },
+    {
+     "itemId": 30720,
+     "name": "Serpent-Coil Braid",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28785,
+     "name": "The Lightning Capacitor",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
@@ -285,59 +345,66 @@
    },
    "alternatives": [
     {
-     "itemId": 28770,
-     "name": "Nathrezim Mindblade",
+     "itemId": 30095,
+     "name": "Fang of the Leviathan",
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29988,
      "name": "The Nexus Key",
-     "pveFlexNote": "Seen mostly above 2368 rating."
+     "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
-     "itemId": 30095,
-     "name": "Fang of the Leviathan",
-     "pveFlexNote": "Seen mostly above 2368 rating."
+     "itemId": 28770,
+     "name": "Nathrezim Mindblade",
+     "pveFlexNote": "PvE flex piece."
     }
    ]
   },
   {
    "slot": "OffHand",
    "bis": {
-    "itemId": 28603,
-    "name": "Talisman of Nightbane"
+    "itemId": 29271,
+    "name": "Talisman of Kalecgos"
    },
    "alternatives": [
     {
-     "itemId": 29271,
-     "name": "Talisman of Kalecgos",
+     "itemId": 30049,
+     "name": "Fathomstone",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28603,
+     "name": "Talisman of Nightbane",
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28781,
      "name": "Karaborian Talisman",
      "pveFlexNote": "PvE flex piece."
-    },
-    {
-     "itemId": 28346,
-     "name": "Gladiator's Endgame"
     }
    ]
   },
   {
    "slot": "Ranged",
    "bis": {
-    "itemId": 28783,
-    "name": "Eredar Wand of Obliteration"
+    "itemId": 28320,
+    "name": "Gladiator's Touch of Defeat"
    },
    "alternatives": [
     {
-     "itemId": 28320,
-     "name": "Gladiator's Touch of Defeat"
+     "itemId": 28783,
+     "name": "Eredar Wand of Obliteration",
+     "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28673,
      "name": "Tirisfal Wand of Ascendancy",
+     "pveFlexNote": "PvE flex piece."
+    },
+    {
+     "itemId": 28386,
+     "name": "Nether Core's Control Rod",
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -345,13 +412,13 @@
  ],
  "gems": [
   {
-   "itemId": 24047,
-   "name": "+8 Intellect",
-   "note": "Socketed across 5 slots in this snapshot."
+   "itemId": 24059,
+   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "note": "Socketed across 3 slots in this snapshot."
   },
   {
-   "itemId": 24056,
-   "name": "+5 Spell Damage and +6 Stamina",
+   "itemId": 28118,
+   "name": "+12 Spell Damage",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
@@ -360,8 +427,8 @@
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
-   "itemId": 24059,
-   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "itemId": 24039,
+   "name": "+10 Spell Penetration",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -371,80 +438,168 @@
    "text": "+22 Spell Power and +14 Spell Hit Rating",
    "note": "100% of surveyed players on this slot.",
    "name": "Glyph of Power",
-   "source": "Almaador — Shattrath City",
    "icon": "spell_nature_lightningoverload",
-   "itemId": 29191
+   "itemId": 29191,
+   "source": "Almaador — Shattrath City"
   },
   {
    "slot": "Shoulders",
    "text": "+18 Spell Power and +10 Spell Critical Strike Rating",
-   "note": "63% of surveyed players on this slot.",
+   "note": "40% of surveyed players on this slot.",
    "name": "Greater Inscription of Discipline",
-   "source": "Inscriber Saalyn — Shattrath City",
    "icon": "spell_holy_sealofwisdom",
-   "itemId": 28886
+   "itemId": 28886,
+   "source": "Inscriber Saalyn — Shattrath City"
   },
   {
    "slot": "Back",
    "text": "+20 Spell Penetration",
-   "note": "38% of surveyed players on this slot."
+   "note": "85% of surveyed players on this slot."
   },
   {
    "slot": "Chest",
-   "text": "+6 All Stats",
-   "note": "50% of surveyed players on this slot.",
-   "name": "Enchant Chest - Exceptional Stats",
-   "source": "Enchanting Trainer — Faction Capital"
+   "text": "+15 Resilience Rating",
+   "note": "100% of surveyed players on this slot.",
+   "name": "Enchant Chest - Major Resilience",
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 4
+    },
+    {
+     "itemId": 22445,
+     "count": 10
+    }
+   ],
+   "tool": "Runed Fel Iron Rod"
   },
   {
    "slot": "Wrist",
    "text": "+15 Spell Damage",
-   "note": "96% of surveyed players on this slot.",
+   "note": "95% of surveyed players on this slot.",
    "name": "Enchant Bracer - Spellpower",
-   "source": "Bloodmaul Geomancer — Blade's Edge Mountains"
+   "source": "Bloodmaul Geomancer — Blade's Edge Mountains",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 21884,
+     "count": 6
+    },
+    {
+     "itemId": 21885,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Hands",
    "text": "+20 Spell Damage",
-   "note": "43% of surveyed players on this slot.",
+   "note": "80% of surveyed players on this slot.",
    "name": "Enchant Gloves - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22446,
+     "count": 6
+    },
+    {
+     "itemId": 22449,
+     "count": 6
+    },
+    {
+     "itemId": 22457,
+     "count": 6
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Legs",
    "text": "+35 Spell Damage and +20 Stamina",
    "note": "100% of surveyed players on this slot.",
    "name": "Runic Spellthread",
-   "source": "Tailoring Trainer — Faction Capital",
    "icon": "spell_nature_astralrecalgroup",
-   "itemId": 24274
+   "itemId": 24274,
+   "source": "Tailoring Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 14341,
+     "count": 1
+    },
+    {
+     "itemId": 22457,
+     "count": 10
+    },
+    {
+     "itemId": 23572,
+     "count": 1
+    }
+   ]
   },
   {
    "slot": "Feet",
    "text": "Minor Speed and +9 Stamina",
-   "note": "58% of surveyed players on this slot.",
+   "note": "75% of surveyed players on this slot.",
    "name": "Enchant Boots - Boar's Speed",
-   "source": "World Drop"
+   "source": "World Drop",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22452,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "Ring",
    "text": "+12 Spell Damage",
-   "note": "54% of surveyed players on this slot.",
+   "note": "62% of surveyed players on this slot.",
    "name": "Enchant Ring - Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 2
+    },
+    {
+     "itemId": 22446,
+     "count": 2
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   },
   {
    "slot": "MainHand",
    "text": "+40 Spell Damage and Healing",
    "note": "100% of surveyed players on this slot.",
    "name": "Enchant Weapon - Major Spellpower",
-   "source": "Enchanting Trainer — Faction Capital"
+   "source": "Enchanting Trainer — Faction Capital",
+   "reagents": [
+    {
+     "itemId": 22449,
+     "count": 8
+    },
+    {
+     "itemId": 22446,
+     "count": 8
+    }
+   ],
+   "tool": "Runed Adamantite Rod"
   }
  ],
  "faq": [
   {
    "question": "What is the Season 1 arena set for Arcane Mage?",
-   "answer": "The Gladiator's pieces: Gladiator's Spellblade. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
+   "answer": "The Gladiator's pieces: Gladiator's Silk Cowl, Gladiator's Silk Amice, Gladiator's Silk Raiment, Gladiator's Silk Handguards, Gladiator's Silk Trousers, Gladiator's Spellblade, Gladiator's Touch of Defeat. The 2-piece and 4-piece set bonuses carry over between seasons, so partial upgrades never break your bonus."
   },
   {
    "question": "What are the rating requirements in Season 1?",

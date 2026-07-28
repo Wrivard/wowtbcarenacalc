@@ -272,6 +272,95 @@ function enchantEffect(tip, fallbackName) {
   return sentence.charAt(0).toUpperCase() + sentence.slice(1) || fallbackName;
 }
 
+/** Cached Wowhead &xml lookup — the only endpoint carrying `createdBy`. */
+async function itemXml(id) {
+  const file = path.join(CACHE_DIR, `xml-${id}.xml`);
+  if (existsSync(file)) return readFile(file, "utf8");
+  let xml;
+  try {
+    const res = await fetch(`https://www.wowhead.com/tbc/item=${id}&xml`, {
+      headers: { "user-agent": "Mozilla/5.0 wowtbcarenacalc-data-build" },
+    });
+    if (!res.ok) throw new Error(String(res.status));
+    xml = await res.text();
+  } catch (e) {
+    console.warn(`  xml ${id}: ${e.message}`);
+    return null;
+  }
+  await writeFile(file, xml);
+  await sleep(DELAY_MS);
+  return xml;
+}
+
+const decode = (s) =>
+  (s ?? "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .trim();
+
+/**
+ * What it costs to apply an enhancement, and which two shapes that takes.
+ *
+ * Enchanter-cast formulas ("Enchant Bracer - Superior Healing") are spells,
+ * and the spell tooltip lists their Reagents and the Tools they need. Item
+ * enhancements (spellthreads, leg armors, armor kits, scopes, glyphs) are
+ * items, so the cost lives on whatever profession spell CREATES them —
+ * reachable only through Wowhead's &xml `createdBy` block, which is also the
+ * richer source: it carries each reagent's icon and quality inline.
+ *
+ * Vendor items (glyphs, most inscriptions) are created by nothing and
+ * correctly come back empty — their acquisition is the `source` line, which
+ * the page already shows.
+ *
+ * Returns { reagents: [{itemId, count, name, icon, quality}], tool? } —
+ * icon/quality only where the source supplied them; the caller resolves the
+ * rest so every reagent can render as a real item.
+ */
+async function reagentsFor(tip, item) {
+  if (item) {
+    const xml = await itemXml(item.id);
+    const block = xml?.match(/<createdBy>(.*?)<\/createdBy>/s)?.[1];
+    if (!block) return { reagents: [] };
+    const reagents = [
+      ...block.matchAll(
+        /<reagent id="(\d+)" name="([^"]*)" quality="(\d+)" icon="([^"]*)" count="(\d+)"/g,
+      ),
+    ].map(([, id, name, quality, icon, count]) => ({
+      itemId: Number(id),
+      count: Number(count),
+      name: decode(name),
+      icon,
+      quality: Number(quality),
+    }));
+    return { reagents };
+  }
+
+  const html = tip?.tooltip ?? "";
+  const section = (label) =>
+    html.match(new RegExp(`${label}:<br\\s*/?><div[^>]*>(.*?)</div>`, "s"))?.[1];
+
+  const reagentHtml = section("Reagents");
+  const reagents = reagentHtml
+    ? [
+        ...reagentHtml.matchAll(
+          /<a href="[^"]*\/item=(\d+)[^"]*">([^<]*)<\/a>(?:&nbsp;\((\d+)\))?/g,
+        ),
+      ].map(([, id, name, count]) => ({
+        itemId: Number(id),
+        count: Number(count ?? 1),
+        name: decode(name),
+      }))
+    : [];
+
+  // The tool is a rod the enchanter supplies, not something the player buys.
+  // Worth naming so nobody hunts for it in the mats list, but it is never a
+  // reagent.
+  const tool = strip(section("Tools")) || undefined;
+  return { reagents, ...(tool ? { tool } : {}) };
+}
+
 function sourceNote(entry) {
   if (!entry) return null;
   const where = [entry.source, entry.sourceLocation]
@@ -316,6 +405,10 @@ async function main() {
 
   const enchantMeta = new Map();
   const enchantItems = new Map();
+  // Reagent items have to reach data/items.json or the mats popover renders
+  // bare text instead of icons — same constraint the gems hit.
+  const reagentItems = new Map();
+  let withMats = 0;
   for (const id of spellIds) {
     const src = DATA.enchantSources[id];
     const tip = await tooltip("spell", id);
@@ -326,14 +419,22 @@ async function main() {
     // their item, so resolve that; enchanter-cast formulas have no item and
     // fall back to a slot icon in the component (lib/icons.ts).
     const item = /^Enchant\b/i.test(name) ? null : await searchItem(name);
+    const { reagents, tool } = await reagentsFor(tip, item);
+    for (const r of reagents) reagentItems.set(r.itemId, r);
+    if (reagents.length) withMats++;
     enchantMeta.set(id, {
       name,
       text: enchantEffect(tip, name),
       source: sourceNote(src),
       ...(item ? { itemId: item.id, icon: item.icon } : {}),
+      ...(reagents.length
+        ? { reagents: reagents.map((r) => ({ itemId: r.itemId, count: r.count })) }
+        : {}),
+      ...(tool ? { tool } : {}),
     });
     if (item) enchantItems.set(item.id, item);
   }
+  console.log(`  ${withMats}/${spellIds.size} enchants have a mats list`);
 
   // Gems render through <ItemLink>, which pulls the icon and quality colour
   // from data/items.json — an unregistered gem shows as bare text with no
@@ -341,6 +442,26 @@ async function main() {
   const items = JSON.parse(
     await readFile(path.join(process.cwd(), "data", "items.json"), "utf8"),
   );
+  // Reagents first: the &xml path already handed us name/icon/quality, and
+  // only the tooltip-parsed ones (enchanter formulas) need a lookup.
+  let reagentsAdded = 0;
+  for (const [id, r] of reagentItems) {
+    if (items[String(id)]) continue;
+    let meta = r.icon ? { name: r.name, icon: r.icon, quality: r.quality } : null;
+    if (!meta) {
+      const tip = await tooltip("item", id);
+      if (tip?.name)
+        meta = { name: tip.name, icon: tip.icon, quality: tip.quality };
+    }
+    if (!meta) {
+      console.warn(`  reagent ${id} (${r.name}) unresolved`);
+      continue;
+    }
+    items[String(id)] = meta;
+    reagentsAdded++;
+  }
+  console.log(`data/items.json: +${reagentsAdded} reagents`);
+
   const gemMeta = new Map();
   let added = 0;
   for (const id of gemIds) {
@@ -449,6 +570,8 @@ async function main() {
         ...(meta.icon ? { icon: meta.icon } : {}),
         ...(meta.itemId ? { itemId: meta.itemId } : {}),
         ...(meta.source ? { source: meta.source } : {}),
+        ...(meta.reagents ? { reagents: meta.reagents } : {}),
+        ...(meta.tool ? { tool: meta.tool } : {}),
         note: meta.source ?? "",
       });
     }
@@ -595,6 +718,10 @@ async function main() {
       else delete e.icon;
       if (meta.itemId) e.itemId = meta.itemId;
       if (meta.source) e.source = meta.source;
+      if (meta.reagents) e.reagents = meta.reagents;
+      else delete e.reagents;
+      if (meta.tool) e.tool = meta.tool;
+      else delete e.tool;
       matched++;
       touched = true;
     }
