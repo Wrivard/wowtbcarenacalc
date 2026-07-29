@@ -490,22 +490,22 @@
  "gems": [
   {
    "itemId": 32836,
-   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "name": "Purified Shadow Pearl",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24029,
-   "name": "+18 Healing and +6 Spell Damage",
+   "name": "Teardrop Living Ruby",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 25901,
-   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "name": "Insightful Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 24060,
-   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "name": "Luminous Noble Topaz",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],

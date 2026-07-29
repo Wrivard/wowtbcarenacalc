@@ -433,22 +433,22 @@
  "gems": [
   {
    "itemId": 24059,
-   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "name": "Potent Noble Topaz",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28118,
-   "name": "+12 Spell Damage",
+   "name": "Runed Ornate Ruby",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 34220,
-   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "name": "Chaotic Skyfire Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 24039,
-   "name": "+10 Spell Penetration",
+   "name": "Stormy Star of Elune",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -635,7 +635,7 @@
   },
   {
    "question": "What gems do Frost Mages socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Critical Rating and +5 Spell Damage, +12 Spell Damage, +12 Spell Critical & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Potent Noble Topaz, Runed Ornate Ruby, Chaotic Skyfire Diamond. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

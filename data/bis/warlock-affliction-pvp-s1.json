@@ -274,22 +274,22 @@
  "gems": [
   {
    "itemId": 24039,
-   "name": "+10 Spell Penetration",
+   "name": "Stormy Star of Elune",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
+   "name": "Steady Talasite",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 25896,
-   "name": "+18 Stamina & 5% Stun Resist",
+   "name": "Powerful Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 28118,
-   "name": "+12 Spell Damage",
+   "name": "Runed Ornate Ruby",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],

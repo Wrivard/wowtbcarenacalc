@@ -519,22 +519,22 @@
  "gems": [
   {
    "itemId": 24058,
-   "name": "+4 Critical Strike Rating and +4 Strength",
+   "name": "Inscribed Noble Topaz",
    "note": "Socketed across 5 slots in this snapshot."
   },
   {
    "itemId": 24054,
-   "name": "+4 Strength and +6 Stamina",
+   "name": "Sovereign Nightseye",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24027,
-   "name": "+8 Strength",
+   "name": "Bold Living Ruby",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 32409,
-   "name": "+12 Agility & 3% Increased Critical Damage",
+   "name": "Relentless Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],

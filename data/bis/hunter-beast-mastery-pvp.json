@@ -487,22 +487,22 @@
  "gems": [
   {
    "itemId": 24028,
-   "name": "+8 Agility",
+   "name": "Delicate Living Ruby",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
+   "name": "Shifting Nightseye",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24053,
-   "name": "+8 Resilience Rating",
+   "name": "Mystic Dawnstone",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 32409,
-   "name": "+12 Agility & 3% Increased Critical Damage",
+   "name": "Relentless Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -737,7 +737,7 @@
   },
   {
    "question": "What gems do Beast Mastery Hunters socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Agility, +4 Agility and +6 Stamina, +8 Resilience Rating. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Delicate Living Ruby, Shifting Nightseye, Mystic Dawnstone. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

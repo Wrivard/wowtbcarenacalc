@@ -337,22 +337,22 @@
  "gems": [
   {
    "itemId": 24053,
-   "name": "+8 Resilience Rating",
+   "name": "Mystic Dawnstone",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24027,
-   "name": "+8 Strength",
+   "name": "Bold Living Ruby",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 24058,
-   "name": "+4 Critical Strike Rating and +4 Strength",
+   "name": "Inscribed Noble Topaz",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 28363,
-   "name": "+10 Attack Power, +5 Critical Strike Rating",
+   "name": "Inscribed Ornate Topaz",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],

@@ -402,22 +402,22 @@
  "gems": [
   {
    "itemId": 24027,
-   "name": "+8 Strength",
+   "name": "Bold Living Ruby",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24054,
-   "name": "+4 Strength and +6 Stamina",
+   "name": "Sovereign Nightseye",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 25901,
-   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "name": "Insightful Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 28363,
-   "name": "+10 Attack Power, +5 Critical Strike Rating",
+   "name": "Inscribed Ornate Topaz",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],
@@ -629,7 +629,7 @@
   },
   {
    "question": "What gems do Retribution Paladins socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Strength, +4 Strength and +6 Stamina, +12 Intellect & Chance to restore mana on spellcast. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Bold Living Ruby, Sovereign Nightseye, Insightful Earthstorm Diamond. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

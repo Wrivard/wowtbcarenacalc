@@ -456,22 +456,22 @@
  "gems": [
   {
    "itemId": 24060,
-   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "name": "Luminous Noble Topaz",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24057,
-   "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+   "name": "Royal Nightseye",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24029,
-   "name": "+18 Healing and +6 Spell Damage",
+   "name": "Teardrop Living Ruby",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 25901,
-   "name": "+12 Intellect & Chance to restore mana on spellcast",
+   "name": "Insightful Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -685,7 +685,7 @@
   },
   {
    "question": "What gems do Holy Paladins socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +4 Intellect, +9 Healing +3 Spell Damage and +2 Mana every 5 seconds, +18 Healing and +6 Spell Damage. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Luminous Noble Topaz, Royal Nightseye, Teardrop Living Ruby. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

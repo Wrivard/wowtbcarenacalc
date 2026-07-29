@@ -354,22 +354,22 @@
  "gems": [
   {
    "itemId": 24066,
-   "name": "+4 Spell Critical Rating and +5 Spell Penetration",
+   "name": "Radiant Talasite",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 34220,
-   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "name": "Chaotic Skyfire Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 28118,
-   "name": "+12 Spell Damage",
+   "name": "Runed Ornate Ruby",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 24059,
-   "name": "+4 Spell Critical Rating and +5 Spell Damage",
+   "name": "Potent Noble Topaz",
    "note": "Socketed across 3 slots in this snapshot."
   }
  ],
@@ -574,7 +574,7 @@
   },
   {
    "question": "What gems do Elemental Shamans socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Critical Rating and +5 Spell Penetration, +12 Spell Critical & 3% Increased Critical Damage, +12 Spell Damage. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Radiant Talasite, Chaotic Skyfire Diamond, Runed Ornate Ruby. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

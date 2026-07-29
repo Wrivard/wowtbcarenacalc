@@ -419,22 +419,22 @@
  "gems": [
   {
    "itemId": 31861,
-   "name": "+8 Spell Hit Rating",
+   "name": "Great Dawnstone",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24053,
-   "name": "+8 Resilience Rating",
+   "name": "Mystic Dawnstone",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
+   "name": "Steady Talasite",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 32836,
-   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "name": "Purified Shadow Pearl",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],
@@ -608,7 +608,7 @@
   },
   {
    "question": "What gems do Discipline Priests socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Spell Hit Rating, +8 Resilience Rating, +4 Resilience Rating and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Great Dawnstone, Mystic Dawnstone, Steady Talasite. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

@@ -378,22 +378,22 @@
  "gems": [
   {
    "itemId": 31861,
-   "name": "+8 Spell Hit Rating",
+   "name": "Great Dawnstone",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 32836,
-   "name": "+9 Healing +3 Spell Damage and +4 Spirit",
+   "name": "Purified Shadow Pearl",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 25896,
-   "name": "+18 Stamina & 5% Stun Resist",
+   "name": "Powerful Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 24029,
-   "name": "+18 Healing and +6 Spell Damage",
+   "name": "Teardrop Living Ruby",
    "note": "Socketed across 3 slots in this snapshot."
   }
  ],

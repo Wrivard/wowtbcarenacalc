@@ -354,22 +354,22 @@
  "gems": [
   {
    "itemId": 24039,
-   "name": "+10 Spell Penetration",
+   "name": "Stormy Star of Elune",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24053,
-   "name": "+8 Resilience Rating",
+   "name": "Mystic Dawnstone",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
+   "name": "Steady Talasite",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 28118,
-   "name": "+12 Spell Damage",
+   "name": "Runed Ornate Ruby",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -568,7 +568,7 @@
   },
   {
    "question": "What gems do Demonology Warlocks socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +10 Spell Penetration, +8 Resilience Rating, +4 Resilience Rating and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Stormy Star of Elune, Mystic Dawnstone, Steady Talasite. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

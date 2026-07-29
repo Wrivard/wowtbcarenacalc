@@ -432,22 +432,22 @@
  "gems": [
   {
    "itemId": 31861,
-   "name": "+8 Spell Hit Rating",
+   "name": "Great Dawnstone",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
+   "name": "Shifting Nightseye",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
+   "name": "Glinting Noble Topaz",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 25896,
-   "name": "+18 Stamina & 5% Stun Resist",
+   "name": "Powerful Earthstorm Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],

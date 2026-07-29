@@ -476,22 +476,22 @@
  "gems": [
   {
    "itemId": 24051,
-   "name": "+8 Hit Rating",
+   "name": "Rigid Dawnstone",
    "note": "Socketed across 5 slots in this snapshot."
   },
   {
    "itemId": 24061,
-   "name": "+4 Hit Rating and +4 Agility",
+   "name": "Glinting Noble Topaz",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24055,
-   "name": "+4 Agility and +6 Stamina",
+   "name": "Shifting Nightseye",
    "note": "Socketed across 5 slots in this snapshot."
   },
   {
    "itemId": 24028,
-   "name": "+8 Agility",
+   "name": "Delicate Living Ruby",
    "note": "Socketed across 5 slots in this snapshot."
   }
  ],
@@ -734,7 +734,7 @@
   },
   {
    "question": "What gems do Combat Rogues socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +8 Hit Rating, +4 Hit Rating and +4 Agility, +4 Agility and +6 Stamina. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Rigid Dawnstone, Glinting Noble Topaz, Shifting Nightseye. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

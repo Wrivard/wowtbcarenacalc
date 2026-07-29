@@ -508,22 +508,22 @@
  "gems": [
   {
    "itemId": 31867,
-   "name": "+4 Spell Hit Rating and +5 Spell Damage",
+   "name": "Veiled Noble Topaz",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24056,
-   "name": "+5 Spell Damage and +6 Stamina",
+   "name": "Glowing Nightseye",
    "note": "Socketed across 3 slots in this snapshot."
   },
   {
    "itemId": 34220,
-   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "name": "Chaotic Skyfire Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   },
   {
    "itemId": 24030,
-   "name": "+9 Spell Damage",
+   "name": "Runed Living Ruby",
    "note": "Socketed across 2 slots in this snapshot."
   }
  ],
@@ -712,7 +712,7 @@
   },
   {
    "question": "What gems do Destruction Warlocks socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Spell Hit Rating and +5 Spell Damage, +5 Spell Damage and +6 Stamina, +12 Spell Critical & 3% Increased Critical Damage. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Veiled Noble Topaz, Glowing Nightseye, Chaotic Skyfire Diamond. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

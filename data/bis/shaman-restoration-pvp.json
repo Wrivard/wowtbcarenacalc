@@ -431,22 +431,22 @@
  "gems": [
   {
    "itemId": 24057,
-   "name": "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+   "name": "Royal Nightseye",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 33782,
-   "name": "+4 Resilience Rating and +6 Stamina",
+   "name": "Steady Talasite",
    "note": "Socketed across 5 slots in this snapshot."
   },
   {
    "itemId": 24060,
-   "name": "+9 Healing +3 Spell Damage and +4 Intellect",
+   "name": "Luminous Noble Topaz",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24053,
-   "name": "+8 Resilience Rating",
+   "name": "Mystic Dawnstone",
    "note": "Socketed across 3 slots in this snapshot."
   }
  ],
@@ -647,7 +647,7 @@
   },
   {
    "question": "What gems do Restoration Shamans socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +9 Healing +3 Spell Damage and +2 Mana every 5 seconds, +4 Resilience Rating and +6 Stamina, +9 Healing +3 Spell Damage and +4 Intellect. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Royal Nightseye, Steady Talasite, Luminous Noble Topaz. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }

@@ -511,22 +511,22 @@
  "gems": [
   {
    "itemId": 24047,
-   "name": "+8 Intellect",
+   "name": "Brilliant Dawnstone",
    "note": "Socketed across 7 slots in this snapshot."
   },
   {
    "itemId": 24030,
-   "name": "+9 Spell Damage",
+   "name": "Runed Living Ruby",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 24056,
-   "name": "+5 Spell Damage and +6 Stamina",
+   "name": "Glowing Nightseye",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 34220,
-   "name": "+12 Spell Critical & 3% Increased Critical Damage",
+   "name": "Chaotic Skyfire Diamond",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],

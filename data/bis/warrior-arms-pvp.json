@@ -418,22 +418,22 @@
  "gems": [
   {
    "itemId": 24058,
-   "name": "+4 Critical Strike Rating and +4 Strength",
+   "name": "Inscribed Noble Topaz",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 24048,
-   "name": "+8 Critical Strike Rating",
+   "name": "Smooth Dawnstone",
    "note": "Socketed across 4 slots in this snapshot."
   },
   {
    "itemId": 28362,
-   "name": "+20 Attack Power",
+   "name": "Bold Ornate Ruby",
    "note": "Socketed across 2 slots in this snapshot."
   },
   {
    "itemId": 24027,
-   "name": "+8 Strength",
+   "name": "Bold Living Ruby",
    "note": "Socketed across 1 slot in this snapshot."
   }
  ],
@@ -637,7 +637,7 @@
   },
   {
    "question": "What gems do Arms Warriors socket for PvP?",
-   "answer": "Across all sockets, the most-used gems in this snapshot are +4 Critical Strike Rating and +4 Strength, +8 Critical Strike Rating, +20 Attack Power. Socket bonuses are usually ignored unless they align with these."
+   "answer": "Across all sockets, the most-used gems in this snapshot are Inscribed Noble Topaz, Smooth Dawnstone, Bold Ornate Ruby. Socket bonuses are usually ignored unless they align with these."
   }
  ]
 }
