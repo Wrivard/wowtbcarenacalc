@@ -30,7 +30,9 @@
      "name": "Tankatronic Goggles",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35068
   },
   {
    "slot": "Neck",
@@ -48,7 +50,9 @@
      "name": "Pendant of Triumph",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35135
   },
   {
    "slot": "Shoulders",
@@ -66,7 +70,9 @@
      "name": "Warbringer Shoulderplates",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35070
   },
   {
    "slot": "Back",
@@ -108,7 +114,9 @@
      "name": "Panzar'Thar Breastplate",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35066
   },
   {
    "slot": "Wrist",
@@ -187,7 +195,9 @@
      "itemId": 35069,
      "name": "Brutal Gladiator's Plate Legguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35069
   },
   {
    "slot": "Feet",
@@ -228,7 +238,9 @@
      "itemId": 35131,
      "name": "Guardian's Band of Triumph"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35131
   },
   {
    "slot": "Ring2",
@@ -332,7 +344,9 @@
      "itemId": 34996,
      "name": "Brutal Gladiator's Cleaver"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 34996
   },
   {
    "slot": "Ranged",
@@ -350,7 +364,9 @@
      "name": "Felsteel Whisper Knives",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35108
   }
  ],
  "gems": [

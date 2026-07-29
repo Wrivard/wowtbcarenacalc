@@ -190,7 +190,9 @@
      "name": "Skulker's Greaves",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33673
   },
   {
    "slot": "Feet",
@@ -242,7 +244,9 @@
      "name": "Vindicator's Band of Triumph",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33919
   },
   {
    "slot": "Ring2",
@@ -289,7 +293,9 @@
      "name": "Bangle of Endless Blessings",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28235
   },
   {
    "slot": "Trinket2",

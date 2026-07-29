@@ -89,7 +89,9 @@
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -127,7 +129,9 @@
      "name": "Veteran's Scaled Bracers",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32819
   },
   {
    "slot": "Hands",
@@ -280,7 +284,9 @@
      "itemId": 28236,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28242
   },
   {
    "slot": "Trinket2",

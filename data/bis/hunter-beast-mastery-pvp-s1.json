@@ -61,7 +61,9 @@
      "name": "Veteran's Pendant of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33066
   },
   {
    "slot": "Shoulders",
@@ -117,7 +119,9 @@
      "name": "Demon Stalker Harness",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28334
   },
   {
    "slot": "Wrist",
@@ -256,7 +260,9 @@
      "name": "Veteran's Band of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33057
   },
   {
    "slot": "Ring2",
@@ -302,7 +308,9 @@
      "name": "Hourglass of the Unraveller",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28243
   },
   {
    "slot": "Trinket2",
@@ -373,7 +381,9 @@
      "name": "Gladiator's Hacker",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28309
   },
   {
    "slot": "Ranged",

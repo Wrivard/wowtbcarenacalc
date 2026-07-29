@@ -212,6 +212,13 @@ async function main() {
         const bis = translate(slot.bis, season);
         if (bis.pveFlexNote?.startsWith("No ")) unresolved++;
         const alternatives = [];
+        // The raid-piece warning has to survive the translation. PvE flex
+        // items do not rotate by season, so a slot the ladder leads with raid
+        // gear leads with the SAME raid gear in every season — the reader of
+        // a Season 3 page is looking at the identical trade-off. The arena
+        // alternative it names does rotate, so follow it to its equivalent
+        // rather than carrying the live season's item id across.
+        let resilienceAlt;
         for (const alt of slot.alternatives) {
           const t = translate(alt, season);
           if (
@@ -224,9 +231,17 @@ async function main() {
                 ? { pveFlexNote: alt.pveFlexNote }
                 : {}),
             });
+            if (alt.itemId === slot.resilienceAlt) resilienceAlt = t.itemId;
           }
         }
-        slots.push({ slot: slot.slot, bis, alternatives });
+        slots.push({
+          slot: slot.slot,
+          bis,
+          alternatives,
+          ...(slot.raidPick && resilienceAlt !== undefined
+            ? { raidPick: true, resilienceAlt }
+            : {}),
+        });
         newItemIds.add(bis.itemId);
         for (const a of alternatives) newItemIds.add(a.itemId);
         if (bis.name?.startsWith(SEASON_META[season].setPrefix))

@@ -54,7 +54,9 @@
      "name": "Pendant of the Lost Ages",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33922
   },
   {
    "slot": "Shoulders",
@@ -177,7 +179,9 @@
      "itemId": 33903,
      "name": "Vindicator's Ornamented Belt"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33888
   },
   {
    "slot": "Legs",
@@ -218,7 +222,9 @@
      "itemId": 33890,
      "name": "Vindicator's Lamellar Greaves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33905
   },
   {
    "slot": "Ring1",
@@ -246,7 +252,9 @@
      "itemId": 33853,
      "name": "Vindicator's Band of Dominance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33853
   },
   {
    "slot": "Ring2",
@@ -292,7 +300,9 @@
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28236
   },
   {
    "slot": "Trinket2",

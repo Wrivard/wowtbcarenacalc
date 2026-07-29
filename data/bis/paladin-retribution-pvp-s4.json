@@ -88,7 +88,9 @@
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -125,7 +127,9 @@
      "itemId": 35178,
      "name": "Guardian's Scaled Bracers"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35178
   },
   {
    "slot": "Hands",
@@ -274,7 +278,9 @@
      "itemId": 28236,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28242
   },
   {
    "slot": "Trinket2",

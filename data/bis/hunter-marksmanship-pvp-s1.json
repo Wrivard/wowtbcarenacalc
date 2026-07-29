@@ -35,7 +35,9 @@
      "name": "Veteran's Pendant of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33066
   },
   {
    "slot": "Shoulders",
@@ -68,7 +70,9 @@
      "name": "Drape of the Dark Reavers",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -81,7 +85,9 @@
      "itemId": 28334,
      "name": "Gladiator's Chain Armor"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28334
   },
   {
    "slot": "Wrist",
@@ -120,7 +126,9 @@
      "itemId": 28332,
      "name": "Gladiator's Chain Leggings"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28332
   },
   {
    "slot": "Feet",

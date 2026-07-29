@@ -103,7 +103,9 @@
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -121,7 +123,9 @@
      "name": "Beast Lord Cuirass",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28334
   },
   {
    "slot": "Wrist",
@@ -207,7 +211,9 @@
      "name": "Rip-Flayer Leggings",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28332
   },
   {
    "slot": "Feet",
@@ -260,7 +266,9 @@
      "name": "Veteran's Band of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33057
   },
   {
    "slot": "Ring2",
@@ -348,7 +356,9 @@
      "itemId": 28295,
      "name": "Gladiator's Slicer"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28308
   },
   {
    "slot": "OffHand",
@@ -370,7 +380,9 @@
      "name": "Malchazeen",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28309
   },
   {
    "slot": "Ranged",
@@ -394,7 +406,9 @@
      "name": "Gladiator's Heavy Crossbow",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31986
   }
  ],
  "gems": [

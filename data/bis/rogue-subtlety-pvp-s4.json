@@ -31,7 +31,9 @@
      "itemId": 35033,
      "name": "Brutal Gladiator's Leather Helm"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35033
   },
   {
    "slot": "Neck",
@@ -138,7 +140,9 @@
      "itemId": 28986,
      "name": "Marshal's Leather Belt"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35156
   },
   {
    "slot": "Legs",
@@ -175,7 +179,9 @@
      "name": "Edgewalker Longboots",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35141
   },
   {
    "slot": "Ring1",
@@ -245,7 +251,9 @@
      "name": "Bloodlust Brooch",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28234
   },
   {
    "slot": "Trinket2",
@@ -291,7 +299,9 @@
      "name": "Spiteblade",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35101
   },
   {
    "slot": "OffHand",

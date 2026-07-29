@@ -193,7 +193,9 @@
      "name": "Skulker's Greaves",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28128
   },
   {
    "slot": "Feet",
@@ -246,7 +248,9 @@
      "name": "Veteran's Band of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33057
   },
   {
    "slot": "Ring2",
@@ -293,7 +297,9 @@
      "name": "Bangle of Endless Blessings",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28235
   },
   {
    "slot": "Trinket2",

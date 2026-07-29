@@ -80,7 +80,9 @@
      "name": "Netherblade Shoulderpads",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25832
   },
   {
    "slot": "Back",
@@ -123,7 +125,9 @@
      "name": "Netherblade Chestpiece",
      "pveFlexNote": "Seen mostly above 2646 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25831
   },
   {
    "slot": "Wrist",
@@ -147,7 +151,9 @@
      "name": "Nightfall Wristguards",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32814
   },
   {
    "slot": "Hands",
@@ -171,7 +177,9 @@
      "name": "Wastewalker Gloves",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25834
   },
   {
    "slot": "Waist",
@@ -204,7 +212,9 @@
      "name": "Gladiator's Leather Legguards",
      "pveFlexNote": "Seen mostly above 2646 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25833
   },
   {
    "slot": "Feet",
@@ -228,7 +238,9 @@
      "name": "Boots of Effortless Striking",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32790
   },
   {
    "slot": "Ring1",
@@ -304,7 +316,9 @@
      "itemId": 28234,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28234
   },
   {
    "slot": "Trinket2",
@@ -346,7 +360,9 @@
      "name": "Rod of the Sun King",
      "pveFlexNote": "Seen mostly above 2646 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28295
   },
   {
    "slot": "OffHand",
@@ -383,7 +399,9 @@
      "name": "Spinesever",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28319
   }
  ],
  "gems": [

@@ -148,7 +148,9 @@
      "itemId": 33907,
      "name": "Vindicator's Ringmail Girdle"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33907
   },
   {
    "slot": "Legs",
@@ -166,7 +168,9 @@
      "name": "Heart-Flame Leggings",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33741
   },
   {
    "slot": "Feet",
@@ -254,7 +258,9 @@
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30345
   },
   {
    "slot": "Trinket2",

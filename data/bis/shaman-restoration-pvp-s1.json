@@ -151,7 +151,9 @@
      "name": "Veteran's Ringmail Girdle",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32998
   },
   {
    "slot": "Legs",
@@ -169,7 +171,9 @@
      "name": "Heart-Flame Leggings",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31406
   },
   {
    "slot": "Feet",
@@ -260,7 +264,9 @@
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30345
   },
   {
    "slot": "Trinket2",

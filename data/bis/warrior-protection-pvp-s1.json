@@ -30,7 +30,9 @@
      "name": "Tankatronic Goggles",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24545
   },
   {
    "slot": "Neck",
@@ -49,7 +51,9 @@
      "name": "Pendant of Triumph",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33066
   },
   {
    "slot": "Shoulders",
@@ -67,7 +71,9 @@
      "name": "Warbringer Shoulderplates",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24546
   },
   {
    "slot": "Back",
@@ -109,7 +115,9 @@
      "name": "Panzar'Thar Breastplate",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24544
   },
   {
    "slot": "Wrist",
@@ -189,7 +197,9 @@
      "itemId": 24547,
      "name": "Gladiator's Plate Legguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24547
   },
   {
    "slot": "Feet",
@@ -232,7 +242,9 @@
      "name": "Veteran's Band of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33057
   },
   {
    "slot": "Ring2",
@@ -336,7 +348,9 @@
      "itemId": 28308,
      "name": "Gladiator's Cleaver"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28308
   },
   {
    "slot": "Ranged",
@@ -354,7 +368,9 @@
      "name": "Felsteel Whisper Knives",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28319
   }
  ],
  "gems": [

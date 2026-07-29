@@ -61,7 +61,9 @@
      "name": "Guardian's Pendant of Triumph",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35135
   },
   {
    "slot": "Shoulders",
@@ -117,7 +119,9 @@
      "name": "Demon Stalker Harness",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 34990
   },
   {
    "slot": "Wrist",
@@ -253,7 +257,9 @@
      "name": "Guardian's Band of Triumph",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35131
   },
   {
    "slot": "Ring2",
@@ -299,7 +305,9 @@
      "name": "Hourglass of the Unraveller",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28243
   },
   {
    "slot": "Trinket2",
@@ -370,7 +378,9 @@
      "name": "Brutal Gladiator's Hacker",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35017
   },
   {
    "slot": "Ranged",

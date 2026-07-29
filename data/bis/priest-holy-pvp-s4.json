@@ -55,7 +55,9 @@
      "itemId": 35134,
      "name": "Guardian's Pendant of Salvation"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35134
   },
   {
    "slot": "Shoulders",
@@ -78,7 +80,9 @@
      "name": "Primal Mooncloth Shoulders",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35056
   },
   {
    "slot": "Back",
@@ -120,7 +124,9 @@
      "itemId": 35057,
      "name": "Brutal Gladiator's Mooncloth Robe"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35057
   },
   {
    "slot": "Wrist",
@@ -143,7 +149,9 @@
      "name": "Bindings of the Timewalker",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35174
   },
   {
    "slot": "Hands",
@@ -166,7 +174,9 @@
      "itemId": 35053,
      "name": "Brutal Gladiator's Mooncloth Gloves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35053
   },
   {
    "slot": "Waist",
@@ -189,7 +199,9 @@
      "itemId": 35159,
      "name": "Guardian's Mooncloth Belt"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35159
   },
   {
    "slot": "Legs",
@@ -212,7 +224,9 @@
      "itemId": 35055,
      "name": "Brutal Gladiator's Mooncloth Leggings"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35055
   },
   {
    "slot": "Feet",
@@ -259,7 +273,9 @@
      "itemId": 35130,
      "name": "Guardian's Band of Salvation"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35130
   },
   {
    "slot": "Ring2",
@@ -311,7 +327,9 @@
      "itemId": 30349,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30349
   },
   {
    "slot": "Trinket2",

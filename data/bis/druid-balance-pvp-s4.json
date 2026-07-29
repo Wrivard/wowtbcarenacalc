@@ -36,7 +36,9 @@
      "name": "Magnified Moon Specs",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35023
   },
   {
    "slot": "Neck",
@@ -64,7 +66,9 @@
      "itemId": 35134,
      "name": "Guardian's Pendant of Salvation"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35134
   },
   {
    "slot": "Shoulders",
@@ -92,7 +96,9 @@
      "itemId": 35025,
      "name": "Brutal Gladiator's Kodohide Spaulders"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35025
   },
   {
    "slot": "Back",
@@ -144,7 +150,9 @@
      "itemId": 35026,
      "name": "Brutal Gladiator's Kodohide Tunic"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35026
   },
   {
    "slot": "Wrist",
@@ -167,7 +175,9 @@
      "itemId": 35169,
      "name": "Guardian's Kodohide Bracers"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35169
   },
   {
    "slot": "Hands",
@@ -195,7 +205,9 @@
      "itemId": 35022,
      "name": "Brutal Gladiator's Kodohide Gloves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35022
   },
   {
    "slot": "Waist",
@@ -218,7 +230,9 @@
      "name": "Belt of Divine Inspiration",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35154
   },
   {
    "slot": "Legs",
@@ -246,7 +260,9 @@
      "itemId": 35024,
      "name": "Brutal Gladiator's Kodohide Legguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35024
   },
   {
    "slot": "Feet",
@@ -269,7 +285,9 @@
      "name": "Boots of Blasting",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35139
   },
   {
    "slot": "Ring1",
@@ -297,7 +315,9 @@
      "itemId": 35130,
      "name": "Guardian's Band of Salvation"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35130
   },
   {
    "slot": "Ring2",
@@ -349,7 +369,9 @@
      "itemId": 28235,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28235
   },
   {
    "slot": "Trinket2",
@@ -423,7 +445,9 @@
      "itemId": 35074,
      "name": "Brutal Gladiator's Reprieve"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35074
   },
   {
    "slot": "Ranged",

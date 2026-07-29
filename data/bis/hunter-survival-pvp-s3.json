@@ -103,7 +103,9 @@
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -121,7 +123,9 @@
      "name": "Beast Lord Cuirass",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33664
   },
   {
    "slot": "Wrist",
@@ -205,7 +209,9 @@
      "name": "Rip-Flayer Leggings",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33667
   },
   {
    "slot": "Feet",
@@ -256,7 +262,9 @@
      "itemId": 33919,
      "name": "Vindicator's Band of Triumph"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33919
   },
   {
    "slot": "Ring2",
@@ -344,7 +352,9 @@
      "itemId": 33762,
      "name": "Vengeful Gladiator's Slicer"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33669
   },
   {
    "slot": "OffHand",
@@ -366,7 +376,9 @@
      "name": "Malchazeen",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33689
   },
   {
    "slot": "Ranged",
@@ -390,7 +402,9 @@
      "name": "Vengeful Gladiator's Heavy Crossbow",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31986
   }
  ],
  "gems": [

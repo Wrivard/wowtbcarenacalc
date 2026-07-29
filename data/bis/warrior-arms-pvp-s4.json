@@ -264,7 +264,9 @@
      "name": "Dragonspine Trophy",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30350
   },
   {
    "slot": "Trinket2",

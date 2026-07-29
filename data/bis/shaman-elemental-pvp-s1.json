@@ -56,7 +56,9 @@
      "name": "Veteran's Pendant of Dominance",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33065
   },
   {
    "slot": "Shoulders",
@@ -231,7 +233,9 @@
      "name": "Figurine - Living Ruby Serpent",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30345
   },
   {
    "slot": "Trinket2",

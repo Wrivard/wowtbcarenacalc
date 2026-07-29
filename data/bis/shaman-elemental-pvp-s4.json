@@ -55,7 +55,9 @@
      "itemId": 35133,
      "name": "Guardian's Pendant of Dominance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35133
   },
   {
    "slot": "Shoulders",
@@ -225,7 +227,9 @@
      "name": "Figurine - Living Ruby Serpent",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30345
   },
   {
    "slot": "Trinket2",

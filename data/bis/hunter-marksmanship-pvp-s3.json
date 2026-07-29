@@ -34,7 +34,9 @@
      "itemId": 33923,
      "name": "Vindicator's Pendant of Triumph"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33923
   },
   {
    "slot": "Shoulders",
@@ -67,7 +69,9 @@
      "name": "Drape of the Dark Reavers",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -80,7 +84,9 @@
      "itemId": 33664,
      "name": "Vengeful Gladiator's Chain Armor"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33664
   },
   {
    "slot": "Wrist",
@@ -117,7 +123,9 @@
      "itemId": 33667,
      "name": "Vengeful Gladiator's Chain Leggings"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33667
   },
   {
    "slot": "Feet",

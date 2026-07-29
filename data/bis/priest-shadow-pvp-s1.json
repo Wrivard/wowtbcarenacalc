@@ -301,7 +301,9 @@
      "name": "Quagmirran's Eye",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30346
   },
   {
    "slot": "Trinket2",

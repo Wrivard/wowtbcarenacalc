@@ -31,7 +31,9 @@
      "itemId": 33683,
      "name": "Vengeful Gladiator's Felweave Cowl"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33683
   },
   {
    "slot": "Neck",
@@ -54,7 +56,9 @@
      "itemId": 33921,
      "name": "Vindicator's Pendant of Dominance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33921
   },
   {
    "slot": "Shoulders",
@@ -71,7 +75,9 @@
      "itemId": 33682,
      "name": "Vengeful Gladiator's Felweave Amice"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33679
   },
   {
    "slot": "Back",
@@ -94,7 +100,9 @@
      "name": "Ancient Spellcloak of the Highborne",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28378
   },
   {
    "slot": "Chest",
@@ -117,7 +125,9 @@
      "name": "Robe of Hateful Echoes",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33680
   },
   {
    "slot": "Wrist",
@@ -162,7 +172,9 @@
      "name": "Anger-Spark Gloves",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33676
   },
   {
    "slot": "Waist",
@@ -185,7 +197,9 @@
      "name": "Girdle of Ruination",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33882
   },
   {
    "slot": "Legs",
@@ -208,7 +222,9 @@
      "itemId": 33678,
      "name": "Vengeful Gladiator's Dreadweave Leggings"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33678
   },
   {
    "slot": "Feet",
@@ -236,7 +252,9 @@
      "itemId": 28410,
      "name": "General's Silk Footguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28410
   },
   {
    "slot": "Ring1",
@@ -259,7 +277,9 @@
      "name": "Band of Crimson Fury",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33853
   },
   {
    "slot": "Ring2",
@@ -305,7 +325,9 @@
      "itemId": 30348,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30343
   },
   {
    "slot": "Trinket2",
@@ -368,7 +390,9 @@
      "name": "Talisman of Nightbane",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33681
   },
   {
    "slot": "Ranged",
@@ -391,7 +415,9 @@
      "name": "Eredar Wand of Obliteration",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33764
   }
  ],
  "gems": [

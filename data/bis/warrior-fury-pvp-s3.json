@@ -36,7 +36,9 @@
      "itemId": 33730,
      "name": "Vengeful Gladiator's Plate Helm"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33730
   },
   {
    "slot": "Neck",
@@ -64,7 +66,9 @@
      "itemId": 33923,
      "name": "Vindicator's Pendant of Triumph"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33923
   },
   {
    "slot": "Shoulders",
@@ -88,7 +92,9 @@
      "name": "Pauldrons of the Wardancer",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33732
   },
   {
    "slot": "Back",
@@ -111,7 +117,9 @@
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -134,7 +142,9 @@
      "name": "Bloodsea Brigand's Vest",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33728
   },
   {
    "slot": "Wrist",
@@ -152,7 +162,9 @@
      "itemId": 33813,
      "name": "Vindicator's Plate Bracers"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33813
   },
   {
    "slot": "Hands",
@@ -175,7 +187,9 @@
      "itemId": 33729,
      "name": "Vengeful Gladiator's Plate Gauntlets"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33729
   },
   {
    "slot": "Waist",
@@ -198,7 +212,9 @@
      "name": "Belt of One-Hundred Deaths",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33811
   },
   {
    "slot": "Legs",
@@ -226,7 +242,9 @@
      "itemId": 33731,
      "name": "Vengeful Gladiator's Plate Legguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33731
   },
   {
    "slot": "Feet",
@@ -244,7 +262,9 @@
      "itemId": 33812,
      "name": "Vindicator's Plate Greaves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33812
   },
   {
    "slot": "Ring1",
@@ -272,7 +292,9 @@
      "itemId": 33919,
      "name": "Vindicator's Band of Triumph"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33919
   },
   {
    "slot": "Ring2",
@@ -324,7 +346,9 @@
      "itemId": 30344,
      "name": "Medallion of the Horde"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30344
   },
   {
    "slot": "Trinket2",

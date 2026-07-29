@@ -31,7 +31,9 @@
      "itemId": 33718,
      "name": "Vengeful Gladiator's Mooncloth Hood"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33718
   },
   {
    "slot": "Neck",
@@ -86,7 +88,9 @@
      "itemId": 28378,
      "name": "Sergeant's Heavy Cape"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28378
   },
   {
    "slot": "Chest",
@@ -164,7 +168,9 @@
      "name": "Boots of the Incorrupt",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33902
   },
   {
    "slot": "Ring1",
@@ -233,7 +239,9 @@
      "name": "Bangle of Endless Blessings",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30349
   },
   {
    "slot": "Trinket2",

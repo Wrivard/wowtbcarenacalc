@@ -55,7 +55,9 @@
      "itemId": 33921,
      "name": "Vindicator's Pendant of Dominance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33921
   },
   {
    "slot": "Shoulders",
@@ -225,7 +227,9 @@
      "name": "Figurine - Living Ruby Serpent",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30345
   },
   {
    "slot": "Trinket2",

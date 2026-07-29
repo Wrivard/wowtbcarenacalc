@@ -55,7 +55,9 @@
      "name": "Pendant of the Lost Ages",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33068
   },
   {
    "slot": "Shoulders",
@@ -182,7 +184,9 @@
      "name": "Veteran's Ornamented Belt",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32801
   },
   {
    "slot": "Legs",
@@ -225,7 +229,9 @@
      "name": "Veteran's Lamellar Greaves",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32990
   },
   {
    "slot": "Ring1",
@@ -254,7 +260,9 @@
      "name": "Veteran's Band of Dominance",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33056
   },
   {
    "slot": "Ring2",
@@ -300,7 +308,9 @@
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28236
   },
   {
    "slot": "Trinket2",

@@ -67,17 +67,6 @@ export function BisPageBody({
               equipping each item
               {list.sampleSize ? ` (n=${list.sampleSize})` : ""}. Click a row
               to expand alternatives.
-              {/* The list is the ladder's order, not ours. Say so where it
-                  matters — a raid piece on top is a real result, not a bug. */}
-              {list.slots.some((s) => s.raidPick) && (
-                <>
-                  {" "}
-                  Rows marked{" "}
-                  <span className="text-amber-500/90">No resilience</span> lead
-                  with a raid piece because that is what the ladder equips most
-                  — expand them for the arena alternative.
-                </>
-              )}
               {/* Same stat, opposite verdict by role — so is the wording. */}
               {list.content === "pve" &&
                 list.slots.some((s) => s.bis.resilience) && (
@@ -101,8 +90,21 @@ export function BisPageBody({
           ) : (
             <>
               Season {list.season} gear set, mapped from the current arena
-              ladder&apos;s most-used {spec.name} {cls.name} setup. Click a row
-              to expand alternatives.
+              ladder&apos;s most-used {spec.name} {cls.name} setup. Percentages
+              are omitted on purpose: they measure the live ladder, and quoting
+              them here would claim a Season {list.season} sample we do not
+              have. Click a row to expand alternatives.
+            </>
+          )}
+          {/* Outside the usage branch: the raid-piece trade is just as real on
+              a season page, where PvE flex items carry over unchanged. */}
+          {list.slots.some((s) => s.raidPick) && (
+            <>
+              {" "}
+              Rows marked{" "}
+              <span className="text-amber-500/90">No resilience</span> lead with
+              a raid piece because that is what the ladder equips most — expand
+              them for the arena alternative.
             </>
           )}{" "}
           Hover any item for its full tooltip.

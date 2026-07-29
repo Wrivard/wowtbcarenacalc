@@ -34,7 +34,9 @@
      "itemId": 35135,
      "name": "Guardian's Pendant of Triumph"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35135
   },
   {
    "slot": "Shoulders",
@@ -67,7 +69,9 @@
      "name": "Drape of the Dark Reavers",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -80,7 +84,9 @@
      "itemId": 34990,
      "name": "Brutal Gladiator's Chain Armor"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 34990
   },
   {
    "slot": "Wrist",
@@ -117,7 +123,9 @@
      "itemId": 34993,
      "name": "Brutal Gladiator's Chain Leggings"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 34993
   },
   {
    "slot": "Feet",

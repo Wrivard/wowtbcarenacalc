@@ -54,7 +54,9 @@
      "name": "Pendant of the Lost Ages",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35134
   },
   {
    "slot": "Shoulders",
@@ -177,7 +179,9 @@
      "itemId": 35160,
      "name": "Guardian's Ornamented Belt"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35155
   },
   {
    "slot": "Legs",
@@ -218,7 +222,9 @@
      "itemId": 35140,
      "name": "Guardian's Lamellar Greaves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35145
   },
   {
    "slot": "Ring1",
@@ -246,7 +252,9 @@
      "itemId": 35129,
      "name": "Guardian's Band of Dominance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35129
   },
   {
    "slot": "Ring2",
@@ -292,7 +300,9 @@
      "name": "Scarab of the Infinite Cycle",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28236
   },
   {
    "slot": "Trinket2",

@@ -102,7 +102,9 @@
      "itemId": 35043,
      "name": "Brutal Gladiator's Linked Gauntlets"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35043
   },
   {
    "slot": "Waist",
@@ -205,7 +207,9 @@
      "name": "Dragonspine Trophy",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30345
   },
   {
    "slot": "Trinket2",
@@ -277,7 +281,9 @@
      "itemId": 35104,
      "name": "Brutal Gladiator's Totem of Indomitability"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35104
   }
  ],
  "gems": [

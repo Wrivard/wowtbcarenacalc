@@ -36,7 +36,9 @@
      "name": "Magnified Moon Specs",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31376
   },
   {
    "slot": "Neck",
@@ -65,7 +67,9 @@
      "name": "Veteran's Pendant of Salvation",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33068
   },
   {
    "slot": "Shoulders",
@@ -93,7 +97,9 @@
      "itemId": 31378,
      "name": "Gladiator's Kodohide Spaulders"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31378
   },
   {
    "slot": "Back",
@@ -145,7 +151,9 @@
      "itemId": 31379,
      "name": "Gladiator's Kodohide Tunic"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31379
   },
   {
    "slot": "Wrist",
@@ -169,7 +177,9 @@
      "name": "Veteran's Kodohide Bracers",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32812
   },
   {
    "slot": "Hands",
@@ -197,7 +207,9 @@
      "itemId": 31375,
      "name": "Gladiator's Kodohide Gloves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31375
   },
   {
    "slot": "Waist",
@@ -221,7 +233,9 @@
      "name": "Belt of Divine Inspiration",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32800
   },
   {
    "slot": "Legs",
@@ -249,7 +263,9 @@
      "itemId": 31377,
      "name": "Gladiator's Kodohide Legguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31377
   },
   {
    "slot": "Feet",
@@ -273,7 +289,9 @@
      "name": "Boots of Blasting",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32788
   },
   {
    "slot": "Ring1",
@@ -302,7 +320,9 @@
      "name": "Veteran's Band of Salvation",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33064
   },
   {
    "slot": "Ring2",
@@ -354,7 +374,9 @@
      "itemId": 28235,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28235
   },
   {
    "slot": "Trinket2",
@@ -428,7 +450,9 @@
      "itemId": 32452,
      "name": "Gladiator's Reprieve"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32452
   },
   {
    "slot": "Ranged",

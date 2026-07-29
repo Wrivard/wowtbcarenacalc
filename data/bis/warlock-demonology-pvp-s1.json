@@ -211,7 +211,9 @@
      "itemId": 30343,
      "name": "Medallion of the Horde"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30348
   },
   {
    "slot": "Trinket2",

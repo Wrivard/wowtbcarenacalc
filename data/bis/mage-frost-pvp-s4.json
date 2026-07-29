@@ -50,7 +50,9 @@
      "name": "The Sun King's Talisman",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35132
   },
   {
    "slot": "Shoulders",
@@ -81,7 +83,9 @@
      "name": "Brute Cloak of the Ogre-Magi",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28378
   },
   {
    "slot": "Chest",
@@ -253,7 +257,9 @@
      "name": "Serpent-Coil Braid",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28238
   },
   {
    "slot": "Trinket2",

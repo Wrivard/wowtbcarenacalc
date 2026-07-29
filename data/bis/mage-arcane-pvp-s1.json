@@ -32,7 +32,9 @@
      "name": "Collar of the Aldor",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25855
   },
   {
    "slot": "Neck",
@@ -61,7 +63,9 @@
      "name": "Veteran's Pendant of Conquest",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33067
   },
   {
    "slot": "Shoulders",
@@ -80,7 +84,9 @@
      "name": "Gladiator's Silk Amice",
      "pveFlexNote": "Seen mostly above 2408 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25854
   },
   {
    "slot": "Back",
@@ -128,7 +134,9 @@
      "name": "Gladiator's Silk Raiment",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25856
   },
   {
    "slot": "Wrist",
@@ -174,7 +182,9 @@
      "name": "Gloves of the Aldor",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25857
   },
   {
    "slot": "Waist",
@@ -198,7 +208,9 @@
      "name": "Belt of Divine Inspiration",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32807
   },
   {
    "slot": "Legs",
@@ -222,7 +234,9 @@
      "name": "Gladiator's Silk Trousers",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 25858
   },
   {
    "slot": "Feet",
@@ -246,7 +260,9 @@
      "name": "Ruby Slippers",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32795
   },
   {
    "slot": "Ring1",
@@ -322,7 +338,9 @@
      "itemId": 28238,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28238
   },
   {
    "slot": "Trinket2",
@@ -417,7 +435,9 @@
      "name": "Nether Core's Control Rod",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28320
   }
  ],
  "gems": [

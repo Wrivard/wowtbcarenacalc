@@ -36,7 +36,9 @@
      "itemId": 24545,
      "name": "Gladiator's Plate Helm"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24545
   },
   {
    "slot": "Neck",
@@ -65,7 +67,9 @@
      "name": "Veteran's Pendant of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33066
   },
   {
    "slot": "Shoulders",
@@ -89,7 +93,9 @@
      "name": "Pauldrons of the Wardancer",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24546
   },
   {
    "slot": "Back",
@@ -112,7 +118,9 @@
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28377
   },
   {
    "slot": "Chest",
@@ -135,7 +143,9 @@
      "name": "Bloodsea Brigand's Vest",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24544
   },
   {
    "slot": "Wrist",
@@ -154,7 +164,9 @@
      "name": "Veteran's Plate Bracers",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32818
   },
   {
    "slot": "Hands",
@@ -177,7 +189,9 @@
      "itemId": 24549,
      "name": "Gladiator's Plate Gauntlets"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24549
   },
   {
    "slot": "Waist",
@@ -201,7 +215,9 @@
      "name": "Belt of One-Hundred Deaths",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32805
   },
   {
    "slot": "Legs",
@@ -229,7 +245,9 @@
      "itemId": 24547,
      "name": "Gladiator's Plate Legguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 24547
   },
   {
    "slot": "Feet",
@@ -248,7 +266,9 @@
      "name": "Veteran's Plate Greaves",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32793
   },
   {
    "slot": "Ring1",
@@ -277,7 +297,9 @@
      "name": "Veteran's Band of Triumph",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33057
   },
   {
    "slot": "Ring2",
@@ -329,7 +351,9 @@
      "itemId": 30344,
      "name": "Medallion of the Horde"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30344
   },
   {
    "slot": "Trinket2",

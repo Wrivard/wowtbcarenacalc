@@ -32,7 +32,9 @@
      "name": "Collar of the Aldor",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35097
   },
   {
    "slot": "Neck",
@@ -60,7 +62,9 @@
      "itemId": 35132,
      "name": "Guardian's Pendant of Conquest"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35132
   },
   {
    "slot": "Shoulders",
@@ -79,7 +83,9 @@
      "name": "Brutal Gladiator's Silk Amice",
      "pveFlexNote": "Seen mostly above 2408 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35096
   },
   {
    "slot": "Back",
@@ -127,7 +133,9 @@
      "name": "Brutal Gladiator's Silk Raiment",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35099
   },
   {
    "slot": "Wrist",
@@ -172,7 +180,9 @@
      "name": "Gloves of the Aldor",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35098
   },
   {
    "slot": "Waist",
@@ -196,7 +206,9 @@
      "name": "Belt of Divine Inspiration",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35164
   },
   {
    "slot": "Legs",
@@ -220,7 +232,9 @@
      "name": "Brutal Gladiator's Silk Trousers",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35100
   },
   {
    "slot": "Feet",
@@ -244,7 +258,9 @@
      "name": "Ruby Slippers",
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35149
   },
   {
    "slot": "Ring1",
@@ -320,7 +336,9 @@
      "itemId": 28238,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28238
   },
   {
    "slot": "Trinket2",
@@ -415,7 +433,9 @@
      "name": "Nether Core's Control Rod",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 35107
   }
  ],
  "gems": [

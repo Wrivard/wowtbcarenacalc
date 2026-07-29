@@ -36,7 +36,9 @@
      "name": "Magnified Moon Specs",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33691
   },
   {
    "slot": "Neck",
@@ -64,7 +66,9 @@
      "itemId": 33922,
      "name": "Vindicator's Pendant of Salvation"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33922
   },
   {
    "slot": "Shoulders",
@@ -92,7 +96,9 @@
      "itemId": 33693,
      "name": "Vengeful Gladiator's Kodohide Spaulders"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33693
   },
   {
    "slot": "Back",
@@ -144,7 +150,9 @@
      "itemId": 33694,
      "name": "Vengeful Gladiator's Kodohide Tunic"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33694
   },
   {
    "slot": "Wrist",
@@ -167,7 +175,9 @@
      "itemId": 33887,
      "name": "Vindicator's Kodohide Bracers"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33887
   },
   {
    "slot": "Hands",
@@ -195,7 +205,9 @@
      "itemId": 33690,
      "name": "Vengeful Gladiator's Kodohide Gloves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33690
   },
   {
    "slot": "Waist",
@@ -218,7 +230,9 @@
      "name": "Belt of Divine Inspiration",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33885
   },
   {
    "slot": "Legs",
@@ -246,7 +260,9 @@
      "itemId": 33692,
      "name": "Vengeful Gladiator's Kodohide Legguards"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33692
   },
   {
    "slot": "Feet",
@@ -269,7 +285,9 @@
      "name": "Boots of Blasting",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33886
   },
   {
    "slot": "Ring1",
@@ -297,7 +315,9 @@
      "itemId": 33918,
      "name": "Vindicator's Band of Salvation"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33918
   },
   {
    "slot": "Ring2",
@@ -349,7 +369,9 @@
      "itemId": 28235,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28235
   },
   {
    "slot": "Trinket2",
@@ -423,7 +445,9 @@
      "itemId": 33736,
      "name": "Vengeful Gladiator's Reprieve"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33736
   },
   {
    "slot": "Ranged",

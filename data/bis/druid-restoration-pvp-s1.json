@@ -262,7 +262,9 @@
      "name": "Essence of the Martyr",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 28241
   },
   {
    "slot": "Trinket2",

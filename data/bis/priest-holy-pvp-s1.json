@@ -56,7 +56,9 @@
      "name": "Veteran's Pendant of Salvation",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33068
   },
   {
    "slot": "Shoulders",
@@ -79,7 +81,9 @@
      "name": "Primal Mooncloth Shoulders",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31412
   },
   {
    "slot": "Back",
@@ -121,7 +125,9 @@
      "itemId": 31413,
      "name": "Gladiator's Mooncloth Robe"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31413
   },
   {
    "slot": "Wrist",
@@ -145,7 +151,9 @@
      "name": "Bindings of the Timewalker",
      "pveFlexNote": "PvE flex piece."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32980
   },
   {
    "slot": "Hands",
@@ -168,7 +176,9 @@
      "itemId": 31409,
      "name": "Gladiator's Mooncloth Gloves"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31409
   },
   {
    "slot": "Waist",
@@ -192,7 +202,9 @@
      "name": "Veteran's Mooncloth Belt",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 32979
   },
   {
    "slot": "Legs",
@@ -215,7 +227,9 @@
      "itemId": 31411,
      "name": "Gladiator's Mooncloth Leggings"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 31411
   },
   {
    "slot": "Feet",
@@ -263,7 +277,9 @@
      "name": "Veteran's Band of Salvation",
      "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 33064
   },
   {
    "slot": "Ring2",
@@ -315,7 +331,9 @@
      "itemId": 30349,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30349
   },
   {
    "slot": "Trinket2",

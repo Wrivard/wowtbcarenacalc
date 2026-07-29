@@ -174,7 +174,9 @@
      "itemId": 30348,
      "name": "Medallion of the Alliance"
     }
-   ]
+   ],
+   "raidPick": true,
+   "resilienceAlt": 30343
   },
   {
    "slot": "Trinket2",
