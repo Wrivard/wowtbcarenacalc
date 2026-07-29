@@ -3,13 +3,14 @@ import { SITE_URL } from "@/lib/site";
 import { CLASSES, allSpecs } from "@/lib/classes";
 import { filledBisRoutes } from "@/lib/bis";
 import { getBuild } from "@/data/builds";
-import { COMPS, COMPS_UPDATED, compSlug } from "@/data/comps";
+import { COMPS, compSlug } from "@/data/comps";
 import { BRACKETS as SEO_BRACKETS, bracketsForClass, classCombos, comboSlug } from "@/lib/comps-seo";
 import { getBestRace } from "@/data/bestRace";
 import { PROFESSIONS } from "@/data/professions";
 import { RAIDS, BOSSES, populatedPhases } from "@/data/raids";
 import { SPEC_GUIDES } from "@/data/specGuides";
 import { NON_DEFAULT_TIERS } from "@/data/rankings";
+import CONTENT_DATES from "@/data/contentDates.json";
 
 // Enumerates every indexable route from lib/classes.ts + the data
 // registries. BiS/talent pages whose dataset isn't curated yet render
@@ -17,63 +18,86 @@ import { NON_DEFAULT_TIERS } from "@/data/rankings";
 // they join the sitemap automatically the moment their data file lands
 // in the registry (full matrix ≈ 150+ URLs when all specs are filled).
 
+/**
+ * When a route's content last changed, from data/contentDates.json — the git
+ * date of the data and components it is built from, refreshed by
+ * scripts/build-content-dates.mjs.
+ *
+ * Two earlier attempts were both wrong in different directions. `new Date()`
+ * stamped 488 of 804 URLs with the build time, so every deploy claimed the
+ * whole site had changed. Replacing it with each dataset's own `updatedAt`
+ * stopped the lie but measured the wrong thing: that field is the date the
+ * upstream SNAPSHOT was taken, so on 2026-07-29 the 140 PvE pages advertised
+ * 2026-05-22 while their files had been rewritten that morning, and 436 URLs
+ * carried no lastmod at all.
+ */
+const routeDate = (p: string): Date | undefined => {
+  const d = (CONTENT_DATES.routes as Record<string, string>)[p];
+  return d ? new Date(d) : undefined;
+};
+const familyDate = (f: keyof typeof CONTENT_DATES.families): Date =>
+  new Date(CONTENT_DATES.families[f]);
+
+/**
+ * Authored content keeps its own `updatedAt` — for a hand-written guide that
+ * really is the day the text changed, not a snapshot date. But it goes stale
+ * the moment the template around it changes, so take whichever is later.
+ */
+const later = (a: Date, b: Date): Date => (a > b ? a : b);
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Entries below carry `lastModified` ONLY when a real content timestamp
-  // exists (a BiS list's updatedAt, a guide's, a build's, COMPS_UPDATED).
-  //
-  // It used to default to `new Date()`, which stamped 488 of 804 URLs with the
-  // build time — every deploy told Google the whole site had just changed,
-  // including pages untouched for months. Google discounts lastmod it finds
-  // unreliable, so the false majority was devaluing the honest minority.
-  // An omitted lastmod reads as "unknown", which is true; a wrong one is not.
+  const comps = familyDate("comps");
+  const raids = familyDate("raids");
+  const classes = familyDate("classes");
   const entries: MetadataRoute.Sitemap = [
-    { url: SITE_URL,
+    { url: SITE_URL, lastModified: routeDate("/"),
       changeFrequency: "weekly", priority: 1 },
-    { url: `${SITE_URL}/arena-points-calculator`,
+    { url: `${SITE_URL}/arena-points-calculator`, lastModified: routeDate("/arena-points-calculator"),
       changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/pvp`,
+    { url: `${SITE_URL}/pvp`, lastModified: routeDate("/pvp"),
       changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/pve`,
+    { url: `${SITE_URL}/pve`, lastModified: routeDate("/pve"),
       changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/classes`,
+    { url: `${SITE_URL}/classes`, lastModified: routeDate("/classes"),
       changeFrequency: "weekly", priority: 0.8 },
-    { url: `${SITE_URL}/talent-calculator`,
+    { url: `${SITE_URL}/talent-calculator`, lastModified: routeDate("/talent-calculator"),
       changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/arena`,
+    { url: `${SITE_URL}/arena`, lastModified: routeDate("/arena"),
       changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/arena/comps`,
+    { url: `${SITE_URL}/arena/comps`, lastModified: routeDate("/arena/comps"),
       changeFrequency: "weekly", priority: 0.8 },
-    { url: `${SITE_URL}/guides`,
+    { url: `${SITE_URL}/guides`, lastModified: routeDate("/guides"),
       changeFrequency: "weekly", priority: 0.7 },
-    { url: `${SITE_URL}/guides/professions`,
+    { url: `${SITE_URL}/guides/professions`, lastModified: routeDate("/guides/professions"),
       changeFrequency: "monthly", priority: 0.6 },
-    { url: `${SITE_URL}/guides/addons`,
+    { url: `${SITE_URL}/guides/addons`, lastModified: routeDate("/guides/addons"),
       changeFrequency: "monthly", priority: 0.6 },
-    { url: `${SITE_URL}/raids`,
+    { url: `${SITE_URL}/raids`, lastModified: routeDate("/raids"),
       changeFrequency: "weekly", priority: 0.8 },
     // Only canonical bare paths belong in the sitemap — the ?tier=/?bracket=
     // filtered views canonicalize back to these, so listing the params would
     // submit URLs that declare themselves non-canonical.
-    { url: `${SITE_URL}/class-rankings`,
+    { url: `${SITE_URL}/class-rankings`, lastModified: classes,
       changeFrequency: "weekly", priority: 0.8 },
     // Per-tier static DPS-ranking pages (every tier except the default one,
     // whose content is the hub above). Same source as the [tier] route's
     // generateStaticParams, so sitemap and routes can't drift.
     ...NON_DEFAULT_TIERS.map((t) => ({
       url: `${SITE_URL}/class-rankings/${t.slug}`,
+      lastModified: classes,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
     // /leaderboard is deliberately absent: it renders noindex until the live
     // Blizzard feed lands. Submitting a noindex URL is a self-contradiction
     // Search Console reports as an error.
-    { url: `${SITE_URL}/about`,
+    { url: `${SITE_URL}/about`, lastModified: routeDate("/about"),
       changeFrequency: "monthly", priority: 0.4 },
-    { url: `${SITE_URL}/contact`,
+    { url: `${SITE_URL}/contact`, lastModified: routeDate("/contact"),
       changeFrequency: "monthly", priority: 0.3 },
-    { url: `${SITE_URL}/privacy-policy`,
+    { url: `${SITE_URL}/privacy-policy`, lastModified: routeDate("/privacy-policy"),
       changeFrequency: "monthly", priority: 0.2 },
-    { url: `${SITE_URL}/terms`,
+    { url: `${SITE_URL}/terms`, lastModified: routeDate("/terms"),
       changeFrequency: "monthly", priority: 0.2 },
   ];
 
@@ -83,11 +107,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const cls of CLASSES) {
     entries.push({
       url: `${SITE_URL}/${cls.slug}`,
+      lastModified: classes,
       changeFrequency: "weekly",
       priority: 0.8,
     });
     entries.push({
       url: `${SITE_URL}/talent-calculator/${cls.slug}`,
+      lastModified: familyDate("talentCalc"),
       changeFrequency: "monthly",
       priority: 0.8,
     });
@@ -95,6 +121,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const spec of cls.specs) {
       entries.push({
         url: `${SITE_URL}/${cls.slug}/${spec.slug}`,
+        lastModified: routeDate(`/${cls.slug}/${spec.slug}`),
         changeFrequency: "weekly",
         priority: 0.7,
       });
@@ -113,19 +140,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
     entries.push({
       url: `${SITE_URL}${path}`,
-      lastModified: new Date(route.updatedAt),
+      lastModified: routeDate(path),
       changeFrequency: "weekly",
       priority: route.seasonPage ? 0.6 : 0.7,
     });
   }
 
-  // Arena comp guide pages — one per comp. COMPS_UPDATED is a real content
-  // timestamp, so these keep a lastmod.
-  const compsUpdated = new Date(COMPS_UPDATED);
+  // Arena comp guide pages — one per comp.
   for (const comp of COMPS) {
     entries.push({
       url: `${SITE_URL}/arena/comps/${comp.bracket}/${compSlug(comp)}`,
-      lastModified: compsUpdated,
+      lastModified: comps,
       changeFrequency: "weekly",
       priority: 0.7,
     });
@@ -137,6 +162,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const b of SEO_BRACKETS) {
     entries.push({
       url: `${SITE_URL}/arena/comps/${b}`,
+      lastModified: comps,
       changeFrequency: "weekly",
       priority: 0.7,
     });
@@ -146,12 +172,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (classBrackets.length === 0) continue; // no comps for this class → no facet page
     entries.push({
       url: `${SITE_URL}/arena/comps/class/${cls.slug}`,
+      lastModified: comps,
       changeFrequency: "weekly",
       priority: 0.6,
     });
     for (const b of classBrackets) {
       entries.push({
         url: `${SITE_URL}/arena/comps/${b}/class/${cls.slug}`,
+        lastModified: comps,
         changeFrequency: "weekly",
         priority: 0.6,
       });
@@ -165,6 +193,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const combo of classCombos()) {
     entries.push({
       url: `${SITE_URL}/arena/comps/class/${comboSlug(combo)}`,
+      lastModified: comps,
       changeFrequency: "weekly",
       priority: 0.5,
     });
@@ -173,6 +202,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const combo of classCombos(b)) {
       entries.push({
         url: `${SITE_URL}/arena/comps/${b}/class/${comboSlug(combo)}`,
+        lastModified: comps,
         changeFrequency: "weekly",
         priority: 0.5,
       });
@@ -183,6 +213,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const cls of CLASSES) {
     entries.push({
       url: `${SITE_URL}/guides/${cls.slug}`,
+      lastModified: classes,
       changeFrequency: "weekly",
       priority: 0.6,
     });
@@ -192,7 +223,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const g of SPEC_GUIDES) {
     entries.push({
       url: `${SITE_URL}/guides/${g.class}/${g.spec}/${g.content}`,
-      lastModified: new Date(g.updatedAt),
+      lastModified: later(new Date(g.updatedAt), familyDate("guides")),
       changeFrequency: "monthly",
       priority: 0.7,
     });
@@ -203,12 +234,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (getBestRace(cls.slug)) {
       entries.push({
         url: `${SITE_URL}/guides/best-race/${cls.slug}`,
+        lastModified: classes,
         changeFrequency: "monthly",
         priority: 0.6,
       });
     }
     entries.push({
       url: `${SITE_URL}/guides/addons/${cls.slug}`,
+      lastModified: familyDate("addons"),
       changeFrequency: "monthly",
       priority: 0.5,
     });
@@ -218,6 +251,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const p of PROFESSIONS) {
     entries.push({
       url: `${SITE_URL}/guides/professions/${p.slug}`,
+      lastModified: familyDate("professions"),
       changeFrequency: "monthly",
       priority: 0.5,
     });
@@ -227,6 +261,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const phase of populatedPhases()) {
     entries.push({
       url: `${SITE_URL}/raids/phase-${phase}`,
+      lastModified: raids,
       changeFrequency: "monthly",
       priority: 0.6,
     });
@@ -234,6 +269,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const raid of RAIDS) {
     entries.push({
       url: `${SITE_URL}/raids/phase-${raid.phase}/${raid.id}`,
+      lastModified: raids,
       changeFrequency: "monthly",
       priority: 0.6,
     });
@@ -241,6 +277,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const boss of BOSSES) {
     entries.push({
       url: `${SITE_URL}/raids/phase-${boss.phase}/${boss.raidId}/${boss.id}`,
+      lastModified: raids,
       changeFrequency: "monthly",
       priority: 0.6,
     });
@@ -252,7 +289,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (!build) continue;
     entries.push({
       url: `${SITE_URL}/${cls.slug}/${spec.slug}/talents`,
-      lastModified: new Date(build.updatedAt),
+      lastModified: later(new Date(build.updatedAt), familyDate("builds")),
       changeFrequency: "monthly",
       priority: 0.7,
     });
