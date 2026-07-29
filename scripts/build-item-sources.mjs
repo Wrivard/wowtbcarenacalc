@@ -33,13 +33,24 @@ const RAID_ZONES = {
   3607: "Serpentshrine Cavern", 3845: "Tempest Keep: The Eye",
   3606: "Hyjal Summit", 3959: "Black Temple", 3805: "Zul'Aman",
   4075: "Sunwell Plateau",
+  // Vanilla raids, still entered in TBC (and Naxxramas only until 2.0.1).
+  // Top parsers hold legacy pieces from all of these.
+  2717: "Molten Core", 2677: "Blackwing Lair", 3428: "Ahn'Qiraj Temple",
+  3456: "Naxxramas (original)",
 };
 const DUNGEON_ZONES = {
   3562: "Hellfire Ramparts", 3713: "The Blood Furnace", 3714: "The Shattered Halls",
   3717: "The Slave Pens", 3716: "The Underbog", 3715: "The Steamvault",
   3789: "Shadow Labyrinth", 3790: "Sethekk Halls", 3791: "Mana-Tombs",
   3792: "Auchenai Crypts", 3847: "The Botanica", 3848: "The Mechanar",
-  3849: "The Arcatraz", 3791.5: "Coilfang", 4076: "Magisters' Terrace",
+  3849: "The Arcatraz",
+  // Caverns of Time wings and Magisters' Terrace — TBC dungeons that were
+  // missing outright. Magisters' Terrace was listed as 4076, an id that
+  // never appears in the data; Priestess Delrissa reports 4131.
+  2366: "The Black Morass", 2367: "Old Hillsbrad Foothills",
+  4131: "Magisters' Terrace",
+  // Vanilla dungeons still farmed in TBC, mostly for holiday-event bosses.
+  1584: "Blackrock Depths", 796: "Scarlet Monastery", 2017: "Stratholme",
 };
 const OPEN_ZONES = {
   3702: "Hellfire Peninsula", 3483: "Hellfire Peninsula", 3518: "Nagrand",
@@ -48,6 +59,8 @@ const OPEN_ZONES = {
   3525: "Bloodmyst Isle", 3430: "Eversong Woods", 3433: "Ghostlands",
   3487: "Silvermoon City", 3703: "Shattrath City", 4080: "Isle of Quel'Danas",
   1519: "Stormwind City", 1637: "Orgrimmar",
+  // Caverns of Time hub, and Tanaris for the Keepers of Time quartermaster.
+  1941: "Caverns of Time", 440: "Tanaris",
 };
 function zoneName(z) {
   return RAID_ZONES[z] ?? DUNGEON_ZONES[z] ?? OPEN_ZONES[z] ?? null;
