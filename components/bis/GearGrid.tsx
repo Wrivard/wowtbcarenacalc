@@ -11,7 +11,13 @@
 // crawlers. The only JS left is the analytics ping on open.
 
 import Link from "next/link";
-import { ChevronDown, TriangleAlert, MapPin, ShieldOff } from "lucide-react";
+import {
+  ChevronDown,
+  TriangleAlert,
+  MapPin,
+  ShieldOff,
+  Shield,
+} from "lucide-react";
 import type { BisSlot } from "@/lib/bis";
 import { ItemLink } from "@/components/ItemLink";
 import { getItemSource, formatItemSource } from "@/data/itemSources";
@@ -70,11 +76,15 @@ export function GearGrid({
   slots,
   specKey,
   content,
+  role,
 }: {
   slots: BisSlot[];
   specKey: string;
   content: "pvp" | "pve";
+  /** Decides how a PvE resilience row reads — see resilienceNote below. */
+  role?: string;
 }) {
+  const isTank = role === "Tank";
   return (
     <div className="overflow-hidden rounded-xl border border-border">
       {slots.map((row) => {
@@ -89,6 +99,16 @@ export function GearGrid({
         const resilienceAlt = row.alternatives.find(
           (a) => a.itemId === row.resilienceAlt,
         );
+
+        // The PvE mirror of the raid warning, and it has to cut both ways.
+        // Resilience reduces your chance to be critically hit by NPCs in TBC,
+        // so a tank wearing arena gear is buying crit immunity with it, while
+        // a mage in the same bracers is carrying a stat that does nothing.
+        // Same item, opposite verdict — never one blanket warning.
+        const pveResi = content === "pve" ? row.bis.resilience : undefined;
+        const cleanAlt = pveResi
+          ? row.alternatives.find((a) => !a.resilience)
+          : undefined;
 
         const line = (
           <>
@@ -108,6 +128,24 @@ export function GearGrid({
               >
                 <ShieldOff className="size-2.5" aria-hidden />
                 No resilience
+              </span>
+            )}
+            {pveResi !== undefined && (
+              <span
+                className={cn(
+                  "hidden shrink-0 items-center gap-1 rounded-md border px-1.5 py-0.5 font-mono text-[9px] tracking-wider uppercase sm:inline-flex",
+                  isTank
+                    ? "border-accent/30 bg-accent/10 text-accent"
+                    : "border-amber-500/30 bg-amber-500/10 text-amber-500/90",
+                )}
+                title={
+                  isTank
+                    ? `${pveResi} resilience — counts toward crit immunity`
+                    : `${pveResi} resilience — does nothing in PvE`
+                }
+              >
+                <Shield className="size-2.5" aria-hidden />
+                {pveResi} resi
               </span>
             )}
             {row.bis.usagePct !== undefined && (
@@ -146,6 +184,36 @@ export function GearGrid({
           </div>
         );
 
+        const resilienceNote = pveResi !== undefined && (
+          <div
+            className={cn(
+              "flex items-start gap-2 border-t px-3 py-2 text-[11px] leading-relaxed sm:px-4",
+              isTank
+                ? "border-accent/20 bg-accent/[0.06] text-accent/90"
+                : "border-amber-500/20 bg-amber-500/[0.06] text-amber-500/90",
+            )}
+          >
+            <Shield className="mt-0.5 size-3.5 shrink-0" aria-hidden />
+            {isTank ? (
+              <span>
+                Carries {pveResi} resilience. In TBC that reduces your chance
+                to be critically hit by bosses too, so it counts toward crit
+                immunity and frees up the defence you would otherwise need
+                elsewhere — which is why tanks raid in arena gear.
+              </span>
+            ) : (
+              <span>
+                Carries {pveResi} resilience, which does nothing in PvE — that
+                much of its budget is dead on a raid boss. Top parsers wear it
+                anyway because the rest of the item still wins the slot
+                {cleanAlt
+                  ? `; ${cleanAlt.name} is the closest option without it.`
+                  : "."}
+              </span>
+            )}
+          </div>
+        );
+
         if (!expandable) {
           return (
             <div
@@ -157,6 +225,7 @@ export function GearGrid({
                 <span className="size-3.5 shrink-0" aria-hidden />
               </div>
               {warning}
+              {resilienceNote}
             </div>
           );
         }
@@ -186,6 +255,7 @@ export function GearGrid({
               />
             </summary>
             {warning}
+            {resilienceNote}
             <ul className="space-y-2 border-t border-border/60 bg-background px-3 py-2.5 sm:pl-[6.25rem]">
               {hasSource && (
                 <li className="flex flex-col gap-0.5 pb-1">

@@ -365,7 +365,8 @@
    "bis": {
     "itemId": 28307,
     "name": "Gladiator's Quickblade",
-    "usagePct": 6
+    "usagePct": 6,
+    "resilience": 10
    },
    "alternatives": [
     {
@@ -401,7 +402,8 @@
     {
      "itemId": 32054,
      "name": "Merciless Gladiator's War Edge",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 12
     }
    ]
   }

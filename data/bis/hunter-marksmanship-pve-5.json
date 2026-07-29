@@ -31,7 +31,8 @@
     {
      "itemId": 34992,
      "name": "Brutal Gladiator's Chain Helm",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 22
     }
    ]
   },
@@ -86,7 +87,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 22
+     "usagePct": 22,
+     "resilience": 20
     },
     {
      "itemId": 32323,

@@ -272,7 +272,8 @@
     {
      "itemId": 33762,
      "name": "Vengeful Gladiator's Slicer",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 12
     }
    ]
   },

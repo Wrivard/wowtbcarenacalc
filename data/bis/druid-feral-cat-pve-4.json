@@ -26,7 +26,8 @@
     {
      "itemId": 33672,
      "name": "Vengeful Gladiator's Dragonhide Helm",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 25
     }
    ]
   },
@@ -85,7 +86,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 20
     }
    ]
   },
@@ -103,7 +105,8 @@
    "bis": {
     "itemId": 33881,
     "name": "Vindicator's Dragonhide Bracers",
-    "usagePct": 90
+    "usagePct": 90,
+    "resilience": 17
    },
    "alternatives": [
     {
@@ -172,7 +175,8 @@
     {
      "itemId": 33880,
      "name": "Vindicator's Dragonhide Boots",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 26
     }
    ]
   },
@@ -271,7 +275,8 @@
    "bis": {
     "itemId": 33716,
     "name": "Vengeful Gladiator's Staff",
-    "usagePct": 40
+    "usagePct": 40,
+    "resilience": 33
    },
    "alternatives": [
     {
@@ -282,7 +287,8 @@
     {
      "itemId": 32014,
      "name": "Merciless Gladiator's Maul",
-     "usagePct": 23
+     "usagePct": 23,
+     "resilience": 33
     }
    ]
   },

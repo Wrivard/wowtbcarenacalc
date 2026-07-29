@@ -96,7 +96,8 @@
     {
      "itemId": 24258,
      "name": "Resolute Cape",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 21
     }
    ]
   },
@@ -125,23 +126,27 @@
    "bis": {
     "itemId": 28445,
     "name": "General's Dragonhide Bracers",
-    "usagePct": 29
+    "usagePct": 29,
+    "resilience": 11
    },
    "alternatives": [
     {
      "itemId": 28424,
      "name": "General's Leather Bracers",
-     "usagePct": 18
+     "usagePct": 18,
+     "resilience": 13
     },
     {
      "itemId": 28978,
      "name": "Marshal's Dragonhide Bracers",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 11
     },
     {
      "itemId": 28988,
      "name": "Marshal's Leather Bracers",
-     "usagePct": 10
+     "usagePct": 10,
+     "resilience": 13
     }
    ]
   },
@@ -170,7 +175,8 @@
    "bis": {
     "itemId": 28423,
     "name": "General's Leather Belt",
-    "usagePct": 31
+    "usagePct": 31,
+    "resilience": 26
    },
    "alternatives": [
     {
@@ -181,7 +187,8 @@
     {
      "itemId": 28986,
      "name": "Marshal's Leather Belt",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 26
     },
     {
      "itemId": 29264,
@@ -231,7 +238,8 @@
     {
      "itemId": 28422,
      "name": "General's Leather Boots",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 26
     },
     {
      "itemId": 25691,
@@ -261,7 +269,8 @@
     {
      "itemId": 28553,
      "name": "Band of the Exorcist",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 11
     }
    ]
   },
@@ -281,7 +290,8 @@
     {
      "itemId": 28553,
      "name": "Band of the Exorcist",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 11
     }
    ]
   },
@@ -301,7 +311,8 @@
     {
      "itemId": 29181,
      "name": "Timelapse Shard",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 24
     },
     {
      "itemId": 19406,
@@ -321,7 +332,8 @@
     {
      "itemId": 29181,
      "name": "Timelapse Shard",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 24
     },
     {
      "itemId": 19406,
@@ -346,7 +358,8 @@
     {
      "itemId": 28476,
      "name": "Gladiator's Maul",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 28
     }
    ]
   },

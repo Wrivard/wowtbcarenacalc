@@ -146,7 +146,8 @@
     {
      "itemId": 33897,
      "name": "Vindicator's Mail Bracers",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 15
     }
    ]
   },

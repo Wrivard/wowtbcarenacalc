@@ -381,7 +381,8 @@
     {
      "itemId": 28308,
      "name": "Gladiator's Cleaver",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 10
     },
     {
      "itemId": 31139,

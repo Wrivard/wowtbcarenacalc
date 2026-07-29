@@ -366,7 +366,8 @@
     {
      "itemId": 32964,
      "name": "Merciless Gladiator's Salvation",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 21
     }
    ]
   },

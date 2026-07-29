@@ -101,7 +101,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 18
+     "usagePct": 18,
+     "resilience": 20
     },
     {
      "itemId": 32323,

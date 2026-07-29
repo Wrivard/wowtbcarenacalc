@@ -46,7 +46,8 @@
     {
      "itemId": 35319,
      "name": "Vindicator's Pendant of Subjugation",
-     "usagePct": 17
+     "usagePct": 17,
+     "resilience": 18
     },
     {
      "itemId": 24121,
@@ -294,7 +295,8 @@
     {
      "itemId": 33687,
      "name": "Vengeful Gladiator's Gavel",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 18
     },
     {
      "itemId": 32237,

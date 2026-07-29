@@ -96,6 +96,43 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+const DB_CSV = path.join(process.cwd(), "assets", "wowsims-item-tooltips.csv");
+
+/**
+ * Equip resilience per item id, from the local wowsims database.
+ *
+ * Read off the item's own stats rather than from any "is this PvP gear"
+ * flag. The upstream PvP snapshot has such a flag, but it means "has
+ * resilience", not "comes from an arena vendor" — it marks Aegis of the
+ * Vindicator, a Magtheridon drop. Source and stat are different questions,
+ * and the stat is the one that matters here.
+ *
+ * Only the Equip line counts. A socket bonus reading "+2 Resilience Rating"
+ * is a property of the gem you choose, not of the item.
+ */
+async function loadResilience() {
+  const raw = (await readFile(DB_CSV, "utf8")).split(/\r?\n/);
+  const byId = new Map();
+  for (let i = 1; i < raw.length; i++) {
+    const line = raw[i];
+    if (!line) continue;
+    const c1 = line.indexOf(",");
+    const c2 = line.indexOf(",", c1 + 1);
+    try {
+      const o = JSON.parse(line.slice(c2 + 1));
+      const text = (o.tooltip ?? "")
+        .replace(/<[^>]+>/g, " ")
+        .replace(/&nbsp;/g, " ")
+        .replace(/\s+/g, " ");
+      const m = /resilience rating by (\d+)/i.exec(text);
+      if (m) byId.set(Number(line.slice(0, c1)), Number(m[1]));
+    } catch {
+      // skip unparseable row
+    }
+  }
+  return byId;
+}
+
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: { "user-agent": "wowtbcarenacalc-data-build (contact: site owner)" },
@@ -139,6 +176,9 @@ async function main() {
   const data = JSON.parse(raw.slice(raw.indexOf("{"), raw.lastIndexOf("}") + 1));
   const updatedAt = data.meta.scrapedAt.slice(0, 10);
   const newItemIds = new Set();
+  const resilience = await loadResilience();
+  console.log(`resilience db: ${resilience.size} items`);
+  let resiSlots = 0;
 
   for (const [phase, specs] of Object.entries(data.phases)) {
     for (const [key, spec] of Object.entries(specs)) {
@@ -157,13 +197,26 @@ async function main() {
         if (!items.length) continue;
         const slot = SLOT_NAME[rawSlot] ?? rawSlot;
         const [bis, ...alts] = items;
+        // Resilience does nothing to a boss's damage, but it does reduce
+        // your chance to be critically hit BY one — in TBC that applies to
+        // NPCs, unlike WotLK. So the same number is a crit-immunity tool for
+        // a tank and dead weight for everyone else. Record the amount and
+        // let the page, which knows the spec's role, say which.
+        const resi = resilience.get(bis.id);
+        if (resi) resiSlots++;
         slots[slot] = {
           slot,
-          bis: { itemId: bis.id, name: bis.name, usagePct: bis.popularity },
+          bis: {
+            itemId: bis.id,
+            name: bis.name,
+            usagePct: bis.popularity,
+            ...(resi ? { resilience: resi } : {}),
+          },
           alternatives: alts.slice(0, 3).map((a) => ({
             itemId: a.id,
             name: a.name,
             usagePct: a.popularity,
+            ...(resilience.get(a.id) ? { resilience: resilience.get(a.id) } : {}),
           })),
         };
         newItemIds.add(bis.id);
@@ -232,6 +285,7 @@ async function main() {
     }
     console.log(`phase ${phase}: done`);
   }
+  console.log(`slots leading with a resilience item: ${resiSlots}`);
 
   // Regenerate the registry by scanning every list file.
   const files = (await readdir(OUT_DIR)).filter((f) => f.endsWith(".json"));
@@ -241,9 +295,15 @@ async function main() {
     const content = JSON.parse(
       await readFile(path.join(OUT_DIR, files[i]), "utf8"),
     );
+    // Season pages must key on their season. This script predates them, so
+    // it used to fold all four onto `<class>/<spec>/pvp` — 72 duplicate keys
+    // in a typed object literal, which only shows up as a tsc error after
+    // the fact. Keep this in step with build-pvp-seasons.mjs.
     const key =
       content.content === "pvp"
-        ? `${content.class}/${content.spec}/pvp`
+        ? content.seasonPage
+          ? `${content.class}/${content.spec}/pvp/s${content.season}`
+          : `${content.class}/${content.spec}/pvp`
         : `${content.class}/${content.spec}/pve/${content.phase}`;
     imports.push(`import list${i} from "@/data/bis/${files[i]}";`);
     entries.push(` "${key}": list${i} as BisList,`);

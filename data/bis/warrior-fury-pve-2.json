@@ -375,7 +375,8 @@
     {
      "itemId": 32054,
      "name": "Merciless Gladiator's War Edge",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 12
     }
    ]
   }

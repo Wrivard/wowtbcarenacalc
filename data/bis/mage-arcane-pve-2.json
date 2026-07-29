@@ -124,7 +124,8 @@
    "bis": {
     "itemId": 32820,
     "name": "Veteran's Silk Cuffs",
-    "usagePct": 38
+    "usagePct": 38,
+    "resilience": 13
    },
    "alternatives": [
     {
@@ -135,7 +136,8 @@
     {
      "itemId": 28411,
      "name": "General's Silk Cuffs",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 11
     },
     {
      "itemId": 28515,

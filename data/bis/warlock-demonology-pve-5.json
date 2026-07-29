@@ -51,7 +51,8 @@
     {
      "itemId": 37928,
      "name": "Guardian's Pendant of Subjugation",
-     "usagePct": 20
+     "usagePct": 20,
+     "resilience": 18
     },
     {
      "itemId": 34359,

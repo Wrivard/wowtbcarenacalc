@@ -141,7 +141,8 @@
     {
      "itemId": 33881,
      "name": "Vindicator's Dragonhide Bracers",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 17
     },
     {
      "itemId": 32580,
@@ -320,7 +321,8 @@
    "bis": {
     "itemId": 32027,
     "name": "Merciless Gladiator's Quickblade",
-    "usagePct": 59
+    "usagePct": 59,
+    "resilience": 12
    },
    "alternatives": [
     {

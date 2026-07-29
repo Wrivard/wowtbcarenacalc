@@ -386,7 +386,8 @@
     {
      "itemId": 32003,
      "name": "Merciless Gladiator's Fleshslicer",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 12
     }
    ]
   },

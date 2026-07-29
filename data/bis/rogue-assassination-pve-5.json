@@ -101,7 +101,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 10
+     "usagePct": 10,
+     "resilience": 20
     }
    ]
   },
@@ -291,6 +292,11 @@
      "usagePct": 14
     },
     {
+     "itemId": 32837,
+     "name": "Warglaive of Azzinoth",
+     "usagePct": 9
+    },
+    {
      "itemId": 34197,
      "name": "Shiv of Exsanguination",
      "usagePct": 3
@@ -309,6 +315,11 @@
      "itemId": 32471,
      "name": "Shard of Azzinoth",
      "usagePct": 13
+    },
+    {
+     "itemId": 32838,
+     "name": "Warglaive of Azzinoth",
+     "usagePct": 10
     }
    ]
   },

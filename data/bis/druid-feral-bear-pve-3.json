@@ -36,7 +36,8 @@
     {
      "itemId": 33672,
      "name": "Vengeful Gladiator's Dragonhide Helm",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 25
     }
    ]
   },
@@ -45,7 +46,8 @@
    "bis": {
     "itemId": 33923,
     "name": "Vindicator's Pendant of Triumph",
-    "usagePct": 57
+    "usagePct": 57,
+    "resilience": 18
    },
    "alternatives": [
     {
@@ -56,7 +58,8 @@
     {
      "itemId": 33066,
      "name": "Veteran's Pendant of Triumph",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 18
     },
     {
      "itemId": 31074,
@@ -86,7 +89,8 @@
     {
      "itemId": 31971,
      "name": "Merciless Gladiator's Dragonhide Spaulders",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 21
     }
    ]
   },
@@ -140,13 +144,15 @@
    "bis": {
     "itemId": 33881,
     "name": "Vindicator's Dragonhide Bracers",
-    "usagePct": 91
+    "usagePct": 91,
+    "resilience": 17
    },
    "alternatives": [
     {
      "itemId": 32810,
      "name": "Veteran's Dragonhide Bracers",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 17
     }
    ]
   },
@@ -196,7 +202,8 @@
     {
      "itemId": 33879,
      "name": "Vindicator's Dragonhide Belt",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 26
     }
    ]
   },
@@ -225,7 +232,8 @@
    "bis": {
     "itemId": 33880,
     "name": "Vindicator's Dragonhide Boots",
-    "usagePct": 44
+    "usagePct": 44,
+    "resilience": 26
    },
    "alternatives": [
     {
@@ -236,7 +244,8 @@
     {
      "itemId": 32790,
      "name": "Veteran's Leather Boots",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 30
     },
     {
      "itemId": 30041,
@@ -345,7 +354,8 @@
    "bis": {
     "itemId": 32014,
     "name": "Merciless Gladiator's Maul",
-    "usagePct": 55
+    "usagePct": 55,
+    "resilience": 33
    },
    "alternatives": [
     {

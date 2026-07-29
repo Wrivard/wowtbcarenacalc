@@ -26,7 +26,8 @@
     {
      "itemId": 30488,
      "name": "Merciless Gladiator's Plate Helm",
-     "usagePct": 18
+     "usagePct": 18,
+     "resilience": 25
     },
     {
      "itemId": 32473,
@@ -45,7 +46,8 @@
    "bis": {
     "itemId": 33923,
     "name": "Vindicator's Pendant of Triumph",
-    "usagePct": 57
+    "usagePct": 57,
+    "resilience": 18
    },
    "alternatives": [
     {
@@ -61,7 +63,8 @@
     {
      "itemId": 33066,
      "name": "Veteran's Pendant of Triumph",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 18
     }
    ]
   },
@@ -81,7 +84,8 @@
     {
      "itemId": 30490,
      "name": "Merciless Gladiator's Plate Shoulders",
-     "usagePct": 17
+     "usagePct": 17,
+     "resilience": 20
     },
     {
      "itemId": 30122,
@@ -126,7 +130,8 @@
     {
      "itemId": 30486,
      "name": "Merciless Gladiator's Plate Chestpiece",
-     "usagePct": 17
+     "usagePct": 17,
+     "resilience": 24
     },
     {
      "itemId": 30975,
@@ -136,7 +141,8 @@
     {
      "itemId": 33728,
      "name": "Vengeful Gladiator's Plate Chestpiece",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 24
     }
    ]
   },
@@ -145,13 +151,15 @@
    "bis": {
     "itemId": 33813,
     "name": "Vindicator's Plate Bracers",
-    "usagePct": 75
+    "usagePct": 75,
+    "resilience": 17
    },
    "alternatives": [
     {
      "itemId": 32818,
      "name": "Veteran's Plate Bracers",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 17
     },
     {
      "itemId": 30057,
@@ -201,7 +209,8 @@
     {
      "itemId": 33811,
      "name": "Vindicator's Plate Belt",
-     "usagePct": 22
+     "usagePct": 22,
+     "resilience": 30
     },
     {
      "itemId": 30096,
@@ -231,7 +240,8 @@
     {
      "itemId": 30489,
      "name": "Merciless Gladiator's Plate Legguards",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 22
     },
     {
      "itemId": 29950,
@@ -245,13 +255,15 @@
    "bis": {
     "itemId": 33812,
     "name": "Vindicator's Plate Greaves",
-    "usagePct": 59
+    "usagePct": 59,
+    "resilience": 30
    },
    "alternatives": [
     {
      "itemId": 32793,
      "name": "Veteran's Plate Greaves",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 30
     },
     {
      "itemId": 32268,
@@ -276,7 +288,8 @@
     {
      "itemId": 33919,
      "name": "Vindicator's Band of Triumph",
-     "usagePct": 17
+     "usagePct": 17,
+     "resilience": 22
     },
     {
      "itemId": 29997,
@@ -295,7 +308,8 @@
    "bis": {
     "itemId": 33919,
     "name": "Vindicator's Band of Triumph",
-    "usagePct": 21
+    "usagePct": 21,
+    "resilience": 22
    },
    "alternatives": [
     {
@@ -416,7 +430,8 @@
     {
      "itemId": 32054,
      "name": "Merciless Gladiator's War Edge",
-     "usagePct": 31
+     "usagePct": 31,
+     "resilience": 12
     },
     {
      "itemId": 32253,

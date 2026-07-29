@@ -46,7 +46,8 @@
     {
      "itemId": 33921,
      "name": "Vindicator's Pendant of Dominance",
-     "usagePct": 20
+     "usagePct": 20,
+     "resilience": 18
     },
     {
      "itemId": 32362,
@@ -125,7 +126,8 @@
     {
      "itemId": 33889,
      "name": "Vindicator's Lamellar Bracers",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 15
     }
    ]
   },
@@ -314,7 +316,8 @@
     {
      "itemId": 33687,
      "name": "Vengeful Gladiator's Gavel",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 18
     }
    ]
   },

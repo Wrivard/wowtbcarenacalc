@@ -101,7 +101,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 24
+     "usagePct": 24,
+     "resilience": 20
     },
     {
      "itemId": 33590,
@@ -308,7 +309,8 @@
     {
      "itemId": 33669,
      "name": "Vengeful Gladiator's Cleaver",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 12
     },
     {
      "itemId": 12798,

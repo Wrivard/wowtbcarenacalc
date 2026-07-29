@@ -146,7 +146,8 @@
     {
      "itemId": 32820,
      "name": "Veteran's Silk Cuffs",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 13
     },
     {
      "itemId": 28515,
@@ -346,7 +347,8 @@
     {
      "itemId": 32053,
      "name": "Merciless Gladiator's Spellblade",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 18
     }
    ]
   },

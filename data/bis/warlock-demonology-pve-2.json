@@ -146,7 +146,8 @@
     {
      "itemId": 32820,
      "name": "Veteran's Silk Cuffs",
-     "usagePct": 19
+     "usagePct": 19,
+     "resilience": 13
     },
     {
      "itemId": 28515,

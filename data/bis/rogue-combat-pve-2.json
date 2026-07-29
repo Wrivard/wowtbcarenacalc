@@ -125,7 +125,8 @@
     {
      "itemId": 32814,
      "name": "Veteran's Leather Bracers",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 15
     }
    ]
   },
@@ -307,7 +308,8 @@
    "bis": {
     "itemId": 32027,
     "name": "Merciless Gladiator's Quickblade",
-    "usagePct": 43
+    "usagePct": 43,
+    "resilience": 12
    },
    "alternatives": [
     {
@@ -318,7 +320,8 @@
     {
      "itemId": 28307,
      "name": "Gladiator's Quickblade",
-     "usagePct": 15
+     "usagePct": 15,
+     "resilience": 10
     }
    ]
   },

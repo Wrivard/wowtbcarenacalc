@@ -20,6 +20,13 @@ export interface BisItemRef {
   name?: string;
   usagePct?: number;
   pveFlexNote?: string;
+  /**
+   * PvE lists only: the item's Equip resilience rating, when it has one.
+   * In TBC resilience reduces your chance to be crit by NPCs too, so on a
+   * raid list it is a crit-immunity tool for a tank and a dead stat for
+   * everyone else — the page picks the reading from the spec's role.
+   */
+  resilience?: number;
 }
 
 export interface BisSlot {

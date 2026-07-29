@@ -26,7 +26,8 @@
     {
      "itemId": 34999,
      "name": "Brutal Gladiator's Dragonhide Helm",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 25
     }
    ]
   },
@@ -86,7 +87,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 20
     },
     {
      "itemId": 28672,
@@ -106,7 +108,8 @@
     {
      "itemId": 35002,
      "name": "Brutal Gladiator's Dragonhide Tunic",
-     "usagePct": 28
+     "usagePct": 28,
+     "resilience": 26
     },
     {
      "itemId": 31042,

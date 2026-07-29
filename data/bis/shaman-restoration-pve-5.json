@@ -46,7 +46,8 @@
     {
      "itemId": 37929,
      "name": "Guardian's Pendant of Reprieve",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 18
     },
     {
      "itemId": 34360,
@@ -96,7 +97,8 @@
     {
      "itemId": 35324,
      "name": "Cloak of Swift Reprieve",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 23
     }
    ]
   },

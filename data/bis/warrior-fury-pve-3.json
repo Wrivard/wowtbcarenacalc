@@ -126,7 +126,8 @@
     {
      "itemId": 33728,
      "name": "Vengeful Gladiator's Plate Chestpiece",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 24
     }
    ]
   },
@@ -236,7 +237,8 @@
     {
      "itemId": 33812,
      "name": "Vindicator's Plate Greaves",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 30
     }
    ]
   },
@@ -245,7 +247,8 @@
    "bis": {
     "itemId": 33919,
     "name": "Vindicator's Band of Triumph",
-    "usagePct": 30
+    "usagePct": 30,
+    "resilience": 22
    },
    "alternatives": [
     {
@@ -276,7 +279,8 @@
     {
      "itemId": 33919,
      "name": "Vindicator's Band of Triumph",
-     "usagePct": 30
+     "usagePct": 30,
+     "resilience": 22
     },
     {
      "itemId": 28757,
@@ -366,7 +370,8 @@
     {
      "itemId": 34015,
      "name": "Vengeful Gladiator's Chopper",
-     "usagePct": 18
+     "usagePct": 18,
+     "resilience": 12
     },
     {
      "itemId": 29924,
@@ -376,7 +381,8 @@
     {
      "itemId": 31965,
      "name": "Merciless Gladiator's Cleaver",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 12
     }
    ]
   },
@@ -396,7 +402,8 @@
     {
      "itemId": 32054,
      "name": "Merciless Gladiator's War Edge",
-     "usagePct": 21
+     "usagePct": 21,
+     "resilience": 12
     },
     {
      "itemId": 30025,

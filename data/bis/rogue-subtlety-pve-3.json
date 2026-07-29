@@ -146,12 +146,14 @@
     {
      "itemId": 33881,
      "name": "Vindicator's Dragonhide Bracers",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 17
     },
     {
      "itemId": 33893,
      "name": "Vindicator's Leather Bracers",
-     "usagePct": 12
+     "usagePct": 12,
+     "resilience": 15
     },
     {
      "itemId": 32324,
@@ -176,7 +178,8 @@
     {
      "itemId": 31998,
      "name": "Merciless Gladiator's Leather Gloves",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 24
     },
     {
      "itemId": 29947,
@@ -256,7 +259,8 @@
     {
      "itemId": 33892,
      "name": "Vindicator's Leather Boots",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 30
     }
    ]
   },
@@ -371,7 +375,8 @@
     {
      "itemId": 32052,
      "name": "Merciless Gladiator's Slicer",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 12
     },
     {
      "itemId": 28439,
@@ -385,7 +390,8 @@
    "bis": {
     "itemId": 32027,
     "name": "Merciless Gladiator's Quickblade",
-    "usagePct": 41
+    "usagePct": 41,
+    "resilience": 12
    },
    "alternatives": [
     {
@@ -401,7 +407,8 @@
     {
      "itemId": 28307,
      "name": "Gladiator's Quickblade",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 10
     }
    ]
   },
@@ -426,7 +433,8 @@
     {
      "itemId": 32054,
      "name": "Merciless Gladiator's War Edge",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 12
     }
    ]
   }

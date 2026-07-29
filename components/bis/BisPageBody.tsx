@@ -54,7 +54,12 @@ export function BisPageBody({
     <>
       {/* Gear grid */}
       <section className="mt-8" aria-label="Best in slot gear list">
-        <GearGrid slots={list.slots} specKey={specKey} content={list.content} />
+        <GearGrid
+          slots={list.slots}
+          specKey={specKey}
+          content={list.content}
+          role={spec.role}
+        />
         <p className="mt-3 text-xs leading-relaxed text-muted">
           {hasUsage ? (
             <>
@@ -73,6 +78,25 @@ export function BisPageBody({
                   — expand them for the arena alternative.
                 </>
               )}
+              {/* Same stat, opposite verdict by role — so is the wording. */}
+              {list.content === "pve" &&
+                list.slots.some((s) => s.bis.resilience) && (
+                  <>
+                    {" "}
+                    Rows tagged{" "}
+                    <span
+                      className={
+                        spec.role === "Tank" ? "text-accent" : "text-amber-500/90"
+                      }
+                    >
+                      resi
+                    </span>{" "}
+                    carry resilience.{" "}
+                    {spec.role === "Tank"
+                      ? "In TBC it reduces boss crits too, so it counts toward crit immunity — expand a row for the detail."
+                      : "It does nothing against a boss — expand a row to see what that costs."}
+                  </>
+                )}
             </>
           ) : (
             <>

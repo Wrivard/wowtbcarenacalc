@@ -319,7 +319,8 @@
     {
      "itemId": 33762,
      "name": "Vengeful Gladiator's Slicer",
-     "usagePct": 20
+     "usagePct": 20,
+     "resilience": 12
     },
     {
      "itemId": 29996,
@@ -344,12 +345,14 @@
     {
      "itemId": 33734,
      "name": "Vengeful Gladiator's Quickblade",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 12
     },
     {
      "itemId": 32027,
      "name": "Merciless Gladiator's Quickblade",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 12
     }
    ]
   },

@@ -218,7 +218,8 @@
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 11
     }
    ]
   },

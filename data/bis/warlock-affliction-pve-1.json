@@ -141,7 +141,8 @@
     {
      "itemId": 28411,
      "name": "General's Silk Cuffs",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 11
     }
    ]
   },

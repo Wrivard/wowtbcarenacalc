@@ -101,7 +101,8 @@
     {
      "itemId": 35321,
      "name": "Cloak of Arcane Alacrity",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 23
     }
    ]
   },

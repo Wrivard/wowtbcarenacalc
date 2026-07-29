@@ -56,12 +56,14 @@
     {
      "itemId": 33065,
      "name": "Veteran's Pendant of Dominance",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 18
     },
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 16
     }
    ]
   },
@@ -101,7 +103,8 @@
     {
      "itemId": 28378,
      "name": "Sergeant's Heavy Cape",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 16
     }
    ]
   },
@@ -141,7 +144,8 @@
     {
      "itemId": 32813,
      "name": "Veteran's Lamellar Bracers",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 15
     },
     {
      "itemId": 28502,
@@ -251,7 +255,8 @@
     {
      "itemId": 33054,
      "name": "The Seal of Danzalar",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 21
     },
     {
      "itemId": 30083,
@@ -265,13 +270,15 @@
    "bis": {
     "itemId": 33054,
     "name": "The Seal of Danzalar",
-    "usagePct": 17
+    "usagePct": 17,
+    "resilience": 21
    },
    "alternatives": [
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
-     "usagePct": 10
+     "usagePct": 10,
+     "resilience": 11
     },
     {
      "itemId": 29172,
@@ -346,12 +353,14 @@
     {
      "itemId": 32450,
      "name": "Gladiator's Gavel",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 18
     },
     {
      "itemId": 32963,
      "name": "Merciless Gladiator's Gavel",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 18
     }
    ]
   },
@@ -366,7 +375,8 @@
     {
      "itemId": 33313,
      "name": "Merciless Gladiator's Barrier",
-     "usagePct": 22
+     "usagePct": 22,
+     "resilience": 27
     },
     {
      "itemId": 28606,

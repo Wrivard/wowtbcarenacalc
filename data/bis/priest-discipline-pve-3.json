@@ -61,7 +61,8 @@
     {
      "itemId": 33922,
      "name": "Vindicator's Pendant of Salvation",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 18
     }
    ]
   },
@@ -335,7 +336,8 @@
     {
      "itemId": 32964,
      "name": "Merciless Gladiator's Salvation",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 21
     }
    ]
   },

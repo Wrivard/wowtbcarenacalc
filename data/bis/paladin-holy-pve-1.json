@@ -186,7 +186,8 @@
     {
      "itemId": 31614,
      "name": "Gladiator's Ornamented Gloves",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 14
     }
    ]
   },

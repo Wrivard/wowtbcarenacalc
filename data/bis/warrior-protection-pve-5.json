@@ -20,7 +20,8 @@
    "bis": {
     "itemId": 35068,
     "name": "Brutal Gladiator's Plate Helm",
-    "usagePct": 39
+    "usagePct": 39,
+    "resilience": 25
    },
    "alternatives": [
     {
@@ -56,7 +57,8 @@
     {
      "itemId": 35135,
      "name": "Guardian's Pendant of Triumph",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 18
     },
     {
      "itemId": 32362,
@@ -81,7 +83,8 @@
     {
      "itemId": 33732,
      "name": "Vengeful Gladiator's Plate Shoulders",
-     "usagePct": 15
+     "usagePct": 15,
+     "resilience": 20
     },
     {
      "itemId": 30979,
@@ -95,7 +98,8 @@
    "bis": {
     "itemId": 33484,
     "name": "Dory's Embrace",
-    "usagePct": 38
+    "usagePct": 38,
+    "resilience": 20
    },
    "alternatives": [
     {
@@ -120,7 +124,8 @@
    "bis": {
     "itemId": 35066,
     "name": "Brutal Gladiator's Plate Chestpiece",
-    "usagePct": 39
+    "usagePct": 39,
+    "resilience": 24
    },
    "alternatives": [
     {
@@ -136,7 +141,8 @@
     {
      "itemId": 33728,
      "name": "Vengeful Gladiator's Plate Chestpiece",
-     "usagePct": 10
+     "usagePct": 10,
+     "resilience": 24
     }
    ]
   },
@@ -156,12 +162,14 @@
     {
      "itemId": 33813,
      "name": "Vindicator's Plate Bracers",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 17
     },
     {
      "itemId": 35176,
      "name": "Guardian's Plate Bracers",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 17
     }
    ]
   },
@@ -201,7 +209,8 @@
     {
      "itemId": 35161,
      "name": "Guardian's Plate Belt",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 30
     },
     {
      "itemId": 34546,
@@ -226,7 +235,8 @@
     {
      "itemId": 35069,
      "name": "Brutal Gladiator's Plate Legguards",
-     "usagePct": 20
+     "usagePct": 20,
+     "resilience": 22
     },
     {
      "itemId": 30978,
@@ -386,7 +396,8 @@
     {
      "itemId": 33762,
      "name": "Vengeful Gladiator's Slicer",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 12
     }
    ]
   },
@@ -431,7 +442,8 @@
     {
      "itemId": 35108,
      "name": "Brutal Gladiator's War Edge",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 12
     },
     {
      "itemId": 34196,

@@ -96,7 +96,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 20
     },
     {
      "itemId": 33590,
@@ -126,7 +127,8 @@
     {
      "itemId": 35036,
      "name": "Brutal Gladiator's Leather Tunic",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 25
     }
    ]
   },
@@ -336,12 +338,14 @@
     {
      "itemId": 33762,
      "name": "Vengeful Gladiator's Slicer",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 12
     },
     {
      "itemId": 35101,
      "name": "Brutal Gladiator's Slicer",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 12
     },
     {
      "itemId": 34214,
@@ -366,12 +370,14 @@
     {
      "itemId": 35072,
      "name": "Brutal Gladiator's Quickblade",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 12
     },
     {
      "itemId": 33734,
      "name": "Vengeful Gladiator's Quickblade",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 12
     }
    ]
   },

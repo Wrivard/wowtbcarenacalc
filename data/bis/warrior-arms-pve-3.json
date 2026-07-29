@@ -256,7 +256,8 @@
     {
      "itemId": 33812,
      "name": "Vindicator's Plate Greaves",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 30
     }
    ]
   },
@@ -265,7 +266,8 @@
    "bis": {
     "itemId": 33919,
     "name": "Vindicator's Band of Triumph",
-    "usagePct": 32
+    "usagePct": 32,
+    "resilience": 22
    },
    "alternatives": [
     {
@@ -380,7 +382,8 @@
    "bis": {
     "itemId": 32027,
     "name": "Merciless Gladiator's Quickblade",
-    "usagePct": 8
+    "usagePct": 8,
+    "resilience": 12
    },
    "alternatives": [
     {
@@ -411,7 +414,8 @@
     {
      "itemId": 32054,
      "name": "Merciless Gladiator's War Edge",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 12
     }
    ]
   }

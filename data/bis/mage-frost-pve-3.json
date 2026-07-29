@@ -61,7 +61,8 @@
     {
      "itemId": 33920,
      "name": "Vindicator's Pendant of Conquest",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 18
     }
    ]
   },
@@ -145,7 +146,8 @@
    "bis": {
     "itemId": 33913,
     "name": "Vindicator's Silk Cuffs",
-    "usagePct": 25
+    "usagePct": 25,
+    "resilience": 13
    },
    "alternatives": [
     {
@@ -256,7 +258,8 @@
     {
      "itemId": 33914,
      "name": "Vindicator's Silk Footguards",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 26
     }
    ]
   },
@@ -381,7 +384,8 @@
     {
      "itemId": 32053,
      "name": "Merciless Gladiator's Spellblade",
-     "usagePct": 12
+     "usagePct": 12,
+     "resilience": 18
     }
    ]
   },

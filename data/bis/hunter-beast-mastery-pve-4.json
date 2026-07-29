@@ -26,7 +26,8 @@
     {
      "itemId": 33666,
      "name": "Vengeful Gladiator's Chain Helm",
-     "usagePct": 22
+     "usagePct": 22,
+     "resilience": 22
     },
     {
      "itemId": 31003,
@@ -90,7 +91,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 20
     },
     {
      "itemId": 28672,

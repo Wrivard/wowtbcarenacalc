@@ -151,7 +151,8 @@
     {
      "itemId": 33913,
      "name": "Vindicator's Silk Cuffs",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 13
     },
     {
      "itemId": 28515,

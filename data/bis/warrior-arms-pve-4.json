@@ -95,7 +95,8 @@
    "bis": {
     "itemId": 33484,
     "name": "Dory's Embrace",
-    "usagePct": 67
+    "usagePct": 67,
+    "resilience": 20
    },
    "alternatives": [
     {
@@ -121,7 +122,8 @@
     {
      "itemId": 33728,
      "name": "Vengeful Gladiator's Plate Chestpiece",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 24
     },
     {
      "itemId": 30118,
@@ -226,7 +228,8 @@
     {
      "itemId": 33731,
      "name": "Vengeful Gladiator's Plate Legguards",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 22
     }
    ]
   },
@@ -251,7 +254,8 @@
     {
      "itemId": 33812,
      "name": "Vindicator's Plate Greaves",
-     "usagePct": 3
+     "usagePct": 3,
+     "resilience": 30
     }
    ]
   },
@@ -366,7 +370,8 @@
     {
      "itemId": 33762,
      "name": "Vengeful Gladiator's Slicer",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 12
     }
    ]
   },

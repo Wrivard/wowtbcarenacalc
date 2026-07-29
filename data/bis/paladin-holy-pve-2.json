@@ -156,7 +156,8 @@
     {
      "itemId": 32989,
      "name": "Veteran's Ornamented Bracers",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 15
     }
    ]
   },

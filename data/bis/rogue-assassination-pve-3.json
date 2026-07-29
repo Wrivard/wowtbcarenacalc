@@ -176,7 +176,8 @@
     {
      "itemId": 31998,
      "name": "Merciless Gladiator's Leather Gloves",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 24
     },
     {
      "itemId": 29947,

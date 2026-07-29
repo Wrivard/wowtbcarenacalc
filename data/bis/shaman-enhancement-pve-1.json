@@ -391,7 +391,8 @@
     {
      "itemId": 28920,
      "name": "High Warlord's Cleaver",
-     "usagePct": 15
+     "usagePct": 15,
+     "resilience": 9
     },
     {
      "itemId": 31139,
@@ -401,7 +402,8 @@
     {
      "itemId": 28308,
      "name": "Gladiator's Cleaver",
-     "usagePct": 10
+     "usagePct": 10,
+     "resilience": 10
     }
    ]
   },

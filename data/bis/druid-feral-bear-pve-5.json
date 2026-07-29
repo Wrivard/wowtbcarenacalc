@@ -20,13 +20,15 @@
    "bis": {
     "itemId": 34999,
     "name": "Brutal Gladiator's Dragonhide Helm",
-    "usagePct": 74
+    "usagePct": 74,
+    "resilience": 25
    },
    "alternatives": [
     {
      "itemId": 33672,
      "name": "Vengeful Gladiator's Dragonhide Helm",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 25
     },
     {
      "itemId": 31039,
@@ -81,12 +83,14 @@
     {
      "itemId": 33674,
      "name": "Vengeful Gladiator's Dragonhide Spaulders",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 21
     },
     {
      "itemId": 35001,
      "name": "Brutal Gladiator's Dragonhide Spaulders",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 21
     }
    ]
   },
@@ -101,7 +105,8 @@
     {
      "itemId": 33484,
      "name": "Dory's Embrace",
-     "usagePct": 22
+     "usagePct": 22,
+     "resilience": 20
     },
     {
      "itemId": 29994,
@@ -120,7 +125,8 @@
    "bis": {
     "itemId": 35002,
     "name": "Brutal Gladiator's Dragonhide Tunic",
-    "usagePct": 46
+    "usagePct": 46,
+    "resilience": 26
    },
    "alternatives": [
     {

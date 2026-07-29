@@ -146,12 +146,14 @@
     {
      "itemId": 28411,
      "name": "General's Silk Cuffs",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 11
     },
     {
      "itemId": 29002,
      "name": "Marshal's Silk Cuffs",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 11
     }
    ]
   },

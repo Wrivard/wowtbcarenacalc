@@ -46,7 +46,8 @@
     {
      "itemId": 35133,
      "name": "Guardian's Pendant of Dominance",
-     "usagePct": 20
+     "usagePct": 20,
+     "resilience": 18
     },
     {
      "itemId": 34178,
@@ -56,7 +57,8 @@
     {
      "itemId": 33921,
      "name": "Vindicator's Pendant of Dominance",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 18
     }
    ]
   },
@@ -305,12 +307,14 @@
     {
      "itemId": 35014,
      "name": "Brutal Gladiator's Gavel",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 18
     },
     {
      "itemId": 33687,
      "name": "Vengeful Gladiator's Gavel",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 18
     }
    ]
   },
@@ -330,7 +334,8 @@
     {
      "itemId": 34986,
      "name": "Brutal Gladiator's Barrier",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 27
     },
     {
      "itemId": 30909,

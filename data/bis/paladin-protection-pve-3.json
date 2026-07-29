@@ -51,7 +51,8 @@
     {
      "itemId": 33921,
      "name": "Vindicator's Pendant of Dominance",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 18
     }
    ]
   },
@@ -246,7 +247,8 @@
     {
      "itemId": 33054,
      "name": "The Seal of Danzalar",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 21
     },
     {
      "itemId": 29172,
@@ -266,7 +268,8 @@
     {
      "itemId": 33054,
      "name": "The Seal of Danzalar",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 21
     },
     {
      "itemId": 29172,
@@ -341,7 +344,8 @@
     {
      "itemId": 32963,
      "name": "Merciless Gladiator's Gavel",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 18
     }
    ]
   },
@@ -361,7 +365,8 @@
     {
      "itemId": 33313,
      "name": "Merciless Gladiator's Barrier",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 27
     },
     {
      "itemId": 34011,

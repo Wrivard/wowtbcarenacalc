@@ -36,7 +36,8 @@
     {
      "itemId": 30488,
      "name": "Merciless Gladiator's Plate Helm",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 25
     }
    ]
   },
@@ -45,7 +46,8 @@
    "bis": {
     "itemId": 33066,
     "name": "Veteran's Pendant of Triumph",
-    "usagePct": 37
+    "usagePct": 37,
+    "resilience": 18
    },
    "alternatives": [
     {
@@ -81,7 +83,8 @@
     {
      "itemId": 24546,
      "name": "Gladiator's Plate Shoulders",
-     "usagePct": 15
+     "usagePct": 15,
+     "resilience": 19
     },
     {
      "itemId": 30053,
@@ -106,7 +109,8 @@
     {
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 19
     },
     {
      "itemId": 28777,
@@ -126,12 +130,14 @@
     {
      "itemId": 24544,
      "name": "Gladiator's Plate Chestpiece",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 23
     },
     {
      "itemId": 30486,
      "name": "Merciless Gladiator's Plate Chestpiece",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 24
     },
     {
      "itemId": 30102,
@@ -145,7 +151,8 @@
    "bis": {
     "itemId": 32818,
     "name": "Veteran's Plate Bracers",
-    "usagePct": 51
+    "usagePct": 51,
+    "resilience": 17
    },
    "alternatives": [
     {
@@ -195,7 +202,8 @@
    "bis": {
     "itemId": 32805,
     "name": "Veteran's Plate Belt",
-    "usagePct": 31
+    "usagePct": 31,
+    "resilience": 30
    },
    "alternatives": [
     {
@@ -231,7 +239,8 @@
     {
      "itemId": 30489,
      "name": "Merciless Gladiator's Plate Legguards",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 22
     },
     {
      "itemId": 30121,
@@ -245,7 +254,8 @@
    "bis": {
     "itemId": 32793,
     "name": "Veteran's Plate Greaves",
-    "usagePct": 59
+    "usagePct": 59,
+    "resilience": 30
    },
    "alternatives": [
     {
@@ -416,7 +426,8 @@
     {
      "itemId": 32054,
      "name": "Merciless Gladiator's War Edge",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 12
     },
     {
      "itemId": 28772,
@@ -426,7 +437,8 @@
     {
      "itemId": 28319,
      "name": "Gladiator's War Edge",
-     "usagePct": 4
+     "usagePct": 4,
+     "resilience": 12
     }
    ]
   }

@@ -126,7 +126,8 @@
     {
      "itemId": 25831,
      "name": "Gladiator's Leather Tunic",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 23
     },
     {
      "itemId": 28204,
@@ -156,7 +157,8 @@
     {
      "itemId": 28424,
      "name": "General's Leather Bracers",
-     "usagePct": 8
+     "usagePct": 8,
+     "resilience": 13
     }
    ]
   },
@@ -396,7 +398,8 @@
     {
      "itemId": 28307,
      "name": "Gladiator's Quickblade",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 10
     },
     {
      "itemId": 28768,

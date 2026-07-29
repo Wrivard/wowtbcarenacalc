@@ -40,7 +40,8 @@
    "bis": {
     "itemId": 33066,
     "name": "Veteran's Pendant of Triumph",
-    "usagePct": 47
+    "usagePct": 47,
+    "resilience": 18
    },
    "alternatives": [
     {
@@ -120,13 +121,15 @@
    "bis": {
     "itemId": 32810,
     "name": "Veteran's Dragonhide Bracers",
-    "usagePct": 72
+    "usagePct": 72,
+    "resilience": 17
    },
    "alternatives": [
     {
      "itemId": 32814,
      "name": "Veteran's Leather Bracers",
-     "usagePct": 10
+     "usagePct": 10,
+     "resilience": 15
     },
     {
      "itemId": 29966,
@@ -171,7 +174,8 @@
     {
      "itemId": 32802,
      "name": "Veteran's Leather Belt",
-     "usagePct": 12
+     "usagePct": 12,
+     "resilience": 30
     },
     {
      "itemId": 30042,
@@ -210,7 +214,8 @@
    "bis": {
     "itemId": 32790,
     "name": "Veteran's Leather Boots",
-    "usagePct": 56
+    "usagePct": 56,
+    "resilience": 30
    },
    "alternatives": [
     {
@@ -331,12 +336,14 @@
     {
      "itemId": 32014,
      "name": "Merciless Gladiator's Maul",
-     "usagePct": 23
+     "usagePct": 23,
+     "resilience": 33
     },
     {
      "itemId": 28476,
      "name": "Gladiator's Maul",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 28
     }
    ]
   },

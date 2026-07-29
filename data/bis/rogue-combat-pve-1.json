@@ -336,7 +336,8 @@
     {
      "itemId": 28295,
      "name": "Gladiator's Slicer",
-     "usagePct": 6
+     "usagePct": 6,
+     "resilience": 10
     }
    ]
   },
@@ -351,7 +352,8 @@
     {
      "itemId": 28307,
      "name": "Gladiator's Quickblade",
-     "usagePct": 10
+     "usagePct": 10,
+     "resilience": 10
     }
    ]
   },

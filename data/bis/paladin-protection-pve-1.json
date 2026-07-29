@@ -46,7 +46,8 @@
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
-     "usagePct": 13
+     "usagePct": 13,
+     "resilience": 16
     },
     {
      "itemId": 29386,
@@ -261,7 +262,8 @@
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
-     "usagePct": 15
+     "usagePct": 15,
+     "resilience": 11
     },
     {
      "itemId": 29279,
@@ -280,7 +282,8 @@
    "bis": {
     "itemId": 28555,
     "name": "Seal of the Exorcist",
-    "usagePct": 18
+    "usagePct": 18,
+    "resilience": 11
    },
    "alternatives": [
     {

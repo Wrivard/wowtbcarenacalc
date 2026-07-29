@@ -366,7 +366,8 @@
     {
      "itemId": 31965,
      "name": "Merciless Gladiator's Cleaver",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 12
     }
    ]
   },
@@ -386,12 +387,14 @@
     {
      "itemId": 31965,
      "name": "Merciless Gladiator's Cleaver",
-     "usagePct": 7
+     "usagePct": 7,
+     "resilience": 12
     },
     {
      "itemId": 34015,
      "name": "Vengeful Gladiator's Chopper",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 12
     }
    ]
   },

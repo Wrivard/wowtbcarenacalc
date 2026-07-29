@@ -31,7 +31,8 @@
     {
      "itemId": 24545,
      "name": "Gladiator's Plate Helm",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 25
     },
     {
      "itemId": 28593,
@@ -45,7 +46,8 @@
    "bis": {
     "itemId": 28244,
     "name": "Pendant of Triumph",
-    "usagePct": 25
+    "usagePct": 25,
+    "resilience": 17
    },
    "alternatives": [
     {
@@ -81,7 +83,8 @@
     {
      "itemId": 24546,
      "name": "Gladiator's Plate Shoulders",
-     "usagePct": 14
+     "usagePct": 14,
+     "resilience": 19
     },
     {
      "itemId": 33173,
@@ -106,7 +109,8 @@
     {
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak",
-     "usagePct": 15
+     "usagePct": 15,
+     "resilience": 19
     },
     {
      "itemId": 27804,
@@ -120,7 +124,8 @@
    "bis": {
     "itemId": 24544,
     "name": "Gladiator's Plate Chestpiece",
-    "usagePct": 35
+    "usagePct": 35,
+    "resilience": 23
    },
    "alternatives": [
     {
@@ -145,7 +150,8 @@
    "bis": {
     "itemId": 28381,
     "name": "General's Plate Bracers",
-    "usagePct": 23
+    "usagePct": 23,
+    "resilience": 14
    },
    "alternatives": [
     {
@@ -156,7 +162,8 @@
     {
      "itemId": 28996,
      "name": "Marshal's Plate Bracers",
-     "usagePct": 18
+     "usagePct": 18,
+     "resilience": 14
     },
     {
      "itemId": 28502,
@@ -195,13 +202,15 @@
    "bis": {
     "itemId": 28385,
     "name": "General's Plate Belt",
-    "usagePct": 25
+    "usagePct": 25,
+    "resilience": 27
    },
    "alternatives": [
     {
      "itemId": 28995,
      "name": "Marshal's Plate Belt",
-     "usagePct": 18
+     "usagePct": 18,
+     "resilience": 27
     },
     {
      "itemId": 28566,
@@ -231,7 +240,8 @@
     {
      "itemId": 24547,
      "name": "Gladiator's Plate Legguards",
-     "usagePct": 19
+     "usagePct": 19,
+     "resilience": 21
     },
     {
      "itemId": 30533,
@@ -256,12 +266,14 @@
     {
      "itemId": 28383,
      "name": "General's Plate Greaves",
-     "usagePct": 17
+     "usagePct": 17,
+     "resilience": 27
     },
     {
      "itemId": 28997,
      "name": "Marshal's Plate Greaves",
-     "usagePct": 16
+     "usagePct": 16,
+     "resilience": 27
     }
    ]
   },
@@ -276,7 +288,8 @@
     {
      "itemId": 28553,
      "name": "Band of the Exorcist",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 11
     },
     {
      "itemId": 29283,
@@ -295,7 +308,8 @@
    "bis": {
     "itemId": 28553,
     "name": "Band of the Exorcist",
-    "usagePct": 9
+    "usagePct": 9,
+    "resilience": 11
    },
    "alternatives": [
     {
@@ -421,7 +435,8 @@
     {
      "itemId": 28319,
      "name": "Gladiator's War Edge",
-     "usagePct": 11
+     "usagePct": 11,
+     "resilience": 12
     },
     {
      "itemId": 29152,
@@ -663,7 +678,7 @@
   },
   {
    "question": "What are the highest-consensus Protection Warrior items in Phase 1?",
-   "answer": "Dragonmaw (53%), Shapeshifter's Signet (47%), Warbringer Greathelm (44%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
+   "answer": "Dragonmaw (53%), Warbringer Greathelm (44%), Shapeshifter's Signet (37%). When an item sits above ~70% among top parsers, treat it as the priority drop to chase."
   },
   {
    "question": "Should I follow this list exactly for Phase 1?",

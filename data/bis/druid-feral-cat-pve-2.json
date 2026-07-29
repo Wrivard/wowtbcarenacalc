@@ -120,7 +120,8 @@
     {
      "itemId": 32810,
      "name": "Veteran's Dragonhide Bracers",
-     "usagePct": 12
+     "usagePct": 12,
+     "resilience": 17
     },
     {
      "itemId": 32647,
@@ -325,7 +326,8 @@
     {
      "itemId": 32014,
      "name": "Merciless Gladiator's Maul",
-     "usagePct": 24
+     "usagePct": 24,
+     "resilience": 33
     }
    ]
   },

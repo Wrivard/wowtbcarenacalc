@@ -121,7 +121,8 @@
     {
      "itemId": 24544,
      "name": "Gladiator's Plate Chestpiece",
-     "usagePct": 9
+     "usagePct": 9,
+     "resilience": 23
     },
     {
      "itemId": 30258,
@@ -151,7 +152,8 @@
     {
      "itemId": 28381,
      "name": "General's Plate Bracers",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 14
     }
    ]
   },
@@ -196,7 +198,8 @@
     {
      "itemId": 28385,
      "name": "General's Plate Belt",
-     "usagePct": 5
+     "usagePct": 5,
+     "resilience": 27
     },
     {
      "itemId": 28828,

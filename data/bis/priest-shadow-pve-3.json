@@ -356,7 +356,8 @@
     {
      "itemId": 32963,
      "name": "Merciless Gladiator's Gavel",
-     "usagePct": 18
+     "usagePct": 18,
+     "resilience": 18
     },
     {
      "itemId": 32374,
