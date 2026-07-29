@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 27708,
-    "name": "Gladiator's Satin Hood"
+    "name": "Gladiator's Satin Hood",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28804,
      "name": "Collar of Cho'gall",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30161,
      "name": "Hood of the Avatar",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -39,22 +42,26 @@
    "bis": {
     "itemId": 33065,
     "name": "Veteran's Pendant of Dominance",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 37
    },
    "alternatives": [
     {
      "itemId": 30666,
      "name": "Ritssyn's Lost Pendant",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
+     "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -63,21 +70,25 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 27710,
-    "name": "Gladiator's Satin Mantle"
+    "name": "Gladiator's Satin Mantle",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 21869,
      "name": "Frozen Shadoweave Shoulders",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31412,
-     "name": "Gladiator's Mooncloth Mantle"
+     "name": "Gladiator's Mooncloth Mantle",
+     "usagePct": 10
     },
     {
      "itemId": 30163,
      "name": "Wings of the Avatar",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -86,22 +97,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 28378,
-    "name": "Sergeant's Heavy Cape"
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 28570,
      "name": "Shadow-Cloak of Dalaran",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29992,
      "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29989,
      "name": "Sunshower Light Cloak",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -110,17 +125,20 @@
    "slot": "Chest",
    "bis": {
     "itemId": 27711,
-    "name": "Gladiator's Satin Robe"
+    "name": "Gladiator's Satin Robe",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 30159,
      "name": "Shroud of the Avatar",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
      "itemId": 21871,
      "name": "Frozen Shadoweave Robe",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -130,18 +148,21 @@
    "bis": {
     "itemId": 32811,
     "name": "Veteran's Dreadweave Cuffs",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 28515,
      "name": "Bands of Nefarious Deeds",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32980,
      "name": "Veteran's Mooncloth Cuffs",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 7
     }
    ]
   },
@@ -149,17 +170,20 @@
    "slot": "Hands",
    "bis": {
     "itemId": 27707,
-    "name": "Gladiator's Satin Gloves"
+    "name": "Gladiator's Satin Gloves",
+    "usagePct": 47
    },
    "alternatives": [
     {
      "itemId": 28780,
      "name": "Soul-Eater's Handwraps",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
      "itemId": 28507,
      "name": "Handwraps of Flowing Thought",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -169,17 +193,20 @@
    "bis": {
     "itemId": 32799,
     "name": "Veteran's Dreadweave Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28799,
      "name": "Belt of Divine Inspiration",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30038,
      "name": "Belt of Blasting",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -188,22 +215,26 @@
    "slot": "Legs",
    "bis": {
     "itemId": 27709,
-    "name": "Gladiator's Satin Leggings"
+    "name": "Gladiator's Satin Leggings",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 29972,
      "name": "Trousers of the Astromancer",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30153,
      "name": "Breeches of the Avatar",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -213,22 +244,26 @@
    "bis": {
     "itemId": 32787,
     "name": "Veteran's Dreadweave Stalkers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 21870,
      "name": "Frozen Shadoweave Boots",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30050,
      "name": "Boots of the Shifting Nightmare",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28402,
-     "name": "General's Dreadweave Stalkers"
+     "name": "General's Dreadweave Stalkers",
+     "usagePct": 7
     }
    ]
   },
@@ -237,22 +272,26 @@
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 29922,
      "name": "Band of Al'ar",
+     "usagePct": 43,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28327,
      "name": "Arcane Netherband",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -261,22 +300,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29922,
-    "name": "Band of Al'ar"
+    "name": "Band of Al'ar",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 33056,
      "name": "Veteran's Band of Dominance",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 53
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28327,
      "name": "Arcane Netherband",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -285,20 +328,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 30346,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 43
     },
     {
      "itemId": 30349,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 23
     },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -309,21 +356,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30346,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 29370,
      "name": "Icon of the Silver Crescent",
+     "usagePct": 80,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30349,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 23
     },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -332,16 +383,19 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 32450,
-    "name": "Gladiator's Gavel"
+    "name": "Gladiator's Gavel",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 28297,
-     "name": "Gladiator's Spellblade"
+     "name": "Gladiator's Spellblade",
+     "usagePct": 33
     },
     {
      "itemId": 28770,
      "name": "Nathrezim Mindblade",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -350,17 +404,20 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 28346,
-    "name": "Gladiator's Endgame"
+    "name": "Gladiator's Endgame",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 29272,
      "name": "Orb of the Soul-Eater",
+     "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28781,
      "name": "Karaborian Talisman",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -369,17 +426,20 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 28320,
-    "name": "Gladiator's Touch of Defeat"
+    "name": "Gladiator's Touch of Defeat",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 30080,
      "name": "Luminescent Rod of the Naaru",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28673,
      "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]

@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 30146,
-    "name": "Deathmantle Helm"
+    "name": "Deathmantle Helm",
+    "usagePct": 55
    },
    "alternatives": [
     {
      "itemId": 32478,
      "name": "Deathblow X11 Goggles",
+     "usagePct": 28,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 29044,
      "name": "Netherblade Facemask",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -38,22 +41,26 @@
    "slot": "Neck",
    "bis": {
     "itemId": 29381,
-    "name": "Choker of Vile Intent"
+    "name": "Choker of Vile Intent",
+    "usagePct": 48
    },
    "alternatives": [
     {
      "itemId": 30017,
      "name": "Telonicus's Pendant of Mayhem",
+     "usagePct": 31,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 278827,
      "name": "Amulet of Bitter Hatred",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -62,22 +69,26 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 30149,
-    "name": "Deathmantle Shoulderpads"
+    "name": "Deathmantle Shoulderpads",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 33703,
      "name": "Vengeful Gladiator's Leather Spaulders",
+     "usagePct": 17,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 27797,
      "name": "Wastewalker Shoulderpads",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29047,
      "name": "Netherblade Shoulderpads",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -88,17 +99,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 28672,
-    "name": "Drape of the Dark Reavers"
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
+     "usagePct": 24,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 278819,
      "name": "The Frost Lord's War Cloak",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -107,22 +121,26 @@
    "slot": "Chest",
    "bis": {
     "itemId": 30101,
-    "name": "Bloodsea Brigand's Vest"
+    "name": "Bloodsea Brigand's Vest",
+    "usagePct": 41
    },
    "alternatives": [
     {
      "itemId": 33704,
      "name": "Vengeful Gladiator's Leather Tunic",
+     "usagePct": 21,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 30144,
      "name": "Deathmantle Chestguard",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29045,
      "name": "Netherblade Chestpiece",
+     "usagePct": 12,
      "pveFlexNote": "Seen mostly above 2646 rating."
     }
    ],
@@ -133,21 +151,25 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 29966,
-    "name": "Vambraces of Ending"
+    "name": "Vambraces of Ending",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 33893,
-     "name": "Vindicator's Leather Bracers"
+     "name": "Vindicator's Leather Bracers",
+     "usagePct": 21
     },
     {
      "itemId": 28171,
      "name": "Spymistress's Wristguards",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29246,
      "name": "Nightfall Wristguards",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -158,22 +180,26 @@
    "slot": "Hands",
    "bis": {
     "itemId": 30145,
-    "name": "Deathmantle Handguards"
+    "name": "Deathmantle Handguards",
+    "usagePct": 66
    },
    "alternatives": [
     {
      "itemId": 33700,
      "name": "Vengeful Gladiator's Leather Gloves",
+     "usagePct": 17,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 29048,
      "name": "Netherblade Gloves",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 27531,
      "name": "Wastewalker Gloves",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -184,12 +210,14 @@
    "slot": "Waist",
    "bis": {
     "itemId": 30040,
-    "name": "Belt of Deep Shadow"
+    "name": "Belt of Deep Shadow",
+    "usagePct": 84
    },
    "alternatives": [
     {
      "itemId": 30106,
      "name": "Belt of One-Hundred Deaths",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -198,17 +226,20 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30148,
-    "name": "Deathmantle Legguards"
+    "name": "Deathmantle Legguards",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 28741,
      "name": "Skulker's Greaves",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33702,
      "name": "Vengeful Gladiator's Leather Legguards",
+     "usagePct": 16,
      "pveFlexNote": "Seen mostly above 2646 rating."
     }
    ],
@@ -219,22 +250,26 @@
    "slot": "Feet",
    "bis": {
     "itemId": 28545,
-    "name": "Edgewalker Longboots"
+    "name": "Edgewalker Longboots",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 31288,
      "name": "The Master's Treads",
+     "usagePct": 26,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33892,
      "name": "Vindicator's Leather Boots",
+     "usagePct": 9,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30060,
      "name": "Boots of Effortless Striking",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -245,22 +280,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 30052,
-    "name": "Ring of Lethality"
+    "name": "Ring of Lethality",
+    "usagePct": 62
    },
    "alternatives": [
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
+     "usagePct": 48,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29298,
      "name": "Band of Eternity",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29283,
      "name": "Violet Signet of the Master Assassin",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -269,22 +308,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 28649,
-    "name": "Garona's Signet Ring"
+    "name": "Garona's Signet Ring",
+    "usagePct": 48
    },
    "alternatives": [
     {
      "itemId": 30052,
      "name": "Ring of Lethality",
+     "usagePct": 62,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29298,
      "name": "Band of Eternity",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29283,
      "name": "Violet Signet of the Master Assassin",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -293,27 +336,32 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 30450,
      "name": "Warp-Spring Coil",
+     "usagePct": 41,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 24128,
      "name": "Figurine - Nightseye Panther",
+     "usagePct": 29,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28234,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 14
     }
    ],
    "raidPick": true,
@@ -323,22 +371,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30450,
-    "name": "Warp-Spring Coil"
+    "name": "Warp-Spring Coil",
+    "usagePct": 41
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 50,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 24128,
      "name": "Figurine - Nightseye Panther",
+     "usagePct": 29,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -347,16 +399,19 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 30082,
-    "name": "Talon of Azshara"
+    "name": "Talon of Azshara",
+    "usagePct": 64
    },
    "alternatives": [
     {
      "itemId": 33762,
-     "name": "Vengeful Gladiator's Slicer"
+     "name": "Vengeful Gladiator's Slicer",
+     "usagePct": 16
     },
     {
      "itemId": 29996,
      "name": "Rod of the Sun King",
+     "usagePct": 14,
      "pveFlexNote": "Seen mostly above 2646 rating."
     }
    ],
@@ -367,12 +422,14 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 33734,
-    "name": "Vengeful Gladiator's Quickblade"
+    "name": "Vengeful Gladiator's Quickblade",
+    "usagePct": 81
    },
    "alternatives": [
     {
      "itemId": 28189,
      "name": "Latro's Shifting Sword",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -381,21 +438,25 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 29949,
-    "name": "Arcanite Steam-Pistol"
+    "name": "Arcanite Steam-Pistol",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 33765,
-     "name": "Vengeful Gladiator's War Edge"
+     "name": "Vengeful Gladiator's War Edge",
+     "usagePct": 17
     },
     {
      "itemId": 28772,
      "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 9,
      "pveFlexNote": "Seen mostly above 2646 rating."
     },
     {
      "itemId": 34622,
      "name": "Spinesever",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ],

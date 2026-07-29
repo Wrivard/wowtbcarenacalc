@@ -19,12 +19,14 @@
    "slot": "Head",
    "bis": {
     "itemId": 35050,
-    "name": "Brutal Gladiator's Mail Helm"
+    "name": "Brutal Gladiator's Mail Helm",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30171,
      "name": "Cataclysm Headpiece",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -33,27 +35,32 @@
    "slot": "Neck",
    "bis": {
     "itemId": 30008,
-    "name": "Pendant of the Lost Ages"
+    "name": "Pendant of the Lost Ages",
+    "usagePct": 29
    },
    "alternatives": [
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29347,
      "name": "Talisman of the Breaker",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30015,
      "name": "The Sun King's Talisman",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35133,
-     "name": "Guardian's Pendant of Dominance"
+     "name": "Guardian's Pendant of Dominance",
+     "usagePct": 14
     }
    ],
    "raidPick": true,
@@ -63,12 +70,14 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 35052,
-    "name": "Brutal Gladiator's Mail Spaulders"
+    "name": "Brutal Gladiator's Mail Spaulders",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 35081,
-     "name": "Brutal Gladiator's Ringmail Spaulders"
+     "name": "Brutal Gladiator's Ringmail Spaulders",
+     "usagePct": 43
     }
    ]
   },
@@ -76,17 +85,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 28378,
-    "name": "Sergeant's Heavy Cape"
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 28797,
      "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 278774,
      "name": "Cloak of the Frigid Winds",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -95,12 +107,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 35048,
-    "name": "Brutal Gladiator's Mail Armor"
+    "name": "Brutal Gladiator's Mail Armor",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 35077,
-     "name": "Brutal Gladiator's Ringmail Armor"
+     "name": "Brutal Gladiator's Ringmail Armor",
+     "usagePct": 29
     }
    ]
   },
@@ -108,12 +122,14 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 35173,
-    "name": "Guardian's Mail Bracers"
+    "name": "Guardian's Mail Bracers",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 28638,
-     "name": "General's Mail Bracers"
+     "name": "General's Mail Bracers",
+     "usagePct": 14
     }
    ]
   },
@@ -121,7 +137,8 @@
    "slot": "Hands",
    "bis": {
     "itemId": 35049,
-    "name": "Brutal Gladiator's Mail Gauntlets"
+    "name": "Brutal Gladiator's Mail Gauntlets",
+    "usagePct": 86
    },
    "alternatives": []
   },
@@ -129,7 +146,8 @@
    "slot": "Waist",
    "bis": {
     "itemId": 35158,
-    "name": "Guardian's Mail Girdle"
+    "name": "Guardian's Mail Girdle",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -137,12 +155,14 @@
    "slot": "Legs",
    "bis": {
     "itemId": 35051,
-    "name": "Brutal Gladiator's Mail Leggings"
+    "name": "Brutal Gladiator's Mail Leggings",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30172,
      "name": "Cataclysm Leggings",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -151,12 +171,14 @@
    "slot": "Feet",
    "bis": {
     "itemId": 35143,
-    "name": "Guardian's Mail Sabatons"
+    "name": "Guardian's Mail Sabatons",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 28640,
-     "name": "General's Mail Sabatons"
+     "name": "General's Mail Sabatons",
+     "usagePct": 14
     }
    ]
   },
@@ -164,22 +186,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 35129,
-    "name": "Guardian's Band of Dominance"
+    "name": "Guardian's Band of Dominance",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 29302,
      "name": "Band of Eternity",
+     "usagePct": 43,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -188,21 +214,25 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29302,
-    "name": "Band of Eternity"
+    "name": "Band of Eternity",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 35129,
-     "name": "Guardian's Band of Dominance"
+     "name": "Guardian's Band of Dominance",
+     "usagePct": 86
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -211,20 +241,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 57
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 24126,
      "name": "Figurine - Living Ruby Serpent",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -235,21 +269,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 29370,
      "name": "Icon of the Silver Crescent",
+     "usagePct": 86,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 24126,
      "name": "Figurine - Living Ruby Serpent",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -258,12 +296,14 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 35014,
-    "name": "Brutal Gladiator's Gavel"
+    "name": "Brutal Gladiator's Gavel",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 35102,
-     "name": "Brutal Gladiator's Spellblade"
+     "name": "Brutal Gladiator's Spellblade",
+     "usagePct": 29
     }
    ]
   },
@@ -271,7 +311,8 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 34986,
-    "name": "Brutal Gladiator's Barrier"
+    "name": "Brutal Gladiator's Barrier",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -279,7 +320,8 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 28248,
-    "name": "Totem of the Void"
+    "name": "Totem of the Void",
+    "usagePct": 100
    },
    "alternatives": []
   }

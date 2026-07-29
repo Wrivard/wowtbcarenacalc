@@ -18,16 +18,19 @@
    "slot": "Head",
    "bis": {
     "itemId": 30115,
-    "name": "Destroyer Greathelm"
+    "name": "Destroyer Greathelm",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 33730,
-     "name": "Vengeful Gladiator's Plate Helm"
+     "name": "Vengeful Gladiator's Plate Helm",
+     "usagePct": 20
     },
     {
      "itemId": 32473,
      "name": "Tankatronic Goggles",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -38,16 +41,19 @@
    "slot": "Neck",
    "bis": {
     "itemId": 30099,
-    "name": "Frayed Tether of the Drowned"
+    "name": "Frayed Tether of the Drowned",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 33923,
-     "name": "Vindicator's Pendant of Triumph"
+     "name": "Vindicator's Pendant of Triumph",
+     "usagePct": 40
     },
     {
      "itemId": 28244,
      "name": "Pendant of Triumph",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -58,16 +64,19 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 30117,
-    "name": "Destroyer Shoulderguards"
+    "name": "Destroyer Shoulderguards",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 33732,
-     "name": "Vengeful Gladiator's Plate Shoulders"
+     "name": "Vengeful Gladiator's Plate Shoulders",
+     "usagePct": 20
     },
     {
      "itemId": 29023,
      "name": "Warbringer Shoulderplates",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -78,22 +87,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak"
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 28529,
      "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28660,
      "name": "Gilded Thorium Cloak",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29925,
      "name": "Phoenix-Wing Cloak",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -102,16 +115,19 @@
    "slot": "Chest",
    "bis": {
     "itemId": 29012,
-    "name": "Warbringer Chestguard"
+    "name": "Warbringer Chestguard",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 33728,
-     "name": "Vengeful Gladiator's Plate Chestpiece"
+     "name": "Vengeful Gladiator's Plate Chestpiece",
+     "usagePct": 20
     },
     {
      "itemId": 28597,
      "name": "Panzar'Thar Breastplate",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -122,21 +138,25 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 33813,
-    "name": "Vindicator's Plate Bracers"
+    "name": "Vindicator's Plate Bracers",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 28502,
      "name": "Vambraces of Courage",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28996,
-     "name": "Marshal's Plate Bracers"
+     "name": "Marshal's Plate Bracers",
+     "usagePct": 20
     },
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -145,17 +165,20 @@
    "slot": "Hands",
    "bis": {
     "itemId": 28518,
-    "name": "Iron Gauntlets of the Maiden"
+    "name": "Iron Gauntlets of the Maiden",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 30114,
      "name": "Destroyer Handguards",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29947,
      "name": "Gloves of the Searing Grip",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -164,17 +187,20 @@
    "slot": "Waist",
    "bis": {
     "itemId": 30096,
-    "name": "Girdle of the Invulnerable"
+    "name": "Girdle of the Invulnerable",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 28566,
      "name": "Crimson Girdle of the Indomitable",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30106,
      "name": "Belt of One-Hundred Deaths",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -183,17 +209,20 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30116,
-    "name": "Destroyer Legguards"
+    "name": "Destroyer Legguards",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 28621,
      "name": "Wrynn Dynasty Greaves",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33731,
-     "name": "Vengeful Gladiator's Plate Legguards"
+     "name": "Vengeful Gladiator's Plate Legguards",
+     "usagePct": 20
     }
    ],
    "raidPick": true,
@@ -203,12 +232,14 @@
    "slot": "Feet",
    "bis": {
     "itemId": 33812,
-    "name": "Vindicator's Plate Greaves"
+    "name": "Vindicator's Plate Greaves",
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 28997,
-     "name": "Marshal's Plate Greaves"
+     "name": "Marshal's Plate Greaves",
+     "usagePct": 20
     }
    ]
   },
@@ -216,27 +247,32 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 30834,
-    "name": "Shapeshifter's Signet"
+    "name": "Shapeshifter's Signet",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27761,
      "name": "Ring of the Shadow Deeps",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28675,
      "name": "Shermanar Great-Ring",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33919,
-     "name": "Vindicator's Band of Triumph"
+     "name": "Vindicator's Band of Triumph",
+     "usagePct": 20
     }
    ],
    "raidPick": true,
@@ -246,22 +282,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29997,
-    "name": "Band of the Ranger-General"
+    "name": "Band of the Ranger-General",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 30834,
      "name": "Shapeshifter's Signet",
+     "usagePct": 60,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27761,
      "name": "Ring of the Shadow Deeps",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28675,
      "name": "Shermanar Great-Ring",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -270,22 +310,26 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 28034,
      "name": "Hourglass of the Unraveller",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 23836,
      "name": "Goblin Rocket Launcher",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28121,
      "name": "Icon of Unyielding Courage",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -294,22 +338,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 28034,
-    "name": "Hourglass of the Unraveller"
+    "name": "Hourglass of the Unraveller",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 80,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 23836,
      "name": "Goblin Rocket Launcher",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28121,
      "name": "Icon of Unyielding Courage",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -318,17 +366,20 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 30058,
-    "name": "Mallet of the Tides"
+    "name": "Mallet of the Tides",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 28438,
      "name": "Dragonmaw",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28439,
      "name": "Dragonstrike",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -337,12 +388,14 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 28825,
-    "name": "Aldori Legacy Defender"
+    "name": "Aldori Legacy Defender",
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 33669,
-     "name": "Vengeful Gladiator's Cleaver"
+     "name": "Vengeful Gladiator's Cleaver",
+     "usagePct": 20
     }
    ],
    "raidPick": true,
@@ -352,16 +405,19 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 30025,
-    "name": "Serpentshrine Shuriken"
+    "name": "Serpentshrine Shuriken",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 33765,
-     "name": "Vengeful Gladiator's War Edge"
+     "name": "Vengeful Gladiator's War Edge",
+     "usagePct": 20
     },
     {
      "itemId": 29204,
      "name": "Felsteel Whisper Knives",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ],

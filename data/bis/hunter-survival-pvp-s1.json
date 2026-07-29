@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 28331,
-    "name": "Gladiator's Chain Helm"
+    "name": "Gladiator's Chain Helm",
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 30141,
      "name": "Rift Stalker Helm",
+     "usagePct": 11,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28275,
      "name": "Beast Lord Helm",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -38,22 +41,26 @@
    "slot": "Neck",
    "bis": {
     "itemId": 30017,
-    "name": "Telonicus's Pendant of Mayhem"
+    "name": "Telonicus's Pendant of Mayhem",
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28244,
      "name": "Pendant of Triumph",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28674,
      "name": "Saberclaw Talisman",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -62,17 +69,20 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 28333,
-    "name": "Gladiator's Chain Spaulders"
+    "name": "Gladiator's Chain Spaulders",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 30143,
      "name": "Rift Stalker Mantle",
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27801,
      "name": "Beast Lord Mantle",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -81,27 +91,32 @@
    "slot": "Back",
    "bis": {
     "itemId": 29994,
-    "name": "Thalassian Wildercloak"
+    "name": "Thalassian Wildercloak",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28672,
      "name": "Drape of the Dark Reavers",
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 278819,
      "name": "The Frost Lord's War Cloak",
+     "usagePct": 16,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24259,
      "name": "Vengeance Wrap",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak"
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 5
     }
    ],
    "raidPick": true,
@@ -111,16 +126,19 @@
    "slot": "Chest",
    "bis": {
     "itemId": 30139,
-    "name": "Rift Stalker Hauberk"
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 28334,
-     "name": "Gladiator's Chain Armor"
+     "name": "Gladiator's Chain Armor",
+     "usagePct": 16
     },
     {
      "itemId": 28228,
      "name": "Beast Lord Cuirass",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -132,21 +150,25 @@
    "bis": {
     "itemId": 32809,
     "name": "Veteran's Chain Bracers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28973,
-     "name": "Marshal's Chain Bracers"
+     "name": "Marshal's Chain Bracers",
+     "usagePct": 11
     },
     {
      "itemId": 22443,
      "name": "Cryptstalker Wristguards",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 25697,
      "name": "Felstalker Bracers",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -155,17 +177,20 @@
    "slot": "Hands",
    "bis": {
     "itemId": 28335,
-    "name": "Gladiator's Chain Gauntlets"
+    "name": "Gladiator's Chain Gauntlets",
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 30140,
      "name": "Rift Stalker Gauntlets",
+     "usagePct": 11,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 27474,
      "name": "Beast Lord Handguards",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -175,21 +200,25 @@
    "bis": {
     "itemId": 32797,
     "name": "Veteran's Chain Girdle",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28974,
-     "name": "Marshal's Chain Girdle"
+     "name": "Marshal's Chain Girdle",
+     "usagePct": 11
     },
     {
      "itemId": 22442,
      "name": "Cryptstalker Girdle",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28450,
      "name": "General's Chain Girdle",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -198,17 +227,20 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30142,
-    "name": "Rift Stalker Leggings"
+    "name": "Rift Stalker Leggings",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28332,
      "name": "Gladiator's Chain Leggings",
+     "usagePct": 21,
      "pveFlexNote": "Seen mostly above 2678 rating."
     },
     {
      "itemId": 28740,
      "name": "Rip-Flayer Leggings",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -220,21 +252,25 @@
    "bis": {
     "itemId": 32785,
     "name": "Veteran's Chain Sabatons",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 28975,
-     "name": "Marshal's Chain Sabatons"
+     "name": "Marshal's Chain Sabatons",
+     "usagePct": 16
     },
     {
      "itemId": 28449,
      "name": "General's Chain Sabatons",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28545,
      "name": "Edgewalker Longboots",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -243,28 +279,33 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 29298,
-    "name": "Band of Eternity"
+    "name": "Band of Eternity",
+    "usagePct": 58
    },
    "alternatives": [
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
+     "usagePct": 37,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30052,
      "name": "Ring of Lethality",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33057,
      "name": "Veteran's Band of Triumph",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 16
     }
    ],
    "raidPick": true,
@@ -274,22 +315,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 28791,
-    "name": "Ring of the Recalcitrant"
+    "name": "Ring of the Recalcitrant",
+    "usagePct": 37
    },
    "alternatives": [
     {
      "itemId": 29298,
      "name": "Band of Eternity",
+     "usagePct": 58,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30052,
      "name": "Ring of Lethality",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -298,22 +343,26 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 28237,
-    "name": "Medallion of the Alliance"
+    "name": "Medallion of the Alliance",
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 79,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28034,
      "name": "Hourglass of the Unraveller",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -322,21 +371,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 28237,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 79
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28034,
      "name": "Hourglass of the Unraveller",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -345,16 +398,19 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 29924,
-    "name": "Netherbane"
+    "name": "Netherbane",
+    "usagePct": 21
    },
    "alternatives": [
     {
      "itemId": 28308,
-     "name": "Gladiator's Cleaver"
+     "name": "Gladiator's Cleaver",
+     "usagePct": 16
     },
     {
      "itemId": 28295,
-     "name": "Gladiator's Slicer"
+     "name": "Gladiator's Slicer",
+     "usagePct": 16
     }
    ],
    "raidPick": true,
@@ -364,20 +420,24 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 29948,
-    "name": "Claw of the Phoenix"
+    "name": "Claw of the Phoenix",
+    "usagePct": 26
    },
    "alternatives": [
     {
      "itemId": 28309,
-     "name": "Gladiator's Hacker"
+     "name": "Gladiator's Hacker",
+     "usagePct": 16
     },
     {
      "itemId": 28307,
-     "name": "Gladiator's Quickblade"
+     "name": "Gladiator's Quickblade",
+     "usagePct": 16
     },
     {
      "itemId": 28768,
      "name": "Malchazeen",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -388,22 +448,26 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 30105,
-    "name": "Serpent Spine Longbow"
+    "name": "Serpent Spine Longbow",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28772,
      "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31986,
      "name": "Merciless Gladiator's Crossbow of the Phoenix",
-     "pveFlexNote": "No Season 1 equivalent — current-season item shown."
+     "pveFlexNote": "No Season 1 equivalent — current-season item shown.",
+     "usagePct": 21
     },
     {
      "itemId": 28294,
      "name": "Gladiator's Heavy Crossbow",
+     "usagePct": 5,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],

@@ -19,21 +19,25 @@
    "slot": "Head",
    "bis": {
     "itemId": 30219,
-    "name": "Nordrassil Headguard"
+    "name": "Nordrassil Headguard",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 30233,
      "name": "Nordrassil Headpiece",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35023,
-     "name": "Brutal Gladiator's Kodohide Helm"
+     "name": "Brutal Gladiator's Kodohide Helm",
+     "usagePct": 13
     },
     {
      "itemId": 32480,
      "name": "Magnified Moon Specs",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -44,27 +48,32 @@
    "slot": "Neck",
    "bis": {
     "itemId": 28731,
-    "name": "Shining Chain of the Afterworld"
+    "name": "Shining Chain of the Afterworld",
+    "usagePct": 25
    },
    "alternatives": [
     {
      "itemId": 30018,
      "name": "Lord Sanguinar's Claim",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 24116,
      "name": "Eye of the Night",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 24121,
      "name": "Chain of the Twilight Owl",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35134,
-     "name": "Guardian's Pendant of Salvation"
+     "name": "Guardian's Pendant of Salvation",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -74,27 +83,32 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 30221,
-    "name": "Nordrassil Life-Mantle"
+    "name": "Nordrassil Life-Mantle",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 30024,
      "name": "Mantle of the Elven Kings",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30079,
      "name": "Illidari Shoulderpads",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30111,
      "name": "Runetotem's Mantle",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35025,
-     "name": "Brutal Gladiator's Kodohide Spaulders"
+     "name": "Brutal Gladiator's Kodohide Spaulders",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -104,22 +118,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 29989,
-    "name": "Sunshower Light Cloak"
+    "name": "Sunshower Light Cloak",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 28765,
      "name": "Stainless Cloak of the Pure Hearted",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28797,
      "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29369,
      "name": "Shawl of Shifting Probabilities",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -128,27 +146,32 @@
    "slot": "Chest",
    "bis": {
     "itemId": 30216,
-    "name": "Nordrassil Chestguard"
+    "name": "Nordrassil Chestguard",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 30231,
      "name": "Nordrassil Chestpiece",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29091,
      "name": "Chestpiece of Malorne",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30075,
      "name": "Gnarled Chestpiece of the Ancients",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35026,
-     "name": "Brutal Gladiator's Kodohide Tunic"
+     "name": "Brutal Gladiator's Kodohide Tunic",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -158,22 +181,26 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 30062,
-    "name": "Grove-Bands of Remulos"
+    "name": "Grove-Bands of Remulos",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 28515,
      "name": "Bands of Nefarious Deeds",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32655,
      "name": "Crystalweave Bracers",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35169,
-     "name": "Guardian's Kodohide Bracers"
+     "name": "Guardian's Kodohide Bracers",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -183,27 +210,32 @@
    "slot": "Hands",
    "bis": {
     "itemId": 30217,
-    "name": "Nordrassil Gloves"
+    "name": "Nordrassil Gloves",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 28507,
      "name": "Handwraps of Flowing Thought",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28521,
      "name": "Mitts of the Treemender",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30029,
      "name": "Bark-Gloves of Ancient Wisdom",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35022,
-     "name": "Brutal Gladiator's Kodohide Gloves"
+     "name": "Brutal Gladiator's Kodohide Gloves",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -213,21 +245,25 @@
    "slot": "Waist",
    "bis": {
     "itemId": 29984,
-    "name": "Girdle of Zaetar"
+    "name": "Girdle of Zaetar",
+    "usagePct": 25
    },
    "alternatives": [
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35154,
-     "name": "Guardian's Kodohide Belt"
+     "name": "Guardian's Kodohide Belt",
+     "usagePct": 25
     },
     {
      "itemId": 28799,
      "name": "Belt of Divine Inspiration",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -238,27 +274,32 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30220,
-    "name": "Nordrassil Life-Kilt"
+    "name": "Nordrassil Life-Kilt",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 28591,
      "name": "Earthsoul Leggings",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30234,
      "name": "Nordrassil Wrath-Kilt",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35024,
-     "name": "Brutal Gladiator's Kodohide Legguards"
+     "name": "Brutal Gladiator's Kodohide Legguards",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -268,21 +309,25 @@
    "slot": "Feet",
    "bis": {
     "itemId": 28752,
-    "name": "Forestlord Striders"
+    "name": "Forestlord Striders",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 35139,
-     "name": "Guardian's Kodohide Boots"
+     "name": "Guardian's Kodohide Boots",
+     "usagePct": 25
     },
     {
      "itemId": 27914,
      "name": "Moonstrider Boots",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30037,
      "name": "Boots of Blasting",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -293,27 +338,32 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer"
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 30110,
      "name": "Coral Band of the Revived",
+     "usagePct": 38,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35130,
-     "name": "Guardian's Band of Salvation"
+     "name": "Guardian's Band of Salvation",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -323,22 +373,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 30110,
-    "name": "Coral Band of the Revived"
+    "name": "Coral Band of the Revived",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 29290,
      "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 38,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -347,27 +401,32 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "name": "Essence of the Martyr",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 30841,
      "name": "Lower City Prayerbook",
+     "usagePct": 38,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28235,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -377,22 +436,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30841,
-    "name": "Lower City Prayerbook"
+    "name": "Lower City Prayerbook",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 29376,
      "name": "Essence of the Martyr",
+     "usagePct": 38,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -401,21 +464,25 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 35082,
-    "name": "Brutal Gladiator's Salvation"
+    "name": "Brutal Gladiator's Salvation",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 30108,
      "name": "Lightfathom Scepter",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35102,
-     "name": "Brutal Gladiator's Spellblade"
+     "name": "Brutal Gladiator's Spellblade",
+     "usagePct": 13
     },
     {
      "itemId": 35109,
-     "name": "Brutal Gladiator's War Staff"
+     "name": "Brutal Gladiator's War Staff",
+     "usagePct": 13
     }
    ]
   },
@@ -423,27 +490,32 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 29923,
-    "name": "Talisman of the Sun King"
+    "name": "Talisman of the Sun King",
+    "usagePct": 25
    },
    "alternatives": [
     {
      "itemId": 28781,
      "name": "Karaborian Talisman",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29170,
      "name": "Windcaller's Orb",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29271,
      "name": "Talisman of Kalecgos",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35074,
-     "name": "Brutal Gladiator's Reprieve"
+     "name": "Brutal Gladiator's Reprieve",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -453,17 +525,20 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 27886,
-    "name": "Idol of the Emerald Queen"
+    "name": "Idol of the Emerald Queen",
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 27518,
      "name": "Ivory Idol of the Moongoddess",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32387,
      "name": "Idol of the Raven Goddess",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]

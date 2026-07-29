@@ -77,14 +77,24 @@ export function GearGrid({
   specKey,
   content,
   role,
+  derivedSeason,
 }: {
   slots: BisSlot[];
   specKey: string;
   content: "pvp" | "pve";
   /** Decides how a PvE resilience row reads — see resilienceNote below. */
   role?: string;
+  /**
+   * Set on the derived Season 1/3/4 pages. Their percentages are the LIVE
+   * ladder's, carried across with the item they belong to, so the tooltip
+   * must not claim they were measured in this season.
+   */
+  derivedSeason?: number;
 }) {
   const isTank = role === "Tank";
+  const usageTitle = derivedSeason
+    ? `Share of surveyed players using this slot's current-ladder equivalent — not a Season ${derivedSeason} sample`
+    : "Share of surveyed players using this item";
   return (
     <div className="overflow-hidden rounded-xl border border-border">
       {slots.map((row) => {
@@ -151,7 +161,7 @@ export function GearGrid({
             {row.bis.usagePct !== undefined && (
               <span
                 className="font-mono text-xs tabular-nums text-accent"
-                title="Share of surveyed players using this item"
+                title={usageTitle}
               >
                 {row.bis.usagePct}%
               </span>

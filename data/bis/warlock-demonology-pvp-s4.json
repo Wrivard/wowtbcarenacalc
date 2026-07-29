@@ -19,12 +19,14 @@
    "slot": "Head",
    "bis": {
     "itemId": 35010,
-    "name": "Brutal Gladiator's Felweave Cowl"
+    "name": "Brutal Gladiator's Felweave Cowl",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 35004,
-     "name": "Brutal Gladiator's Dreadweave Hood"
+     "name": "Brutal Gladiator's Dreadweave Hood",
+     "usagePct": 23
     }
    ]
   },
@@ -32,17 +34,20 @@
    "slot": "Neck",
    "bis": {
     "itemId": 35133,
-    "name": "Guardian's Pendant of Dominance"
+    "name": "Guardian's Pendant of Dominance",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -51,7 +56,8 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 35006,
-    "name": "Brutal Gladiator's Dreadweave Mantle"
+    "name": "Brutal Gladiator's Dreadweave Mantle",
+    "usagePct": 79
    },
    "alternatives": []
   },
@@ -59,12 +65,14 @@
    "slot": "Back",
    "bis": {
     "itemId": 28378,
-    "name": "Sergeant's Heavy Cape"
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 29992,
      "name": "Royal Cloak of the Sunstriders",
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -73,7 +81,8 @@
    "slot": "Chest",
    "bis": {
     "itemId": 35007,
-    "name": "Brutal Gladiator's Dreadweave Robe"
+    "name": "Brutal Gladiator's Dreadweave Robe",
+    "usagePct": 82
    },
    "alternatives": []
   },
@@ -81,12 +90,14 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 35168,
-    "name": "Guardian's Dreadweave Cuffs"
+    "name": "Guardian's Dreadweave Cuffs",
+    "usagePct": 85
    },
    "alternatives": [
     {
      "itemId": 24249,
      "name": "Unyielding Bracers",
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -95,7 +106,8 @@
    "slot": "Hands",
    "bis": {
     "itemId": 35003,
-    "name": "Brutal Gladiator's Dreadweave Gloves"
+    "name": "Brutal Gladiator's Dreadweave Gloves",
+    "usagePct": 80
    },
    "alternatives": []
   },
@@ -103,12 +115,14 @@
    "slot": "Waist",
    "bis": {
     "itemId": 35153,
-    "name": "Guardian's Dreadweave Belt"
+    "name": "Guardian's Dreadweave Belt",
+    "usagePct": 81
    },
    "alternatives": [
     {
      "itemId": 24255,
      "name": "Unyielding Girdle",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -117,7 +131,8 @@
    "slot": "Legs",
    "bis": {
     "itemId": 35005,
-    "name": "Brutal Gladiator's Dreadweave Leggings"
+    "name": "Brutal Gladiator's Dreadweave Leggings",
+    "usagePct": 78
    },
    "alternatives": []
   },
@@ -125,16 +140,19 @@
    "slot": "Feet",
    "bis": {
     "itemId": 35138,
-    "name": "Guardian's Dreadweave Stalkers"
+    "name": "Guardian's Dreadweave Stalkers",
+    "usagePct": 76
    },
    "alternatives": [
     {
      "itemId": 28982,
-     "name": "Marshal's Dreadweave Stalkers"
+     "name": "Marshal's Dreadweave Stalkers",
+     "usagePct": 10
     },
     {
      "itemId": 28402,
-     "name": "General's Dreadweave Stalkers"
+     "name": "General's Dreadweave Stalkers",
+     "usagePct": 7
     }
    ]
   },
@@ -142,22 +160,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 35129,
-    "name": "Guardian's Band of Dominance"
+    "name": "Guardian's Band of Dominance",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 33054,
      "name": "The Seal of Danzalar",
+     "usagePct": 49,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 42,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28247,
      "name": "Band of Dominance",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -166,21 +188,25 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 33054,
-    "name": "The Seal of Danzalar"
+    "name": "The Seal of Danzalar",
+    "usagePct": 49
    },
    "alternatives": [
     {
      "itemId": 35129,
-     "name": "Guardian's Band of Dominance"
+     "name": "Guardian's Band of Dominance",
+     "usagePct": 88
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 42,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28247,
      "name": "Band of Dominance",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -189,21 +215,25 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 30348,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 56
     },
     {
      "itemId": 30449,
      "name": "Void Star Talisman",
+     "usagePct": 42,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30343,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 40
     }
    ],
    "raidPick": true,
@@ -213,22 +243,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30348,
-    "name": "Medallion of the Alliance"
+    "name": "Medallion of the Alliance",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 29370,
      "name": "Icon of the Silver Crescent",
+     "usagePct": 56,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30449,
      "name": "Void Star Talisman",
+     "usagePct": 42,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30343,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 40
     }
    ]
   },
@@ -236,7 +270,8 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 35102,
-    "name": "Brutal Gladiator's Spellblade"
+    "name": "Brutal Gladiator's Spellblade",
+    "usagePct": 82
    },
    "alternatives": []
   },
@@ -244,12 +279,14 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 35008,
-    "name": "Brutal Gladiator's Endgame"
+    "name": "Brutal Gladiator's Endgame",
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 29272,
      "name": "Orb of the Soul-Eater",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -258,7 +295,8 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 35107,
-    "name": "Brutal Gladiator's Touch of Defeat"
+    "name": "Brutal Gladiator's Touch of Defeat",
+    "usagePct": 36
    },
    "alternatives": []
   }

@@ -19,12 +19,14 @@
    "slot": "Head",
    "bis": {
     "itemId": 30152,
-    "name": "Cowl of the Avatar"
+    "name": "Cowl of the Avatar",
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 29049,
      "name": "Light-Collar of the Incarnate",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -33,27 +35,32 @@
    "slot": "Neck",
    "bis": {
     "itemId": 28822,
-    "name": "Teeth of Gruul"
+    "name": "Teeth of Gruul",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 28609,
      "name": "Emberspur Talisman",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30018,
      "name": "Lord Sanguinar's Claim",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28731,
      "name": "Shining Chain of the Afterworld",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33922,
-     "name": "Vindicator's Pendant of Salvation"
+     "name": "Vindicator's Pendant of Salvation",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -63,21 +70,25 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 30154,
-    "name": "Mantle of the Avatar"
+    "name": "Mantle of the Avatar",
+    "usagePct": 48
    },
    "alternatives": [
     {
      "itemId": 29054,
      "name": "Light-Mantle of the Incarnate",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33720,
-     "name": "Vengeful Gladiator's Mooncloth Mantle"
+     "name": "Vengeful Gladiator's Mooncloth Mantle",
+     "usagePct": 12
     },
     {
      "itemId": 21874,
      "name": "Primal Mooncloth Shoulders",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -88,17 +99,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 28765,
-    "name": "Stainless Cloak of the Pure Hearted"
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 47
    },
    "alternatives": [
     {
      "itemId": 29989,
      "name": "Sunshower Light Cloak",
+     "usagePct": 38,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 279240,
      "name": "Shroud of Winter's Chill",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -107,22 +121,26 @@
    "slot": "Chest",
    "bis": {
     "itemId": 30150,
-    "name": "Vestments of the Avatar"
+    "name": "Vestments of the Avatar",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 29050,
      "name": "Robes of the Incarnate",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28578,
      "name": "Masquerade Gown",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33721,
-     "name": "Vengeful Gladiator's Mooncloth Robe"
+     "name": "Vengeful Gladiator's Mooncloth Robe",
+     "usagePct": 10
     }
    ],
    "raidPick": true,
@@ -132,21 +150,25 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 32516,
-    "name": "Wraps of Purification"
+    "name": "Wraps of Purification",
+    "usagePct": 45
    },
    "alternatives": [
     {
      "itemId": 33901,
-     "name": "Vindicator's Mooncloth Cuffs"
+     "name": "Vindicator's Mooncloth Cuffs",
+     "usagePct": 30
     },
     {
      "itemId": 28511,
      "name": "Bands of Indwelling",
+     "usagePct": 12,
      "pveFlexNote": "Seen mostly above 2496 rating."
     },
     {
      "itemId": 29183,
      "name": "Bindings of the Timewalker",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -157,22 +179,26 @@
    "slot": "Hands",
    "bis": {
     "itemId": 30151,
-    "name": "Gloves of the Avatar"
+    "name": "Gloves of the Avatar",
+    "usagePct": 62
    },
    "alternatives": [
     {
      "itemId": 29055,
      "name": "Handwraps of the Incarnate",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28508,
      "name": "Gloves of Saintly Blessings",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33717,
-     "name": "Vengeful Gladiator's Mooncloth Gloves"
+     "name": "Vengeful Gladiator's Mooncloth Gloves",
+     "usagePct": 8
     }
    ],
    "raidPick": true,
@@ -182,22 +208,26 @@
    "slot": "Waist",
    "bis": {
     "itemId": 28652,
-    "name": "Cincture of Will"
+    "name": "Cincture of Will",
+    "usagePct": 37
    },
    "alternatives": [
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 21873,
      "name": "Primal Mooncloth Belt",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33900,
-     "name": "Vindicator's Mooncloth Belt"
+     "name": "Vindicator's Mooncloth Belt",
+     "usagePct": 13
     }
    ],
    "raidPick": true,
@@ -207,22 +237,26 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30153,
-    "name": "Breeches of the Avatar"
+    "name": "Breeches of the Avatar",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 28742,
      "name": "Pantaloons of Repentance",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29977,
      "name": "Star-Soul Breeches",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33719,
-     "name": "Vengeful Gladiator's Mooncloth Leggings"
+     "name": "Vengeful Gladiator's Mooncloth Leggings",
+     "usagePct": 10
     }
    ],
    "raidPick": true,
@@ -232,17 +266,20 @@
    "slot": "Feet",
    "bis": {
     "itemId": 30100,
-    "name": "Soul-Strider Boots"
+    "name": "Soul-Strider Boots",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 28663,
      "name": "Boots of the Incorrupt",
+     "usagePct": 28,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30035,
      "name": "Boots of the Long Road",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -251,27 +288,32 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 29290,
-    "name": "Violet Signet of the Grand Restorer"
+    "name": "Violet Signet of the Grand Restorer",
+    "usagePct": 78
    },
    "alternatives": [
     {
      "itemId": 30110,
      "name": "Coral Band of the Revived",
+     "usagePct": 47,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29307,
      "name": "Band of Eternity",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33918,
-     "name": "Vindicator's Band of Salvation"
+     "name": "Vindicator's Band of Salvation",
+     "usagePct": 7
     }
    ],
    "raidPick": true,
@@ -281,22 +323,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 30110,
-    "name": "Coral Band of the Revived"
+    "name": "Coral Band of the Revived",
+    "usagePct": 47
    },
    "alternatives": [
     {
      "itemId": 29290,
      "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 78,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29307,
      "name": "Band of Eternity",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -305,27 +351,32 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "name": "Essence of the Martyr",
+    "usagePct": 58
    },
    "alternatives": [
     {
      "itemId": 30665,
      "name": "Earring of Soulful Meditation",
+     "usagePct": 45,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28823,
      "name": "Eye of Gruul",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30349,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 7
     }
    ],
    "raidPick": true,
@@ -335,22 +386,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30665,
-    "name": "Earring of Soulful Meditation"
+    "name": "Earring of Soulful Meditation",
+    "usagePct": 45
    },
    "alternatives": [
     {
      "itemId": 29376,
      "name": "Essence of the Martyr",
+     "usagePct": 58,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28823,
      "name": "Eye of Gruul",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -359,22 +414,26 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 33743,
-    "name": "Vengeful Gladiator's Salvation"
+    "name": "Vengeful Gladiator's Salvation",
+    "usagePct": 47
    },
    "alternatives": [
     {
      "itemId": 30108,
      "name": "Lightfathom Scepter",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28771,
      "name": "Light's Justice",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29981,
      "name": "Ethereum Life-Staff",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -383,22 +442,26 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 29923,
-    "name": "Talisman of the Sun King"
+    "name": "Talisman of the Sun King",
+    "usagePct": 65
    },
    "alternatives": [
     {
      "itemId": 29170,
      "name": "Windcaller's Orb",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28728,
      "name": "Aran's Soothing Sapphire",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28525,
      "name": "Signet of Unshakable Faith",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -407,12 +470,14 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 30080,
-    "name": "Luminescent Rod of the Naaru"
+    "name": "Luminescent Rod of the Naaru",
+    "usagePct": 65
    },
    "alternatives": [
     {
      "itemId": 28588,
      "name": "Blue Diamond Witchwand",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     }
    ]

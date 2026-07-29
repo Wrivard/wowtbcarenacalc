@@ -19,7 +19,8 @@
    "slot": "Head",
    "bis": {
     "itemId": 25998,
-    "name": "Gladiator's Linked Helm"
+    "name": "Gladiator's Linked Helm",
+    "usagePct": 63
    },
    "alternatives": []
   },
@@ -28,12 +29,14 @@
    "bis": {
     "itemId": 33066,
     "name": "Veteran's Pendant of Triumph",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28244,
      "name": "Pendant of Triumph",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -42,7 +45,8 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 25999,
-    "name": "Gladiator's Linked Spaulders"
+    "name": "Gladiator's Linked Spaulders",
+    "usagePct": 75
    },
    "alternatives": []
   },
@@ -50,17 +54,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak"
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 30098,
      "name": "Razor-Scale Battlecloak",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28529,
      "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -69,12 +76,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 25997,
-    "name": "Gladiator's Linked Armor"
+    "name": "Gladiator's Linked Armor",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 30185,
      "name": "Cataclysm Chestplate",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -84,12 +93,14 @@
    "bis": {
     "itemId": 32816,
     "name": "Veteran's Linked Bracers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28989,
-     "name": "Marshal's Linked Bracers"
+     "name": "Marshal's Linked Bracers",
+     "usagePct": 13
     }
    ]
   },
@@ -97,12 +108,14 @@
    "slot": "Hands",
    "bis": {
     "itemId": 35382,
-    "name": "Seer's Linked Gauntlets"
+    "name": "Seer's Linked Gauntlets",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 26000,
-     "name": "Gladiator's Linked Gauntlets"
+     "name": "Gladiator's Linked Gauntlets",
+     "usagePct": 38
     }
    ],
    "raidPick": true,
@@ -113,12 +126,14 @@
    "bis": {
     "itemId": 32803,
     "name": "Veteran's Linked Girdle",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28990,
-     "name": "Marshal's Linked Girdle"
+     "name": "Marshal's Linked Girdle",
+     "usagePct": 13
     }
    ]
   },
@@ -126,7 +141,8 @@
    "slot": "Legs",
    "bis": {
     "itemId": 26001,
-    "name": "Gladiator's Linked Leggings"
+    "name": "Gladiator's Linked Leggings",
+    "usagePct": 63
    },
    "alternatives": []
   },
@@ -135,12 +151,14 @@
    "bis": {
     "itemId": 32791,
     "name": "Veteran's Linked Sabatons",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28975,
-     "name": "Marshal's Chain Sabatons"
+     "name": "Marshal's Chain Sabatons",
+     "usagePct": 13
     }
    ]
   },
@@ -149,22 +167,26 @@
    "bis": {
     "itemId": 33057,
     "name": "Veteran's Band of Triumph",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28553,
      "name": "Band of the Exorcist",
+     "usagePct": 38,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -173,22 +195,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 28553,
-    "name": "Band of the Exorcist"
+    "name": "Band of the Exorcist",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 33057,
      "name": "Veteran's Band of Triumph",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 88
     },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -197,20 +223,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 63
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 38
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -221,21 +251,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 75,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 38
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -244,21 +278,25 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 28308,
-    "name": "Gladiator's Cleaver"
+    "name": "Gladiator's Cleaver",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 29996,
      "name": "Rod of the Sun King",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28313,
-     "name": "Gladiator's Right Ripper"
+     "name": "Gladiator's Right Ripper",
+     "usagePct": 13
     },
     {
      "itemId": 28439,
      "name": "Dragonstrike",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -267,12 +305,14 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 28305,
-    "name": "Gladiator's Pummeler"
+    "name": "Gladiator's Pummeler",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 28308,
-     "name": "Gladiator's Cleaver"
+     "name": "Gladiator's Cleaver",
+     "usagePct": 25
     }
    ]
   },
@@ -280,12 +320,14 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 27815,
-    "name": "Totem of the Astral Winds"
+    "name": "Totem of the Astral Winds",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 33939,
-     "name": "Gladiator's Totem of Indomitability"
+     "name": "Gladiator's Totem of Indomitability",
+     "usagePct": 13
     }
    ],
    "raidPick": true,

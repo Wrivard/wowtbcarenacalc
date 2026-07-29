@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 30152,
-    "name": "Cowl of the Avatar"
+    "name": "Cowl of the Avatar",
+    "usagePct": 64
    },
    "alternatives": [
     {
      "itemId": 29049,
      "name": "Light-Collar of the Incarnate",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31410,
-     "name": "Gladiator's Mooncloth Hood"
+     "name": "Gladiator's Mooncloth Hood",
+     "usagePct": 9
     }
    ],
    "raidPick": true,
@@ -40,17 +43,20 @@
    "bis": {
     "itemId": 33068,
     "name": "Veteran's Pendant of Salvation",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 74
    },
    "alternatives": [
     {
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -59,7 +65,8 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 31412,
-    "name": "Gladiator's Mooncloth Mantle"
+    "name": "Gladiator's Mooncloth Mantle",
+    "usagePct": 82
    },
    "alternatives": []
   },
@@ -67,27 +74,32 @@
    "slot": "Back",
    "bis": {
     "itemId": 28765,
-    "name": "Stainless Cloak of the Pure Hearted"
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 42
    },
    "alternatives": [
     {
      "itemId": 29989,
      "name": "Sunshower Light Cloak",
+     "usagePct": 32,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29375,
      "name": "Bishop's Cloak",
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 279240,
      "name": "Shroud of Winter's Chill",
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28378,
-     "name": "Sergeant's Heavy Cape"
+     "name": "Sergeant's Heavy Cape",
+     "usagePct": 5
     }
    ],
    "raidPick": true,
@@ -97,7 +109,8 @@
    "slot": "Chest",
    "bis": {
     "itemId": 31413,
-    "name": "Gladiator's Mooncloth Robe"
+    "name": "Gladiator's Mooncloth Robe",
+    "usagePct": 83
    },
    "alternatives": []
   },
@@ -106,12 +119,14 @@
    "bis": {
     "itemId": 32980,
     "name": "Veteran's Mooncloth Cuffs",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 84
    },
    "alternatives": [
     {
      "itemId": 32977,
-     "name": "Marshal's Mooncloth Cuffs"
+     "name": "Marshal's Mooncloth Cuffs",
+     "usagePct": 10
     }
    ]
   },
@@ -119,7 +134,8 @@
    "slot": "Hands",
    "bis": {
     "itemId": 31409,
-    "name": "Gladiator's Mooncloth Gloves"
+    "name": "Gladiator's Mooncloth Gloves",
+    "usagePct": 81
    },
    "alternatives": []
   },
@@ -128,16 +144,19 @@
    "bis": {
     "itemId": 32979,
     "name": "Veteran's Mooncloth Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 32976,
-     "name": "Marshal's Mooncloth Belt"
+     "name": "Marshal's Mooncloth Belt",
+     "usagePct": 10
     },
     {
      "itemId": 30036,
      "name": "Belt of the Long Road",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -146,7 +165,8 @@
    "slot": "Legs",
    "bis": {
     "itemId": 31411,
-    "name": "Gladiator's Mooncloth Leggings"
+    "name": "Gladiator's Mooncloth Leggings",
+    "usagePct": 79
    },
    "alternatives": []
   },
@@ -154,22 +174,26 @@
    "slot": "Feet",
    "bis": {
     "itemId": 30035,
-    "name": "Boots of the Long Road"
+    "name": "Boots of the Long Road",
+    "usagePct": 31
    },
    "alternatives": [
     {
      "itemId": 32981,
      "name": "Veteran's Mooncloth Slippers",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 28
     },
     {
      "itemId": 30100,
      "name": "Soul-Strider Boots",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28663,
      "name": "Boots of the Incorrupt",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -181,22 +205,26 @@
    "bis": {
     "itemId": 33064,
     "name": "Veteran's Band of Salvation",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 30110,
      "name": "Coral Band of the Revived",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29290,
      "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -205,22 +233,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 30110,
-    "name": "Coral Band of the Revived"
+    "name": "Coral Band of the Revived",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 33064,
      "name": "Veteran's Band of Salvation",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 80
     },
     {
      "itemId": 29290,
      "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -229,20 +261,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 30665,
-    "name": "Earring of Soulful Meditation"
+    "name": "Earring of Soulful Meditation",
+    "usagePct": 61
    },
    "alternatives": [
     {
      "itemId": 30349,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 60
     },
     {
      "itemId": 30346,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 37
     },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -253,21 +289,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30349,
-    "name": "Medallion of the Alliance"
+    "name": "Medallion of the Alliance",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 30665,
      "name": "Earring of Soulful Meditation",
+     "usagePct": 61,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30346,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 37
     },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -276,17 +316,20 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 32451,
-    "name": "Gladiator's Salvation"
+    "name": "Gladiator's Salvation",
+    "usagePct": 55
    },
    "alternatives": [
     {
      "itemId": 30108,
      "name": "Lightfathom Scepter",
+     "usagePct": 14,
      "pveFlexNote": "Seen mostly above 2506 rating."
     },
     {
      "itemId": 28771,
      "name": "Light's Justice",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -295,17 +338,20 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 32452,
-    "name": "Gladiator's Reprieve"
+    "name": "Gladiator's Reprieve",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 29923,
      "name": "Talisman of the Sun King",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28525,
      "name": "Signet of Unshakable Faith",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -314,17 +360,20 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 28320,
-    "name": "Gladiator's Touch of Defeat"
+    "name": "Gladiator's Touch of Defeat",
+    "usagePct": 37
    },
    "alternatives": [
     {
      "itemId": 30080,
      "name": "Luminescent Rod of the Naaru",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28588,
      "name": "Blue Diamond Witchwand",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]

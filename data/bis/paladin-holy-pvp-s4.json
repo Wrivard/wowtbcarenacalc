@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 35061,
-    "name": "Brutal Gladiator's Ornamented Headcover"
+    "name": "Brutal Gladiator's Ornamented Headcover",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30136,
      "name": "Crystalforge Greathelm",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35029,
-     "name": "Brutal Gladiator's Lamellar Helm"
+     "name": "Brutal Gladiator's Lamellar Helm",
+     "usagePct": 22
     }
    ]
   },
@@ -37,21 +40,25 @@
    "slot": "Neck",
    "bis": {
     "itemId": 28609,
-    "name": "Emberspur Talisman"
+    "name": "Emberspur Talisman",
+    "usagePct": 22
    },
    "alternatives": [
     {
      "itemId": 35134,
-     "name": "Guardian's Pendant of Salvation"
+     "name": "Guardian's Pendant of Salvation",
+     "usagePct": 22
     },
     {
      "itemId": 28822,
      "name": "Teeth of Gruul",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -62,17 +69,20 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 35063,
-    "name": "Brutal Gladiator's Ornamented Spaulders"
+    "name": "Brutal Gladiator's Ornamented Spaulders",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30138,
      "name": "Crystalforge Pauldrons",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35031,
-     "name": "Brutal Gladiator's Lamellar Shoulders"
+     "name": "Brutal Gladiator's Lamellar Shoulders",
+     "usagePct": 22
     }
    ]
   },
@@ -80,22 +90,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 28765,
-    "name": "Stainless Cloak of the Pure Hearted"
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 279240,
      "name": "Shroud of Winter's Chill",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28570,
      "name": "Shadow-Cloak of Dalaran",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29375,
      "name": "Bishop's Cloak",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -104,17 +118,20 @@
    "slot": "Chest",
    "bis": {
     "itemId": 35059,
-    "name": "Brutal Gladiator's Ornamented Chestguard"
+    "name": "Brutal Gladiator's Ornamented Chestguard",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30134,
      "name": "Crystalforge Chestpiece",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35027,
-     "name": "Brutal Gladiator's Lamellar Chestpiece"
+     "name": "Brutal Gladiator's Lamellar Chestpiece",
+     "usagePct": 22
     }
    ]
   },
@@ -122,16 +139,19 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 35175,
-    "name": "Guardian's Ornamented Bracers"
+    "name": "Guardian's Ornamented Bracers",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 35170,
-     "name": "Guardian's Lamellar Bracers"
+     "name": "Guardian's Lamellar Bracers",
+     "usagePct": 22
     },
     {
      "itemId": 30047,
      "name": "Blackfathom Warbands",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -140,21 +160,25 @@
    "slot": "Hands",
    "bis": {
     "itemId": 35060,
-    "name": "Brutal Gladiator's Ornamented Gloves"
+    "name": "Brutal Gladiator's Ornamented Gloves",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30112,
      "name": "Glorious Gauntlets of Crestfall",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35028,
-     "name": "Brutal Gladiator's Lamellar Gauntlets"
+     "name": "Brutal Gladiator's Lamellar Gauntlets",
+     "usagePct": 22
     },
     {
      "itemId": 30135,
      "name": "Crystalforge Gloves",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -163,21 +187,25 @@
    "slot": "Waist",
    "bis": {
     "itemId": 30030,
-    "name": "Girdle of Fallen Stars"
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 30044,
      "name": "Monsoon Belt",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35155,
-     "name": "Guardian's Lamellar Belt"
+     "name": "Guardian's Lamellar Belt",
+     "usagePct": 11
     },
     {
      "itemId": 35160,
-     "name": "Guardian's Ornamented Belt"
+     "name": "Guardian's Ornamented Belt",
+     "usagePct": 11
     }
    ],
    "raidPick": true,
@@ -187,22 +215,26 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30137,
-    "name": "Crystalforge Leggings"
+    "name": "Crystalforge Leggings",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 29991,
      "name": "Sunhawk Leggings",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28748,
      "name": "Legplates of the Innocent",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -211,16 +243,19 @@
    "slot": "Feet",
    "bis": {
     "itemId": 30027,
-    "name": "Boots of Courage Unending"
+    "name": "Boots of Courage Unending",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 35145,
-     "name": "Guardian's Ornamented Greaves"
+     "name": "Guardian's Ornamented Greaves",
+     "usagePct": 33
     },
     {
      "itemId": 35140,
-     "name": "Guardian's Lamellar Greaves"
+     "name": "Guardian's Lamellar Greaves",
+     "usagePct": 22
     }
    ],
    "raidPick": true,
@@ -230,27 +265,32 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 28790,
-    "name": "Naaru Lightwarden's Band"
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 29307,
      "name": "Band of Eternity",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35129,
-     "name": "Guardian's Band of Dominance"
+     "name": "Guardian's Band of Dominance",
+     "usagePct": 11
     }
    ],
    "raidPick": true,
@@ -260,22 +300,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29307,
-    "name": "Band of Eternity"
+    "name": "Band of Eternity",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
+     "usagePct": 67,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -284,20 +328,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "name": "Essence of the Martyr",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 28236,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 44
     },
     {
      "itemId": 28242,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 22
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -308,21 +356,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 28236,
-    "name": "Medallion of the Alliance"
+    "name": "Medallion of the Alliance",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 29376,
      "name": "Essence of the Martyr",
+     "usagePct": 67,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28242,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 22
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -331,12 +383,14 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 35082,
-    "name": "Brutal Gladiator's Salvation"
+    "name": "Brutal Gladiator's Salvation",
+    "usagePct": 78
    },
    "alternatives": [
     {
      "itemId": 35014,
-     "name": "Brutal Gladiator's Gavel"
+     "name": "Brutal Gladiator's Gavel",
+     "usagePct": 22
     }
    ]
   },
@@ -344,21 +398,25 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 35073,
-    "name": "Brutal Gladiator's Redoubt"
+    "name": "Brutal Gladiator's Redoubt",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 34986,
-     "name": "Brutal Gladiator's Barrier"
+     "name": "Brutal Gladiator's Barrier",
+     "usagePct": 22
     },
     {
      "itemId": 29274,
      "name": "Tears of Heaven",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29458,
-     "name": "Aegis of the Vindicator"
+     "name": "Aegis of the Vindicator",
+     "usagePct": 11
     }
    ]
   },
@@ -366,22 +424,26 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 35040,
-    "name": "Brutal Gladiator's Libram of Justice"
+    "name": "Brutal Gladiator's Libram of Justice",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 25644,
      "name": "Blessed Book of Nagrand",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28296,
      "name": "Libram of the Lightbringer",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 23006,
      "name": "Libram of Light",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]

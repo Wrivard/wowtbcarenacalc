@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 33672,
-    "name": "Vengeful Gladiator's Dragonhide Helm"
+    "name": "Vengeful Gladiator's Dragonhide Helm",
+    "usagePct": 64
    },
    "alternatives": [
     {
      "itemId": 8345,
      "name": "Wolfshead Helm",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 29098,
      "name": "Stag-Helm of Malorne",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -38,22 +41,26 @@
    "slot": "Neck",
    "bis": {
     "itemId": 29381,
-    "name": "Choker of Vile Intent"
+    "name": "Choker of Vile Intent",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 30017,
      "name": "Telonicus's Pendant of Mayhem",
+     "usagePct": 36,
      "pveFlexNote": "Seen mostly above 2650 rating."
     },
     {
      "itemId": 28509,
      "name": "Worgen Claw Necklace",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 278827,
      "name": "Amulet of Bitter Hatred",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -62,12 +69,14 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 33674,
-    "name": "Vengeful Gladiator's Dragonhide Spaulders"
+    "name": "Vengeful Gladiator's Dragonhide Spaulders",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30230,
      "name": "Nordrassil Feral-Mantle",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -76,22 +85,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 28672,
-    "name": "Drape of the Dark Reavers"
+    "name": "Drape of the Dark Reavers",
+    "usagePct": 29
    },
    "alternatives": [
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
+     "usagePct": 29,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 278819,
      "name": "The Frost Lord's War Cloak",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28660,
      "name": "Gilded Thorium Cloak",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -100,12 +113,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 33675,
-    "name": "Vengeful Gladiator's Dragonhide Tunic"
+    "name": "Vengeful Gladiator's Dragonhide Tunic",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30222,
      "name": "Nordrassil Chestplate",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -114,21 +129,25 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 33881,
-    "name": "Vindicator's Dragonhide Bracers"
+    "name": "Vindicator's Dragonhide Bracers",
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 28978,
-     "name": "Marshal's Dragonhide Bracers"
+     "name": "Marshal's Dragonhide Bracers",
+     "usagePct": 7
     },
     {
      "itemId": 29966,
      "name": "Vambraces of Ending",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 33893,
-     "name": "Vindicator's Leather Bracers"
+     "name": "Vindicator's Leather Bracers",
+     "usagePct": 7
     }
    ]
   },
@@ -136,17 +155,20 @@
    "slot": "Hands",
    "bis": {
     "itemId": 33671,
-    "name": "Vengeful Gladiator's Dragonhide Gloves"
+    "name": "Vengeful Gladiator's Dragonhide Gloves",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 29947,
      "name": "Gloves of the Searing Grip",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30223,
      "name": "Nordrassil Handgrips",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -155,21 +177,25 @@
    "slot": "Waist",
    "bis": {
     "itemId": 33879,
-    "name": "Vindicator's Dragonhide Belt"
+    "name": "Vindicator's Dragonhide Belt",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 30040,
      "name": "Belt of Deep Shadow",
+     "usagePct": 29,
      "pveFlexNote": "Seen mostly above 2650 rating."
     },
     {
      "itemId": 28976,
-     "name": "Marshal's Dragonhide Belt"
+     "name": "Marshal's Dragonhide Belt",
+     "usagePct": 7
     },
     {
      "itemId": 30042,
      "name": "Belt of Natural Power",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -178,16 +204,19 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30229,
-    "name": "Nordrassil Feral-Kilt"
+    "name": "Nordrassil Feral-Kilt",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 33673,
-     "name": "Vengeful Gladiator's Dragonhide Legguards"
+     "name": "Vengeful Gladiator's Dragonhide Legguards",
+     "usagePct": 14
     },
     {
      "itemId": 28741,
      "name": "Skulker's Greaves",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -198,21 +227,25 @@
    "slot": "Feet",
    "bis": {
     "itemId": 33880,
-    "name": "Vindicator's Dragonhide Boots"
+    "name": "Vindicator's Dragonhide Boots",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 30041,
      "name": "Boots of Natural Grace",
+     "usagePct": 36,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28977,
-     "name": "Marshal's Dragonhide Boots"
+     "name": "Marshal's Dragonhide Boots",
+     "usagePct": 7
     },
     {
      "itemId": 30060,
      "name": "Boots of Effortless Striking",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -221,27 +254,32 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 34837,
-    "name": "The 2 Ring"
+    "name": "The 2 Ring",
+    "usagePct": 100
    },
    "alternatives": [
     {
      "itemId": 28553,
      "name": "Band of the Exorcist",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28675,
      "name": "Shermanar Great-Ring",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 33919,
      "name": "Vindicator's Band of Triumph",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -252,22 +290,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 28553,
-    "name": "Band of the Exorcist"
+    "name": "Band of the Exorcist",
+    "usagePct": 7
    },
    "alternatives": [
     {
      "itemId": 34837,
      "name": "The 2 Ring",
+     "usagePct": 100,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28649,
      "name": "Garona's Signet Ring",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28675,
      "name": "Shermanar Great-Ring",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -276,21 +318,25 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 32658,
-    "name": "Badge of Tenacity"
+    "name": "Badge of Tenacity",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 28235,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 28241,
      "name": "Medallion of the Horde",
+     "usagePct": 43,
      "pveFlexNote": "Seen mostly above 2650 rating."
     },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
+     "usagePct": 29,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -301,22 +347,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 28235,
-    "name": "Medallion of the Alliance"
+    "name": "Medallion of the Alliance",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 32658,
      "name": "Badge of Tenacity",
+     "usagePct": 50,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28241,
      "name": "Medallion of the Horde",
+     "usagePct": 43,
      "pveFlexNote": "Seen mostly above 2650 rating."
     },
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
+     "usagePct": 29,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -326,22 +376,26 @@
    "bis": {
     "itemId": 32014,
     "name": "Merciless Gladiator's Maul",
-    "pveFlexNote": "No Season 3 equivalent — current-season item shown."
+    "pveFlexNote": "No Season 3 equivalent — current-season item shown.",
+    "usagePct": 64
    },
    "alternatives": [
     {
      "itemId": 28476,
      "name": "Gladiator's Maul",
-     "pveFlexNote": "No Season 3 equivalent — current-season item shown."
+     "pveFlexNote": "No Season 3 equivalent — current-season item shown.",
+     "usagePct": 7
     },
     {
      "itemId": 28658,
      "name": "Terestian's Stranglestaff",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29981,
      "name": "Ethereum Life-Staff",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -350,7 +404,8 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 33736,
-    "name": "Vengeful Gladiator's Reprieve"
+    "name": "Vengeful Gladiator's Reprieve",
+    "usagePct": 7
    },
    "alternatives": []
   },
@@ -358,17 +413,20 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 29390,
-    "name": "Everbloom Idol"
+    "name": "Everbloom Idol",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 27886,
      "name": "Idol of the Emerald Queen",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28064,
      "name": "Idol of the Wild",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]

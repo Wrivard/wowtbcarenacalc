@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 31616,
-    "name": "Gladiator's Ornamented Headcover"
+    "name": "Gladiator's Ornamented Headcover",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30136,
      "name": "Crystalforge Greathelm",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27704,
-     "name": "Gladiator's Lamellar Helm"
+     "name": "Gladiator's Lamellar Helm",
+     "usagePct": 22
     }
    ]
   },
@@ -37,22 +40,26 @@
    "slot": "Neck",
    "bis": {
     "itemId": 28609,
-    "name": "Emberspur Talisman"
+    "name": "Emberspur Talisman",
+    "usagePct": 22
    },
    "alternatives": [
     {
      "itemId": 33068,
      "name": "Veteran's Pendant of Salvation",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 22
     },
     {
      "itemId": 28822,
      "name": "Teeth of Gruul",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -63,17 +70,20 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 31619,
-    "name": "Gladiator's Ornamented Spaulders"
+    "name": "Gladiator's Ornamented Spaulders",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30138,
      "name": "Crystalforge Pauldrons",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27706,
-     "name": "Gladiator's Lamellar Shoulders"
+     "name": "Gladiator's Lamellar Shoulders",
+     "usagePct": 22
     }
    ]
   },
@@ -81,22 +91,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 28765,
-    "name": "Stainless Cloak of the Pure Hearted"
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 279240,
      "name": "Shroud of Winter's Chill",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28570,
      "name": "Shadow-Cloak of Dalaran",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29375,
      "name": "Bishop's Cloak",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -105,17 +119,20 @@
    "slot": "Chest",
    "bis": {
     "itemId": 31613,
-    "name": "Gladiator's Ornamented Chestguard"
+    "name": "Gladiator's Ornamented Chestguard",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30134,
      "name": "Crystalforge Chestpiece",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27702,
-     "name": "Gladiator's Lamellar Chestpiece"
+     "name": "Gladiator's Lamellar Chestpiece",
+     "usagePct": 22
     }
    ]
   },
@@ -124,17 +141,20 @@
    "bis": {
     "itemId": 32989,
     "name": "Veteran's Ornamented Bracers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 32813,
      "name": "Veteran's Lamellar Bracers",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 22
     },
     {
      "itemId": 30047,
      "name": "Blackfathom Warbands",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -143,21 +163,25 @@
    "slot": "Hands",
    "bis": {
     "itemId": 31614,
-    "name": "Gladiator's Ornamented Gloves"
+    "name": "Gladiator's Ornamented Gloves",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 30112,
      "name": "Glorious Gauntlets of Crestfall",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27703,
-     "name": "Gladiator's Lamellar Gauntlets"
+     "name": "Gladiator's Lamellar Gauntlets",
+     "usagePct": 22
     },
     {
      "itemId": 30135,
      "name": "Crystalforge Gloves",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -166,23 +190,27 @@
    "slot": "Waist",
    "bis": {
     "itemId": 30030,
-    "name": "Girdle of Fallen Stars"
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 30044,
      "name": "Monsoon Belt",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32801,
      "name": "Veteran's Lamellar Belt",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 11
     },
     {
      "itemId": 32988,
      "name": "Veteran's Ornamented Belt",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 11
     }
    ],
    "raidPick": true,
@@ -192,22 +220,26 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30137,
-    "name": "Crystalforge Leggings"
+    "name": "Crystalforge Leggings",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 29991,
      "name": "Sunhawk Leggings",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28748,
      "name": "Legplates of the Innocent",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -216,18 +248,21 @@
    "slot": "Feet",
    "bis": {
     "itemId": 30027,
-    "name": "Boots of Courage Unending"
+    "name": "Boots of Courage Unending",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 32990,
      "name": "Veteran's Ornamented Greaves",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 33
     },
     {
      "itemId": 32789,
      "name": "Veteran's Lamellar Greaves",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 22
     }
    ],
    "raidPick": true,
@@ -237,28 +272,33 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 28790,
-    "name": "Naaru Lightwarden's Band"
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 29307,
      "name": "Band of Eternity",
+     "usagePct": 33,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33056,
      "name": "Veteran's Band of Dominance",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 11
     }
    ],
    "raidPick": true,
@@ -268,22 +308,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29307,
-    "name": "Band of Eternity"
+    "name": "Band of Eternity",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
+     "usagePct": 67,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -292,20 +336,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "name": "Essence of the Martyr",
+    "usagePct": 67
    },
    "alternatives": [
     {
      "itemId": 28236,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 44
     },
     {
      "itemId": 28242,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 22
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -316,21 +364,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 28236,
-    "name": "Medallion of the Alliance"
+    "name": "Medallion of the Alliance",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 29376,
      "name": "Essence of the Martyr",
+     "usagePct": 67,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28242,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 22
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -339,12 +391,14 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 32451,
-    "name": "Gladiator's Salvation"
+    "name": "Gladiator's Salvation",
+    "usagePct": 78
    },
    "alternatives": [
     {
      "itemId": 32450,
-     "name": "Gladiator's Gavel"
+     "name": "Gladiator's Gavel",
+     "usagePct": 22
     }
    ]
   },
@@ -353,22 +407,26 @@
    "bis": {
     "itemId": 33309,
     "name": "Merciless Gladiator's Redoubt",
-    "pveFlexNote": "No Season 1 equivalent — current-season item shown."
+    "pveFlexNote": "No Season 1 equivalent — current-season item shown.",
+    "usagePct": 44
    },
    "alternatives": [
     {
      "itemId": 33313,
      "name": "Merciless Gladiator's Barrier",
-     "pveFlexNote": "No Season 1 equivalent — current-season item shown."
+     "pveFlexNote": "No Season 1 equivalent — current-season item shown.",
+     "usagePct": 22
     },
     {
      "itemId": 29274,
      "name": "Tears of Heaven",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29458,
-     "name": "Aegis of the Vindicator"
+     "name": "Aegis of the Vindicator",
+     "usagePct": 11
     }
    ]
   },
@@ -376,22 +434,26 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 28356,
-    "name": "Gladiator's Libram of Justice"
+    "name": "Gladiator's Libram of Justice",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 25644,
      "name": "Blessed Book of Nagrand",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28296,
      "name": "Libram of the Lightbringer",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 23006,
      "name": "Libram of Light",
+     "usagePct": 11,
      "pveFlexNote": "PvE flex piece."
     }
    ]

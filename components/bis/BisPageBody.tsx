@@ -48,7 +48,6 @@ export function BisPageBody({
         : "arena PvP"
       : `Phase ${list.phase} PvE`;
   // Derived season pages carry no live usage percentages.
-  const hasUsage = list.slots.some((s) => s.bis.usagePct !== undefined);
 
   return (
     <>
@@ -59,9 +58,19 @@ export function BisPageBody({
           specKey={specKey}
           content={list.content}
           role={spec.role}
+          derivedSeason={list.seasonPage ? list.season : undefined}
         />
         <p className="mt-3 text-xs leading-relaxed text-muted">
-          {hasUsage ? (
+          {list.seasonPage ? (
+            <>
+              Season {list.season} gear set, mapped from the current arena
+              ladder&apos;s most-used {spec.name} {cls.name} setup. The
+              percentages are that live ladder&apos;s usage for each slot, and
+              the item shown is its Season {list.season} equivalent — read them
+              as how settled a slot is, not as a Season {list.season} sample.
+              Click a row to expand alternatives.
+            </>
+          ) : (
             <>
               Usage percentages: share of surveyed {spec.name} {cls.name}s
               equipping each item
@@ -86,14 +95,6 @@ export function BisPageBody({
                       : "It does nothing against a boss — expand a row to see what that costs."}
                   </>
                 )}
-            </>
-          ) : (
-            <>
-              Season {list.season} gear set, mapped from the current arena
-              ladder&apos;s most-used {spec.name} {cls.name} setup. Percentages
-              are omitted on purpose: they measure the live ladder, and quoting
-              them here would claim a Season {list.season} sample we do not
-              have. Click a row to expand alternatives.
             </>
           )}
           {/* Outside the usage branch: the raid-piece trade is just as real on

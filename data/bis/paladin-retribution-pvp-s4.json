@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 35090,
-    "name": "Brutal Gladiator's Scaled Helm"
+    "name": "Brutal Gladiator's Scaled Helm",
+    "usagePct": 78
    },
    "alternatives": [
     {
      "itemId": 32461,
      "name": "Furious Gizmatic Goggles",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30131,
      "name": "Crystalforge War-Helm",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -38,22 +41,26 @@
    "slot": "Neck",
    "bis": {
     "itemId": 35135,
-    "name": "Guardian's Pendant of Triumph"
+    "name": "Guardian's Pendant of Triumph",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 30022,
      "name": "Pendant of the Perilous",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30017,
      "name": "Telonicus's Pendant of Mayhem",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2647 rating."
     },
     {
      "itemId": 28244,
      "name": "Pendant of Triumph",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -62,12 +69,14 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 35092,
-    "name": "Brutal Gladiator's Scaled Shoulders"
+    "name": "Brutal Gladiator's Scaled Shoulders",
+    "usagePct": 72
    },
    "alternatives": [
     {
      "itemId": 30055,
      "name": "Shoulderpads of the Stranger",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -76,17 +85,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 30098,
-    "name": "Razor-Scale Battlecloak"
+    "name": "Razor-Scale Battlecloak",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak"
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 16
     }
    ],
    "raidPick": true,
@@ -96,17 +108,20 @@
    "slot": "Chest",
    "bis": {
     "itemId": 35088,
-    "name": "Brutal Gladiator's Scaled Chestpiece"
+    "name": "Brutal Gladiator's Scaled Chestpiece",
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 30129,
      "name": "Crystalforge Breastplate",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30102,
      "name": "Krakken-Heart Breastplate",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -115,17 +130,20 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 28795,
-    "name": "Bladespire Warbands"
+    "name": "Bladespire Warbands",
+    "usagePct": 41
    },
    "alternatives": [
     {
      "itemId": 30057,
      "name": "Bracers of Eradication",
+     "usagePct": 28,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35178,
-     "name": "Guardian's Scaled Bracers"
+     "name": "Guardian's Scaled Bracers",
+     "usagePct": 25
     }
    ],
    "raidPick": true,
@@ -135,12 +153,14 @@
    "slot": "Hands",
    "bis": {
     "itemId": 35089,
-    "name": "Brutal Gladiator's Scaled Gauntlets"
+    "name": "Brutal Gladiator's Scaled Gauntlets",
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 29947,
      "name": "Gloves of the Searing Grip",
+     "usagePct": 19,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -149,17 +169,20 @@
    "slot": "Waist",
    "bis": {
     "itemId": 35163,
-    "name": "Guardian's Scaled Belt"
+    "name": "Guardian's Scaled Belt",
+    "usagePct": 69
    },
    "alternatives": [
     {
      "itemId": 28779,
      "name": "Girdle of the Endless Pit",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30106,
      "name": "Belt of One-Hundred Deaths",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -168,22 +191,26 @@
    "slot": "Legs",
    "bis": {
     "itemId": 35091,
-    "name": "Brutal Gladiator's Scaled Legguards"
+    "name": "Brutal Gladiator's Scaled Legguards",
+    "usagePct": 34
    },
    "alternatives": [
     {
      "itemId": 29950,
      "name": "Greaves of the Bloodwarder",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30132,
      "name": "Crystalforge Greaves",
+     "usagePct": 22,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30257,
      "name": "Shattrath Leggings",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -192,21 +219,25 @@
    "slot": "Feet",
    "bis": {
     "itemId": 35148,
-    "name": "Guardian's Scaled Greaves"
+    "name": "Guardian's Scaled Greaves",
+    "usagePct": 72
    },
    "alternatives": [
     {
      "itemId": 28608,
      "name": "Ironstriders of Urgency",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28645,
-     "name": "General's Scaled Greaves"
+     "name": "General's Scaled Greaves",
+     "usagePct": 6
     },
     {
      "itemId": 30081,
      "name": "Warboots of Obliteration",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -215,22 +246,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 35131,
-    "name": "Guardian's Band of Triumph"
+    "name": "Guardian's Band of Triumph",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 30061,
      "name": "Ancestral Ring of Conquest",
+     "usagePct": 47,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -239,21 +274,25 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 30061,
-    "name": "Ancestral Ring of Conquest"
+    "name": "Ancestral Ring of Conquest",
+    "usagePct": 47
    },
    "alternatives": [
     {
      "itemId": 35131,
-     "name": "Guardian's Band of Triumph"
+     "name": "Guardian's Band of Triumph",
+     "usagePct": 53
     },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -262,21 +301,25 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 81
    },
    "alternatives": [
     {
      "itemId": 28242,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 69
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 31,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28236,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 9
     }
    ],
    "raidPick": true,
@@ -286,22 +329,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 28242,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 69
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 81,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 31,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28236,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 9
     }
    ]
   },
@@ -309,22 +356,26 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 28442,
-    "name": "Stormherald"
+    "name": "Stormherald",
+    "usagePct": 41
    },
    "alternatives": [
     {
      "itemId": 30090,
      "name": "World Breaker",
+     "usagePct": 28,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29993,
      "name": "Twinblade of the Phoenix",
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28441,
      "name": "Deep Thunder",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -333,7 +384,8 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 27484,
-    "name": "Libram of Avengement"
+    "name": "Libram of Avengement",
+    "usagePct": 100
    },
    "alternatives": []
   }

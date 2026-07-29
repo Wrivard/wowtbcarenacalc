@@ -19,12 +19,14 @@
    "slot": "Head",
    "bis": {
     "itemId": 27471,
-    "name": "Gladiator's Mail Helm"
+    "name": "Gladiator's Mail Helm",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30171,
      "name": "Cataclysm Headpiece",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -33,28 +35,33 @@
    "slot": "Neck",
    "bis": {
     "itemId": 30008,
-    "name": "Pendant of the Lost Ages"
+    "name": "Pendant of the Lost Ages",
+    "usagePct": 29
    },
    "alternatives": [
     {
      "itemId": 28245,
      "name": "Pendant of Dominance",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29347,
      "name": "Talisman of the Breaker",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30015,
      "name": "The Sun King's Talisman",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33065,
      "name": "Veteran's Pendant of Dominance",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 14
     }
    ],
    "raidPick": true,
@@ -64,12 +71,14 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 27473,
-    "name": "Gladiator's Mail Spaulders"
+    "name": "Gladiator's Mail Spaulders",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 31407,
-     "name": "Gladiator's Ringmail Spaulders"
+     "name": "Gladiator's Ringmail Spaulders",
+     "usagePct": 43
     }
    ]
   },
@@ -77,17 +86,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 28378,
-    "name": "Sergeant's Heavy Cape"
+    "name": "Sergeant's Heavy Cape",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 28797,
      "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 278774,
      "name": "Cloak of the Frigid Winds",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -96,12 +108,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 27469,
-    "name": "Gladiator's Mail Armor"
+    "name": "Gladiator's Mail Armor",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 31396,
-     "name": "Gladiator's Ringmail Armor"
+     "name": "Gladiator's Ringmail Armor",
+     "usagePct": 29
     }
    ]
   },
@@ -110,12 +124,14 @@
    "bis": {
     "itemId": 32817,
     "name": "Veteran's Mail Bracers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 28638,
-     "name": "General's Mail Bracers"
+     "name": "General's Mail Bracers",
+     "usagePct": 14
     }
    ]
   },
@@ -123,7 +139,8 @@
    "slot": "Hands",
    "bis": {
     "itemId": 27470,
-    "name": "Gladiator's Mail Gauntlets"
+    "name": "Gladiator's Mail Gauntlets",
+    "usagePct": 86
    },
    "alternatives": []
   },
@@ -132,7 +149,8 @@
    "bis": {
     "itemId": 32804,
     "name": "Veteran's Mail Girdle",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -140,12 +158,14 @@
    "slot": "Legs",
    "bis": {
     "itemId": 27472,
-    "name": "Gladiator's Mail Leggings"
+    "name": "Gladiator's Mail Leggings",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30172,
      "name": "Cataclysm Leggings",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -155,12 +175,14 @@
    "bis": {
     "itemId": 32792,
     "name": "Veteran's Mail Sabatons",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 28640,
-     "name": "General's Mail Sabatons"
+     "name": "General's Mail Sabatons",
+     "usagePct": 14
     }
    ]
   },
@@ -169,22 +191,26 @@
    "bis": {
     "itemId": 33056,
     "name": "Veteran's Band of Dominance",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 29302,
      "name": "Band of Eternity",
+     "usagePct": 43,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -193,22 +219,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29302,
-    "name": "Band of Eternity"
+    "name": "Band of Eternity",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 33056,
      "name": "Veteran's Band of Dominance",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 86
     },
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28555,
      "name": "Seal of the Exorcist",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -217,20 +247,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 86
    },
    "alternatives": [
     {
      "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 57
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 24126,
      "name": "Figurine - Living Ruby Serpent",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -241,21 +275,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 29370,
      "name": "Icon of the Silver Crescent",
+     "usagePct": 86,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 24126,
      "name": "Figurine - Living Ruby Serpent",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -264,12 +302,14 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 32450,
-    "name": "Gladiator's Gavel"
+    "name": "Gladiator's Gavel",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 28297,
-     "name": "Gladiator's Spellblade"
+     "name": "Gladiator's Spellblade",
+     "usagePct": 29
     }
    ]
   },
@@ -278,7 +318,8 @@
    "bis": {
     "itemId": 33313,
     "name": "Merciless Gladiator's Barrier",
-    "pveFlexNote": "No Season 1 equivalent — current-season item shown."
+    "pveFlexNote": "No Season 1 equivalent — current-season item shown.",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -286,7 +327,8 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 28248,
-    "name": "Totem of the Void"
+    "name": "Totem of the Void",
+    "usagePct": 100
    },
    "alternatives": []
   }

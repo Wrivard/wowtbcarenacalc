@@ -19,12 +19,14 @@
    "slot": "Head",
    "bis": {
     "itemId": 31376,
-    "name": "Gladiator's Kodohide Helm"
+    "name": "Gladiator's Kodohide Helm",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 30219,
      "name": "Nordrassil Headguard",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -34,17 +36,20 @@
    "bis": {
     "itemId": 33068,
     "name": "Veteran's Pendant of Salvation",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 79
    },
    "alternatives": [
     {
      "itemId": 28731,
      "name": "Shining Chain of the Afterworld",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30018,
      "name": "Lord Sanguinar's Claim",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -53,16 +58,19 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 28139,
-    "name": "Gladiator's Wyrmhide Spaulders"
+    "name": "Gladiator's Wyrmhide Spaulders",
+    "usagePct": 72
    },
    "alternatives": [
     {
      "itemId": 31378,
-     "name": "Gladiator's Kodohide Spaulders"
+     "name": "Gladiator's Kodohide Spaulders",
+     "usagePct": 9
     },
     {
      "itemId": 30221,
      "name": "Nordrassil Life-Mantle",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -71,22 +79,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 29989,
-    "name": "Sunshower Light Cloak"
+    "name": "Sunshower Light Cloak",
+    "usagePct": 42
    },
    "alternatives": [
     {
      "itemId": 28765,
      "name": "Stainless Cloak of the Pure Hearted",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 279240,
      "name": "Shroud of Winter's Chill",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28582,
      "name": "Red Riding Hood's Cloak",
+     "usagePct": 5,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -95,12 +107,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 31379,
-    "name": "Gladiator's Kodohide Tunic"
+    "name": "Gladiator's Kodohide Tunic",
+    "usagePct": 55
    },
    "alternatives": [
     {
      "itemId": 28140,
-     "name": "Gladiator's Wyrmhide Tunic"
+     "name": "Gladiator's Wyrmhide Tunic",
+     "usagePct": 27
     }
    ]
   },
@@ -109,17 +123,20 @@
    "bis": {
     "itemId": 32812,
     "name": "Veteran's Kodohide Bracers",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 83
    },
    "alternatives": [
     {
      "itemId": 30062,
      "name": "Grove-Bands of Remulos",
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31598,
-     "name": "General's Kodohide Bracers"
+     "name": "General's Kodohide Bracers",
+     "usagePct": 7
     }
    ]
   },
@@ -127,12 +144,14 @@
    "slot": "Hands",
    "bis": {
     "itemId": 28136,
-    "name": "Gladiator's Wyrmhide Gloves"
+    "name": "Gladiator's Wyrmhide Gloves",
+    "usagePct": 42
    },
    "alternatives": [
     {
      "itemId": 31375,
-     "name": "Gladiator's Kodohide Gloves"
+     "name": "Gladiator's Kodohide Gloves",
+     "usagePct": 37
     }
    ]
   },
@@ -141,17 +160,20 @@
    "bis": {
     "itemId": 32800,
     "name": "Veteran's Kodohide Belt",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 69
    },
    "alternatives": [
     {
      "itemId": 29984,
      "name": "Girdle of Zaetar",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31594,
-     "name": "General's Kodohide Belt"
+     "name": "General's Kodohide Belt",
+     "usagePct": 7
     }
    ]
   },
@@ -159,17 +181,20 @@
    "slot": "Legs",
    "bis": {
     "itemId": 31377,
-    "name": "Gladiator's Kodohide Legguards"
+    "name": "Gladiator's Kodohide Legguards",
+    "usagePct": 49
    },
    "alternatives": [
     {
      "itemId": 30220,
      "name": "Nordrassil Life-Kilt",
+     "usagePct": 36,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28591,
      "name": "Earthsoul Leggings",
+     "usagePct": 8,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -179,17 +204,20 @@
    "bis": {
     "itemId": 32788,
     "name": "Veteran's Kodohide Boots",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 30092,
      "name": "Orca-Hide Boots",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 31595,
-     "name": "General's Kodohide Boots"
+     "name": "General's Kodohide Boots",
+     "usagePct": 9
     }
    ]
   },
@@ -198,22 +226,26 @@
    "bis": {
     "itemId": 33064,
     "name": "Veteran's Band of Salvation",
-    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+    "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+    "usagePct": 83
    },
    "alternatives": [
     {
      "itemId": 30110,
      "name": "Coral Band of the Revived",
+     "usagePct": 41,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29290,
      "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29291,
      "name": "Violet Signet",
+     "usagePct": 11,
      "pveFlexNote": "Seen mostly above 2511 rating."
     }
    ]
@@ -222,22 +254,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 30110,
-    "name": "Coral Band of the Revived"
+    "name": "Coral Band of the Revived",
+    "usagePct": 41
    },
    "alternatives": [
     {
      "itemId": 33064,
      "name": "Veteran's Band of Salvation",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 83
     },
     {
      "itemId": 29290,
      "name": "Violet Signet of the Grand Restorer",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29291,
      "name": "Violet Signet",
+     "usagePct": 11,
      "pveFlexNote": "Seen mostly above 2511 rating."
     }
    ]
@@ -246,20 +282,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 28370,
-    "name": "Bangle of Endless Blessings"
+    "name": "Bangle of Endless Blessings",
+    "usagePct": 83
    },
    "alternatives": [
     {
      "itemId": 28241,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 49
     },
     {
      "itemId": 28235,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 29376,
      "name": "Essence of the Martyr",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -270,21 +310,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 28241,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 49
    },
    "alternatives": [
     {
      "itemId": 28370,
      "name": "Bangle of Endless Blessings",
+     "usagePct": 83,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28235,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 43
     },
     {
      "itemId": 29376,
      "name": "Essence of the Martyr",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -293,17 +337,20 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 32451,
-    "name": "Gladiator's Salvation"
+    "name": "Gladiator's Salvation",
+    "usagePct": 62
    },
    "alternatives": [
     {
      "itemId": 30108,
      "name": "Lightfathom Scepter",
+     "usagePct": 14,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29981,
      "name": "Ethereum Life-Staff",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -312,12 +359,14 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 32452,
-    "name": "Gladiator's Reprieve"
+    "name": "Gladiator's Reprieve",
+    "usagePct": 66
    },
    "alternatives": [
     {
      "itemId": 29923,
      "name": "Talisman of the Sun King",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -326,7 +375,8 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 27886,
-    "name": "Idol of the Emerald Queen"
+    "name": "Idol of the Emerald Queen",
+    "usagePct": 99
    },
    "alternatives": []
   }

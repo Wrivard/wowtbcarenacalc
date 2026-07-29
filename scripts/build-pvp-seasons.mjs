@@ -101,8 +101,24 @@ function findByName(name) {
   return id ? { id, ...metaById.get(id) } : null;
 }
 
-/** Translate one item ref to a target season. Returns {itemId, name, note?}. */
+/**
+ * Translate one item ref to a target season, keeping its ladder usage.
+ *
+ * The percentage travels with the item deliberately. Every fact on a season
+ * page is already derived from the live snapshot — the pick, the ordering,
+ * the alternatives — so dropping only the number hid the one thing that says
+ * whether a slot is settled (90%) or contested (30%). That reading is about
+ * slot consensus, which survives the translation; the page just has to say
+ * it is the live ladder's figure for the equivalent item, not a sample from
+ * this season, which no one has.
+ */
 function translate(ref, season) {
+  const out = translateItem(ref, season);
+  return ref.usagePct === undefined ? out : { ...out, usagePct: ref.usagePct };
+}
+
+/** Returns {itemId, name, note?}. */
+function translateItem(ref, season) {
   const meta = SEASON_META[season];
   const name = ref.name;
   if (!name) return { itemId: ref.itemId };

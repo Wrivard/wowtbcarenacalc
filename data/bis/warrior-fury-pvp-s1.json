@@ -19,22 +19,26 @@
    "slot": "Head",
    "bis": {
     "itemId": 30120,
-    "name": "Destroyer Battle-Helm"
+    "name": "Destroyer Battle-Helm",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 32461,
      "name": "Furious Gizmatic Goggles",
+     "usagePct": 12,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 29021,
      "name": "Warbringer Battle-Helm",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24545,
-     "name": "Gladiator's Plate Helm"
+     "name": "Gladiator's Plate Helm",
+     "usagePct": 6
     }
    ],
    "raidPick": true,
@@ -44,28 +48,33 @@
    "slot": "Neck",
    "bis": {
     "itemId": 30022,
-    "name": "Pendant of the Perilous"
+    "name": "Pendant of the Perilous",
+    "usagePct": 59
    },
    "alternatives": [
     {
      "itemId": 30059,
      "name": "Choker of Animalistic Fury",
+     "usagePct": 18,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28745,
      "name": "Mithril Chain of Heroism",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 29381,
      "name": "Choker of Vile Intent",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 33066,
      "name": "Veteran's Pendant of Triumph",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 6
     }
    ],
    "raidPick": true,
@@ -75,22 +84,26 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 30122,
-    "name": "Destroyer Shoulderblades"
+    "name": "Destroyer Shoulderblades",
+    "usagePct": 76
    },
    "alternatives": [
     {
      "itemId": 24546,
      "name": "Gladiator's Plate Shoulders",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 29023,
      "name": "Warbringer Shoulderplates",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30053,
      "name": "Pauldrons of the Wardancer",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -101,22 +114,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 24259,
-    "name": "Vengeance Wrap"
+    "name": "Vengeance Wrap",
+    "usagePct": 47
    },
    "alternatives": [
     {
      "itemId": 28777,
      "name": "Cloak of the Pit Stalker",
+     "usagePct": 18,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29994,
      "name": "Thalassian Wildercloak",
+     "usagePct": 12,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28377,
-     "name": "Sergeant's Heavy Cloak"
+     "name": "Sergeant's Heavy Cloak",
+     "usagePct": 6
     }
    ],
    "raidPick": true,
@@ -126,21 +143,25 @@
    "slot": "Chest",
    "bis": {
     "itemId": 30118,
-    "name": "Destroyer Breastplate"
+    "name": "Destroyer Breastplate",
+    "usagePct": 76
    },
    "alternatives": [
     {
      "itemId": 24544,
-     "name": "Gladiator's Plate Chestpiece"
+     "name": "Gladiator's Plate Chestpiece",
+     "usagePct": 12
     },
     {
      "itemId": 29019,
      "name": "Warbringer Breastplate",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30101,
      "name": "Bloodsea Brigand's Vest",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -151,18 +172,21 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 30057,
-    "name": "Bracers of Eradication"
+    "name": "Bracers of Eradication",
+    "usagePct": 59
    },
    "alternatives": [
     {
      "itemId": 28795,
      "name": "Bladespire Warbands",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32818,
      "name": "Veteran's Plate Bracers",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 12
     }
    ],
    "raidPick": true,
@@ -172,22 +196,26 @@
    "slot": "Hands",
    "bis": {
     "itemId": 30119,
-    "name": "Destroyer Gauntlets"
+    "name": "Destroyer Gauntlets",
+    "usagePct": 59
    },
    "alternatives": [
     {
      "itemId": 28824,
      "name": "Gauntlets of Martial Perfection",
+     "usagePct": 24,
      "pveFlexNote": "Seen mostly above 2358 rating."
     },
     {
      "itemId": 29947,
      "name": "Gloves of the Searing Grip",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24549,
-     "name": "Gladiator's Plate Gauntlets"
+     "name": "Gladiator's Plate Gauntlets",
+     "usagePct": 6
     }
    ],
    "raidPick": true,
@@ -197,22 +225,26 @@
    "slot": "Waist",
    "bis": {
     "itemId": 30032,
-    "name": "Red Belt of Battle"
+    "name": "Red Belt of Battle",
+    "usagePct": 47
    },
    "alternatives": [
     {
      "itemId": 28779,
      "name": "Girdle of the Endless Pit",
+     "usagePct": 35,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32805,
      "name": "Veteran's Plate Belt",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 12
     },
     {
      "itemId": 30106,
      "name": "Belt of One-Hundred Deaths",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -223,27 +255,32 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30121,
-    "name": "Destroyer Greaves"
+    "name": "Destroyer Greaves",
+    "usagePct": 41
    },
    "alternatives": [
     {
      "itemId": 29950,
      "name": "Greaves of the Bloodwarder",
+     "usagePct": 35,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29995,
      "name": "Leggings of Murderous Intent",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30116,
      "name": "Destroyer Legguards",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 24547,
-     "name": "Gladiator's Plate Legguards"
+     "name": "Gladiator's Plate Legguards",
+     "usagePct": 6
     }
    ],
    "raidPick": true,
@@ -253,18 +290,21 @@
    "slot": "Feet",
    "bis": {
     "itemId": 30081,
-    "name": "Warboots of Obliteration"
+    "name": "Warboots of Obliteration",
+    "usagePct": 59
    },
    "alternatives": [
     {
      "itemId": 28608,
      "name": "Ironstriders of Urgency",
+     "usagePct": 29,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 32793,
      "name": "Veteran's Plate Greaves",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 12
     }
    ],
    "raidPick": true,
@@ -274,28 +314,33 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 28757,
-    "name": "Ring of a Thousand Marks"
+    "name": "Ring of a Thousand Marks",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 41,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28730,
      "name": "Mithril Band of the Unscarred",
+     "usagePct": 35,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30834,
      "name": "Shapeshifter's Signet",
+     "usagePct": 18,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 33057,
      "name": "Veteran's Band of Triumph",
-     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks."
+     "pveFlexNote": "Honor offset from a later patch — in early Season 1 use dungeon/craft pieces until it unlocks.",
+     "usagePct": 6
     }
    ],
    "raidPick": true,
@@ -305,22 +350,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29997,
-    "name": "Band of the Ranger-General"
+    "name": "Band of the Ranger-General",
+    "usagePct": 41
    },
    "alternatives": [
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
+     "usagePct": 88,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28730,
      "name": "Mithril Band of the Unscarred",
+     "usagePct": 35,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30834,
      "name": "Shapeshifter's Signet",
+     "usagePct": 18,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -329,27 +378,32 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 65,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 21670,
      "name": "Badge of the Swarmguard",
+     "usagePct": 35,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30627,
      "name": "Tsunami Talisman",
+     "usagePct": 12,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30344,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 6
     }
    ],
    "raidPick": true,
@@ -359,22 +413,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 28830,
-    "name": "Dragonspine Trophy"
+    "name": "Dragonspine Trophy",
+    "usagePct": 65
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 71,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 21670,
      "name": "Badge of the Swarmguard",
+     "usagePct": 35,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30627,
      "name": "Tsunami Talisman",
+     "usagePct": 12,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -383,17 +441,20 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 28439,
-    "name": "Dragonstrike"
+    "name": "Dragonstrike",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 28442,
      "name": "Stormherald",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30311,
      "name": "Warp Slicer",
+     "usagePct": 6,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -402,22 +463,26 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 28308,
-    "name": "Gladiator's Cleaver"
+    "name": "Gladiator's Cleaver",
+    "usagePct": 29
    },
    "alternatives": [
     {
      "itemId": 30082,
      "name": "Talon of Azshara",
+     "usagePct": 24,
      "pveFlexNote": "Seen mostly above 2358 rating."
     },
     {
      "itemId": 29924,
      "name": "Netherbane",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28305,
      "name": "Gladiator's Pummeler",
+     "usagePct": 12,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -426,22 +491,26 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 28319,
-    "name": "Gladiator's War Edge"
+    "name": "Gladiator's War Edge",
+    "usagePct": 29
    },
    "alternatives": [
     {
      "itemId": 30025,
      "name": "Serpentshrine Shuriken",
+     "usagePct": 24,
      "pveFlexNote": "Seen mostly above 2358 rating."
     },
     {
      "itemId": 28772,
      "name": "Sunfury Bow of the Phoenix",
+     "usagePct": 18,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 30279,
      "name": "Mama's Insurance",
+     "usagePct": 18,
      "pveFlexNote": "PvE flex piece."
     }
    ]

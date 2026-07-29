@@ -19,7 +19,8 @@
    "slot": "Head",
    "bis": {
     "itemId": 33708,
-    "name": "Vengeful Gladiator's Linked Helm"
+    "name": "Vengeful Gladiator's Linked Helm",
+    "usagePct": 63
    },
    "alternatives": []
   },
@@ -27,12 +28,14 @@
    "slot": "Neck",
    "bis": {
     "itemId": 33923,
-    "name": "Vindicator's Pendant of Triumph"
+    "name": "Vindicator's Pendant of Triumph",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28244,
      "name": "Pendant of Triumph",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -41,7 +44,8 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 33710,
-    "name": "Vengeful Gladiator's Linked Spaulders"
+    "name": "Vengeful Gladiator's Linked Spaulders",
+    "usagePct": 75
    },
    "alternatives": []
   },
@@ -49,17 +53,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 28377,
-    "name": "Sergeant's Heavy Cloak"
+    "name": "Sergeant's Heavy Cloak",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 30098,
      "name": "Razor-Scale Battlecloak",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28529,
      "name": "Royal Cloak of Arathi Kings",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -68,12 +75,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 33706,
-    "name": "Vengeful Gladiator's Linked Armor"
+    "name": "Vengeful Gladiator's Linked Armor",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 30185,
      "name": "Cataclysm Chestplate",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -82,12 +91,14 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 33894,
-    "name": "Vindicator's Linked Bracers"
+    "name": "Vindicator's Linked Bracers",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28989,
-     "name": "Marshal's Linked Bracers"
+     "name": "Marshal's Linked Bracers",
+     "usagePct": 13
     }
    ]
   },
@@ -95,12 +106,14 @@
    "slot": "Hands",
    "bis": {
     "itemId": 35382,
-    "name": "Seer's Linked Gauntlets"
+    "name": "Seer's Linked Gauntlets",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 33707,
-     "name": "Vengeful Gladiator's Linked Gauntlets"
+     "name": "Vengeful Gladiator's Linked Gauntlets",
+     "usagePct": 38
     }
    ],
    "raidPick": true,
@@ -110,12 +123,14 @@
    "slot": "Waist",
    "bis": {
     "itemId": 33895,
-    "name": "Vindicator's Linked Girdle"
+    "name": "Vindicator's Linked Girdle",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28990,
-     "name": "Marshal's Linked Girdle"
+     "name": "Marshal's Linked Girdle",
+     "usagePct": 13
     }
    ]
   },
@@ -123,7 +138,8 @@
    "slot": "Legs",
    "bis": {
     "itemId": 33709,
-    "name": "Vengeful Gladiator's Linked Leggings"
+    "name": "Vengeful Gladiator's Linked Leggings",
+    "usagePct": 63
    },
    "alternatives": []
   },
@@ -131,12 +147,14 @@
    "slot": "Feet",
    "bis": {
     "itemId": 33896,
-    "name": "Vindicator's Linked Sabatons"
+    "name": "Vindicator's Linked Sabatons",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28975,
-     "name": "Marshal's Chain Sabatons"
+     "name": "Marshal's Chain Sabatons",
+     "usagePct": 13
     }
    ]
   },
@@ -144,22 +162,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 33919,
-    "name": "Vindicator's Band of Triumph"
+    "name": "Vindicator's Band of Triumph",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 28553,
      "name": "Band of the Exorcist",
+     "usagePct": 38,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -168,21 +190,25 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 28553,
-    "name": "Band of the Exorcist"
+    "name": "Band of the Exorcist",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 33919,
-     "name": "Vindicator's Band of Triumph"
+     "name": "Vindicator's Band of Triumph",
+     "usagePct": 88
     },
     {
      "itemId": 28757,
      "name": "Ring of a Thousand Marks",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -191,20 +217,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 75
    },
    "alternatives": [
     {
      "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 63
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 38
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -215,21 +245,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 75,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 38
     },
     {
      "itemId": 28830,
      "name": "Dragonspine Trophy",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -238,21 +272,25 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 33669,
-    "name": "Vengeful Gladiator's Cleaver"
+    "name": "Vengeful Gladiator's Cleaver",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 29996,
      "name": "Rod of the Sun King",
+     "usagePct": 25,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33737,
-     "name": "Vengeful Gladiator's Right Ripper"
+     "name": "Vengeful Gladiator's Right Ripper",
+     "usagePct": 13
     },
     {
      "itemId": 28439,
      "name": "Dragonstrike",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -261,12 +299,14 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 33733,
-    "name": "Vengeful Gladiator's Pummeler"
+    "name": "Vengeful Gladiator's Pummeler",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 33669,
-     "name": "Vengeful Gladiator's Cleaver"
+     "name": "Vengeful Gladiator's Cleaver",
+     "usagePct": 25
     }
    ]
   },
@@ -274,12 +314,14 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 27815,
-    "name": "Totem of the Astral Winds"
+    "name": "Totem of the Astral Winds",
+    "usagePct": 88
    },
    "alternatives": [
     {
      "itemId": 33941,
-     "name": "Vengeful Gladiator's Totem of Indomitability"
+     "name": "Vengeful Gladiator's Totem of Indomitability",
+     "usagePct": 13
     }
    ],
    "raidPick": true,

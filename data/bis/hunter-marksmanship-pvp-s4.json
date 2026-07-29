@@ -19,7 +19,8 @@
    "slot": "Head",
    "bis": {
     "itemId": 34992,
-    "name": "Brutal Gladiator's Chain Helm"
+    "name": "Brutal Gladiator's Chain Helm",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -27,12 +28,14 @@
    "slot": "Neck",
    "bis": {
     "itemId": 30017,
-    "name": "Telonicus's Pendant of Mayhem"
+    "name": "Telonicus's Pendant of Mayhem",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 35135,
-     "name": "Guardian's Pendant of Triumph"
+     "name": "Guardian's Pendant of Triumph",
+     "usagePct": 40
     }
    ],
    "raidPick": true,
@@ -42,12 +45,14 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 34994,
-    "name": "Brutal Gladiator's Chain Spaulders"
+    "name": "Brutal Gladiator's Chain Spaulders",
+    "usagePct": 90
    },
    "alternatives": [
     {
      "itemId": 30143,
      "name": "Rift Stalker Mantle",
+     "usagePct": 10,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -56,17 +61,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 29994,
-    "name": "Thalassian Wildercloak"
+    "name": "Thalassian Wildercloak",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 28377,
      "name": "Sergeant's Heavy Cloak",
+     "usagePct": 20,
      "pveFlexNote": "Seen mostly above 2200 rating."
     },
     {
      "itemId": 28672,
      "name": "Drape of the Dark Reavers",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -77,12 +85,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 30139,
-    "name": "Rift Stalker Hauberk"
+    "name": "Rift Stalker Hauberk",
+    "usagePct": 70
    },
    "alternatives": [
     {
      "itemId": 34990,
-     "name": "Brutal Gladiator's Chain Armor"
+     "name": "Brutal Gladiator's Chain Armor",
+     "usagePct": 30
     }
    ],
    "raidPick": true,
@@ -92,7 +102,8 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 35166,
-    "name": "Guardian's Chain Bracers"
+    "name": "Guardian's Chain Bracers",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -100,7 +111,8 @@
    "slot": "Hands",
    "bis": {
     "itemId": 34991,
-    "name": "Brutal Gladiator's Chain Gauntlets"
+    "name": "Brutal Gladiator's Chain Gauntlets",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -108,7 +120,8 @@
    "slot": "Waist",
    "bis": {
     "itemId": 35151,
-    "name": "Guardian's Chain Girdle"
+    "name": "Guardian's Chain Girdle",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -116,12 +129,14 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30142,
-    "name": "Rift Stalker Leggings"
+    "name": "Rift Stalker Leggings",
+    "usagePct": 60
    },
    "alternatives": [
     {
      "itemId": 34993,
-     "name": "Brutal Gladiator's Chain Leggings"
+     "name": "Brutal Gladiator's Chain Leggings",
+     "usagePct": 40
     }
    ],
    "raidPick": true,
@@ -131,7 +146,8 @@
    "slot": "Feet",
    "bis": {
     "itemId": 35136,
-    "name": "Guardian's Chain Sabatons"
+    "name": "Guardian's Chain Sabatons",
+    "usagePct": 100
    },
    "alternatives": []
   },
@@ -139,22 +155,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 35131,
-    "name": "Guardian's Band of Triumph"
+    "name": "Guardian's Band of Triumph",
+    "usagePct": 80
    },
    "alternatives": [
     {
      "itemId": 29997,
      "name": "Band of the Ranger-General",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29298,
      "name": "Band of Eternity",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -163,21 +183,25 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29997,
-    "name": "Band of the Ranger-General"
+    "name": "Band of the Ranger-General",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 35131,
-     "name": "Guardian's Band of Triumph"
+     "name": "Guardian's Band of Triumph",
+     "usagePct": 80
     },
     {
      "itemId": 28791,
      "name": "Ring of the Recalcitrant",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29298,
      "name": "Band of Eternity",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -186,12 +210,14 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 28237,
-    "name": "Medallion of the Alliance"
+    "name": "Medallion of the Alliance",
+    "usagePct": 100
    },
    "alternatives": [
     {
      "itemId": 29383,
      "name": "Bloodlust Brooch",
+     "usagePct": 100,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -200,12 +226,14 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 29383,
-    "name": "Bloodlust Brooch"
+    "name": "Bloodlust Brooch",
+    "usagePct": 100
    },
    "alternatives": [
     {
      "itemId": 28237,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 100
     }
    ]
   },
@@ -213,20 +241,24 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 34997,
-    "name": "Brutal Gladiator's Decapitator"
+    "name": "Brutal Gladiator's Decapitator",
+    "usagePct": 30
    },
    "alternatives": [
     {
      "itemId": 35101,
-     "name": "Brutal Gladiator's Slicer"
+     "name": "Brutal Gladiator's Slicer",
+     "usagePct": 30
     },
     {
      "itemId": 34996,
-     "name": "Brutal Gladiator's Cleaver"
+     "name": "Brutal Gladiator's Cleaver",
+     "usagePct": 20
     },
     {
      "itemId": 29924,
      "name": "Netherbane",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -235,22 +267,26 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 35072,
-    "name": "Brutal Gladiator's Quickblade"
+    "name": "Brutal Gladiator's Quickblade",
+    "usagePct": 30
    },
    "alternatives": [
     {
      "itemId": 28572,
      "name": "Blade of the Unrequited",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29924,
      "name": "Netherbane",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29948,
      "name": "Claw of the Phoenix",
+     "usagePct": 10,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ]
@@ -260,17 +296,20 @@
    "bis": {
     "itemId": 31986,
     "name": "Merciless Gladiator's Crossbow of the Phoenix",
-    "pveFlexNote": "No Season 4 equivalent — current-season item shown."
+    "pveFlexNote": "No Season 4 equivalent — current-season item shown.",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 30105,
      "name": "Serpent Spine Longbow",
+     "usagePct": 40,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29949,
      "name": "Arcanite Steam-Pistol",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]

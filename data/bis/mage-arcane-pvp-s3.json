@@ -19,17 +19,20 @@
    "slot": "Head",
    "bis": {
     "itemId": 30206,
-    "name": "Cowl of Tirisfal"
+    "name": "Cowl of Tirisfal",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 33758,
      "name": "Vengeful Gladiator's Silk Cowl",
+     "usagePct": 17,
      "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 29076,
      "name": "Collar of the Aldor",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -40,27 +43,32 @@
    "slot": "Neck",
    "bis": {
     "itemId": 30015,
-    "name": "The Sun King's Talisman"
+    "name": "The Sun King's Talisman",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 28762,
      "name": "Adornment of Stolen Souls",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30008,
      "name": "Pendant of the Lost Ages",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28530,
      "name": "Brooch of Unquenchable Fury",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33920,
-     "name": "Vindicator's Pendant of Conquest"
+     "name": "Vindicator's Pendant of Conquest",
+     "usagePct": 7
     }
    ],
    "raidPick": true,
@@ -70,17 +78,20 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 30210,
-    "name": "Mantle of Tirisfal"
+    "name": "Mantle of Tirisfal",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 29079,
      "name": "Pauldrons of the Aldor",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33757,
      "name": "Vengeful Gladiator's Silk Amice",
+     "usagePct": 17,
      "pveFlexNote": "Seen mostly above 2408 rating."
     }
    ],
@@ -91,17 +102,20 @@
    "slot": "Back",
    "bis": {
     "itemId": 29992,
-    "name": "Royal Cloak of the Sunstriders"
+    "name": "Royal Cloak of the Sunstriders",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 28797,
      "name": "Brute Cloak of the Ogre-Magi",
+     "usagePct": 27,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28766,
      "name": "Ruby Drape of the Mysticant",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -110,27 +124,32 @@
    "slot": "Chest",
    "bis": {
     "itemId": 30196,
-    "name": "Robes of Tirisfal"
+    "name": "Robes of Tirisfal",
+    "usagePct": 70
    },
    "alternatives": [
     {
      "itemId": 28602,
      "name": "Robe of the Elder Scribes",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29077,
      "name": "Vestments of the Aldor",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30107,
      "name": "Vestments of the Sea-Witch",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33760,
      "name": "Vengeful Gladiator's Silk Raiment",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -141,21 +160,25 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 33913,
-    "name": "Vindicator's Silk Cuffs"
+    "name": "Vindicator's Silk Cuffs",
+    "usagePct": 70
    },
    "alternatives": [
     {
      "itemId": 29002,
-     "name": "Marshal's Silk Cuffs"
+     "name": "Marshal's Silk Cuffs",
+     "usagePct": 13
     },
     {
      "itemId": 29918,
      "name": "Mindstorm Wristbands",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28411,
-     "name": "General's Silk Cuffs"
+     "name": "General's Silk Cuffs",
+     "usagePct": 7
     }
    ]
   },
@@ -163,21 +186,25 @@
    "slot": "Hands",
    "bis": {
     "itemId": 30205,
-    "name": "Gloves of Tirisfal"
+    "name": "Gloves of Tirisfal",
+    "usagePct": 40
    },
    "alternatives": [
     {
      "itemId": 29987,
      "name": "Gauntlets of the Sun King",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33759,
-     "name": "Vengeful Gladiator's Silk Handguards"
+     "name": "Vengeful Gladiator's Silk Handguards",
+     "usagePct": 17
     },
     {
      "itemId": 29080,
      "name": "Gloves of the Aldor",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -188,22 +215,26 @@
    "slot": "Waist",
    "bis": {
     "itemId": 30064,
-    "name": "Cord of Screaming Terrors"
+    "name": "Cord of Screaming Terrors",
+    "usagePct": 30
    },
    "alternatives": [
     {
      "itemId": 30038,
      "name": "Belt of Blasting",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33912,
      "name": "Vindicator's Silk Belt",
+     "usagePct": 17,
      "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28799,
      "name": "Belt of Divine Inspiration",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -214,22 +245,26 @@
    "slot": "Legs",
    "bis": {
     "itemId": 30207,
-    "name": "Leggings of Tirisfal"
+    "name": "Leggings of Tirisfal",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 28594,
      "name": "Trial-Fire Trousers",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29972,
      "name": "Trousers of the Astromancer",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33761,
      "name": "Vengeful Gladiator's Silk Trousers",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -240,22 +275,26 @@
    "slot": "Feet",
    "bis": {
     "itemId": 28517,
-    "name": "Boots of Foretelling"
+    "name": "Boots of Foretelling",
+    "usagePct": 53
    },
    "alternatives": [
     {
      "itemId": 30067,
      "name": "Velvet Boots of the Guardian",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33914,
      "name": "Vindicator's Silk Footguards",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28585,
      "name": "Ruby Slippers",
+     "usagePct": 7,
      "pveFlexNote": "Seen mostly above 2200 rating."
     }
    ],
@@ -266,22 +305,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 29302,
-    "name": "Band of Eternity"
+    "name": "Band of Eternity",
+    "usagePct": 70
    },
    "alternatives": [
     {
      "itemId": 29287,
      "name": "Violet Signet of the Archmage",
+     "usagePct": 57,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28753,
      "name": "Ring of Recurrence",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28793,
      "name": "Band of Crimson Fury",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -290,22 +333,26 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 29287,
-    "name": "Violet Signet of the Archmage"
+    "name": "Violet Signet of the Archmage",
+    "usagePct": 57
    },
    "alternatives": [
     {
      "itemId": 29302,
      "name": "Band of Eternity",
+     "usagePct": 70,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28753,
      "name": "Ring of Recurrence",
+     "usagePct": 23,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28793,
      "name": "Band of Crimson Fury",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -314,27 +361,32 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29370,
-    "name": "Icon of the Silver Crescent"
+    "name": "Icon of the Silver Crescent",
+    "usagePct": 83
    },
    "alternatives": [
     {
      "itemId": 30720,
      "name": "Serpent-Coil Braid",
+     "usagePct": 43,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28785,
      "name": "The Lightning Capacitor",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28238,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 7
     }
    ],
    "raidPick": true,
@@ -344,22 +396,26 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30720,
-    "name": "Serpent-Coil Braid"
+    "name": "Serpent-Coil Braid",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 29370,
      "name": "Icon of the Silver Crescent",
+     "usagePct": 83,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28785,
      "name": "The Lightning Capacitor",
+     "usagePct": 30,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 27683,
      "name": "Quagmirran's Eye",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -368,22 +424,26 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 33763,
-    "name": "Vengeful Gladiator's Spellblade"
+    "name": "Vengeful Gladiator's Spellblade",
+    "usagePct": 33
    },
    "alternatives": [
     {
      "itemId": 30095,
      "name": "Fang of the Leviathan",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29988,
      "name": "The Nexus Key",
+     "usagePct": 17,
      "pveFlexNote": "Seen mostly above 2408 rating."
     },
     {
      "itemId": 28770,
      "name": "Nathrezim Mindblade",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -392,22 +452,26 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 29271,
-    "name": "Talisman of Kalecgos"
+    "name": "Talisman of Kalecgos",
+    "usagePct": 20
    },
    "alternatives": [
     {
      "itemId": 30049,
      "name": "Fathomstone",
+     "usagePct": 17,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28603,
      "name": "Talisman of Nightbane",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28781,
      "name": "Karaborian Talisman",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -416,21 +480,25 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 28783,
-    "name": "Eredar Wand of Obliteration"
+    "name": "Eredar Wand of Obliteration",
+    "usagePct": 43
    },
    "alternatives": [
     {
      "itemId": 28673,
      "name": "Tirisfal Wand of Ascendancy",
+     "usagePct": 20,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 33764,
-     "name": "Vengeful Gladiator's Touch of Defeat"
+     "name": "Vengeful Gladiator's Touch of Defeat",
+     "usagePct": 13
     },
     {
      "itemId": 28386,
      "name": "Nether Core's Control Rod",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ],

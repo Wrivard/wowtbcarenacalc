@@ -19,12 +19,14 @@
    "slot": "Head",
    "bis": {
     "itemId": 35079,
-    "name": "Brutal Gladiator's Ringmail Helm"
+    "name": "Brutal Gladiator's Ringmail Helm",
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 30166,
      "name": "Cataclysm Headguard",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2427 rating."
     }
    ]
@@ -33,17 +35,20 @@
    "slot": "Neck",
    "bis": {
     "itemId": 35134,
-    "name": "Guardian's Pendant of Salvation"
+    "name": "Guardian's Pendant of Salvation",
+    "usagePct": 68
    },
    "alternatives": [
     {
      "itemId": 28609,
      "name": "Emberspur Talisman",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
      "itemId": 30018,
      "name": "Lord Sanguinar's Claim",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -52,17 +57,20 @@
    "slot": "Shoulders",
    "bis": {
     "itemId": 35052,
-    "name": "Brutal Gladiator's Mail Spaulders"
+    "name": "Brutal Gladiator's Mail Spaulders",
+    "usagePct": 63
    },
    "alternatives": [
     {
      "itemId": 30168,
      "name": "Cataclysm Shoulderguards",
+     "usagePct": 16,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 35081,
-     "name": "Brutal Gladiator's Ringmail Spaulders"
+     "name": "Brutal Gladiator's Ringmail Spaulders",
+     "usagePct": 7
     }
    ]
   },
@@ -70,22 +78,26 @@
    "slot": "Back",
    "bis": {
     "itemId": 28765,
-    "name": "Stainless Cloak of the Pure Hearted"
+    "name": "Stainless Cloak of the Pure Hearted",
+    "usagePct": 50
    },
    "alternatives": [
     {
      "itemId": 279240,
      "name": "Shroud of Winter's Chill",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29989,
      "name": "Sunshower Light Cloak",
+     "usagePct": 10,
      "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
      "itemId": 28582,
      "name": "Red Riding Hood's Cloak",
+     "usagePct": 6,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -94,12 +106,14 @@
    "slot": "Chest",
    "bis": {
     "itemId": 35077,
-    "name": "Brutal Gladiator's Ringmail Armor"
+    "name": "Brutal Gladiator's Ringmail Armor",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30164,
      "name": "Cataclysm Chestguard",
+     "usagePct": 13,
      "pveFlexNote": "Seen mostly above 2427 rating."
     }
    ]
@@ -108,12 +122,14 @@
    "slot": "Wrist",
    "bis": {
     "itemId": 35177,
-    "name": "Guardian's Ringmail Bracers"
+    "name": "Guardian's Ringmail Bracers",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 30047,
      "name": "Blackfathom Warbands",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -122,17 +138,20 @@
    "slot": "Hands",
    "bis": {
     "itemId": 35049,
-    "name": "Brutal Gladiator's Mail Gauntlets"
+    "name": "Brutal Gladiator's Mail Gauntlets",
+    "usagePct": 69
    },
    "alternatives": [
     {
      "itemId": 29976,
      "name": "Worldstorm Gauntlets",
+     "usagePct": 12,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28520,
      "name": "Gloves of Centering",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -141,12 +160,14 @@
    "slot": "Waist",
    "bis": {
     "itemId": 30030,
-    "name": "Girdle of Fallen Stars"
+    "name": "Girdle of Fallen Stars",
+    "usagePct": 51
    },
    "alternatives": [
     {
      "itemId": 35162,
-     "name": "Guardian's Ringmail Girdle"
+     "name": "Guardian's Ringmail Girdle",
+     "usagePct": 37
     }
    ],
    "raidPick": true,
@@ -156,16 +177,19 @@
    "slot": "Legs",
    "bis": {
     "itemId": 29991,
-    "name": "Sunhawk Leggings"
+    "name": "Sunhawk Leggings",
+    "usagePct": 38
    },
    "alternatives": [
     {
      "itemId": 35080,
-     "name": "Brutal Gladiator's Ringmail Leggings"
+     "name": "Brutal Gladiator's Ringmail Leggings",
+     "usagePct": 38
     },
     {
      "itemId": 28751,
      "name": "Heart-Flame Leggings",
+     "usagePct": 10,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -176,17 +200,20 @@
    "slot": "Feet",
    "bis": {
     "itemId": 35147,
-    "name": "Guardian's Ringmail Sabatons"
+    "name": "Guardian's Ringmail Sabatons",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 30066,
      "name": "Tempest-Strider Boots",
+     "usagePct": 22,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28752,
      "name": "Forestlord Striders",
+     "usagePct": 9,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -195,22 +222,26 @@
    "slot": "Ring1",
    "bis": {
     "itemId": 35130,
-    "name": "Guardian's Band of Salvation"
+    "name": "Guardian's Band of Salvation",
+    "usagePct": 69
    },
    "alternatives": [
     {
      "itemId": 28790,
      "name": "Naaru Lightwarden's Band",
+     "usagePct": 51,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 29307,
      "name": "Band of Eternity",
+     "usagePct": 46,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -219,21 +250,25 @@
    "slot": "Ring2",
    "bis": {
     "itemId": 28790,
-    "name": "Naaru Lightwarden's Band"
+    "name": "Naaru Lightwarden's Band",
+    "usagePct": 51
    },
    "alternatives": [
     {
      "itemId": 35130,
-     "name": "Guardian's Band of Salvation"
+     "name": "Guardian's Band of Salvation",
+     "usagePct": 69
     },
     {
      "itemId": 29307,
      "name": "Band of Eternity",
+     "usagePct": 46,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 28763,
      "name": "Jade Ring of the Everliving",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -242,20 +277,24 @@
    "slot": "Trinket1",
    "bis": {
     "itemId": 29376,
-    "name": "Essence of the Martyr"
+    "name": "Essence of the Martyr",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 30345,
-     "name": "Medallion of the Horde"
+     "name": "Medallion of the Horde",
+     "usagePct": 56
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 22
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ],
@@ -266,21 +305,25 @@
    "slot": "Trinket2",
    "bis": {
     "itemId": 30345,
-    "name": "Medallion of the Horde"
+    "name": "Medallion of the Horde",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 29376,
      "name": "Essence of the Martyr",
+     "usagePct": 56,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 30351,
-     "name": "Medallion of the Alliance"
+     "name": "Medallion of the Alliance",
+     "usagePct": 22
     },
     {
      "itemId": 28190,
      "name": "Scarab of the Infinite Cycle",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -289,12 +332,14 @@
    "slot": "MainHand",
    "bis": {
     "itemId": 35082,
-    "name": "Brutal Gladiator's Salvation"
+    "name": "Brutal Gladiator's Salvation",
+    "usagePct": 62
    },
    "alternatives": [
     {
      "itemId": 30108,
      "name": "Lightfathom Scepter",
+     "usagePct": 21,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -303,17 +348,20 @@
    "slot": "OffHand",
    "bis": {
     "itemId": 35073,
-    "name": "Brutal Gladiator's Redoubt"
+    "name": "Brutal Gladiator's Redoubt",
+    "usagePct": 71
    },
    "alternatives": [
     {
      "itemId": 29458,
      "name": "Aegis of the Vindicator",
+     "usagePct": 10,
      "pveFlexNote": "Seen mostly above 2427 rating."
     },
     {
      "itemId": 28754,
      "name": "Triptych Shield of the Ancients",
+     "usagePct": 7,
      "pveFlexNote": "PvE flex piece."
     }
    ]
@@ -322,17 +370,20 @@
    "slot": "Ranged",
    "bis": {
     "itemId": 35106,
-    "name": "Brutal Gladiator's Totem of the Third Wind"
+    "name": "Brutal Gladiator's Totem of the Third Wind",
+    "usagePct": 56
    },
    "alternatives": [
     {
      "itemId": 28523,
      "name": "Totem of Healing Rains",
+     "usagePct": 15,
      "pveFlexNote": "PvE flex piece."
     },
     {
      "itemId": 25645,
      "name": "Totem of the Plains",
+     "usagePct": 13,
      "pveFlexNote": "PvE flex piece."
     }
    ]
